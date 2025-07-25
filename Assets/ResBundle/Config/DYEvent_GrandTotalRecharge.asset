@@ -1,0 +1,518 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1acce7e02b4d009944e2ff099153323, type: 3}
+  m_Name: DYEvent_GrandTotalRecharge
+  m_EditorClassIdentifier:
+  _Items:
+  - _Id: 1
+    _Note: 【积分说明】
+    _Type: 2
+    _Pay_points: 0
+    _Pay_points_1: 0
+    _Reward:
+    - 7002
+    - 10
+    _RewardBg:
+    _Display_limits: 0
+    _Showeffect: []
+  - _Id: 101
+    _Note: 【永久累充】
+    _Type: 1
+    _Pay_points: 60
+    _Pay_points_1: 100
+    _Reward:
+    - 9014
+    - 1
+    _RewardBg:
+    _Display_limits: 0
+    _Showeffect:
+    - 9014
+  - _Id: 102
+    _Note: 【永久累充】
+    _Type: 1
+    _Pay_points: 300
+    _Pay_points_1: 500
+    _Reward:
+    - 7003
+    - 5
+    _RewardBg:
+    _Display_limits: 0
+    _Showeffect: []
+  - _Id: 103
+    _Note: 【永久累充】
+    _Type: 1
+    _Pay_points: 1000
+    _Pay_points_1: 1600
+    _Reward:
+    - 9013
+    - 1
+    - 7001
+    - 10
+    _RewardBg:
+    _Display_limits: 0
+    _Showeffect:
+    - 9013
+  - _Id: 104
+    _Note: 【永久累充】
+    _Type: 1
+    _Pay_points: 3000
+    _Pay_points_1: 4500
+    _Reward:
+    - 7004
+    - 10
+    - 7001
+    - 15
+    _RewardBg:
+    _Display_limits: 0
+    _Showeffect:
+    - 7004
+  - _Id: 105
+    _Note: 【永久累充】
+    _Type: 1
+    _Pay_points: 6000
+    _Pay_points_1: 10000
+    _Reward:
+    - 29201
+    - 1
+    - 7001
+    - 20
+    _RewardBg:
+    _Display_limits: 0
+    _Showeffect:
+    - 29201
+  - _Id: 106
+    _Note: 【永久累充】
+    _Type: 1
+    _Pay_points: 10000
+    _Pay_points_1: 16000
+    _Reward:
+    - 29463
+    - 1
+    - 6001
+    - 50
+    - 7001
+    - 30
+    _RewardBg:
+    _Display_limits: 0
+    _Showeffect:
+    - 29463
+  - _Id: 107
+    _Note: 【永久累充】
+    _Type: 1
+    _Pay_points: 20000
+    _Pay_points_1: 32000
+    _Reward:
+    - 29462
+    - 1
+    - 29461
+    - 1
+    - 29461
+    - 1
+    - 29461
+    - 1
+    _RewardBg:
+    _Display_limits: 0
+    _Showeffect:
+    - 29462
+  - _Id: 108
+    _Note: 【永久累充】
+    _Type: 1
+    _Pay_points: 35000
+    _Pay_points_1: 55000
+    _Reward:
+    - 29474
+    - 1
+    - 2101
+    - 100
+    - 2101
+    - 100
+    - 2101
+    - 100
+    _RewardBg:
+    _Display_limits: 0
+    _Showeffect:
+    - 29451
+  - _Id: 109
+    _Note: 【永久累充】
+    _Type: 1
+    _Pay_points: 55000
+    _Pay_points_1: 85000
+    _Reward:
+    - 29463
+    - 1
+    - 29302
+    - 100
+    - 6001
+    - 100
+    - 6001
+    - 100
+    _RewardBg:
+    _Display_limits: 108
+    _Showeffect:
+    - 29463
+    - 29302
+  - _Id: 110
+    _Note: 【永久累充】
+    _Type: 1
+    _Pay_points: 75000
+    _Pay_points_1: 120000
+    _Reward:
+    - 75002
+    - 1
+    - 7009
+    - 50
+    - 7009
+    - 50
+    - 7009
+    - 50
+    _RewardBg:
+    _Display_limits: 108
+    _Showeffect:
+    - 75002
+  - _Id: 111
+    _Note: 【永久累充】
+    _Type: 1
+    _Pay_points: 100000
+    _Pay_points_1: 160000
+    _Reward:
+    - 29473
+    - 1
+    - 6502
+    - 4
+    - 6501
+    - 500
+    - 6503
+    - 500
+    _RewardBg:
+    _Display_limits: 108
+    _Showeffect:
+    - 29452
+    - 6502
+  - _Id: 112
+    _Note: 【永久累充】
+    _Type: 1
+    _Pay_points: 130000
+    _Pay_points_1: 208000
+    _Reward:
+    - 29201
+    - 1
+    - 7004
+    - 10
+    - 7004
+    - 10
+    - 7004
+    - 10
+    _RewardBg:
+    _Display_limits: 111
+    _Showeffect:
+    - 29201
+  - _Id: 113
+    _Note: 【永久累充】
+    _Type: 1
+    _Pay_points: 180000
+    _Pay_points_1: 288000
+    _Reward:
+    - 2103
+    - 3
+    - 2101
+    - 200
+    - 2101
+    - 200
+    - 2101
+    - 200
+    _RewardBg:
+    _Display_limits: 111
+    _Showeffect:
+    - 2103
+  - _Id: 114
+    _Note: 【永久累充】
+    _Type: 1
+    _Pay_points: 240000
+    _Pay_points_1: 400000
+    _Reward:
+    - 75001
+    - 1
+    - 29491
+    - 2
+    - 29491
+    - 2
+    - 29491
+    - 2
+    _RewardBg:
+    _Display_limits: 111
+    _Showeffect:
+    - 75001
+  - _Id: 115
+    _Note: 【永久累充】
+    _Type: 1
+    _Pay_points: 380000
+    _Pay_points_1: 600000
+    _Reward:
+    - 29453
+    - 1
+    - 29302
+    - 160
+    - 6001
+    - 150
+    - 6001
+    - 150
+    _RewardBg:
+    _Display_limits: 111
+    _Showeffect:
+    - 29453
+    - 29302
+  - _Id: 116
+    _Note: 【永久累充】
+    _Type: 1
+    _Pay_points: 500000
+    _Pay_points_1: 800000
+    _Reward:
+    - 85002
+    - 30
+    - 85001
+    - 30
+    - 29704
+    - 100
+    - 29703
+    - 100
+    _RewardBg:
+    _Display_limits: 111
+    _Showeffect:
+    - 85002
+    - 85001
+  - _Id: 117
+    _Note: 【永久累充】
+    _Type: 1
+    _Pay_points: 300000
+    _Pay_points_1: 500000
+    _Reward:
+    - 12503
+    - 1
+    - 7004
+    - 20
+    - 7004
+    - 20
+    - 7004
+    - 20
+    _RewardBg:
+    _Display_limits: 111
+    _Showeffect:
+    - 12503
+  - _Id: 118
+    _Note: 【永久累充】
+    _Type: 1
+    _Pay_points: 600000
+    _Pay_points_1: 1000000
+    _Reward:
+    - 50022
+    - 1
+    - 7003
+    - 50
+    - 7003
+    - 50
+    - 7003
+    - 50
+    _RewardBg:
+    _Display_limits: 116
+    _Showeffect:
+    - 50022
+  - _Id: 119
+    _Note: 【永久累充】
+    _Type: 1
+    _Pay_points: 720000
+    _Pay_points_1: 1200000
+    _Reward:
+    - 29454
+    - 1
+    - 29455
+    - 1
+    - 29456
+    - 1
+    - 6002
+    - 200
+    _RewardBg:
+    _Display_limits: 116
+    _Showeffect:
+    - 29454
+    - 29455
+    - 29456
+  - _Id: 120
+    _Note: 【永久累充】
+    _Type: 1
+    _Pay_points: 1000000
+    _Pay_points_1: 1600000
+    _Reward:
+    - 12023
+    - 1
+    - 29491
+    - 1
+    - 29491
+    - 1
+    - 29491
+    - 1
+    _RewardBg:
+    _Display_limits: 116
+    _Showeffect:
+    - 12023
+  - _Id: 121
+    _Note: 【永久累充】
+    _Type: 1
+    _Pay_points: 850000
+    _Pay_points_1: 1400000
+    _Reward:
+    - 29606
+    - 1
+    - 10001
+    - 3
+    - 9010
+    - 100
+    - 9010
+    - 100
+    _RewardBg:
+    _Display_limits: 116
+    _Showeffect:
+    - 29606
+    - 10001
+  - _Id: 122
+    _Note: 【永久累充】
+    _Type: 1
+    _Pay_points: 1150000
+    _Pay_points_1: 1850000
+    _Reward:
+    - 50023
+    - 1
+    - 7003
+    - 60
+    - 7003
+    - 60
+    - 7003
+    - 60
+    _RewardBg:
+    _Display_limits: 120
+    _Showeffect:
+    - 50023
+  - _Id: 123
+    _Note: 【永久累充】
+    _Type: 1
+    _Pay_points: 1300000
+    _Pay_points_1: 2150000
+    _Reward:
+    - 29500
+    - 2
+    - 40003
+    - 20
+    - 40003
+    - 20
+    - 40003
+    - 20
+    _RewardBg:
+    _Display_limits: 120
+    _Showeffect:
+    - 29500
+  - _Id: 124
+    _Note: 【永久累充】
+    _Type: 1
+    _Pay_points: 1500000
+    _Pay_points_1: 2500000
+    _Reward:
+    - 29828
+    - 1
+    - 29802
+    - 20
+    - 29802
+    - 20
+    - 29802
+    - 20
+    _RewardBg:
+    _Display_limits: 120
+    _Showeffect:
+    - 29828
+  - _Id: 125
+    _Note: 【永久累充】
+    _Type: 1
+    _Pay_points: 1700000
+    _Pay_points_1: 2850000
+    _Reward:
+    - 4402
+    - 1
+    - 4007
+    - 10
+    - 4008
+    - 10
+    _RewardBg:
+    _Display_limits: 124
+    _Showeffect:
+    - 4402
+  - _Id: 126
+    _Note: 【永久累充】
+    _Type: 1
+    _Pay_points: 1900000
+    _Pay_points_1: 3200000
+    _Reward:
+    - 4402
+    - 1
+    - 29704
+    - 50
+    - 29704
+    - 50
+    _RewardBg:
+    _Display_limits: 124
+    _Showeffect:
+    - 4402
+  - _Id: 127
+    _Note: 【永久累充】
+    _Type: 1
+    _Pay_points: 2100000
+    _Pay_points_1: 3600000
+    _Reward:
+    - 4402
+    - 1
+    - 29812
+    - 1
+    - 29822
+    - 40
+    _RewardBg:
+    _Display_limits: 124
+    _Showeffect:
+    - 4402
+  - _Id: 128
+    _Note: 【永久累充】
+    _Type: 1
+    _Pay_points: 2500000
+    _Pay_points_1: 4200000
+    _Reward:
+    - 4402
+    - 2
+    - 29302
+    - 100
+    - 29302
+    - 100
+    _RewardBg:
+    _Display_limits: 124
+    _Showeffect:
+    - 4402
+  - _Id: 129
+    _Note: 【永久累充】
+    _Type: 1
+    _Pay_points: 3000000
+    _Pay_points_1: 5000000
+    _Reward:
+    - 4402
+    - 2
+    - 29812
+    - 2
+    - 29822
+    - 60
+    _RewardBg:
+    _Display_limits: 124
+    _Showeffect:
+    - 4402

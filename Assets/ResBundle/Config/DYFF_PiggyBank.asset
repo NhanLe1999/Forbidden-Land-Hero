@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88420672e4ebb8ee04902c61661d5a55, type: 3}
+  m_Name: DYFF_PiggyBank
+  m_EditorClassIdentifier:
+  _Items:
+  - _Id: 1001
+    _PayId: 16001
+    _Storagelimit: 1000
+    _NextId: 1002
+    _FrontId: 0
+    _Multiple: 3210
+    _Icon: UI/Icon/PiggyBank/icon_1
+    _Bankimg: UI/Icon/PiggyBank/img_1
+    _Bg: UI/Icon/PiggyBank/PiggyBank_bg1
+    _Brokenicon: UI/Icon/PiggyBank/broken_1
+  - _Id: 1002
+    _PayId: 16002
+    _Storagelimit: 1800
+    _NextId: 1003
+    _FrontId: 1001
+    _Multiple: 3210
+    _Icon: UI/Icon/PiggyBank/icon_2
+    _Bankimg: UI/Icon/PiggyBank/img_2
+    _Bg: UI/Icon/PiggyBank/PiggyBank_bg2
+    _Brokenicon: UI/Icon/PiggyBank/broken_2
+  - _Id: 1003
+    _PayId: 16003
+    _Storagelimit: 4200
+    _NextId: 0
+    _FrontId: 1002
+    _Multiple: 3210
+    _Icon: UI/Icon/PiggyBank/icon_3
+    _Bankimg: UI/Icon/PiggyBank/img_3
+    _Bg: UI/Icon/PiggyBank/PiggyBank_bg3
+    _Brokenicon: UI/Icon/PiggyBank/broken_3

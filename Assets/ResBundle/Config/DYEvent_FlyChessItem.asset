@@ -1,0 +1,943 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748605a6196bbb973e82d722b99b3e44, type: 3}
+  m_Name: DYEvent_FlyChessItem
+  m_EditorClassIdentifier:
+  _Items:
+  - _Id: 101
+    _Note: 【新服】开服36天
+    _Lattice: 1
+    _Start: 1
+    _Type: 2
+    _Lv1Reward:
+    - 7002
+    - 100
+    _Lv2Reward:
+    - 7002
+    - 120
+    _Lv3Reward:
+    - 7002
+    - 150
+    _Lv4Reward:
+    - 7002
+    - 180
+    _Lv5Reward:
+    - 7002
+    - 200
+    _Weight: 700
+  - _Id: 102
+    _Note: 【新服】开服36天
+    _Lattice: 2
+    _Start: 0
+    _Type: 1
+    _Lv1Reward:
+    - 7001
+    - 5
+    _Lv2Reward:
+    - 7001
+    - 10
+    _Lv3Reward:
+    - 9010
+    - 1
+    _Lv4Reward:
+    - 9010
+    - 1
+    _Lv5Reward:
+    - 9010
+    - 1
+    _Weight: 1000
+  - _Id: 103
+    _Note: 【新服】开服36天
+    _Lattice: 3
+    _Start: 2
+    _Type: 0
+    _Lv1Reward: []
+    _Lv2Reward: []
+    _Lv3Reward: []
+    _Lv4Reward: []
+    _Lv5Reward: []
+    _Weight: 320
+  - _Id: 104
+    _Note: 【新服】开服36天
+    _Lattice: 4
+    _Start: 0
+    _Type: 1
+    _Lv1Reward:
+    - 2101
+    - 1
+    _Lv2Reward:
+    - 2101
+    - 1
+    _Lv3Reward:
+    - 2101
+    - 1
+    _Lv4Reward:
+    - 2101
+    - 1
+    _Lv5Reward:
+    - 2101
+    - 2
+    _Weight: 1000
+  - _Id: 105
+    _Note: 【新服】开服36天
+    _Lattice: 5
+    _Start: 0
+    _Type: 1
+    _Lv1Reward:
+    - 4005
+    - 5000
+    _Lv2Reward:
+    - 6101
+    - 1
+    _Lv3Reward:
+    - 6101
+    - 1
+    _Lv4Reward:
+    - 6101
+    - 2
+    _Lv5Reward:
+    - 6101
+    - 2
+    _Weight: 1000
+  - _Id: 106
+    _Note: 【新服】开服36天
+    _Lattice: 6
+    _Start: 0
+    _Type: 1
+    _Lv1Reward:
+    - 4006
+    - 5000
+    _Lv2Reward:
+    - 40001
+    - 2
+    _Lv3Reward:
+    - 40002
+    - 1
+    _Lv4Reward:
+    - 40002
+    - 2
+    _Lv5Reward:
+    - 40002
+    - 2
+    _Weight: 1000
+  - _Id: 107
+    _Note: 【新服】开服36天
+    _Lattice: 7
+    _Start: 0
+    _Type: 2
+    _Lv1Reward:
+    - 29702
+    - 3
+    _Lv2Reward:
+    - 29703
+    - 3
+    _Lv3Reward:
+    - 29703
+    - 5
+    _Lv4Reward:
+    - 29704
+    - 5
+    _Lv5Reward:
+    - 29704
+    - 5
+    _Weight: 500
+  - _Id: 108
+    _Note: 【新服】开服36天
+    _Lattice: 8
+    _Start: 0
+    _Type: 1
+    _Lv1Reward:
+    - 7001
+    - 5
+    _Lv2Reward:
+    - 7001
+    - 10
+    _Lv3Reward:
+    - 29703
+    - 1
+    _Lv4Reward:
+    - 29703
+    - 1
+    _Lv5Reward:
+    - 29703
+    - 1
+    _Weight: 1000
+  - _Id: 109
+    _Note: 【新服】开服36天
+    _Lattice: 9
+    _Start: 0
+    _Type: 1
+    _Lv1Reward:
+    - 4005
+    - 5000
+    _Lv2Reward:
+    - 6501
+    - 1
+    _Lv3Reward:
+    - 6501
+    - 1
+    _Lv4Reward:
+    - 6501
+    - 1
+    _Lv5Reward:
+    - 6501
+    - 2
+    _Weight: 1000
+  - _Id: 110
+    _Note: 【新服】开服36天
+    _Lattice: 10
+    _Start: 2
+    _Type: 0
+    _Lv1Reward: []
+    _Lv2Reward: []
+    _Lv3Reward: []
+    _Lv4Reward: []
+    _Lv5Reward: []
+    _Weight: 320
+  - _Id: 111
+    _Note: 【新服】开服36天
+    _Lattice: 11
+    _Start: 0
+    _Type: 1
+    _Lv1Reward:
+    - 6001
+    - 1
+    _Lv2Reward:
+    - 6001
+    - 1
+    _Lv3Reward:
+    - 6001
+    - 1
+    _Lv4Reward:
+    - 6001
+    - 2
+    _Lv5Reward:
+    - 6001
+    - 3
+    _Weight: 1000
+  - _Id: 112
+    _Note: 【新服】开服36天
+    _Lattice: 12
+    _Start: 0
+    _Type: 1
+    _Lv1Reward:
+    - 6501
+    - 1
+    _Lv2Reward:
+    - 6501
+    - 1
+    _Lv3Reward:
+    - 6501
+    - 2
+    _Lv4Reward:
+    - 6501
+    - 2
+    _Lv5Reward:
+    - 6501
+    - 3
+    _Weight: 1000
+  - _Id: 113
+    _Note: 【新服】开服36天
+    _Lattice: 13
+    _Start: 0
+    _Type: 2
+    _Lv1Reward:
+    - 29472
+    - 1
+    _Lv2Reward:
+    - 29472
+    - 1
+    _Lv3Reward:
+    - 29472
+    - 1
+    _Lv4Reward:
+    - 29472
+    - 1
+    _Lv5Reward:
+    - 29472
+    - 1
+    _Weight: 3
+  - _Id: 114
+    _Note: 【新服】开服36天
+    _Lattice: 14
+    _Start: 0
+    _Type: 1
+    _Lv1Reward:
+    - 7001
+    - 1
+    _Lv2Reward:
+    - 7001
+    - 10
+    _Lv3Reward:
+    - 9010
+    - 1
+    _Lv4Reward:
+    - 9010
+    - 2
+    _Lv5Reward:
+    - 9010
+    - 2
+    _Weight: 1000
+  - _Id: 115
+    _Note: 【新服】开服36天
+    _Lattice: 15
+    _Start: 2
+    _Type: 0
+    _Lv1Reward: []
+    _Lv2Reward: []
+    _Lv3Reward: []
+    _Lv4Reward: []
+    _Lv5Reward: []
+    _Weight: 400
+  - _Id: 116
+    _Note: 【新服】开服36天
+    _Lattice: 16
+    _Start: 0
+    _Type: 1
+    _Lv1Reward:
+    - 6001
+    - 1
+    _Lv2Reward:
+    - 6001
+    - 1
+    _Lv3Reward:
+    - 6001
+    - 1
+    _Lv4Reward:
+    - 6001
+    - 2
+    _Lv5Reward:
+    - 6001
+    - 3
+    _Weight: 1000
+  - _Id: 117
+    _Note: 【新服】开服36天
+    _Lattice: 17
+    _Start: 0
+    _Type: 1
+    _Lv1Reward:
+    - 4005
+    - 5000
+    _Lv2Reward:
+    - 6101
+    - 1
+    _Lv3Reward:
+    - 6101
+    - 1
+    _Lv4Reward:
+    - 6101
+    - 2
+    _Lv5Reward:
+    - 6102
+    - 1
+    _Weight: 1000
+  - _Id: 118
+    _Note: 【新服】开服36天
+    _Lattice: 18
+    _Start: 0
+    _Type: 1
+    _Lv1Reward:
+    - 7001
+    - 1
+    _Lv2Reward:
+    - 6503
+    - 1
+    _Lv3Reward:
+    - 6503
+    - 2
+    _Lv4Reward:
+    - 6503
+    - 3
+    _Lv5Reward:
+    - 6503
+    - 4
+    _Weight: 1000
+  - _Id: 119
+    _Note: 【新服】开服36天
+    _Lattice: 19
+    _Start: 0
+    _Type: 2
+    _Lv1Reward:
+    - 40003
+    - 1
+    _Lv2Reward:
+    - 40003
+    - 1
+    _Lv3Reward:
+    - 40003
+    - 1
+    _Lv4Reward:
+    - 40003
+    - 2
+    _Lv5Reward:
+    - 40003
+    - 2
+    _Weight: 700
+  - _Id: 120
+    _Note: 【新服】开服36天
+    _Lattice: 20
+    _Start: 0
+    _Type: 1
+    _Lv1Reward:
+    - 7001
+    - 1
+    _Lv2Reward:
+    - 7001
+    - 10
+    _Lv3Reward:
+    - 29301
+    - 1
+    _Lv4Reward:
+    - 29301
+    - 1
+    _Lv5Reward:
+    - 29302
+    - 1
+    _Weight: 1000
+  - _Id: 121
+    _Note: 【新服】开服36天
+    _Lattice: 21
+    _Start: 0
+    _Type: 1
+    _Lv1Reward:
+    - 4006
+    - 5000
+    _Lv2Reward:
+    - 40002
+    - 1
+    _Lv3Reward:
+    - 40002
+    - 1
+    _Lv4Reward:
+    - 40002
+    - 1
+    _Lv5Reward:
+    - 40002
+    - 1
+    _Weight: 1000
+  - _Id: 122
+    _Note: 【新服】开服36天
+    _Lattice: 22
+    _Start: 2
+    _Type: 0
+    _Lv1Reward: []
+    _Lv2Reward: []
+    _Lv3Reward: []
+    _Lv4Reward: []
+    _Lv5Reward: []
+    _Weight: 320
+  - _Id: 123
+    _Note: 【新服】开服36天
+    _Lattice: 23
+    _Start: 0
+    _Type: 1
+    _Lv1Reward:
+    - 6002
+    - 1
+    _Lv2Reward:
+    - 6002
+    - 1
+    _Lv3Reward:
+    - 6002
+    - 1
+    _Lv4Reward:
+    - 6002
+    - 2
+    _Lv5Reward:
+    - 6002
+    - 2
+    _Weight: 1000
+  - _Id: 124
+    _Note: 【新服】开服36天
+    _Lattice: 24
+    _Start: 0
+    _Type: 1
+    _Lv1Reward:
+    - 4005
+    - 5000
+    _Lv2Reward:
+    - 40001
+    - 2
+    _Lv3Reward:
+    - 40002
+    - 1
+    _Lv4Reward:
+    - 40002
+    - 2
+    _Lv5Reward:
+    - 40002
+    - 2
+    _Weight: 1000
+  - _Id: 1001
+    _Note: 【老服】周循环
+    _Lattice: 1
+    _Start: 1
+    _Type: 2
+    _Lv1Reward:
+    - 7002
+    - 100
+    _Lv2Reward:
+    - 7002
+    - 120
+    _Lv3Reward:
+    - 7002
+    - 150
+    _Lv4Reward:
+    - 7002
+    - 180
+    _Lv5Reward:
+    - 7002
+    - 200
+    _Weight: 700
+  - _Id: 1002
+    _Note: 【老服】周循环
+    _Lattice: 2
+    _Start: 0
+    _Type: 1
+    _Lv1Reward:
+    - 7001
+    - 5
+    _Lv2Reward:
+    - 7001
+    - 10
+    _Lv3Reward:
+    - 9010
+    - 1
+    _Lv4Reward:
+    - 9010
+    - 1
+    _Lv5Reward:
+    - 9010
+    - 1
+    _Weight: 1000
+  - _Id: 1003
+    _Note: 【老服】周循环
+    _Lattice: 3
+    _Start: 2
+    _Type: 0
+    _Lv1Reward: []
+    _Lv2Reward: []
+    _Lv3Reward: []
+    _Lv4Reward: []
+    _Lv5Reward: []
+    _Weight: 320
+  - _Id: 1004
+    _Note: 【老服】周循环
+    _Lattice: 4
+    _Start: 0
+    _Type: 1
+    _Lv1Reward:
+    - 2101
+    - 1
+    _Lv2Reward:
+    - 2101
+    - 1
+    _Lv3Reward:
+    - 2101
+    - 1
+    _Lv4Reward:
+    - 2101
+    - 1
+    _Lv5Reward:
+    - 2101
+    - 2
+    _Weight: 1000
+  - _Id: 1005
+    _Note: 【老服】周循环
+    _Lattice: 5
+    _Start: 0
+    _Type: 1
+    _Lv1Reward:
+    - 4005
+    - 5000
+    _Lv2Reward:
+    - 6101
+    - 1
+    _Lv3Reward:
+    - 6101
+    - 1
+    _Lv4Reward:
+    - 6101
+    - 2
+    _Lv5Reward:
+    - 6101
+    - 2
+    _Weight: 1000
+  - _Id: 1006
+    _Note: 【老服】周循环
+    _Lattice: 6
+    _Start: 0
+    _Type: 1
+    _Lv1Reward:
+    - 4006
+    - 5000
+    _Lv2Reward:
+    - 40001
+    - 2
+    _Lv3Reward:
+    - 40002
+    - 1
+    _Lv4Reward:
+    - 40002
+    - 2
+    _Lv5Reward:
+    - 40002
+    - 2
+    _Weight: 1000
+  - _Id: 1007
+    _Note: 【老服】周循环
+    _Lattice: 7
+    _Start: 0
+    _Type: 2
+    _Lv1Reward:
+    - 29702
+    - 3
+    _Lv2Reward:
+    - 29703
+    - 3
+    _Lv3Reward:
+    - 29703
+    - 5
+    _Lv4Reward:
+    - 29704
+    - 5
+    _Lv5Reward:
+    - 29704
+    - 5
+    _Weight: 500
+  - _Id: 1008
+    _Note: 【老服】周循环
+    _Lattice: 8
+    _Start: 0
+    _Type: 1
+    _Lv1Reward:
+    - 7001
+    - 5
+    _Lv2Reward:
+    - 7001
+    - 10
+    _Lv3Reward:
+    - 29703
+    - 1
+    _Lv4Reward:
+    - 29703
+    - 1
+    _Lv5Reward:
+    - 29703
+    - 1
+    _Weight: 1000
+  - _Id: 1009
+    _Note: 【老服】周循环
+    _Lattice: 9
+    _Start: 0
+    _Type: 1
+    _Lv1Reward:
+    - 4010
+    - 30
+    _Lv2Reward:
+    - 6501
+    - 1
+    _Lv3Reward:
+    - 6501
+    - 1
+    _Lv4Reward:
+    - 6501
+    - 1
+    _Lv5Reward:
+    - 6501
+    - 2
+    _Weight: 1000
+  - _Id: 1010
+    _Note: 【老服】周循环
+    _Lattice: 10
+    _Start: 2
+    _Type: 0
+    _Lv1Reward: []
+    _Lv2Reward: []
+    _Lv3Reward: []
+    _Lv4Reward: []
+    _Lv5Reward: []
+    _Weight: 320
+  - _Id: 1011
+    _Note: 【老服】周循环
+    _Lattice: 11
+    _Start: 0
+    _Type: 1
+    _Lv1Reward:
+    - 6001
+    - 1
+    _Lv2Reward:
+    - 6001
+    - 1
+    _Lv3Reward:
+    - 6001
+    - 1
+    _Lv4Reward:
+    - 6001
+    - 2
+    _Lv5Reward:
+    - 6001
+    - 3
+    _Weight: 1000
+  - _Id: 1012
+    _Note: 【老服】周循环
+    _Lattice: 12
+    _Start: 0
+    _Type: 1
+    _Lv1Reward:
+    - 6501
+    - 1
+    _Lv2Reward:
+    - 6501
+    - 1
+    _Lv3Reward:
+    - 6501
+    - 2
+    _Lv4Reward:
+    - 6501
+    - 2
+    _Lv5Reward:
+    - 6501
+    - 3
+    _Weight: 1000
+  - _Id: 1013
+    _Note: 【老服】周循环
+    _Lattice: 13
+    _Start: 0
+    _Type: 2
+    _Lv1Reward:
+    - 29457
+    - 1
+    _Lv2Reward:
+    - 29457
+    - 1
+    _Lv3Reward:
+    - 29457
+    - 1
+    _Lv4Reward:
+    - 29457
+    - 1
+    _Lv5Reward:
+    - 29457
+    - 1
+    _Weight: 3
+  - _Id: 1014
+    _Note: 【老服】周循环
+    _Lattice: 14
+    _Start: 0
+    _Type: 1
+    _Lv1Reward:
+    - 7001
+    - 1
+    _Lv2Reward:
+    - 7001
+    - 10
+    _Lv3Reward:
+    - 9010
+    - 1
+    _Lv4Reward:
+    - 9010
+    - 2
+    _Lv5Reward:
+    - 9010
+    - 2
+    _Weight: 1000
+  - _Id: 1015
+    _Note: 【老服】周循环
+    _Lattice: 15
+    _Start: 2
+    _Type: 0
+    _Lv1Reward: []
+    _Lv2Reward: []
+    _Lv3Reward: []
+    _Lv4Reward: []
+    _Lv5Reward: []
+    _Weight: 400
+  - _Id: 1016
+    _Note: 【老服】周循环
+    _Lattice: 16
+    _Start: 0
+    _Type: 1
+    _Lv1Reward:
+    - 6001
+    - 1
+    _Lv2Reward:
+    - 6001
+    - 1
+    _Lv3Reward:
+    - 6001
+    - 1
+    _Lv4Reward:
+    - 6001
+    - 2
+    _Lv5Reward:
+    - 6001
+    - 3
+    _Weight: 1000
+  - _Id: 1017
+    _Note: 【老服】周循环
+    _Lattice: 17
+    _Start: 0
+    _Type: 1
+    _Lv1Reward:
+    - 4005
+    - 5000
+    _Lv2Reward:
+    - 6101
+    - 1
+    _Lv3Reward:
+    - 6101
+    - 1
+    _Lv4Reward:
+    - 6101
+    - 2
+    _Lv5Reward:
+    - 6102
+    - 1
+    _Weight: 1000
+  - _Id: 1018
+    _Note: 【老服】周循环
+    _Lattice: 18
+    _Start: 0
+    _Type: 1
+    _Lv1Reward:
+    - 7001
+    - 1
+    _Lv2Reward:
+    - 6503
+    - 1
+    _Lv3Reward:
+    - 6503
+    - 2
+    _Lv4Reward:
+    - 6503
+    - 3
+    _Lv5Reward:
+    - 6503
+    - 4
+    _Weight: 1000
+  - _Id: 1019
+    _Note: 【老服】周循环
+    _Lattice: 19
+    _Start: 0
+    _Type: 2
+    _Lv1Reward:
+    - 40003
+    - 1
+    _Lv2Reward:
+    - 40003
+    - 1
+    _Lv3Reward:
+    - 40003
+    - 1
+    _Lv4Reward:
+    - 40003
+    - 2
+    _Lv5Reward:
+    - 40003
+    - 2
+    _Weight: 700
+  - _Id: 1020
+    _Note: 【老服】周循环
+    _Lattice: 20
+    _Start: 0
+    _Type: 1
+    _Lv1Reward:
+    - 7001
+    - 1
+    _Lv2Reward:
+    - 7001
+    - 10
+    _Lv3Reward:
+    - 29301
+    - 1
+    _Lv4Reward:
+    - 29301
+    - 1
+    _Lv5Reward:
+    - 29302
+    - 1
+    _Weight: 1000
+  - _Id: 1021
+    _Note: 【老服】周循环
+    _Lattice: 21
+    _Start: 0
+    _Type: 1
+    _Lv1Reward:
+    - 4006
+    - 5000
+    _Lv2Reward:
+    - 40002
+    - 1
+    _Lv3Reward:
+    - 40002
+    - 1
+    _Lv4Reward:
+    - 40002
+    - 1
+    _Lv5Reward:
+    - 40002
+    - 1
+    _Weight: 1000
+  - _Id: 1022
+    _Note: 【老服】周循环
+    _Lattice: 22
+    _Start: 2
+    _Type: 0
+    _Lv1Reward: []
+    _Lv2Reward: []
+    _Lv3Reward: []
+    _Lv4Reward: []
+    _Lv5Reward: []
+    _Weight: 320
+  - _Id: 1023
+    _Note: 【老服】周循环
+    _Lattice: 23
+    _Start: 0
+    _Type: 1
+    _Lv1Reward:
+    - 6002
+    - 1
+    _Lv2Reward:
+    - 6002
+    - 1
+    _Lv3Reward:
+    - 6002
+    - 1
+    _Lv4Reward:
+    - 6002
+    - 2
+    _Lv5Reward:
+    - 6002
+    - 2
+    _Weight: 1000
+  - _Id: 1024
+    _Note: 【老服】周循环
+    _Lattice: 24
+    _Start: 0
+    _Type: 1
+    _Lv1Reward:
+    - 4010
+    - 30
+    _Lv2Reward:
+    - 40001
+    - 2
+    _Lv3Reward:
+    - 40002
+    - 1
+    _Lv4Reward:
+    - 40002
+    - 2
+    _Lv5Reward:
+    - 40002
+    - 2
+    _Weight: 1000

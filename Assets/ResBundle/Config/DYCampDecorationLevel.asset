@@ -1,0 +1,395 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5281efe3159ce85e9f308b64666b96af, type: 3}
+  m_Name: DYCampDecorationLevel
+  m_EditorClassIdentifier:
+  _Items:
+  - _Id: 20101
+    _Note: 【蓝色】
+    _LevelGroup: 201
+    _Amount: 1
+    _Amount_max: 2
+    _EffectType: 3
+    _Effect:
+    - 111
+    - 200
+    _Prosperity: 1
+  - _Id: 20102
+    _Note: 【蓝色】
+    _LevelGroup: 201
+    _Amount: 3
+    _Amount_max: 4
+    _EffectType: 3
+    _Effect:
+    - 111
+    - 500
+    _Prosperity: 2
+  - _Id: 20103
+    _Note: 【蓝色】
+    _LevelGroup: 201
+    _Amount: 5
+    _Amount_max: 9
+    _EffectType: 3
+    _Effect:
+    - 111
+    - 800
+    _Prosperity: 3
+  - _Id: 20104
+    _Note: 【蓝色】
+    _LevelGroup: 201
+    _Amount: 10
+    _Amount_max: 14
+    _EffectType: 3
+    _Effect:
+    - 111
+    - 1300
+    _Prosperity: 4
+  - _Id: 20105
+    _Note: 【蓝色】
+    _LevelGroup: 201
+    _Amount: 15
+    _Amount_max: -1
+    _EffectType: 3
+    _Effect:
+    - 111
+    - 1800
+    _Prosperity: 5
+  - _Id: 30101
+    _Note: 【紫色】
+    _LevelGroup: 301
+    _Amount: 1
+    _Amount_max: 2
+    _EffectType: 3
+    _Effect:
+    - 401
+    - 0.002
+    _Prosperity: 3
+  - _Id: 30102
+    _Note: 【紫色】
+    _LevelGroup: 301
+    _Amount: 3
+    _Amount_max: 4
+    _EffectType: 3
+    _Effect:
+    - 401
+    - 0.004
+    _Prosperity: 6
+  - _Id: 30103
+    _Note: 【紫色】
+    _LevelGroup: 301
+    _Amount: 5
+    _Amount_max: 6
+    _EffectType: 3
+    _Effect:
+    - 401
+    - 0.006
+    _Prosperity: 9
+  - _Id: 30104
+    _Note: 【紫色】
+    _LevelGroup: 301
+    _Amount: 7
+    _Amount_max: 9
+    _EffectType: 3
+    _Effect:
+    - 401
+    - 0.008
+    _Prosperity: 12
+  - _Id: 30105
+    _Note: 【紫色】
+    _LevelGroup: 301
+    _Amount: 10
+    _Amount_max: -1
+    _EffectType: 3
+    _Effect:
+    - 401
+    - 0.01
+    _Prosperity: 15
+  - _Id: 30201
+    _Note: 【紫色】协作丰碑
+    _LevelGroup: 302
+    _Amount: 1
+    _Amount_max: 1
+    _EffectType: 3
+    _Effect:
+    - 111
+    - 500
+    _Prosperity: 3
+  - _Id: 30202
+    _Note: 【紫色】协作丰碑
+    _LevelGroup: 302
+    _Amount: 2
+    _Amount_max: 2
+    _EffectType: 3
+    _Effect:
+    - 111
+    - 1000
+    _Prosperity: 6
+  - _Id: 30203
+    _Note: 【紫色】协作丰碑
+    _LevelGroup: 302
+    _Amount: 3
+    _Amount_max: 3
+    _EffectType: 3
+    _Effect:
+    - 111
+    - 1500
+    _Prosperity: 9
+  - _Id: 30204
+    _Note: 【紫色】协作丰碑
+    _LevelGroup: 302
+    _Amount: 4
+    _Amount_max: 4
+    _EffectType: 3
+    _Effect:
+    - 111
+    - 2000
+    _Prosperity: 12
+  - _Id: 30205
+    _Note: 【紫色】协作丰碑
+    _LevelGroup: 302
+    _Amount: 5
+    _Amount_max: -1
+    _EffectType: 3
+    _Effect:
+    - 111
+    - 2500
+    _Prosperity: 15
+  - _Id: 40101
+    _Note: 【橙色】钢铁/能源产出
+    _LevelGroup: 401
+    _Amount: 1
+    _Amount_max: 1
+    _EffectType: 1
+    _Effect:
+    - 102
+    - 0.01
+    - 104
+    - 0.01
+    _Prosperity: 5
+  - _Id: 40102
+    _Note: 【橙色】钢铁/能源产出
+    _LevelGroup: 401
+    _Amount: 2
+    _Amount_max: 2
+    _EffectType: 1
+    _Effect:
+    - 102
+    - 0.02
+    - 104
+    - 0.02
+    _Prosperity: 10
+  - _Id: 40103
+    _Note: 【橙色】钢铁/能源产出
+    _LevelGroup: 401
+    _Amount: 3
+    _Amount_max: 4
+    _EffectType: 1
+    _Effect:
+    - 102
+    - 0.03
+    - 104
+    - 0.03
+    _Prosperity: 15
+  - _Id: 40104
+    _Note: 【橙色】钢铁/能源产出
+    _LevelGroup: 401
+    _Amount: 5
+    _Amount_max: 6
+    _EffectType: 1
+    _Effect:
+    - 102
+    - 0.04
+    - 104
+    - 0.04
+    _Prosperity: 20
+  - _Id: 40105
+    _Note: 【橙色】钢铁/能源产出
+    _LevelGroup: 401
+    _Amount: 7
+    _Amount_max: -1
+    _EffectType: 1
+    _Effect:
+    - 102
+    - 0.05
+    - 104
+    - 0.05
+    _Prosperity: 25
+  - _Id: 40201
+    _Note: 【橙色】【特殊】暴击率
+    _LevelGroup: 402
+    _Amount: 1
+    _Amount_max: 1
+    _EffectType: 3
+    _Effect:
+    - 151
+    - 0.01
+    _Prosperity: 5
+  - _Id: 40202
+    _Note: 【橙色】【特殊】暴击率
+    _LevelGroup: 402
+    _Amount: 2
+    _Amount_max: 2
+    _EffectType: 3
+    _Effect:
+    - 151
+    - 0.02
+    _Prosperity: 10
+  - _Id: 40203
+    _Note: 【橙色】【特殊】暴击率
+    _LevelGroup: 402
+    _Amount: 3
+    _Amount_max: 4
+    _EffectType: 3
+    _Effect:
+    - 151
+    - 0.03
+    _Prosperity: 15
+  - _Id: 40204
+    _Note: 【橙色】【特殊】暴击率
+    _LevelGroup: 402
+    _Amount: 5
+    _Amount_max: 6
+    _EffectType: 3
+    _Effect:
+    - 151
+    - 0.04
+    _Prosperity: 20
+  - _Id: 40205
+    _Note: 【橙色】【特殊】暴击率
+    _LevelGroup: 402
+    _Amount: 7
+    _Amount_max: -1
+    _EffectType: 3
+    _Effect:
+    - 151
+    - 0.05
+    _Prosperity: 25
+  - _Id: 40301
+    _Note: 【橙色】精英/BOSS伤害
+    _LevelGroup: 403
+    _Amount: 1
+    _Amount_max: 1
+    _EffectType: 3
+    _Effect:
+    - 400
+    - 0.005
+    - 401
+    - 0.005
+    _Prosperity: 5
+  - _Id: 40302
+    _Note: 【橙色】精英/BOSS伤害
+    _LevelGroup: 403
+    _Amount: 2
+    _Amount_max: 2
+    _EffectType: 3
+    _Effect:
+    - 400
+    - 0.01
+    - 401
+    - 0.01
+    _Prosperity: 10
+  - _Id: 40303
+    _Note: 【橙色】精英/BOSS伤害
+    _LevelGroup: 403
+    _Amount: 3
+    _Amount_max: 4
+    _EffectType: 3
+    _Effect:
+    - 400
+    - 0.015
+    - 401
+    - 0.015
+    _Prosperity: 15
+  - _Id: 40304
+    _Note: 【橙色】精英/BOSS伤害
+    _LevelGroup: 403
+    _Amount: 5
+    _Amount_max: 6
+    _EffectType: 3
+    _Effect:
+    - 400
+    - 0.0225
+    - 401
+    - 0.0225
+    _Prosperity: 20
+  - _Id: 40305
+    _Note: 【橙色】精英/BOSS伤害
+    _LevelGroup: 403
+    _Amount: 7
+    _Amount_max: -1
+    _EffectType: 3
+    _Effect:
+    - 400
+    - 0.03
+    - 401
+    - 0.03
+    _Prosperity: 25
+  - _Id: 40401
+    _Note: 【橙色】攻击/BOSS伤害
+    _LevelGroup: 404
+    _Amount: 1
+    _Amount_max: 1
+    _EffectType: 3
+    _Effect:
+    - 111
+    - 1500
+    - 401
+    - 0.005
+    _Prosperity: 5
+  - _Id: 40402
+    _Note: 【橙色】攻击/BOSS伤害
+    _LevelGroup: 404
+    _Amount: 2
+    _Amount_max: 2
+    _EffectType: 3
+    _Effect:
+    - 111
+    - 3000
+    - 401
+    - 0.01
+    _Prosperity: 10
+  - _Id: 40403
+    _Note: 【橙色】攻击/BOSS伤害
+    _LevelGroup: 404
+    _Amount: 3
+    _Amount_max: 4
+    _EffectType: 3
+    _Effect:
+    - 111
+    - 4500
+    - 401
+    - 0.015
+    _Prosperity: 15
+  - _Id: 40404
+    _Note: 【橙色】攻击/BOSS伤害
+    _LevelGroup: 404
+    _Amount: 5
+    _Amount_max: 6
+    _EffectType: 3
+    _Effect:
+    - 111
+    - 7000
+    - 401
+    - 0.0225
+    _Prosperity: 20
+  - _Id: 40405
+    _Note: 【橙色】攻击/BOSS伤害
+    _LevelGroup: 404
+    _Amount: 7
+    _Amount_max: -1
+    _EffectType: 3
+    _Effect:
+    - 111
+    - 9500
+    - 401
+    - 0.03
+    _Prosperity: 25

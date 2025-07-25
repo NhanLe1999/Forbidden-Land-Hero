@@ -1,0 +1,799 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64d216b76401b8d4097e4954d8dd1b98, type: 3}
+  m_Name: DYSupremeArenaRobot
+  m_EditorClassIdentifier:
+  _Items:
+  - _ID: 1
+    _Rank:
+    - 1
+    - 1
+    _Name:
+    - 700058
+    _Hero:
+    - 1010
+    _PlayerShow:
+    - 1010
+    _Frame:
+    - 2001
+    _Attack:
+    - 200000
+    - 0
+    _Weapon:
+    - 11016
+    _WeaponRank: 10
+    _RobotAt:
+    - 1020
+    - 1022
+    _RobotSu:
+    - 1019
+    - 1021
+    _RobotRank: 5
+    _Car:
+    - 12
+    _CarLv:
+    - 23
+    _CarRank: 8
+    _CarSkill1:
+    - 710710
+    _CarSkill2:
+    - 720610
+  - _ID: 2
+    _Rank:
+    - 2
+    - 2
+    _Name:
+    - 700058
+    _Hero:
+    - 1009
+    _PlayerShow:
+    - 1009
+    _Frame:
+    - 2001
+    _Attack:
+    - 190000
+    - 0
+    _Weapon:
+    - 11015
+    _WeaponRank: 10
+    _RobotAt:
+    - 1018
+    - 1020
+    _RobotSu:
+    - 1017
+    - 1019
+    _RobotRank: 5
+    _Car:
+    - 11
+    _CarLv:
+    - 22
+    _CarRank: 8
+    _CarSkill1:
+    - 710510
+    _CarSkill2:
+    - 720510
+  - _ID: 3
+    _Rank:
+    - 3
+    - 3
+    _Name:
+    - 700058
+    _Hero:
+    - 1008
+    _PlayerShow:
+    - 1008
+    _Frame:
+    - 2001
+    _Attack:
+    - 180000
+    - 0
+    _Weapon:
+    - 11014
+    _WeaponRank: 9
+    _RobotAt:
+    - 1016
+    - 1018
+    _RobotSu:
+    - 1015
+    - 1017
+    _RobotRank: 5
+    _Car:
+    - 13
+    _CarLv:
+    - 21
+    _CarRank: 7
+    _CarSkill1:
+    - 710410
+    _CarSkill2:
+    - 720410
+  - _ID: 4
+    _Rank:
+    - 4
+    - 4
+    _Name:
+    - 700058
+    _Hero:
+    - 1007
+    _PlayerShow:
+    - 1007
+    _Frame:
+    - 2001
+    _Attack:
+    - 170000
+    - 0
+    _Weapon:
+    - 11013
+    _WeaponRank: 9
+    _RobotAt:
+    - 1012
+    - 1016
+    _RobotSu:
+    - 1011
+    - 1015
+    _RobotRank: 5
+    _Car:
+    - 4
+    _CarLv:
+    - 20
+    _CarRank: 7
+    _CarSkill1:
+    - 710310
+    _CarSkill2:
+    - 720310
+  - _ID: 5
+    _Rank:
+    - 5
+    - 5
+    _Name:
+    - 700058
+    _Hero:
+    - 1006
+    _PlayerShow:
+    - 1006
+    _Frame:
+    - 2001
+    _Attack:
+    - 160000
+    - 0
+    _Weapon:
+    - 11012
+    _WeaponRank: 8
+    _RobotAt:
+    - 1009
+    - 1012
+    _RobotSu:
+    - 1010
+    - 1011
+    _RobotRank: 5
+    _Car:
+    - 3
+    _CarLv:
+    - 19
+    _CarRank: 6
+    _CarSkill1:
+    - 710210
+    _CarSkill2:
+    - 720210
+  - _ID: 6
+    _Rank:
+    - 6
+    - 10
+    _Name:
+    - 700058
+    _Hero:
+    - 1004
+    - 1005
+    - 1006
+    - 1007
+    - 1008
+    - 1009
+    - 1010
+    _PlayerShow:
+    - 1004
+    - 1005
+    - 1006
+    - 1007
+    - 1008
+    - 1009
+    - 1010
+    _Frame:
+    - 2001
+    _Attack:
+    - 150000
+    - 8000
+    _Weapon:
+    - 11010
+    - 11011
+    - 11012
+    - 11013
+    - 11014
+    - 11015
+    - 11016
+    _WeaponRank: 8
+    _RobotAt:
+    - 1009
+    - 1012
+    - 1016
+    - 1018
+    - 1020
+    - 1022
+    _RobotSu:
+    - 1005
+    - 1010
+    - 1011
+    - 1015
+    - 1017
+    - 1019
+    - 1021
+    _RobotRank: 5
+    _Car:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    _CarLv:
+    - 18
+    _CarRank: 6
+    _CarSkill1:
+    - 710110
+    - 710210
+    - 710310
+    - 710410
+    - 710510
+    - 710710
+    _CarSkill2:
+    - 720110
+    - 720210
+    - 720310
+    - 720410
+    - 720510
+    - 720610
+  - _ID: 7
+    _Rank:
+    - 11
+    - 20
+    _Name:
+    - 700057
+    _Hero:
+    - 1004
+    - 1005
+    - 1006
+    - 1007
+    - 1008
+    - 1009
+    - 1010
+    _PlayerShow:
+    - 1004
+    - 1005
+    - 1006
+    - 1007
+    - 1008
+    - 1009
+    - 1010
+    _Frame:
+    - 2001
+    _Attack:
+    - 90000
+    - 1000
+    _Weapon:
+    - 11010
+    - 11011
+    - 11012
+    - 11013
+    - 11014
+    - 11015
+    - 11016
+    _WeaponRank: 7
+    _RobotAt:
+    - 1009
+    - 1012
+    - 1016
+    - 1018
+    - 1020
+    - 1022
+    _RobotSu:
+    - 1005
+    - 1010
+    - 1011
+    - 1015
+    - 1017
+    - 1019
+    - 1021
+    _RobotRank: 4
+    _Car:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    _CarLv:
+    - 17
+    _CarRank: 5
+    _CarSkill1:
+    - 710620
+    - 710820
+    - 710920
+    _CarSkill2:
+    - 720720
+    - 720820
+    - 720920
+    - 721020
+    - 721120
+    - 721220
+  - _ID: 8
+    _Rank:
+    - 21
+    - 50
+    _Name:
+    - 700057
+    _Hero:
+    - 1004
+    - 1005
+    - 1006
+    - 1007
+    - 1008
+    - 1009
+    - 1010
+    _PlayerShow:
+    - 1004
+    - 1005
+    - 1006
+    - 1007
+    - 1008
+    - 1009
+    - 1010
+    _Frame:
+    - 2001
+    _Attack:
+    - 80000
+    - 300
+    _Weapon:
+    - 11010
+    - 11011
+    - 11012
+    - 11013
+    - 11014
+    - 11015
+    - 11016
+    _WeaponRank: 7
+    _RobotAt:
+    - 1009
+    - 1012
+    - 1016
+    - 1018
+    - 1020
+    - 1022
+    _RobotSu:
+    - 1005
+    - 1010
+    - 1011
+    - 1015
+    - 1017
+    - 1019
+    - 1021
+    _RobotRank: 4
+    _Car:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    _CarLv:
+    - 16
+    _CarRank: 5
+    _CarSkill1:
+    - 710620
+    - 710820
+    - 710920
+    _CarSkill2:
+    - 720720
+    - 720820
+    - 720920
+    - 721020
+    - 721120
+    - 721220
+  - _ID: 9
+    _Rank:
+    - 51
+    - 100
+    _Name:
+    - 700057
+    _Hero:
+    - 1004
+    - 1005
+    - 1006
+    - 1007
+    - 1008
+    - 1009
+    - 1010
+    _PlayerShow:
+    - 1004
+    - 1005
+    - 1006
+    - 1007
+    - 1008
+    - 1009
+    - 1010
+    _Frame:
+    - 2001
+    _Attack:
+    - 70000
+    - 200
+    _Weapon:
+    - 11010
+    - 11011
+    - 11012
+    - 11013
+    - 11014
+    - 11015
+    - 11016
+    _WeaponRank: 6
+    _RobotAt:
+    - 1009
+    - 1012
+    - 1016
+    - 1018
+    - 1020
+    - 1022
+    _RobotSu:
+    - 1005
+    - 1010
+    - 1011
+    - 1015
+    - 1017
+    - 1019
+    - 1021
+    _RobotRank: 4
+    _Car:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    _CarLv:
+    - 15
+    _CarRank: 5
+    _CarSkill1:
+    - 710620
+    - 710820
+    - 710920
+    _CarSkill2:
+    - 720720
+    - 720820
+    - 720920
+    - 721020
+    - 721120
+    - 721220
+  - _ID: 10
+    _Rank:
+    - 101
+    - 200
+    _Name:
+    - 700056
+    _Hero:
+    - 1004
+    - 1005
+    - 1006
+    _PlayerShow:
+    - 1004
+    - 1005
+    - 1006
+    _Frame:
+    - 2001
+    _Attack:
+    - 60000
+    - 100
+    _Weapon:
+    - 11005
+    - 11006
+    - 11007
+    - 11008
+    - 11009
+    _WeaponRank: 6
+    _RobotAt:
+    - 1004
+    - 1013
+    - 1014
+    _RobotSu:
+    - 1003
+    - 1007
+    _RobotRank: 4
+    _Car:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    _CarLv:
+    - 14
+    _CarRank: 4
+    _CarSkill1:
+    - 710610
+    - 710810
+    - 710910
+    _CarSkill2:
+    - 720710
+    - 720810
+    - 720910
+    - 721010
+    - 721110
+    - 721210
+  - _ID: 11
+    _Rank:
+    - 201
+    - 500
+    _Name:
+    - 700056
+    _Hero:
+    - 1004
+    - 1005
+    - 1006
+    _PlayerShow:
+    - 1004
+    - 1005
+    - 1006
+    _Frame:
+    - 2001
+    _Attack:
+    - 50000
+    - 30
+    _Weapon:
+    - 11005
+    - 11006
+    - 11007
+    - 11008
+    - 11009
+    _WeaponRank: 5
+    _RobotAt:
+    - 1004
+    - 1013
+    - 1014
+    _RobotSu:
+    - 1003
+    - 1007
+    _RobotRank: 4
+    _Car:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    _CarLv:
+    - 13
+    _CarRank: 4
+    _CarSkill1:
+    - 710610
+    - 710810
+    - 710910
+    _CarSkill2:
+    - 720710
+    - 720810
+    - 720910
+    - 721010
+    - 721110
+    - 721210
+  - _ID: 12
+    _Rank:
+    - 501
+    - 1000
+    _Name:
+    - 700056
+    _Hero:
+    - 1004
+    - 1005
+    - 1006
+    _PlayerShow:
+    - 1004
+    - 1005
+    - 1006
+    _Frame:
+    - 2001
+    _Attack:
+    - 40000
+    - 20
+    _Weapon:
+    - 11005
+    - 11006
+    - 11007
+    - 11008
+    - 11009
+    _WeaponRank: 5
+    _RobotAt:
+    - 1004
+    - 1013
+    - 1014
+    _RobotSu:
+    - 1003
+    - 1007
+    _RobotRank: 4
+    _Car:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    _CarLv:
+    - 12
+    _CarRank: 4
+    _CarSkill1:
+    - 710610
+    - 710810
+    - 710910
+    _CarSkill2:
+    - 720710
+    - 720810
+    - 720910
+    - 721010
+    - 721110
+    - 721210
+  - _ID: 13
+    _Rank:
+    - 1001
+    - 2000
+    _Name:
+    - 700055
+    _Hero:
+    - 1002
+    - 1003
+    _PlayerShow:
+    - 1002
+    - 1003
+    _Frame:
+    - 2001
+    _Attack:
+    - 30000
+    - 10
+    _Weapon:
+    - 11005
+    - 11006
+    - 11007
+    - 11008
+    - 11009
+    _WeaponRank: 4
+    _RobotAt:
+    - 1001
+    - 1008
+    _RobotSu:
+    - 1003
+    - 1007
+    _RobotRank: 3
+    _Car:
+    - 1
+    _CarLv:
+    - 11
+    _CarRank: 3
+    _CarSkill1:
+    - 711010
+    _CarSkill2:
+    - 721310
+  - _ID: 14
+    _Rank:
+    - 2001
+    - 5000
+    _Name:
+    - 700055
+    _Hero:
+    - 1002
+    - 1003
+    _PlayerShow:
+    - 1002
+    - 1003
+    _Frame:
+    - 2001
+    _Attack:
+    - 20000
+    - 1
+    _Weapon:
+    - 11005
+    - 11006
+    - 11007
+    - 11008
+    - 11009
+    _WeaponRank: 4
+    _RobotAt:
+    - 1001
+    - 1008
+    _RobotSu:
+    - 1003
+    - 1007
+    _RobotRank: 3
+    _Car:
+    - 1
+    _CarLv:
+    - 10
+    _CarRank: 3
+    _CarSkill1:
+    - 711010
+    _CarSkill2:
+    - 721310
+  - _ID: 15
+    _Rank:
+    - 5001
+    - 9999
+    _Name:
+    - 700055
+    _Hero:
+    - 1001
+    _PlayerShow:
+    - 1001
+    _Frame:
+    - 2001
+    _Attack:
+    - 15000
+    - 1
+    _Weapon:
+    - 11001
+    - 11002
+    - 11003
+    - 11004
+    _WeaponRank: 3
+    _RobotAt:
+    - 1001
+    - 1008
+    _RobotSu:
+    - 1003
+    - 1007
+    _RobotRank: 2
+    _Car:
+    - 1
+    _CarLv:
+    - 8
+    _CarRank: 2
+    _CarSkill1:
+    - 711010
+    _CarSkill2:
+    - 721310
+  - _ID: 16
+    _Rank:
+    - 10000
+    - 999999
+    _Name:
+    - 700055
+    _Hero:
+    - 1001
+    _PlayerShow:
+    - 1001
+    _Frame:
+    - 2001
+    _Attack:
+    - 8000
+    - 0
+    _Weapon:
+    - 11001
+    - 11002
+    - 11003
+    - 11004
+    _WeaponRank: 3
+    _RobotAt:
+    - 1001
+    - 1008
+    _RobotSu:
+    - 1003
+    - 1007
+    _RobotRank: 2
+    _Car:
+    - 1
+    _CarLv:
+    - 5
+    _CarRank: 2
+    _CarSkill1:
+    - 711010
+    _CarSkill2:
+    - 721310

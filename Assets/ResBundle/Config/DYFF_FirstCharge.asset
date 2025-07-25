@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b465d9731c9ba9be0e8cddf95031a0a5, type: 3}
+  m_Name: DYFF_FirstCharge
+  m_EditorClassIdentifier:
+  _Items:
+  - _Id: 1001
+    _AutoPopUp: 0
+    _Reward:
+    - 30004
+    - 1
+    - 3002
+    - 1
+    _Reward1:
+    - 7002
+    - 60
+    - 7001
+    - 10
+    _Reward2:
+    - 7002
+    - 60
+    - 7001
+    - 20
+    _PayId: 12001
+    _Discount: 3223
+    _MainName: 1009001
+    _DisplayModel: PrefabsN/RobotUI/Knapsack_ui
+    _ItmeId: 30004
+    _Showeffect:
+    - 30004
+    - 3002
+    _PossessId:
+    - 1
+    - 12001
+    _Preconditions:
+    - 0
+    _CompleteMain:
+    - 100001
+    _UnlockDays: 1
+    _Text: 1009101
+    _Description:
+  - _Id: 1002
+    _AutoPopUp: 0
+    _Reward:
+    - 50021
+    - 1
+    - 7002
+    - 300
+    _Reward1:
+    - 7003
+    - 10
+    - 2101
+    - 10
+    _Reward2:
+    - 7003
+    - 10
+    - 2101
+    - 10
+    _PayId: 12012
+    _Discount: 0
+    _MainName: 1009002
+    _DisplayModel: Functions/FirstCharge/Textures/weaponskin
+    _ItmeId: 50021
+    _Showeffect:
+    - 50021
+    - 7003
+    _PossessId: []
+    _Preconditions:
+    - 1001
+    _CompleteMain:
+    - 100003
+    _UnlockDays: 1
+    _Text: 1009104
+    _Description:
+  - _Id: 1003
+    _AutoPopUp: 0
+    _Reward:
+    - 8011
+    - 1
+    - 7002
+    - 1000
+    _Reward1:
+    - 7004
+    - 5
+    - 6101
+    - 5
+    _Reward2:
+    - 7004
+    - 5
+    - 6102
+    - 1
+    _PayId: 12013
+    _Discount: 0
+    _MainName: 1009003
+    _DisplayModel: Functions/FirstCharge/Textures/roleimg
+    _ItmeId: 8011
+    _Showeffect:
+    - 8011
+    - 7004
+    _PossessId: []
+    _Preconditions:
+    - 1002
+    _CompleteMain:
+    - 100010
+    _UnlockDays: 1
+    _Text: 1009103
+    _Description:

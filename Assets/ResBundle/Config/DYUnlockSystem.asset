@@ -1,0 +1,1114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 682cc5d3a4384d1cd8a6f864d923f2aa, type: 3}
+  m_Name: DYUnlockSystem
+  m_EditorClassIdentifier:
+  _Items:
+  - _Tag: 1
+    _Note: 主界面入口
+    _Unlock:
+    - 0
+    _Condition:
+    - completeMain>=0
+    _UnlockTips: 0
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 0
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 100
+    _Note: 武器系统
+    _Unlock:
+    - 0
+    _Condition:
+    - completeMain>=0
+    _UnlockTips: 0
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 0
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 200
+    _Note: 装备系统
+    _Unlock:
+    - 1
+    - 3
+    _Condition:
+    - completeMain>=100003
+    _UnlockTips: 5002
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 3102
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 300
+    _Note: 机器人系统
+    _Unlock:
+    - 1
+    - 9
+    _Condition:
+    - completeMain>=100009
+    _UnlockTips: 5002
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 3102
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 400
+    _Note: 商店界面
+    _Unlock:
+    - 0
+    _Condition:
+    - completeMain>=0
+    _UnlockTips: 0
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 0
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 401
+    _Note: 装备抽奖
+    _Unlock:
+    - 1
+    - 3
+    _Condition:
+    - completeMain>=100003
+    _UnlockTips: 5002
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 3102
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 501
+    _Note: 挑战关卡
+    _Unlock:
+    - 1
+    - 4
+    _Condition:
+    - completeMain>=100004
+    _UnlockTips: 5002
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 55016
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 502
+    _Note: 关卡扫荡
+    _Unlock:
+    - 1
+    - 1
+    _Condition:
+    - completeMain>=100001
+    _UnlockTips: 5002
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 3102
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 601
+    _Note: 巅峰试练
+    _Unlock:
+    - 1
+    - 12
+    - 72
+    - 3
+    _Condition:
+    - completeMain>=100012&&serverOpen>=3
+    _UnlockTips: 5002
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 55016
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 701
+    _Note: 收藏品
+    _Unlock:
+    - 1
+    - 13
+    - 72
+    - 12
+    _Condition:
+    - completeMain>=100013&&serverOpen>=12
+    _UnlockTips: 5002
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 0
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 702
+    _Note: 收藏品抽奖
+    _Unlock:
+    - 1
+    - 13
+    - 72
+    - 12
+    _Condition:
+    - completeMain>=100013&&serverOpen>=12
+    _UnlockTips: 5002
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 0
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 901
+    _Note: 挂机
+    _Unlock:
+    - 1
+    - 1
+    _Condition:
+    - completeMain>=100001
+    _UnlockTips: 5002
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 3102
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 902
+    _Note: 签到
+    _Unlock:
+    - 1
+    - 1
+    _Condition:
+    - completeMain>=100001
+    _UnlockTips: 0
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 0
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 903
+    _Note: 任务
+    _Unlock:
+    - 1
+    - 3
+    _Condition:
+    - completeMain>=100003
+    _UnlockTips: 5002
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 3102
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 904
+    _Note: 钻石战令
+    _Unlock:
+    - 1
+    - 2
+    _Condition:
+    - completeMain>=100002
+    _UnlockTips: 5002
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 3102
+    _UnlockTime:
+    _ClientShow: 1
+  - _Tag: 905
+    _Note: 首充
+    _Unlock:
+    - 0
+    _Condition:
+    - completeMain>=0
+    _UnlockTips: 0
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 0
+    _UnlockTime:
+    _ClientShow: 1
+  - _Tag: 906
+    _Note: 主线关卡
+    _Unlock:
+    - 0
+    _Condition:
+    - completeMain>=0
+    _UnlockTips: 0
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 0
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 907
+    _Note: 存钱罐
+    _Unlock:
+    - 1
+    - 5
+    _Condition:
+    - completeMain>=100005
+    _UnlockTips: 5002
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 3102
+    _UnlockTime:
+    _ClientShow: 1
+  - _Tag: 908
+    _Note: 月卡
+    _Unlock:
+    - 1
+    - 1
+    _Condition:
+    - completeMain>=100001
+    _UnlockTips: 5002
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 3102
+    _UnlockTime:
+    _ClientShow: 1
+  - _Tag: 909
+    _Note: 日常礼包
+    _Unlock:
+    - 1
+    - 5
+    - 72
+    - 2
+    _Condition:
+    - completeMain>=100005&&serverOpen>=2
+    _UnlockTips: 5002
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 3102
+    _UnlockTime:
+    _ClientShow: 1
+  - _Tag: 910
+    _Note: 七日挑战
+    _Unlock:
+    - 0
+    _Condition:
+    - completeMain>=0
+    _UnlockTips: 5002
+    _Duration: 168
+    _ResetType: 2
+    _Exclusion: 956
+    _SourceUnlockTips: 3102
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 911
+    _Note: 武器直购
+    _Unlock:
+    - 1
+    - 1
+    _Condition:
+    - completeMain>=1
+    _UnlockTips: 5002
+    _Duration: 72
+    _ResetType: 1
+    _Exclusion: 0
+    _SourceUnlockTips: 3102
+    _UnlockTime:
+    _ClientShow: 1
+  - _Tag: 912
+    _Note: 电磁炮抽奖
+    _Unlock:
+    - 1
+    - 4
+    _Condition:
+    - completeMain>=100004
+    _UnlockTips: 5002
+    _Duration: 120
+    _ResetType: 1
+    _Exclusion: 0
+    _SourceUnlockTips: 3102
+    _UnlockTime:
+    _ClientShow: 1
+  - _Tag: 913
+    _Note: 降落伞
+    _Unlock:
+    - 1
+    - 1
+    _Condition:
+    - completeMain>=100001
+    _UnlockTips: 5002
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 3102
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 914
+    _Note: 双周战令
+    _Unlock:
+    - 1
+    - 9
+    _Condition:
+    - completeMain>=100009
+    _UnlockTips: 5002
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 3102
+    _UnlockTime:
+    _ClientShow: 1
+  - _Tag: 915
+    _Note: 角色抽奖
+    _Unlock:
+    - 1
+    - 10
+    _Condition:
+    - completeMain>=100010
+    _UnlockTips: 5002
+    _Duration: 168
+    _ResetType: 1
+    _Exclusion: 0
+    _SourceUnlockTips: 3102
+    _UnlockTime:
+    _ClientShow: 1
+  - _Tag: 916
+    _Note: 家园
+    _Unlock:
+    - 1
+    - 6
+    _Condition:
+    - completeMain>=100006
+    _UnlockTips: 5002
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 3102
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 917
+    _Note: 家园-资源广告
+    _Unlock:
+    - 1
+    - 6
+    _Condition:
+    - completeMain>=100006
+    _UnlockTips: 5002
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 3102
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 918
+    _Note: 背包
+    _Unlock:
+    - 0
+    _Condition:
+    - completeMain>=0
+    _UnlockTips: 5002
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 0
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 919
+    _Note: 图鉴入口（冒险收藏）
+    _Unlock:
+    - 1
+    - 1
+    _Condition:
+    - completeMain>=100001
+    _UnlockTips: 5002
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 0
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 920
+    _Note: 药剂胶囊
+    _Unlock:
+    - 1
+    - 14
+    _Condition:
+    - completeMain>=100014
+    _UnlockTips: 5002
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 3102
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 921
+    _Note: 脑机入口
+    _Unlock:
+    - 1
+    - 18
+    - 72
+    - 17
+    _Condition:
+    - completeMain>=100018&&serverOpen>=17
+    _UnlockTips: 5002
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 0
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 922
+    _Note: 虚拟战场
+    _Unlock:
+    - 1
+    - 18
+    - 72
+    - 17
+    _Condition:
+    - completeMain>=100018&&serverOpen>=17
+    _UnlockTips: 5002
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 55016
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 923
+    _Note: 拆解-机器人分页
+    _Unlock:
+    - 0
+    _Condition: []
+    _UnlockTips: 0
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 0
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 924
+    _Note: 竞技场
+    _Unlock:
+    - 1
+    - 13
+    - 72
+    - 4
+    _Condition:
+    - completeMain>=100013&&serverOpen>=4
+    _UnlockTips: 5002
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 55016
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 925
+    _Note: 拆解-收藏品分页（暂时没用）
+    _Unlock:
+    - 1
+    - 18
+    _Condition:
+    - completeMain>=100018
+    _UnlockTips: 5002
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 0
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 926
+    _Note: 电梯逃脱
+    _Unlock:
+    - 1
+    - 14
+    _Condition:
+    - completeMain>=100014
+    _UnlockTips: 5002
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 55016
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 927
+    _Note: 电梯逃脱（武器实验室）
+    _Unlock:
+    - 72
+    - 29
+    _Condition:
+    - serverOpen>=29
+    _UnlockTips: 5002
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 55016
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 928
+    _Note: 图纸
+    _Unlock:
+    - 1
+    - 22
+    - 72
+    - 22
+    _Condition:
+    - completeMain>=100022&&serverOpen>=22
+    _UnlockTips: 5002
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 0
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 929
+    _Note: 试用功能
+    _Unlock:
+    - 1
+    - 5
+    _Condition:
+    - completeMain>=100005
+    _UnlockTips: 5002
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 0
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 930
+    _Note: 首领讨伐战
+    _Unlock:
+    - 1
+    - 12
+    - 72
+    - 7
+    _Condition:
+    - completeMain>=100012&&serverOpen>=7
+    _UnlockTips: 5002
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 0
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 931
+    _Note: 新手战令
+    _Unlock:
+    - 1
+    - 3
+    - 72
+    - 2
+    _Condition:
+    - completeMain>=100003&&serverOpen>=2
+    _UnlockTips: 5002
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 0
+    _UnlockTime:
+    _ClientShow: 1
+  - _Tag: 932
+    _Note: 循环-每日充值
+    _Unlock:
+    - 1
+    - 1
+    _Condition:
+    - completeMain>=100001
+    _UnlockTips: 5002
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 0
+    _UnlockTime:
+    _ClientShow: 1
+  - _Tag: 933
+    _Note: 圣诞玩法
+    _Unlock:
+    - 1
+    - 5
+    _Condition:
+    - completeMain>=100005
+    _UnlockTips: 0
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 0
+    _UnlockTime:
+    _ClientShow: 1
+  - _Tag: 934
+    _Note: 公会
+    _Unlock:
+    - 1
+    - 7
+    _Condition:
+    - completeMain>=100007
+    _UnlockTips: 5002
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 0
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 935
+    _Note: 车库
+    _Unlock:
+    - 1
+    - 13
+    - 72
+    - 4
+    _Condition:
+    - completeMain>=100013&&serverOpen>=4
+    _UnlockTips: 5002
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 0
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 936
+    _Note: 基地
+    _Unlock:
+    - 1
+    - 6
+    _Condition:
+    - completeMain>=100006
+    _UnlockTips: 5002
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 0
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 937
+    _Note: 8~14日挑战
+    _Unlock:
+    - 0
+    _Condition:
+    - funClose_910>=1
+    _UnlockTips: 5002
+    _Duration: 168
+    _ResetType: 2
+    _Exclusion: 0
+    _SourceUnlockTips: 0
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 938
+    _Note: 公会防御战
+    _Unlock:
+    - 1
+    - 7
+    - 72
+    - 6
+    _Condition:
+    - completeMain>=100007&&serverOpen>=6
+    _UnlockTips: 5002
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 0
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 939
+    _Note: 武器改造
+    _Unlock:
+    - 1
+    - 28
+    - 72
+    - 29
+    _Condition:
+    - completeMain>=100028&&serverOpen>=29
+    _UnlockTips: 5002
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 0
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 940
+    _Note: 小游戏中心入口
+    _Unlock:
+    - 0
+    _Condition:
+    - completeMain>=0
+    _UnlockTips: 0
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 0
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 941
+    _Note: 跨服竞技场
+    _Unlock:
+    - 1
+    - 13
+    - 72
+    - 12
+    _Condition:
+    - completeMain>=100013&&serverOpen>=12
+    _UnlockTips: 5002
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 0
+    _UnlockTime: 2024-04-29 00:00:00
+    _ClientShow: 0
+  - _Tag: 942
+    _Note: 自动随机选词条（挑战关卡）
+    _Unlock:
+    - 1
+    - 10
+    _Condition:
+    - completeMain>=100010
+    _UnlockTips: 5002
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 3102
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 943
+    _Note: 聊天
+    _Unlock:
+    - 0
+    _Condition:
+    - completeMain>=0
+    _UnlockTips: 0
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 0
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 944
+    _Note: 好友
+    _Unlock:
+    - 1
+    - 2
+    _Condition:
+    - completeMain>=100002
+    _UnlockTips: 0
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 0
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 945
+    _Note: 好友邀请
+    _Unlock:
+    - 1
+    - 2
+    _Condition:
+    - completeMain>=100002
+    _UnlockTips: 0
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 0
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 946
+    _Note: 公会对决
+    _Unlock:
+    - 1
+    - 20
+    - 72
+    - 22
+    _Condition:
+    - completeMain>=100020&&serverOpen>=22
+    _UnlockTips: 5002
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 0
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 948
+    _Note: 枪械皮肤
+    _Unlock:
+    - 1
+    - 1
+    _Condition:
+    - completeMain>=100001
+    _UnlockTips: 5002
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 0
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 949
+    _Note: 转区功能
+    _Unlock:
+    - 1
+    - 30
+    - 72
+    - 100
+    _Condition:
+    - completeMain>=100030&&serverOpen>=100
+    _UnlockTips: 5002
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 0
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 950
+    _Note: 特惠商店（日/周/月礼包）
+    _Unlock:
+    - 1
+    - 9
+    - 72
+    - 3
+    _Condition:
+    - completeMain>=100009&&serverOpen>=3
+    _UnlockTips: 5002
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 0
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 951
+    _Note: gve玩法开启
+    _Unlock:
+    - 72
+    - 8
+    _Condition:
+    - serverOpen>=8
+    _UnlockTips: 5002
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 0
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 952
+    _Note: 双周战令（新）
+    _Unlock:
+    - 1
+    - 9
+    - 72
+    - 4
+    _Condition:
+    - completeMain>=100009&&serverOpen>=4
+    _UnlockTips: 5002
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 3102
+    _UnlockTime:
+    _ClientShow: 1
+  - _Tag: 953
+    _Note: 关卡排行榜（常驻）
+    _Unlock:
+    - 1
+    - 4
+    _Condition:
+    - completeMain>=100004
+    _UnlockTips: 5002
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 0
+    _UnlockTime:
+    _ClientShow: 1
+  - _Tag: 954
+    _Note: 武器-一键换枪
+    _Unlock:
+    - 0
+    _Condition:
+    - completeMain>=0
+    _UnlockTips: 5002
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 0
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 955
+    _Note: 改名
+    _Unlock:
+    - 0
+    _Condition:
+    - completeMain>=0
+    _UnlockTips: 5002
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 0
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 956
+    _Note: 七日任务（14天）
+    _Unlock: []
+    _Condition:
+    - completeMain>=999999
+    _UnlockTips: 5002
+    _Duration: 336
+    _ResetType: 2
+    _Exclusion: 910
+    _SourceUnlockTips: 0
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 957
+    _Note: 组队玩法
+    _Unlock:
+    - 1
+    - 10
+    _Condition:
+    - completeMain>=100010
+    _UnlockTips: 5002
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 55016
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 958
+    _Note: 组队养成
+    _Unlock:
+    - 1
+    - 10
+    _Condition:
+    - completeMain>=100010
+    _UnlockTips: 5002
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 55016
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 960
+    _Note: 机器人皮肤
+    _Unlock:
+    - 1
+    - 9
+    - 72
+    - 42
+    _Condition:
+    - completeMain>=100009&&serverOpen>=42
+    _UnlockTips: 5002
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 0
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 961
+    _Note: 每日必买
+    _Unlock:
+    - 1
+    - 1
+    - 72
+    - 4
+    _Condition:
+    - completeMain>=100001&&serverOpen>=4
+    _UnlockTips: 5002
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 0
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 1000
+    _Note: 老玩家回归-新服功能
+    _Unlock:
+    - 0
+    _Condition:
+    - oldRecall>=1
+    _UnlockTips: 5002
+    _Duration: 336
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 0
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 1001
+    _Note: 机器人槽位2
+    _Unlock:
+    - 3
+    _Condition:
+    - firstCharge>=1
+    _UnlockTips: 5012
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 0
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 1002
+    _Note: 机器人槽位3
+    _Unlock:
+    - 1
+    - 11
+    _Condition:
+    - completeMain>=100011
+    _UnlockTips: 5002
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 3102
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 1003
+    _Note: 机器人槽位4
+    _Unlock:
+    - 1
+    - 16
+    _Condition:
+    - completeMain>=100016
+    _UnlockTips: 5002
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 3102
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 2000
+    _Note: 微信入口
+    _Unlock:
+    - 1
+    - 1
+    _Condition:
+    - completeMain>=100001
+    _UnlockTips: 5002
+    _Duration: 72
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 0
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 2001
+    _Note: 微信朋友圈
+    _Unlock:
+    - 1
+    - 2
+    _Condition:
+    - completeMain>=100002
+    _UnlockTips: 5002
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 0
+    _UnlockTime:
+    _ClientShow: 0
+  - _Tag: 2002
+    _Note: 微信分享
+    _Unlock:
+    - 0
+    _Condition:
+    - completeMain>=0
+    _UnlockTips: 0
+    _Duration: 0
+    _ResetType: 0
+    _Exclusion: 0
+    _SourceUnlockTips: 0
+    _UnlockTime:
+    _ClientShow: 0

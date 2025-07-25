@@ -1,0 +1,229 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fd248ae653aff033108fe7b5a43ebfa, type: 3}
+  m_Name: DYTrain_attribute
+  m_EditorClassIdentifier:
+  _Items:
+  - _Attributeid: 1
+    _Beizhu: 攻击力
+    _Attrname: 800078
+    _Citiaocategory: 1
+    _Initialattribute: 50
+    _Icon:
+    _Lv1addattribute: 10000
+    _Lv2addattribute: 10001
+    _Lv3addattribute: 10002
+    _Lv4addattribute: 10003
+    _Attributelimit: -1
+    _CitiaoID: []
+  - _Attributeid: 2
+    _Beizhu: 攻速
+    _Attrname: 800041
+    _Citiaocategory: 2
+    _Initialattribute: 0.3
+    _Icon:
+    _Lv1addattribute: 10010
+    _Lv2addattribute: 10011
+    _Lv3addattribute: 10012
+    _Lv4addattribute: 10013
+    _Attributelimit: 1.7
+    _CitiaoID: []
+  - _Attributeid: 3
+    _Beizhu: 血量
+    _Attrname: 800042
+    _Citiaocategory: 3
+    _Initialattribute: 50
+    _Icon:
+    _Lv1addattribute: 10030
+    _Lv2addattribute: 10031
+    _Lv3addattribute: 10032
+    _Lv4addattribute: 10033
+    _Attributelimit: -1
+    _CitiaoID: []
+  - _Attributeid: 4
+    _Beizhu: 弹丸数
+    _Attrname: 3066
+    _Citiaocategory: 4
+    _Initialattribute: 1
+    _Icon:
+    _Lv1addattribute: 10020
+    _Lv2addattribute: 10021
+    _Lv3addattribute: 10022
+    _Lv4addattribute: 10023
+    _Attributelimit: 12
+    _CitiaoID: []
+  - _Attributeid: 5
+    _Beizhu: 攻击距离
+    _Attrname: 3064
+    _Citiaocategory: 5
+    _Initialattribute: 26
+    _Icon:
+    _Lv1addattribute: 10040
+    _Lv2addattribute: 10041
+    _Lv3addattribute: 10042
+    _Lv4addattribute: 10043
+    _Attributelimit: 45
+    _CitiaoID: []
+  - _Attributeid: 6
+    _Beizhu: 子弹速度
+    _Attrname: 800063
+    _Citiaocategory: 6
+    _Initialattribute: 12
+    _Icon:
+    _Lv1addattribute: 10050
+    _Lv2addattribute: 10051
+    _Lv3addattribute: 10052
+    _Lv4addattribute: 10053
+    _Attributelimit: 40
+    _CitiaoID: []
+  - _Attributeid: 7
+    _Beizhu: 列车速度
+    _Attrname: 800064
+    _Citiaocategory: 7
+    _Initialattribute: 16
+    _Icon:
+    _Lv1addattribute: 0
+    _Lv2addattribute: 0
+    _Lv3addattribute: 0
+    _Lv4addattribute: 0
+    _Attributelimit: 20
+    _CitiaoID: []
+  - _Attributeid: 8
+    _Beizhu: 列车疾驰+无敌+高攻击力
+    _Attrname: 0
+    _Citiaocategory: 8
+    _Initialattribute: 0
+    _Icon:
+    _Lv1addattribute: 10064
+    _Lv2addattribute: 10065
+    _Lv3addattribute: 0
+    _Lv4addattribute: 0
+    _Attributelimit: 0
+    _CitiaoID: []
+  - _Attributeid: 9
+    _Beizhu: 范围落雷
+    _Attrname: 0
+    _Citiaocategory: 9
+    _Initialattribute: 0
+    _Icon:
+    _Lv1addattribute: 0
+    _Lv2addattribute: 0
+    _Lv3addattribute: 0
+    _Lv4addattribute: 0
+    _Attributelimit: 0
+    _CitiaoID:
+    - 7002
+    - 4
+  - _Attributeid: 10
+    _Beizhu: 范围落陨石
+    _Attrname: 0
+    _Citiaocategory: 9
+    _Initialattribute: 0
+    _Icon:
+    _Lv1addattribute: 0
+    _Lv2addattribute: 0
+    _Lv3addattribute: 0
+    _Lv4addattribute: 0
+    _Attributelimit: 0
+    _CitiaoID:
+    - 7001
+    - 4
+  - _Attributeid: 11
+    _Beizhu: 范围落冰陨石
+    _Attrname: 0
+    _Citiaocategory: 9
+    _Initialattribute: 0
+    _Icon:
+    _Lv1addattribute: 0
+    _Lv2addattribute: 0
+    _Lv3addattribute: 0
+    _Lv4addattribute: 0
+    _Attributelimit: 0
+    _CitiaoID:
+    - 7003
+    - 4
+  - _Attributeid: 12
+    _Beizhu: 死亡锯盘
+    _Attrname: 0
+    _Citiaocategory: 9
+    _Initialattribute: 0
+    _Icon:
+    _Lv1addattribute: 0
+    _Lv2addattribute: 0
+    _Lv3addattribute: 0
+    _Lv4addattribute: 0
+    _Attributelimit: 0
+    _CitiaoID:
+    - 7000
+    - 4
+  - _Attributeid: 13
+    _Beizhu: 圣诞驯鹿
+    _Attrname: 0
+    _Citiaocategory: 9
+    _Initialattribute: 0
+    _Icon:
+    _Lv1addattribute: 0
+    _Lv2addattribute: 0
+    _Lv3addattribute: 0
+    _Lv4addattribute: 0
+    _Attributelimit: 0
+    _CitiaoID:
+    - 7004
+    - 4
+  - _Attributeid: 14
+    _Beizhu: 列车疾驰20s
+    _Attrname: 0
+    _Citiaocategory: 8
+    _Initialattribute: 0
+    _Icon:
+    _Lv1addattribute: 10066
+    _Lv2addattribute: 10070
+    _Lv3addattribute: 0
+    _Lv4addattribute: 0
+    _Attributelimit: 0
+    _CitiaoID: []
+  - _Attributeid: 15
+    _Beizhu: 列车疾驰40s
+    _Attrname: 0
+    _Citiaocategory: 8
+    _Initialattribute: 0
+    _Icon:
+    _Lv1addattribute: 10067
+    _Lv2addattribute: 10071
+    _Lv3addattribute: 0
+    _Lv4addattribute: 0
+    _Attributelimit: 0
+    _CitiaoID: []
+  - _Attributeid: 16
+    _Beizhu: 列车疾驰60s
+    _Attrname: 0
+    _Citiaocategory: 8
+    _Initialattribute: 0
+    _Icon:
+    _Lv1addattribute: 10068
+    _Lv2addattribute: 10072
+    _Lv3addattribute: 0
+    _Lv4addattribute: 0
+    _Attributelimit: 0
+    _CitiaoID: []
+  - _Attributeid: 17
+    _Beizhu: 列车疾驰80s
+    _Attrname: 0
+    _Citiaocategory: 8
+    _Initialattribute: 0
+    _Icon:
+    _Lv1addattribute: 10069
+    _Lv2addattribute: 10073
+    _Lv3addattribute: 0
+    _Lv4addattribute: 0
+    _Attributelimit: 0
+    _CitiaoID: []

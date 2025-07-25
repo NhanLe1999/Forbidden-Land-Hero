@@ -1,0 +1,720 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51da47565bab1ff4473949641d21e6ca, type: 3}
+  m_Name: DYFriendInvitationTask
+  m_EditorClassIdentifier:
+  _Items:
+  - _ID: 1001
+    _Remarks: 邀请1个玩家
+    _Type:
+    - 1
+    - 1
+    _Desc: 610323
+    _Rewards:
+    - 7006
+    - 10
+    _Sort: 1
+    _FrontTask: 0
+    _Param: 0
+  - _ID: 1002
+    _Remarks: 邀请2个玩家
+    _Type:
+    - 1
+    - 2
+    _Desc: 610323
+    _Rewards:
+    - 7002
+    - 100
+    _Sort: 2
+    _FrontTask: 0
+    _Param: 0
+  - _ID: 1003
+    _Remarks: 邀请3个玩家
+    _Type:
+    - 1
+    - 3
+    _Desc: 610323
+    _Rewards:
+    - 7006
+    - 10
+    _Sort: 3
+    _FrontTask: 0
+    _Param: 0
+  - _ID: 1004
+    _Remarks: 邀请4个玩家
+    _Type:
+    - 1
+    - 4
+    _Desc: 610323
+    _Rewards:
+    - 7002
+    - 100
+    _Sort: 4
+    _FrontTask: 0
+    _Param: 0
+  - _ID: 1005
+    _Remarks: 邀请5个玩家
+    _Type:
+    - 1
+    - 5
+    _Desc: 610323
+    _Rewards:
+    - 7004
+    - 3
+    _Sort: 5
+    _FrontTask: 0
+    _Param: 0
+  - _ID: 1006
+    _Remarks: 邀请6个玩家
+    _Type:
+    - 1
+    - 6
+    _Desc: 610323
+    _Rewards:
+    - 7006
+    - 10
+    _Sort: 6
+    _FrontTask: 0
+    _Param: 0
+  - _ID: 1007
+    _Remarks: 邀请7个玩家
+    _Type:
+    - 1
+    - 7
+    _Desc: 610323
+    _Rewards:
+    - 7002
+    - 100
+    _Sort: 7
+    _FrontTask: 0
+    _Param: 0
+  - _ID: 1008
+    _Remarks: 邀请8个玩家
+    _Type:
+    - 1
+    - 8
+    _Desc: 610323
+    _Rewards:
+    - 7006
+    - 10
+    _Sort: 8
+    _FrontTask: 0
+    _Param: 0
+  - _ID: 1009
+    _Remarks: 邀请9个玩家
+    _Type:
+    - 1
+    - 9
+    _Desc: 610323
+    _Rewards:
+    - 7002
+    - 100
+    _Sort: 9
+    _FrontTask: 0
+    _Param: 0
+  - _ID: 1010
+    _Remarks: 邀请10个玩家
+    _Type:
+    - 1
+    - 10
+    _Desc: 610323
+    _Rewards:
+    - 12505
+    - 1
+    _Sort: 10
+    _FrontTask: 0
+    _Param: 0
+  - _ID: 1101
+    _Remarks: 邀请1人通关第3关
+    _Type:
+    - 2
+    - 1
+    - 100003
+    _Desc: 610325
+    _Rewards:
+    - 7006
+    - 10
+    - 7010
+    - 1
+    _Sort: 1
+    _FrontTask: 0
+    _Param: 0
+  - _ID: 1102
+    _Remarks: 邀请1人通关第5关
+    _Type:
+    - 2
+    - 1
+    - 100005
+    _Desc: 610325
+    _Rewards:
+    - 7002
+    - 100
+    - 7010
+    - 2
+    _Sort: 2
+    _FrontTask: 0
+    _Param: 0
+  - _ID: 1103
+    _Remarks: 邀请1人通关第8关
+    _Type:
+    - 2
+    - 1
+    - 100008
+    _Desc: 610325
+    _Rewards:
+    - 7006
+    - 10
+    - 7010
+    - 3
+    _Sort: 3
+    _FrontTask: 0
+    _Param: 0
+  - _ID: 1104
+    _Remarks: 邀请1人通关第10关
+    _Type:
+    - 2
+    - 1
+    - 100010
+    _Desc: 610325
+    _Rewards:
+    - 7004
+    - 1
+    - 7010
+    - 4
+    _Sort: 4
+    _FrontTask: 0
+    _Param: 0
+  - _ID: 1105
+    _Remarks: 邀请1人通关第20关
+    _Type:
+    - 2
+    - 1
+    - 100020
+    _Desc: 610325
+    _Rewards:
+    - 7006
+    - 20
+    - 7010
+    - 5
+    _Sort: 5
+    _FrontTask: 0
+    _Param: 0
+  - _ID: 1106
+    _Remarks: 邀请1人通关第30关
+    _Type:
+    - 2
+    - 1
+    - 100030
+    _Desc: 610325
+    _Rewards:
+    - 7002
+    - 200
+    - 7010
+    - 8
+    _Sort: 6
+    _FrontTask: 0
+    _Param: 0
+  - _ID: 1107
+    _Remarks: 邀请1人通关第50关
+    _Type:
+    - 2
+    - 1
+    - 100050
+    _Desc: 610325
+    _Rewards:
+    - 7004
+    - 5
+    - 7010
+    - 10
+    _Sort: 7
+    _FrontTask: 0
+    _Param: 0
+  - _ID: 1109
+    _Remarks: 邀请2人通关第3关
+    _Type:
+    - 2
+    - 2
+    - 100003
+    _Desc: 610325
+    _Rewards:
+    - 7006
+    - 10
+    - 7010
+    - 1
+    _Sort: 8
+    _FrontTask: 0
+    _Param: 0
+  - _ID: 1110
+    _Remarks: 邀请2人通关第5关
+    _Type:
+    - 2
+    - 2
+    - 100005
+    _Desc: 610325
+    _Rewards:
+    - 7002
+    - 100
+    - 7010
+    - 2
+    _Sort: 9
+    _FrontTask: 0
+    _Param: 0
+  - _ID: 1111
+    _Remarks: 邀请2人通关第8关
+    _Type:
+    - 2
+    - 2
+    - 100008
+    _Desc: 610325
+    _Rewards:
+    - 7006
+    - 10
+    - 7010
+    - 3
+    _Sort: 10
+    _FrontTask: 0
+    _Param: 0
+  - _ID: 1112
+    _Remarks: 邀请2人通关第10关
+    _Type:
+    - 2
+    - 2
+    - 100010
+    _Desc: 610325
+    _Rewards:
+    - 7004
+    - 1
+    - 7010
+    - 4
+    _Sort: 11
+    _FrontTask: 0
+    _Param: 0
+  - _ID: 1113
+    _Remarks: 邀请2人通关第20关
+    _Type:
+    - 2
+    - 2
+    - 100020
+    _Desc: 610325
+    _Rewards:
+    - 7006
+    - 20
+    - 7010
+    - 5
+    _Sort: 12
+    _FrontTask: 0
+    _Param: 0
+  - _ID: 1114
+    _Remarks: 邀请2人通关第30关
+    _Type:
+    - 2
+    - 2
+    - 100030
+    _Desc: 610325
+    _Rewards:
+    - 7004
+    - 3
+    - 7010
+    - 10
+    _Sort: 13
+    _FrontTask: 0
+    _Param: 0
+  - _ID: 1116
+    _Remarks: 邀请4人通关第3关
+    _Type:
+    - 2
+    - 3
+    - 100003
+    _Desc: 610325
+    _Rewards:
+    - 7006
+    - 10
+    - 7010
+    - 1
+    _Sort: 15
+    _FrontTask: 0
+    _Param: 0
+  - _ID: 1118
+    _Remarks: 邀请4人通关第5关
+    _Type:
+    - 2
+    - 3
+    - 100005
+    _Desc: 610325
+    _Rewards:
+    - 7002
+    - 100
+    - 7010
+    - 2
+    _Sort: 16
+    _FrontTask: 0
+    _Param: 0
+  - _ID: 1119
+    _Remarks: 邀请4人通关第8关
+    _Type:
+    - 2
+    - 3
+    - 100008
+    _Desc: 610325
+    _Rewards:
+    - 7006
+    - 10
+    - 7010
+    - 3
+    _Sort: 17
+    _FrontTask: 0
+    _Param: 0
+  - _ID: 1120
+    _Remarks: 邀请4人通关第10关
+    _Type:
+    - 2
+    - 3
+    - 100010
+    _Desc: 610325
+    _Rewards:
+    - 7004
+    - 1
+    - 7010
+    - 4
+    _Sort: 18
+    _FrontTask: 0
+    _Param: 0
+  - _ID: 1121
+    _Remarks: 邀请4人通关第20关
+    _Type:
+    - 2
+    - 3
+    - 100020
+    _Desc: 610325
+    _Rewards:
+    - 7006
+    - 20
+    - 7010
+    - 5
+    _Sort: 19
+    _FrontTask: 0
+    _Param: 0
+  - _ID: 1122
+    _Remarks: 邀请4人通关第30关
+    _Type:
+    - 2
+    - 3
+    - 100030
+    _Desc: 610325
+    _Rewards:
+    - 7004
+    - 3
+    - 7010
+    - 10
+    _Sort: 20
+    _FrontTask: 0
+    _Param: 0
+  - _ID: 1201
+    _Remarks: 邀请玩家累计获得100充值积分
+    _Type:
+    - 3
+    - 100
+    _Desc: 610324
+    _Rewards:
+    - 7002
+    - 100
+    _Sort: 1
+    _FrontTask: 0
+    _Param: 0
+  - _ID: 1202
+    _Remarks: 邀请玩家累计获得300充值积分
+    _Type:
+    - 3
+    - 300
+    _Desc: 610324
+    _Rewards:
+    - 7002
+    - 200
+    _Sort: 2
+    _FrontTask: 0
+    _Param: 0
+  - _ID: 1203
+    _Remarks: 邀请玩家累计获得500充值积分
+    _Type:
+    - 3
+    - 500
+    _Desc: 610324
+    _Rewards:
+    - 7002
+    - 200
+    _Sort: 3
+    _FrontTask: 0
+    _Param: 0
+  - _ID: 1204
+    _Remarks: 邀请玩家累计获得1000充值积分
+    _Type:
+    - 3
+    - 1000
+    _Desc: 610324
+    _Rewards:
+    - 7002
+    - 400
+    _Sort: 4
+    _FrontTask: 0
+    _Param: 0
+  - _ID: 1205
+    _Remarks: 邀请玩家累计获得2000充值积分
+    _Type:
+    - 3
+    - 2000
+    _Desc: 610324
+    _Rewards:
+    - 7002
+    - 600
+    _Sort: 5
+    _FrontTask: 0
+    _Param: 0
+  - _ID: 1206
+    _Remarks: 邀请玩家累计获得4000充值积分
+    _Type:
+    - 3
+    - 4000
+    _Desc: 610324
+    _Rewards:
+    - 7002
+    - 1000
+    _Sort: 6
+    _FrontTask: 0
+    _Param: 0
+  - _ID: 1207
+    _Remarks: 邀请玩家累计获得6000充值积分
+    _Type:
+    - 3
+    - 6000
+    _Desc: 610324
+    _Rewards:
+    - 7002
+    - 1000
+    _Sort: 7
+    _FrontTask: 0
+    _Param: 0
+  - _ID: 1208
+    _Remarks: 邀请玩家累计获得8000充值积分
+    _Type:
+    - 3
+    - 8000
+    _Desc: 610324
+    _Rewards:
+    - 7002
+    - 1000
+    _Sort: 8
+    _FrontTask: 0
+    _Param: 0
+  - _ID: 1209
+    _Remarks: 邀请玩家累计获得10000充值积分
+    _Type:
+    - 3
+    - 10000
+    _Desc: 610324
+    _Rewards:
+    - 7002
+    - 1000
+    _Sort: 9
+    _FrontTask: 0
+    _Param: 0
+  - _ID: 1210
+    _Remarks: 邀请玩家累计获得12000充值积分
+    _Type:
+    - 3
+    - 12000
+    _Desc: 610324
+    _Rewards:
+    - 7002
+    - 1000
+    _Sort: 10
+    _FrontTask: 0
+    _Param: 0
+  - _ID: 1211
+    _Remarks: 邀请玩家累计获得14000充值积分
+    _Type:
+    - 3
+    - 14000
+    _Desc: 610324
+    _Rewards:
+    - 7002
+    - 1000
+    _Sort: 11
+    _FrontTask: 0
+    _Param: 0
+  - _ID: 1212
+    _Remarks: 邀请玩家累计获得16000充值积分
+    _Type:
+    - 3
+    - 16000
+    _Desc: 610324
+    _Rewards:
+    - 7002
+    - 1000
+    _Sort: 12
+    _FrontTask: 0
+    _Param: 0
+  - _ID: 1213
+    _Remarks: 邀请玩家累计获得18000充值积分
+    _Type:
+    - 3
+    - 18000
+    _Desc: 610324
+    _Rewards:
+    - 7002
+    - 1000
+    _Sort: 13
+    _FrontTask: 0
+    _Param: 0
+  - _ID: 1214
+    _Remarks: 邀请玩家累计获得20000充值积分
+    _Type:
+    - 3
+    - 20000
+    _Desc: 610324
+    _Rewards:
+    - 7002
+    - 1000
+    _Sort: 14
+    _FrontTask: 0
+    _Param: 0
+  - _ID: 1215
+    _Remarks: 邀请玩家累计获得25000充值积分
+    _Type:
+    - 3
+    - 25000
+    _Desc: 610324
+    _Rewards:
+    - 7002
+    - 1500
+    _Sort: 15
+    _FrontTask: 0
+    _Param: 0
+  - _ID: 1216
+    _Remarks: 邀请玩家累计获得30000充值积分
+    _Type:
+    - 3
+    - 30000
+    _Desc: 610324
+    _Rewards:
+    - 7002
+    - 1500
+    _Sort: 16
+    _FrontTask: 0
+    _Param: 0
+  - _ID: 1217
+    _Remarks: 邀请玩家累计获得35000充值积分
+    _Type:
+    - 3
+    - 35000
+    _Desc: 610324
+    _Rewards:
+    - 7002
+    - 1500
+    _Sort: 17
+    _FrontTask: 0
+    _Param: 0
+  - _ID: 1218
+    _Remarks: 邀请玩家累计获得40000充值积分
+    _Type:
+    - 3
+    - 40000
+    _Desc: 610324
+    _Rewards:
+    - 7002
+    - 1500
+    _Sort: 18
+    _FrontTask: 0
+    _Param: 0
+  - _ID: 1219
+    _Remarks: 邀请玩家累计获得45000充值积分
+    _Type:
+    - 3
+    - 45000
+    _Desc: 610324
+    _Rewards:
+    - 7002
+    - 1500
+    _Sort: 19
+    _FrontTask: 0
+    _Param: 0
+  - _ID: 1220
+    _Remarks: 邀请玩家累计获得50000充值积分
+    _Type:
+    - 3
+    - 50000
+    _Desc: 610324
+    _Rewards:
+    - 7002
+    - 1500
+    _Sort: 20
+    _FrontTask: 0
+    _Param: 0
+  - _ID: 1221
+    _Remarks: 邀请玩家累计获得60000充值积分
+    _Type:
+    - 3
+    - 60000
+    _Desc: 610324
+    _Rewards:
+    - 7002
+    - 2500
+    _Sort: 21
+    _FrontTask: 0
+    _Param: 0
+  - _ID: 1222
+    _Remarks: 邀请玩家累计获得70000充值积分
+    _Type:
+    - 3
+    - 70000
+    _Desc: 610324
+    _Rewards:
+    - 7002
+    - 2500
+    _Sort: 22
+    _FrontTask: 0
+    _Param: 0
+  - _ID: 1223
+    _Remarks: 邀请玩家累计获得80000充值积分
+    _Type:
+    - 3
+    - 80000
+    _Desc: 610324
+    _Rewards:
+    - 7002
+    - 2500
+    _Sort: 23
+    _FrontTask: 0
+    _Param: 0
+  - _ID: 1224
+    _Remarks: 邀请玩家累计获得90000充值积分
+    _Type:
+    - 3
+    - 90000
+    _Desc: 610324
+    _Rewards:
+    - 7002
+    - 2500
+    _Sort: 24
+    _FrontTask: 0
+    _Param: 0
+  - _ID: 1225
+    _Remarks: 邀请玩家累计获得100000充值积分
+    _Type:
+    - 3
+    - 100000
+    _Desc: 610324
+    _Rewards:
+    - 7002
+    - 2500
+    _Sort: 25
+    _FrontTask: 0
+    _Param: 0

@@ -1,0 +1,3095 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae404307126eba6388ed2db5b4c1e1fb, type: 3}
+  m_Name: DYEvent_ExchangeItem
+  m_EditorClassIdentifier:
+  _Items:
+  - _Id: 1001
+    _Note: 【机器人2期】
+    _Reward:
+    - 29471
+    - 1
+    _Order: 1
+    _Cost:
+    - 9005
+    - 5000
+    _Count: 2
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 1
+  - _Id: 1002
+    _Note: 【机器人2期】
+    _Reward:
+    - 2103
+    - 1
+    _Order: 2
+    _Cost:
+    - 9005
+    - 2500
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 1003
+    _Note: 【机器人2期】
+    _Reward:
+    - 7007
+    - 1
+    _Order: 3
+    _Cost:
+    - 9005
+    - 200
+    _Count: 20
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 1004
+    _Note: 【机器人2期】
+    _Reward:
+    - 29302
+    - 1
+    _Order: 4
+    _Cost:
+    - 9005
+    - 100
+    _Count: 20
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 1005
+    _Note: 【机器人2期】
+    _Reward:
+    - 6001
+    - 1
+    _Order: 5
+    _Cost:
+    - 9005
+    - 20
+    _Count: 100
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2001
+    _Note: 【收藏品】
+    _Reward:
+    - 29459
+    - 1
+    _Order: 24
+    _Cost:
+    - 7002
+    - 18000
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2002
+    _Note: 【收藏品】
+    _Reward:
+    - 29460
+    - 1
+    _Order: 23
+    _Cost:
+    - 7002
+    - 5000
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2003
+    _Note: 【收藏品】
+    _Reward:
+    - 29454
+    - 1
+    _Order: 22
+    _Cost:
+    - 9008
+    - 10000
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 1
+  - _Id: 2004
+    _Note: 【收藏品】
+    _Reward:
+    - 29455
+    - 1
+    _Order: 21
+    _Cost:
+    - 9008
+    - 5000
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2005
+    _Note: 【收藏品】
+    _Reward:
+    - 29904
+    - 1
+    _Order: 20
+    _Cost:
+    - 9008
+    - 7200
+    _Count: 2
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2006
+    _Note: 【收藏品】
+    _Reward:
+    - 75007
+    - 1
+    _Order: 19
+    _Cost:
+    - 9008
+    - 7200
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2007
+    _Note: 【收藏品】
+    _Reward:
+    - 75008
+    - 1
+    _Order: 18
+    _Cost:
+    - 9008
+    - 7200
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2008
+    _Note: 【收藏品】
+    _Reward:
+    - 75009
+    - 1
+    _Order: 17
+    _Cost:
+    - 9008
+    - 7200
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2009
+    _Note: 【收藏品】
+    _Reward:
+    - 74021
+    - 1
+    _Order: 16
+    _Cost:
+    - 9008
+    - 3600
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2010
+    _Note: 【收藏品】
+    _Reward:
+    - 74022
+    - 1
+    _Order: 15
+    _Cost:
+    - 9008
+    - 3600
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2011
+    _Note: 【收藏品】
+    _Reward:
+    - 74023
+    - 1
+    _Order: 14
+    _Cost:
+    - 9008
+    - 3600
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2012
+    _Note: 【收藏品】
+    _Reward:
+    - 74024
+    - 1
+    _Order: 13
+    _Cost:
+    - 9008
+    - 3600
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2013
+    _Note: 【收藏品】
+    _Reward:
+    - 74033
+    - 1
+    _Order: 12
+    _Cost:
+    - 9008
+    - 3600
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2014
+    _Note: 【收藏品】
+    _Reward:
+    - 74034
+    - 1
+    _Order: 11
+    _Cost:
+    - 9008
+    - 3600
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2015
+    _Note: 【收藏品】
+    _Reward:
+    - 74035
+    - 1
+    _Order: 10
+    _Cost:
+    - 9008
+    - 3600
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2016
+    _Note: 【收藏品】
+    _Reward:
+    - 74036
+    - 1
+    _Order: 9
+    _Cost:
+    - 9008
+    - 3600
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2017
+    _Note: 【收藏品】
+    _Reward:
+    - 74039
+    - 1
+    _Order: 8
+    _Cost:
+    - 9008
+    - 3600
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2018
+    _Note: 【收藏品】
+    _Reward:
+    - 74040
+    - 1
+    _Order: 7
+    _Cost:
+    - 9008
+    - 3600
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2019
+    _Note: 【收藏品】
+    _Reward:
+    - 74041
+    - 1
+    _Order: 6
+    _Cost:
+    - 9008
+    - 3600
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2020
+    _Note: 【收藏品】
+    _Reward:
+    - 74042
+    - 1
+    _Order: 5
+    _Cost:
+    - 9008
+    - 3600
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2021
+    _Note: 【收藏品】
+    _Reward:
+    - 29705
+    - 1
+    _Order: 4
+    _Cost:
+    - 9008
+    - 300
+    _Count: 30
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2022
+    _Note: 【收藏品】
+    _Reward:
+    - 29704
+    - 1
+    _Order: 3
+    _Cost:
+    - 9008
+    - 120
+    _Count: 30
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2023
+    _Note: 【收藏品】
+    _Reward:
+    - 29703
+    - 1
+    _Order: 2
+    _Cost:
+    - 9008
+    - 80
+    _Count: 30
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2024
+    _Note: 【收藏品】
+    _Reward:
+    - 6002
+    - 1
+    _Order: 1
+    _Cost:
+    - 9008
+    - 20
+    _Count: -1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2101
+    _Note: 【收藏品】
+    _Reward:
+    - 29459
+    - 1
+    _Order: 24
+    _Cost:
+    - 7002
+    - 18000
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2102
+    _Note: 【收藏品】
+    _Reward:
+    - 29460
+    - 1
+    _Order: 23
+    _Cost:
+    - 7002
+    - 5000
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2103
+    _Note: 【收藏品】
+    _Reward:
+    - 29454
+    - 1
+    _Order: 22
+    _Cost:
+    - 9008
+    - 10000
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 1
+  - _Id: 2104
+    _Note: 【收藏品】
+    _Reward:
+    - 29455
+    - 1
+    _Order: 21
+    _Cost:
+    - 9008
+    - 5000
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2105
+    _Note: 【收藏品】
+    _Reward:
+    - 29904
+    - 1
+    _Order: 20
+    _Cost:
+    - 9008
+    - 7200
+    _Count: 2
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2106
+    _Note: 【收藏品】
+    _Reward:
+    - 29903
+    - 1
+    _Order: 19
+    _Cost:
+    - 9008
+    - 7200
+    _Count: 2
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2107
+    _Note: 【收藏品】
+    _Reward:
+    - 29902
+    - 1
+    _Order: 18
+    _Cost:
+    - 9008
+    - 7200
+    _Count: 2
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2108
+    _Note: 【收藏品】
+    _Reward:
+    - 29901
+    - 1
+    _Order: 17
+    _Cost:
+    - 9008
+    - 7200
+    _Count: 2
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2109
+    _Note: 【收藏品】
+    _Reward:
+    - 74021
+    - 1
+    _Order: 16
+    _Cost:
+    - 9008
+    - 3600
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2110
+    _Note: 【收藏品】
+    _Reward:
+    - 74022
+    - 1
+    _Order: 15
+    _Cost:
+    - 9008
+    - 3600
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2111
+    _Note: 【收藏品】
+    _Reward:
+    - 74023
+    - 1
+    _Order: 14
+    _Cost:
+    - 9008
+    - 3600
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2112
+    _Note: 【收藏品】
+    _Reward:
+    - 74024
+    - 1
+    _Order: 13
+    _Cost:
+    - 9008
+    - 3600
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2113
+    _Note: 【收藏品】
+    _Reward:
+    - 74033
+    - 1
+    _Order: 12
+    _Cost:
+    - 9008
+    - 3600
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2114
+    _Note: 【收藏品】
+    _Reward:
+    - 74034
+    - 1
+    _Order: 11
+    _Cost:
+    - 9008
+    - 3600
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2115
+    _Note: 【收藏品】
+    _Reward:
+    - 74035
+    - 1
+    _Order: 10
+    _Cost:
+    - 9008
+    - 3600
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2116
+    _Note: 【收藏品】
+    _Reward:
+    - 74036
+    - 1
+    _Order: 9
+    _Cost:
+    - 9008
+    - 3600
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2117
+    _Note: 【收藏品】
+    _Reward:
+    - 74039
+    - 1
+    _Order: 8
+    _Cost:
+    - 9008
+    - 3600
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2118
+    _Note: 【收藏品】
+    _Reward:
+    - 74040
+    - 1
+    _Order: 7
+    _Cost:
+    - 9008
+    - 3600
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2119
+    _Note: 【收藏品】
+    _Reward:
+    - 74041
+    - 1
+    _Order: 6
+    _Cost:
+    - 9008
+    - 3600
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2120
+    _Note: 【收藏品】
+    _Reward:
+    - 74042
+    - 1
+    _Order: 5
+    _Cost:
+    - 9008
+    - 3600
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2121
+    _Note: 【收藏品】
+    _Reward:
+    - 29705
+    - 1
+    _Order: 4
+    _Cost:
+    - 9008
+    - 300
+    _Count: 30
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2122
+    _Note: 【收藏品】
+    _Reward:
+    - 29704
+    - 1
+    _Order: 3
+    _Cost:
+    - 9008
+    - 120
+    _Count: 30
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2123
+    _Note: 【收藏品】
+    _Reward:
+    - 29703
+    - 1
+    _Order: 2
+    _Cost:
+    - 9008
+    - 80
+    _Count: 30
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2124
+    _Note: 【收藏品】
+    _Reward:
+    - 6002
+    - 1
+    _Order: 1
+    _Cost:
+    - 9008
+    - 20
+    _Count: -1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2201
+    _Note: 【收藏品】6月
+    _Reward:
+    - 29459
+    - 1
+    _Order: 16
+    _Cost:
+    - 7002
+    - 18000
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2202
+    _Note: 【收藏品】6月
+    _Reward:
+    - 29460
+    - 1
+    _Order: 15
+    _Cost:
+    - 7002
+    - 5000
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2203
+    _Note: 【收藏品】6月
+    _Reward:
+    - 29454
+    - 1
+    _Order: 14
+    _Cost:
+    - 9008
+    - 10000
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 1
+  - _Id: 2204
+    _Note: 【收藏品】6月
+    _Reward:
+    - 29455
+    - 1
+    _Order: 13
+    _Cost:
+    - 9008
+    - 5000
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2205
+    _Note: 【收藏品】6月
+    _Reward:
+    - 29904
+    - 1
+    _Order: 12
+    _Cost:
+    - 9008
+    - 6000
+    _Count: -1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2206
+    _Note: 【收藏品】6月
+    _Reward:
+    - 29903
+    - 1
+    _Order: 11
+    _Cost:
+    - 9008
+    - 7200
+    _Count: -1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2207
+    _Note: 【收藏品】6月
+    _Reward:
+    - 29902
+    - 1
+    _Order: 10
+    _Cost:
+    - 9008
+    - 7200
+    _Count: -1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2208
+    _Note: 【收藏品】6月
+    _Reward:
+    - 29901
+    - 1
+    _Order: 9
+    _Cost:
+    - 9008
+    - 7200
+    _Count: -1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2209
+    _Note: 【收藏品】6月
+    _Reward:
+    - 74034
+    - 1
+    _Order: 8
+    _Cost:
+    - 9008
+    - 3600
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2210
+    _Note: 【收藏品】6月
+    _Reward:
+    - 74035
+    - 1
+    _Order: 7
+    _Cost:
+    - 9008
+    - 3600
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2211
+    _Note: 【收藏品】6月
+    _Reward:
+    - 74036
+    - 1
+    _Order: 6
+    _Cost:
+    - 9008
+    - 3600
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2212
+    _Note: 【收藏品】6月
+    _Reward:
+    - 74037
+    - 1
+    _Order: 5
+    _Cost:
+    - 9008
+    - 3600
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2213
+    _Note: 【收藏品】6月
+    _Reward:
+    - 29705
+    - 1
+    _Order: 4
+    _Cost:
+    - 9008
+    - 300
+    _Count: 30
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2214
+    _Note: 【收藏品】6月
+    _Reward:
+    - 29704
+    - 1
+    _Order: 3
+    _Cost:
+    - 9008
+    - 120
+    _Count: 30
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2215
+    _Note: 【收藏品】6月
+    _Reward:
+    - 29703
+    - 1
+    _Order: 2
+    _Cost:
+    - 9008
+    - 80
+    _Count: 30
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 2216
+    _Note: 【收藏品】6月
+    _Reward:
+    - 6002
+    - 1
+    _Order: 1
+    _Cost:
+    - 9008
+    - 20
+    _Count: -1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 3001
+    _Note: 【春节活动】
+    _Reward:
+    - 29409
+    - 1
+    _Order: 20
+    _Cost:
+    - 9019
+    - 6000
+    _Count: 3
+    _Daily: 0
+    _Echange_limit:
+    - 73
+    - 25012601
+    - 400
+    _Condition: 25012601:cnt>=400
+    _ShowCurrency: 1
+  - _Id: 3002
+    _Note: 【春节活动】
+    _Reward:
+    - 29408
+    - 1
+    _Order: 19
+    _Cost:
+    - 9019
+    - 6000
+    _Count: 3
+    _Daily: 0
+    _Echange_limit:
+    - 73
+    - 25012601
+    - 400
+    _Condition: 25012601:cnt>=400
+    _ShowCurrency: 0
+  - _Id: 3003
+    _Note: 【春节活动】
+    _Reward:
+    - 29407
+    - 1
+    _Order: 18
+    _Cost:
+    - 9019
+    - 6000
+    _Count: 3
+    _Daily: 0
+    _Echange_limit:
+    - 73
+    - 25012601
+    - 400
+    _Condition: 25012601:cnt>=400
+    _ShowCurrency: 0
+  - _Id: 3004
+    _Note: 【春节活动】
+    _Reward:
+    - 29500
+    - 1
+    _Order: 17
+    _Cost:
+    - 9019
+    - 4000
+    _Count: 3
+    _Daily: 0
+    _Echange_limit:
+    - 73
+    - 25012601
+    - 300
+    _Condition: 25012601:cnt>=300
+    _ShowCurrency: 0
+  - _Id: 3005
+    _Note: 【春节活动】
+    _Reward:
+    - 29451
+    - 1
+    _Order: 16
+    _Cost:
+    - 9019
+    - 5000
+    _Count: 3
+    _Daily: 0
+    _Echange_limit:
+    - 73
+    - 25012601
+    - 200
+    _Condition: 25012601:cnt>=200
+    _ShowCurrency: 0
+  - _Id: 3006
+    _Note: 【春节活动】
+    _Reward:
+    - 29452
+    - 1
+    _Order: 15
+    _Cost:
+    - 9019
+    - 5000
+    _Count: 3
+    _Daily: 0
+    _Echange_limit:
+    - 73
+    - 25012601
+    - 200
+    _Condition: 25012601:cnt>=200
+    _ShowCurrency: 0
+  - _Id: 3007
+    _Note: 【春节活动】
+    _Reward:
+    - 29453
+    - 1
+    _Order: 14
+    _Cost:
+    - 9019
+    - 3000
+    _Count: 2
+    _Daily: 0
+    _Echange_limit:
+    - 73
+    - 25012601
+    - 150
+    _Condition: 25012601:cnt>=150
+    _ShowCurrency: 0
+  - _Id: 3008
+    _Note: 【春节活动】
+    _Reward:
+    - 29481
+    - 1
+    _Order: 13
+    _Cost:
+    - 9019
+    - 2500
+    _Count: 1
+    _Daily: 0
+    _Echange_limit:
+    - 73
+    - 25012601
+    - 100
+    _Condition: 25012601:cnt>=100
+    _ShowCurrency: 0
+  - _Id: 3009
+    _Note: 【春节活动】
+    _Reward:
+    - 31008
+    - 1
+    _Order: 12
+    _Cost:
+    - 9019
+    - 3000
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 3010
+    _Note: 【春节活动】
+    _Reward:
+    - 31009
+    - 1
+    _Order: 11
+    _Cost:
+    - 9019
+    - 3000
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 3011
+    _Note: 【春节活动】
+    _Reward:
+    - 29201
+    - 1
+    _Order: 10
+    _Cost:
+    - 9019
+    - 3000
+    _Count: 3
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 3012
+    _Note: 【春节活动】
+    _Reward:
+    - 9017
+    - 1
+    _Order: 9
+    _Cost:
+    - 9019
+    - 1500
+    _Count: 3
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 3013
+    _Note: 【春节活动】
+    _Reward:
+    - 2103
+    - 1
+    _Order: 8
+    _Cost:
+    - 9019
+    - 1500
+    _Count: 3
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 3014
+    _Note: 【春节活动】
+    _Reward:
+    - 7004
+    - 10
+    _Order: 7
+    _Cost:
+    - 9019
+    - 1500
+    _Count: 3
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 3015
+    _Note: 【春节活动】
+    _Reward:
+    - 7007
+    - 10
+    _Order: 6
+    _Cost:
+    - 9019
+    - 1000
+    _Count: 3
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 3016
+    _Note: 【春节活动】
+    _Reward:
+    - 7003
+    - 10
+    _Order: 5
+    _Cost:
+    - 9019
+    - 600
+    _Count: 3
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 3017
+    _Note: 【春节活动】
+    _Reward:
+    - 2101
+    - 1
+    _Order: 4
+    _Cost:
+    - 9019
+    - 15
+    _Count: -1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 3018
+    _Note: 【春节活动】
+    _Reward:
+    - 6001
+    - 1
+    _Order: 3
+    _Cost:
+    - 9019
+    - 10
+    _Count: -1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 3019
+    _Note: 【春节活动】
+    _Reward:
+    - 6002
+    - 1
+    _Order: 2
+    _Cost:
+    - 9019
+    - 10
+    _Count: -1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 3020
+    _Note: 【春节活动】
+    _Reward:
+    - 4010
+    - 1
+    _Order: 1
+    _Cost:
+    - 9019
+    - 1
+    _Count: -1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 4001
+    _Note: 【复活节活动】
+    _Reward:
+    - 29451
+    - 1
+    _Order: 16
+    _Cost:
+    - 13012
+    - 5000
+    _Count: 1
+    _Daily: 0
+    _Echange_limit:
+    - 73
+    - 24032701
+    - 400
+    _Condition: 24032701:cnt>=400
+    _ShowCurrency: 1
+  - _Id: 4002
+    _Note: 【复活节活动】
+    _Reward:
+    - 29452
+    - 1
+    _Order: 15
+    _Cost:
+    - 13012
+    - 5000
+    _Count: 1
+    _Daily: 0
+    _Echange_limit:
+    - 73
+    - 24032701
+    - 400
+    _Condition: 24032701:cnt>=400
+    _ShowCurrency: 0
+  - _Id: 4003
+    _Note: 【复活节活动】
+    _Reward:
+    - 12016
+    - 1
+    _Order: 14
+    _Cost:
+    - 13012
+    - 1500
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 4004
+    _Note: 【复活节活动】
+    _Reward:
+    - 2103
+    - 1
+    _Order: 13
+    _Cost:
+    - 13012
+    - 1200
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 4005
+    _Note: 【复活节活动】
+    _Reward:
+    - 29201
+    - 1
+    _Order: 12
+    _Cost:
+    - 13012
+    - 3000
+    _Count: 3
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 4006
+    _Note: 【复活节活动】
+    _Reward:
+    - 30006
+    - 1
+    _Order: 11
+    _Cost:
+    - 13012
+    - 3000
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 4007
+    _Note: 【复活节活动】
+    _Reward:
+    - 30010
+    - 1
+    _Order: 10
+    _Cost:
+    - 13012
+    - 3000
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 4008
+    _Note: 【复活节活动】
+    _Reward:
+    - 31008
+    - 1
+    _Order: 9
+    _Cost:
+    - 13012
+    - 3000
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 4009
+    _Note: 【复活节活动】
+    _Reward:
+    - 7004
+    - 10
+    _Order: 8
+    _Cost:
+    - 13012
+    - 1500
+    _Count: 3
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 4010
+    _Note: 【复活节活动】
+    _Reward:
+    - 7007
+    - 10
+    _Order: 7
+    _Cost:
+    - 13012
+    - 1000
+    _Count: 3
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 4011
+    _Note: 【复活节活动】
+    _Reward:
+    - 7009
+    - 10
+    _Order: 6
+    _Cost:
+    - 13012
+    - 600
+    _Count: 3
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 4012
+    _Note: 【复活节活动】
+    _Reward:
+    - 9010
+    - 10
+    _Order: 5
+    _Cost:
+    - 13012
+    - 150
+    _Count: -1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 4013
+    _Note: 【复活节活动】
+    _Reward:
+    - 2101
+    - 1
+    _Order: 4
+    _Cost:
+    - 13012
+    - 15
+    _Count: -1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 4014
+    _Note: 【复活节活动】
+    _Reward:
+    - 6001
+    - 1
+    _Order: 3
+    _Cost:
+    - 13012
+    - 10
+    _Count: -1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 4015
+    _Note: 【复活节活动】
+    _Reward:
+    - 6002
+    - 1
+    _Order: 2
+    _Cost:
+    - 13012
+    - 10
+    _Count: -1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 4016
+    _Note: 【复活节活动】
+    _Reward:
+    - 7001
+    - 1
+    _Order: 1
+    _Cost:
+    - 13012
+    - 2
+    _Count: -1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 5001
+    _Note: 【劳动节活动】
+    _Reward:
+    - 29410
+    - 1
+    _Order: 21
+    _Cost:
+    - 13016
+    - 6000
+    _Count: 3
+    _Daily: 0
+    _Echange_limit:
+    - 73
+    - 25042501
+    - 400
+    _Condition: 25042501:cnt>=400
+    _ShowCurrency: 1
+  - _Id: 5002
+    _Note: 【劳动节活动】
+    _Reward:
+    - 29409
+    - 1
+    _Order: 20
+    _Cost:
+    - 13016
+    - 6000
+    _Count: 3
+    _Daily: 0
+    _Echange_limit:
+    - 73
+    - 25042501
+    - 400
+    _Condition: 25042501:cnt>=400
+    _ShowCurrency: 0
+  - _Id: 5003
+    _Note: 【劳动节活动】
+    _Reward:
+    - 29408
+    - 1
+    _Order: 19
+    _Cost:
+    - 13016
+    - 6000
+    _Count: 3
+    _Daily: 0
+    _Echange_limit:
+    - 73
+    - 25042501
+    - 400
+    _Condition: 25042501:cnt>=400
+    _ShowCurrency: 0
+  - _Id: 5004
+    _Note: 【劳动节活动】
+    _Reward:
+    - 29407
+    - 1
+    _Order: 18
+    _Cost:
+    - 13016
+    - 6000
+    _Count: 3
+    _Daily: 0
+    _Echange_limit:
+    - 73
+    - 25042501
+    - 400
+    _Condition: 25042501:cnt>=400
+    _ShowCurrency: 0
+  - _Id: 5005
+    _Note: 【劳动节活动】
+    _Reward:
+    - 29500
+    - 1
+    _Order: 17
+    _Cost:
+    - 13016
+    - 4000
+    _Count: 3
+    _Daily: 0
+    _Echange_limit:
+    - 73
+    - 25042501
+    - 300
+    _Condition: 25042501:cnt>=300
+    _ShowCurrency: 0
+  - _Id: 5006
+    _Note: 【劳动节活动】
+    _Reward:
+    - 29451
+    - 1
+    _Order: 16
+    _Cost:
+    - 13016
+    - 5000
+    _Count: 3
+    _Daily: 0
+    _Echange_limit:
+    - 73
+    - 25042501
+    - 200
+    _Condition: 25042501:cnt>=200
+    _ShowCurrency: 0
+  - _Id: 5007
+    _Note: 【劳动节活动】
+    _Reward:
+    - 29452
+    - 1
+    _Order: 15
+    _Cost:
+    - 13016
+    - 5000
+    _Count: 3
+    _Daily: 0
+    _Echange_limit:
+    - 73
+    - 25042501
+    - 200
+    _Condition: 25042501:cnt>=200
+    _ShowCurrency: 0
+  - _Id: 5008
+    _Note: 【劳动节活动】
+    _Reward:
+    - 29453
+    - 1
+    _Order: 14
+    _Cost:
+    - 13016
+    - 3000
+    _Count: 2
+    _Daily: 0
+    _Echange_limit:
+    - 73
+    - 25042501
+    - 150
+    _Condition: 25042501:cnt>=150
+    _ShowCurrency: 0
+  - _Id: 5009
+    _Note: 【劳动节活动】
+    _Reward:
+    - 30006
+    - 1
+    _Order: 13
+    _Cost:
+    - 13016
+    - 3000
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 5010
+    _Note: 【劳动节活动】
+    _Reward:
+    - 30008
+    - 1
+    _Order: 12
+    _Cost:
+    - 13016
+    - 3000
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 5011
+    _Note: 【劳动节活动】
+    _Reward:
+    - 9017
+    - 1
+    _Order: 11
+    _Cost:
+    - 13016
+    - 1500
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 5012
+    _Note: 【劳动节活动】
+    _Reward:
+    - 29201
+    - 1
+    _Order: 10
+    _Cost:
+    - 13016
+    - 3000
+    _Count: 3
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 5013
+    _Note: 【劳动节活动】
+    _Reward:
+    - 29481
+    - 1
+    _Order: 9
+    _Cost:
+    - 13016
+    - 2500
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 5014
+    _Note: 【劳动节活动】
+    _Reward:
+    - 2103
+    - 1
+    _Order: 8
+    _Cost:
+    - 13016
+    - 1500
+    _Count: 3
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 5015
+    _Note: 【劳动节活动】
+    _Reward:
+    - 7004
+    - 10
+    _Order: 7
+    _Cost:
+    - 13016
+    - 1500
+    _Count: 3
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 5016
+    _Note: 【劳动节活动】
+    _Reward:
+    - 7007
+    - 10
+    _Order: 6
+    _Cost:
+    - 13016
+    - 1000
+    _Count: 3
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 5017
+    _Note: 【劳动节活动】
+    _Reward:
+    - 7003
+    - 10
+    _Order: 5
+    _Cost:
+    - 13016
+    - 600
+    _Count: 3
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 5018
+    _Note: 【劳动节活动】
+    _Reward:
+    - 2101
+    - 1
+    _Order: 4
+    _Cost:
+    - 13016
+    - 15
+    _Count: -1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 5019
+    _Note: 【劳动节活动】
+    _Reward:
+    - 6001
+    - 1
+    _Order: 3
+    _Cost:
+    - 13016
+    - 10
+    _Count: -1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 5020
+    _Note: 【劳动节活动】
+    _Reward:
+    - 6002
+    - 1
+    _Order: 2
+    _Cost:
+    - 13016
+    - 10
+    _Count: -1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 5021
+    _Note: 【劳动节活动】
+    _Reward:
+    - 4010
+    - 1
+    _Order: 1
+    _Cost:
+    - 13016
+    - 1
+    _Count: -1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 6001
+    _Note: 【挖地块活动】
+    _Reward:
+    - 29410
+    - 1
+    _Order: 20
+    _Cost:
+    - 13020
+    - 12000
+    _Count: 5
+    _Daily: 0
+    _Echange_limit:
+    - 74
+    - 25031201
+    - 300
+    _Condition: 25031201:layer>=300
+    _ShowCurrency: 1
+  - _Id: 6002
+    _Note: 【挖地块活动】
+    _Reward:
+    - 29409
+    - 1
+    _Order: 19
+    _Cost:
+    - 13020
+    - 12000
+    _Count: 5
+    _Daily: 0
+    _Echange_limit:
+    - 74
+    - 25031201
+    - 300
+    _Condition: 25031201:layer>=300
+    _ShowCurrency: 0
+  - _Id: 6003
+    _Note: 【挖地块活动】
+    _Reward:
+    - 29408
+    - 1
+    _Order: 18
+    _Cost:
+    - 13020
+    - 12000
+    _Count: 5
+    _Daily: 0
+    _Echange_limit:
+    - 74
+    - 25031201
+    - 300
+    _Condition: 25031201:layer>=300
+    _ShowCurrency: 0
+  - _Id: 6004
+    _Note: 【挖地块活动】
+    _Reward:
+    - 29407
+    - 1
+    _Order: 17
+    _Cost:
+    - 13020
+    - 12000
+    _Count: 5
+    _Daily: 0
+    _Echange_limit:
+    - 74
+    - 25031201
+    - 300
+    _Condition: 25031201:layer>=300
+    _ShowCurrency: 0
+  - _Id: 6005
+    _Note: 【挖地块活动】
+    _Reward:
+    - 29451
+    - 1
+    _Order: 16
+    _Cost:
+    - 13020
+    - 10000
+    _Count: 3
+    _Daily: 0
+    _Echange_limit:
+    - 74
+    - 25031201
+    - 200
+    _Condition: 25031201:layer>=200
+    _ShowCurrency: 0
+  - _Id: 6006
+    _Note: 【挖地块活动】
+    _Reward:
+    - 29452
+    - 1
+    _Order: 15
+    _Cost:
+    - 13020
+    - 10000
+    _Count: 3
+    _Daily: 0
+    _Echange_limit:
+    - 74
+    - 25031201
+    - 200
+    _Condition: 25031201:layer>=200
+    _ShowCurrency: 0
+  - _Id: 6007
+    _Note: 【挖地块活动】
+    _Reward:
+    - 29453
+    - 1
+    _Order: 14
+    _Cost:
+    - 13020
+    - 6000
+    _Count: 3
+    _Daily: 0
+    _Echange_limit:
+    - 74
+    - 25031201
+    - 100
+    _Condition: 25031201:layer>=100
+    _ShowCurrency: 0
+  - _Id: 6008
+    _Note: 【挖地块活动】
+    _Reward:
+    - 29454
+    - 1
+    _Order: 13
+    _Cost:
+    - 13020
+    - 6000
+    _Count: 3
+    _Daily: 0
+    _Echange_limit:
+    - 74
+    - 25031201
+    - 100
+    _Condition: 25031201:layer>=100
+    _ShowCurrency: 0
+  - _Id: 6009
+    _Note: 【挖地块活动】
+    _Reward:
+    - 29457
+    - 1
+    _Order: 12
+    _Cost:
+    - 13020
+    - 8000
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 6010
+    _Note: 【挖地块活动】
+    _Reward:
+    - 29458
+    - 1
+    _Order: 11
+    _Cost:
+    - 13020
+    - 6000
+    _Count: 3
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 6011
+    _Note: 【挖地块活动】
+    _Reward:
+    - 29201
+    - 1
+    _Order: 10
+    _Cost:
+    - 13020
+    - 6000
+    _Count: 3
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 6012
+    _Note: 【挖地块活动】
+    _Reward:
+    - 50012
+    - 1
+    _Order: 9
+    _Cost:
+    - 13020
+    - 3000
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 6013
+    _Note: 【挖地块活动】
+    _Reward:
+    - 7004
+    - 10
+    _Order: 8
+    _Cost:
+    - 13020
+    - 3000
+    _Count: 10
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 6014
+    _Note: 【挖地块活动】
+    _Reward:
+    - 7007
+    - 10
+    _Order: 7
+    _Cost:
+    - 13020
+    - 2000
+    _Count: 10
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 6015
+    _Note: 【挖地块活动】
+    _Reward:
+    - 7009
+    - 10
+    _Order: 6
+    _Cost:
+    - 13020
+    - 1000
+    _Count: 10
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 6016
+    _Note: 【挖地块活动】
+    _Reward:
+    - 9010
+    - 20
+    _Order: 5
+    _Cost:
+    - 13020
+    - 600
+    _Count: -1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 6017
+    _Note: 【挖地块活动】
+    _Reward:
+    - 2101
+    - 10
+    _Order: 4
+    _Cost:
+    - 13020
+    - 300
+    _Count: -1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 6018
+    _Note: 【挖地块活动】
+    _Reward:
+    - 6001
+    - 10
+    _Order: 3
+    _Cost:
+    - 13020
+    - 200
+    _Count: -1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 6019
+    _Note: 【挖地块活动】
+    _Reward:
+    - 6002
+    - 10
+    _Order: 2
+    _Cost:
+    - 13020
+    - 200
+    _Count: -1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 6020
+    _Note: 【挖地块活动】
+    _Reward:
+    - 7001
+    - 1
+    _Order: 1
+    _Cost:
+    - 13020
+    - 4
+    _Count: -1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 7001
+    _Note: 【返校节活动】
+    _Reward:
+    - 29451
+    - 1
+    _Order: 25
+    _Cost:
+    - 13026
+    - 5000
+    _Count: 1
+    _Daily: 0
+    _Echange_limit:
+    - 73
+    - 24081801
+    - 400
+    _Condition: 24081801:cnt>=400
+    _ShowCurrency: 1
+  - _Id: 7002
+    _Note: 【返校节活动】
+    _Reward:
+    - 29452
+    - 1
+    _Order: 24
+    _Cost:
+    - 13026
+    - 5000
+    _Count: 1
+    _Daily: 0
+    _Echange_limit:
+    - 73
+    - 24081801
+    - 400
+    _Condition: 24081801:cnt>=400
+    _ShowCurrency: 0
+  - _Id: 7003
+    _Note: 【返校节活动】
+    _Reward:
+    - 29500
+    - 1
+    _Order: 23
+    _Cost:
+    - 13026
+    - 4000
+    _Count: 3
+    _Daily: 0
+    _Echange_limit:
+    - 73
+    - 24081801
+    - 200
+    _Condition: 24081801:cnt>=200
+    _ShowCurrency: 0
+  - _Id: 7004
+    _Note: 【返校节活动】
+    _Reward:
+    - 29453
+    - 1
+    _Order: 22
+    _Cost:
+    - 13026
+    - 3000
+    _Count: 3
+    _Daily: 0
+    _Echange_limit:
+    - 73
+    - 24081801
+    - 150
+    _Condition: 24081801:cnt>=150
+    _ShowCurrency: 0
+  - _Id: 7005
+    _Note: 【返校节活动】
+    _Reward:
+    - 12027
+    - 1
+    _Order: 21
+    _Cost:
+    - 13026
+    - 2000
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 7006
+    _Note: 【返校节活动】
+    _Reward:
+    - 30007
+    - 1
+    _Order: 20
+    _Cost:
+    - 13026
+    - 3000
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 7007
+    _Note: 【返校节活动】
+    _Reward:
+    - 31006
+    - 1
+    _Order: 19
+    _Cost:
+    - 13026
+    - 3000
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 7008
+    _Note: 【返校节活动】
+    _Reward:
+    - 31009
+    - 1
+    _Order: 18
+    _Cost:
+    - 13026
+    - 3000
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 7009
+    _Note: 【返校节活动】
+    _Reward:
+    - 29201
+    - 1
+    _Order: 17
+    _Cost:
+    - 13026
+    - 3000
+    _Count: 3
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 7010
+    _Note: 【返校节活动】
+    _Reward:
+    - 7004
+    - 10
+    _Order: 16
+    _Cost:
+    - 13026
+    - 1500
+    _Count: 3
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 7011
+    _Note: 【返校节活动】
+    _Reward:
+    - 7007
+    - 10
+    _Order: 15
+    _Cost:
+    - 13026
+    - 1000
+    _Count: 3
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 7012
+    _Note: 【返校节活动】
+    _Reward:
+    - 7009
+    - 10
+    _Order: 14
+    _Cost:
+    - 13026
+    - 600
+    _Count: 3
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 7013
+    _Note: 【返校节活动】
+    _Reward:
+    - 9010
+    - 10
+    _Order: 13
+    _Cost:
+    - 13026
+    - 150
+    _Count: -1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 7014
+    _Note: 【返校节活动】
+    _Reward:
+    - 2101
+    - 1
+    _Order: 12
+    _Cost:
+    - 13026
+    - 15
+    _Count: -1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 7015
+    _Note: 【返校节活动】
+    _Reward:
+    - 6001
+    - 1
+    _Order: 11
+    _Cost:
+    - 13026
+    - 10
+    _Count: -1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 7016
+    _Note: 【返校节活动】
+    _Reward:
+    - 6601
+    - 2
+    _Order: 10
+    _Cost:
+    - 13026
+    - 5
+    _Count: -1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 7017
+    _Note: 【返校节活动】
+    _Reward:
+    - 7001
+    - 1
+    _Order: 9
+    _Cost:
+    - 13026
+    - 2
+    _Count: -1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 8001
+    _Note: 【万圣节活动】
+    _Reward:
+    - 11017
+    - 1
+    _Order: 20
+    _Cost:
+    - 13031
+    - 5000
+    _Count: 1
+    _Daily: 0
+    _Echange_limit:
+    - 73
+    - 24102901
+    - 400
+    _Condition: 24102901:cnt>=400
+    _ShowCurrency: 1
+  - _Id: 8002
+    _Note: 【万圣节活动】
+    _Reward:
+    - 8012
+    - 1
+    _Order: 19
+    _Cost:
+    - 13031
+    - 5000
+    _Count: 1
+    _Daily: 0
+    _Echange_limit:
+    - 73
+    - 24102901
+    - 400
+    _Condition: 24102901:cnt>=400
+    _ShowCurrency: 0
+  - _Id: 8003
+    _Note: 【万圣节活动】
+    _Reward:
+    - 29451
+    - 1
+    _Order: 18
+    _Cost:
+    - 13031
+    - 5000
+    _Count: 1
+    _Daily: 0
+    _Echange_limit:
+    - 73
+    - 24102901
+    - 300
+    _Condition: 24102901:cnt>=300
+    _ShowCurrency: 0
+  - _Id: 8004
+    _Note: 【万圣节活动】
+    _Reward:
+    - 29452
+    - 1
+    _Order: 17
+    _Cost:
+    - 13031
+    - 5000
+    _Count: 1
+    _Daily: 0
+    _Echange_limit:
+    - 73
+    - 24102901
+    - 300
+    _Condition: 24102901:cnt>=300
+    _ShowCurrency: 0
+  - _Id: 8005
+    _Note: 【万圣节活动】
+    _Reward:
+    - 29500
+    - 1
+    _Order: 16
+    _Cost:
+    - 13031
+    - 4000
+    _Count: -1
+    _Daily: 0
+    _Echange_limit:
+    - 73
+    - 24102901
+    - 200
+    _Condition: 24102901:cnt>=200
+    _ShowCurrency: 0
+  - _Id: 8006
+    _Note: 【万圣节活动】
+    _Reward:
+    - 29453
+    - 1
+    _Order: 15
+    _Cost:
+    - 13031
+    - 3000
+    _Count: -1
+    _Daily: 0
+    _Echange_limit:
+    - 73
+    - 24102901
+    - 150
+    _Condition: 24102901:cnt>=150
+    _ShowCurrency: 0
+  - _Id: 8007
+    _Note: 【万圣节活动】
+    _Reward:
+    - 12009
+    - 1
+    _Order: 14
+    _Cost:
+    - 13031
+    - 1800
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 8008
+    _Note: 【万圣节活动】
+    _Reward:
+    - 12511
+    - 1
+    _Order: 13
+    _Cost:
+    - 13031
+    - 1800
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 8009
+    _Note: 【万圣节活动】
+    _Reward:
+    - 31010
+    - 1
+    _Order: 12
+    _Cost:
+    - 13031
+    - 3000
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 8010
+    _Note: 【万圣节活动】
+    _Reward:
+    - 31012
+    - 1
+    _Order: 11
+    _Cost:
+    - 13031
+    - 3000
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 8011
+    _Note: 【万圣节活动】
+    _Reward:
+    - 29201
+    - 1
+    _Order: 10
+    _Cost:
+    - 13031
+    - 3000
+    _Count: 3
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 8012
+    _Note: 【万圣节活动】
+    _Reward:
+    - 9017
+    - 1
+    _Order: 9
+    _Cost:
+    - 13031
+    - 1500
+    _Count: 3
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 8013
+    _Note: 【万圣节活动】
+    _Reward:
+    - 2103
+    - 1
+    _Order: 8
+    _Cost:
+    - 13031
+    - 1500
+    _Count: 3
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 8014
+    _Note: 【万圣节活动】
+    _Reward:
+    - 7004
+    - 10
+    _Order: 7
+    _Cost:
+    - 13031
+    - 1500
+    _Count: 3
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 8015
+    _Note: 【万圣节活动】
+    _Reward:
+    - 7007
+    - 10
+    _Order: 6
+    _Cost:
+    - 13031
+    - 1000
+    _Count: 3
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 8016
+    _Note: 【万圣节活动】
+    _Reward:
+    - 7003
+    - 10
+    _Order: 5
+    _Cost:
+    - 13031
+    - 600
+    _Count: 3
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 8017
+    _Note: 【万圣节活动】
+    _Reward:
+    - 2101
+    - 1
+    _Order: 4
+    _Cost:
+    - 13031
+    - 15
+    _Count: -1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 8018
+    _Note: 【万圣节活动】
+    _Reward:
+    - 6001
+    - 1
+    _Order: 3
+    _Cost:
+    - 13031
+    - 10
+    _Count: -1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 8019
+    _Note: 【万圣节活动】
+    _Reward:
+    - 6002
+    - 1
+    _Order: 2
+    _Cost:
+    - 13031
+    - 10
+    _Count: -1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 8020
+    _Note: 【万圣节活动】
+    _Reward:
+    - 7001
+    - 1
+    _Order: 1
+    _Cost:
+    - 13031
+    - 2
+    _Count: -1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 9001
+    _Note: 【圣诞节活动】
+    _Reward:
+    - 11019
+    - 1
+    _Order: 20
+    _Cost:
+    - 13033
+    - 5000
+    _Count: 1
+    _Daily: 0
+    _Echange_limit:
+    - 73
+    - 24121901
+    - 400
+    _Condition: 24121901:cnt>=400
+    _ShowCurrency: 1
+  - _Id: 9002
+    _Note: 【圣诞节活动】
+    _Reward:
+    - 8014
+    - 1
+    _Order: 19
+    _Cost:
+    - 13033
+    - 5000
+    _Count: 1
+    _Daily: 0
+    _Echange_limit:
+    - 73
+    - 24121901
+    - 400
+    _Condition: 24121901:cnt>=400
+    _ShowCurrency: 0
+  - _Id: 9003
+    _Note: 【圣诞节活动】
+    _Reward:
+    - 29451
+    - 1
+    _Order: 18
+    _Cost:
+    - 13033
+    - 5000
+    _Count: 1
+    _Daily: 0
+    _Echange_limit:
+    - 73
+    - 24121901
+    - 300
+    _Condition: 24121901:cnt>=300
+    _ShowCurrency: 0
+  - _Id: 9004
+    _Note: 【圣诞节活动】
+    _Reward:
+    - 29452
+    - 1
+    _Order: 17
+    _Cost:
+    - 13033
+    - 5000
+    _Count: 1
+    _Daily: 0
+    _Echange_limit:
+    - 73
+    - 24121901
+    - 300
+    _Condition: 24121901:cnt>=300
+    _ShowCurrency: 0
+  - _Id: 9005
+    _Note: 【圣诞节活动】
+    _Reward:
+    - 29500
+    - 1
+    _Order: 16
+    _Cost:
+    - 13033
+    - 4000
+    _Count: -1
+    _Daily: 0
+    _Echange_limit:
+    - 73
+    - 24121901
+    - 200
+    _Condition: 24121901:cnt>=200
+    _ShowCurrency: 0
+  - _Id: 9006
+    _Note: 【圣诞节活动】
+    _Reward:
+    - 29453
+    - 1
+    _Order: 15
+    _Cost:
+    - 13033
+    - 3000
+    _Count: -1
+    _Daily: 0
+    _Echange_limit:
+    - 73
+    - 24121901
+    - 150
+    _Condition: 24121901:cnt>=150
+    _ShowCurrency: 0
+  - _Id: 9007
+    _Note: 【圣诞节活动】
+    _Reward:
+    - 12011
+    - 1
+    _Order: 14
+    _Cost:
+    - 13033
+    - 2000
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 9008
+    _Note: 【圣诞节活动】
+    _Reward:
+    - 12513
+    - 1
+    _Order: 13
+    _Cost:
+    - 13033
+    - 2000
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 9009
+    _Note: 【圣诞节活动】
+    _Reward:
+    - 31006
+    - 1
+    _Order: 12
+    _Cost:
+    - 13033
+    - 3000
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 9010
+    _Note: 【圣诞节活动】
+    _Reward:
+    - 31007
+    - 1
+    _Order: 11
+    _Cost:
+    - 13033
+    - 3000
+    _Count: 1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 9011
+    _Note: 【圣诞节活动】
+    _Reward:
+    - 29201
+    - 1
+    _Order: 10
+    _Cost:
+    - 13033
+    - 3000
+    _Count: 3
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 9012
+    _Note: 【圣诞节活动】
+    _Reward:
+    - 9017
+    - 1
+    _Order: 9
+    _Cost:
+    - 13033
+    - 1500
+    _Count: 3
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 9013
+    _Note: 【圣诞节活动】
+    _Reward:
+    - 2103
+    - 1
+    _Order: 8
+    _Cost:
+    - 13033
+    - 1500
+    _Count: 3
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 9014
+    _Note: 【圣诞节活动】
+    _Reward:
+    - 7004
+    - 10
+    _Order: 7
+    _Cost:
+    - 13033
+    - 1500
+    _Count: 3
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 9015
+    _Note: 【圣诞节活动】
+    _Reward:
+    - 7007
+    - 10
+    _Order: 6
+    _Cost:
+    - 13033
+    - 1000
+    _Count: 3
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 9016
+    _Note: 【圣诞节活动】
+    _Reward:
+    - 7003
+    - 10
+    _Order: 5
+    _Cost:
+    - 13033
+    - 600
+    _Count: 3
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 9017
+    _Note: 【圣诞节活动】
+    _Reward:
+    - 2101
+    - 1
+    _Order: 4
+    _Cost:
+    - 13033
+    - 15
+    _Count: -1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 9018
+    _Note: 【圣诞节活动】
+    _Reward:
+    - 6001
+    - 1
+    _Order: 3
+    _Cost:
+    - 13033
+    - 10
+    _Count: -1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 9019
+    _Note: 【圣诞节活动】
+    _Reward:
+    - 6002
+    - 1
+    _Order: 2
+    _Cost:
+    - 13033
+    - 10
+    _Count: -1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 9020
+    _Note: 【圣诞节活动】
+    _Reward:
+    - 7001
+    - 1
+    _Order: 1
+    _Cost:
+    - 13033
+    - 2
+    _Count: -1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 20001
+    _Note: 【老玩家回归】
+    _Reward:
+    - 7004
+    - 1
+    _Order: 8
+    _Cost:
+    - 13027
+    - 300
+    _Count: 30
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 1
+  - _Id: 20002
+    _Note: 【老玩家回归】
+    _Reward:
+    - 7007
+    - 1
+    _Order: 7
+    _Cost:
+    - 13027
+    - 200
+    _Count: 30
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 20003
+    _Note: 【老玩家回归】
+    _Reward:
+    - 7009
+    - 1
+    _Order: 6
+    _Cost:
+    - 13027
+    - 100
+    _Count: 30
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 20004
+    _Note: 【老玩家回归】
+    _Reward:
+    - 7003
+    - 1
+    _Order: 5
+    _Cost:
+    - 13027
+    - 120
+    _Count: 30
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 20005
+    _Note: 【老玩家回归】
+    _Reward:
+    - 2101
+    - 10
+    _Order: 4
+    _Cost:
+    - 13027
+    - 300
+    _Count: 30
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 20006
+    _Note: 【老玩家回归】
+    _Reward:
+    - 6001
+    - 10
+    _Order: 3
+    _Cost:
+    - 13027
+    - 200
+    _Count: 30
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 20007
+    _Note: 【老玩家回归】
+    _Reward:
+    - 6002
+    - 10
+    _Order: 2
+    _Cost:
+    - 13027
+    - 200
+    _Count: 30
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0
+  - _Id: 20008
+    _Note: 【老玩家回归】
+    _Reward:
+    - 7001
+    - 1
+    _Order: 1
+    _Cost:
+    - 13027
+    - 4
+    _Count: -1
+    _Daily: 0
+    _Echange_limit: []
+    _Condition:
+    _ShowCurrency: 0

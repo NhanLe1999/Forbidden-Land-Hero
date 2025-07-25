@@ -1,0 +1,276 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0a87e609ea2e0066fb8c726c465144f, type: 3}
+  m_Name: DYCarSkillCfg
+  m_EditorClassIdentifier:
+  _Items:
+  - _Id: 1001
+    _Nota1: 爆破狂热
+    _Nota2: 在氮气爆发期间，射击速度+50%，每10次射击引发一次爆炸，造成{0}%火系伤害
+    _SkillGroup: -5160715
+    _ShowCondition: []
+  - _Id: 1002
+    _Nota1: 加剧焚烧
+    _Nota2: 在氮气爆发期间，火系伤害+{0}%，附加[燃烧]-5层
+    _SkillGroup: -2289162
+    _ShowCondition: []
+  - _Id: 1003
+    _Nota1: 闹鬼引擎
+    _Nota2: 在氮气爆发期间，持续引发敌车出现幽灵造成伤害，每次造成{0}%暗系伤害，总计5次
+    _SkillGroup: -1448201
+    _ShowCondition: []
+  - _Id: 1004
+    _Nota1: 极速冷冻
+    _Nota2: 启动氮气爆发后，凝结一枚冰晶并向敌人射出，造成{0}%冰系伤害
+    _SkillGroup: -673808
+    _ShowCondition: []
+  - _Id: 1005
+    _Nota1: 雪战突袭
+    _Nota2: 首次进入氮气爆发，持续向敌人快速持续投掷雪球，3秒内造成{0}%伤害
+    _SkillGroup: 99569
+    _ShowCondition: []
+  - _Id: 1006
+    _Nota1: 手雷掩护
+    _Nota2: 氮气爆发期间，每秒向敌人投掷手雷造成{0}%子弹伤害
+    _SkillGroup: 2905586
+    _ShowCondition: []
+  - _Id: 1007
+    _Nota1: 最后波纹
+    _Nota2: 氮气爆发结束时，连续向敌人发射3次脉冲激光造成{0}%光系伤害
+    _SkillGroup: 3685107
+    _ShowCondition: []
+  - _Id: 1008
+    _Nota1: 高速气流
+    _Nota2: 氮气爆发期间，[高速气流]持续伤害敌人，每秒造成{0}%风系伤害
+    _SkillGroup: 4459500
+    _ShowCondition: []
+  - _Id: 1009
+    _Nota1: 简单技巧
+    _Nota2: 氮气爆发期间，额外获得{0}%的伤害增加
+    _SkillGroup: 5298413
+    _ShowCondition: []
+  - _Id: 1010
+    _Nota1: 氮气入门
+    _Nota2: 氮气爆发期间，额外获得{0}%的伤害加成
+    _SkillGroup: -28434
+    _ShowCondition: []
+  - _Id: 1011
+    _Nota1: 派对余韵
+    _Nota2: 在氮气爆发期间，射击速度+{0}%。若这期间完成了50次射击，氮气结束后保留这个增益3秒
+    _SkillGroup: 680431
+    _ShowCondition:
+    - 72
+    - 35
+  - _Id: 1012
+    _Nota1: 呼叫舰队
+    _Nota2: 氮气爆发开启后，呼叫舰队支援：氮气爆发期间增加100%弹夹数，舰队持续锁定打击敌人，总计造成{0}%电系伤害
+    _SkillGroup: 1455848
+    _ShowCondition:
+    - 72
+    - 35
+  - _Id: 1013
+    _Nota1: 低速藐视
+    _Nota2: 启动氮气爆发时造成{0}%暗系伤害，并附加1层低速藐视：未处在氮气爆发状态时每1秒受到40%暗系伤害（持续9秒，最多叠加5层）
+    _SkillGroup: 2230249
+    _ShowCondition:
+    - 72
+    - 35
+  - _Id: 1014
+    _Nota1: 紊乱气流
+    _Nota2: 氮气爆发时引发气流紊乱，造成{0}%风系伤害。若氮气结束时战车生命值大于50%，额外触发1次
+    _SkillGroup: 5166314
+    _ShowCondition: []
+  - _Id: 1015
+    _Nota1: 超载电弧
+    _Nota2: 氮气爆发开启后，激发电弧造成{0}%电系伤害
+    _SkillGroup: 5940715
+    _ShowCondition: []
+  - _Id: 1016
+    _Nota1: 高压空气炮
+    _Nota2: 氮气爆发期间，发射5次空气炮，每次造成{0}%风系伤害，若你的生命值大于60%，换弹也会触发风空气炮
+    _SkillGroup: 6720228
+    _ShowCondition:
+    - 72
+    - 35
+  - _Id: 1017
+    _Nota1: 能量激光
+    _Nota2: 氮气爆发期间，持续引导激光对敌人总计造成{0}%光系伤害，每次释放技能使武器弹道+1
+    _SkillGroup: 7691237
+    _ShowCondition:
+    - 72
+    - 35
+  - _Id: 2001
+    _Nota1: 重机枪车体适配
+    _Nota2: 使用重机枪时，射击速度+{0}%
+    _SkillGroup: 8128081
+    _ShowCondition: []
+  - _Id: 2002
+    _Nota1: 霰弹枪火焰强化
+    _Nota2: 使用霰弹枪时，火系伤害+{0}%
+    _SkillGroup: 8968018
+    _ShowCondition: []
+  - _Id: 2003
+    _Nota1: 弩箭结构调整
+    _Nota2: 使用弩箭时，暗系伤害+{0}%
+    _SkillGroup: -7035821
+    _ShowCondition: []
+  - _Id: 2004
+    _Nota1: 超低温火箭弹
+    _Nota2: 使用火箭炮时，冰系伤害+{0}%
+    _SkillGroup: -6064820
+    _ShowCondition: []
+  - _Id: 2005
+    _Nota1: 步枪冬季弹药
+    _Nota2: 使用步枪时，冰系伤害+{0}%
+    _SkillGroup: -3188147
+    _ShowCondition: []
+  - _Id: 2006
+    _Nota1: 光明狙击弹道
+    _Nota2: 使用狙击枪时，光系伤害+{0}%
+    _SkillGroup: -2413746
+    _ShowCondition: []
+  - _Id: 2007
+    _Nota1: 重型弹药优化
+    _Nota2: 使用重机枪时，子弹伤害+{0}%
+    _SkillGroup: -1574833
+    _ShowCondition: []
+  - _Id: 2008
+    _Nota1: 霰弹射击优化
+    _Nota2: 使用霰弹枪时，子弹伤害+{0}%
+    _SkillGroup: -800440
+    _ShowCondition: []
+  - _Id: 2009
+    _Nota1: 弩箭弹道优化
+    _Nota2: 使用弩箭时，子弹伤害+{0}%
+    _SkillGroup: 2072137
+    _ShowCondition: []
+  - _Id: 2010
+    _Nota1: 火箭弹优化
+    _Nota2: 使用火箭筒时，子弹伤害+{0}%
+    _SkillGroup: -5417398
+    _ShowCondition: []
+  - _Id: 2011
+    _Nota1: 步枪性能优化
+    _Nota2: 使用步枪时，子弹伤害+{0}%
+    _SkillGroup: -4642997
+    _ShowCondition: []
+  - _Id: 2012
+    _Nota1: 狙击射击优化
+    _Nota2: 使用狙击枪时，子弹伤害+{0}%
+    _SkillGroup: -3804092
+    _ShowCondition: []
+  - _Id: 2013
+    _Nota1: 车上射击入门
+    _Nota2: 子弹伤害+{0}%
+    _SkillGroup: -3029691
+    _ShowCondition: []
+  - _Id: 2014
+    _Nota1: 重型爆燃弹药
+    _Nota2: 使用重机枪时,火系伤害+{0}%
+    _SkillGroup: -153018
+    _ShowCondition:
+    - 72
+    - 35
+  - _Id: 2015
+    _Nota1: 重型高能弹药
+    _Nota2: 使用重机枪时,电系伤害+{0}%
+    _SkillGroup: 555847
+    _ShowCondition:
+    - 72
+    - 35
+  - _Id: 2016
+    _Nota1: 通用加速插件
+    _Nota2: 射击速度+{0}%，换弹速度+{0}%
+    _SkillGroup: 1329216
+    _ShowCondition:
+    - 72
+    - 35
+  - _Id: 2017
+    _Nota1: 黯淡箭矢
+    _Nota2: 使用弩箭时，暗系伤害+{0}%
+    _SkillGroup: 2103617
+    _ShowCondition:
+    - 72
+    - 35
+  - _Id: 2018
+    _Nota1: 气动复用枪管
+    _Nota2: 使用霰弹枪时，风系伤害+{0}%
+    _SkillGroup: 5041730
+    _ShowCondition: []
+  - _Id: 2019
+    _Nota1: 重机枪电击弹头
+    _Nota2: 使用重机枪时，电系伤害+{0}%
+    _SkillGroup: 5816131
+    _ShowCondition: []
+  - _Id: 2020
+    _Nota1: 高效气动枪管
+    _Nota2: 使用霰弹枪时，风系伤害+{0}%
+    _SkillGroup: -1673348
+    _ShowCondition:
+    - 72
+    - 35
+  - _Id: 2021
+    _Nota1: 聚光水晶箭头
+    _Nota2: 使用弩箭时，光系伤害+{0}%
+    _SkillGroup: -899971
+    _ShowCondition:
+    - 72
+    - 35
+  - _Id: 2022
+    _Nota1: 浴火弹药
+    _Nota2: 使用霰弹枪时，火系伤害+{0}%
+    _SkillGroup: 1971582
+    _ShowCondition:
+    - 72
+    - 35
+  - _Id: 2023
+    _Nota1: 寒霜火箭
+    _Nota2: 使用火箭炮时，冰系伤害+{0}%
+    _SkillGroup: 2816639
+    _ShowCondition:
+    - 72
+    - 35
+  - _Id: 2024
+    _Nota1: 步枪雪地瞄具
+    _Nota2: 使用步枪时，冰系伤害+{0}%
+    _SkillGroup: 3591032
+    _ShowCondition:
+    - 72
+    - 35
+  - _Id: 2025
+    _Nota1: 狙击强化激光
+    _Nota2: 使用狙击枪时，光系伤害+{0}%
+    _SkillGroup: 4364409
+    _ShowCondition:
+    - 72
+    - 35
+  - _Id: 2026
+    _Nota1: 暗物质火箭弹
+    _Nota2: 使用火箭炮时，暗系伤害+{0}%
+    _SkillGroup: 5335418
+    _ShowCondition:
+    - 72
+    - 35
+  - _Id: 2027
+    _Nota1: 步枪轰炸弹药
+    _Nota2: 使用步枪时，火系伤害+{0}%
+    _SkillGroup: 8207995
+    _ShowCondition:
+    - 72
+    - 35
+  - _Id: 2028
+    _Nota1: 升温轰炸
+    _Nota2: 氮气爆发开启后轰炸敌车，造成800%火系伤害，并使你的火系伤害+3%（可叠加5层）
+    _SkillGroup: 8982388
+    _ShowCondition:
+    - 72
+    - 35

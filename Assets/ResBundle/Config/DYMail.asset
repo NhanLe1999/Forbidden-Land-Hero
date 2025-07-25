@@ -1,0 +1,695 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6acffb7e3b2db9ae1cba30e23c46918, type: 3}
+  m_Name: DYMail
+  m_EditorClassIdentifier:
+  _Items:
+  - _ID: 1000
+    _Note: 充值补偿奖励
+    _Title: 500049
+    _Desc: 500050
+    _Time: 168
+  - _ID: 1001
+    _Note: 七日任务活动
+    _Title: 5709
+    _Desc: 9113
+    _Time: 168
+  - _ID: 1002
+    _Note: 连充活动
+    _Title: 9111
+    _Desc: 9113
+    _Time: 168
+  - _ID: 1003
+    _Note: 累充活动
+    _Title: 9112
+    _Desc: 9113
+    _Time: 168
+  - _ID: 1004
+    _Note: 芯片累抽
+    _Title: 9123
+    _Desc: 9113
+    _Time: 168
+  - _ID: 1005
+    _Note: 装备累抽
+    _Title: 9124
+    _Desc: 9113
+    _Time: 168
+  - _ID: 1006
+    _Note: 荣誉战令
+    _Title: 1146
+    _Desc: 1147
+    _Time: 168
+  - _ID: 1007
+    _Note: 虚拟战场
+    _Title: 1432
+    _Desc: 678
+    _Time: 168
+  - _ID: 1008
+    _Note: 任务-阶段任务
+    _Title: 3845
+    _Desc: 9113
+    _Time: 168
+  - _ID: 1009
+    _Note: 爬塔未领取奖励跨塔后邮件发放
+    _Title: 1565
+    _Desc: 1566
+    _Time: 168
+  - _ID: 1010
+    _Note: 首领讨伐战
+    _Title: 800020
+    _Desc: 800021
+    _Time: 168
+  - _ID: 1011
+    _Note: 任务-任务
+    _Title: 3613
+    _Desc: 3614
+    _Time: 168
+  - _ID: 1012
+    _Note: 兑换活动
+    _Title: 5707
+    _Desc: 5708
+    _Time: 168
+  - _ID: 1013
+    _Note: 春节活动战令道具补发
+    _Title: 1007008
+    _Desc: 1007011
+    _Time: 168
+  - _ID: 1014
+    _Note: 春节活动任务道具补发
+    _Title: 1007009
+    _Desc: 3614
+    _Time: 168
+  - _ID: 1015
+    _Note: 春节活动兑换金币补发
+    _Title: 1007010
+    _Desc: 5708
+    _Time: 168
+  - _ID: 1016
+    _Note: 收藏品战令：道具补发
+    _Title: 3846
+    _Desc: 9113
+    _Time: 168
+  - _ID: 1017
+    _Note: 进阶挑战任务活动（8到14日）
+    _Title: 610238
+    _Desc: 9113
+    _Time: 168
+  - _ID: 1018
+    _Note: 复活节活动战令道具补发
+    _Title: 1007035
+    _Desc: 1007011
+    _Time: 168
+  - _ID: 1019
+    _Note: 复活节活动任务道具补发
+    _Title: 1007036
+    _Desc: 3614
+    _Time: 168
+  - _ID: 1020
+    _Note: 复活节活动兑换金币补发
+    _Title: 1007037
+    _Desc: 5708
+    _Time: 168
+  - _ID: 1021
+    _Note: 周年庆活动排行榜奖励
+    _Title: 630016
+    _Desc: 630018
+    _Time: 168
+  - _ID: 1022
+    _Note: 周年庆挖层奖励道具补发
+    _Title: 630017
+    _Desc: 9113
+    _Time: 168
+  - _ID: 1023
+    _Note: 周年庆战令道具补发
+    _Title: 630013
+    _Desc: 1007011
+    _Time: 168
+  - _ID: 1024
+    _Note: 周年庆任务道具补发
+    _Title: 630014
+    _Desc: 3614
+    _Time: 168
+  - _ID: 1025
+    _Note: 周年庆兑换金币补发
+    _Title: 630015
+    _Desc: 5708
+    _Time: 168
+  - _ID: 1026
+    _Note: 劳动节活动战令道具补发
+    _Title: 1007065
+    _Desc: 1007011
+    _Time: 168
+  - _ID: 1027
+    _Note: 劳动节活动任务道具补发
+    _Title: 1007066
+    _Desc: 3614
+    _Time: 168
+  - _ID: 1028
+    _Note: 劳动节活动兑换金币补发
+    _Title: 1007067
+    _Desc: 5708
+    _Time: 168
+  - _ID: 1029
+    _Note: 跨服竞技场全服奖励
+    _Title: 700068
+    _Desc: 700069
+    _Time: 168
+  - _ID: 1030
+    _Note: 端午节活动-战令道具补发
+    _Title: 29317
+    _Desc: 1007011
+    _Time: 168
+  - _ID: 1031
+    _Note: 端午节活动-兑换金币补发
+    _Title: 29318
+    _Desc: 5708
+    _Time: 168
+  - _ID: 1032
+    _Note: 周年庆拼图任务补发
+    _Title: 630040
+    _Desc: 9113
+    _Time: 169
+  - _ID: 1033
+    _Note: 夺宝行动：战令道具补发
+    _Title: 630054
+    _Desc: 9113
+    _Time: 168
+  - _ID: 1034
+    _Note: 奥运会活动-战令道具补发
+    _Title: 630050
+    _Desc: 1007011
+    _Time: 168
+  - _ID: 1035
+    _Note: 奥运会活动-兑换金币补发
+    _Title: 630051
+    _Desc: 5708
+    _Time: 168
+  - _ID: 1036
+    _Note: 奥运会活动-任务道具补发
+    _Title: 630053
+    _Desc: 3614
+    _Time: 168
+  - _ID: 1037
+    _Note: 七夕活动-战令道具补发
+    _Title: 630070
+    _Desc: 1007011
+    _Time: 168
+  - _ID: 1038
+    _Note: 七夕活动-兑换金币补发
+    _Title: 630071
+    _Desc: 5708
+    _Time: 168
+  - _ID: 1039
+    _Note: 七夕活动-任务道具补发
+    _Title: 630072
+    _Desc: 3614
+    _Time: 168
+  - _ID: 1040
+    _Note: 返校节活动战令道具补发
+    _Title: 1007079
+    _Desc: 1007011
+    _Time: 168
+  - _ID: 1041
+    _Note: 返校节活动任务道具补发
+    _Title: 1007080
+    _Desc: 3614
+    _Time: 168
+  - _ID: 1042
+    _Note: 返校节活动兑换金币补发
+    _Title: 1007081
+    _Desc: 5708
+    _Time: 168
+  - _ID: 1043
+    _Note: 飞行棋：战令道具补发
+    _Title: 630076
+    _Desc: 9113
+    _Time: 168
+  - _ID: 1044
+    _Note: 中秋活动-战令道具补发
+    _Title: 630132
+    _Desc: 1007011
+    _Time: 168
+  - _ID: 1045
+    _Note: 中秋活动-兑换金币补发
+    _Title: 630133
+    _Desc: 5708
+    _Time: 168
+  - _ID: 1046
+    _Note: 中秋活动-任务道具补发
+    _Title: 630134
+    _Desc: 3614
+    _Time: 168
+  - _ID: 1047
+    _Note: 国庆活动排行榜奖励
+    _Title: 630140
+    _Desc: 630018
+    _Time: 168
+  - _ID: 1048
+    _Note: 国庆挖层奖励道具补发
+    _Title: 630141
+    _Desc: 9113
+    _Time: 168
+  - _ID: 1049
+    _Note: 国庆战令道具补发
+    _Title: 630137
+    _Desc: 1007011
+    _Time: 168
+  - _ID: 1050
+    _Note: 国庆任务道具补发
+    _Title: 630138
+    _Desc: 3614
+    _Time: 168
+  - _ID: 1051
+    _Note: 国庆兑换金币补发
+    _Title: 630139
+    _Desc: 5708
+    _Time: 168
+  - _ID: 1052
+    _Note: 万圣节活动战令道具补发（2024）
+    _Title: 1007089
+    _Desc: 1007011
+    _Time: 168
+  - _ID: 1053
+    _Note: 万圣节活动任务道具补发（2024）
+    _Title: 1007090
+    _Desc: 3614
+    _Time: 168
+  - _ID: 1054
+    _Note: 万圣节活动兑换金币补发（2024）
+    _Title: 1007091
+    _Desc: 5708
+    _Time: 168
+  - _ID: 1055
+    _Note: 新双周战令
+    _Title: 610441
+    _Desc: 610442
+    _Time: 168
+  - _ID: 1056
+    _Note: 感恩节活动-战令道具补发
+    _Title: 630145
+    _Desc: 1007011
+    _Time: 168
+  - _ID: 1057
+    _Note: 感恩节活动-兑换金币补发
+    _Title: 630146
+    _Desc: 5708
+    _Time: 168
+  - _ID: 1058
+    _Note: 感恩节活动-任务道具补发
+    _Title: 630147
+    _Desc: 3614
+    _Time: 168
+  - _ID: 1059
+    _Note: 圣诞节活动战令道具补发（2024）
+    _Title: 1007100
+    _Desc: 1007011
+    _Time: 168
+  - _ID: 1060
+    _Note: 圣诞节活动任务道具补发（2024）
+    _Title: 1007101
+    _Desc: 3614
+    _Time: 168
+  - _ID: 1061
+    _Note: 圣诞节活动兑换金币补发（2024）
+    _Title: 1007102
+    _Desc: 5708
+    _Time: 168
+  - _ID: 1062
+    _Note: 元旦活动-战令道具补发
+    _Title: 1007095
+    _Desc: 1007011
+    _Time: 168
+  - _ID: 1063
+    _Note: 元旦活动-兑换金币补发
+    _Title: 1007096
+    _Desc: 5708
+    _Time: 168
+  - _ID: 1064
+    _Note: 元旦活动-任务道具补发
+    _Title: 1007097
+    _Desc: 3614
+    _Time: 168
+  - _ID: 1065
+    _Note: 合服活动-宴会奖励补发
+    _Title: 1007118
+    _Desc: 9113
+    _Time: 168
+  - _ID: 1066
+    _Note: 合服活动-全服任务奖励补发
+    _Title: 1007119
+    _Desc: 9113
+    _Time: 168
+  - _ID: 1067
+    _Note: 合服活动-战令奖励补发
+    _Title: 1007120
+    _Desc: 1007011
+    _Time: 168
+  - _ID: 1068
+    _Note: 情人节活动-战令道具补发
+    _Title: 630159
+    _Desc: 1007011
+    _Time: 168
+  - _ID: 1069
+    _Note: 情人节活动-兑换金币补发
+    _Title: 630161
+    _Desc: 5708
+    _Time: 168
+  - _ID: 1070
+    _Note: 情人节活动-任务道具补发
+    _Title: 630160
+    _Desc: 3614
+    _Time: 168
+  - _ID: 1071
+    _Note: 元宵节活动-战令道具补发
+    _Title: 630163
+    _Desc: 1007011
+    _Time: 168
+  - _ID: 1072
+    _Note: 元宵节活动-兑换金币补发
+    _Title: 630164
+    _Desc: 5708
+    _Time: 168
+  - _ID: 1073
+    _Note: 元宵节活动-任务道具补发
+    _Title: 630165
+    _Desc: 3614
+    _Time: 168
+  - _ID: 1074
+    _Note: 跨服助力-任务奖励补发
+    _Title: 631018
+    _Desc: 9113
+    _Time: 168
+  - _ID: 1075
+    _Note: 跨服助力-阶段排行奖励
+    _Title: 631014
+    _Desc: 631015
+    _Time: 168
+  - _ID: 1076
+    _Note: 跨服助力-总排行奖励
+    _Title: 631016
+    _Desc: 631017
+    _Time: 168
+  - _ID: 1077
+    _Note: 泼水节活动-战令道具补发
+    _Title: 630174
+    _Desc: 1007011
+    _Time: 168
+  - _ID: 1078
+    _Note: 泼水节活动-兑换金币补发
+    _Title: 630175
+    _Desc: 5708
+    _Time: 168
+  - _ID: 1079
+    _Note: 泼水节活动-任务道具补发
+    _Title: 630176
+    _Desc: 3614
+    _Time: 168
+  - _ID: 1080
+    _Note: 跨服助力-阶段排行奖励-公会
+    _Title: 631031
+    _Desc: 631033
+    _Time: 168
+  - _ID: 1081
+    _Note: 跨服助力-总排行奖励-公会
+    _Title: 631032
+    _Desc: 631034
+    _Time: 168
+  - _ID: 1082
+    _Note: 端午活动-任务道具补发
+    _Title: 631035
+    _Desc: 3614
+    _Time: 168
+  - _ID: 1083
+    _Note: 2周年庆预热-签到奖励补发
+    _Title: 644003
+    _Desc: 9113
+    _Time: 168
+  - _ID: 1084
+    _Note: 2周年庆正式-体力回收转化
+    _Title: 644017
+    _Desc: 1333
+    _Time: 168
+  - _ID: 1085
+    _Note: 2周年庆正式-庆典战令奖励补发
+    _Title: 644020
+    _Desc: 9113
+    _Time: 168
+  - _ID: 1086
+    _Note: 2周年庆正式-狂欢战令奖励补发
+    _Title: 644021
+    _Desc: 9113
+    _Time: 168
+  - _ID: 1087
+    _Note: 2周年庆正式-每日积分奖励补发
+    _Title: 644022
+    _Desc: 9113
+    _Time: 168
+  - _ID: 1088
+    _Note: 2周年庆正式-兑换活动奖励补发
+    _Title: 644023
+    _Desc: 5708
+    _Time: 168
+  - _ID: 2001
+    _Note: 节日活动兑换物过期折金币
+    _Title: 900011
+    _Desc: 900012
+    _Time: 168
+  - _ID: 2002
+    _Note: 角色抽奖活动兑换物过期折钻石
+    _Title: 900102
+    _Desc: 900103
+    _Time: 168
+  - _ID: 2003
+    _Note: 电磁炮抽奖活动道具折算钻石
+    _Title: 900108
+    _Desc: 900109
+    _Time: 168
+  - _ID: 3001
+    _Note: 巅峰试炼-小结算
+    _Title: 613
+    _Desc: 615
+    _Time: 168
+  - _ID: 3002
+    _Note: 巅峰试炼-大结算
+    _Title: 614
+    _Desc: 615
+    _Time: 168
+  - _ID: 4001
+    _Note: 虚拟战场-赛季结算
+    _Title: 1432
+    _Desc: 678
+    _Time: 168
+  - _ID: 5001
+    _Note: 问卷调查
+    _Title: 2022
+    _Desc: 2023
+    _Time: 168
+  - _ID: 6001
+    _Note: 黑五-活动结束，未领取的返还奖励
+    _Title: 5609
+    _Desc: 5610
+    _Time: 168
+  - _ID: 6002
+    _Note: 战力达标-活动结束，未领取的奖励
+    _Title: 5706
+    _Desc: 9113
+    _Time: 168
+  - _ID: 6003
+    _Note: 连续充值-循环
+    _Title: 5715
+    _Desc: 9113
+    _Time: 168
+  - _ID: 6004
+    _Note: 巅峰战令
+    _Title: 5727
+    _Desc: 9113
+    _Time: 168
+  - _ID: 7001
+    _Note: 越南充值邮件
+    _Title: 611
+    _Desc: 612
+    _Time: 720
+  - _ID: 8001
+    _Note: 机器助力排行奖励
+    _Title: 610215
+    _Desc: 610220
+    _Time: 168
+  - _ID: 8002
+    _Note: 脑机助力排行奖励
+    _Title: 610216
+    _Desc: 610220
+    _Time: 168
+  - _ID: 8003
+    _Note: 图纸助力排行奖励
+    _Title: 610217
+    _Desc: 610220
+    _Time: 168
+  - _ID: 8004
+    _Note: 装备助力排行奖励
+    _Title: 610218
+    _Desc: 610220
+    _Time: 168
+  - _ID: 8005
+    _Note: 收藏助力排行奖励
+    _Title: 610219
+    _Desc: 610220
+    _Time: 168
+  - _ID: 8006
+    _Note: 机器助力任务
+    _Title: 610228
+    _Desc: 9113
+    _Time: 168
+  - _ID: 8007
+    _Note: 脑机助力任务
+    _Title: 610229
+    _Desc: 9113
+    _Time: 168
+  - _ID: 8008
+    _Note: 图纸助力任务
+    _Title: 610230
+    _Desc: 9113
+    _Time: 168
+  - _ID: 8009
+    _Note: 装备助力任务
+    _Title: 610231
+    _Desc: 9113
+    _Time: 168
+  - _ID: 8010
+    _Note: 收藏助力任务
+    _Title: 610232
+    _Desc: 9113
+    _Time: 168
+  - _ID: 8011
+    _Note: 关卡排行奖励
+    _Title: 610237
+    _Desc: 9113
+    _Time: 168
+  - _ID: 8012
+    _Note: 公会防御战
+    _Title: 800135
+    _Desc: 800136
+    _Time: 168
+  - _ID: 8013
+    _Note: 赛博迷城
+    _Title: 800264
+    _Desc: 800265
+    _Time: 168
+  - _ID: 8014
+    _Note: 配件助力任务
+    _Title: 610304
+    _Desc: 9113
+    _Time: 168
+  - _ID: 8015
+    _Note: 配件助力排行榜
+    _Title: 610303
+    _Desc: 610220
+    _Time: 168
+  - _ID: 8016
+    _Note: 公会对决人数不足
+    _Title: 700197
+    _Desc: 700198
+    _Time: 96
+  - _ID: 8017
+    _Note: 芯片助力任务
+    _Title: 610426
+    _Desc: 9113
+    _Time: 168
+  - _ID: 8018
+    _Note: 配件助力排行榜
+    _Title: 610425
+    _Desc: 610220
+    _Time: 168
+  - _ID: 9001
+    _Note: 会长离线禅让：新会长
+    _Title: 610246
+    _Desc: 610247
+    _Time: 168
+  - _ID: 9002
+    _Note: 会长离线禅让：旧会长
+    _Title: 610246
+    _Desc: 610248
+    _Time: 168
+  - _ID: 9101
+    _Note: 【回归】任务奖励补发
+    _Title: 630116
+    _Desc: 9113
+    _Time: 168
+  - _ID: 9102
+    _Note: 【回归】商店奖励补发
+    _Title: 630117
+    _Desc: 9113
+    _Time: 168
+  - _ID: 9103
+    _Note: 【回归】返利任务奖励补发
+    _Title: 630118
+    _Desc: 9113
+    _Time: 168
+  - _ID: 9104
+    _Note: 【回归】返利奖励补发
+    _Title: 630119
+    _Desc: 9113
+    _Time: 168
+  - _ID: 9200
+    _Note: 【每日必买礼包】奖励补发
+    _Title: 631043
+    _Desc: 9113
+    _Time: 168
+  - _ID: 10001
+    _Note: 加入社群邮件
+    _Title: 900078
+    _Desc: 900079
+    _Time: 168
+  - _ID: 10002
+    _Note: 绑定邮箱邮件
+    _Title: 900088
+    _Desc: 900089
+    _Time: 168
+  - _ID: 11001
+    _Note: 退款警告邮件
+    _Title: 913017
+    _Desc: 913014
+    _Time: 168
+  - _ID: 12001
+    _Note: 小游戏奖励邮件
+    _Title: 913116
+    _Desc: 913117
+    _Time: 24
+  - _ID: 12002
+    _Note: 【关卡首通】老用户奖励补发邮件
+    _Title: 913118
+    _Desc: 913119
+    _Time: 8760
+  - _ID: 12003
+    _Note: 【充值补单】运营补单邮件
+    _Title: 913122
+    _Desc: 913123
+    _Time: 8760
+  - _ID: 13001
+    _Note: 营地改版资源返还邮件
+    _Title: 642070
+    _Desc: 642071
+    _Time: 336
+  - _ID: 14001
+    _Note: 【组队玩法】排名邮件
+    _Title: 643016
+    _Desc: 643017
+    _Time: 168
+  - _ID: 14002
+    _Note: 【组队玩法】异常结算邮件
+    _Title: 643020
+    _Desc: 643021
+    _Time: 168
+  - _ID: 14003
+    _Note: 【组队养成】背包已满邮件
+    _Title: 643123
+    _Desc: 643124
+    _Time: 48

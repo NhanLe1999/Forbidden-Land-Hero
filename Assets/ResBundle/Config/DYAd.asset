@@ -1,0 +1,439 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cce0f591cc17a53bdf73ec31c7de4d1, type: 3}
+  m_Name: DYAd
+  m_EditorClassIdentifier:
+  _Items:
+  - _ID: 1
+    _Des: 关卡结算胜利双倍奖励
+    _Type: 1
+    _FreeTimes: 0
+    _AdTimes: -1
+    _RefreshTime: 0
+    _RefreshType: 1
+    _Rewards: []
+    _Mailid: 0
+    _OriginId: 0
+  - _ID: 2
+    _Des: 关卡结算失败双倍奖励
+    _Type: 2
+    _FreeTimes: 0
+    _AdTimes: -1
+    _RefreshTime: 0
+    _RefreshType: 1
+    _Rewards: []
+    _Mailid: 0
+    _OriginId: 0
+  - _ID: 3
+    _Des: 【广告商店】金币
+    _Type: 3
+    _FreeTimes: 0
+    _AdTimes: 3
+    _RefreshTime: 0
+    _RefreshType: 1
+    _Rewards: []
+    _Mailid: 0
+    _OriginId: 10011
+  - _ID: 4
+    _Des: 【广告商店】钻石
+    _Type: 4
+    _FreeTimes: 0
+    _AdTimes: 4
+    _RefreshTime: 0
+    _RefreshType: 1
+    _Rewards: []
+    _Mailid: 0
+    _OriginId: 10021
+  - _ID: 5
+    _Des: 【广告商店】装备宝箱
+    _Type: 5
+    _FreeTimes: 0
+    _AdTimes: 5
+    _RefreshTime: 0
+    _RefreshType: 1
+    _Rewards: []
+    _Mailid: 0
+    _OriginId: 102
+  - _ID: 6
+    _Des: 【广告商店】芯片宝箱
+    _Type: 6
+    _FreeTimes: 0
+    _AdTimes: 5
+    _RefreshTime: 0
+    _RefreshType: 1
+    _Rewards: []
+    _Mailid: 0
+    _OriginId: 202
+  - _ID: 7
+    _Des: 战斗复活
+    _Type: 7
+    _FreeTimes: 0
+    _AdTimes: -1
+    _RefreshTime: 0
+    _RefreshType: 1
+    _Rewards: []
+    _Mailid: 0
+    _OriginId: 0
+  - _ID: 8
+    _Des: 试用
+    _Type: 8
+    _FreeTimes: 1
+    _AdTimes: -1
+    _RefreshTime: 0
+    _RefreshType: 1
+    _Rewards: []
+    _Mailid: 0
+    _OriginId: 0
+  - _ID: 9
+    _Des: 离线快速奖励
+    _Type: 9
+    _FreeTimes: 0
+    _AdTimes: 1
+    _RefreshTime: 0
+    _RefreshType: 1
+    _Rewards: []
+    _Mailid: 0
+    _OriginId: 0
+  - _ID: 10
+    _Des: 签到
+    _Type: 10
+    _FreeTimes: 0
+    _AdTimes: 1
+    _RefreshTime: 0
+    _RefreshType: 1
+    _Rewards: []
+    _Mailid: 0
+    _OriginId: 0
+  - _ID: 11
+    _Des: 降落伞
+    _Type: 11
+    _FreeTimes: 0
+    _AdTimes: 5
+    _RefreshTime: 0
+    _RefreshType: 1
+    _Rewards: []
+    _Mailid: 0
+    _OriginId: 0
+  - _ID: 12
+    _Des: 体力
+    _Type: 12
+    _FreeTimes: 0
+    _AdTimes: 5
+    _RefreshTime: 0
+    _RefreshType: 1
+    _Rewards:
+    - 7006
+    - 10
+    _Mailid: 0
+    _OriginId: 0
+  - _ID: 13
+    _Des: 营地_免费木材
+    _Type: 13
+    _FreeTimes: 1
+    _AdTimes: 1
+    _RefreshTime: 0
+    _RefreshType: 1
+    _Rewards:
+    - 4001
+    - 5
+    _Mailid: 0
+    _OriginId: 0
+  - _ID: 14
+    _Des: 【广告商店】钢铁
+    _Type: 14
+    _FreeTimes: 0
+    _AdTimes: 1
+    _RefreshTime: 0
+    _RefreshType: 1
+    _Rewards:
+    - 4006
+    - 5000
+    _Mailid: 0
+    _OriginId: 0
+  - _ID: 15
+    _Des: 【广告商店】能源
+    _Type: 15
+    _FreeTimes: 0
+    _AdTimes: 1
+    _RefreshTime: 0
+    _RefreshType: 1
+    _Rewards:
+    - 4005
+    - 5000
+    _Mailid: 0
+    _OriginId: 0
+  - _ID: 17
+    _Des: 虚拟战场
+    _Type: 17
+    _FreeTimes: 0
+    _AdTimes: 2
+    _RefreshTime: 300
+    _RefreshType: 1
+    _Rewards: []
+    _Mailid: 0
+    _OriginId: 0
+  - _ID: 18
+    _Des: 收藏品
+    _Type: 18
+    _FreeTimes: 0
+    _AdTimes: 1
+    _RefreshTime: 0
+    _RefreshType: 1
+    _Rewards:
+    - 7009
+    - 1
+    _Mailid: 0
+    _OriginId: 0
+  - _ID: 19
+    _Des: 自选礼包
+    _Type: 19
+    _FreeTimes: 0
+    _AdTimes: 1
+    _RefreshTime: 0
+    _RefreshType: 1
+    _Rewards: []
+    _Mailid: 0
+    _OriginId: 0
+  - _ID: 20
+    _Des: 通用活动
+    _Type: 20
+    _FreeTimes: 0
+    _AdTimes: 1
+    _RefreshTime: 0
+    _RefreshType: 1
+    _Rewards: []
+    _Mailid: 0
+    _OriginId: 0
+  - _ID: 21
+    _Des: 爬塔词条商店刷新
+    _Type: 21
+    _FreeTimes: 0
+    _AdTimes: 5
+    _RefreshTime: 60
+    _RefreshType: 1
+    _Rewards: []
+    _Mailid: 0
+    _OriginId: 0
+  - _ID: 22
+    _Des: 月卡-每日免费奖励
+    _Type: 22
+    _FreeTimes: 1
+    _AdTimes: 1
+    _RefreshTime: 0
+    _RefreshType: 1
+    _Rewards:
+    - 7002
+    - 10
+    _Mailid: 0
+    _OriginId: 0
+  - _ID: 23
+    _Des: 公会-资金捐献
+    _Type: 23
+    _FreeTimes: -1
+    _AdTimes: 0
+    _RefreshTime: 0
+    _RefreshType: 1
+    _Rewards: []
+    _Mailid: 0
+    _OriginId: 0
+  - _ID: 24
+    _Des: 公会-金币捐献
+    _Type: 24
+    _FreeTimes: 3
+    _AdTimes: 0
+    _RefreshTime: 0
+    _RefreshType: 1
+    _Rewards: []
+    _Mailid: 0
+    _OriginId: 0
+  - _ID: 25
+    _Des: 公会-钻石捐献
+    _Type: 25
+    _FreeTimes: 3
+    _AdTimes: 0
+    _RefreshTime: 0
+    _RefreshType: 1
+    _Rewards: []
+    _Mailid: 0
+    _OriginId: 0
+  - _ID: 26
+    _Des: 抖音-首次侧边栏
+    _Type: 26
+    _FreeTimes: 1
+    _AdTimes: 1
+    _RefreshTime: 0
+    _RefreshType: 0
+    _Rewards:
+    - 1100003
+    - 1
+    - 9014
+    - 1
+    _Mailid: 0
+    _OriginId: 0
+  - _ID: 27
+    _Des: 抖音-关注
+    _Type: 27
+    _FreeTimes: 1
+    _AdTimes: 1
+    _RefreshTime: 0
+    _RefreshType: 0
+    _Rewards:
+    - 7002
+    - 100
+    _Mailid: 0
+    _OriginId: 0
+  - _ID: 28
+    _Des: 抖音-侧边栏常驻
+    _Type: 28
+    _FreeTimes: 1
+    _AdTimes: 1
+    _RefreshTime: 0
+    _RefreshType: 1
+    _Rewards:
+    - 7006
+    - 5
+    _Mailid: 0
+    _OriginId: 0
+  - _ID: 29
+    _Des: Facebook
+    _Type: 29
+    _FreeTimes: 1
+    _AdTimes: 0
+    _RefreshTime: 0
+    _RefreshType: 0
+    _Rewards:
+    - 7002
+    - 20
+    _Mailid: 10001
+    _OriginId: 0
+  - _ID: 30
+    _Des: Facebook小组
+    _Type: 30
+    _FreeTimes: 1
+    _AdTimes: 0
+    _RefreshTime: 0
+    _RefreshType: 0
+    _Rewards:
+    - 7002
+    - 20
+    _Mailid: 10001
+    _OriginId: 0
+  - _ID: 31
+    _Des: Discord
+    _Type: 31
+    _FreeTimes: 1
+    _AdTimes: 0
+    _RefreshTime: 0
+    _RefreshType: 0
+    _Rewards:
+    - 7002
+    - 20
+    _Mailid: 10001
+    _OriginId: 0
+  - _ID: 32
+    _Des: 绑定邮箱
+    _Type: 32
+    _FreeTimes: 1
+    _AdTimes: 0
+    _RefreshTime: 0
+    _RefreshType: 0
+    _Rewards:
+    - 7002
+    - 100
+    _Mailid: 10002
+    _OriginId: 0
+  - _ID: 33
+    _Des: 微信-入口
+    _Type: 33
+    _FreeTimes: 1
+    _AdTimes: 1
+    _RefreshTime: 0
+    _RefreshType: 0
+    _Rewards:
+    - 7006
+    - 20
+    _Mailid: 0
+    _OriginId: 0
+  - _ID: 34
+    _Des: 商店-每日商店
+    _Type: 34
+    _FreeTimes: 0
+    _AdTimes: 1
+    _RefreshTime: 0
+    _RefreshType: 1
+    _Rewards: []
+    _Mailid: 0
+    _OriginId: 0
+  - _ID: 35
+    _Des: 商店-每周商店
+    _Type: 35
+    _FreeTimes: 0
+    _AdTimes: 1
+    _RefreshTime: 0
+    _RefreshType: 2
+    _Rewards: []
+    _Mailid: 0
+    _OriginId: 0
+  - _ID: 36
+    _Des: 商店-每月商店
+    _Type: 36
+    _FreeTimes: 0
+    _AdTimes: 1
+    _RefreshTime: 0
+    _RefreshType: 3
+    _Rewards: []
+    _Mailid: 0
+    _OriginId: 0
+  - _ID: 37
+    _Des: 图纸-模块商店
+    _Type: 37
+    _FreeTimes: 0
+    _AdTimes: 1
+    _RefreshTime: 0
+    _RefreshType: 1
+    _Rewards: []
+    _Mailid: 0
+    _OriginId: 0
+  - _ID: 38
+    _Des: GVE-体力
+    _Type: 34
+    _FreeTimes: 0
+    _AdTimes: 1
+    _RefreshTime: 30
+    _RefreshType: 1
+    _Rewards:
+    - 1100105
+    - 30
+    _Mailid: 0
+    _OriginId: 0
+  - _ID: 39
+    _Des: 组队-每日门票
+    _Type: 38
+    _FreeTimes: 1
+    _AdTimes: 0
+    _RefreshTime: 0
+    _RefreshType: 1
+    _Rewards:
+    - 7013
+    - 1
+    _Mailid: 0
+    _OriginId: 0
+  - _ID: 40
+    _Des: 每日必买礼包
+    _Type: 40
+    _FreeTimes: 0
+    _AdTimes: 1
+    _RefreshTime: 0
+    _RefreshType: 1
+    _Rewards: []
+    _Mailid: 0
+    _OriginId: 0

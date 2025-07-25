@@ -1,0 +1,1815 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89828ef350783c82888cbe9259ad3bf2, type: 3}
+  m_Name: DYRandomName
+  m_EditorClassIdentifier:
+  _Items:
+  - _Id: 1
+    _En: Anthony
+    _Zh: 凯文
+    _Zh_tw: 槍在手
+    _Ja: あ
+    _Ko: 람보
+    _De: Anthony
+    _Fr: Anthony
+    _Ru: Айк
+  - _Id: 2
+    _En: Angel
+    _Zh: 小可爱
+    _Zh_tw: 槍手
+    _Ja: あかてん
+    _Ko: 사랑해
+    _De: Angel
+    _Fr: Angel
+    _Ru: Айссс
+  - _Id: 3
+    _En: Andy
+    _Zh: 我要打十个
+    _Zh_tw: 槍神
+    _Ja: あっははー
+    _Ko: 검둥이
+    _De: Andy
+    _Fr: Andy
+    _Ru: Алалалал
+  - _Id: 4
+    _En: Anber
+    _Zh: 豌豆射手
+    _Zh_tw: 柚子
+    _Ja: えま
+    _Ko: 검은늑대
+    _De: Anber
+    _Fr: Anber
+    _Ru: Алекс
+  - _Id: 5
+    _En: Allan
+    _Zh: 王子
+    _Zh_tw: 朝陽
+    _Ja: かのリン
+    _Ko: 꼬꼬마
+    _De: Allan
+    _Fr: Allan
+    _Ru: Алек
+  - _Id: 6
+    _En: Alice
+    _Zh: 白羊
+    _Zh_tw: 打到你飛起
+    _Ja: じゃん
+    _Ko: 나가
+    _De: Alice
+    _Fr: Alice
+    _Ru: Алексей
+  - _Id: 7
+    _En: Alex
+    _Zh: 花生酱
+    _Zh_tw: 隨風而毅
+    _Ja: たかぴょん
+    _Ko: 나는전설이다
+    _De: Alex
+    _Fr: Alex
+    _Ru: Алинка
+  - _Id: 8
+    _En: Alan
+    _Zh: 艾尼路
+    _Zh_tw: 克維奇
+    _Ja: あかトラック
+    _Ko: 놀자
+    _De: Alan
+    _Fr: Alan
+    _Ru: Алишка
+  - _Id: 9
+    _En: Ace
+    _Zh: 逆天
+    _Zh_tw: 遊戲
+    _Ja: ありがとう
+    _Ko: 단발총
+    _De: Ace
+    _Fr: Ace
+    _Ru: Алкаш
+  - _Id: 10
+    _En: Aston
+    _Zh: 上帝之手
+    _Zh_tw: 大頭龍
+    _Ja: うまい棒20円
+    _Ko: 덩치스머프
+    _De: Aston
+    _Fr: Aston
+    _Ru: Алкоко
+  - _Id: 11
+    _En: Air
+    _Zh: 勇敢一点吧！
+    _Zh_tw: 微風
+    _Ja: うんぴす
+    _Ko: 라그함
+    _De: Air
+    _Fr: Air
+    _Ru: Алл
+  - _Id: 12
+    _En: Ajax
+    _Zh: 冷月
+    _Zh_tw: 明天吃火鍋
+    _Ja: おさる
+    _Ko: 드래그스터
+    _De: Ajax
+    _Fr: Ajax
+    _Ru: Аллн
+  - _Id: 13
+    _En: Ajay
+    _Zh: 猎手
+    _Zh_tw: 熊猫
+    _Ja: おにゃま
+    _Ko: 늅늅
+    _De: Ajay
+    _Fr: Ajay
+    _Ru: Алоэ
+  - _Id: 14
+    _En: Aka
+    _Zh: 生猛哥
+    _Zh_tw: 謎
+    _Ja: かさ
+    _Ko: 라캉
+    _De: Aka
+    _Fr: Aka
+    _Ru: Алпл
+  - _Id: 15
+    _En: Akai
+    _Zh: 神之一手
+    _Zh_tw: 隊長
+    _Ja: かなかなかな
+    _Ko: 레이지
+    _De: Akai
+    _Fr: Akai
+    _Ru: Альтаир
+  - _Id: 16
+    _En: Akash
+    _Zh: 叫我食神
+    _Zh_tw: 魔龍人
+    _Ja: かはな
+    _Ko: 룡가리
+    _De: Akash
+    _Fr: Akash
+    _Ru: Альхач
+  - _Id: 17
+    _En: Alexa
+    _Zh: 战个痛快
+    _Zh_tw: 龍的傳人
+    _Ja: かわ
+    _Ko: 만두
+    _De: Alexa
+    _Fr: Alexa
+    _Ru: Аляебу
+  - _Id: 18
+    _En: Albert
+    _Zh: 狂人
+    _Zh_tw: 生煎包
+    _Ja: がなぢゃ
+    _Ko: 뭐하러
+    _De: Albert
+    _Fr: Albert
+    _Ru: Амир
+  - _Id: 19
+    _En: Alina
+    _Zh: 龙的传人
+    _Zh_tw: 爆頭王
+    _Ja: こうか
+    _Ko: 미나
+    _De: Alina
+    _Fr: Alina
+    _Ru: Асл
+  - _Id: 20
+    _En: Alix
+    _Zh: 兰博
+    _Zh_tw: 牧龍獅
+    _Ja: こここは
+    _Ko: 미췬고양이
+    _De: Alix
+    _Fr: Alix
+    _Ru: Аслан
+  - _Id: 21
+    _En: Allen
+    _Zh: 战斗天使
+    _Zh_tw: 狂人
+    _Ja: ごり君
+    _Ko: 써니
+    _De: Allen
+    _Fr: Allen
+    _Ru: Бабабык
+  - _Id: 22
+    _En: Alon
+    _Zh: 全村希望
+    _Zh_tw: 狂信者
+    _Ja: ご飯
+    _Ko: 바나나우유
+    _De: Alon
+    _Fr: Alon
+    _Ru: Бадал
+  - _Id: 23
+    _En: Alpha
+    _Zh: 皮皮
+    _Zh_tw: 狂暴凱蒂
+    _Ja: さかなたろう
+    _Ko: 바람구루마
+    _De: Alpha
+    _Fr: Alpha
+    _Ru: Балаган
+  - _Id: 24
+    _En: Andrei
+    _Zh: 登登
+    _Zh_tw: 狂魔
+    _Ja: さねぬ
+    _Ko: Lisa
+    _De: Andrei
+    _Fr: Andrei
+    _Ru: Балу
+  - _Id: 25
+    _En: Andrew
+    _Zh: 生煎包
+    _Zh_tw: 狐妖姊姊
+    _Ja: さはらやにか
+    _Ko: 봄이다
+    _De: Andrew
+    _Fr: Andrew
+    _Ru: Бамбалэйла
+  - _Id: 26
+    _En: Andry
+    _Zh: 战神传奇
+    _Zh_tw: 風痕
+    _Ja: せつな
+    _Ko: 부자고파
+    _De: Andry
+    _Fr: Andry
+    _Ru: Бамбам
+  - _Id: 27
+    _En: Austin
+    _Zh: 独幽
+    _Zh_tw: 飄傑
+    _Ja: そら
+    _Ko: 북극백곰
+    _De: Austin
+    _Fr: Austin
+    _Ru: Бамсы
+  - _Id: 28
+    _En: Blast
+    _Zh: 星辰
+    _Zh_tw: 霸王
+    _Ja: たぁ
+    _Ko: 신
+    _De: Blast
+    _Fr: Blast
+    _Ru: Банан
+  - _Id: 29
+    _En: Apolo
+    _Zh: 零
+    _Zh_tw: 霸道總裁
+    _Ja: たい焼き
+    _Ko: 애용
+    _De: Apolo
+    _Fr: Apolo
+    _Ru: Барни
+  - _Id: 30
+    _En: Billy
+    _Zh: 九月
+    _Zh_tw: 先鋒行動
+    _Ja: なぁ
+    _Ko: 언제나스마일
+    _De: Billy
+    _Fr: Billy
+    _Ru: Барс
+  - _Id: 31
+    _En: Blake
+    _Zh: 仙
+    _Zh_tw: 嗨森
+    _Ja: なおき
+    _Ko: 스마일
+    _De: Blake
+    _Fr: Blake
+    _Ru: Бас
+  - _Id: 32
+    _En: BOB
+    _Zh: 柠檬
+    _Zh_tw: 大作戦
+    _Ja: なかむー
+    _Ko: 우렁찬
+    _De: BOB
+    _Fr: BOB
+    _Ru: Батя
+  - _Id: 33
+    _En: Baby
+    _Zh: 枫
+    _Zh_tw: 守護神
+    _Ja: なす
+    _Ko: 울아이들
+    _De: Baby
+    _Fr: Baby
+    _Ru: Бахимас
+  - _Id: 34
+    _En: Bang
+    _Zh: 愚港
+    _Zh_tw: 寂靜槍手
+    _Ja: なつめぐ
+    _Ko: 워워
+    _De: Bang
+    _Fr: Bang
+    _Ru: Башка
+  - _Id: 35
+    _En: Bee
+    _Zh: 安静
+    _Zh_tw: 帥哥
+    _Ja: なはは
+    _Ko: 거너
+    _De: Bee
+    _Fr: Bee
+    _Ru: Вова
+  - _Id: 36
+    _En: Bella
+    _Zh: 繁华落幕
+    _Zh_tw: 幹啥呢
+    _Ja: にんさ
+    _Ko: 의닌자
+    _De: Bella
+    _Fr: Bella
+    _Ru: Вовиг
+  - _Id: 37
+    _En: Ben
+    _Zh: 遇见
+    _Zh_tw: 弦風
+    _Ja: ねこ
+    _Ko: 크림이네
+    _De: Ben
+    _Fr: Ben
+    _Ru: Вознюк
+  - _Id: 38
+    _En: Benz
+    _Zh: 大叔
+    _Zh_tw: 放鬆咖啡
+    _Ja: ぬゆけふちむ
+    _Ko: 천사
+    _De: Benz
+    _Fr: Benz
+    _Ru: Воин
+  - _Id: 39
+    _En: Battle
+    _Zh: 歌辞
+    _Zh_tw: 晴天白雲
+    _Ja: のの
+    _Ko: 하이
+    _De: Battle
+    _Fr: Battle
+    _Ru: Волалик
+  - _Id: 40
+    _En: Bigboy
+    _Zh: 雪人
+    _Zh_tw: 最後的希望
+    _Ja: はっちっち
+    _Ko: 가즈아
+    _De: Bigboy
+    _Fr: Bigboy
+    _Ru: Волк
+  - _Id: 41
+    _En: Biggie
+    _Zh: 过客
+    _Zh_tw: 業餘玩家
+    _Ja: はなにる
+    _Ko: 개구리
+    _De: Biggie
+    _Fr: Biggie
+    _Ru: Гарик
+  - _Id: 42
+    _En: Bruce
+    _Zh: LOVE
+    _Zh_tw: 機關槍噠噠噠
+    _Ja: ばーなばす
+    _Ko: 김주빵이
+    _De: Bruce
+    _Fr: Bruce
+    _Ru: Гаспарян
+  - _Id: 43
+    _En: Black
+    _Zh: 游戏人间
+    _Zh_tw: 毫無存在
+    _Ja: ぱぐ
+    _Ko: 리치
+    _De: Black
+    _Fr: Black
+    _Ru: Георгияия
+  - _Id: 44
+    _En: Booya
+    _Zh: 致命的王者
+    _Zh_tw: 焼肉
+    _Ja: ひかる
+    _Ko: 멜돔
+    _De: Booya
+    _Fr: Booya
+    _Ru: Герман
+  - _Id: 45
+    _En: Boxer
+    _Zh: 亚洲首帅
+    _Zh_tw: 神奇寶貝
+    _Ja: ふう
+    _Ko: 붕붕빵빵
+    _De: Boxer
+    _Fr: Boxer
+    _Ru: Героин
+  - _Id: 46
+    _En: Bobby
+    _Zh: 帅到没盆友
+    _Zh_tw: 米歐
+    _Ja: またけ
+    _Ko: 쌈장고추장
+    _De: Bobby
+    _Fr: Bobby
+    _Ru: Герой
+  - _Id: 47
+    _En: Blue
+    _Zh: 人称潇洒哥
+    _Zh_tw: 賣火柴的男孩
+    _Ja: むむむむむ
+    _Ko: 어스틴
+    _De: Blue
+    _Fr: Blue
+    _Ru: Гидрыч
+  - _Id: 48
+    _En: Bizon
+    _Zh: 男神萌萌哒
+    _Zh_tw: 遊戲終結者
+    _Ja: ガントレット
+    _Ko: 여름
+    _De: Bizon
+    _Fr: Bizon
+    _Ru: Гриборь
+  - _Id: 49
+    _En: Bryant
+    _Zh: 外太空少年
+    _Zh_tw: 終結者
+    _Ja: クルス
+    _Ko: 우렁차니름
+    _De: Bryant
+    _Fr: Bryant
+    _Ru: Грига
+  - _Id: 50
+    _En: Brady
+    _Zh: 无敌小战神
+    _Zh_tw: 阿達
+    _Ja: ニヤ
+    _Ko: 이름
+    _De: Brady
+    _Fr: Brady
+    _Ru: Гримм
+  - _Id: 51
+    _En: Brad
+    _Zh: 帅气的节奏
+    _Zh_tw: 雲戰
+    _Ja: ハンバーグ
+    _Ko: 지지지
+    _De: Brad
+    _Fr: Brad
+    _Ru: Давид
+  - _Id: 52
+    _En: Bizzle
+    _Zh: 年轻不是罪
+    _Zh_tw: 靓仔
+    _Ja: パンダ
+    _Ko: 흐음
+    _De: Bizzle
+    _Fr: Bizzle
+    _Ru: Дамир
+  - _Id: 53
+    _En: Bizzy
+    _Zh: 青春最珍贵
+    _Zh_tw: 領班
+    _Ja: ペンギン
+    _Ko: 가루
+    _De: Bizzy
+    _Fr: Bizzy
+    _Ru: Дамьян
+  - _Id: 54
+    _En: BigPanda
+    _Zh: 世界的焦点
+    _Zh_tw: 頹廢少爺
+    _Ja: ポテト
+    _Ko: 가이네
+    _De: BigPanda
+    _Fr: BigPanda
+    _Ru: Джейн
+  - _Id: 55
+    _En: BigBoi
+    _Zh: 藏不住的帅气
+    _Zh_tw: 風
+    _Ja: モノクロ
+    _Ko: 가자
+    _De: BigBoi
+    _Fr: BigBoi
+    _Ru: Джек
+  - _Id: 56
+    _En: Benji
+    _Zh: 往事随风
+    _Zh_tw: 颯太
+    _Ja: りゅう
+    _Ko: 갈색매기
+    _De: Benji
+    _Fr: Benji
+    _Ru: Джеки
+  - _Id: 57
+    _En: BOSS
+    _Zh: 梦在深巷
+    _Zh_tw: 飄飄
+    _Ja: ゴールド
+    _Ko: 감규원
+    _De: BOSS
+    _Fr: BOSS
+    _Ru: Джем
+  - _Id: 58
+    _En: Bridge
+    _Zh: 星球狂想战队
+    _Zh_tw: 飆速小老虎
+    _Ja: さかららやか
+    _Ko: 감사합니다
+    _De: Bridge
+    _Fr: Bridge
+    _Ru: Дженет
+  - _Id: 59
+    _En: Camron
+    _Zh: 心如止水
+    _Zh_tw: 飆酷車神
+    _Ja: ぁぁエィ
+    _Ko: 감성돔이야
+    _De: Camron
+    _Fr: Camron
+    _Ru: Дженя
+  - _Id: 60
+    _En: Candy
+    _Zh: 黑玫瑰
+    _Zh_tw: 飛旋踏板
+    _Ja: あ、れは
+    _Ko: 감자이
+    _De: Candy
+    _Fr: Candy
+    _Ru: Джон
+  - _Id: 61
+    _En: Charles
+    _Zh: 紫水晶
+    _Zh_tw: 麥香紅茶
+    _Ja: あぁ
+    _Ko: 강가딘
+    _De: Charles
+    _Fr: Charles
+    _Ru: Джони
+  - _Id: 62
+    _En: Coke
+    _Zh: 是我入戏太深
+    _Zh_tw: 鱈魚神槍手
+    _Ja: ああ
+    _Ko: 개차반
+    _De: Coke
+    _Fr: Coke
+    _Ru: Екккк
+  - _Id: 63
+    _En: Cool
+    _Zh: 白衣俊郎
+    _Zh_tw: 鳳無名
+    _Ja: あああ
+    _Ko: 거인
+    _De: Cool
+    _Fr: Cool
+    _Ru: Екнегнее
+  - _Id: 64
+    _En: Cypher
+    _Zh: 帅飞一条街
+    _Zh_tw: 龍
+    _Ja: ああああ
+    _Ko: 곰아빠
+    _De: Cypher
+    _Fr: Cypher
+    _Ru: Екп
+  - _Id: 65
+    _En: Carl
+    _Zh: 帅炸了
+    _Zh_tw: 龍夢
+    _Ja: あああああ
+    _Ko: 군위김주환
+    _De: Carl
+    _Fr: Carl
+    _Ru: Ефо
+  - _Id: 66
+    _En: Carles
+    _Zh: 拉风小伙
+    _Zh_tw: 龍月
+    _Ja: ああああああ
+    _Ko: 그냥해봤어
+    _De: Carles
+    _Fr: Carles
+    _Ru: Жавдат
+  - _Id: 67
+    _En: Carlin
+    _Zh: 国际呆萌男神
+    _Zh_tw: 烦恼的帥氣風
+    _Ja: ああさん
+    _Ko: 근드리지마
+    _De: Carlin
+    _Fr: Carlin
+    _Ru: Жадина
+  - _Id: 68
+    _En: Carlinho
+    _Zh: 淡淡的忧愁
+    _Zh_tw: 从小就拉風
+    _Ja: あいあい
+    _Ko: 나니
+    _De: Carlinho
+    _Fr: Carlinho
+    _Ru: Жансая
+  - _Id: 69
+    _En: Carlos
+    _Zh: 傲世俊颜
+    _Zh_tw: 颜值课代表
+    _Ja: あいうえお
+    _Ko: 나리의주인장
+    _De: Carlos
+    _Fr: Carlos
+    _Ru: Жека
+  - _Id: 70
+    _En: CK
+    _Zh: 烦恼的帥气风
+    _Zh_tw: 極端帥氣
+    _Ja: あいく
+    _Ko: 나쁜두들밥
+    _De: CK
+    _Fr: CK
+    _Ru: Ильдар
+  - _Id: 71
+    _En: Collin
+    _Zh: 从小就拉风
+    _Zh_tw: 糖果
+    _Ja: あいと
+    _Ko: 냠냠이
+    _De: Collin
+    _Fr: Collin
+    _Ru: Ильнар
+  - _Id: 72
+    _En: Chill
+    _Zh: 颜值课代表
+    _Zh_tw: 查爾斯
+    _Ja: あいる
+    _Ko: 노노노
+    _De: Chill
+    _Fr: Chill
+    _Ru: Илья
+  - _Id: 73
+    _En: CHEESE
+    _Zh: 丹尼尔
+    _Zh_tw: 可樂
+    _Ja: あえと
+    _Ko: 느슫ㄴ슷ㆍㄴ
+    _De: CHEESE
+    _Fr: CHEESE
+    _Ru: Илюха
+  - _Id: 74
+    _En: C-Money
+    _Zh: 大卫
+    _Zh_tw: 暗號
+    _Ja: あお
+    _Ko: 늦바람캠퍼
+    _De: C-Money
+    _Fr: C-Money
+    _Ru: Имя
+  - _Id: 75
+    _En: DJ
+    _Zh: 德雷
+    _Zh_tw: 卡爾
+    _Ja: あおい
+    _Ko: 니니니
+    _De: DJ
+    _Fr: DJ
+    _Ru: Йцуео
+  - _Id: 76
+    _En: Daniel
+    _Zh: 德鲁
+    _Zh_tw: 卡爾斯
+    _Ja: あおし
+    _Ko: 단장30
+    _De: Daniel
+    _Fr: Daniel
+    _Ru: Йцуккп
+  - _Id: 77
+    _En: David
+    _Zh: 达恩
+    _Zh_tw: 谜
+    _Ja: あおと~22
+    _Ko: 달이
+    _De: David
+    _Fr: David
+    _Ru: Кода
+  - _Id: 78
+    _En: Dre
+    _Zh: 达里
+    _Zh_tw: 伊森
+    _Ja: あおは
+    _Ko: 더녹스
+    _De: Dre
+    _Fr: Dre
+    _Ru: Кок
+  - _Id: 79
+    _En: Drew
+    _Zh: 达里尔
+    _Zh_tw: 埃沃
+    _Ja: あか
+    _Ko: 더블히트
+    _De: Drew
+    _Fr: Drew
+    _Ru: Красивый
+  - _Id: 80
+    _En: Darwn
+    _Zh: 谜
+    _Zh_tw: 丹尼爾
+    _Ja: あかさ
+    _Ko: 데리퍼
+    _De: Darwn
+    _Fr: Darwn
+    _Ru: Крафт
+  - _Id: 81
+    _En: Dary
+    _Zh: 伊森
+    _Zh_tw: 大衛
+    _Ja: あかさは
+    _Ko: 드라이브
+    _De: Dary
+    _Fr: Dary
+    _Ru: Крейзи
+  - _Id: 82
+    _En: Daryl
+    _Zh: 埃沃
+    _Zh_tw: 德雷
+    _Ja: あかざ
+    _Ko: 따발총
+    _De: Daryl
+    _Fr: Daryl
+    _Ru: Лоаос
+  - _Id: 83
+    _En: Dr.Food
+    _Zh: 易信
+    _Zh_tw: 德魯
+    _Ja: あかた
+    _Ko: 딸기
+    _De: Dr.Food
+    _Fr: Dr.Food
+    _Ru: Ложка
+  - _Id: 84
+    _En: Dr.Nolde
+    _Zh: 伊斯顿
+    _Zh_tw: 達恩
+    _Ja: あかたなかさ
+    _Ko: 땅콩꼬맹이
+    _De: Dr.Nolde
+    _Fr: Dr.Nolde
+    _Ru: Лок
+  - _Id: 85
+    _En: Dash
+    _Zh: 埃利斯
+    _Zh_tw: 達里
+    _Ja: あかたや
+    _Ko: 레오나
+    _De: Dash
+    _Fr: Dash
+    _Ru: Локки
+  - _Id: 86
+    _En: Dark_King
+    _Zh: 余晖
+    _Zh_tw: 達里爾
+    _Ja: あかな
+    _Ko: 몽몽미
+    _De: Dark_King
+    _Fr: Dark_King
+    _Ru: Лол
+  - _Id: 87
+    _En: Duck
+    _Zh: 何须叹离别
+    _Zh_tw: 鮮魚
+    _Ja: あき
+    _Ko: 무적기춘
+    _De: Duck
+    _Fr: Duck
+    _Ru: Мцщ
+  - _Id: 88
+    _En: Eddie
+    _Zh: 梦里才有你
+    _Zh_tw: 雲湧
+    _Ja: あきざくら
+    _Ko: 벗
+    _De: Eddie
+    _Fr: Eddie
+    _Ru: Мырра
+  - _Id: 89
+    _En: EXTREME
+    _Zh: 苍穹那抹蓝
+    _Zh_tw: 零凌漆
+    _Ja: あきしすすつ
+    _Ko: 베리
+    _De: EXTREME
+    _Fr: EXTREME
+    _Ru: Мэрлоу
+  - _Id: 90
+    _En: Emma
+    _Zh: 我仅此而已
+    _Zh_tw: 半島鐵盒
+    _Ja: あきちゃ
+    _Ko: 별
+    _De: Emma
+    _Fr: Emma
+    _Ru: Нагибатор
+  - _Id: 91
+    _En: Empty
+    _Zh: 情留一点痴
+    _Zh_tw: 布魯斯
+    _Ja: あきと
+    _Ko: 봉봉
+    _De: Empty
+    _Fr: Empty
+    _Ru: Надя
+  - _Id: 92
+    _En: Enigma
+    _Zh: 褪色的回忆
+    _Zh_tw: 鮑比
+    _Ja: あきら
+    _Ko: 불사조봉님
+    _De: Enigma
+    _Fr: Enigma
+    _Ru: Отрн
+  - _Id: 93
+    _En: Ethan
+    _Zh: 冰似绕指柔
+    _Zh_tw: 布萊恩特
+    _Ja: あさひ
+    _Ko: 사랑의여신
+    _De: Ethan
+    _Fr: Ethan
+    _Ru: Охота
+  - _Id: 94
+    _En: Evo
+    _Zh: 持续的善变
+    _Zh_tw: 布雷迪
+    _Ja: あす
+    _Ko: 살쿵
+    _De: Evo
+    _Fr: Evo
+    _Ru: Павел
+  - _Id: 95
+    _En: Easin
+    _Zh: 没那么简单
+    _Zh_tw: 布拉德
+    _Ja: あず
+    _Ko: 석수
+    _De: Easin
+    _Fr: Easin
+    _Ru: Павлик
+  - _Id: 96
+    _En: Eason
+    _Zh: 花落不相离
+    _Zh_tw: 芬迪
+    _Ja: あずき
+    _Ko: 선지자
+    _De: Eason
+    _Fr: Eason
+    _Ru: Папаппп
+  - _Id: 97
+    _En: East
+    _Zh: 出租半把抢
+    _Zh_tw: 鬥爭
+    _Ja: あたか
+    _Ko: 설
+    _De: East
+    _Fr: East
+    _Ru: Пар
+  - _Id: 98
+    _En: Easton
+    _Zh: 闪开别挡路
+    _Zh_tw: 坦率
+    _Ja: あたかさ
+    _Ko: 소총수
+    _De: Easton
+    _Fr: Easton
+    _Ru: Пармезан
+  - _Id: 99
+    _En: Easy
+    _Zh: 卧倒看我的
+    _Zh_tw: 吉野
+    _Ja: あたまかなや
+    _Ko: 스나이퍼
+    _De: Easy
+    _Fr: Easy
+    _Ru: Робзин
+  - _Id: 100
+    _En: Elliot
+    _Zh: 君临メ天下
+    _Zh_tw: 加迪
+    _Ja: あたまから
+    _Ko: 안녕하시오
+    _De: Elliot
+    _Fr: Elliot
+    _Ru: Рой
+  - _Id: 101
+    _En: Ellis
+    _Zh: 威震メ江湖
+    _Zh_tw: 微醺
+    _Ja: あたろう
+    _Ko: 영웅무적
+    _De: Ellis
+    _Fr: Ellis
+    _Ru: Рустэм
+  - _Id: 102
+    _En: Enzo
+    _Zh: 暮夜メ血色
+    _Zh_tw: 微風下的戀情
+    _Ja: あだらいが
+    _Ko: 왕성님님
+    _De: Enzo
+    _Fr: Enzo
+    _Ru: Ршиьди
+  - _Id: 103
+    _En: FEAR
+    _Zh: 斗破メ龙神
+    _Zh_tw: 心盈
+    _Ja: あちゃん
+    _Ko: 좀비사냥꾼
+    _De: FEAR
+    _Fr: FEAR
+    _Ru: Рыф
+  - _Id: 104
+    _En: Fade
+    _Zh: 殇之メ荣耀
+    _Zh_tw: 怪侠
+    _Ja: あっきーら
+    _Ko: 터프가이쏠저
+    _De: Fade
+    _Fr: Fade
+    _Ru: Салам
+  - _Id: 105
+    _En: Felix
+    _Zh: 狙神メ使者
+    _Zh_tw: 恨天恨地
+    _Ja: あっち
+    _Ko: 푸 른 하늘
+    _De: Felix
+    _Fr: Felix
+    _Ru: Самат
+  - _Id: 106
+    _En: Finn
+    _Zh: 血战メ火线
+    _Zh_tw: 恩卡斯
+    _Ja: あつ
+    _Ko: 호랑이짱
+    _De: Finn
+    _Fr: Finn
+    _Ru: Чугун
+  - _Id: 107
+    _En: Fendy
+    _Zh: 王者メ归来
+    _Zh_tw: 愛蓮娜
+    _Ja: あとむ
+    _Ko: 히어로
+    _De: Fendy
+    _Fr: Fendy
+    _Ru: Чудо
+  - _Id: 108
+    _En: FigHt
+    _Zh: 七分メ狙神
+    _Zh_tw: 我是隻貓貓
+    _Ja: あなかはら
+    _Ko: 하늘
+    _De: FigHt
+    _Fr: FigHt
+    _Ru: Чукча
+  - _Id: 109
+    _En: Fox
+    _Zh: 幻想メ影天
+    _Zh_tw: 我永遠最強
+    _Ja: あならま
+    _Ko: 가시나
+    _De: Fox
+    _Fr: Fox
+    _Ru: Чумайс
+  - _Id: 110
+    _En: Flynn
+    _Zh: 爆头メ小子
+    _Zh_tw: 斯帝摩爾
+    _Ja: あは
+    _Ko: 겸겸이
+    _De: Flynn
+    _Fr: Flynn
+    _Ru: Чуча
+  - _Id: 111
+    _En: Flock
+    _Zh: 雷霆メ战皇
+    _Zh_tw: 最強者
+    _Ja: あぱぱぱーん
+    _Ko: 경자
+    _De: Flock
+    _Fr: Flock
+    _Ru: Чушканчик
+  - _Id: 112
+    _En: Frag
+    _Zh: 无敌メ大神
+    _Zh_tw: 最強蝸牛
+    _Ja: あひか
+    _Ko: 고우빈
+    _De: Frag
+    _Fr: Frag
+    _Ru: Шалной
+  - _Id: 113
+    _En: Frank
+    _Zh: 蓝色メ传奇
+    _Zh_tw: 狙擊兵
+    _Ja: あひまかほや
+    _Ko: 곰순씨
+    _De: Frank
+    _Fr: Frank
+    _Ru: Арти
+  - _Id: 114
+    _En: Free
+    _Zh: 霸气メ战神
+    _Zh_tw: 絕品鹹魚
+    _Ja: あひよ
+    _Ko: 구독조아요
+    _De: Free
+    _Fr: Free
+    _Ru: Артур
+  - _Id: 115
+    _En: Freak
+    _Zh: メ不如跳舞
+    _Zh_tw: 绅士
+    _Ja: あぶらあげ
+    _Ko: 귀속파기
+    _De: Freak
+    _Fr: Freak
+    _Ru: Артём
+  - _Id: 116
+    _En: GGG
+    _Zh: 重甲メ战神
+    _Zh_tw: 藍月
+    _Ja: あほ
+    _Ko: 그날엔
+    _De: GGG
+    _Fr: GGG
+    _Ru: Арчибальд
+  - _Id: 117
+    _En: Gino
+    _Zh: 重甲メ战皇
+    _Zh_tw: 藍色小精靈
+    _Ja: あまね
+    _Ko: 금강불괴
+    _De: Gino
+    _Fr: Gino
+    _Ru: Аскар
+  - _Id: 118
+    _En: Gaddy
+    _Zh: 傲世メ群雄
+    _Zh_tw: 諾獅強哥
+    _Ja: あや
+    _Ko: 기가좀쓰
+    _De: Gaddy
+    _Fr: Gaddy
+    _Ru: Аха
+  - _Id: 119
+    _En: GeeGee
+    _Zh: 悲伤唯我独尊
+    _Zh_tw: 謎樣的狐狸
+    _Ja: あやたい
+    _Ko: 기전실
+    _De: GeeGee
+    _Fr: GeeGee
+    _Ru: Ахрор
+  - _Id: 120
+    _En: Graff
+    _Zh: 专治各种不服
+    _Zh_tw: 赛罗
+    _Ja: あやと
+    _Ko: 나가토
+    _De: Graff
+    _Fr: Graff
+    _Ru: Аххары
+  - _Id: 121
+    _En: Graham
+    _Zh: 沉沦忘自忧伤
+    _Zh_tw: 超級無敵
+    _Ja: あやとん
+    _Ko: 나나나나나니
+    _De: Graham
+    _Fr: Graham
+    _Ru: Аюб
+  - _Id: 122
+    _En: Grail
+    _Zh: 练习你的温柔
+    _Zh_tw: 超級英雄
+    _Ja: あやまなはう
+    _Ko: 나다
+    _De: Grail
+    _Fr: Grail
+    _Ru: Бек
+  - _Id: 123
+    _En: Goloka
+    _Zh: 旁观只需漠然
+    _Zh_tw: 軒轅無敵
+    _Ja: あややとぅー
+    _Ko: 나호로
+    _De: Goloka
+    _Fr: Goloka
+    _Ru: Бекаай
+  - _Id: 124
+    _En: Gomes
+    _Zh: 阳光耀眼
+    _Zh_tw: 酱酱
+    _Ja: あゆむ
+    _Ko: 내한마음
+    _De: Gomes
+    _Fr: Gomes
+    _Ru: Белоснежка
+  - _Id: 125
+    _En: Gomez
+    _Zh: 强颜欢笑
+    _Zh_tw: 酷兒
+    _Ja: あらかきはや
+    _Ko: 너검마
+    _De: Gomez
+    _Fr: Gomez
+    _Ru: Белый
+  - _Id: 126
+    _En: Greg
+    _Zh: 何需太过在意
+    _Zh_tw: 歌聲迷人
+    _Ja: あらた
+    _Ko: 넌닝구
+    _De: Greg
+    _Fr: Greg
+    _Ru: БелыйВорон
+  - _Id: 127
+    _En: Hacker
+    _Zh: 多情不过季雨
+    _Zh_tw: 靚仔王子
+    _Ja: あれん
+    _Ko: 다민수꾸
+    _De: Hacker
+    _Fr: Hacker
+    _Ru: Бенджамин
+  - _Id: 128
+    _En: Halo
+    _Zh: 凝望冷却思念
+    _Zh_tw: 顾念无情
+    _Ja: あんごろ
+    _Ko: 다온빠
+    _De: Halo
+    _Fr: Halo
+    _Ru: Бехан
+  - _Id: 129
+    _En: Hank
+    _Zh: 栀子花开
+    _Zh_tw: 戰龍在野
+    _Ja: あんちゃん
+    _Ko: 다은
+    _De: Hank
+    _Fr: Hank
+    _Ru: Биба
+  - _Id: 130
+    _En: Hanks
+    _Zh: 期待
+    _Zh_tw: 带我看醫生
+    _Ja: あんんん
+    _Ko: 단군현무
+    _De: Hanks
+    _Fr: Hanks
+    _Ru: Боб
+  - _Id: 131
+    _En: Hard
+    _Zh: 旋风陀螺
+    _Zh_tw: 我要打十個～
+    _Ja: あー
+    _Ko: 단장21
+    _De: Hard
+    _Fr: Hard
+    _Ru: Бобби
+  - _Id: 132
+    _En: Harry
+    _Zh: 流年
+    _Zh_tw: 大隻佬
+    _Ja: あーあ
+    _Ko: 대빵바둑이
+    _De: Harry
+    _Fr: Harry
+    _Ru: Боби
+  - _Id: 133
+    _En: Happy
+    _Zh: 轻唱那份回忆
+    _Zh_tw: 約翰
+    _Ja: あーす
+    _Ko: 댕옹
+    _De: Happy
+    _Fr: Happy
+    _Ru: Богдан
+  - _Id: 134
+    _En: Hello
+    _Zh: 整蛊专家
+    _Zh_tw: 肯尼
+    _Ja: あーたろ
+    _Ko: 덕봉이
+    _De: Hello
+    _Fr: Hello
+    _Ru: Бодибилдер
+  - _Id: 135
+    _En: Helloworld
+    _Zh: 酒醉那份离伤
+    _Zh_tw: 凱文
+    _Ja: あーちゃん
+    _Ko: 도날드
+    _De: Helloworld
+    _Fr: Helloworld
+    _Ru: Бок
+  - _Id: 136
+    _En: Henry
+    _Zh: 心记那份承诺
+    _Zh_tw: 卡魯
+    _Ja: いえい
+    _Ko: 도리두리
+    _De: Henry
+    _Fr: Henry
+    _Ru: Бокс
+  - _Id: 137
+    _En: Hero
+    _Zh: 不需要懂太多
+    _Zh_tw: 漢克
+    _Ja: いおりん
+    _Ko: 동가리
+    _De: Hero
+    _Fr: Hero
+    _Ru: Бугага
+  - _Id: 138
+    _En: Hazard
+    _Zh: 囧囧有神
+    _Zh_tw: 漢克斯
+    _Ja: いきき
+    _Ko: 동구리
+    _De: Hazard
+    _Fr: Hazard
+    _Ru: Букля
+  - _Id: 139
+    _En: Iceman
+    _Zh: 绝舞狂歌
+    _Zh_tw: 難的
+    _Ja: いけ
+    _Ko: 디니시지
+    _De: Iceman
+    _Fr: Iceman
+    _Ru: В
+  - _Id: 140
+    _En: Iron
+    _Zh: 独自寂寞
+    _Zh_tw: 快樂又帥氣
+    _Ja: いしやきいも
+    _Ko: 따이용
+    _De: Iron
+    _Fr: Iron
+    _Ru: Ва
+  - _Id: 141
+    _En: Jack
+    _Zh: 小小书童
+    _Zh_tw: 詹姆士
+    _Ja: いち
+    _Ko: 똘똘이
+    _De: Jack
+    _Fr: Jack
+    _Ru: Вадим
+  - _Id: 142
+    _En: Jackie
+    _Zh: 落寞已成空
+    _Zh_tw: 入戲太深
+    _Ja: いちあ
+    _Ko: 똘이장군
+    _De: Jackie
+    _Fr: Jackie
+    _Ru: Вадимко
+  - _Id: 143
+    _En: James
+    _Zh: 落寞终成空
+    _Zh_tw: 白衣俊郎
+    _Ja: いちのすけ
+    _Ko: 똘추
+    _De: James
+    _Fr: James
+    _Ru: Вадо
+  - _Id: 144
+    _En: Jean
+    _Zh: 扯淡的青春
+    _Zh_tw: 帥飛一條街
+    _Ja: いちよう
+    _Ko: 똥양인
+    _De: Jean
+    _Fr: Jean
+    _Ru: Вадітоп6
+  - _Id: 145
+    _En: July
+    _Zh: 青春的残酷
+    _Zh_tw: 自始無終
+    _Ja: いっち
+    _Ko: 뚜둥치
+    _De: July
+    _Fr: July
+    _Ru: Вайд
+  - _Id: 146
+    _En: John
+    _Zh: 大忽悠
+    _Zh_tw: 初心羈絆
+    _Ja: いつおり
+    _Ko: 띵신
+    _De: John
+    _Fr: John
+    _Ru: Вакер
+  - _Id: 147
+    _En: Jay
+    _Zh: 大聪明
+    _Zh_tw: 壞脾氣先生
+    _Ja: いつき
+    _Ko: 라쿤
+    _De: Jay
+    _Fr: Jay
+    _Ru: Валера
+  - _Id: 148
+    _En: Jasen
+    _Zh: 西红柿
+    _Zh_tw: 橘子果醬
+    _Ja: いな
+    _Ko: 랄루랄리
+    _De: Jasen
+    _Fr: Jasen
+    _Ru: Вамаки
+  - _Id: 149
+    _En: Jamie
+    _Zh: 马什么梅？
+    _Zh_tw: 皮卡嚕
+    _Ja: いないばぁ〜
+    _Ko: 레드벨벳
+    _De: Jamie
+    _Fr: Jamie
+    _Ru: Ванек
+  - _Id: 150
+    _En: Jeff
+    _Zh: 我摊牌了
+    _Zh_tw: 霸道掌門人
+    _Ja: いなばだいち
+    _Ko: 렬
+    _De: Jeff
+    _Fr: Jeff
+    _Ru: Вано
+  - _Id: 151
+    _En: KING
+    _Zh: 今晚吃烤肉
+    _Zh_tw: 夜無眠
+    _Ja: いねて
+    _Ko: 로나츠
+    _De: KING
+    _Fr: KING
+    _Ru: Ваня45
+  - _Id: 152
+    _En: KANE
+    _Zh: 今晚吃火锅
+    _Zh_tw: 詩人
+    _Ja: いぶきち
+    _Ko: 로즈아리
+    _De: KANE
+    _Fr: KANE
+    _Ru: Ваняпро
+  - _Id: 153
+    _En: K!NG
+    _Zh: 路边吃烧烤
+    _Zh_tw: 盧卡斯
+    _Ja: いーま
+    _Ko: 루이
+    _De: K!NG
+    _Fr: K!NG
+    _Ru: Вап
+  - _Id: 154
+    _En: Karl
+    _Zh: 长得有点靓
+    _Zh_tw: 米勒
+    _Ja: ぅかい
+    _Ko: 리말휘
+    _De: Karl
+    _Fr: Karl
+    _Ru: Вапвап
+  - _Id: 155
+    _En: Kenny
+    _Zh: 长得有点帅
+    _Zh_tw: 麥可
+    _Ja: うっちー
+    _Ko: 리암
+    _De: Kenny
+    _Fr: Kenny
+    _Ru: Васек
+  - _Id: 156
+    _En: Kevin
+    _Zh: 没事走两步
+    _Zh_tw: 馬克
+    _Ja: うっゆっっゆ
+    _Ko: 리필인생
+    _De: Kevin
+    _Fr: Kevin
+    _Ru: Василий
+  - _Id: 157
+    _En: Kalu
+    _Zh: 梦中情人
+    _Zh_tw: 麥
+    _Ja: うまかべん
+    _Ko: 린다
+    _De: Kalu
+    _Fr: Kalu
+    _Ru: Вася
+  - _Id: 158
+    _En: Keven
+    _Zh: 其实不想走
+    _Zh_tw: 陽光的暖冬
+    _Ja: うめきち
+    _Ko: 마인크래프트
+    _De: Keven
+    _Fr: Keven
+    _Ru: Васяневеньки
+  - _Id: 159
+    _En: Khalid
+    _Zh: 其实我想留
+    _Zh_tw: 煙花易冷
+    _Ja: うんち
+    _Ko: 마징가노보트
+    _De: Khalid
+    _Fr: Khalid
+    _Ru: Вванаг
+  - _Id: 160
+    _En: Khalifa
+    _Zh: 手残党克星
+    _Zh_tw: 花開花落
+    _Ja: うーこ
+    _Ko: 막시무스
+    _De: Khalifa
+    _Fr: Khalifa
+    _Ru: Вввввв
+  - _Id: 161
+    _En: Kerr
+    _Zh: 全网最美
+    _Zh_tw: 寧夏
+    _Ja: うーとんとん
+    _Ko: 맑은영혼
+    _De: Kerr
+    _Fr: Kerr
+    _Ru: Ввлвддвжжсжч
+  - _Id: 162
+    _En: Kraus
+    _Zh: 全网最帅
+    _Zh_tw: 舊人勿念
+    _Ja: ぇあ
+    _Ko: 메이레나
+    _De: Kraus
+    _Fr: Kraus
+    _Ru: Велес
+  - _Id: 163
+    _En: Kavin
+    _Zh: 拖拉机手
+    _Zh_tw: 一笑奈何
+    _Ja: えいえいえ
+    _Ko: 모래시키
+    _De: Kavin
+    _Fr: Kavin
+    _Ru: Вентрис
+  - _Id: 164
+    _En: Karlos
+    _Zh: 奔跑的挖掘机
+    _Zh_tw: 不見不念
+    _Ja: えいた
+    _Ko: 모모사나
+    _De: Karlos
+    _Fr: Karlos
+    _Ru: Веталь
+  - _Id: 165
+    _En: Kara
+    _Zh: 太阳雨
+    _Zh_tw: 一首歌的時間
+    _Ja: えいちゃん
+    _Ko: 몽클스
+    _De: Kara
+    _Fr: Kara
+    _Ru: Видар
+  - _Id: 166
+    _En: Love
+    _Zh: 武打明星
+    _Zh_tw: 敗給時光
+    _Ja: ええうるっっ
+    _Ko: 무
+    _De: Love
+    _Fr: Love
+    _Ru: Вики
+  - _Id: 167
+    _En: Louis
+    _Zh: 一路向北
+    _Zh_tw: 長得有點靚
+    _Ja: えきそ
+    _Ko: 무슨189
+    _De: Louis
+    _Fr: Louis
+    _Ru: Виксель
+  - _Id: 168
+    _En: Luca
+    _Zh: 可乐加冰
+    _Zh_tw: 長得有點帥
+    _Ja: えっけ
+    _Ko: 문진
+    _De: Luca
+    _Fr: Luca
+    _Ru: Виктор
+  - _Id: 169
+    _En: Lopes
+    _Zh: 兄弟别追我
+    _Zh_tw: 手殘黨剋星
+    _Ja: えのきよ
+    _Ko: 물많은채원이
+    _De: Lopes
+    _Fr: Lopes
+    _Ru: Викторияно
+  - _Id: 170
+    _En: Lopez
+    _Zh: 狂飙少年
+    _Zh_tw: 全網最美
+    _Ja: んぽ侍
+    _Ko: 물찍찍
+    _De: Lopez
+    _Fr: Lopez
+    _Ru: Висорион
+  - _Id: 171
+    _En: Lucas
+    _Zh: 雨下听风
+    _Zh_tw: 帥哥代表
+    _Ja: おいも
+    _Ko: 물
+    _De: Lucas
+    _Fr: Lucas
+    _Ru: Витал
+  - _Id: 172
+    _En: Miler
+    _Zh: 阳光的暖冬
+    _Zh_tw: 都說我帥
+    _Ja: おうき
+    _Ko: 뮤균무때민ㅅ
+    _De: Miler
+    _Fr: Miler
+    _Ru: Витек
+  - _Id: 173
+    _En: Michael
+    _Zh: 烟花易冷
+    _Zh_tw: 行走的磚頭
+    _Ja: おうり
+    _Ko: 미
+    _De: Michael
+    _Fr: Michael
+    _Ru: Витя
+  - _Id: 174
+    _En: Marc
+    _Zh: 花开花落
+    _Zh_tw: 微笑終結者
+    _Ja: おえそ
+    _Ko: 뭐하
+    _De: Marc
+    _Fr: Marc
+    _Ru: Витяба
+  - _Id: 175
+    _En: Mai
+    _Zh: 宁夏
+    _Zh_tw: 伊達斯
+    _Ja: おおきなでこ
+    _Ko: 메이
+    _De: Mai
+    _Fr: Mai
+    _Ru: Влад
+  - _Id: 176
+    _En: MVP
+    _Zh: 旧人勿念
+    _Zh_tw: 夏雨初晴
+    _Ja: おかえり
+    _Ko: 미너낳
+    _De: MVP
+    _Fr: MVP
+    _Ru: Владимир
+  - _Id: 177
+    _En: Nobody
+    _Zh: 一笑奈何
+    _Zh_tw: 一縷陽光
+    _Ja: おかーん
+    _Ko: 미르사냥꾼
+    _De: Nobody
+    _Fr: Nobody
+    _Ru: Гавщ
+  - _Id: 178
+    _En: Magic
+    _Zh: 不见不念
+    _Zh_tw: 今天開始
+    _Ja: おけけ
+    _Ko: 미스터슬기
+    _De: Magic
+    _Fr: Magic
+    _Ru: Гапа
+  - _Id: 179
+    _En: Mike
+    _Zh: 心中的一首歌
+    _Zh_tw: 亞斯塔
+    _Ja: おけまる
+    _Ko: 미자
+    _De: Mike
+    _Fr: Mike
+    _Ru: Гога
+  - _Id: 180
+    _En: Moon
+    _Zh: 一首歌的时间
+    _Zh_tw: 帥氣大貨車
+    _Ja: おたたになや
+    _Ko: 민돌이
+    _De: Moon
+    _Fr: Moon
+    _Ru: Гоги
+  - _Id: 181
+    _En: Nice
+    _Zh: 败给时光
+    _Zh_tw: 放學別走
+    _Ja: おとわ
+    _Ko: 민맛아
+    _De: Nice
+    _Fr: Nice
+    _Ru: Год
+  - _Id: 182
+    _En: NINJA
+    _Zh: 匆匆那年
+    _Zh_tw: 大哥別開槍
+    _Ja: おなべくん
+    _Ko: 민방위
+    _De: NINJA
+    _Fr: NINJA
+    _Ru: Дан
+  - _Id: 183
+    _En: OvO
+    _Zh: 白衣折扇
+    _Zh_tw: 楓葉紅了
+    _Ja: おにぎり
+    _Ko: 밈미꽁주
+    _De: OvO
+    _Fr: OvO
+    _Ru: Дани
+  - _Id: 184
+    _En: One
+    _Zh: 夏雨初晴
+    _Zh_tw: 望月之城
+    _Ja: おふじ
+    _Ko: 밍밍밍써니
+    _De: One
+    _Fr: One
+    _Ru: Даниил
+  - _Id: 185
+    _En: Panda
+    _Zh: 一缕阳光
+    _Zh_tw: 放學吃炸雞
+    _Ja: おまえ
+    _Ko: 전사
+    _De: Panda
+    _Fr: Panda
+    _Ru: Данька
+  - _Id: 186
+    _En: Queen
+    _Zh: 全国帅哥代表
+    _Zh_tw: 槍無影
+    _Ja: おます
+    _Ko: 스
+    _De: Queen
+    _Fr: Queen
+    _Ru: Даня
+  - _Id: 187
+    _En: Ruben
+    _Zh: 都说我帅
+    _Zh_tw: 白開水
+    _Ja: おやっさん
+    _Ko: 박상현
+    _De: Ruben
+    _Fr: Ruben
+    _Ru: Даніель
+  - _Id: 188
+    _En: Ray
+    _Zh: 行走的砖头
+    _Zh_tw: 明天就減肥
+    _Ja: おれ
+    _Ko: 박서준.
+    _De: Ray
+    _Fr: Ray
+    _Ru: Демир
+  - _Id: 189
+    _En: Rabbit
+    _Zh: 微笑终结者
+    _Zh_tw: 遊戲人間
+    _Ja: おわー
+    _Ko: 반고
+    _De: Rabbit
+    _Fr: Rabbit
+    _Ru: Оррпп
+  - _Id: 190
+    _En: Rich
+    _Zh: MVP
+    _Zh_tw: 致命的王者
+    _Ja: お寿司かない
+    _Ko: 밤
+    _De: Rich
+    _Fr: Rich
+    _Ru: Осетин
+  - _Id: 191
+    _En: Sam
+    _Zh: 冷面
+    _Zh_tw: 亞洲首帥
+    _Ja: か
+    _Ko: 밥이낌
+    _De: Sam
+    _Fr: Sam
+    _Ru: Оск
+  - _Id: 192
+    _En: Scott
+    _Zh: 扫把头
+    _Zh_tw: 帥到沒盆友
+    _Ja: かい
+    _Ko: 버네너
+    _De: Scott
+    _Fr: Scott
+    _Ru: ПРИНЦ
+  - _Id: 193
+    _En: Shane
+    _Zh: 不要迷恋哥
+    _Zh_tw: 可樂加冰
+    _Ja: かいかい
+    _Ko: 버드
+    _De: Shane
+    _Fr: Shane
+    _Ru: Пампам
+  - _Id: 194
+    _En: Tommy
+    _Zh: 白开水
+    _Zh_tw: 陽光耀眼
+    _Ja: かいせい
+    _Ko: 범준
+    _De: Tommy
+    _Fr: Tommy
+    _Ru: Панда
+  - _Id: 195
+    _En: Well
+    _Zh: 明天就减肥
+    _Zh_tw: 強顏歡笑
+    _Ja: かいとりさ
+    _Ko: 벵에돔
+    _De: Well
+    _Fr: Well
+    _Ru: Папапн
+  - _Id: 196
+    _En: Yup
+    _Zh: 放学别走
+    _Zh_tw: 湯米
+    _Ja: かいり
+    _Ko: 벼락부자
+    _De: Yup
+    _Fr: Yup
+    _Ru: Иирорп
+  - _Id: 197
+    _En: Zero
+    _Zh: 大哥别追我
+    _Zh_tw: 佐羅
+    _Ja: かいる
+    _Ko: 봉산
+    _De: Zero
+    _Fr: Zero
+    _Ru: Илра
+  - _Id: 198
+    _En: Zoro
+    _Zh: 枫叶红了
+    _Zh_tw: 奔跑的挖掘機
+    _Ja: かえで
+    _Ko: 브남
+    _De: Zoro
+    _Fr: Zoro
+    _Ru: Женя
+  - _Id: 199
+    _En: Zzz
+    _Zh: 望月之城
+    _Zh_tw: 太陽雨
+    _Ja: かおちゃん
+    _Ko: 브라이언
+    _De: Zzz
+    _Fr: Zzz
+    _Ru: Жепка
+  - _Id: 200
+    _En: Sky
+    _Zh: 跑得比你快
+    _Zh_tw: 藍色可樂
+    _Ja: かおる
+    _Ko: 블루애시
+    _De: Sky
+    _Fr: Sky
+    _Ru: Жора

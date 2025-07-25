@@ -1,0 +1,394 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32165350644b219cd8abd02a7dfed9d7, type: 3}
+  m_Name: DYEvent_ServerTask
+  m_EditorClassIdentifier:
+  _Items:
+  - _Id: 101
+    _Note: 任意公会活跃人数达到40人
+    _Type: 2
+    _Param: 40
+    _Reward:
+    - 13034
+    - 200
+    - 7006
+    - 50
+    - 7010
+    - 10
+    - 7001
+    - 30
+    _Icon: Functions/JointServiceActivity/Textures/js_iconunion
+    _Desc: 1007114
+    _Jump: 10048
+    _Sort: 1
+  - _Id: 201
+    _Note: 全服消耗体力达到5000
+    _Type: 3
+    _Param: 5000
+    _Reward:
+    - 13034
+    - 100
+    - 7006
+    - 10
+    - 7001
+    - 20
+    _Icon: Functions/JointServiceActivity/Textures/js_iconrecharge
+    _Desc: 1007115
+    _Jump: 10009
+    _Sort: 2
+  - _Id: 202
+    _Note: 全服消耗体力达到15000
+    _Type: 3
+    _Param: 15000
+    _Reward:
+    - 13034
+    - 100
+    - 7006
+    - 10
+    - 7001
+    - 20
+    _Icon: Functions/JointServiceActivity/Textures/js_iconrecharge
+    _Desc: 1007115
+    _Jump: 10009
+    _Sort: 3
+  - _Id: 203
+    _Note: 全服消耗体力达到25000
+    _Type: 3
+    _Param: 25000
+    _Reward:
+    - 13034
+    - 100
+    - 7006
+    - 10
+    - 7001
+    - 20
+    _Icon: Functions/JointServiceActivity/Textures/js_iconrecharge
+    _Desc: 1007115
+    _Jump: 10009
+    _Sort: 4
+  - _Id: 204
+    _Note: 全服消耗体力达到40000
+    _Type: 3
+    _Param: 40000
+    _Reward:
+    - 13034
+    - 100
+    - 7006
+    - 10
+    - 7001
+    - 20
+    _Icon: Functions/JointServiceActivity/Textures/js_iconrecharge
+    _Desc: 1007115
+    _Jump: 10009
+    _Sort: 5
+  - _Id: 205
+    _Note: 全服消耗体力达到60000
+    _Type: 3
+    _Param: 60000
+    _Reward:
+    - 13034
+    - 100
+    - 7006
+    - 10
+    - 7001
+    - 20
+    _Icon: Functions/JointServiceActivity/Textures/js_iconrecharge
+    _Desc: 1007115
+    _Jump: 10009
+    _Sort: 6
+  - _Id: 301
+    _Note: 全服消耗钻石达到20000
+    _Type: 4
+    _Param: 20000
+    _Reward:
+    - 13034
+    - 100
+    - 7006
+    - 10
+    - 7001
+    - 20
+    _Icon: Functions/JointServiceActivity/Textures/js_iconpower
+    _Desc: 1007116
+    _Jump: 0
+    _Sort: 7
+  - _Id: 302
+    _Note: 全服消耗钻石达到50000
+    _Type: 4
+    _Param: 50000
+    _Reward:
+    - 13034
+    - 100
+    - 7006
+    - 10
+    - 7001
+    - 20
+    _Icon: Functions/JointServiceActivity/Textures/js_iconpower
+    _Desc: 1007116
+    _Jump: 0
+    _Sort: 8
+  - _Id: 303
+    _Note: 全服消耗钻石达到100000
+    _Type: 4
+    _Param: 100000
+    _Reward:
+    - 13034
+    - 100
+    - 7006
+    - 10
+    - 7001
+    - 20
+    _Icon: Functions/JointServiceActivity/Textures/js_iconpower
+    _Desc: 1007116
+    _Jump: 0
+    _Sort: 9
+  - _Id: 304
+    _Note: 全服消耗钻石达到150000
+    _Type: 4
+    _Param: 150000
+    _Reward:
+    - 13034
+    - 100
+    - 7006
+    - 10
+    - 7001
+    - 20
+    _Icon: Functions/JointServiceActivity/Textures/js_iconpower
+    _Desc: 1007116
+    _Jump: 0
+    _Sort: 10
+  - _Id: 305
+    _Note: 全服消耗钻石达到200000
+    _Type: 4
+    _Param: 200000
+    _Reward:
+    - 13034
+    - 100
+    - 7006
+    - 10
+    - 7001
+    - 20
+    _Icon: Functions/JointServiceActivity/Textures/js_iconpower
+    _Desc: 1007116
+    _Jump: 0
+    _Sort: 11
+  - _Id: 401
+    _Note: 全服获得充值积分1000
+    _Type: 1
+    _Param: 1000
+    _Reward:
+    - 13034
+    - 100
+    - 7004
+    - 2
+    - 7006
+    - 20
+    - 7001
+    - 10
+    _Icon: Functions/JointServiceActivity/Textures/js_icondiamond
+    _Desc: 1007113
+    _Jump: 10012
+    _Sort: 12
+  - _Id: 402
+    _Note: 全服获得充值积分4000
+    _Type: 1
+    _Param: 4000
+    _Reward:
+    - 13034
+    - 100
+    - 7004
+    - 2
+    - 7006
+    - 20
+    - 7001
+    - 10
+    _Icon: Functions/JointServiceActivity/Textures/js_icondiamond
+    _Desc: 1007113
+    _Jump: 10012
+    _Sort: 13
+  - _Id: 403
+    _Note: 全服获得充值积分8000
+    _Type: 1
+    _Param: 8000
+    _Reward:
+    - 13034
+    - 150
+    - 7004
+    - 3
+    - 7006
+    - 20
+    - 7001
+    - 10
+    _Icon: Functions/JointServiceActivity/Textures/js_icondiamond
+    _Desc: 1007113
+    _Jump: 10012
+    _Sort: 14
+  - _Id: 404
+    _Note: 全服获得充值积分12000
+    _Type: 1
+    _Param: 12000
+    _Reward:
+    - 13034
+    - 150
+    - 7004
+    - 3
+    - 7006
+    - 20
+    - 7001
+    - 20
+    _Icon: Functions/JointServiceActivity/Textures/js_icondiamond
+    _Desc: 1007113
+    _Jump: 10012
+    _Sort: 15
+  - _Id: 405
+    _Note: 全服获得充值积分20000
+    _Type: 1
+    _Param: 20000
+    _Reward:
+    - 13034
+    - 200
+    - 7004
+    - 5
+    - 7006
+    - 20
+    - 7001
+    - 20
+    _Icon: Functions/JointServiceActivity/Textures/js_icondiamond
+    _Desc: 1007113
+    _Jump: 10012
+    _Sort: 16
+  - _Id: 406
+    _Note: 全服获得充值积分30000
+    _Type: 1
+    _Param: 30000
+    _Reward:
+    - 13034
+    - 200
+    - 7004
+    - 5
+    - 7006
+    - 20
+    - 7001
+    - 30
+    _Icon: Functions/JointServiceActivity/Textures/js_icondiamond
+    _Desc: 1007113
+    _Jump: 10012
+    _Sort: 17
+  - _Id: 501
+    _Note: 【全服捐献】
+    _Type: 5
+    _Param: 10000
+    _Reward:
+    - 7004
+    - 5
+    - 7001
+    - 20
+    _Icon: UI/Icon/VirtualField/boxpurple
+    _Desc: 0
+    _Jump: 0
+    _Sort: 1
+  - _Id: 502
+    _Note: 【全服捐献】
+    _Type: 5
+    _Param: 30000
+    _Reward:
+    - 29302
+    - 20
+    - 6001
+    - 10
+    - 4010
+    - 30
+    _Icon: UI/Icon/VirtualField/boxgold
+    _Desc: 0
+    _Jump: 0
+    _Sort: 1
+  - _Id: 503
+    _Note: 【全服捐献】
+    _Type: 5
+    _Param: 60000
+    _Reward:
+    - 7004
+    - 5
+    - 7001
+    - 20
+    _Icon: UI/Icon/VirtualField/boxpurple
+    _Desc: 0
+    _Jump: 0
+    _Sort: 1
+  - _Id: 504
+    _Note: 【全服捐献】
+    _Type: 5
+    _Param: 100000
+    _Reward:
+    - 7004
+    - 5
+    - 7001
+    - 20
+    _Icon: UI/Icon/VirtualField/boxpurple
+    _Desc: 0
+    _Jump: 0
+    _Sort: 1
+  - _Id: 505
+    _Note: 【全服捐献】
+    _Type: 5
+    _Param: 150000
+    _Reward:
+    - 29704
+    - 20
+    - 6002
+    - 10
+    - 4010
+    - 40
+    _Icon: UI/Icon/VirtualField/boxgold
+    _Desc: 0
+    _Jump: 0
+    _Sort: 1
+  - _Id: 506
+    _Note: 【全服捐献】
+    _Type: 5
+    _Param: 200000
+    _Reward:
+    - 7004
+    - 5
+    - 7001
+    - 50
+    _Icon: UI/Icon/VirtualField/boxpurple
+    _Desc: 0
+    _Jump: 0
+    _Sort: 1
+  - _Id: 507
+    _Note: 【全服捐献】
+    _Type: 5
+    _Param: 250000
+    _Reward:
+    - 7004
+    - 5
+    - 7001
+    - 50
+    _Icon: UI/Icon/VirtualField/boxpurple
+    _Desc: 0
+    _Jump: 0
+    _Sort: 1
+  - _Id: 508
+    _Note: 【全服捐献】
+    _Type: 5
+    _Param: 300000
+    _Reward:
+    - 29472
+    - 1
+    - 29493
+    - 20
+    - 4010
+    - 50
+    _Icon: UI/Icon/VirtualField/boxgold
+    _Desc: 0
+    _Jump: 0
+    _Sort: 1

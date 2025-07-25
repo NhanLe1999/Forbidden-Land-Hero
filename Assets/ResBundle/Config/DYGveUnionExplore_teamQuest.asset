@@ -1,0 +1,421 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdf58f27e87a0456bb72ea6041ce57a0, type: 3}
+  m_Name: DYGveUnionExplore_teamQuest
+  m_EditorClassIdentifier:
+  _Items:
+  - _ID: 1001
+    _Remarks: 发现区域1生化实验室
+    _Desc: 1202101
+    _Parameters:
+    - 1
+    _Type: 3
+    _EventId:
+    - 101
+    _FrontTask: []
+    _Rewards:
+    - 1100105
+    - 30
+    _Order: 1
+  - _ID: 1002
+    _Remarks: 发现区域2生化实验室
+    _Desc: 1202101
+    _Parameters:
+    - 2
+    _Type: 3
+    _EventId:
+    - 201
+    - 202
+    _FrontTask:
+    - 1019
+    _Rewards:
+    - 1100105
+    - 30
+    _Order: 1
+  - _ID: 1003
+    _Remarks: 发现区域3生化实验室
+    _Desc: 1202101
+    _Parameters:
+    - 3
+    _Type: 3
+    _EventId:
+    - 301
+    - 302
+    - 303
+    _FrontTask:
+    - 1020
+    _Rewards:
+    - 1100105
+    - 30
+    _Order: 1
+  - _ID: 1004
+    _Remarks: 发现区域4生化实验室
+    _Desc: 1202101
+    _Parameters:
+    - 4
+    _Type: 3
+    _EventId:
+    - 401
+    - 402
+    - 403
+    _FrontTask:
+    - 1021
+    _Rewards:
+    - 1100105
+    - 60
+    _Order: 1
+  - _ID: 1005
+    _Remarks: 发现区域5生化实验室
+    _Desc: 1202101
+    _Parameters:
+    - 4
+    _Type: 3
+    _EventId:
+    - 501
+    - 502
+    - 503
+    - 504
+    _FrontTask:
+    - 1022
+    _Rewards:
+    - 1100105
+    - 90
+    _Order: 1
+  - _ID: 1006
+    _Remarks: 【区域1】实验室1研究成功
+    _Desc: 1202102
+    _Parameters:
+    - 1
+    _Type: 1
+    _EventId:
+    - 101
+    _FrontTask:
+    - 1001
+    _Rewards:
+    - 1100202
+    - 2
+    _Order: 2
+  - _ID: 1007
+    _Remarks: 【区域2】实验室1研究成功
+    _Desc: 1202102
+    _Parameters:
+    - 1
+    _Type: 1
+    _EventId:
+    - 201
+    _FrontTask:
+    - 1002
+    _Rewards:
+    - 1100202
+    - 2
+    _Order: 2
+  - _ID: 1008
+    _Remarks: 【区域2】实验室2研究成功
+    _Desc: 1202102
+    _Parameters:
+    - 2
+    _Type: 1
+    _EventId:
+    - 202
+    _FrontTask:
+    - 1002
+    _Rewards:
+    - 1100202
+    - 2
+    _Order: 2
+  - _ID: 1009
+    _Remarks: 【区域3】实验室1研究成功
+    _Desc: 1202102
+    _Parameters:
+    - 1
+    _Type: 1
+    _EventId:
+    - 301
+    _FrontTask:
+    - 1003
+    _Rewards:
+    - 1100204
+    - 1
+    _Order: 2
+  - _ID: 1010
+    _Remarks: 【区域3】实验室2研究成功
+    _Desc: 1202102
+    _Parameters:
+    - 2
+    _Type: 1
+    _EventId:
+    - 302
+    _FrontTask:
+    - 1003
+    _Rewards:
+    - 1100204
+    - 1
+    _Order: 2
+  - _ID: 1011
+    _Remarks: 【区域3】实验室3研究成功
+    _Desc: 1202102
+    _Parameters:
+    - 3
+    _Type: 1
+    _EventId:
+    - 303
+    _FrontTask:
+    - 1003
+    _Rewards:
+    - 1100204
+    - 1
+    _Order: 2
+  - _ID: 1012
+    _Remarks: 【区域4】实验室1研究成功
+    _Desc: 1202102
+    _Parameters:
+    - 1
+    _Type: 1
+    _EventId:
+    - 401
+    _FrontTask:
+    - 1004
+    _Rewards:
+    - 1100204
+    - 1
+    _Order: 2
+  - _ID: 1013
+    _Remarks: 【区域4】实验室2研究成功
+    _Desc: 1202102
+    _Parameters:
+    - 2
+    _Type: 1
+    _EventId:
+    - 402
+    _FrontTask:
+    - 1004
+    _Rewards:
+    - 1100204
+    - 1
+    _Order: 2
+  - _ID: 1014
+    _Remarks: 【区域4】实验室3研究成功
+    _Desc: 1202102
+    _Parameters:
+    - 3
+    _Type: 1
+    _EventId:
+    - 403
+    _FrontTask:
+    - 1004
+    _Rewards:
+    - 1100204
+    - 1
+    _Order: 2
+  - _ID: 1015
+    _Remarks: 【区域5】实验室1研究成功
+    _Desc: 1202102
+    _Parameters:
+    - 1
+    _Type: 1
+    _EventId:
+    - 501
+    _FrontTask:
+    - 1005
+    _Rewards:
+    - 1100204
+    - 1
+    _Order: 2
+  - _ID: 1016
+    _Remarks: 【区域5】实验室2研究成功
+    _Desc: 1202102
+    _Parameters:
+    - 2
+    _Type: 1
+    _EventId:
+    - 502
+    _FrontTask:
+    - 1005
+    _Rewards:
+    - 1100204
+    - 1
+    _Order: 2
+  - _ID: 1017
+    _Remarks: 【区域5】实验室3研究成功
+    _Desc: 1202102
+    _Parameters:
+    - 3
+    _Type: 1
+    _EventId:
+    - 503
+    _FrontTask:
+    - 1005
+    _Rewards:
+    - 1100204
+    - 1
+    _Order: 2
+  - _ID: 1018
+    _Remarks: 【区域5】实验室4研究成功
+    _Desc: 1202102
+    _Parameters:
+    - 4
+    _Type: 1
+    _EventId:
+    - 504
+    _FrontTask:
+    - 1005
+    _Rewards:
+    - 1100206
+    - 1
+    _Order: 2
+  - _ID: 1019
+    _Remarks: 击败大波丧尸巢穴1
+    _Desc: 1202103
+    _Parameters:
+    - 1
+    _Type: 2
+    _EventId:
+    - 201
+    _FrontTask:
+    - 1006
+    _Rewards:
+    - 14002
+    - 25
+    _Order: 3
+  - _ID: 1020
+    _Remarks: 击败大波丧尸巢穴2
+    _Desc: 1202103
+    _Parameters:
+    - 2
+    _Type: 2
+    _EventId:
+    - 202
+    _FrontTask:
+    - 1007
+    - 1008
+    _Rewards:
+    - 14002
+    - 30
+    _Order: 3
+  - _ID: 1021
+    _Remarks: 击败大波丧尸巢穴3
+    _Desc: 1202103
+    _Parameters:
+    - 3
+    _Type: 2
+    _EventId:
+    - 203
+    _FrontTask:
+    - 1009
+    - 1010
+    - 1011
+    _Rewards:
+    - 14002
+    - 50
+    _Order: 3
+  - _ID: 1022
+    _Remarks: 击败大波丧尸巢穴4
+    _Desc: 1202103
+    _Parameters:
+    - 4
+    _Type: 2
+    _EventId:
+    - 204
+    _FrontTask:
+    - 1012
+    - 1013
+    - 1014
+    _Rewards:
+    - 14002
+    - 80
+    _Order: 3
+  - _ID: 1023
+    _Remarks: 击败最终BOSS
+    _Desc: 1202104
+    _Parameters: []
+    _Type: 2
+    _EventId:
+    - 205
+    _FrontTask:
+    - 1015
+    - 1016
+    - 1017
+    - 1018
+    _Rewards:
+    - 14002
+    - 100
+    _Order: 3
+  - _ID: 1024
+    _Remarks: 领取团队宝箱1
+    _Desc: 1202100
+    _Parameters:
+    - 1
+    _Type: 5
+    _EventId:
+    - 1001
+    _FrontTask:
+    - 1019
+    _Rewards:
+    - 1100105
+    - 30
+    _Order: 4
+  - _ID: 1025
+    _Remarks: 领取团队宝箱2
+    _Desc: 1202100
+    _Parameters:
+    - 2
+    _Type: 5
+    _EventId:
+    - 1002
+    _FrontTask:
+    - 1020
+    _Rewards:
+    - 1100105
+    - 30
+    _Order: 4
+  - _ID: 1026
+    _Remarks: 领取团队宝箱3
+    _Desc: 1202100
+    _Parameters:
+    - 3
+    _Type: 5
+    _EventId:
+    - 1003
+    _FrontTask:
+    - 1021
+    _Rewards:
+    - 1100105
+    - 30
+    _Order: 4
+  - _ID: 1027
+    _Remarks: 领取团队宝箱4
+    _Desc: 1202100
+    _Parameters:
+    - 4
+    _Type: 5
+    _EventId:
+    - 1004
+    _FrontTask:
+    - 1022
+    _Rewards:
+    - 1100105
+    - 60
+    _Order: 4
+  - _ID: 1028
+    _Remarks: 领取团队宝箱5
+    _Desc: 1202100
+    _Parameters:
+    - 5
+    _Type: 5
+    _EventId:
+    - 1005
+    _FrontTask:
+    - 1023
+    _Rewards:
+    - 1100105
+    - 60
+    _Order: 4

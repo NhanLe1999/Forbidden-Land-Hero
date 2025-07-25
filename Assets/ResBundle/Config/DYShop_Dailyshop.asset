@@ -1,0 +1,431 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52420fd808a324a806c6c4d88e59b49c, type: 3}
+  m_Name: DYShop_Dailyshop
+  m_EditorClassIdentifier:
+  _Items:
+  - _Id: 10011
+    _Payid: 10021
+    _Discount: 0
+    _Note: 钻石
+  - _Id: 10021
+    _Payid: 10022
+    _Discount: 3254
+    _Note: 武器芯片
+  - _Id: 10022
+    _Payid: 10023
+    _Discount: 3254
+    _Note: 随机蓝装备
+  - _Id: 10023
+    _Payid: 10024
+    _Discount: 3254
+    _Note: 随机紫装备
+  - _Id: 10024
+    _Payid: 10025
+    _Discount: 3254
+    _Note: 机器零件
+  - _Id: 10025
+    _Payid: 10026
+    _Discount: 3254
+    _Note: 机器人随机碎片
+  - _Id: 10026
+    _Payid: 10027
+    _Discount: 3254
+    _Note: 活力药剂
+  - _Id: 10027
+    _Payid: 10028
+    _Discount: 3254
+    _Note: 强化模块
+  - _Id: 10028
+    _Payid: 10029
+    _Discount: 3254
+    _Note: 神经编码器
+  - _Id: 10029
+    _Payid: 10030
+    _Discount: 3254
+    _Note: 模块券
+  - _Id: 10031
+    _Payid: 10031
+    _Discount: 3252
+    _Note: 芯片抽奖券
+  - _Id: 10032
+    _Payid: 10032
+    _Discount: 3254
+    _Note: 装备抽奖券
+  - _Id: 10033
+    _Payid: 10033
+    _Discount: 3254
+    _Note: 经验助手[碎片]
+  - _Id: 10034
+    _Payid: 10034
+    _Discount: 3252
+    _Note: 机器人抽奖券
+  - _Id: 10035
+    _Payid: 10035
+    _Discount: 3252
+    _Note: 力量药剂
+  - _Id: 10036
+    _Payid: 10036
+    _Discount: 3252
+    _Note: 探索启动卡
+  - _Id: 10037
+    _Payid: 10037
+    _Discount: 3252
+    _Note: 神经增效芯片
+  - _Id: 10038
+    _Payid: 10038
+    _Discount: 3252
+    _Note: 模块券
+  - _Id: 10041
+    _Payid: 10039
+    _Discount: 3253
+    _Note: 武器芯片
+  - _Id: 10042
+    _Payid: 10040
+    _Discount: 0
+    _Note: 传奇魔方
+  - _Id: 10043
+    _Payid: 10041
+    _Discount: 3254
+    _Note: 传奇魔方
+  - _Id: 10044
+    _Payid: 10042
+    _Discount: 3256
+    _Note: 科技核心（发展）
+  - _Id: 10045
+    _Payid: 10043
+    _Discount: 3256
+    _Note: 科技核心（战斗）
+  - _Id: 10046
+    _Payid: 10044
+    _Discount: 3253
+    _Note: 机器人随机碎片
+  - _Id: 10047
+    _Payid: 10045
+    _Discount: 0
+    _Note: 脑部植入体
+  - _Id: 10048
+    _Payid: 10046
+    _Discount: 3253
+    _Note: 脑部植入体
+  - _Id: 10121
+    _Payid: 10121
+    _Discount: 0
+    _Note: 武器芯片
+  - _Id: 10122
+    _Payid: 10122
+    _Discount: 0
+    _Note: 机器零件
+  - _Id: 10123
+    _Payid: 10123
+    _Discount: 0
+    _Note: 强化模块
+  - _Id: 10124
+    _Payid: 10124
+    _Discount: 0
+    _Note: 精密零件
+  - _Id: 10125
+    _Payid: 10125
+    _Discount: 0
+    _Note: 配件补给箱（普通）
+  - _Id: 10126
+    _Payid: 10126
+    _Discount: 3254
+    _Note: 武器芯片
+  - _Id: 10127
+    _Payid: 10127
+    _Discount: 3254
+    _Note: 机器零件
+  - _Id: 10128
+    _Payid: 10128
+    _Discount: 3254
+    _Note: 强化模块
+  - _Id: 10129
+    _Payid: 10129
+    _Discount: 3254
+    _Note: 精密零件
+  - _Id: 10130
+    _Payid: 10130
+    _Discount: 3254
+    _Note: 配件补给箱（普通）
+  - _Id: 10131
+    _Payid: 10131
+    _Discount: 3252
+    _Note: 武器芯片
+  - _Id: 10132
+    _Payid: 10132
+    _Discount: 3252
+    _Note: 机器零件
+  - _Id: 10133
+    _Payid: 10133
+    _Discount: 3252
+    _Note: 强化模块
+  - _Id: 10134
+    _Payid: 10134
+    _Discount: 3252
+    _Note: 精密零件
+  - _Id: 10135
+    _Payid: 10135
+    _Discount: 3252
+    _Note: 配件补给箱（普通）
+  - _Id: 10136
+    _Payid: 10136
+    _Discount: 3254
+    _Note: 芯片抽奖券
+  - _Id: 10137
+    _Payid: 10137
+    _Discount: 3254
+    _Note: 装备抽奖券
+  - _Id: 10138
+    _Payid: 10138
+    _Discount: 3254
+    _Note: 机器人抽奖券
+  - _Id: 10139
+    _Payid: 10139
+    _Discount: 3254
+    _Note: 探索启动卡
+  - _Id: 10140
+    _Payid: 10140
+    _Discount: 3254
+    _Note: 模块券
+  - _Id: 10141
+    _Payid: 10141
+    _Discount: 3254
+    _Note: 配件补给箱（高级）
+  - _Id: 10142
+    _Payid: 10142
+    _Discount: 3254
+    _Note: 配件补给箱（精致）
+  - _Id: 10143
+    _Payid: 10143
+    _Discount: 3252
+    _Note: 芯片抽奖券
+  - _Id: 10144
+    _Payid: 10144
+    _Discount: 3252
+    _Note: 装备抽奖券
+  - _Id: 10145
+    _Payid: 10145
+    _Discount: 3252
+    _Note: 机器人抽奖券
+  - _Id: 10146
+    _Payid: 10146
+    _Discount: 3252
+    _Note: 探索启动卡
+  - _Id: 10147
+    _Payid: 10147
+    _Discount: 3252
+    _Note: 模块券
+  - _Id: 10148
+    _Payid: 10148
+    _Discount: 3252
+    _Note: 配件补给箱（高级）
+  - _Id: 10149
+    _Payid: 10149
+    _Discount: 3252
+    _Note: 配件补给箱（精致）
+  - _Id: 10150
+    _Payid: 10150
+    _Discount: 3255
+    _Note: 芯片抽奖券
+  - _Id: 10151
+    _Payid: 10151
+    _Discount: 3255
+    _Note: 装备抽奖券
+  - _Id: 10152
+    _Payid: 10152
+    _Discount: 3255
+    _Note: 机器人抽奖券
+  - _Id: 10153
+    _Payid: 10153
+    _Discount: 3255
+    _Note: 探索启动卡
+  - _Id: 10154
+    _Payid: 10154
+    _Discount: 3255
+    _Note: 模块券
+  - _Id: 10155
+    _Payid: 10155
+    _Discount: 3255
+    _Note: 配件补给箱（高级）
+  - _Id: 10156
+    _Payid: 10156
+    _Discount: 3255
+    _Note: 配件补给箱（精致）
+  - _Id: 10157
+    _Payid: 10157
+    _Discount: 0
+    _Note: 传奇魔方
+  - _Id: 10158
+    _Payid: 10158
+    _Discount: 3254
+    _Note: 传奇魔方
+  - _Id: 10159
+    _Payid: 10159
+    _Discount: 3256
+    _Note: 科技核心（发展）
+  - _Id: 10160
+    _Payid: 10160
+    _Discount: 3256
+    _Note: 科技核心（战斗）
+  - _Id: 10161
+    _Payid: 10161
+    _Discount: 3252
+    _Note: 蓝色英雄晶石
+  - _Id: 10162
+    _Payid: 10162
+    _Discount: 3252
+    _Note: 紫色英雄晶石
+  - _Id: 10163
+    _Payid: 10163
+    _Discount: 3252
+    _Note: 橙色英雄晶石
+  - _Id: 10164
+    _Payid: 10164
+    _Discount: 0
+    _Note: 脑部植入体
+  - _Id: 10165
+    _Payid: 10165
+    _Discount: 3253
+    _Note: 脑部植入体
+  - _Id: 10166
+    _Payid: 10166
+    _Discount: 0
+    _Note: 反物质能量块
+  - _Id: 10167
+    _Payid: 10167
+    _Discount: 3252
+    _Note: 反物质能量块
+  - _Id: 10168
+    _Payid: 10168
+    _Discount: 3254
+    _Note: 武器芯片
+  - _Id: 10169
+    _Payid: 10169
+    _Discount: 3254
+    _Note: 机器零件
+  - _Id: 10170
+    _Payid: 10170
+    _Discount: 3254
+    _Note: 强化模块
+  - _Id: 10171
+    _Payid: 10171
+    _Discount: 3254
+    _Note: 精密零件
+  - _Id: 10172
+    _Payid: 10172
+    _Discount: 3254
+    _Note: 配件补给箱（普通）
+  - _Id: 10173
+    _Payid: 10173
+    _Discount: 3252
+    _Note: 武器芯片
+  - _Id: 10174
+    _Payid: 10174
+    _Discount: 3252
+    _Note: 机器零件
+  - _Id: 10175
+    _Payid: 10175
+    _Discount: 3252
+    _Note: 强化模块
+  - _Id: 10176
+    _Payid: 10176
+    _Discount: 3252
+    _Note: 精密零件
+  - _Id: 10177
+    _Payid: 10177
+    _Discount: 3252
+    _Note: 配件补给箱（普通）
+  - _Id: 10178
+    _Payid: 10178
+    _Discount: 3254
+    _Note: 芯片抽奖券
+  - _Id: 10179
+    _Payid: 10179
+    _Discount: 3254
+    _Note: 装备抽奖券
+  - _Id: 10180
+    _Payid: 10180
+    _Discount: 3254
+    _Note: 机器人抽奖券
+  - _Id: 10181
+    _Payid: 10181
+    _Discount: 3254
+    _Note: 探索启动卡
+  - _Id: 10182
+    _Payid: 10182
+    _Discount: 3254
+    _Note: 模块券
+  - _Id: 10183
+    _Payid: 10183
+    _Discount: 3254
+    _Note: 配件补给箱（高级）
+  - _Id: 10184
+    _Payid: 10184
+    _Discount: 3254
+    _Note: 配件补给箱（精致）
+  - _Id: 10185
+    _Payid: 10185
+    _Discount: 3252
+    _Note: 芯片抽奖券
+  - _Id: 10186
+    _Payid: 10186
+    _Discount: 3252
+    _Note: 装备抽奖券
+  - _Id: 10187
+    _Payid: 10187
+    _Discount: 3252
+    _Note: 机器人抽奖券
+  - _Id: 10188
+    _Payid: 10188
+    _Discount: 3252
+    _Note: 探索启动卡
+  - _Id: 10189
+    _Payid: 10189
+    _Discount: 3252
+    _Note: 模块券
+  - _Id: 10190
+    _Payid: 10190
+    _Discount: 3252
+    _Note: 配件补给箱（高级）
+  - _Id: 10191
+    _Payid: 10191
+    _Discount: 3252
+    _Note: 配件补给箱（精致）
+  - _Id: 10192
+    _Payid: 10192
+    _Discount: 3255
+    _Note: 芯片抽奖券
+  - _Id: 10193
+    _Payid: 10193
+    _Discount: 3255
+    _Note: 装备抽奖券
+  - _Id: 10194
+    _Payid: 10194
+    _Discount: 3255
+    _Note: 机器人抽奖券
+  - _Id: 10195
+    _Payid: 10195
+    _Discount: 3255
+    _Note: 探索启动卡
+  - _Id: 10196
+    _Payid: 10196
+    _Discount: 3255
+    _Note: 模块券
+  - _Id: 10197
+    _Payid: 10197
+    _Discount: 3255
+    _Note: 配件补给箱（高级）
+  - _Id: 10198
+    _Payid: 10198
+    _Discount: 3255
+    _Note: 配件补给箱（精致）

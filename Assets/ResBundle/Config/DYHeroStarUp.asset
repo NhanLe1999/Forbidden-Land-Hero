@@ -1,0 +1,1280 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae138e9f2e6fff088307a0c5ad542dbb, type: 3}
+  m_Name: DYHeroStarUp
+  m_EditorClassIdentifier:
+  _Items:
+  - _Id: 10011
+    _Note: 男主
+    _HeroID: 1001
+    _Star: 1
+    _BodyCost:
+    - 8001
+    - 1
+    _UniversalCost:
+    - 8101
+    - 2
+    _Attribute:
+    - 111
+    - 1000
+  - _Id: 10012
+    _Note: 男主
+    _HeroID: 1001
+    _Star: 2
+    _BodyCost:
+    - 8001
+    - 1
+    _UniversalCost:
+    - 8101
+    - 2
+    _Attribute:
+    - 111
+    - 2000
+  - _Id: 10013
+    _Note: 男主
+    _HeroID: 1001
+    _Star: 3
+    _BodyCost:
+    - 8001
+    - 1
+    _UniversalCost:
+    - 8101
+    - 2
+    _Attribute:
+    - 111
+    - 3000
+  - _Id: 10014
+    _Note: 男主
+    _HeroID: 1001
+    _Star: 4
+    _BodyCost:
+    - 8001
+    - 1
+    _UniversalCost:
+    - 8101
+    - 2
+    _Attribute:
+    - 111
+    - 4000
+  - _Id: 10015
+    _Note: 男主
+    _HeroID: 1001
+    _Star: 5
+    _BodyCost:
+    - 8001
+    - 2
+    _UniversalCost:
+    - 8101
+    - 4
+    _Attribute:
+    - 111
+    - 5000
+  - _Id: 10021
+    _Note: 神眷者
+    _HeroID: 1002
+    _Star: 1
+    _BodyCost:
+    - 8002
+    - 1
+    _UniversalCost:
+    - 8102
+    - 2
+    _Attribute:
+    - 111
+    - 2000
+    - 161
+    - 6000
+  - _Id: 10022
+    _Note: 神眷者
+    _HeroID: 1002
+    _Star: 2
+    _BodyCost:
+    - 8002
+    - 1
+    _UniversalCost:
+    - 8102
+    - 2
+    _Attribute:
+    - 111
+    - 4000
+    - 161
+    - 12000
+  - _Id: 10023
+    _Note: 神眷者
+    _HeroID: 1002
+    _Star: 3
+    _BodyCost:
+    - 8002
+    - 1
+    _UniversalCost:
+    - 8102
+    - 2
+    _Attribute:
+    - 111
+    - 6000
+    - 161
+    - 18000
+  - _Id: 10024
+    _Note: 神眷者
+    _HeroID: 1002
+    _Star: 4
+    _BodyCost:
+    - 8002
+    - 1
+    _UniversalCost:
+    - 8102
+    - 2
+    _Attribute:
+    - 111
+    - 8000
+    - 161
+    - 24000
+  - _Id: 10025
+    _Note: 神眷者
+    _HeroID: 1002
+    _Star: 5
+    _BodyCost:
+    - 8002
+    - 2
+    _UniversalCost:
+    - 8102
+    - 4
+    _Attribute:
+    - 111
+    - 10000
+    - 161
+    - 30000
+  - _Id: 10031
+    _Note: 赏金猎人
+    _HeroID: 1003
+    _Star: 1
+    _BodyCost:
+    - 8003
+    - 1
+    _UniversalCost:
+    - 8102
+    - 2
+    _Attribute:
+    - 111
+    - 2000
+    - 191
+    - 6000
+  - _Id: 10032
+    _Note: 赏金猎人
+    _HeroID: 1003
+    _Star: 2
+    _BodyCost:
+    - 8003
+    - 1
+    _UniversalCost:
+    - 8102
+    - 2
+    _Attribute:
+    - 111
+    - 4000
+    - 191
+    - 12000
+  - _Id: 10033
+    _Note: 赏金猎人
+    _HeroID: 1003
+    _Star: 3
+    _BodyCost:
+    - 8003
+    - 1
+    _UniversalCost:
+    - 8102
+    - 2
+    _Attribute:
+    - 111
+    - 6000
+    - 191
+    - 18000
+  - _Id: 10034
+    _Note: 赏金猎人
+    _HeroID: 1003
+    _Star: 4
+    _BodyCost:
+    - 8003
+    - 1
+    _UniversalCost:
+    - 8102
+    - 2
+    _Attribute:
+    - 111
+    - 8000
+    - 191
+    - 24000
+  - _Id: 10035
+    _Note: 赏金猎人
+    _HeroID: 1003
+    _Star: 5
+    _BodyCost:
+    - 8003
+    - 2
+    _UniversalCost:
+    - 8102
+    - 4
+    _Attribute:
+    - 111
+    - 10000
+    - 191
+    - 30000
+  - _Id: 10041
+    _Note: 未来战士
+    _HeroID: 1004
+    _Star: 1
+    _BodyCost:
+    - 8004
+    - 1
+    _UniversalCost:
+    - 8103
+    - 2
+    _Attribute:
+    - 304
+    - 0.02
+    - 111
+    - 3000
+  - _Id: 10042
+    _Note: 未来战士
+    _HeroID: 1004
+    _Star: 2
+    _BodyCost:
+    - 8004
+    - 1
+    _UniversalCost:
+    - 8103
+    - 2
+    _Attribute:
+    - 304
+    - 0.04
+    - 111
+    - 6000
+  - _Id: 10043
+    _Note: 未来战士
+    _HeroID: 1004
+    _Star: 3
+    _BodyCost:
+    - 8004
+    - 1
+    _UniversalCost:
+    - 8103
+    - 2
+    _Attribute:
+    - 304
+    - 0.06
+    - 111
+    - 9000
+  - _Id: 10044
+    _Note: 未来战士
+    _HeroID: 1004
+    _Star: 4
+    _BodyCost:
+    - 8004
+    - 1
+    _UniversalCost:
+    - 8103
+    - 2
+    _Attribute:
+    - 304
+    - 0.08
+    - 111
+    - 12000
+  - _Id: 10045
+    _Note: 未来战士
+    _HeroID: 1004
+    _Star: 5
+    _BodyCost:
+    - 8004
+    - 2
+    _UniversalCost:
+    - 8103
+    - 4
+    _Attribute:
+    - 304
+    - 0.1
+    - 111
+    - 15000
+  - _Id: 10051
+    _Note: 暴走萝莉
+    _HeroID: 1005
+    _Star: 1
+    _BodyCost:
+    - 8005
+    - 1
+    _UniversalCost:
+    - 8103
+    - 2
+    _Attribute:
+    - 155
+    - 0.01
+    - 111
+    - 3000
+  - _Id: 10052
+    _Note: 暴走萝莉
+    _HeroID: 1005
+    _Star: 2
+    _BodyCost:
+    - 8005
+    - 1
+    _UniversalCost:
+    - 8103
+    - 2
+    _Attribute:
+    - 155
+    - 0.02
+    - 111
+    - 6000
+  - _Id: 10053
+    _Note: 暴走萝莉
+    _HeroID: 1005
+    _Star: 3
+    _BodyCost:
+    - 8005
+    - 1
+    _UniversalCost:
+    - 8103
+    - 2
+    _Attribute:
+    - 155
+    - 0.03
+    - 111
+    - 9000
+  - _Id: 10054
+    _Note: 暴走萝莉
+    _HeroID: 1005
+    _Star: 4
+    _BodyCost:
+    - 8005
+    - 1
+    _UniversalCost:
+    - 8103
+    - 2
+    _Attribute:
+    - 155
+    - 0.04
+    - 111
+    - 12000
+  - _Id: 10055
+    _Note: 暴走萝莉
+    _HeroID: 1005
+    _Star: 5
+    _BodyCost:
+    - 8005
+    - 2
+    _UniversalCost:
+    - 8103
+    - 4
+    _Attribute:
+    - 155
+    - 0.05
+    - 111
+    - 15000
+  - _Id: 10061
+    _Note: 地狱男爵
+    _HeroID: 1006
+    _Star: 1
+    _BodyCost:
+    - 8006
+    - 1
+    _UniversalCost:
+    - 8103
+    - 2
+    _Attribute:
+    - 302
+    - 0.02
+    - 111
+    - 3000
+  - _Id: 10062
+    _Note: 地狱男爵
+    _HeroID: 1006
+    _Star: 2
+    _BodyCost:
+    - 8006
+    - 1
+    _UniversalCost:
+    - 8103
+    - 2
+    _Attribute:
+    - 302
+    - 0.04
+    - 111
+    - 6000
+  - _Id: 10063
+    _Note: 地狱男爵
+    _HeroID: 1006
+    _Star: 3
+    _BodyCost:
+    - 8006
+    - 1
+    _UniversalCost:
+    - 8103
+    - 2
+    _Attribute:
+    - 302
+    - 0.06
+    - 111
+    - 9000
+  - _Id: 10064
+    _Note: 地狱男爵
+    _HeroID: 1006
+    _Star: 4
+    _BodyCost:
+    - 8006
+    - 1
+    _UniversalCost:
+    - 8103
+    - 2
+    _Attribute:
+    - 302
+    - 0.08
+    - 111
+    - 12000
+  - _Id: 10065
+    _Note: 地狱男爵
+    _HeroID: 1006
+    _Star: 5
+    _BodyCost:
+    - 8006
+    - 2
+    _UniversalCost:
+    - 8103
+    - 4
+    _Attribute:
+    - 302
+    - 0.1
+    - 111
+    - 15000
+  - _Id: 10071
+    _Note: 末日猎手
+    _HeroID: 1007
+    _Star: 1
+    _BodyCost:
+    - 8007
+    - 1
+    _UniversalCost:
+    - 8103
+    - 2
+    _Attribute:
+    - 306
+    - 0.02
+    - 111
+    - 3000
+  - _Id: 10072
+    _Note: 末日猎手
+    _HeroID: 1007
+    _Star: 2
+    _BodyCost:
+    - 8007
+    - 1
+    _UniversalCost:
+    - 8103
+    - 2
+    _Attribute:
+    - 306
+    - 0.04
+    - 111
+    - 6000
+  - _Id: 10073
+    _Note: 末日猎手
+    _HeroID: 1007
+    _Star: 3
+    _BodyCost:
+    - 8007
+    - 1
+    _UniversalCost:
+    - 8103
+    - 2
+    _Attribute:
+    - 306
+    - 0.06
+    - 111
+    - 9000
+  - _Id: 10074
+    _Note: 末日猎手
+    _HeroID: 1007
+    _Star: 4
+    _BodyCost:
+    - 8007
+    - 1
+    _UniversalCost:
+    - 8103
+    - 2
+    _Attribute:
+    - 306
+    - 0.08
+    - 111
+    - 12000
+  - _Id: 10075
+    _Note: 末日猎手
+    _HeroID: 1007
+    _Star: 5
+    _BodyCost:
+    - 8007
+    - 2
+    _UniversalCost:
+    - 8103
+    - 4
+    _Attribute:
+    - 306
+    - 0.1
+    - 111
+    - 15000
+  - _Id: 10081
+    _Note: 改造战士
+    _HeroID: 1008
+    _Star: 1
+    _BodyCost:
+    - 8008
+    - 1
+    _UniversalCost:
+    - 8103
+    - 2
+    _Attribute:
+    - 303
+    - 0.02
+    - 111
+    - 3000
+  - _Id: 10082
+    _Note: 改造战士
+    _HeroID: 1008
+    _Star: 2
+    _BodyCost:
+    - 8008
+    - 1
+    _UniversalCost:
+    - 8103
+    - 2
+    _Attribute:
+    - 303
+    - 0.04
+    - 111
+    - 6000
+  - _Id: 10083
+    _Note: 改造战士
+    _HeroID: 1008
+    _Star: 3
+    _BodyCost:
+    - 8008
+    - 1
+    _UniversalCost:
+    - 8103
+    - 2
+    _Attribute:
+    - 303
+    - 0.06
+    - 111
+    - 9000
+  - _Id: 10084
+    _Note: 改造战士
+    _HeroID: 1008
+    _Star: 4
+    _BodyCost:
+    - 8008
+    - 1
+    _UniversalCost:
+    - 8103
+    - 2
+    _Attribute:
+    - 303
+    - 0.08
+    - 111
+    - 12000
+  - _Id: 10085
+    _Note: 改造战士
+    _HeroID: 1008
+    _Star: 5
+    _BodyCost:
+    - 8008
+    - 2
+    _UniversalCost:
+    - 8103
+    - 4
+    _Attribute:
+    - 303
+    - 0.1
+    - 111
+    - 15000
+  - _Id: 10091
+    _Note: 露露小姐
+    _HeroID: 1009
+    _Star: 1
+    _BodyCost:
+    - 8009
+    - 1
+    _UniversalCost:
+    - 8103
+    - 2
+    _Attribute:
+    - 301
+    - 0.01
+    - 111
+    - 3000
+  - _Id: 10092
+    _Note: 露露小姐
+    _HeroID: 1009
+    _Star: 2
+    _BodyCost:
+    - 8009
+    - 1
+    _UniversalCost:
+    - 8103
+    - 2
+    _Attribute:
+    - 301
+    - 0.02
+    - 111
+    - 6000
+  - _Id: 10093
+    _Note: 露露小姐
+    _HeroID: 1009
+    _Star: 3
+    _BodyCost:
+    - 8009
+    - 1
+    _UniversalCost:
+    - 8103
+    - 2
+    _Attribute:
+    - 301
+    - 0.03
+    - 111
+    - 9000
+  - _Id: 10094
+    _Note: 露露小姐
+    _HeroID: 1009
+    _Star: 4
+    _BodyCost:
+    - 8009
+    - 1
+    _UniversalCost:
+    - 8103
+    - 2
+    _Attribute:
+    - 301
+    - 0.04
+    - 111
+    - 12000
+  - _Id: 10095
+    _Note: 露露小姐
+    _HeroID: 1009
+    _Star: 5
+    _BodyCost:
+    - 8009
+    - 2
+    _UniversalCost:
+    - 8103
+    - 4
+    _Attribute:
+    - 301
+    - 0.05
+    - 111
+    - 15000
+  - _Id: 10101
+    _Note: 星辉之力
+    _HeroID: 1010
+    _Star: 1
+    _BodyCost:
+    - 8010
+    - 1
+    _UniversalCost:
+    - 8103
+    - 2
+    _Attribute:
+    - 305
+    - 0.02
+    - 111
+    - 3000
+  - _Id: 10102
+    _Note: 星辉之力
+    _HeroID: 1010
+    _Star: 2
+    _BodyCost:
+    - 8010
+    - 1
+    _UniversalCost:
+    - 8103
+    - 2
+    _Attribute:
+    - 305
+    - 0.04
+    - 111
+    - 6000
+  - _Id: 10103
+    _Note: 星辉之力
+    _HeroID: 1010
+    _Star: 3
+    _BodyCost:
+    - 8010
+    - 1
+    _UniversalCost:
+    - 8103
+    - 2
+    _Attribute:
+    - 305
+    - 0.06
+    - 111
+    - 9000
+  - _Id: 10104
+    _Note: 星辉之力
+    _HeroID: 1010
+    _Star: 4
+    _BodyCost:
+    - 8010
+    - 1
+    _UniversalCost:
+    - 8103
+    - 2
+    _Attribute:
+    - 305
+    - 0.08
+    - 111
+    - 12000
+  - _Id: 10105
+    _Note: 星辉之力
+    _HeroID: 1010
+    _Star: 5
+    _BodyCost:
+    - 8010
+    - 2
+    _UniversalCost:
+    - 8103
+    - 4
+    _Attribute:
+    - 305
+    - 0.1
+    - 111
+    - 15000
+  - _Id: 10111
+    _Note: 雇佣兵-岚
+    _HeroID: 1011
+    _Star: 1
+    _BodyCost:
+    - 8011
+    - 1
+    _UniversalCost:
+    - 8102
+    - 2
+    _Attribute:
+    - 111
+    - 2000
+    - 181
+    - 6000
+  - _Id: 10112
+    _Note: 雇佣兵-岚
+    _HeroID: 1011
+    _Star: 2
+    _BodyCost:
+    - 8011
+    - 1
+    _UniversalCost:
+    - 8102
+    - 2
+    _Attribute:
+    - 111
+    - 4000
+    - 181
+    - 12000
+  - _Id: 10113
+    _Note: 雇佣兵-岚
+    _HeroID: 1011
+    _Star: 3
+    _BodyCost:
+    - 8011
+    - 1
+    _UniversalCost:
+    - 8102
+    - 2
+    _Attribute:
+    - 111
+    - 6000
+    - 181
+    - 18000
+  - _Id: 10114
+    _Note: 雇佣兵-岚
+    _HeroID: 1011
+    _Star: 4
+    _BodyCost:
+    - 8011
+    - 1
+    _UniversalCost:
+    - 8102
+    - 2
+    _Attribute:
+    - 111
+    - 8000
+    - 181
+    - 24000
+  - _Id: 10115
+    _Note: 雇佣兵-岚
+    _HeroID: 1011
+    _Star: 5
+    _BodyCost:
+    - 8011
+    - 2
+    _UniversalCost:
+    - 8102
+    - 4
+    _Attribute:
+    - 111
+    - 10000
+    - 181
+    - 30000
+  - _Id: 10121
+    _Note: 重装机兵
+    _HeroID: 1012
+    _Star: 1
+    _BodyCost:
+    - 8012
+    - 1
+    _UniversalCost:
+    - 8103
+    - 2
+    _Attribute:
+    - 304
+    - 0.02
+    - 111
+    - 3000
+  - _Id: 10122
+    _Note: 重装机兵
+    _HeroID: 1012
+    _Star: 2
+    _BodyCost:
+    - 8012
+    - 1
+    _UniversalCost:
+    - 8103
+    - 2
+    _Attribute:
+    - 304
+    - 0.04
+    - 111
+    - 6000
+  - _Id: 10123
+    _Note: 重装机兵
+    _HeroID: 1012
+    _Star: 3
+    _BodyCost:
+    - 8012
+    - 1
+    _UniversalCost:
+    - 8103
+    - 2
+    _Attribute:
+    - 304
+    - 0.06
+    - 111
+    - 9000
+  - _Id: 10124
+    _Note: 重装机兵
+    _HeroID: 1012
+    _Star: 4
+    _BodyCost:
+    - 8012
+    - 1
+    _UniversalCost:
+    - 8103
+    - 2
+    _Attribute:
+    - 304
+    - 0.08
+    - 111
+    - 12000
+  - _Id: 10125
+    _Note: 重装机兵
+    _HeroID: 1012
+    _Star: 5
+    _BodyCost:
+    - 8012
+    - 2
+    _UniversalCost:
+    - 8103
+    - 4
+    _Attribute:
+    - 304
+    - 0.1
+    - 111
+    - 15000
+  - _Id: 10131
+    _Note: 野风魅影
+    _HeroID: 1013
+    _Star: 1
+    _BodyCost:
+    - 8013
+    - 1
+    _UniversalCost:
+    - 8103
+    - 2
+    _Attribute:
+    - 308
+    - 0.02
+    - 111
+    - 3000
+  - _Id: 10132
+    _Note: 野风魅影
+    _HeroID: 1013
+    _Star: 2
+    _BodyCost:
+    - 8013
+    - 1
+    _UniversalCost:
+    - 8103
+    - 2
+    _Attribute:
+    - 308
+    - 0.04
+    - 111
+    - 6000
+  - _Id: 10133
+    _Note: 野风魅影
+    _HeroID: 1013
+    _Star: 3
+    _BodyCost:
+    - 8013
+    - 1
+    _UniversalCost:
+    - 8103
+    - 2
+    _Attribute:
+    - 308
+    - 0.06
+    - 111
+    - 9000
+  - _Id: 10134
+    _Note: 野风魅影
+    _HeroID: 1013
+    _Star: 4
+    _BodyCost:
+    - 8013
+    - 1
+    _UniversalCost:
+    - 8103
+    - 2
+    _Attribute:
+    - 308
+    - 0.08
+    - 111
+    - 12000
+  - _Id: 10135
+    _Note: 野风魅影
+    _HeroID: 1013
+    _Star: 5
+    _BodyCost:
+    - 8013
+    - 2
+    _UniversalCost:
+    - 8103
+    - 4
+    _Attribute:
+    - 308
+    - 0.1
+    - 111
+    - 15000
+  - _Id: 10141
+    _Note: 假面怪客
+    _HeroID: 1014
+    _Star: 1
+    _BodyCost:
+    - 8014
+    - 1
+    _UniversalCost:
+    - 8103
+    - 2
+    _Attribute:
+    - 305
+    - 0.02
+    - 111
+    - 3000
+  - _Id: 10142
+    _Note: 假面怪客
+    _HeroID: 1014
+    _Star: 2
+    _BodyCost:
+    - 8014
+    - 1
+    _UniversalCost:
+    - 8103
+    - 2
+    _Attribute:
+    - 305
+    - 0.04
+    - 111
+    - 6000
+  - _Id: 10143
+    _Note: 假面怪客
+    _HeroID: 1014
+    _Star: 3
+    _BodyCost:
+    - 8014
+    - 1
+    _UniversalCost:
+    - 8103
+    - 2
+    _Attribute:
+    - 305
+    - 0.06
+    - 111
+    - 9000
+  - _Id: 10144
+    _Note: 假面怪客
+    _HeroID: 1014
+    _Star: 4
+    _BodyCost:
+    - 8014
+    - 1
+    _UniversalCost:
+    - 8103
+    - 2
+    _Attribute:
+    - 305
+    - 0.08
+    - 111
+    - 12000
+  - _Id: 10145
+    _Note: 假面怪客
+    _HeroID: 1014
+    _Star: 5
+    _BodyCost:
+    - 8014
+    - 2
+    _UniversalCost:
+    - 8103
+    - 4
+    _Attribute:
+    - 305
+    - 0.1
+    - 111
+    - 15000
+  - _Id: 10151
+    _Note: U
+    _HeroID: 1015
+    _Star: 1
+    _BodyCost:
+    - 8015
+    - 1
+    _UniversalCost:
+    - 8103
+    - 2
+    _Attribute:
+    - 306
+    - 0.02
+    - 111
+    - 3000
+  - _Id: 10152
+    _Note: U
+    _HeroID: 1015
+    _Star: 2
+    _BodyCost:
+    - 8015
+    - 1
+    _UniversalCost:
+    - 8103
+    - 2
+    _Attribute:
+    - 306
+    - 0.04
+    - 111
+    - 6000
+  - _Id: 10153
+    _Note: U
+    _HeroID: 1015
+    _Star: 3
+    _BodyCost:
+    - 8015
+    - 1
+    _UniversalCost:
+    - 8103
+    - 2
+    _Attribute:
+    - 306
+    - 0.06
+    - 111
+    - 9000
+  - _Id: 10154
+    _Note: U
+    _HeroID: 1015
+    _Star: 4
+    _BodyCost:
+    - 8015
+    - 1
+    _UniversalCost:
+    - 8103
+    - 2
+    _Attribute:
+    - 306
+    - 0.08
+    - 111
+    - 12000
+  - _Id: 10155
+    _Note: U
+    _HeroID: 1015
+    _Star: 5
+    _BodyCost:
+    - 8015
+    - 2
+    _UniversalCost:
+    - 8103
+    - 4
+    _Attribute:
+    - 306
+    - 0.1
+    - 111
+    - 15000
+  - _Id: 10161
+    _Note: 明日
+    _HeroID: 1016
+    _Star: 1
+    _BodyCost:
+    - 8016
+    - 1
+    _UniversalCost:
+    - 8103
+    - 2
+    _Attribute:
+    - 302
+    - 0.02
+    - 111
+    - 3000
+  - _Id: 10162
+    _Note: 明日
+    _HeroID: 1016
+    _Star: 2
+    _BodyCost:
+    - 8016
+    - 1
+    _UniversalCost:
+    - 8103
+    - 2
+    _Attribute:
+    - 302
+    - 0.04
+    - 111
+    - 6000
+  - _Id: 10163
+    _Note: 明日
+    _HeroID: 1016
+    _Star: 3
+    _BodyCost:
+    - 8016
+    - 1
+    _UniversalCost:
+    - 8103
+    - 2
+    _Attribute:
+    - 302
+    - 0.06
+    - 111
+    - 9000
+  - _Id: 10164
+    _Note: 明日
+    _HeroID: 1016
+    _Star: 4
+    _BodyCost:
+    - 8016
+    - 1
+    _UniversalCost:
+    - 8103
+    - 2
+    _Attribute:
+    - 302
+    - 0.08
+    - 111
+    - 12000
+  - _Id: 10165
+    _Note: 明日
+    _HeroID: 1016
+    _Star: 5
+    _BodyCost:
+    - 8016
+    - 2
+    _UniversalCost:
+    - 8103
+    - 4
+    _Attribute:
+    - 302
+    - 0.1
+    - 111
+    - 15000
+  - _Id: 10171
+    _Note: 冰百合
+    _HeroID: 1017
+    _Star: 1
+    _BodyCost:
+    - 8017
+    - 1
+    _UniversalCost:
+    - 8103
+    - 2
+    _Attribute:
+    - 303
+    - 0.02
+    - 111
+    - 3000
+  - _Id: 10172
+    _Note: 冰百合
+    _HeroID: 1017
+    _Star: 2
+    _BodyCost:
+    - 8017
+    - 1
+    _UniversalCost:
+    - 8103
+    - 2
+    _Attribute:
+    - 303
+    - 0.04
+    - 111
+    - 6000
+  - _Id: 10173
+    _Note: 冰百合
+    _HeroID: 1017
+    _Star: 3
+    _BodyCost:
+    - 8017
+    - 1
+    _UniversalCost:
+    - 8103
+    - 2
+    _Attribute:
+    - 303
+    - 0.06
+    - 111
+    - 9000
+  - _Id: 10174
+    _Note: 冰百合
+    _HeroID: 1017
+    _Star: 4
+    _BodyCost:
+    - 8017
+    - 1
+    _UniversalCost:
+    - 8103
+    - 2
+    _Attribute:
+    - 303
+    - 0.08
+    - 111
+    - 12000
+  - _Id: 10175
+    _Note: 冰百合
+    _HeroID: 1017
+    _Star: 5
+    _BodyCost:
+    - 8017
+    - 2
+    _UniversalCost:
+    - 8103
+    - 4
+    _Attribute:
+    - 303
+    - 0.1
+    - 111
+    - 15000

@@ -1,0 +1,2105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b598c159da7ba341d5d37733f2157e2, type: 3}
+  m_Name: DYCompasses_add_attr
+  m_EditorClassIdentifier:
+  _Items:
+  - _Id: 101
+    _Note: 攻击
+    _Group: 1
+    _Weight: 1000
+    _Add_attr_id: 111
+    _Add_attr_base:
+    - 20
+    - 50
+    _Add_attr_up:
+    - 20
+    - 50
+  - _Id: 102
+    _Note: 攻击%
+    _Group: 1
+    _Weight: 500
+    _Add_attr_id: 112
+    _Add_attr_base:
+    - 20
+    - 50
+    _Add_attr_up:
+    - 20
+    - 50
+  - _Id: 103
+    _Note: 狙击枪攻击
+    _Group: 1
+    _Weight: 500
+    _Add_attr_id: 161
+    _Add_attr_base:
+    - 60
+    - 150
+    _Add_attr_up:
+    - 60
+    - 150
+  - _Id: 104
+    _Note: 弩箭攻击
+    _Group: 1
+    _Weight: 500
+    _Add_attr_id: 171
+    _Add_attr_base:
+    - 60
+    - 150
+    _Add_attr_up:
+    - 60
+    - 150
+  - _Id: 105
+    _Note: 火箭炮攻击
+    _Group: 1
+    _Weight: 500
+    _Add_attr_id: 181
+    _Add_attr_base:
+    - 60
+    - 150
+    _Add_attr_up:
+    - 60
+    - 150
+  - _Id: 106
+    _Note: 步枪攻击
+    _Group: 1
+    _Weight: 500
+    _Add_attr_id: 191
+    _Add_attr_base:
+    - 60
+    - 150
+    _Add_attr_up:
+    - 60
+    - 150
+  - _Id: 107
+    _Note: 重机枪攻击
+    _Group: 1
+    _Weight: 500
+    _Add_attr_id: 201
+    _Add_attr_base:
+    - 60
+    - 150
+    _Add_attr_up:
+    - 60
+    - 150
+  - _Id: 108
+    _Note: 霰弹枪攻击
+    _Group: 1
+    _Weight: 500
+    _Add_attr_id: 211
+    _Add_attr_base:
+    - 60
+    - 150
+    _Add_attr_up:
+    - 60
+    - 150
+  - _Id: 109
+    _Note: 子弹伤害%
+    _Group: 1
+    _Weight: 100
+    _Add_attr_id: 301
+    _Add_attr_base:
+    - 16
+    - 40
+    _Add_attr_up:
+    - 16
+    - 40
+  - _Id: 110
+    _Note: 火系伤害%
+    _Group: 1
+    _Weight: 500
+    _Add_attr_id: 302
+    _Add_attr_base:
+    - 16
+    - 40
+    _Add_attr_up:
+    - 16
+    - 40
+  - _Id: 111
+    _Note: 冰系伤害%
+    _Group: 1
+    _Weight: 500
+    _Add_attr_id: 303
+    _Add_attr_base:
+    - 16
+    - 40
+    _Add_attr_up:
+    - 16
+    - 40
+  - _Id: 112
+    _Note: 电系伤害%
+    _Group: 1
+    _Weight: 500
+    _Add_attr_id: 304
+    _Add_attr_base:
+    - 16
+    - 40
+    _Add_attr_up:
+    - 16
+    - 40
+  - _Id: 113
+    _Note: 光系伤害%
+    _Group: 1
+    _Weight: 500
+    _Add_attr_id: 305
+    _Add_attr_base:
+    - 16
+    - 40
+    _Add_attr_up:
+    - 16
+    - 40
+  - _Id: 114
+    _Note: 暗系伤害%
+    _Group: 1
+    _Weight: 500
+    _Add_attr_id: 306
+    _Add_attr_base:
+    - 16
+    - 40
+    _Add_attr_up:
+    - 16
+    - 40
+  - _Id: 115
+    _Note: 风系伤害%
+    _Group: 1
+    _Weight: 500
+    _Add_attr_id: 308
+    _Add_attr_base:
+    - 16
+    - 40
+    _Add_attr_up:
+    - 16
+    - 40
+  - _Id: 116
+    _Note: 对精英伤害%
+    _Group: 1
+    _Weight: 900
+    _Add_attr_id: 400
+    _Add_attr_base:
+    - 16
+    - 40
+    _Add_attr_up:
+    - 16
+    - 40
+  - _Id: 117
+    _Note: 对boss伤害%
+    _Group: 1
+    _Weight: 500
+    _Add_attr_id: 401
+    _Add_attr_base:
+    - 16
+    - 40
+    _Add_attr_up:
+    - 16
+    - 40
+  - _Id: 118
+    _Note: 暴击伤害%
+    _Group: 1
+    _Weight: 500
+    _Add_attr_id: 155
+    _Add_attr_base:
+    - 16
+    - 40
+    _Add_attr_up:
+    - 16
+    - 40
+  - _Id: 119
+    _Note: 致命伤害%
+    _Group: 1
+    _Weight: 500
+    _Add_attr_id: 157
+    _Add_attr_base:
+    - 32
+    - 80
+    _Add_attr_up:
+    - 32
+    - 80
+  - _Id: 201
+    _Note: 攻击
+    _Group: 2
+    _Weight: 1000
+    _Add_attr_id: 111
+    _Add_attr_base:
+    - 40
+    - 100
+    _Add_attr_up:
+    - 40
+    - 100
+  - _Id: 202
+    _Note: 攻击%
+    _Group: 2
+    _Weight: 500
+    _Add_attr_id: 112
+    _Add_attr_base:
+    - 24
+    - 60
+    _Add_attr_up:
+    - 24
+    - 60
+  - _Id: 203
+    _Note: 狙击枪攻击
+    _Group: 2
+    _Weight: 500
+    _Add_attr_id: 161
+    _Add_attr_base:
+    - 120
+    - 300
+    _Add_attr_up:
+    - 120
+    - 300
+  - _Id: 204
+    _Note: 弩箭攻击
+    _Group: 2
+    _Weight: 500
+    _Add_attr_id: 171
+    _Add_attr_base:
+    - 120
+    - 300
+    _Add_attr_up:
+    - 120
+    - 300
+  - _Id: 205
+    _Note: 火箭炮攻击
+    _Group: 2
+    _Weight: 500
+    _Add_attr_id: 181
+    _Add_attr_base:
+    - 120
+    - 300
+    _Add_attr_up:
+    - 120
+    - 300
+  - _Id: 206
+    _Note: 步枪攻击
+    _Group: 2
+    _Weight: 500
+    _Add_attr_id: 191
+    _Add_attr_base:
+    - 120
+    - 300
+    _Add_attr_up:
+    - 120
+    - 300
+  - _Id: 207
+    _Note: 重机枪攻击
+    _Group: 2
+    _Weight: 500
+    _Add_attr_id: 201
+    _Add_attr_base:
+    - 120
+    - 300
+    _Add_attr_up:
+    - 120
+    - 300
+  - _Id: 208
+    _Note: 霰弹枪攻击
+    _Group: 2
+    _Weight: 500
+    _Add_attr_id: 211
+    _Add_attr_base:
+    - 120
+    - 300
+    _Add_attr_up:
+    - 120
+    - 300
+  - _Id: 209
+    _Note: 子弹伤害%
+    _Group: 2
+    _Weight: 100
+    _Add_attr_id: 301
+    _Add_attr_base:
+    - 20
+    - 50
+    _Add_attr_up:
+    - 20
+    - 50
+  - _Id: 210
+    _Note: 火系伤害%
+    _Group: 2
+    _Weight: 500
+    _Add_attr_id: 302
+    _Add_attr_base:
+    - 20
+    - 50
+    _Add_attr_up:
+    - 20
+    - 50
+  - _Id: 211
+    _Note: 冰系伤害%
+    _Group: 2
+    _Weight: 500
+    _Add_attr_id: 303
+    _Add_attr_base:
+    - 20
+    - 50
+    _Add_attr_up:
+    - 20
+    - 50
+  - _Id: 212
+    _Note: 电系伤害%
+    _Group: 2
+    _Weight: 500
+    _Add_attr_id: 304
+    _Add_attr_base:
+    - 20
+    - 50
+    _Add_attr_up:
+    - 20
+    - 50
+  - _Id: 213
+    _Note: 光系伤害%
+    _Group: 2
+    _Weight: 500
+    _Add_attr_id: 305
+    _Add_attr_base:
+    - 20
+    - 50
+    _Add_attr_up:
+    - 20
+    - 50
+  - _Id: 214
+    _Note: 暗系伤害%
+    _Group: 2
+    _Weight: 500
+    _Add_attr_id: 306
+    _Add_attr_base:
+    - 20
+    - 50
+    _Add_attr_up:
+    - 20
+    - 50
+  - _Id: 215
+    _Note: 风系伤害%
+    _Group: 2
+    _Weight: 500
+    _Add_attr_id: 308
+    _Add_attr_base:
+    - 20
+    - 50
+    _Add_attr_up:
+    - 20
+    - 50
+  - _Id: 216
+    _Note: 对精英伤害%
+    _Group: 2
+    _Weight: 900
+    _Add_attr_id: 400
+    _Add_attr_base:
+    - 20
+    - 50
+    _Add_attr_up:
+    - 20
+    - 50
+  - _Id: 217
+    _Note: 对boss伤害%
+    _Group: 2
+    _Weight: 500
+    _Add_attr_id: 401
+    _Add_attr_base:
+    - 20
+    - 50
+    _Add_attr_up:
+    - 20
+    - 50
+  - _Id: 218
+    _Note: 暴击伤害%
+    _Group: 2
+    _Weight: 500
+    _Add_attr_id: 155
+    _Add_attr_base:
+    - 20
+    - 50
+    _Add_attr_up:
+    - 20
+    - 50
+  - _Id: 219
+    _Note: 致命伤害%
+    _Group: 2
+    _Weight: 500
+    _Add_attr_id: 157
+    _Add_attr_base:
+    - 40
+    - 100
+    _Add_attr_up:
+    - 40
+    - 100
+  - _Id: 301
+    _Note: 攻击
+    _Group: 3
+    _Weight: 1000
+    _Add_attr_id: 111
+    _Add_attr_base:
+    - 60
+    - 150
+    _Add_attr_up:
+    - 60
+    - 150
+  - _Id: 302
+    _Note: 攻击%
+    _Group: 3
+    _Weight: 500
+    _Add_attr_id: 112
+    _Add_attr_base:
+    - 32
+    - 80
+    _Add_attr_up:
+    - 32
+    - 80
+  - _Id: 303
+    _Note: 狙击枪攻击
+    _Group: 3
+    _Weight: 500
+    _Add_attr_id: 161
+    _Add_attr_base:
+    - 180
+    - 450
+    _Add_attr_up:
+    - 180
+    - 450
+  - _Id: 304
+    _Note: 弩箭攻击
+    _Group: 3
+    _Weight: 500
+    _Add_attr_id: 171
+    _Add_attr_base:
+    - 180
+    - 450
+    _Add_attr_up:
+    - 180
+    - 450
+  - _Id: 305
+    _Note: 火箭炮攻击
+    _Group: 3
+    _Weight: 500
+    _Add_attr_id: 181
+    _Add_attr_base:
+    - 180
+    - 450
+    _Add_attr_up:
+    - 180
+    - 450
+  - _Id: 306
+    _Note: 步枪攻击
+    _Group: 3
+    _Weight: 500
+    _Add_attr_id: 191
+    _Add_attr_base:
+    - 180
+    - 450
+    _Add_attr_up:
+    - 180
+    - 450
+  - _Id: 307
+    _Note: 重机枪攻击
+    _Group: 3
+    _Weight: 500
+    _Add_attr_id: 201
+    _Add_attr_base:
+    - 180
+    - 450
+    _Add_attr_up:
+    - 180
+    - 450
+  - _Id: 308
+    _Note: 霰弹枪攻击
+    _Group: 3
+    _Weight: 500
+    _Add_attr_id: 211
+    _Add_attr_base:
+    - 180
+    - 450
+    _Add_attr_up:
+    - 180
+    - 450
+  - _Id: 309
+    _Note: 子弹伤害%
+    _Group: 3
+    _Weight: 100
+    _Add_attr_id: 301
+    _Add_attr_base:
+    - 24
+    - 60
+    _Add_attr_up:
+    - 24
+    - 60
+  - _Id: 310
+    _Note: 火系伤害%
+    _Group: 3
+    _Weight: 500
+    _Add_attr_id: 302
+    _Add_attr_base:
+    - 24
+    - 60
+    _Add_attr_up:
+    - 24
+    - 60
+  - _Id: 311
+    _Note: 冰系伤害%
+    _Group: 3
+    _Weight: 500
+    _Add_attr_id: 303
+    _Add_attr_base:
+    - 24
+    - 60
+    _Add_attr_up:
+    - 24
+    - 60
+  - _Id: 312
+    _Note: 电系伤害%
+    _Group: 3
+    _Weight: 500
+    _Add_attr_id: 304
+    _Add_attr_base:
+    - 24
+    - 60
+    _Add_attr_up:
+    - 24
+    - 60
+  - _Id: 313
+    _Note: 光系伤害%
+    _Group: 3
+    _Weight: 500
+    _Add_attr_id: 305
+    _Add_attr_base:
+    - 24
+    - 60
+    _Add_attr_up:
+    - 24
+    - 60
+  - _Id: 314
+    _Note: 暗系伤害%
+    _Group: 3
+    _Weight: 500
+    _Add_attr_id: 306
+    _Add_attr_base:
+    - 24
+    - 60
+    _Add_attr_up:
+    - 24
+    - 60
+  - _Id: 315
+    _Note: 风系伤害%
+    _Group: 3
+    _Weight: 500
+    _Add_attr_id: 308
+    _Add_attr_base:
+    - 24
+    - 60
+    _Add_attr_up:
+    - 24
+    - 60
+  - _Id: 316
+    _Note: 对精英伤害%
+    _Group: 3
+    _Weight: 900
+    _Add_attr_id: 400
+    _Add_attr_base:
+    - 24
+    - 60
+    _Add_attr_up:
+    - 24
+    - 60
+  - _Id: 317
+    _Note: 对boss伤害%
+    _Group: 3
+    _Weight: 500
+    _Add_attr_id: 401
+    _Add_attr_base:
+    - 24
+    - 60
+    _Add_attr_up:
+    - 24
+    - 60
+  - _Id: 318
+    _Note: 暴击伤害%
+    _Group: 3
+    _Weight: 500
+    _Add_attr_id: 155
+    _Add_attr_base:
+    - 24
+    - 60
+    _Add_attr_up:
+    - 24
+    - 60
+  - _Id: 319
+    _Note: 致命伤害%
+    _Group: 3
+    _Weight: 500
+    _Add_attr_id: 157
+    _Add_attr_base:
+    - 48
+    - 120
+    _Add_attr_up:
+    - 48
+    - 120
+  - _Id: 401
+    _Note: 攻击
+    _Group: 4
+    _Weight: 1000
+    _Add_attr_id: 111
+    _Add_attr_base:
+    - 80
+    - 200
+    _Add_attr_up:
+    - 80
+    - 200
+  - _Id: 402
+    _Note: 攻击%
+    _Group: 4
+    _Weight: 500
+    _Add_attr_id: 112
+    _Add_attr_base:
+    - 40
+    - 100
+    _Add_attr_up:
+    - 40
+    - 100
+  - _Id: 403
+    _Note: 狙击枪攻击
+    _Group: 4
+    _Weight: 500
+    _Add_attr_id: 161
+    _Add_attr_base:
+    - 240
+    - 600
+    _Add_attr_up:
+    - 240
+    - 600
+  - _Id: 404
+    _Note: 弩箭攻击
+    _Group: 4
+    _Weight: 500
+    _Add_attr_id: 171
+    _Add_attr_base:
+    - 240
+    - 600
+    _Add_attr_up:
+    - 240
+    - 600
+  - _Id: 405
+    _Note: 火箭炮攻击
+    _Group: 4
+    _Weight: 500
+    _Add_attr_id: 181
+    _Add_attr_base:
+    - 240
+    - 600
+    _Add_attr_up:
+    - 240
+    - 600
+  - _Id: 406
+    _Note: 步枪攻击
+    _Group: 4
+    _Weight: 500
+    _Add_attr_id: 191
+    _Add_attr_base:
+    - 240
+    - 600
+    _Add_attr_up:
+    - 240
+    - 600
+  - _Id: 407
+    _Note: 重机枪攻击
+    _Group: 4
+    _Weight: 500
+    _Add_attr_id: 201
+    _Add_attr_base:
+    - 240
+    - 600
+    _Add_attr_up:
+    - 240
+    - 600
+  - _Id: 408
+    _Note: 霰弹枪攻击
+    _Group: 4
+    _Weight: 500
+    _Add_attr_id: 211
+    _Add_attr_base:
+    - 240
+    - 600
+    _Add_attr_up:
+    - 240
+    - 600
+  - _Id: 409
+    _Note: 子弹伤害%
+    _Group: 4
+    _Weight: 100
+    _Add_attr_id: 301
+    _Add_attr_base:
+    - 28
+    - 70
+    _Add_attr_up:
+    - 28
+    - 70
+  - _Id: 410
+    _Note: 火系伤害%
+    _Group: 4
+    _Weight: 500
+    _Add_attr_id: 302
+    _Add_attr_base:
+    - 28
+    - 70
+    _Add_attr_up:
+    - 28
+    - 70
+  - _Id: 411
+    _Note: 冰系伤害%
+    _Group: 4
+    _Weight: 500
+    _Add_attr_id: 303
+    _Add_attr_base:
+    - 28
+    - 70
+    _Add_attr_up:
+    - 28
+    - 70
+  - _Id: 412
+    _Note: 电系伤害%
+    _Group: 4
+    _Weight: 500
+    _Add_attr_id: 304
+    _Add_attr_base:
+    - 28
+    - 70
+    _Add_attr_up:
+    - 28
+    - 70
+  - _Id: 413
+    _Note: 光系伤害%
+    _Group: 4
+    _Weight: 500
+    _Add_attr_id: 305
+    _Add_attr_base:
+    - 28
+    - 70
+    _Add_attr_up:
+    - 28
+    - 70
+  - _Id: 414
+    _Note: 暗系伤害%
+    _Group: 4
+    _Weight: 500
+    _Add_attr_id: 306
+    _Add_attr_base:
+    - 28
+    - 70
+    _Add_attr_up:
+    - 28
+    - 70
+  - _Id: 415
+    _Note: 风系伤害%
+    _Group: 4
+    _Weight: 500
+    _Add_attr_id: 308
+    _Add_attr_base:
+    - 28
+    - 70
+    _Add_attr_up:
+    - 28
+    - 70
+  - _Id: 416
+    _Note: 对精英伤害%
+    _Group: 4
+    _Weight: 900
+    _Add_attr_id: 400
+    _Add_attr_base:
+    - 28
+    - 70
+    _Add_attr_up:
+    - 28
+    - 70
+  - _Id: 417
+    _Note: 对boss伤害%
+    _Group: 4
+    _Weight: 500
+    _Add_attr_id: 401
+    _Add_attr_base:
+    - 28
+    - 70
+    _Add_attr_up:
+    - 28
+    - 70
+  - _Id: 418
+    _Note: 暴击伤害%
+    _Group: 4
+    _Weight: 500
+    _Add_attr_id: 155
+    _Add_attr_base:
+    - 28
+    - 70
+    _Add_attr_up:
+    - 28
+    - 70
+  - _Id: 419
+    _Note: 致命伤害%
+    _Group: 4
+    _Weight: 500
+    _Add_attr_id: 157
+    _Add_attr_base:
+    - 56
+    - 140
+    _Add_attr_up:
+    - 56
+    - 140
+  - _Id: 501
+    _Note: 攻击
+    _Group: 5
+    _Weight: 1000
+    _Add_attr_id: 111
+    _Add_attr_base:
+    - 120
+    - 300
+    _Add_attr_up:
+    - 120
+    - 300
+  - _Id: 502
+    _Note: 攻击%
+    _Group: 5
+    _Weight: 500
+    _Add_attr_id: 112
+    _Add_attr_base:
+    - 48
+    - 120
+    _Add_attr_up:
+    - 48
+    - 120
+  - _Id: 503
+    _Note: 狙击枪攻击
+    _Group: 5
+    _Weight: 500
+    _Add_attr_id: 161
+    _Add_attr_base:
+    - 360
+    - 900
+    _Add_attr_up:
+    - 360
+    - 900
+  - _Id: 504
+    _Note: 弩箭攻击
+    _Group: 5
+    _Weight: 500
+    _Add_attr_id: 171
+    _Add_attr_base:
+    - 360
+    - 900
+    _Add_attr_up:
+    - 360
+    - 900
+  - _Id: 505
+    _Note: 火箭炮攻击
+    _Group: 5
+    _Weight: 500
+    _Add_attr_id: 181
+    _Add_attr_base:
+    - 360
+    - 900
+    _Add_attr_up:
+    - 360
+    - 900
+  - _Id: 506
+    _Note: 步枪攻击
+    _Group: 5
+    _Weight: 500
+    _Add_attr_id: 191
+    _Add_attr_base:
+    - 360
+    - 900
+    _Add_attr_up:
+    - 360
+    - 900
+  - _Id: 507
+    _Note: 重机枪攻击
+    _Group: 5
+    _Weight: 500
+    _Add_attr_id: 201
+    _Add_attr_base:
+    - 360
+    - 900
+    _Add_attr_up:
+    - 360
+    - 900
+  - _Id: 508
+    _Note: 霰弹枪攻击
+    _Group: 5
+    _Weight: 500
+    _Add_attr_id: 211
+    _Add_attr_base:
+    - 360
+    - 900
+    _Add_attr_up:
+    - 360
+    - 900
+  - _Id: 509
+    _Note: 子弹伤害%
+    _Group: 5
+    _Weight: 100
+    _Add_attr_id: 301
+    _Add_attr_base:
+    - 32
+    - 80
+    _Add_attr_up:
+    - 32
+    - 80
+  - _Id: 510
+    _Note: 火系伤害%
+    _Group: 5
+    _Weight: 500
+    _Add_attr_id: 302
+    _Add_attr_base:
+    - 32
+    - 80
+    _Add_attr_up:
+    - 32
+    - 80
+  - _Id: 511
+    _Note: 冰系伤害%
+    _Group: 5
+    _Weight: 500
+    _Add_attr_id: 303
+    _Add_attr_base:
+    - 32
+    - 80
+    _Add_attr_up:
+    - 32
+    - 80
+  - _Id: 512
+    _Note: 电系伤害%
+    _Group: 5
+    _Weight: 500
+    _Add_attr_id: 304
+    _Add_attr_base:
+    - 32
+    - 80
+    _Add_attr_up:
+    - 32
+    - 80
+  - _Id: 513
+    _Note: 光系伤害%
+    _Group: 5
+    _Weight: 500
+    _Add_attr_id: 305
+    _Add_attr_base:
+    - 32
+    - 80
+    _Add_attr_up:
+    - 32
+    - 80
+  - _Id: 514
+    _Note: 暗系伤害%
+    _Group: 5
+    _Weight: 500
+    _Add_attr_id: 306
+    _Add_attr_base:
+    - 32
+    - 80
+    _Add_attr_up:
+    - 32
+    - 80
+  - _Id: 515
+    _Note: 风系伤害%
+    _Group: 5
+    _Weight: 500
+    _Add_attr_id: 308
+    _Add_attr_base:
+    - 32
+    - 80
+    _Add_attr_up:
+    - 32
+    - 80
+  - _Id: 516
+    _Note: 对精英伤害%
+    _Group: 5
+    _Weight: 900
+    _Add_attr_id: 400
+    _Add_attr_base:
+    - 32
+    - 80
+    _Add_attr_up:
+    - 32
+    - 80
+  - _Id: 517
+    _Note: 对boss伤害%
+    _Group: 5
+    _Weight: 500
+    _Add_attr_id: 401
+    _Add_attr_base:
+    - 32
+    - 80
+    _Add_attr_up:
+    - 32
+    - 80
+  - _Id: 518
+    _Note: 暴击伤害%
+    _Group: 5
+    _Weight: 500
+    _Add_attr_id: 155
+    _Add_attr_base:
+    - 32
+    - 80
+    _Add_attr_up:
+    - 32
+    - 80
+  - _Id: 519
+    _Note: 致命伤害%
+    _Group: 5
+    _Weight: 500
+    _Add_attr_id: 157
+    _Add_attr_base:
+    - 64
+    - 160
+    _Add_attr_up:
+    - 64
+    - 160
+  - _Id: 601
+    _Note: 攻击
+    _Group: 6
+    _Weight: 1000
+    _Add_attr_id: 111
+    _Add_attr_base:
+    - 200
+    - 500
+    _Add_attr_up:
+    - 200
+    - 500
+  - _Id: 602
+    _Note: 攻击%
+    _Group: 6
+    _Weight: 500
+    _Add_attr_id: 112
+    _Add_attr_base:
+    - 56
+    - 140
+    _Add_attr_up:
+    - 56
+    - 140
+  - _Id: 603
+    _Note: 狙击枪攻击
+    _Group: 6
+    _Weight: 500
+    _Add_attr_id: 161
+    _Add_attr_base:
+    - 600
+    - 1500
+    _Add_attr_up:
+    - 600
+    - 1500
+  - _Id: 604
+    _Note: 弩箭攻击
+    _Group: 6
+    _Weight: 500
+    _Add_attr_id: 171
+    _Add_attr_base:
+    - 600
+    - 1500
+    _Add_attr_up:
+    - 600
+    - 1500
+  - _Id: 605
+    _Note: 火箭炮攻击
+    _Group: 6
+    _Weight: 500
+    _Add_attr_id: 181
+    _Add_attr_base:
+    - 600
+    - 1500
+    _Add_attr_up:
+    - 600
+    - 1500
+  - _Id: 606
+    _Note: 步枪攻击
+    _Group: 6
+    _Weight: 500
+    _Add_attr_id: 191
+    _Add_attr_base:
+    - 600
+    - 1500
+    _Add_attr_up:
+    - 600
+    - 1500
+  - _Id: 607
+    _Note: 重机枪攻击
+    _Group: 6
+    _Weight: 500
+    _Add_attr_id: 201
+    _Add_attr_base:
+    - 600
+    - 1500
+    _Add_attr_up:
+    - 600
+    - 1500
+  - _Id: 608
+    _Note: 霰弹枪攻击
+    _Group: 6
+    _Weight: 500
+    _Add_attr_id: 211
+    _Add_attr_base:
+    - 600
+    - 1500
+    _Add_attr_up:
+    - 600
+    - 1500
+  - _Id: 609
+    _Note: 子弹伤害%
+    _Group: 6
+    _Weight: 100
+    _Add_attr_id: 301
+    _Add_attr_base:
+    - 40
+    - 100
+    _Add_attr_up:
+    - 40
+    - 100
+  - _Id: 610
+    _Note: 火系伤害%
+    _Group: 6
+    _Weight: 500
+    _Add_attr_id: 302
+    _Add_attr_base:
+    - 40
+    - 100
+    _Add_attr_up:
+    - 40
+    - 100
+  - _Id: 611
+    _Note: 冰系伤害%
+    _Group: 6
+    _Weight: 500
+    _Add_attr_id: 303
+    _Add_attr_base:
+    - 40
+    - 100
+    _Add_attr_up:
+    - 40
+    - 100
+  - _Id: 612
+    _Note: 电系伤害%
+    _Group: 6
+    _Weight: 500
+    _Add_attr_id: 304
+    _Add_attr_base:
+    - 40
+    - 100
+    _Add_attr_up:
+    - 40
+    - 100
+  - _Id: 613
+    _Note: 光系伤害%
+    _Group: 6
+    _Weight: 500
+    _Add_attr_id: 305
+    _Add_attr_base:
+    - 40
+    - 100
+    _Add_attr_up:
+    - 40
+    - 100
+  - _Id: 614
+    _Note: 暗系伤害%
+    _Group: 6
+    _Weight: 500
+    _Add_attr_id: 306
+    _Add_attr_base:
+    - 40
+    - 100
+    _Add_attr_up:
+    - 40
+    - 100
+  - _Id: 615
+    _Note: 风系伤害%
+    _Group: 6
+    _Weight: 500
+    _Add_attr_id: 308
+    _Add_attr_base:
+    - 40
+    - 100
+    _Add_attr_up:
+    - 40
+    - 100
+  - _Id: 616
+    _Note: 对精英伤害%
+    _Group: 6
+    _Weight: 900
+    _Add_attr_id: 400
+    _Add_attr_base:
+    - 40
+    - 100
+    _Add_attr_up:
+    - 40
+    - 100
+  - _Id: 617
+    _Note: 对boss伤害%
+    _Group: 6
+    _Weight: 500
+    _Add_attr_id: 401
+    _Add_attr_base:
+    - 40
+    - 100
+    _Add_attr_up:
+    - 40
+    - 100
+  - _Id: 618
+    _Note: 暴击伤害%
+    _Group: 6
+    _Weight: 500
+    _Add_attr_id: 155
+    _Add_attr_base:
+    - 40
+    - 100
+    _Add_attr_up:
+    - 40
+    - 100
+  - _Id: 619
+    _Note: 致命伤害%
+    _Group: 6
+    _Weight: 500
+    _Add_attr_id: 157
+    _Add_attr_base:
+    - 80
+    - 200
+    _Add_attr_up:
+    - 80
+    - 200
+  - _Id: 701
+    _Note: 攻击
+    _Group: 7
+    _Weight: 1000
+    _Add_attr_id: 111
+    _Add_attr_base:
+    - 280
+    - 700
+    _Add_attr_up:
+    - 280
+    - 700
+  - _Id: 702
+    _Note: 攻击%
+    _Group: 7
+    _Weight: 500
+    _Add_attr_id: 112
+    _Add_attr_base:
+    - 64
+    - 160
+    _Add_attr_up:
+    - 64
+    - 160
+  - _Id: 703
+    _Note: 狙击枪攻击
+    _Group: 7
+    _Weight: 500
+    _Add_attr_id: 161
+    _Add_attr_base:
+    - 840
+    - 2100
+    _Add_attr_up:
+    - 840
+    - 2100
+  - _Id: 704
+    _Note: 弩箭攻击
+    _Group: 7
+    _Weight: 500
+    _Add_attr_id: 171
+    _Add_attr_base:
+    - 840
+    - 2100
+    _Add_attr_up:
+    - 840
+    - 2100
+  - _Id: 705
+    _Note: 火箭炮攻击
+    _Group: 7
+    _Weight: 500
+    _Add_attr_id: 181
+    _Add_attr_base:
+    - 840
+    - 2100
+    _Add_attr_up:
+    - 840
+    - 2100
+  - _Id: 706
+    _Note: 步枪攻击
+    _Group: 7
+    _Weight: 500
+    _Add_attr_id: 191
+    _Add_attr_base:
+    - 840
+    - 2100
+    _Add_attr_up:
+    - 840
+    - 2100
+  - _Id: 707
+    _Note: 重机枪攻击
+    _Group: 7
+    _Weight: 500
+    _Add_attr_id: 201
+    _Add_attr_base:
+    - 840
+    - 2100
+    _Add_attr_up:
+    - 840
+    - 2100
+  - _Id: 708
+    _Note: 霰弹枪攻击
+    _Group: 7
+    _Weight: 500
+    _Add_attr_id: 211
+    _Add_attr_base:
+    - 840
+    - 2100
+    _Add_attr_up:
+    - 840
+    - 2100
+  - _Id: 709
+    _Note: 子弹伤害%
+    _Group: 7
+    _Weight: 100
+    _Add_attr_id: 301
+    _Add_attr_base:
+    - 48
+    - 120
+    _Add_attr_up:
+    - 48
+    - 120
+  - _Id: 710
+    _Note: 火系伤害%
+    _Group: 7
+    _Weight: 500
+    _Add_attr_id: 302
+    _Add_attr_base:
+    - 48
+    - 120
+    _Add_attr_up:
+    - 48
+    - 120
+  - _Id: 711
+    _Note: 冰系伤害%
+    _Group: 7
+    _Weight: 500
+    _Add_attr_id: 303
+    _Add_attr_base:
+    - 48
+    - 120
+    _Add_attr_up:
+    - 48
+    - 120
+  - _Id: 712
+    _Note: 电系伤害%
+    _Group: 7
+    _Weight: 500
+    _Add_attr_id: 304
+    _Add_attr_base:
+    - 48
+    - 120
+    _Add_attr_up:
+    - 48
+    - 120
+  - _Id: 713
+    _Note: 光系伤害%
+    _Group: 7
+    _Weight: 500
+    _Add_attr_id: 305
+    _Add_attr_base:
+    - 48
+    - 120
+    _Add_attr_up:
+    - 48
+    - 120
+  - _Id: 714
+    _Note: 暗系伤害%
+    _Group: 7
+    _Weight: 500
+    _Add_attr_id: 306
+    _Add_attr_base:
+    - 48
+    - 120
+    _Add_attr_up:
+    - 48
+    - 120
+  - _Id: 715
+    _Note: 风系伤害%
+    _Group: 7
+    _Weight: 500
+    _Add_attr_id: 308
+    _Add_attr_base:
+    - 48
+    - 120
+    _Add_attr_up:
+    - 48
+    - 120
+  - _Id: 716
+    _Note: 对精英伤害%
+    _Group: 7
+    _Weight: 900
+    _Add_attr_id: 400
+    _Add_attr_base:
+    - 48
+    - 120
+    _Add_attr_up:
+    - 48
+    - 120
+  - _Id: 717
+    _Note: 对boss伤害%
+    _Group: 7
+    _Weight: 500
+    _Add_attr_id: 401
+    _Add_attr_base:
+    - 48
+    - 120
+    _Add_attr_up:
+    - 48
+    - 120
+  - _Id: 718
+    _Note: 暴击伤害%
+    _Group: 7
+    _Weight: 500
+    _Add_attr_id: 155
+    _Add_attr_base:
+    - 48
+    - 120
+    _Add_attr_up:
+    - 48
+    - 120
+  - _Id: 719
+    _Note: 致命伤害%
+    _Group: 7
+    _Weight: 500
+    _Add_attr_id: 157
+    _Add_attr_base:
+    - 96
+    - 240
+    _Add_attr_up:
+    - 96
+    - 240
+  - _Id: 801
+    _Note: 攻击
+    _Group: 8
+    _Weight: 1000
+    _Add_attr_id: 111
+    _Add_attr_base:
+    - 400
+    - 1000
+    _Add_attr_up:
+    - 400
+    - 1000
+  - _Id: 802
+    _Note: 攻击%
+    _Group: 8
+    _Weight: 500
+    _Add_attr_id: 112
+    _Add_attr_base:
+    - 72
+    - 180
+    _Add_attr_up:
+    - 72
+    - 180
+  - _Id: 803
+    _Note: 狙击枪攻击
+    _Group: 8
+    _Weight: 500
+    _Add_attr_id: 161
+    _Add_attr_base:
+    - 1200
+    - 3000
+    _Add_attr_up:
+    - 1200
+    - 3000
+  - _Id: 804
+    _Note: 弩箭攻击
+    _Group: 8
+    _Weight: 500
+    _Add_attr_id: 171
+    _Add_attr_base:
+    - 1200
+    - 3000
+    _Add_attr_up:
+    - 1200
+    - 3000
+  - _Id: 805
+    _Note: 火箭炮攻击
+    _Group: 8
+    _Weight: 500
+    _Add_attr_id: 181
+    _Add_attr_base:
+    - 1200
+    - 3000
+    _Add_attr_up:
+    - 1200
+    - 3000
+  - _Id: 806
+    _Note: 步枪攻击
+    _Group: 8
+    _Weight: 500
+    _Add_attr_id: 191
+    _Add_attr_base:
+    - 1200
+    - 3000
+    _Add_attr_up:
+    - 1200
+    - 3000
+  - _Id: 807
+    _Note: 重机枪攻击
+    _Group: 8
+    _Weight: 500
+    _Add_attr_id: 201
+    _Add_attr_base:
+    - 1200
+    - 3000
+    _Add_attr_up:
+    - 1200
+    - 3000
+  - _Id: 808
+    _Note: 霰弹枪攻击
+    _Group: 8
+    _Weight: 500
+    _Add_attr_id: 211
+    _Add_attr_base:
+    - 1200
+    - 3000
+    _Add_attr_up:
+    - 1200
+    - 3000
+  - _Id: 809
+    _Note: 子弹伤害%
+    _Group: 8
+    _Weight: 100
+    _Add_attr_id: 301
+    _Add_attr_base:
+    - 56
+    - 140
+    _Add_attr_up:
+    - 56
+    - 140
+  - _Id: 810
+    _Note: 火系伤害%
+    _Group: 8
+    _Weight: 500
+    _Add_attr_id: 302
+    _Add_attr_base:
+    - 56
+    - 140
+    _Add_attr_up:
+    - 56
+    - 140
+  - _Id: 811
+    _Note: 冰系伤害%
+    _Group: 8
+    _Weight: 500
+    _Add_attr_id: 303
+    _Add_attr_base:
+    - 56
+    - 140
+    _Add_attr_up:
+    - 56
+    - 140
+  - _Id: 812
+    _Note: 电系伤害%
+    _Group: 8
+    _Weight: 500
+    _Add_attr_id: 304
+    _Add_attr_base:
+    - 56
+    - 140
+    _Add_attr_up:
+    - 56
+    - 140
+  - _Id: 813
+    _Note: 光系伤害%
+    _Group: 8
+    _Weight: 500
+    _Add_attr_id: 305
+    _Add_attr_base:
+    - 56
+    - 140
+    _Add_attr_up:
+    - 56
+    - 140
+  - _Id: 814
+    _Note: 暗系伤害%
+    _Group: 8
+    _Weight: 500
+    _Add_attr_id: 306
+    _Add_attr_base:
+    - 56
+    - 140
+    _Add_attr_up:
+    - 56
+    - 140
+  - _Id: 815
+    _Note: 风系伤害%
+    _Group: 8
+    _Weight: 500
+    _Add_attr_id: 308
+    _Add_attr_base:
+    - 56
+    - 140
+    _Add_attr_up:
+    - 56
+    - 140
+  - _Id: 816
+    _Note: 对精英伤害%
+    _Group: 8
+    _Weight: 900
+    _Add_attr_id: 400
+    _Add_attr_base:
+    - 56
+    - 140
+    _Add_attr_up:
+    - 56
+    - 140
+  - _Id: 817
+    _Note: 对boss伤害%
+    _Group: 8
+    _Weight: 500
+    _Add_attr_id: 401
+    _Add_attr_base:
+    - 56
+    - 140
+    _Add_attr_up:
+    - 56
+    - 140
+  - _Id: 818
+    _Note: 暴击伤害%
+    _Group: 8
+    _Weight: 500
+    _Add_attr_id: 155
+    _Add_attr_base:
+    - 56
+    - 140
+    _Add_attr_up:
+    - 56
+    - 140
+  - _Id: 819
+    _Note: 致命伤害%
+    _Group: 8
+    _Weight: 500
+    _Add_attr_id: 157
+    _Add_attr_base:
+    - 112
+    - 280
+    _Add_attr_up:
+    - 112
+    - 280
+  - _Id: 901
+    _Note: 攻击
+    _Group: 9
+    _Weight: 1000
+    _Add_attr_id: 111
+    _Add_attr_base:
+    - 560
+    - 1400
+    _Add_attr_up:
+    - 560
+    - 1400
+  - _Id: 902
+    _Note: 攻击%
+    _Group: 9
+    _Weight: 500
+    _Add_attr_id: 112
+    _Add_attr_base:
+    - 84
+    - 210
+    _Add_attr_up:
+    - 84
+    - 210
+  - _Id: 903
+    _Note: 狙击枪攻击
+    _Group: 9
+    _Weight: 500
+    _Add_attr_id: 161
+    _Add_attr_base:
+    - 1680
+    - 4200
+    _Add_attr_up:
+    - 1680
+    - 4200
+  - _Id: 904
+    _Note: 弩箭攻击
+    _Group: 9
+    _Weight: 500
+    _Add_attr_id: 171
+    _Add_attr_base:
+    - 1680
+    - 4200
+    _Add_attr_up:
+    - 1680
+    - 4200
+  - _Id: 905
+    _Note: 火箭炮攻击
+    _Group: 9
+    _Weight: 500
+    _Add_attr_id: 181
+    _Add_attr_base:
+    - 1680
+    - 4200
+    _Add_attr_up:
+    - 1680
+    - 4200
+  - _Id: 906
+    _Note: 步枪攻击
+    _Group: 9
+    _Weight: 500
+    _Add_attr_id: 191
+    _Add_attr_base:
+    - 1680
+    - 4200
+    _Add_attr_up:
+    - 1680
+    - 4200
+  - _Id: 907
+    _Note: 重机枪攻击
+    _Group: 9
+    _Weight: 500
+    _Add_attr_id: 201
+    _Add_attr_base:
+    - 1680
+    - 4200
+    _Add_attr_up:
+    - 1680
+    - 4200
+  - _Id: 908
+    _Note: 霰弹枪攻击
+    _Group: 9
+    _Weight: 500
+    _Add_attr_id: 211
+    _Add_attr_base:
+    - 1680
+    - 4200
+    _Add_attr_up:
+    - 1680
+    - 4200
+  - _Id: 909
+    _Note: 子弹伤害%
+    _Group: 9
+    _Weight: 100
+    _Add_attr_id: 301
+    _Add_attr_base:
+    - 64
+    - 160
+    _Add_attr_up:
+    - 64
+    - 160
+  - _Id: 910
+    _Note: 火系伤害%
+    _Group: 9
+    _Weight: 500
+    _Add_attr_id: 302
+    _Add_attr_base:
+    - 64
+    - 160
+    _Add_attr_up:
+    - 64
+    - 160
+  - _Id: 911
+    _Note: 冰系伤害%
+    _Group: 9
+    _Weight: 500
+    _Add_attr_id: 303
+    _Add_attr_base:
+    - 64
+    - 160
+    _Add_attr_up:
+    - 64
+    - 160
+  - _Id: 912
+    _Note: 电系伤害%
+    _Group: 9
+    _Weight: 500
+    _Add_attr_id: 304
+    _Add_attr_base:
+    - 64
+    - 160
+    _Add_attr_up:
+    - 64
+    - 160
+  - _Id: 913
+    _Note: 光系伤害%
+    _Group: 9
+    _Weight: 500
+    _Add_attr_id: 305
+    _Add_attr_base:
+    - 64
+    - 160
+    _Add_attr_up:
+    - 64
+    - 160
+  - _Id: 914
+    _Note: 暗系伤害%
+    _Group: 9
+    _Weight: 500
+    _Add_attr_id: 306
+    _Add_attr_base:
+    - 64
+    - 160
+    _Add_attr_up:
+    - 64
+    - 160
+  - _Id: 915
+    _Note: 风系伤害%
+    _Group: 9
+    _Weight: 500
+    _Add_attr_id: 308
+    _Add_attr_base:
+    - 64
+    - 160
+    _Add_attr_up:
+    - 64
+    - 160
+  - _Id: 916
+    _Note: 对精英伤害%
+    _Group: 9
+    _Weight: 900
+    _Add_attr_id: 400
+    _Add_attr_base:
+    - 64
+    - 160
+    _Add_attr_up:
+    - 64
+    - 160
+  - _Id: 917
+    _Note: 对boss伤害%
+    _Group: 9
+    _Weight: 500
+    _Add_attr_id: 401
+    _Add_attr_base:
+    - 64
+    - 160
+    _Add_attr_up:
+    - 64
+    - 160
+  - _Id: 918
+    _Note: 暴击伤害%
+    _Group: 9
+    _Weight: 500
+    _Add_attr_id: 155
+    _Add_attr_base:
+    - 64
+    - 160
+    _Add_attr_up:
+    - 64
+    - 160
+  - _Id: 919
+    _Note: 致命伤害%
+    _Group: 9
+    _Weight: 500
+    _Add_attr_id: 157
+    _Add_attr_base:
+    - 128
+    - 320
+    _Add_attr_up:
+    - 128
+    - 320
+  - _Id: 1001
+    _Note: 攻击
+    _Group: 10
+    _Weight: 1000
+    _Add_attr_id: 111
+    _Add_attr_base:
+    - 800
+    - 2000
+    _Add_attr_up:
+    - 800
+    - 2000
+  - _Id: 1002
+    _Note: 攻击%
+    _Group: 10
+    _Weight: 500
+    _Add_attr_id: 112
+    _Add_attr_base:
+    - 96
+    - 240
+    _Add_attr_up:
+    - 96
+    - 240
+  - _Id: 1003
+    _Note: 狙击枪攻击
+    _Group: 10
+    _Weight: 500
+    _Add_attr_id: 161
+    _Add_attr_base:
+    - 2400
+    - 6000
+    _Add_attr_up:
+    - 2400
+    - 6000
+  - _Id: 1004
+    _Note: 弩箭攻击
+    _Group: 10
+    _Weight: 500
+    _Add_attr_id: 171
+    _Add_attr_base:
+    - 2400
+    - 6000
+    _Add_attr_up:
+    - 2400
+    - 6000
+  - _Id: 1005
+    _Note: 火箭炮攻击
+    _Group: 10
+    _Weight: 500
+    _Add_attr_id: 181
+    _Add_attr_base:
+    - 2400
+    - 6000
+    _Add_attr_up:
+    - 2400
+    - 6000
+  - _Id: 1006
+    _Note: 步枪攻击
+    _Group: 10
+    _Weight: 500
+    _Add_attr_id: 191
+    _Add_attr_base:
+    - 2400
+    - 6000
+    _Add_attr_up:
+    - 2400
+    - 6000
+  - _Id: 1007
+    _Note: 重机枪攻击
+    _Group: 10
+    _Weight: 500
+    _Add_attr_id: 201
+    _Add_attr_base:
+    - 2400
+    - 6000
+    _Add_attr_up:
+    - 2400
+    - 6000
+  - _Id: 1008
+    _Note: 霰弹枪攻击
+    _Group: 10
+    _Weight: 500
+    _Add_attr_id: 211
+    _Add_attr_base:
+    - 2400
+    - 6000
+    _Add_attr_up:
+    - 2400
+    - 6000
+  - _Id: 1009
+    _Note: 子弹伤害%
+    _Group: 10
+    _Weight: 100
+    _Add_attr_id: 301
+    _Add_attr_base:
+    - 72
+    - 180
+    _Add_attr_up:
+    - 72
+    - 180
+  - _Id: 1010
+    _Note: 火系伤害%
+    _Group: 10
+    _Weight: 500
+    _Add_attr_id: 302
+    _Add_attr_base:
+    - 72
+    - 180
+    _Add_attr_up:
+    - 72
+    - 180
+  - _Id: 1011
+    _Note: 冰系伤害%
+    _Group: 10
+    _Weight: 500
+    _Add_attr_id: 303
+    _Add_attr_base:
+    - 72
+    - 180
+    _Add_attr_up:
+    - 72
+    - 180
+  - _Id: 1012
+    _Note: 电系伤害%
+    _Group: 10
+    _Weight: 500
+    _Add_attr_id: 304
+    _Add_attr_base:
+    - 72
+    - 180
+    _Add_attr_up:
+    - 72
+    - 180
+  - _Id: 1013
+    _Note: 光系伤害%
+    _Group: 10
+    _Weight: 500
+    _Add_attr_id: 305
+    _Add_attr_base:
+    - 72
+    - 180
+    _Add_attr_up:
+    - 72
+    - 180
+  - _Id: 1014
+    _Note: 暗系伤害%
+    _Group: 10
+    _Weight: 500
+    _Add_attr_id: 306
+    _Add_attr_base:
+    - 72
+    - 180
+    _Add_attr_up:
+    - 72
+    - 180
+  - _Id: 1015
+    _Note: 风系伤害%
+    _Group: 10
+    _Weight: 500
+    _Add_attr_id: 308
+    _Add_attr_base:
+    - 72
+    - 180
+    _Add_attr_up:
+    - 72
+    - 180
+  - _Id: 1016
+    _Note: 对精英伤害%
+    _Group: 10
+    _Weight: 900
+    _Add_attr_id: 400
+    _Add_attr_base:
+    - 72
+    - 180
+    _Add_attr_up:
+    - 72
+    - 180
+  - _Id: 1017
+    _Note: 对boss伤害%
+    _Group: 10
+    _Weight: 500
+    _Add_attr_id: 401
+    _Add_attr_base:
+    - 72
+    - 180
+    _Add_attr_up:
+    - 72
+    - 180
+  - _Id: 1018
+    _Note: 暴击伤害%
+    _Group: 10
+    _Weight: 500
+    _Add_attr_id: 155
+    _Add_attr_base:
+    - 72
+    - 180
+    _Add_attr_up:
+    - 72
+    - 180
+  - _Id: 1019
+    _Note: 致命伤害%
+    _Group: 10
+    _Weight: 500
+    _Add_attr_id: 157
+    _Add_attr_base:
+    - 144
+    - 360
+    _Add_attr_up:
+    - 144
+    - 360

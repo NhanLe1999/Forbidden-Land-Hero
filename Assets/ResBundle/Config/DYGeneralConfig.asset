@@ -1,0 +1,1823 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 491250abdb6f6b3320c5e0e560087a61, type: 3}
+  m_Name: DYGeneralConfig
+  m_EditorClassIdentifier:
+  _Items:
+  - _Id: 1001
+    _Content: '#FF426C'
+    _Contents: []
+    _Note:
+  - _Id: 1002
+    _Content: '#FFFFFF'
+    _Contents: []
+    _Note:
+  - _Id: 1003
+    _Content: 3
+    _Contents: []
+    _Note:
+  - _Id: 1004
+    _Content:
+    _Contents:
+    - English
+    - en
+    - en
+    - 日本語
+    - ja
+    - ja
+    - 한국어
+    - ko
+    - ko
+    - 繁體中文
+    - zh_tw
+    - zh_tw
+    - 简体中文
+    - zh
+    - zh
+    - ภาษาไทย
+    - th
+    - th
+    - Tiếng Việt
+    - vi
+    - vi
+    - Deutsch
+    - de
+    - en
+    - Français
+    - fr
+    - en
+    - Español
+    - es
+    - en
+    - Português
+    - pt
+    - en
+    _Note: 多语言，新增语言使用英语字体即可
+  - _Id: 1005
+    _Content:
+    _Contents:
+    - '#FFFFFF'
+    - '#39ed27'
+    - '#54b7ff'
+    - '#e569ff'
+    - '#ff8a00'
+    - '#FF4868'
+    - '#FF3D9C'
+    _Note:
+  - _Id: 1006
+    _Content: 120
+    _Contents: []
+    _Note: 芯片单抽
+  - _Id: 1007
+    _Content: 1080
+    _Contents: []
+    _Note: 芯片十连抽
+  - _Id: 1008
+    _Content: 300
+    _Contents: []
+    _Note: 装备单抽
+  - _Id: 1009
+    _Content: 2700
+    _Contents: []
+    _Note: 装备十连抽
+  - _Id: 1010
+    _Content: 1
+    _Contents: []
+    _Note: 广告抽芯片-单次芯片数
+  - _Id: 1011
+    _Content: 1
+    _Contents: []
+    _Note: 钻石抽芯片-单次芯片数
+  - _Id: 1012
+    _Content: 1
+    _Contents: []
+    _Note: 广告抽装备-单次装备数
+  - _Id: 1013
+    _Content: 1
+    _Contents: []
+    _Note: 钻石抽装备-单次装备数
+  - _Id: 1014
+    _Content: 9999
+    _Contents: []
+    _Note: 广告抽装备-保底次数
+  - _Id: 1015
+    _Content:
+    _Contents:
+    - 50
+    - 10004
+    - 10
+    - 10005
+    _Note: 钻石抽装备-保底次数，DropID
+  - _Id: 1016
+    _Content: 10
+    _Contents: []
+    _Note: 金币系数*关卡产出后再除以这个系数
+  - _Id: 1017
+    _Content: 360
+    _Contents: []
+    _Note: 挂机累积上限（分钟）
+  - _Id: 1018
+    _Content: 0.002
+    _Contents: []
+    _Note: 挂机产出-金币倍数（分钟）
+  - _Id: 1019
+    _Content:
+    _Contents:
+    - 7001
+    - 1500
+    - 7002
+    - 90
+    - 11001
+    - 1
+    - 8001
+    - 1
+    _Note: 玩家初始金币，钻石数量
+  - _Id: 1020
+    _Content:
+    _Contents:
+    - 3
+    - 22001
+    - 7
+    - 22002
+    _Note: 快速挂机奖励
+  - _Id: 1021
+    _Content: 30
+    _Contents: []
+    _Note: 挂机红点显示（分钟）
+  - _Id: 1022
+    _Content:
+    _Contents:
+    - 20
+    - 20
+    - 20
+    _Note: 快速挂机体力消耗
+  - _Id: 1023
+    _Content: 360
+    _Contents: []
+    _Note: 快速挂机时长
+  - _Id: 1024
+    _Content:
+    _Contents:
+    - 0
+    - 1002
+    - 1003
+    - 1001
+    _Note: 机器人：4个槽位解锁条件：配置解锁表ID
+  - _Id: 1025
+    _Content: 30
+    _Contents: []
+    _Note: 战中复活价格
+  - _Id: 1026
+    _Content: 30
+    _Contents: []
+    _Note: 广告抽武器碎片CD
+  - _Id: 1027
+    _Content: 5
+    _Contents: []
+    _Note: 广告抽武器碎片每日次数
+  - _Id: 1028
+    _Content: 30
+    _Contents: []
+    _Note: 广告抽装备CD
+  - _Id: 1029
+    _Content: 5
+    _Contents: []
+    _Note: 广告抽装备CD每日次数
+  - _Id: 1030
+    _Content: 5
+    _Contents: []
+    _Note: 每日商店广告钻石次数
+  - _Id: 1031
+    _Content: 5
+    _Contents: []
+    _Note: 每日金币广告次数
+  - _Id: 1032
+    _Content:
+    _Contents:
+    - 0
+    - -18
+    - 6
+    - -22
+    - 7.5
+    - -26
+    _Note: 战斗相机高度（射程，高度（Z值））
+  - _Id: 1033
+    _Content:
+    _Contents:
+    - 0
+    - 111
+    - 6
+    - -35
+    - 7.5
+    - -160
+    _Note: 相机高度UI偏移
+  - _Id: 1034
+    _Content: 20
+    _Contents: []
+    _Note: 战斗词条-范围技能最大有效目标数
+  - _Id: 1035
+    _Content: 2880
+    _Contents: []
+    _Note: 存钱罐：活动倒计时（分钟)
+  - _Id: 1036
+    _Content: 1440
+    _Contents: []
+    _Note: 存钱罐：活动重置cd（分钟）
+  - _Id: 1037
+    _Content: 36
+    _Contents: []
+    _Note: 存钱罐：存储满花费时间（分钟）
+  - _Id: 1038
+    _Content: 30
+    _Contents: []
+    _Note: 月卡：生效时间（天）
+  - _Id: 1039
+    _Content:
+    _Contents:
+    - 3600
+    - 7200
+    _Note: 月卡：挂机奖励金币提前累计时长（分钟）[初始值，最大值]
+  - _Id: 1040
+    _Content:
+    _Contents:
+    - 100
+    - 300
+    _Note: 月卡：关卡奖励金币提前累计时长（分钟）[初始值，最大值]
+  - _Id: 1041
+    _Content: 4
+    _Contents: []
+    _Note: 每日礼包自选装备数量
+  - _Id: 1042
+    _Content: 30
+    _Contents: []
+    _Note: 商店获取钻石、金币CD
+  - _Id: 1043
+    _Content: 15000
+    _Contents: []
+    _Note: 7天乐武器钻石解锁需要数量
+  - _Id: 1044
+    _Content:
+    _Contents:
+    - 100003
+    - 7004
+    - 1
+    - 100007
+    - 4002
+    - 10
+    - 100007
+    - 7001
+    - 10000
+    - 100009
+    - 30001
+    - 1
+    - 100009
+    - 6001
+    - 3
+    - 100018
+    - 7009
+    - 1
+    _Note: 关卡首通掉落（配合引导）
+  - _Id: 1045
+    _Content: 360
+    _Contents: []
+    _Note: 新用户挂机奖励初始时长（分钟）
+  - _Id: 1046
+    _Content: 7200
+    _Contents: []
+    _Note: 不放回抽奖开放时间（分钟）
+  - _Id: 1047
+    _Content:
+    _Contents:
+    - 7002
+    - 1000
+    _Note: 不放回抽奖隐藏奖励
+  - _Id: 1048
+    _Content: 25000
+    _Contents: []
+    _Note: 不放回武器抽奖钻石直购
+  - _Id: 1049
+    _Content: 3
+    _Contents: []
+    _Note: 首次挑战，新词条出现权重倍数
+  - _Id: 1050
+    _Content:
+    _Contents:
+    - 7002
+    - 1000
+    _Note: 版本更新补偿
+  - _Id: 1051
+    _Content: 5
+    _Contents: []
+    _Note: 降落伞每天次数上限
+  - _Id: 1052
+    _Content:
+    _Contents:
+    - 300
+    - 600
+    _Note: 降落伞触发间隔（秒）
+  - _Id: 1053
+    _Content: 20160
+    _Contents: []
+    _Note: 双周循环战令时间（分）
+  - _Id: 1054
+    _Content: 2
+    _Contents: []
+    _Note: 双周循环战令（经验单价/钻石）
+  - _Id: 1055
+    _Content: 3000
+    _Contents: []
+    _Note: 双周战令结束后英雄钻石直购价格
+  - _Id: 1056
+    _Content:
+    _Contents:
+    - 1
+    - 2101
+    - 3
+    _Note: 首次抽奖奖励（广告抽-芯片）
+  - _Id: 1057
+    _Content:
+    _Contents:
+    - 1
+    - 2101
+    - 10
+    - 2
+    - 2101
+    - 3
+    - 3
+    - 2101
+    - 1
+    _Note: 首次抽奖奖励（钻石抽-芯片）
+  - _Id: 1058
+    _Content:
+    _Contents:
+    - 1
+    - 21102
+    - 1
+    - 2
+    - 20102
+    - 1
+    - 3
+    - 22103
+    - 1
+    - 4
+    - 23102
+    - 1
+    - 5
+    - 21103
+    - 1
+    _Note: 首次抽奖奖励（钻石抽-装备）
+  - _Id: 1059
+    _Content:
+    _Contents:
+    - 7005
+    - 1
+    _Note: 角色抽奖单次抽奖价格
+  - _Id: 1060
+    _Content: 1
+    _Contents: []
+    _Note: 购买10张奖券额外赠送
+  - _Id: 1061
+    _Content:
+    _Contents:
+    - 1
+    - 2
+    - 1005
+    - 110
+    - 1
+    - 1005
+    _Note: 抽奖保底：次数，几等奖，奖励ID
+  - _Id: 1062
+    _Content: 50
+    _Contents: []
+    _Note: 角色碎片折算钻石数量
+  - _Id: 1063
+    _Content: 2000
+    _Contents: []
+    _Note: 钻石奖池基础数量
+  - _Id: 1064
+    _Content: 200
+    _Contents: []
+    _Note: 角色抽奖单日抽奖次数上限
+  - _Id: 1065
+    _Content: 10080
+    _Contents: []
+    _Note: 角色抽奖持续时间
+  - _Id: 1066
+    _Content: 100
+    _Contents: []
+    _Note: 中奖777的概率：这个数/当前奖池钻石数
+  - _Id: 1067
+    _Content:
+    _Contents:
+    - 80001
+    - 100
+    _Note: 碎片兑换角色的需求数量
+  - _Id: 1068
+    _Content:
+    _Contents:
+    - 1
+    - 1
+    - 1
+    _Note: 1、2、3等奖对应的奖励倍数
+  - _Id: 1069
+    _Content:
+    _Contents:
+    - 8004
+    - 1
+    _Note: 道具id，num
+  - _Id: 1070
+    _Content: UI/RobotLottery/HeroDraw_7
+    _Contents: []
+    _Note: 抽奖7图标路径
+  - _Id: 1073
+    _Content:
+    _Contents:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    _Note: 【营地】【废弃】建筑升级顺序
+  - _Id: 1074
+    _Content: 3
+    _Contents: []
+    _Note: BOSS掉落次数
+  - _Id: 1075
+    _Content: 1
+    _Contents: []
+    _Note: 【营地】每分钟加速{0}钻石
+  - _Id: 1076
+    _Content: 15000
+    _Contents: []
+    _Note: 未来战士钻石购买价格
+  - _Id: 1077
+    _Content: 10
+    _Contents: []
+    _Note: 角色抽奖达到次数显示跳过动画开关
+  - _Id: 1078
+    _Content:
+    _Contents:
+    - 100
+    - 50
+    _Note: 初始体力，体力上限
+  - _Id: 1079
+    _Content:
+    _Contents:
+    - 10
+    - 10
+    _Note: 主线单局消耗体力，挑战单局消耗体力
+  - _Id: 1080
+    _Content:
+    _Contents:
+    - 720
+    - 1
+    _Note: 体力回复：时间s，数量
+  - _Id: 1081
+    _Content:
+    _Contents:
+    - 3
+    - 30
+    - 100
+    - 150
+    - 200
+    _Note: 钻石购买体力：每日次数，单次数量，价格
+  - _Id: 1082
+    _Content:
+    _Contents:
+    - 5
+    - 10
+    _Note: 看广告购买体力：每日次数，单次数量
+  - _Id: 1084
+    _Content: 9999
+    _Contents: []
+    _Note: 装备：装备背包上限
+  - _Id: 1085
+    _Content:
+    _Contents:
+    - 1
+    - 2
+    - 3
+    - 6
+    - 8
+    - 12
+    _Note: 武器品质变化对应
+  - _Id: 1086
+    _Content:
+    _Contents:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 8
+    - 13
+    - 19
+    _Note: 品质颜色节点（白/绿/蓝/紫/橙/红/彩）
+  - _Id: 1087
+    _Content: 2101
+    _Contents:
+    - 2001
+    - 0.2
+    - 2002
+    - 0.4
+    - 2003
+    - 0.6
+    - 2004
+    - 1.5
+    - 2005
+    - 3
+    _Note: 老芯片转成新芯片（ID，兑换比例【向上取整】）
+  - _Id: 1088
+    _Content:
+    _Contents:
+    - 3
+    - 10
+    _Note: 抽奖UI动画数量判断
+  - _Id: 1089
+    _Content:
+    _Contents:
+    - 20404
+    - 25404
+    - 24204
+    - 21404
+    - 22404
+    - 23404
+    _Note: 装备抽奖预览的装备
+  - _Id: 1090
+    _Content:
+    _Contents:
+    - 1
+    - 22102
+    - 1
+    - 2
+    - 20101
+    - 1
+    - 3
+    - 23101
+    - 1
+    _Note: 首次抽奖奖励（广告抽-装备）
+  - _Id: 1091
+    _Content:
+    _Contents:
+    - 10011
+    - 10016
+    _Note: 战前提示：金币获取途径（配置jumpID）
+  - _Id: 1092
+    _Content:
+    _Contents:
+    - 10007
+    - 10010
+    _Note: 战前提示：装备获取途径（配置jumpID）
+  - _Id: 1093
+    _Content:
+    _Contents:
+    - 1
+    - 4001
+    - 5
+    _Note: 营地免费资源：每日次数，道具ID，道具数量
+  - _Id: 1094
+    _Content:
+    _Contents:
+    - 3
+    - 4001
+    - 25
+    - 3
+    - 4002
+    - 5
+    _Note: 营地广告资源：每日次数，道具ID，道具数量
+  - _Id: 1095
+    _Content:
+    _Contents:
+    - 7
+    - 15004
+    _Note: 日常礼包打包购买：刷新天数，PayID
+  - _Id: 1096
+    _Content:
+    _Contents:
+    - 6102
+    - 2
+    _Note: 日常礼包：打包购买立即获得奖励
+  - _Id: 1097
+    _Content:
+    _Contents:
+    - 40
+    - 10013
+    _Note: 钻石抽芯片保底-次数，dropID
+  - _Id: 1098
+    _Content:
+    _Contents:
+    - 1
+    - 5
+    _Note: 【商店评分】弹窗条件（条件,参数）
+  - _Id: 1099
+    _Content:
+    _Contents:
+    - 0
+    - 0.01
+    - 0.1
+    _Note: 【战力压制】参数1,参数2,参数3(攻击力差值百分比大于[参数1]时怪物开始加强，相较于[参数1]每多[参数2]，怪物血量提升[参数3]）
+  - _Id: 1100
+    _Content:
+    _Contents:
+    - 10
+    - 29004
+    - 1
+    - 50
+    - 7004
+    - 10
+    - 100
+    - 29101
+    - 1
+    - 150
+    - 7004
+    - 10
+    - 200
+    - 29201
+    - 1
+    _Note: 装备累抽任务（次数，itemId，数量）
+  - _Id: 1101
+    _Content: 0.3
+    _Contents: []
+    _Note: 初始金币系数（关卡结算金币 = 初始系数 * 总金币 + 生存时间/最大时间*（1-初始系数）* 总金币
+  - _Id: 1102
+    _Content:
+    _Contents:
+    - 7002
+    - 80
+    _Note: 改名价格
+  - _Id: 1103
+    _Content:
+    _Contents:
+    - 2023
+    - 4
+    - 10
+    - 0
+    _Note: 塔防排行榜-开启时间(年，月，日，时)
+  - _Id: 1104
+    _Content: 28
+    _Contents: []
+    _Note: 塔防排行榜-赛季每赛季持续时间（天数）
+  - _Id: 1105
+    _Content:
+    _Contents:
+    - 1307
+    - 1308
+    - 1309
+    - 1310
+    - 1311
+    _Note: 排行榜段位
+  - _Id: 1106
+    _Content: 7016
+    _Contents: []
+    _Note: 【电磁炮抽奖】消耗道具id
+  - _Id: 1111
+    _Content: 0
+    _Contents: []
+    _Note: 商店十连抽跳过动画按钮前置条件：累计抽奖次数
+  - _Id: 1112
+    _Content:
+    _Contents:
+    - 900
+    - 0
+    _Note: 跑酷玩法：单日次数，单次体力
+  - _Id: 1113
+    _Content: 2
+    _Contents: []
+    _Note: 跑酷玩法：循环时候血量倍数
+  - _Id: 1114
+    _Content:
+    _Contents:
+    - 10
+    - 60
+    - 30
+    _Note: 头部玩家头像（初始男，非S角色，S角色）显示权重
+  - _Id: 1115
+    _Content:
+    _Contents:
+    - 80
+    - 20
+    - 0
+    _Note: 尾部玩家头像（初始男，非S角色，S角色）显示权重
+  - _Id: 1116
+    _Content:
+    _Contents:
+    - 1001
+    _Note: 问卷调查id
+  - _Id: 1117
+    _Content: 9009
+    _Contents:
+    - 10
+    _Note: 爬塔解锁消耗及每天刷新个数
+  - _Id: 1118
+    _Content: 360
+    _Contents: []
+    _Note: 爬塔商店自然刷新时间（分钟）
+  - _Id: 1119
+    _Content:
+    _Contents:
+    - 7002
+    - 10
+    _Note: 爬塔商店退货消耗
+  - _Id: 1120
+    _Content: 30
+    _Contents: []
+    _Note: 【月卡】未激活n天后变为6元
+  - _Id: 1200
+    _Content: 3
+    _Contents: []
+    _Note: 图纸：X级以下可一键合成（配置等级值，包含配置等级）
+  - _Id: 1201
+    _Content:
+    _Contents:
+    - 7002
+    - 10
+    _Note: 黑五购物节：规则说明奖励 10 钻石
+  - _Id: 1202
+    _Content:
+    _Contents:
+    - 7010
+    - 1
+    _Note: 【关卡扫荡】消耗道具（道具id,数量）
+  - _Id: 1203
+    _Content:
+    _Contents:
+    - 29701
+    - 29702
+    - 29703
+    - 29704
+    - 29705
+    _Note: 收藏品万能碎片：绿、蓝、紫、橙、红
+  - _Id: 1204
+    _Content: 20
+    _Contents:
+    - 20
+    - 20
+    - 30
+    - 30
+    - 50
+    - 50
+    - 50
+    - 50
+    - 50
+    - 50
+    - 80
+    - 80
+    - 80
+    - 100
+    - 100
+    - 150
+    - 150
+    - 150
+    - 200
+    - 200
+    _Note: 参数1：每天购买钥匙最大次数；参数2（使用钻石购买价格）：依次为第一次、第二次......所需数量。当购买次数大于价格中的配置次数时，取最后一个
+  - _Id: 1205
+    _Content: 50
+    _Contents: []
+    _Note: '[竞技场]目标低于自己战力N%，就可以跳过战斗'
+  - _Id: 1206
+    _Content: 1000001
+    _Contents: []
+    _Note: 默认初始战车
+  - _Id: 1207
+    _Content: berserk_buff
+    _Contents:
+    - 10010022
+    - 1005
+    _Note: 狂暴buff
+  - _Id: 1208
+    _Content: PrefabsN/Effect/UI/UI_tubiao_pinzhi3
+    _Contents: []
+    _Note: 狂暴boss血条特效
+  - _Id: 1209
+    _Content:
+    _Contents:
+    - 1026
+    _Note: 狂暴boss身体特效
+  - _Id: 1210
+    _Content: 1
+    _Contents: []
+    _Note: 巅峰试炼累计进行次数大于该值开启扫荡功能
+  - _Id: 1211
+    _Content: 0
+    _Contents: []
+    _Note: 虚拟战场累计进行次数大于该值开启扫荡功能
+  - _Id: 1212
+    _Content: 360
+    _Contents: []
+    _Note: 月卡：最多续费天数（剩余生效时间超过X，则无法继续购买）
+  - _Id: 1213
+    _Content: 2000
+    _Contents: []
+    _Note: 【聊天】【世界】发言条件（战力达到n）
+  - _Id: 1214
+    _Content:
+    _Contents:
+    - 300
+    - 100012
+    _Note: 【公会】创建公会限制，满足任一（充值积分,关卡ID）
+  - _Id: 1215
+    _Content: 50
+    _Contents: []
+    _Note: 【聊天】【私聊】私聊对象保存上限
+  - _Id: 1216
+    _Content: 30
+    _Contents: []
+    _Note: 【聊天】【私聊】超过n天没有消息关闭房间
+  - _Id: 1217
+    _Content: 15
+    _Contents: []
+    _Note: 【聊天】打开界面期间，拉取间隔（秒）
+  - _Id: 1218
+    _Content: 180
+    _Contents: []
+    _Note: 【聊天】关闭界面期间，拉取间隔（秒）
+  - _Id: 1219
+    _Content:
+    _Contents:
+    - 2
+    - 80
+    _Note: 【废弃】【聊天】【公会招募】内容长度（字符）
+  - _Id: 1220
+    _Content: 3600
+    _Contents: []
+    _Note: 【聊天】【公会招募】冷却时间（秒）
+  - _Id: 1221
+    _Content: 200
+    _Contents: []
+    _Note: 【聊天】【主界面】显示文本字节
+  - _Id: 1222
+    _Content: 22
+    _Contents: []
+    _Note: 武器配件：大于等于配置天数，显示改装入口
+  - _Id: 1223
+    _Content:
+    _Contents:
+    - 9002
+    - 9001
+    - 9999
+    _Note: 武器配件：补给抽取结果界面排序(道具类型）
+  - _Id: 1224
+    _Content: 0
+    _Contents: []
+    _Note: 武器皮肤：显示入口
+  - _Id: 1225
+    _Content: 1
+    _Contents: []
+    _Note: 【聊天】【私聊】开启条件（开服第n天）
+  - _Id: 1226
+    _Content: 7
+    _Contents: []
+    _Note: 【公会】【公会邮件】开启条件（开服第n天）
+  - _Id: 1227
+    _Content: 1
+    _Contents: []
+    _Note: 【公会】【公会宣言】开启条件（开服第n天）
+  - _Id: 1228
+    _Content:
+    _Contents:
+    - 610435
+    - 610436
+    - 610437
+    _Note: 公会：公会宣言：系统宣言 tipsID
+  - _Id: 1229
+    _Content:
+    _Contents:
+    - 10
+    - 30
+    - 3
+    - 20
+    - 30
+    - 4
+    - 30
+    - 120
+    - 5
+    _Note: 【聊天屏蔽】（世界&聊天）：X条内或Y分钟内，N条重复或X条内或Y分钟内，N条重复或X条内或Y分钟内，N条重复
+  - _Id: 1230
+    _Content:
+    _Contents:
+    - 2
+    - 12
+    - 48
+    _Note: 【聊天屏蔽】（世界&聊天）：第1次屏蔽时间，第2次，第3次（小时）
+  - _Id: 1231
+    _Content: 72
+    _Contents: []
+    _Note: 【聊天】世界频道显示近X小时内的聊天(单位：小时）
+  - _Id: 1232
+    _Content: 168
+    _Contents: []
+    _Note: 【聊天】公会频道显示近X小时内的聊天(单位：小时）
+  - _Id: 1233
+    _Content: 20000
+    _Contents: []
+    _Note: 【聊天】私聊发言限制
+  - _Id: 1234
+    _Content:
+    _Contents:
+    - 1
+    - 10000
+    _Note: 【聊天】跨服频道开启条件（开服天数，第X天）,跨服频道发言限制（战力）
+  - _Id: 1235
+    _Content:
+    _Contents:
+    - 10000
+    - 60
+    - 100000
+    - 30
+    - 500000
+    - 5
+    _Note: 【聊天】【跨服频道】战力，不同CD.＜参数1，不能发言，≥参数，CD（秒）
+  - _Id: 1236
+    _Content: 100
+    _Contents: []
+    _Note: 【聊天】世界频道：跑马灯信息同时显示上限
+  - _Id: 1300
+    _Content: 20
+    _Contents: []
+    _Note: 【选服界面】显示服务器数量
+  - _Id: 1301
+    _Content: 8
+    _Contents: []
+    _Note: 武器配件：武器品质达到X开启
+  - _Id: 1302
+    _Content:
+    _Contents:
+    - 1
+    - 35
+    _Note: 月卡特权：战斗倍数【通关1关显示按钮，通关35关解锁倍速】
+  - _Id: 1303
+    _Content: 1.7
+    _Contents:
+    - 1
+    - 2
+    - 5
+    - 3
+    - 8
+    - 9
+    - 11
+    _Note: 月卡特权：2倍速值&对哪些副本类型生效
+  - _Id: 1304
+    _Content:
+    _Contents:
+    - 5
+    - 6
+    - 4
+    - 3
+    - 1
+    - 2
+    _Note: 武器配件：部位排序顺序
+  - _Id: 1310
+    _Content:
+    _Contents:
+    - 100001
+    - 100008
+    _Note: 好友邀请：绑定邀请码所需的关卡范围
+  - _Id: 1311
+    _Content: 5
+    _Contents: []
+    _Note: 好友邀请：每天每个邀请码可被绑定次数上限
+  - _Id: 1312
+    _Content:
+    _Contents:
+    - 7002
+    - 100
+    - 7006
+    - 20
+    _Note: 好友邀请：绑定邀请码奖励
+  - _Id: 1313
+    _Content: 8
+    _Contents: []
+    _Note: 跑马灯：游戏内触发的跑马灯滚动时间（秒）
+  - _Id: 1314
+    _Content: 180
+    _Contents: []
+    _Note: 跑马灯：拉取间隔（秒）
+  - _Id: 1315
+    _Content:
+    _Contents:
+    - 900
+    - 900
+    _Note: 关卡排行：点击排行榜按钮距离上次打开间拉取时间,首通奖励定时拉取间隔（秒）
+  - _Id: 1316
+    _Content: 3
+    _Contents: []
+    _Note: 武器材料宝箱：抽取后进度提示（此品质及以下弹出提示，此品质以上只有在满足升阶要求时弹出）
+  - _Id: 1317
+    _Content: 20
+    _Contents: []
+    _Note: 上浮提示：同时存在的数量上限（达到上限，再次触发，之前的提示立即消失）
+  - _Id: 1318
+    _Content: 5
+    _Contents: []
+    _Note: 【脑机】自动刷新开启条件：脑机等级
+  - _Id: 1400
+    _Content:
+    _Contents:
+    - 2024
+    - 5
+    - 31
+    - 0
+    - 0
+    - 0
+    _Note: 闪电步枪是否显示钻石购买的时间节点，武器直购结束时间小于这个时间则正常显示钻石购买，否则不显示
+  - _Id: 1500
+    _Content: 0.85
+    _Contents: []
+    _Note: 数值闪避率最大值
+  - _Id: 1501
+    _Content: 4
+    _Contents: []
+    _Note: 数值闪避连续闪避次数
+  - _Id: 1601
+    _Content:
+    _Contents:
+    - 1004
+    - 1010
+    _Note: 巅峰试炼新手期第1周期机器人推荐
+  - _Id: 1602
+    _Content:
+    _Contents:
+    - 1009
+    - 1005
+    _Note: 巅峰试炼新手期第2周期机器人推荐
+  - _Id: 1603
+    _Content:
+    _Contents:
+    - 1009
+    - 1014
+    _Note: 巅峰试炼新手期第3周期机器人推荐
+  - _Id: 1604
+    _Content:
+    _Contents:
+    - 1005
+    - 1011
+    _Note: 巅峰试炼新手期第4周期机器人推荐
+  - _Id: 1605
+    _Content:
+    _Contents:
+    - 1012
+    - 1010
+    _Note: 巅峰试炼新手期第5周期机器人推荐
+  - _Id: 1606
+    _Content:
+    _Contents:
+    - 1013
+    - 1014
+    _Note: 巅峰试炼新手期第6周期机器人推荐
+  - _Id: 1650
+    _Content: 40
+    _Contents: []
+    _Note: 巅峰加速带每段单位距离（米）
+  - _Id: 1651
+    _Content: 150
+    _Contents: []
+    _Note: 巅峰试炼展示玩家起始距离
+  - _Id: 1652
+    _Content: 30
+    _Contents: []
+    _Note: 巅峰试炼展示玩家最小间距
+  - _Id: 1653
+    _Content: 25
+    _Contents: []
+    _Note: 巅峰试炼车默认速度
+  - _Id: 1654
+    _Content: 0.011
+    _Contents: []
+    _Note: 巅峰试炼巅峰组血量系数
+  - _Id: 1655
+    _Content:
+    _Contents:
+    - 1800
+    - 2800
+    - 3600
+    - 5000
+    - 5000
+    - 6000
+    _Note: 巅峰试炼新手期巅峰组晋级米数
+  - _Id: 1656
+    _Content: 2
+    _Contents: []
+    _Note: 巅峰试炼每日扫荡次数上限
+  - _Id: 1661
+    _Content:
+    _Contents:
+    - 7001001
+    - 7001002
+    - 7001003
+    - 7001004
+    - 7001021
+    - 7001022
+    - 7001023
+    - 7001024
+    - 7001025
+    _Note: 巅峰试炼新手组组任务id
+  - _Id: 1662
+    _Content:
+    _Contents:
+    - 7002001
+    - 7002002
+    - 7002003
+    - 7002004
+    - 7002021
+    - 7002022
+    - 7002023
+    - 7002024
+    - 7002025
+    _Note: 巅峰试炼精英组组任务id
+  - _Id: 1663
+    _Content:
+    _Contents:
+    - 7003001
+    - 7003002
+    - 7003003
+    - 7003004
+    - 7003021
+    - 7003022
+    - 7003023
+    - 7003024
+    - 7003025
+    _Note: 巅峰试炼王者组组任务id
+  - _Id: 1664
+    _Content:
+    _Contents:
+    - 7004001
+    - 7004002
+    - 7004003
+    - 7004004
+    - 7004021
+    - 7004022
+    - 7004023
+    - 7004024
+    - 7004025
+    _Note: 巅峰试炼巅峰组组任务id
+  - _Id: 2000
+    _Content:
+    _Contents:
+    - 100050
+    - 100055
+    - 100060
+    - 100065
+    - 100070
+    - 100075
+    - 100080
+    _Note: 【主线首通奖励补发】2024/10/24版本需要补发的关卡id
+  - _Id: 2001
+    _Content: 0.15
+    _Contents: []
+    _Note: 【防作弊】主线关卡（n）
+  - _Id: 2002
+    _Content: 0.15
+    _Contents: []
+    _Note: 【防作弊】挑战关卡（n）
+  - _Id: 2003
+    _Content: 1.8
+    _Contents: []
+    _Note: 【防作弊】竞技场（n）
+  - _Id: 2004
+    _Content: 1.8
+    _Contents: []
+    _Note: 【防作弊】荣耀竞技场（n）
+  - _Id: 2005
+    _Content: 0
+    _Contents: []
+    _Note: 【防作弊】逃离实验室（n）
+  - _Id: 2006
+    _Content: 0.05
+    _Contents: []
+    _Note: 【防作弊】虚拟战场（n）
+  - _Id: 2007
+    _Content:
+    _Contents:
+    - 9999999
+    - 200000
+    _Note: 【防作弊】公会讨伐战（n、m）
+  - _Id: 2008
+    _Content:
+    _Contents:
+    - 9999999
+    - 200000
+    _Note: 【防作弊】首领讨伐战（n、m）
+  - _Id: 2009
+    _Content: 2
+    _Contents: []
+    _Note: 【防作弊】公会对决（n）
+  - _Id: 2010
+    _Content: 0.25
+    _Contents: []
+    _Note: 【防作弊】时空救援（n）
+  - _Id: 2011
+    _Content:
+    _Contents:
+    - 10
+    - 25
+    - 30000
+    _Note: 【退款】第1次退款超过10%封号24小时，第1次退款超过25%或超过30000积分需要补充解封
+  - _Id: 3001
+    _Content:
+    _Contents:
+    - 10
+    - 29004
+    - 1
+    - 50
+    - 7004
+    - 10
+    - 100
+    - 29101
+    - 1
+    - 150
+    - 7004
+    - 10
+    - 200
+    - 29202
+    - 1
+    _Note: 装备累抽【1期】（次数，itemId，数量）
+  - _Id: 7001
+    _Content: 100
+    _Contents: []
+    _Note: 氮气阈值_NnThresh
+  - _Id: 7002
+    _Content: 2
+    _Contents: []
+    _Note: 氮气获取总量放大系数
+  - _Id: 7003
+    _Content: 2
+    _Contents: []
+    _Note: 氮气获得_免费_NnPlusCommon
+  - _Id: 7004
+    _Content: 6
+    _Contents: []
+    _Note: 氮气获得_分配_NnPlusDist
+  - _Id: 7005
+    _Content: 5
+    _Contents: []
+    _Note: 氮气持续时间_NnDurTime
+  - _Id: 7006
+    _Content: 1
+    _Contents: []
+    _Note: 压制持续时间_NnSuppTime
+  - _Id: 7101
+    _Content: 0.2
+    _Contents: []
+    _Note: 元素属性转换伤害
+  - _Id: 7102
+    _Content: 0.5
+    _Contents: []
+    _Note: 暴击系列转换伤害
+  - _Id: 8001
+    _Content:
+    _Contents:
+    - 2024
+    - 3
+    - 4
+    - 0
+    _Note: 开服新手期生效判断-开启时间(年，月，日，时)在此时间段内开启的服务器，生效新的新手期
+  - _Id: 8002
+    _Content:
+    _Contents:
+    - 2030
+    - 3
+    - 10
+    - 0
+    _Note: 开服新手期生效判断-结束时间(年，月，日，时)
+  - _Id: 8003
+    _Content: 42
+    _Contents: []
+    _Note: 开服新手期：天数
+  - _Id: 8100
+    _Content: 3
+    _Contents: []
+    _Note: 退出游戏再返回，重连次数上限
+  - _Id: 8101
+    _Content:
+    _Contents:
+    - 7002
+    - 20
+    _Note: 社群点击跳转按钮奖励
+  - _Id: 8102
+    _Content:
+    _Contents:
+    - 900075
+    - https://www.facebook.com/ZombieWavesGame
+    - 29
+    - Functions/GameCommunity/c_icon_facebook
+    - 900076
+    - https://www.facebook.com/groups/zombiewaves
+    - 30
+    - Functions/GameCommunity/c_icon_facebook
+    - 900077
+    - https://discord.gg/9jVE625vKV
+    - 31
+    - Functions/GameCommunity/c_icon_discord
+    _Note: 海外：社群按钮名称,跳转链接,广告表id
+  - _Id: 8103
+    _Content:
+    _Contents: []
+    _Note:
+  - _Id: 8104
+    _Content:
+    _Contents:
+    - cn
+    - 0
+    - hw
+    - 1
+    _Note: 国内社群关闭，非国内的社群开启读language表
+  - _Id: 8111
+    _Content:
+    _Contents:
+    - 9001
+    - 9002
+    - 9003
+    - 9004
+    - 9005
+    - 9006
+    _Note: 退款补充值的充值项
+  - _Id: 9000
+    _Content: vip666
+    _Contents:
+    - 7002
+    - 66
+    _Note: 礼包码1
+  - _Id: 9001
+    _Content: vip777
+    _Contents:
+    - 7002
+    - 77
+    _Note: 礼包码2
+  - _Id: 9002
+    _Content: vip888
+    _Contents:
+    - 7002
+    - 88
+    _Note: 礼包码3
+  - _Id: 9003
+    _Content: zw2023
+    _Contents:
+    - 7002
+    - 50
+    - 7001
+    - 5
+    _Note: 礼包码4
+  - _Id: 10000
+    _Content: 2
+    _Contents: []
+    _Note: 当abtest开启时【查看id10001】，当前参数为取模值，用来筛选分支人数，取模与分支1,2相等的归属于分支1,2，其他值都归属于分支0
+  - _Id: 10001
+    _Content: 2
+    _Contents: []
+    _Note: "abtest测试的分支数量（0是只有主分支2是主分支+分支1，3是主分支+分支1分支2）\nabtest国家选择[ar,vn,br]（国家为空则为无选定国家）"
+  - _Id: 10002
+    _Content: 150
+    _Contents:
+    - 100
+    - 120
+    - 150
+    _Note: 刷怪数量上限【微信小程序】
+  - _Id: 10003
+    _Content:
+    _Contents:
+    - 41001
+    - 41002
+    - 410021
+    - 41003
+    - 410031
+    - 41004
+    - 410041
+    - 410042
+    - 410043
+    - 41005
+    - 410051
+    - 41006
+    - 410061
+    - 41007
+    - 410071
+    - 41013
+    _Note: 巅峰试炼机关所用子弹【微信小程序】
+  - _Id: 10004
+    _Content: 1
+    _Contents:
+    - 1
+    - 1
+    - 0.9
+    _Note: 怪物血量加成【微信小程序】
+  - _Id: 10005
+    _Content: 1.2.8
+    _Contents: []
+    _Note: 版本号控制是否开启RVO【微信小程序】
+  - _Id: 10006
+    _Content: 1.4.3
+    _Contents: []
+    _Note: 版本号控制是否开启RVO【抖音小游戏安卓】
+  - _Id: 10007
+    _Content: 1.2.2
+    _Contents: []
+    _Note: 版本号控制是否开启RVO【抖音小程序ios】
+  - _Id: 10010
+    _Content:
+    _Contents:
+    - 7006
+    - 20
+    - 7001
+    - 10
+    _Note: 抖音小程序添加到桌面-首次奖励（废弃）
+  - _Id: 10011
+    _Content:
+    _Contents:
+    - 7006
+    - 20
+    _Note: 抖音小程序添加到桌面-日常奖励（废弃）
+  - _Id: 10012
+    _Content: 10080
+    _Contents: []
+    _Note: 抖音小程序添加桌面-时间（分钟）
+  - _Id: 10013
+    _Content: 1
+    _Contents: []
+    _Note: 是否开启抖音直玩功能
+  - _Id: 10020
+    _Content: 10
+    _Contents: []
+    _Note: 【通用】单用户每日举报次数上限
+  - _Id: 10030
+    _Content: 1
+    _Contents: []
+    _Note: 首次激活英雄扣除本体数量
+  - _Id: 11001
+    _Content:
+    _Contents:
+    - 5
+    - 12
+    - 25
+    - 55
+    - 100
+    _Note: 【转服】玩家评级（战力区间）
+  - _Id: 11002
+    _Content:
+    _Contents:
+    - 60
+    - 40
+    - 30
+    - 20
+    - 10
+    _Note: 【转服】玩家评级（转服消耗）
+  - _Id: 11003
+    _Content:
+    _Contents:
+    - 610348
+    - 610349
+    - 610350
+    - 610351
+    - 610352
+    _Note: 【转服】玩家评级（tips：巅峰,王者,杰出,精英,普通）
+  - _Id: 11004
+    _Content:
+    _Contents:
+    - 5
+    - 7
+    - 20
+    - 40
+    - 120
+    _Note: 【转服】转服名额（巅峰,王者,杰出,精英,普通）
+  - _Id: 11005
+    _Content: 2880
+    _Contents: []
+    _Note: 【转服】申请信息：消息存续时间（分钟）1440
+  - _Id: 11006
+    _Content: 1440
+    _Contents: []
+    _Note: 【转服】转区确认：消息存续时间（分钟）1440
+  - _Id: 11007
+    _Content: 30
+    _Contents: []
+    _Note: 【转服】推荐列表：区服数量
+  - _Id: 11008
+    _Content: 5
+    _Contents: []
+    _Note: 【转服】进度列表：保存最近条数
+  - _Id: 11009
+    _Content: 43200
+    _Contents: []
+    _Note: 【转服】转区冷却：时间（分钟）43200
+  - _Id: 11010
+    _Content: 7012
+    _Contents: []
+    _Note: 【转服】转服消耗：道具ID
+  - _Id: 11011
+    _Content:
+    _Contents:
+    - 1
+    - 0
+    - 15
+    - 0
+    _Note: 【转服】转服：每月评定时间
+  - _Id: 11012
+    _Content: 300
+    _Contents: []
+    _Note: 【转服】消息：前端拉取间隔（秒）
+  - _Id: 11013
+    _Content:
+    _Contents:
+    - 10
+    - 30
+    - 60
+    - 100
+    _Note: 【转服】服务器评级（战力排名百分比）
+  - _Id: 11014
+    _Content:
+    _Contents:
+    - 1
+    - 50
+    - 1
+    - 30
+    - 0
+    - 0
+    - 2
+    - 10
+    _Note: 【转服】区服评级：服务器人数（2个值为1组，A为类型，B为数值；类型1为≥，类型2为≤）
+  - _Id: 11015
+    _Content:
+    _Contents:
+    - 1
+    - 1
+    - 1
+    - 0
+    _Note: 【转服】区服评级：是否可转入
+  - _Id: 11016
+    _Content:
+    _Contents:
+    - 610353
+    - 610354
+    - 610355
+    - 610356
+    _Note: 【转服】服务器评级（tips）
+  - _Id: 11017
+    _Content: 10
+    _Contents: []
+    _Note: 【转服】消息：在转区界面切换分页后消息拉取的CD时间（秒）
+  - _Id: 11018
+    _Content: 100
+    _Contents: []
+    _Note: 【转服】区服宣言：字符
+  - _Id: 11019
+    _Content: 0
+    _Contents: []
+    _Note: 【转服】转区：tap4分页礼包是否打开（1：打开；0：关闭）
+  - _Id: 11020
+    _Content: 10080
+    _Contents: []
+    _Note: 【转服】转区进度：消息最多保存时间（分钟）10080
+  - _Id: 12001
+    _Content:
+    _Contents:
+    - 14
+    - 100
+    _Note: 【回归】角色被绑定条件，角色充值积分≥配置，可被绑定(连续离线天数，充值积分>=n）
+  - _Id: 12002
+    _Content:
+    _Contents:
+    - 0.5
+    - 0.3
+    _Note: 【回归】新角色充值返还钻石总数，=绑定角色充值积分*该系数(国内，海外）
+  - _Id: 12003
+    _Content:
+    _Contents:
+    - 1
+    - 1
+    _Note: 【回归】新角色充值返还积分总数，=绑定角色充值积分*该系数(国内，海外）
+  - _Id: 12004
+    _Content:
+    _Contents:
+    - 100
+    - 50
+    - 100
+    - 100
+    - 30
+    - 100
+    _Note: 【回归】新角色每充值X积分，可返利Y%（国内积分，返还钻石，返还积分，海外积分，返还钻石，返还积分）
+  - _Id: 12005
+    _Content: 2
+    _Contents: []
+    _Note: 【回归】老角色被绑次数上限
+  - _Id: 12006
+    _Content: 3004
+    _Contents: []
+    _Note: 【回归】充值积分对应道具id
+  - _Id: 12007
+    _Content:
+    _Contents:
+    - 12028
+    - 29460
+    - 7002
+    _Note: 【回归】老服活动，拍脸界面奖励预览
+  - _Id: 12008
+    _Content:
+    _Contents:
+    - 3004
+    - 7002
+    _Note: 【回归】新服活动，拍脸界面奖励预览
+  - _Id: 12009
+    _Content: 10
+    _Contents: []
+    _Note: 【回归】当角色开启老玩家回归活动时，判断最近新开的10个服务器内是否有角色
+  - _Id: 12101
+    _Content: 24000
+    _Contents: []
+    _Note: 【老玩家自动选服】老玩家离线超过n小时自动选择新服务器
+  - _Id: 13001
+    _Content: 30081
+    _Contents: []
+    _Note: 【营地】科技ID
+  - _Id: 13002
+    _Content: 4010
+    _Contents: []
+    _Note: 【营地】建筑/研究加速道具
+  - _Id: 13003
+    _Content: 3
+    _Contents: []
+    _Note: 【营地】每天点赞次数上限
+  - _Id: 13004
+    _Content: 2
+    _Contents: []
+    _Note: 【营地】建筑队列上限
+  - _Id: 13005
+    _Content: 2
+    _Contents: []
+    _Note: 【营地】科技队列上限
+  - _Id: 13006
+    _Content: 43001
+    _Contents: []
+    _Note: 【营地】建筑队列礼包ID（pay)
+  - _Id: 13007
+    _Content: 6
+    _Contents: []
+    _Note: 【营地】战车展示数量
+  - _Id: 13008
+    _Content: 300
+    _Contents: []
+    _Note: 【营地】邻居：点击邻居分页按钮协议间隔时间（秒）
+  - _Id: 13009
+    _Content:
+    _Contents:
+    - 4001
+    - 4002
+    - 4003
+    - 4004
+    _Note: 【营地】需要转换的老道具ID
+  - _Id: 13010
+    _Content: 43004
+    _Contents: []
+    _Note: 【营地】礼包ID（payid)
+  - _Id: 13101
+    _Content:
+    _Contents:
+    - 1.3
+    - 1
+    - 0.2
+    _Note: "【组队玩法】攻击系数\n玩家时空值≥value1 攻击+30%\n玩家时空值≥value2 攻击+0%\n玩家时空值＜value2 攻击-80%"
+  - _Id: 13102
+    _Content: 10000
+    _Contents: []
+    _Note: 【组队玩法】友情币每日获得上限
+  - _Id: 13103
+    _Content: 7
+    _Contents: []
+    _Note: 【组队玩法】匹配组（7天，前7走一个匹配组；后7一个匹配组）
+  - _Id: 13104
+    _Content: 5
+    _Contents: []
+    _Note: 【组队玩法】邀请：刷新按钮CD时间（秒）
+  - _Id: 13105
+    _Content: 10
+    _Contents: []
+    _Note: 【组队玩法】邀请：邀请按钮CD时间（秒）
+  - _Id: 13106
+    _Content: 10
+    _Contents: []
+    _Note: 【组队玩法】邀请：发布招募按钮CD时间（秒）
+  - _Id: 13107
+    _Content: 20
+    _Contents: []
+    _Note: 【组队玩法】被邀请信息显示上限（20）
+  - _Id: 13108
+    _Content: 80
+    _Contents: []
+    _Note: 【罗盘】分解获得强化消耗的80%
+  - _Id: 13109
+    _Content: 100
+    _Contents: []
+    _Note: 【罗盘】背包上限
+  - _Id: 13110
+    _Content: 100
+    _Contents: []
+    _Note: 【聊天-招募频道】显示最大消息上限（100）
+  - _Id: 13111
+    _Content:
+    _Contents:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    _Note: 【罗盘】阶数范围
+  - _Id: 13112
+    _Content:
+    _Contents:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 8
+    _Note: 【罗盘】品质范围
+  - _Id: 13113
+    _Content: 1
+    _Contents: []
+    _Note: 【组队玩法】当前拥有门票数超过X时，提示红点
+  - _Id: 13114
+    _Content:
+    _Contents:
+    - 101
+    - 643137
+    - 102
+    - 643138
+    - 103
+    - 643139
+    _Note: 【组队玩法】战中：快捷发言
+  - _Id: 13115
+    _Content: 600
+    _Contents: []
+    _Note: 【聊天-招募频道】消息X秒后显示失效-前端用（单位：秒）
+  - _Id: 13116
+    _Content: 60
+    _Contents: []
+    _Note: 【聊天-招募频道】前端向后端请求状态-冷却时间（单位：秒）
+  - _Id: 13117
+    _Content: 100
+    _Contents: []
+    _Note: 【组队玩法】围栏血量
+  - _Id: 13118
+    _Content: 95
+    _Contents: []
+    _Note: 【罗盘】背包不足警告上限
+  - _Id: 13119
+    _Content:
+    _Contents:
+    - 1
+    - 50
+    _Note: 【组队玩法】战中聊天：长度（字节）
+  - _Id: 13120
+    _Content:
+    _Contents:
+    - 300
+    - 5
+    _Note: 【组队玩法】被邀请信息界面：界面关闭期间刷新CD,打开期间刷新CD（单位：秒）
+  - _Id: 13121
+    _Content: 60
+    _Contents: []
+    _Note: 【组队玩法】组队邀请界面拉取间隔-前端用（单位：秒）
+  - _Id: 13122
+    _Content: 1.5
+    _Contents:
+    - 10
+    _Note: 【组队玩法】开启2倍速后的实际倍数；点击变化倍速的CD（单位：秒）
+  - _Id: 13200
+    _Content:
+    _Contents:
+    - 1000
+    - 1001
+    - 1002
+    - 1003
+    _Note: 【每日必买礼包】全部购买额外奖励领取条件
+  - _Id: 13201
+    _Content:
+    _Contents:
+    - 6102
+    - 1
+    _Note: 【每日必买礼包】全部购买奖励额外奖励
+  - _Id: 13202
+    _Content: 3214
+    _Contents: []
+    _Note: 【每日必买礼包】打包购买折扣显示
+  - _Id: 13203
+    _Content: 15405
+    _Contents: []
+    _Note: 【每日必买礼包】打包购买payiD
+  - _Id: 14001
+    _Content: https://napthe.vtcgame.vn/Nap-Anh-hung-cam-dia-45
+    _Contents: []
+    _Note: 越南三方支付对应链接地址

@@ -1,0 +1,4208 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 175ccc3cfda6824a96aea696874c434d, type: 3}
+  m_Name: DYFF_TriggerGiftPack
+  m_EditorClassIdentifier:
+  _Items:
+  - _Id: 1003
+    _Note: 【武器】紫→紫1 8$
+    _PayId: 14003
+    _Discount: 3203
+    _Type: 1
+    _Condition:
+    - 1001
+    - 4
+    - 1
+    _Push_ui:
+    - 0
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 180
+    _DayTriggerTimes: 0
+    _TriggerTimes: 0
+    _BuyTimes: 0
+    _GiftName: 0
+    _GiftTip: 0
+    _Sort: 0
+    _Bg:
+    _BgEffect:
+    _Icon:
+    _MainMenuIcon:
+    _Position: []
+    _Showeffect: []
+  - _Id: 1004
+    _Note: 【武器】紫1→紫2 12$
+    _PayId: 14004
+    _Discount: 3203
+    _Type: 1
+    _Condition:
+    - 1001
+    - 5
+    - 1
+    _Push_ui:
+    - 0
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 180
+    _DayTriggerTimes: 0
+    _TriggerTimes: 0
+    _BuyTimes: 0
+    _GiftName: 0
+    _GiftTip: 0
+    _Sort: 0
+    _Bg:
+    _BgEffect:
+    _Icon:
+    _MainMenuIcon:
+    _Position: []
+    _Showeffect: []
+  - _Id: 1005
+    _Note: 【武器】紫2→紫3 15$
+    _PayId: 14005
+    _Discount: 3204
+    _Type: 1
+    _Condition:
+    - 1001
+    - 6
+    - 1
+    _Push_ui:
+    - 0
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 180
+    _DayTriggerTimes: 0
+    _TriggerTimes: 0
+    _BuyTimes: 0
+    _GiftName: 0
+    _GiftTip: 0
+    _Sort: 0
+    _Bg:
+    _BgEffect:
+    _Icon:
+    _MainMenuIcon:
+    _Position: []
+    _Showeffect: []
+  - _Id: 1006
+    _Note: 【武器】紫3→橙 50$
+    _PayId: 14006
+    _Discount: 3204
+    _Type: 1
+    _Condition:
+    - 1001
+    - 7
+    - 2
+    _Push_ui:
+    - 0
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 180
+    _DayTriggerTimes: 0
+    _TriggerTimes: 0
+    _BuyTimes: 0
+    _GiftName: 0
+    _GiftTip: 0
+    _Sort: 0
+    _Bg:
+    _BgEffect:
+    _Icon:
+    _MainMenuIcon:
+    _Position: []
+    _Showeffect: []
+  - _Id: 1007
+    _Note: 【武器】橙→橙1 40$
+    _PayId: 14007
+    _Discount: 3204
+    _Type: 1
+    _Condition:
+    - 1001
+    - 8
+    - 2
+    _Push_ui:
+    - 0
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 180
+    _DayTriggerTimes: 0
+    _TriggerTimes: 0
+    _BuyTimes: 0
+    _GiftName: 0
+    _GiftTip: 0
+    _Sort: 0
+    _Bg:
+    _BgEffect:
+    _Icon:
+    _MainMenuIcon:
+    _Position: []
+    _Showeffect: []
+  - _Id: 1008
+    _Note: 【武器】橙1→橙2 40$
+    _PayId: 14008
+    _Discount: 3204
+    _Type: 1
+    _Condition:
+    - 1001
+    - 9
+    - 2
+    _Push_ui:
+    - 0
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 180
+    _DayTriggerTimes: 0
+    _TriggerTimes: 0
+    _BuyTimes: 0
+    _GiftName: 0
+    _GiftTip: 0
+    _Sort: 0
+    _Bg:
+    _BgEffect:
+    _Icon:
+    _MainMenuIcon:
+    _Position: []
+    _Showeffect: []
+  - _Id: 1009
+    _Note: 【武器】橙2→橙3 40$
+    _PayId: 14009
+    _Discount: 3204
+    _Type: 1
+    _Condition:
+    - 1001
+    - 10
+    - 2
+    _Push_ui:
+    - 0
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 180
+    _DayTriggerTimes: 0
+    _TriggerTimes: 0
+    _BuyTimes: 0
+    _GiftName: 0
+    _GiftTip: 0
+    _Sort: 0
+    _Bg:
+    _BgEffect:
+    _Icon:
+    _MainMenuIcon:
+    _Position: []
+    _Showeffect: []
+  - _Id: 1010
+    _Note: 【武器】橙3→橙4 40$
+    _PayId: 14010
+    _Discount: 3204
+    _Type: 1
+    _Condition:
+    - 1001
+    - 11
+    - 2
+    _Push_ui:
+    - 0
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 180
+    _DayTriggerTimes: 0
+    _TriggerTimes: 0
+    _BuyTimes: 0
+    _GiftName: 0
+    _GiftTip: 0
+    _Sort: 0
+    _Bg:
+    _BgEffect:
+    _Icon:
+    _MainMenuIcon:
+    _Position: []
+    _Showeffect: []
+  - _Id: 1011
+    _Note: 【S武器】紫3→橙 100$
+    _PayId: 14101
+    _Discount: 3204
+    _Type: 1
+    _Condition:
+    - 1001
+    - 7
+    - 3
+    _Push_ui:
+    - 0
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 180
+    _DayTriggerTimes: 0
+    _TriggerTimes: 0
+    _BuyTimes: 0
+    _GiftName: 0
+    _GiftTip: 0
+    _Sort: 0
+    _Bg:
+    _BgEffect:
+    _Icon:
+    _MainMenuIcon:
+    _Position: []
+    _Showeffect: []
+  - _Id: 1012
+    _Note: 【S武器】橙→橙1 40$
+    _PayId: 14102
+    _Discount: 3204
+    _Type: 1
+    _Condition:
+    - 1001
+    - 8
+    - 3
+    _Push_ui:
+    - 0
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 180
+    _DayTriggerTimes: 0
+    _TriggerTimes: 0
+    _BuyTimes: 0
+    _GiftName: 0
+    _GiftTip: 0
+    _Sort: 0
+    _Bg:
+    _BgEffect:
+    _Icon:
+    _MainMenuIcon:
+    _Position: []
+    _Showeffect: []
+  - _Id: 1013
+    _Note: 【S武器】橙1→橙2 40$
+    _PayId: 14103
+    _Discount: 3204
+    _Type: 1
+    _Condition:
+    - 1001
+    - 9
+    - 3
+    _Push_ui:
+    - 0
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 180
+    _DayTriggerTimes: 0
+    _TriggerTimes: 0
+    _BuyTimes: 0
+    _GiftName: 0
+    _GiftTip: 0
+    _Sort: 0
+    _Bg:
+    _BgEffect:
+    _Icon:
+    _MainMenuIcon:
+    _Position: []
+    _Showeffect: []
+  - _Id: 1014
+    _Note: 【S武器】橙2→橙3 40$
+    _PayId: 14104
+    _Discount: 3204
+    _Type: 1
+    _Condition:
+    - 1001
+    - 10
+    - 3
+    _Push_ui:
+    - 0
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 180
+    _DayTriggerTimes: 0
+    _TriggerTimes: 0
+    _BuyTimes: 0
+    _GiftName: 0
+    _GiftTip: 0
+    _Sort: 0
+    _Bg:
+    _BgEffect:
+    _Icon:
+    _MainMenuIcon:
+    _Position: []
+    _Showeffect: []
+  - _Id: 1015
+    _Note: 【s武器】橙3→橙4 40$
+    _PayId: 14105
+    _Discount: 3204
+    _Type: 1
+    _Condition:
+    - 1001
+    - 11
+    - 3
+    _Push_ui:
+    - 0
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 180
+    _DayTriggerTimes: 0
+    _TriggerTimes: 0
+    _BuyTimes: 0
+    _GiftName: 0
+    _GiftTip: 0
+    _Sort: 0
+    _Bg:
+    _BgEffect:
+    _Icon:
+    _MainMenuIcon:
+    _Position: []
+    _Showeffect: []
+  - _Id: 1501
+    _Note: 【闪电步枪】激活
+    _PayId: 18002
+    _Discount: 3201
+    _Type: 1
+    _Condition:
+    - 1002
+    - 11007
+    - 0
+    _Push_ui:
+    - 0
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9222
+    _GiftTip: 9223
+    _Sort: 0
+    _Bg: UI/Icon/ActivityTriggerGift/tg_tili_bg
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_tili
+    _Icon: UI/Icon/ActivityTriggerGift3/tb_icon_shandianbz
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_shandianbz
+    _Position: []
+    _Showeffect:
+    - 24304
+  - _Id: 2001
+    _Note: 【经验助手】蓝→紫
+    _PayId: 12002
+    _Discount: 0
+    _Type: 2
+    _Condition:
+    - 2001
+    - 0
+    - 0
+    _Push_ui:
+    - 0
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 2880
+    _DayTriggerTimes: 0
+    _TriggerTimes: 0
+    _BuyTimes: 0
+    _GiftName: 0
+    _GiftTip: 0
+    _Sort: 0
+    _Bg:
+    _BgEffect:
+    _Icon:
+    _MainMenuIcon:
+    _Position: []
+    _Showeffect:
+    - 30014
+  - _Id: 2002
+    _Note: 【经验助手】紫→橙
+    _PayId: 12003
+    _Discount: 3201
+    _Type: 3
+    _Condition:
+    - 3002
+    - 1007
+    - 4
+    _Push_ui:
+    - 0
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9148
+    _GiftTip: 9149
+    _Sort: 0
+    _Bg: UI/Icon/ActivityTriggerGift/tg_robot_jingyancheng
+    _BgEffect:
+    _Icon: UI/Icon/ActivityTriggerGift/tb_icon_jingyancheng
+    _MainMenuIcon: UI/Icon/MainMenu/main_jingyancheng
+    _Position: []
+    _Showeffect:
+    - 30014
+  - _Id: 3001
+    _Note: 【金属风暴】激活
+    _PayId: 18111
+    _Discount: 3201
+    _Type: 3
+    _Condition:
+    - 3001
+    - 1004
+    - 0
+    _Push_ui:
+    - 0
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9125
+    _GiftTip: 29108
+    _Sort: 0
+    _Bg: UI/Icon/ActivityTriggerGift/tg_robot_bg1
+    _BgEffect:
+    _Icon: UI/Icon/ActivityTriggerGift/jinshu1
+    _MainMenuIcon: UI/Icon/MainMenu/jinshu1-icon
+    _Position: []
+    _Showeffect:
+    - 30015
+  - _Id: 3002
+    _Note: 【金属风暴】橙→红
+    _PayId: 18112
+    _Discount: 3201
+    _Type: 3
+    _Condition:
+    - 3002
+    - 1004
+    - 8
+    _Push_ui:
+    - 0
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9125
+    _GiftTip: 9129
+    _Sort: 0
+    _Bg: UI/Icon/ActivityTriggerGift/tg_robot_bg1
+    _BgEffect:
+    _Icon: UI/Icon/ActivityTriggerGift/jinshu4
+    _MainMenuIcon: UI/Icon/MainMenu/jinshu4-icon
+    _Position: []
+    _Showeffect:
+    - 30015
+  - _Id: 3011
+    _Note: 【毁灭之子】紫→橙
+    _PayId: 18115
+    _Discount: 3201
+    _Type: 3
+    _Condition:
+    - 3001
+    - 1005
+    - 0
+    _Push_ui:
+    - 0
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9130
+    _GiftTip: 9138
+    _Sort: 0
+    _Bg: UI/Icon/ActivityTriggerGift/tg_robot_huimiecheng
+    _BgEffect:
+    _Icon: UI/Icon/ActivityTriggerGift/tb_icon_huimiecheng
+    _MainMenuIcon: UI/Icon/MainMenu/main_huimiecheng
+    _Position: []
+    _Showeffect:
+    - 30016
+  - _Id: 3012
+    _Note: 【毁灭之子】橙→橙3
+    _PayId: 18116
+    _Discount: 3201
+    _Type: 3
+    _Condition:
+    - 3002
+    - 1005
+    - 8
+    _Push_ui:
+    - 0
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9130
+    _GiftTip: 9176
+    _Sort: 0
+    _Bg: UI/Icon/ActivityTriggerGift/tg_robot_huimiecheng
+    _BgEffect:
+    _Icon: UI/Icon/ActivityTriggerGift/tb_icon_huimiecheng
+    _MainMenuIcon: UI/Icon/MainMenu/main_huimiecheng
+    _Position: []
+    _Showeffect:
+    - 30016
+  - _Id: 3013
+    _Note: 【毁灭之子】橙3→红
+    _PayId: 18119
+    _Discount: 3201
+    _Type: 3
+    _Condition:
+    - 3002
+    - 1005
+    - 11
+    _Push_ui:
+    - 0
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9130
+    _GiftTip: 9177
+    _Sort: 0
+    _Bg: UI/Icon/ActivityTriggerGift2/tg_bg_huimiehong
+    _BgEffect:
+    _Icon: UI/Icon/ActivityTriggerGift2/tb_icon_huimiehong
+    _MainMenuIcon: UI/Icon/MainMenu/main_huimiehong
+    _Position: []
+    _Showeffect:
+    - 30016
+  - _Id: 3021
+    _Note: 【拯救之翼】紫→橙
+    _PayId: 18117
+    _Discount: 3201
+    _Type: 3
+    _Condition:
+    - 3001
+    - 1009
+    - 0
+    _Push_ui:
+    - 0
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9139
+    _GiftTip: 9141
+    _Sort: 0
+    _Bg: UI/Icon/ActivityTriggerGift/tg_robot_zhengjiucheng
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_zhengjiuzhiyi
+    _Icon: UI/Icon/ActivityTriggerGift/tb_icon_zhengjiucheng
+    _MainMenuIcon: UI/Icon/MainMenu/main_zhengjiucheng
+    _Position: []
+    _Showeffect:
+    - 30017
+  - _Id: 3022
+    _Note: 【拯救之翼】橙→橙2
+    _PayId: 18118
+    _Discount: 3201
+    _Type: 3
+    _Condition:
+    - 3002
+    - 1009
+    - 8
+    _Push_ui:
+    - 0
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9142
+    _GiftTip: 9128
+    _Sort: 0
+    _Bg: UI/Icon/ActivityTriggerGift/tg_robot_zhengjiucheng
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_zhengjiuzhiyi
+    _Icon: UI/Icon/ActivityTriggerGift/tb_icon_zhengjiucheng
+    _MainMenuIcon: UI/Icon/MainMenu/main_zhengjiucheng
+    _Position: []
+    _Showeffect:
+    - 30017
+  - _Id: 3023
+    _Note: 【拯救之翼】橙2→橙3
+    _PayId: 18121
+    _Discount: 3201
+    _Type: 3
+    _Condition:
+    - 3002
+    - 1009
+    - 10
+    _Push_ui:
+    - 0
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9142
+    _GiftTip: 9178
+    _Sort: 0
+    _Bg: UI/Icon/ActivityTriggerGift/tg_robot_zhengjiucheng
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_zhengjiuzhiyi
+    _Icon: UI/Icon/ActivityTriggerGift/tb_icon_zhengjiucheng
+    _MainMenuIcon: UI/Icon/MainMenu/main_zhengjiucheng
+    _Position: []
+    _Showeffect:
+    - 30017
+  - _Id: 3024
+    _Note: 【拯救之翼】橙3→红
+    _PayId: 18122
+    _Discount: 3201
+    _Type: 3
+    _Condition:
+    - 3002
+    - 1009
+    - 11
+    _Push_ui:
+    - 0
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9142
+    _GiftTip: 9178
+    _Sort: 0
+    _Bg: UI/Icon/ActivityTriggerGift2/tg_bg_zhengjiuhong
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_zhengjiuzhiyi
+    _Icon: UI/Icon/ActivityTriggerGift2/tb_icon_zhengjiuhong
+    _MainMenuIcon: UI/Icon/MainMenu/main_zhengjiuhong
+    _Position: []
+    _Showeffect:
+    - 30017
+  - _Id: 3031
+    _Note: 【无人机：极光】绿→蓝
+    _PayId: 18123
+    _Discount: 3201
+    _Type: 3
+    _Condition:
+    - 3001
+    - 1008
+    - 0
+    _Push_ui:
+    - 0
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9179
+    _GiftTip: 9180
+    _Sort: 0
+    _Bg: UI/Icon/ActivityTriggerGift1/tg_bg_scenezi
+    _BgEffect:
+    _Icon: UI/Icon/ActivityTriggerGift1/tb_icon_jiguangzi
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_jiguang
+    _Position: []
+    _Showeffect:
+    - 30011
+  - _Id: 3032
+    _Note: 【无人机：极光】蓝→紫
+    _PayId: 18124
+    _Discount: 3201
+    _Type: 3
+    _Condition:
+    - 3002
+    - 1008
+    - 3
+    _Push_ui:
+    - 0
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9179
+    _GiftTip: 9181
+    _Sort: 0
+    _Bg: UI/Icon/ActivityTriggerGift1/tg_bg_scenezi
+    _BgEffect:
+    _Icon: UI/Icon/ActivityTriggerGift1/tb_icon_jiguangzi
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_jiguang
+    _Position: []
+    _Showeffect:
+    - 30011
+  - _Id: 3033
+    _Note: 【无人机：极光】紫→橙
+    _PayId: 18125
+    _Discount: 3201
+    _Type: 3
+    _Condition:
+    - 3002
+    - 1008
+    - 4
+    _Push_ui:
+    - 0
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9179
+    _GiftTip: 9182
+    _Sort: 0
+    _Bg: UI/Icon/ActivityTriggerGift1/tg_bg_scenezi
+    _BgEffect:
+    _Icon: UI/Icon/ActivityTriggerGift1/tb_icon_jiguangcheng
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_jiguangup
+    _Position: []
+    _Showeffect:
+    - 30011
+  - _Id: 3041
+    _Note: 【暴烈凤凰号】紫→橙
+    _PayId: 18128
+    _Discount: 3201
+    _Type: 3
+    _Condition:
+    - 3001
+    - 1010
+    - 0
+    _Push_ui:
+    - 0
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9185
+    _GiftTip: 9186
+    _Sort: 0
+    _Bg: UI/Icon/ActivityTriggerGift1/tg_bg_fenghuang
+    _BgEffect:
+    _Icon: UI/Icon/ActivityTriggerGift1/tb_icon_fenghuang
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_fenghuangup
+    _Position: []
+    _Showeffect:
+    - 30018
+  - _Id: 3042
+    _Note: 【暴烈凤凰号】橙→橙2
+    _PayId: 18129
+    _Discount: 3201
+    _Type: 3
+    _Condition:
+    - 3002
+    - 1010
+    - 8
+    _Push_ui:
+    - 0
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9185
+    _GiftTip: 9128
+    _Sort: 0
+    _Bg: UI/Icon/ActivityTriggerGift1/tg_bg_fenghuang
+    _BgEffect:
+    _Icon: UI/Icon/ActivityTriggerGift1/tb_icon_fenghuang
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_fenghuangup
+    _Position: []
+    _Showeffect:
+    - 30018
+  - _Id: 3043
+    _Note: 【暴烈凤凰号】橙2→橙3
+    _PayId: 18130
+    _Discount: 3201
+    _Type: 3
+    _Condition:
+    - 3002
+    - 1010
+    - 10
+    _Push_ui:
+    - 0
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9185
+    _GiftTip: 9178
+    _Sort: 0
+    _Bg: UI/Icon/ActivityTriggerGift1/tg_bg_fenghuang
+    _BgEffect:
+    _Icon: UI/Icon/ActivityTriggerGift1/tb_icon_fenghuang
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_fenghuangup
+    _Position: []
+    _Showeffect:
+    - 30018
+  - _Id: 3044
+    _Note: 【暴烈凤凰号】橙3→红
+    _PayId: 18131
+    _Discount: 3201
+    _Type: 3
+    _Condition:
+    - 3002
+    - 1010
+    - 11
+    _Push_ui:
+    - 0
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9185
+    _GiftTip: 9178
+    _Sort: 0
+    _Bg: UI/Icon/ActivityTriggerGift2/tg_bg_fenghuanghong
+    _BgEffect:
+    _Icon: UI/Icon/ActivityTriggerGift2/tb_icon_fenghuanghong
+    _MainMenuIcon: UI/Icon/MainMenu/main_fenghuanghong
+    _Position: []
+    _Showeffect:
+    - 30018
+  - _Id: 3051
+    _Note: 【熔火之心】紫→橙
+    _PayId: 18132
+    _Discount: 3201
+    _Type: 3
+    _Condition:
+    - 3001
+    - 1011
+    - 0
+    _Push_ui:
+    - 0
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9189
+    _GiftTip: 9190
+    _Sort: 0
+    _Bg: UI/Icon/ActivityTriggerGift1/tg_bg_wuguicheng
+    _BgEffect:
+    _Icon: UI/Icon/ActivityTriggerGift1/tb_icon_wuguicheng
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_wuguiup
+    _Position: []
+    _Showeffect:
+    - 30019
+  - _Id: 3061
+    _Note: 【灾厄之锋】紫→橙
+    _PayId: 18136
+    _Discount: 3201
+    _Type: 3
+    _Condition:
+    - 3001
+    - 1012
+    - 0
+    _Push_ui:
+    - 0
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9193
+    _GiftTip: 9194
+    _Sort: 0
+    _Bg: UI/Icon/ActivityTriggerGift1/tg_bg_zaiecheng
+    _BgEffect:
+    _Icon: UI/Icon/ActivityTriggerGift1/tb_icon_zaiecheng
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_zaiecheng
+    _Position: []
+    _Showeffect:
+    - 30020
+  - _Id: 4002
+    _Note: 【拍脸】2日登录-毁灭之子20$
+    _PayId: 18202
+    _Discount: 3201
+    _Type: 4
+    _Condition:
+    - 4001
+    - 2
+    - 0
+    _Push_ui:
+    - 1
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit:
+    - 3
+    - 1005
+    _Limitcondition: robot_1005>=1
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 10
+    _BuyTimes: 1
+    _GiftName: 9130
+    _GiftTip: 9131
+    _Sort: 0
+    _Bg: UI/Icon/ActivityTriggerGift1/tg_bg_mojingzi
+    _BgEffect:
+    _Icon: UI/Icon/ActivityTriggerGift/huimie
+    _MainMenuIcon: UI/Icon/MainMenu/huimie-icon
+    _Position: []
+    _Showeffect:
+    - 30006
+  - _Id: 4003
+    _Note: 【拍脸】3日登录-随机战车（蓝）20$
+    _PayId: 18203
+    _Discount: 3201
+    _Type: 4
+    _Condition:
+    - 4001
+    - 3
+    - 0
+    _Push_ui:
+    - 1
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 10
+    _BuyTimes: 1
+    _GiftName: 9132
+    _GiftTip: 9133
+    _Sort: 0
+    _Bg: UI/Icon/ActivityTriggerGift/tg_tili_bg
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_tili
+    _Icon: UI/Icon/ActivityTriggerGift4/tg_icon_zhanchesuiji
+    _MainMenuIcon: UI/Icon/ActivityTriggerGift4/tg_btn_zhanchesuiji
+    _Position: []
+    _Showeffect:
+    - 29808
+  - _Id: 4004
+    _Note: 【拍脸】4日登录-随机战车技能10$
+    _PayId: 18204
+    _Discount: 3216
+    _Type: 4
+    _Condition:
+    - 4001
+    - 4
+    - 0
+    _Push_ui:
+    - 1
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 10
+    _BuyTimes: 3
+    _GiftName: 9132
+    _GiftTip: 9217
+    _Sort: 0
+    _Bg: UI/Icon/ActivityTriggerGift/tg_tili_bg
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_tili
+    _Icon: UI/Icon/ActivityTriggerGift4/tg_icon_zhancheskill
+    _MainMenuIcon: UI/Icon/ActivityTriggerGift4/tg_btn_zhancheskill
+    _Position: []
+    _Showeffect:
+    - 29811
+    - 29810
+    - 29809
+  - _Id: 4005
+    _Note: 【拍脸】5日登录-拯救之翼50$
+    _PayId: 18205
+    _Discount: 3216
+    _Type: 4
+    _Condition:
+    - 4001
+    - 5
+    - 0
+    _Push_ui:
+    - 1
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit:
+    - 3
+    - 1009
+    _Limitcondition: robot_1009>=1
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 10
+    _BuyTimes: 1
+    _GiftName: 9139
+    _GiftTip: 9140
+    _Sort: 0
+    _Bg: UI/Icon/ActivityTriggerGift/tg_robot_zhengjiu
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_zhengjiuzhiyi
+    _Icon: UI/Icon/ActivityTriggerGift/tb_icon_zhengjiu
+    _MainMenuIcon: UI/Icon/MainMenu/main_zhengjiu
+    _Position: []
+    _Showeffect:
+    - 30007
+  - _Id: 4006
+    _Note: 【拍脸】6日登录-S装备自选箱20$
+    _PayId: 18206
+    _Discount: 3216
+    _Type: 4
+    _Condition:
+    - 4001
+    - 6
+    - 0
+    _Push_ui:
+    - 1
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 10
+    _BuyTimes: 3
+    _GiftName: 9197
+    _GiftTip: 9198
+    _Sort: 0
+    _Bg: UI/Icon/ActivityTriggerGift/tg_tili_bg
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_tili
+    _Icon: UI/Icon/ActivityTriggerGift1/tb_icon_szhuangbei
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_szhuangbei
+    _Position: []
+    _Showeffect:
+    - 29101
+  - _Id: 4007
+    _Note: 【拍脸】7日登录-暴走萝莉+S鞋100$
+    _PayId: 18207
+    _Discount: 3216
+    _Type: 4
+    _Condition:
+    - 4001
+    - 7
+    - 0
+    _Push_ui:
+    - 1
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit:
+    - 2
+    - 1005
+    _Limitcondition: hero_1005>=1
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 10
+    _BuyTimes: 1
+    _GiftName: 9218
+    _GiftTip: 9219
+    _Sort: 0
+    _Bg: UI/Icon/ActivityTriggerGift1/tg_bg_wugui
+    _BgEffect:
+    _Icon: UI/Icon/ActivityTriggerGift3/tb_icon_luoli
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_luoli
+    _Position: []
+    _Showeffect:
+    - 8005
+    - 23404
+  - _Id: 4008
+    _Note: 【拍脸】8日登录-机器人抽奖券50$
+    _PayId: 18208
+    _Discount: 3216
+    _Type: 4
+    _Condition:
+    - 4001
+    - 8
+    - 0
+    _Push_ui:
+    - 1
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 10
+    _BuyTimes: 3
+    _GiftName: 9220
+    _GiftTip: 9208
+    _Sort: 0
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxorange
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxorange
+    _Icon: UI/Icon/ActivityTriggerGift3/tb_icon_jiqiquan
+    _MainMenuIcon: UI/Icon/MainMenu/main_zixuan
+    _Position: []
+    _Showeffect:
+    - 7007
+  - _Id: 4009
+    _Note: 【拍脸】9日登录-装备抽奖券10$
+    _PayId: 18209
+    _Discount: 3201
+    _Type: 4
+    _Condition:
+    - 4001
+    - 9
+    - 0
+    _Push_ui:
+    - 1
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 10
+    _BuyTimes: 3
+    _GiftName: 9202
+    _GiftTip: 9208
+    _Sort: 0
+    _Bg: UI/Icon/ActivityTriggerGift/tg_tili_bg
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_tili
+    _Icon: UI/Icon/ActivityTriggerGift1/tb_icon_zhuangbeiquan
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_zhuangbeiquan
+    _Position: []
+    _Showeffect:
+    - 7004
+  - _Id: 4010
+    _Note: 【拍脸】10日登录-电磁炮50$
+    _PayId: 18210
+    _Discount: 3216
+    _Type: 4
+    _Condition:
+    - 4001
+    - 10
+    - 0
+    _Push_ui:
+    - 1
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit:
+    - 1
+    - 11010
+    _Limitcondition: weapon_11010>=1
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 10
+    _BuyTimes: 1
+    _GiftName: 9201
+    _GiftTip: 9207
+    _Sort: 0
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxorange
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxorange
+    _Icon: UI/Icon/ActivityTriggerGift1/tb_icon_diancipao
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_diancipao
+    _Position: []
+    _Showeffect:
+    - 11010
+  - _Id: 4012
+    _Note: 【拍脸】12日登录-收藏品自选（紫）10$
+    _PayId: 18212
+    _Discount: 3201
+    _Type: 4
+    _Condition:
+    - 4001
+    - 12
+    - 0
+    _Push_ui:
+    - 1
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 10
+    _BuyTimes: 3
+    _GiftName: 9150
+    _GiftTip: 9151
+    _Sort: 0
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxorange
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxorange
+    _Icon: UI/Icon/ActivityTriggerGift/tg_icon_relicbox3
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_relicbox3
+    _Position: []
+    _Showeffect:
+    - 29456
+    - 7009
+  - _Id: 4014
+    _Note: 【拍脸】14日登录-暴烈凤凰号50$
+    _PayId: 18214
+    _Discount: 3216
+    _Type: 4
+    _Condition:
+    - 4001
+    - 14
+    - 0
+    _Push_ui:
+    - 1
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit:
+    - 3
+    - 1010
+    _Limitcondition: robot_1010>=1
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 10
+    _BuyTimes: 1
+    _GiftName: 9185
+    _GiftTip: 9188
+    _Sort: 0
+    _Bg: UI/Icon/ActivityTriggerGift1/tg_bg_fenghuang
+    _BgEffect:
+    _Icon: UI/Icon/ActivityTriggerGift1/tb_icon_fenghuang
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_fenghuangup
+    _Position: []
+    _Showeffect:
+    - 30008
+  - _Id: 4015
+    _Note: 【拍脸】15日登录-随机战车（蓝）20$
+    _PayId: 18215
+    _Discount: 3216
+    _Type: 4
+    _Condition:
+    - 4001
+    - 15
+    - 0
+    _Push_ui:
+    - 1
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 10
+    _BuyTimes: 3
+    _GiftName: 9132
+    _GiftTip: 9133
+    _Sort: 0
+    _Bg: UI/Icon/ActivityTriggerGift/tg_tili_bg
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_tili
+    _Icon: UI/Icon/ActivityTriggerGift4/tg_icon_zhanchesuiji
+    _MainMenuIcon: UI/Icon/ActivityTriggerGift4/tg_btn_zhanchesuiji
+    _Position: []
+    _Showeffect:
+    - 29808
+  - _Id: 4016
+    _Note: 【拍脸】16日登录-探索卡20$
+    _PayId: 18216
+    _Discount: 3201
+    _Type: 4
+    _Condition:
+    - 4001
+    - 16
+    - 0
+    _Push_ui:
+    - 1
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 10
+    _BuyTimes: 3
+    _GiftName: 9150
+    _GiftTip: 9151
+    _Sort: 0
+    _Bg: UI/Icon/ActivityTriggerGift/tg_tili_bg
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_tili
+    _Icon: UI/Icon/ActivityTriggerGift/tg_icon_relicbox3
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_relicbox3
+    _Position: []
+    _Showeffect:
+    - 7009
+  - _Id: 4018
+    _Note: 【拍脸】18日登录-熔火之心50$
+    _PayId: 18218
+    _Discount: 3216
+    _Type: 4
+    _Condition:
+    - 4001
+    - 18
+    - 0
+    _Push_ui:
+    - 1
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit:
+    - 3
+    - 1011
+    _Limitcondition: robot_1011>=1
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 10
+    _BuyTimes: 1
+    _GiftName: 9189
+    _GiftTip: 9192
+    _Sort: 0
+    _Bg: UI/Icon/ActivityTriggerGift1/tg_bg_wugui
+    _BgEffect:
+    _Icon: UI/Icon/ActivityTriggerGift1/tb_icon_wugui
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_wugui
+    _Position: []
+    _Showeffect:
+    - 30009
+  - _Id: 4020
+    _Note: 【拍脸】20日登录-脑部植入体20$
+    _PayId: 18220
+    _Discount: 3216
+    _Type: 4
+    _Condition:
+    - 4001
+    - 20
+    - 0
+    _Push_ui:
+    - 1
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 10
+    _BuyTimes: 2
+    _GiftName: 9134
+    _GiftTip: 9135
+    _Sort: 0
+    _Bg: UI/Icon/ActivityTriggerGift1/tg_bg_scenezi
+    _BgEffect:
+    _Icon: UI/Icon/ActivityTriggerGift/xilianbaoxiang
+    _MainMenuIcon: UI/Icon/MainMenu/xilian2-icon
+    _Position: []
+    _Showeffect:
+    - 6502
+    - 6501
+    - 6503
+  - _Id: 4024
+    _Note: 【拍脸】24日登录-灾厄之锋50$
+    _PayId: 18224
+    _Discount: 3216
+    _Type: 4
+    _Condition:
+    - 4001
+    - 24
+    - 0
+    _Push_ui:
+    - 1
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit:
+    - 3
+    - 1012
+    _Limitcondition: robot_1012>=1
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 10
+    _BuyTimes: 1
+    _GiftName: 9193
+    _GiftTip: 9196
+    _Sort: 0
+    _Bg: UI/Icon/ActivityTriggerGift1/tg_bg_zaie
+    _BgEffect:
+    _Icon: UI/Icon/ActivityTriggerGift1/tb_icon_zaie
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_zaie
+    _Position: []
+    _Showeffect:
+    - 30010
+  - _Id: 4030
+    _Note: 【拍脸】30日登录-装备抽奖券50$
+    _PayId: 18230
+    _Discount: 3201
+    _Type: 4
+    _Condition:
+    - 4001
+    - 30
+    - 0
+    _Push_ui:
+    - 1
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 100
+    _BuyTimes: 20
+    _GiftName: 9202
+    _GiftTip: 9208
+    _Sort: 0
+    _Bg: UI/Icon/ActivityTriggerGift/tg_tili_bg
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_tili
+    _Icon: UI/Icon/ActivityTriggerGift1/tb_icon_zhuangbeiquan
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_zhuangbeiquan
+    _Position: []
+    _Showeffect:
+    - 7004
+  - _Id: 4036
+    _Note: 【拍脸】36日登录-配件自选箱（A）30$
+    _PayId: 18236
+    _Discount: 3201
+    _Type: 4
+    _Condition:
+    - 4001
+    - 36
+    - 0
+    _Push_ui:
+    - 1
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 20
+    _BuyTimes: 2
+    _GiftName: 9132
+    _GiftTip: 9215
+    _Sort: 0
+    _Bg: UI/Icon/ActivityTriggerGift/tg_tili_bg
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_tili
+    _Icon: UI/Icon/ActivityTriggerGift4/tg_icon_fittingbox
+    _MainMenuIcon: UI/Icon/ActivityTriggerGift4/tg_btn_fittingbox
+    _Position: []
+    _Showeffect:
+    - 29501
+    - 40003
+  - _Id: 4040
+    _Note: 【拍脸】40日登录-装备抽奖券5$
+    _PayId: 18240
+    _Discount: 3201
+    _Type: 4
+    _Condition:
+    - 4001
+    - 40
+    - 0
+    _Push_ui:
+    - 1
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 100
+    _BuyTimes: 30
+    _GiftName: 9202
+    _GiftTip: 9208
+    _Sort: 0
+    _Bg: UI/Icon/ActivityTriggerGift/tg_tili_bg
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_tili
+    _Icon: UI/Icon/ActivityTriggerGift1/tb_icon_zhuangbeiquan
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_zhuangbeiquan
+    _Position: []
+    _Showeffect:
+    - 7004
+  - _Id: 4041
+    _Note: 【拍脸】41日登录-配件补给箱（精致）50$
+    _PayId: 18241
+    _Discount: 3201
+    _Type: 4
+    _Condition:
+    - 4001
+    - 41
+    - 0
+    _Push_ui:
+    - 1
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 100
+    _BuyTimes: 30
+    _GiftName: 9132
+    _GiftTip: 9215
+    _Sort: 0
+    _Bg: UI/Icon/ActivityTriggerGift/tg_tili_bg
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_tili
+    _Icon: UI/Icon/ActivityTriggerGift4/tg_icon_fittingbox
+    _MainMenuIcon: UI/Icon/ActivityTriggerGift4/tg_btn_fittingbox
+    _Position: []
+    _Showeffect:
+    - 40003
+  - _Id: 5001
+    _Note: 【体力】30
+    _PayId: 18011
+    _Discount: 3201
+    _Type: 5
+    _Condition:
+    - 5001
+    - 10
+    - 0
+    _Push_ui:
+    - 0
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 720
+    _DayTriggerTimes: 1
+    _TriggerTimes: 0
+    _BuyTimes: 0
+    _GiftName: 9136
+    _GiftTip: 9137
+    _Sort: 1001
+    _Bg: UI/Icon/ActivityTriggerGift/tg_tili_bg
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_tili
+    _Icon: UI/Icon/ActivityTriggerGift/huolibaoxiang1
+    _MainMenuIcon: UI/Icon/MainMenu/tili1-icon
+    _Position: []
+    _Showeffect: []
+  - _Id: 5002
+    _Note: 【体力】90
+    _PayId: 18012
+    _Discount: 3216
+    _Type: 7
+    _Condition:
+    - 7001
+    - 5001
+    - 0
+    _Push_ui:
+    - 0
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 720
+    _DayTriggerTimes: 1
+    _TriggerTimes: 0
+    _BuyTimes: 0
+    _GiftName: 9136
+    _GiftTip: 9137
+    _Sort: 1002
+    _Bg: UI/Icon/ActivityTriggerGift/tg_tili_bg
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_tili
+    _Icon: UI/Icon/ActivityTriggerGift/huolibaoxiang2
+    _MainMenuIcon: UI/Icon/MainMenu/tili2-icon
+    _Position: []
+    _Showeffect: []
+  - _Id: 6001
+    _Note: 探索1次-探索卡3$
+    _PayId: 18301
+    _Discount: 3210
+    _Type: 6
+    _Condition:
+    - 6003
+    - 1
+    - 0
+    _Push_ui:
+    - 1
+    - 4
+    - 5
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9150
+    _GiftTip: 9151
+    _Sort: 1001
+    _Bg: UI/Icon/ActivityTriggerGift/tg_tili_bg
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_tili
+    _Icon: UI/Icon/ActivityTriggerGift/tg_icon_relicbox1
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_relicbox1
+    _Position: []
+    _Showeffect:
+    - 7009
+  - _Id: 6002
+    _Note: 探索20次-搜索雷达10$
+    _PayId: 18302
+    _Discount: 3210
+    _Type: 6
+    _Condition:
+    - 6003
+    - 20
+    - 0
+    _Push_ui:
+    - 1
+    - 4
+    - 5
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9152
+    _GiftTip: 9156
+    _Sort: 1002
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxgreen
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxgreen
+    _Icon: UI/Icon/ActivityTriggerGift/tg_icon_leida
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_leida
+    _Position: []
+    _Showeffect:
+    - 7009
+    - 71001
+  - _Id: 6003
+    _Note: 探索50次-波斯星盘15$
+    _PayId: 18303
+    _Discount: 3210
+    _Type: 6
+    _Condition:
+    - 6003
+    - 50
+    - 0
+    _Push_ui:
+    - 1
+    - 4
+    - 5
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9153
+    _GiftTip: 9156
+    _Sort: 1003
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxblue
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxblue
+    _Icon: UI/Icon/ActivityTriggerGift/tg_icon_xingpan
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_xingpan
+    _Position: []
+    _Showeffect:
+    - 7009
+    - 72001
+  - _Id: 6004
+    _Note: 探索100次-霍金轮椅20$
+    _PayId: 18304
+    _Discount: 3210
+    _Type: 6
+    _Condition:
+    - 6003
+    - 100
+    - 0
+    _Push_ui:
+    - 1
+    - 4
+    - 5
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9154
+    _GiftTip: 9156
+    _Sort: 1004
+    _Bg: UI/Icon/ActivityTriggerGift/tg_tili_bg
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_tili
+    _Icon: UI/Icon/ActivityTriggerGift/tg_icon_lunyi
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_lunyi
+    _Position: []
+    _Showeffect:
+    - 7009
+    - 73017
+  - _Id: 6005
+    _Note: 探索180次-时空装置30$
+    _PayId: 18305
+    _Discount: 3210
+    _Type: 6
+    _Condition:
+    - 6003
+    - 180
+    - 0
+    _Push_ui:
+    - 1
+    - 4
+    - 5
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9155
+    _GiftTip: 9156
+    _Sort: 1005
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxorange
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxorange
+    _Icon: UI/Icon/ActivityTriggerGift/tg_icon_zhuangzhi
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_zhuangzhi
+    _Position: []
+    _Showeffect:
+    - 7009
+    - 74011
+  - _Id: 6006
+    _Note: 探索320次-探索卡50$
+    _PayId: 18306
+    _Discount: 3210
+    _Type: 6
+    _Condition:
+    - 6003
+    - 320
+    - 0
+    _Push_ui:
+    - 1
+    - 4
+    - 5
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9150
+    _GiftTip: 9151
+    _Sort: 1006
+    _Bg: UI/Icon/ActivityTriggerGift/tg_tili_bg
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_tili
+    _Icon: UI/Icon/ActivityTriggerGift/tg_icon_relicbox3
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_relicbox3
+    _Position: []
+    _Showeffect:
+    - 7009
+  - _Id: 6007
+    _Note: 探索500次-探索卡100$
+    _PayId: 18307
+    _Discount: 3210
+    _Type: 6
+    _Condition:
+    - 6003
+    - 500
+    - 0
+    _Push_ui:
+    - 1
+    - 4
+    - 5
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9150
+    _GiftTip: 9151
+    _Sort: 1007
+    _Bg: UI/Icon/ActivityTriggerGift/tg_tili_bg
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_tili
+    _Icon: UI/Icon/ActivityTriggerGift/tg_icon_relicbox3
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_relicbox3
+    _Position: []
+    _Showeffect:
+    - 7009
+  - _Id: 6008
+    _Note: 探索1000次-探索卡50$
+    _PayId: 18308
+    _Discount: 3210
+    _Type: 6
+    _Condition:
+    - 6003
+    - 1000
+    - 0
+    _Push_ui:
+    - 1
+    - 4
+    - 5
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9150
+    _GiftTip: 9151
+    _Sort: 1008
+    _Bg: UI/Icon/ActivityTriggerGift/tg_tili_bg
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_tili
+    _Icon: UI/Icon/ActivityTriggerGift/tg_icon_relicbox3
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_relicbox3
+    _Position: []
+    _Showeffect:
+    - 7009
+  - _Id: 6009
+    _Note: 探索1250次-探索卡100$
+    _PayId: 18309
+    _Discount: 3210
+    _Type: 6
+    _Condition:
+    - 6003
+    - 1250
+    - 0
+    _Push_ui:
+    - 1
+    - 4
+    - 5
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9150
+    _GiftTip: 9151
+    _Sort: 1009
+    _Bg: UI/Icon/ActivityTriggerGift/tg_tili_bg
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_tili
+    _Icon: UI/Icon/ActivityTriggerGift/tg_icon_relicbox3
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_relicbox3
+    _Position: []
+    _Showeffect:
+    - 7009
+  - _Id: 6010
+    _Note: 探索1750次-探索卡50$
+    _PayId: 18310
+    _Discount: 3210
+    _Type: 6
+    _Condition:
+    - 6003
+    - 1750
+    - 0
+    _Push_ui:
+    - 1
+    - 4
+    - 5
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9150
+    _GiftTip: 9151
+    _Sort: 1010
+    _Bg: UI/Icon/ActivityTriggerGift/tg_tili_bg
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_tili
+    _Icon: UI/Icon/ActivityTriggerGift/tg_icon_relicbox3
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_relicbox3
+    _Position: []
+    _Showeffect:
+    - 7009
+  - _Id: 6011
+    _Note: 探索2000次-探索卡100$
+    _PayId: 18311
+    _Discount: 3210
+    _Type: 6
+    _Condition:
+    - 6003
+    - 2000
+    - 0
+    _Push_ui:
+    - 1
+    - 4
+    - 5
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9150
+    _GiftTip: 9151
+    _Sort: 1011
+    _Bg: UI/Icon/ActivityTriggerGift/tg_tili_bg
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_tili
+    _Icon: UI/Icon/ActivityTriggerGift/tg_icon_relicbox3
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_relicbox3
+    _Position: []
+    _Showeffect:
+    - 7009
+  - _Id: 6511
+    _Note: 【搜索雷达】0星
+    _PayId: 18411
+    _Discount: 3202
+    _Type: 6
+    _Condition:
+    - 6001
+    - 1001
+    - 0
+    _Push_ui:
+    - 1
+    - 4
+    - 5
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9152
+    _GiftTip: 9159
+    _Sort: 1013
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxgreen
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxgreen
+    _Icon: UI/Icon/ActivityTriggerGift/tg_icon_leida
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_leida
+    _Position: []
+    _Showeffect:
+    - 81001
+  - _Id: 6521
+    _Note: 【波斯星盘】0星
+    _PayId: 18421
+    _Discount: 3202
+    _Type: 6
+    _Condition:
+    - 6001
+    - 2001
+    - 0
+    _Push_ui:
+    - 1
+    - 4
+    - 5
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9153
+    _GiftTip: 9160
+    _Sort: 1013
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxblue
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxblue
+    _Icon: UI/Icon/ActivityTriggerGift/tg_icon_xingpan
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_xingpan
+    _Position: []
+    _Showeffect:
+    - 82001
+  - _Id: 6522
+    _Note: 【波斯星盘】1星
+    _PayId: 18422
+    _Discount: 3202
+    _Type: 6
+    _Condition:
+    - 6002
+    - 2001
+    - 1
+    _Push_ui:
+    - 1
+    - 4
+    - 5
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9153
+    _GiftTip: 9161
+    _Sort: 1013
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxblue
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxblue
+    _Icon: UI/Icon/ActivityTriggerGift/tg_icon_xingpanup
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_xingpanup
+    _Position: []
+    _Showeffect:
+    - 82001
+  - _Id: 6523
+    _Note: 【波斯星盘】2星
+    _PayId: 18423
+    _Discount: 3202
+    _Type: 6
+    _Condition:
+    - 6002
+    - 2001
+    - 2
+    _Push_ui:
+    - 1
+    - 4
+    - 5
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9153
+    _GiftTip: 9162
+    _Sort: 1013
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxblue
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxblue
+    _Icon: UI/Icon/ActivityTriggerGift/tg_icon_xingpanup
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_xingpanup
+    _Position: []
+    _Showeffect:
+    - 82001
+  - _Id: 6524
+    _Note: 【波斯星盘】3星
+    _PayId: 18424
+    _Discount: 3202
+    _Type: 6
+    _Condition:
+    - 6002
+    - 2001
+    - 3
+    _Push_ui:
+    - 1
+    - 4
+    - 5
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9153
+    _GiftTip: 9163
+    _Sort: 1013
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxblue
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxblue
+    _Icon: UI/Icon/ActivityTriggerGift/tg_icon_xingpanup
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_xingpanup
+    _Position: []
+    _Showeffect:
+    - 82001
+  - _Id: 6531
+    _Note: 【霍金的轮椅】0星
+    _PayId: 18431
+    _Discount: 3202
+    _Type: 6
+    _Condition:
+    - 6001
+    - 3017
+    - 0
+    _Push_ui:
+    - 1
+    - 4
+    - 5
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9154
+    _GiftTip: 9164
+    _Sort: 1013
+    _Bg: UI/Icon/ActivityTriggerGift/tg_tili_bg
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_tili
+    _Icon: UI/Icon/ActivityTriggerGift/tg_icon_lunyi
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_lunyi
+    _Position: []
+    _Showeffect:
+    - 83017
+  - _Id: 6532
+    _Note: 【霍金的轮椅】1星
+    _PayId: 18432
+    _Discount: 3202
+    _Type: 6
+    _Condition:
+    - 6002
+    - 3017
+    - 1
+    _Push_ui:
+    - 1
+    - 4
+    - 5
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9154
+    _GiftTip: 9165
+    _Sort: 1013
+    _Bg: UI/Icon/ActivityTriggerGift/tg_tili_bg
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_tili
+    _Icon: UI/Icon/ActivityTriggerGift/tg_icon_lunyiup
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_lunyiup
+    _Position: []
+    _Showeffect:
+    - 83017
+  - _Id: 6533
+    _Note: 【霍金的轮椅】2星
+    _PayId: 18433
+    _Discount: 3202
+    _Type: 6
+    _Condition:
+    - 6002
+    - 3017
+    - 2
+    _Push_ui:
+    - 1
+    - 4
+    - 5
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9154
+    _GiftTip: 9166
+    _Sort: 1013
+    _Bg: UI/Icon/ActivityTriggerGift/tg_tili_bg
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_tili
+    _Icon: UI/Icon/ActivityTriggerGift/tg_icon_lunyiup
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_lunyiup
+    _Position: []
+    _Showeffect:
+    - 83017
+  - _Id: 6534
+    _Note: 【霍金的轮椅】3星
+    _PayId: 18434
+    _Discount: 3202
+    _Type: 6
+    _Condition:
+    - 6002
+    - 3017
+    - 3
+    _Push_ui:
+    - 1
+    - 4
+    - 5
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9154
+    _GiftTip: 9167
+    _Sort: 1013
+    _Bg: UI/Icon/ActivityTriggerGift/tg_tili_bg
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_tili
+    _Icon: UI/Icon/ActivityTriggerGift/tg_icon_lunyiup
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_lunyiup
+    _Position: []
+    _Showeffect:
+    - 83017
+  - _Id: 6535
+    _Note: 【霍金的轮椅】4星
+    _PayId: 18435
+    _Discount: 3202
+    _Type: 6
+    _Condition:
+    - 6002
+    - 3017
+    - 4
+    _Push_ui:
+    - 1
+    - 4
+    - 5
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9154
+    _GiftTip: 9168
+    _Sort: 1013
+    _Bg: UI/Icon/ActivityTriggerGift/tg_tili_bg
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_tili
+    _Icon: UI/Icon/ActivityTriggerGift/tg_icon_lunyiup
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_lunyiup
+    _Position: []
+    _Showeffect:
+    - 83017
+  - _Id: 6541
+    _Note: 【时空转移装置】0星
+    _PayId: 18441
+    _Discount: 3202
+    _Type: 6
+    _Condition:
+    - 6001
+    - 4011
+    - 0
+    _Push_ui:
+    - 1
+    - 4
+    - 5
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9155
+    _GiftTip: 9169
+    _Sort: 1013
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxorange
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxorange
+    _Icon: UI/Icon/ActivityTriggerGift/tg_icon_zhuangzhi
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_zhuangzhi
+    _Position: []
+    _Showeffect:
+    - 84011
+  - _Id: 6542
+    _Note: 【时空转移装置】1星
+    _PayId: 18442
+    _Discount: 3202
+    _Type: 6
+    _Condition:
+    - 6002
+    - 4011
+    - 1
+    _Push_ui:
+    - 1
+    - 4
+    - 5
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9155
+    _GiftTip: 9170
+    _Sort: 1013
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxorange
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxorange
+    _Icon: UI/Icon/ActivityTriggerGift/tg_icon_zhuangzhiup
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_zhuangzhiup
+    _Position: []
+    _Showeffect:
+    - 84011
+  - _Id: 6543
+    _Note: 【时空转移装置】2星
+    _PayId: 18443
+    _Discount: 3202
+    _Type: 6
+    _Condition:
+    - 6002
+    - 4011
+    - 2
+    _Push_ui:
+    - 1
+    - 4
+    - 5
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9155
+    _GiftTip: 9171
+    _Sort: 1013
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxorange
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxorange
+    _Icon: UI/Icon/ActivityTriggerGift/tg_icon_zhuangzhiup
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_zhuangzhiup
+    _Position: []
+    _Showeffect:
+    - 84011
+  - _Id: 6544
+    _Note: 【时空转移装置】3星
+    _PayId: 18444
+    _Discount: 3202
+    _Type: 6
+    _Condition:
+    - 6002
+    - 4011
+    - 3
+    _Push_ui:
+    - 1
+    - 4
+    - 5
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9155
+    _GiftTip: 9172
+    _Sort: 1013
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxorange
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxorange
+    _Icon: UI/Icon/ActivityTriggerGift/tg_icon_zhuangzhiup
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_zhuangzhiup
+    _Position: []
+    _Showeffect:
+    - 84011
+  - _Id: 6545
+    _Note: 【时空转移装置】4星
+    _PayId: 18445
+    _Discount: 3202
+    _Type: 6
+    _Condition:
+    - 6002
+    - 4011
+    - 4
+    _Push_ui:
+    - 1
+    - 4
+    - 5
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9155
+    _GiftTip: 9173
+    _Sort: 1013
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxorange
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxorange
+    _Icon: UI/Icon/ActivityTriggerGift/tg_icon_zhuangzhiup
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_zhuangzhiup
+    _Position: []
+    _Showeffect:
+    - 84011
+  - _Id: 6546
+    _Note: 【时空转移装置】5星
+    _PayId: 18446
+    _Discount: 3202
+    _Type: 6
+    _Condition:
+    - 6002
+    - 4011
+    - 5
+    _Push_ui:
+    - 1
+    - 4
+    - 5
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9155
+    _GiftTip: 9174
+    _Sort: 1013
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxorange
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxorange
+    _Icon: UI/Icon/ActivityTriggerGift/tg_icon_zhuangzhiup
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_zhuangzhiup
+    _Position: []
+    _Showeffect:
+    - 84011
+  - _Id: 7001
+    _Note: 【拍脸】模块购买1次-模块券3$
+    _PayId: 18501
+    _Discount: 3210
+    _Type: 8
+    _Condition:
+    - 8001
+    - 1
+    - 0
+    _Push_ui:
+    - 1
+    - 6
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9214
+    _GiftTip: 9215
+    _Sort: 1001
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxblue
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxblue
+    _Icon: UI/Icon/ActivityTriggerGift3/tb_icon_tuzhixiao
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_tuzhixiao
+    _Position: []
+    _Showeffect:
+    - 9010
+  - _Id: 7002
+    _Note: 【拍脸】模块购买30次-模块券5$
+    _PayId: 18502
+    _Discount: 3210
+    _Type: 8
+    _Condition:
+    - 8001
+    - 30
+    - 0
+    _Push_ui:
+    - 1
+    - 6
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9214
+    _GiftTip: 9215
+    _Sort: 1001
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxblue
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxblue
+    _Icon: UI/Icon/ActivityTriggerGift3/tb_icon_tuzhixiao
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_tuzhixiao
+    _Position: []
+    _Showeffect:
+    - 9010
+  - _Id: 7003
+    _Note: 【拍脸】模块购买80次-模块券10$
+    _PayId: 18503
+    _Discount: 3210
+    _Type: 8
+    _Condition:
+    - 8001
+    - 80
+    - 0
+    _Push_ui:
+    - 1
+    - 6
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9214
+    _GiftTip: 9215
+    _Sort: 1001
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxblue
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxblue
+    _Icon: UI/Icon/ActivityTriggerGift3/tb_icon_tuzhixiao
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_tuzhixiao
+    _Position: []
+    _Showeffect:
+    - 9010
+  - _Id: 7004
+    _Note: 【拍脸】模块购买200次-模块券15$
+    _PayId: 18504
+    _Discount: 3210
+    _Type: 8
+    _Condition:
+    - 8001
+    - 200
+    - 0
+    _Push_ui:
+    - 1
+    - 6
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9214
+    _GiftTip: 9215
+    _Sort: 1001
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxblue
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxblue
+    _Icon: UI/Icon/ActivityTriggerGift3/tb_icon_tuzhixiao
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_tuzhixiao
+    _Position: []
+    _Showeffect:
+    - 9010
+  - _Id: 7005
+    _Note: 【拍脸】模块购买380次-模块券20$
+    _PayId: 18505
+    _Discount: 3210
+    _Type: 8
+    _Condition:
+    - 8001
+    - 380
+    - 0
+    _Push_ui:
+    - 1
+    - 6
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9214
+    _GiftTip: 9215
+    _Sort: 1001
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxblue
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxblue
+    _Icon: UI/Icon/ActivityTriggerGift3/tb_icon_tuzhixiao
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_tuzhixiao
+    _Position: []
+    _Showeffect:
+    - 9010
+  - _Id: 7006
+    _Note: 【拍脸】模块购买620次-模块券15$
+    _PayId: 18506
+    _Discount: 3210
+    _Type: 8
+    _Condition:
+    - 8001
+    - 620
+    - 0
+    _Push_ui:
+    - 1
+    - 6
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9214
+    _GiftTip: 9215
+    _Sort: 1001
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxblue
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxblue
+    _Icon: UI/Icon/ActivityTriggerGift3/tb_icon_tuzhixiao
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_tuzhixiao
+    _Position: []
+    _Showeffect:
+    - 9010
+  - _Id: 7007
+    _Note: 【拍脸】模块购买800次-模块券50$
+    _PayId: 18507
+    _Discount: 3210
+    _Type: 8
+    _Condition:
+    - 8001
+    - 800
+    - 0
+    _Push_ui:
+    - 1
+    - 6
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9214
+    _GiftTip: 9215
+    _Sort: 1001
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxblue
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxblue
+    _Icon: UI/Icon/ActivityTriggerGift3/tb_icon_tuzhixiao
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_tuzhixiao
+    _Position: []
+    _Showeffect:
+    - 29606
+    - 9010
+  - _Id: 7008
+    _Note: 【拍脸】模块购买1050次-模块券15$
+    _PayId: 18508
+    _Discount: 3210
+    _Type: 8
+    _Condition:
+    - 8001
+    - 1050
+    - 0
+    _Push_ui:
+    - 1
+    - 6
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9214
+    _GiftTip: 9215
+    _Sort: 1001
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxblue
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxblue
+    _Icon: UI/Icon/ActivityTriggerGift3/tb_icon_tuzhixiao
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_tuzhixiao
+    _Position: []
+    _Showeffect:
+    - 9010
+  - _Id: 7009
+    _Note: 【拍脸】模块购买1250次-模块券20$
+    _PayId: 18509
+    _Discount: 3210
+    _Type: 8
+    _Condition:
+    - 8001
+    - 1250
+    - 0
+    _Push_ui:
+    - 1
+    - 6
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9214
+    _GiftTip: 9215
+    _Sort: 1001
+    _Bg: UI/Icon/ActivityTriggerGift/tg_tili_bg
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_tili
+    _Icon: UI/Icon/ActivityTriggerGift3/tb_icon_tuzhizhong
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_tuzhizhong
+    _Position: []
+    _Showeffect:
+    - 29605
+    - 9010
+  - _Id: 7010
+    _Note: 【拍脸】模块购买1400次-模块券15$
+    _PayId: 18510
+    _Discount: 3210
+    _Type: 8
+    _Condition:
+    - 8001
+    - 1400
+    - 0
+    _Push_ui:
+    - 1
+    - 6
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9214
+    _GiftTip: 9215
+    _Sort: 1001
+    _Bg: UI/Icon/ActivityTriggerGift/tg_tili_bg
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_tili
+    _Icon: UI/Icon/ActivityTriggerGift3/tb_icon_tuzhizhong
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_tuzhizhong
+    _Position: []
+    _Showeffect:
+    - 9010
+  - _Id: 7011
+    _Note: 【拍脸】模块购买1600次-模块券50$
+    _PayId: 18511
+    _Discount: 3210
+    _Type: 8
+    _Condition:
+    - 8001
+    - 1600
+    - 0
+    _Push_ui:
+    - 1
+    - 6
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9214
+    _GiftTip: 9215
+    _Sort: 1001
+    _Bg: UI/Icon/ActivityTriggerGift/tg_tili_bg
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_tili
+    _Icon: UI/Icon/ActivityTriggerGift3/tb_icon_tuzhizhong
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_tuzhizhong
+    _Position: []
+    _Showeffect:
+    - 29606
+    - 9010
+  - _Id: 7012
+    _Note: 【拍脸】模块购买1950次-模块券15$
+    _PayId: 18512
+    _Discount: 3210
+    _Type: 8
+    _Condition:
+    - 8001
+    - 1950
+    - 0
+    _Push_ui:
+    - 1
+    - 6
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9214
+    _GiftTip: 9215
+    _Sort: 1001
+    _Bg: UI/Icon/ActivityTriggerGift/tg_tili_bg
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_tili
+    _Icon: UI/Icon/ActivityTriggerGift3/tb_icon_tuzhizhong
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_tuzhizhong
+    _Position: []
+    _Showeffect:
+    - 9010
+  - _Id: 7013
+    _Note: 【拍脸】模块购买2200次-模块券100$
+    _PayId: 18513
+    _Discount: 3210
+    _Type: 8
+    _Condition:
+    - 8001
+    - 2200
+    - 0
+    _Push_ui:
+    - 1
+    - 6
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9214
+    _GiftTip: 9215
+    _Sort: 1001
+    _Bg: UI/Icon/ActivityTriggerGift/tg_tili_bg
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_tili
+    _Icon: UI/Icon/ActivityTriggerGift3/tb_icon_tuzhizhong
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_tuzhizhong
+    _Position: []
+    _Showeffect:
+    - 29606
+    - 9010
+  - _Id: 7014
+    _Note: 【拍脸】模块购买2600次-模块券15$
+    _PayId: 18514
+    _Discount: 3210
+    _Type: 8
+    _Condition:
+    - 8001
+    - 2600
+    - 0
+    _Push_ui:
+    - 1
+    - 6
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9214
+    _GiftTip: 9215
+    _Sort: 1001
+    _Bg: UI/Icon/ActivityTriggerGift/tg_tili_bg
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_tili
+    _Icon: UI/Icon/ActivityTriggerGift3/tb_icon_tuzhizhong
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_tuzhizhong
+    _Position: []
+    _Showeffect:
+    - 9010
+  - _Id: 7015
+    _Note: 【拍脸】模块购买2900次-模块券20$
+    _PayId: 18515
+    _Discount: 3210
+    _Type: 8
+    _Condition:
+    - 8001
+    - 2900
+    - 0
+    _Push_ui:
+    - 1
+    - 6
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9214
+    _GiftTip: 9215
+    _Sort: 1001
+    _Bg: UI/Icon/ActivityTriggerGift/tg_tili_bg
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_tili
+    _Icon: UI/Icon/ActivityTriggerGift3/tb_icon_tuzhizhong
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_tuzhizhong
+    _Position: []
+    _Showeffect:
+    - 29605
+    - 9010
+  - _Id: 7016
+    _Note: 【拍脸】模块购买3100次-模块券100$
+    _PayId: 18516
+    _Discount: 3210
+    _Type: 8
+    _Condition:
+    - 8001
+    - 3100
+    - 0
+    _Push_ui:
+    - 1
+    - 6
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9214
+    _GiftTip: 9215
+    _Sort: 1001
+    _Bg: UI/Icon/ActivityTriggerGift/tg_tili_bg
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_tili
+    _Icon: UI/Icon/ActivityTriggerGift3/tb_icon_tuzhizhong
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_tuzhizhong
+    _Position: []
+    _Showeffect:
+    - 29606
+    - 9010
+  - _Id: 7017
+    _Note: 【拍脸】模块购买3200次-模块券20$
+    _PayId: 18517
+    _Discount: 3210
+    _Type: 8
+    _Condition:
+    - 8001
+    - 3200
+    - 0
+    _Push_ui:
+    - 1
+    - 6
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9214
+    _GiftTip: 9215
+    _Sort: 1001
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxorange
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxorange
+    _Icon: UI/Icon/ActivityTriggerGift3/tb_icon_tuzhida
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_tuzhida
+    _Position: []
+    _Showeffect:
+    - 9010
+  - _Id: 7018
+    _Note: 【拍脸】模块购买3550次-模块券20$
+    _PayId: 18518
+    _Discount: 3210
+    _Type: 8
+    _Condition:
+    - 8001
+    - 3550
+    - 0
+    _Push_ui:
+    - 1
+    - 6
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9214
+    _GiftTip: 9215
+    _Sort: 1001
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxorange
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxorange
+    _Icon: UI/Icon/ActivityTriggerGift3/tb_icon_tuzhida
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_tuzhida
+    _Position: []
+    _Showeffect:
+    - 9010
+  - _Id: 7019
+    _Note: 【拍脸】模块购买3900次-模块券20$
+    _PayId: 18519
+    _Discount: 3210
+    _Type: 8
+    _Condition:
+    - 8001
+    - 3900
+    - 0
+    _Push_ui:
+    - 1
+    - 6
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9214
+    _GiftTip: 9215
+    _Sort: 1001
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxorange
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxorange
+    _Icon: UI/Icon/ActivityTriggerGift3/tb_icon_tuzhida
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_tuzhida
+    _Position: []
+    _Showeffect:
+    - 9010
+  - _Id: 7020
+    _Note: 【拍脸】模块购买4300次-模块券20$
+    _PayId: 18520
+    _Discount: 3210
+    _Type: 8
+    _Condition:
+    - 8001
+    - 4300
+    - 0
+    _Push_ui:
+    - 1
+    - 6
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9214
+    _GiftTip: 9215
+    _Sort: 1001
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxorange
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxorange
+    _Icon: UI/Icon/ActivityTriggerGift3/tb_icon_tuzhida
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_tuzhida
+    _Position: []
+    _Showeffect:
+    - 9010
+  - _Id: 7021
+    _Note: 【拍脸】模块购买4700次-模块券20$
+    _PayId: 18521
+    _Discount: 3210
+    _Type: 8
+    _Condition:
+    - 8001
+    - 4700
+    - 0
+    _Push_ui:
+    - 1
+    - 6
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9214
+    _GiftTip: 9215
+    _Sort: 1001
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxorange
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxorange
+    _Icon: UI/Icon/ActivityTriggerGift3/tb_icon_tuzhida
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_tuzhida
+    _Position: []
+    _Showeffect:
+    - 9010
+  - _Id: 7022
+    _Note: 【拍脸】模块购买5100次-模块券20$
+    _PayId: 18522
+    _Discount: 3210
+    _Type: 8
+    _Condition:
+    - 8001
+    - 5100
+    - 0
+    _Push_ui:
+    - 1
+    - 6
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9214
+    _GiftTip: 9215
+    _Sort: 1001
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxorange
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxorange
+    _Icon: UI/Icon/ActivityTriggerGift3/tb_icon_tuzhida
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_tuzhida
+    _Position: []
+    _Showeffect:
+    - 9010
+  - _Id: 7023
+    _Note: 【拍脸】模块购买5500次-模块券20$
+    _PayId: 18523
+    _Discount: 3210
+    _Type: 8
+    _Condition:
+    - 8001
+    - 5500
+    - 0
+    _Push_ui:
+    - 1
+    - 6
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9214
+    _GiftTip: 9215
+    _Sort: 1001
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxorange
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxorange
+    _Icon: UI/Icon/ActivityTriggerGift3/tb_icon_tuzhida
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_tuzhida
+    _Position: []
+    _Showeffect:
+    - 9010
+  - _Id: 7024
+    _Note: 【拍脸】模块购买6000次-模块券20$
+    _PayId: 18524
+    _Discount: 3210
+    _Type: 8
+    _Condition:
+    - 8001
+    - 6000
+    - 0
+    _Push_ui:
+    - 1
+    - 6
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9214
+    _GiftTip: 9215
+    _Sort: 1001
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxorange
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxorange
+    _Icon: UI/Icon/ActivityTriggerGift3/tb_icon_tuzhida
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_tuzhida
+    _Position: []
+    _Showeffect:
+    - 9010
+  - _Id: 7025
+    _Note: 【拍脸】模块购买6500次-模块券20$
+    _PayId: 18525
+    _Discount: 3210
+    _Type: 8
+    _Condition:
+    - 8001
+    - 6500
+    - 0
+    _Push_ui:
+    - 1
+    - 6
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 1440
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9214
+    _GiftTip: 9215
+    _Sort: 1001
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxorange
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxorange
+    _Icon: UI/Icon/ActivityTriggerGift3/tb_icon_tuzhida
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_tuzhida
+    _Position: []
+    _Showeffect:
+    - 9010
+  - _Id: 8001
+    _Note: 【拍脸】第4关失败-4件蓝装备3$
+    _PayId: 18601
+    _Discount: 3201
+    _Type: 9
+    _Condition:
+    - 9001
+    - 100004
+    - 0
+    _Push_ui:
+    - 1
+    - 7
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 720
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9216
+    _GiftTip: 9217
+    _Sort: 1002
+    _Bg: UI/Icon/ActivityTriggerGift/tg_tili_bg
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_tili
+    _Icon: UI/Icon/ActivityTriggerGift1/tb_icon_szhuangbei
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_szhuangbei
+    _Position: []
+    _Showeffect: []
+  - _Id: 8002
+    _Note: 【拍脸】第5关失败-武器芯片5$
+    _PayId: 18602
+    _Discount: 3210
+    _Type: 9
+    _Condition:
+    - 9001
+    - 100005
+    - 0
+    _Push_ui:
+    - 1
+    - 7
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 720
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9216
+    _GiftTip: 9208
+    _Sort: 1001
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxorange
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxorange
+    _Icon: UI/Icon/ActivityTriggerGift4/tg_icon_wuqixinpian5
+    _MainMenuIcon: UI/Icon/ActivityTriggerGift4/tg_btn_wuqixinpian3
+    _Position: []
+    _Showeffect:
+    - 7003
+  - _Id: 8003
+    _Note: 【拍脸】第8关失败-装备抽奖券5$
+    _PayId: 18603
+    _Discount: 3210
+    _Type: 9
+    _Condition:
+    - 9001
+    - 100008
+    - 0
+    _Push_ui:
+    - 1
+    - 7
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 720
+    _DayTriggerTimes: 0
+    _TriggerTimes: 1
+    _BuyTimes: 1
+    _GiftName: 9216
+    _GiftTip: 9217
+    _Sort: 1002
+    _Bg: UI/Icon/ActivityTriggerGift/tg_tili_bg
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_tili
+    _Icon: UI/Icon/ActivityTriggerGift1/tb_icon_zhuangbeiquan
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_zhuangbeiquan
+    _Position: []
+    _Showeffect:
+    - 7004
+  - _Id: 9101
+    _Note: 【拍脸】芯片累计抽卡10次&30
+    _PayId: 18701
+    _Discount: 3210
+    _Type: 13
+    _Condition:
+    - 13001
+    - 2
+    - 10
+    _Push_ui:
+    - 1
+    - 10
+    _ConditionDay: 7
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 60
+    _DayTriggerTimes: 1
+    _TriggerTimes: 0
+    _BuyTimes: 0
+    _GiftName: 910129
+    _GiftTip: 9208
+    _Sort: 1001
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxgreen
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxgreen
+    _Icon: UI/Icon/ActivityTriggerGift4/tg_icon_wuqixinpian1
+    _MainMenuIcon: UI/Icon/ActivityTriggerGift4/tg_btn_wuqixinpian1
+    _Position: []
+    _Showeffect:
+    - 7003
+  - _Id: 9102
+    _Note: 【拍脸】芯片累计抽卡10次&68
+    _PayId: 18702
+    _Discount: 3210
+    _Type: 7
+    _Condition:
+    - 7001
+    - 9101
+    - 0
+    _Push_ui:
+    - 0
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 60
+    _DayTriggerTimes: 1
+    _TriggerTimes: 0
+    _BuyTimes: 0
+    _GiftName: 910129
+    _GiftTip: 9208
+    _Sort: 1001
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxblue
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxblue
+    _Icon: UI/Icon/ActivityTriggerGift4/tg_icon_wuqixinpian2
+    _MainMenuIcon: UI/Icon/ActivityTriggerGift4/tg_btn_wuqixinpian2
+    _Position: []
+    _Showeffect:
+    - 7003
+  - _Id: 9103
+    _Note: 【拍脸】芯片累计抽卡10次&128
+    _PayId: 18703
+    _Discount: 3202
+    _Type: 7
+    _Condition:
+    - 7001
+    - 9102
+    - 0
+    _Push_ui:
+    - 0
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 60
+    _DayTriggerTimes: 1
+    _TriggerTimes: 0
+    _BuyTimes: 0
+    _GiftName: 910129
+    _GiftTip: 9208
+    _Sort: 1001
+    _Bg: UI/Icon/ActivityTriggerGift/tg_tili_bg
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxorange
+    _Icon: UI/Icon/ActivityTriggerGift4/tg_icon_wuqixinpian3
+    _MainMenuIcon: UI/Icon/ActivityTriggerGift4/tg_btn_wuqixinpian3
+    _Position: []
+    _Showeffect:
+    - 7003
+  - _Id: 9104
+    _Note: 【拍脸】芯片累计抽卡10次&328
+    _PayId: 18704
+    _Discount: 3202
+    _Type: 7
+    _Condition:
+    - 7001
+    - 9103
+    - 0
+    _Push_ui:
+    - 0
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 60
+    _DayTriggerTimes: 1
+    _TriggerTimes: 0
+    _BuyTimes: 0
+    _GiftName: 910129
+    _GiftTip: 9208
+    _Sort: 1001
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxorange
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxorange
+    _Icon: UI/Icon/ActivityTriggerGift4/tg_icon_wuqixinpian4
+    _MainMenuIcon: UI/Icon/ActivityTriggerGift4/tg_btn_wuqixinpian3
+    _Position: []
+    _Showeffect:
+    - 7003
+  - _Id: 9105
+    _Note: 【拍脸】芯片累计抽卡10次&648
+    _PayId: 18705
+    _Discount: 3203
+    _Type: 7
+    _Condition:
+    - 7001
+    - 9104
+    - 0
+    _Push_ui:
+    - 0
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 60
+    _DayTriggerTimes: 1
+    _TriggerTimes: 0
+    _BuyTimes: 0
+    _GiftName: 910129
+    _GiftTip: 9208
+    _Sort: 1001
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxorange
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxorange
+    _Icon: UI/Icon/ActivityTriggerGift4/tg_icon_wuqixinpian5
+    _MainMenuIcon: UI/Icon/ActivityTriggerGift4/tg_btn_wuqixinpian3
+    _Position: []
+    _Showeffect:
+    - 7003
+  - _Id: 9111
+    _Note: 【拍脸】装备累计抽卡10次&30
+    _PayId: 18711
+    _Discount: 3210
+    _Type: 13
+    _Condition:
+    - 13001
+    - 1
+    - 10
+    _Push_ui:
+    - 1
+    - 10
+    _ConditionDay: 7
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 60
+    _DayTriggerTimes: 1
+    _TriggerTimes: 0
+    _BuyTimes: 0
+    _GiftName: 9202
+    _GiftTip: 9208
+    _Sort: 1001
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxgreen
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxgreen
+    _Icon: UI/Icon/ActivityTriggerGift4/tg_icon_zhuangbei1
+    _MainMenuIcon: UI/Icon/ActivityTriggerGift4/tg_btn_zhuangbei1
+    _Position: []
+    _Showeffect:
+    - 7004
+  - _Id: 9112
+    _Note: 【拍脸】装备累计抽卡10次&68
+    _PayId: 18712
+    _Discount: 3210
+    _Type: 7
+    _Condition:
+    - 7001
+    - 9111
+    - 0
+    _Push_ui:
+    - 0
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 60
+    _DayTriggerTimes: 1
+    _TriggerTimes: 0
+    _BuyTimes: 0
+    _GiftName: 9202
+    _GiftTip: 9208
+    _Sort: 1001
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxblue
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxblue
+    _Icon: UI/Icon/ActivityTriggerGift4/tg_icon_zhuangbei2
+    _MainMenuIcon: UI/Icon/ActivityTriggerGift4/tg_btn_zhuangbei2
+    _Position: []
+    _Showeffect:
+    - 7004
+  - _Id: 9113
+    _Note: 【拍脸】装备累计抽卡10次&128
+    _PayId: 18713
+    _Discount: 3202
+    _Type: 7
+    _Condition:
+    - 7001
+    - 9112
+    - 0
+    _Push_ui:
+    - 0
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 60
+    _DayTriggerTimes: 1
+    _TriggerTimes: 0
+    _BuyTimes: 0
+    _GiftName: 9202
+    _GiftTip: 9208
+    _Sort: 1001
+    _Bg: UI/Icon/ActivityTriggerGift/tg_tili_bg
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_tili
+    _Icon: UI/Icon/ActivityTriggerGift4/tg_icon_zhuangbei3
+    _MainMenuIcon: UI/Icon/ActivityTriggerGift4/tg_btn_zhuangbei3
+    _Position: []
+    _Showeffect:
+    - 7004
+  - _Id: 9114
+    _Note: 【拍脸】装备累计抽卡10次&328
+    _PayId: 18714
+    _Discount: 3202
+    _Type: 7
+    _Condition:
+    - 7001
+    - 9113
+    - 0
+    _Push_ui:
+    - 0
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 60
+    _DayTriggerTimes: 1
+    _TriggerTimes: 0
+    _BuyTimes: 0
+    _GiftName: 9202
+    _GiftTip: 9208
+    _Sort: 1001
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxorange
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxorange
+    _Icon: UI/Icon/ActivityTriggerGift4/tg_icon_zhuangbei4
+    _MainMenuIcon: UI/Icon/ActivityTriggerGift4/tg_btn_zhuangbei3
+    _Position: []
+    _Showeffect:
+    - 7004
+  - _Id: 9115
+    _Note: 【拍脸】装备累计抽卡10次&648
+    _PayId: 18715
+    _Discount: 3203
+    _Type: 7
+    _Condition:
+    - 7001
+    - 9114
+    - 0
+    _Push_ui:
+    - 0
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 60
+    _DayTriggerTimes: 1
+    _TriggerTimes: 0
+    _BuyTimes: 0
+    _GiftName: 9202
+    _GiftTip: 9208
+    _Sort: 1001
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxorange
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxorange
+    _Icon: UI/Icon/ActivityTriggerGift4/tg_icon_zhuangbei5
+    _MainMenuIcon: UI/Icon/ActivityTriggerGift4/tg_btn_zhuangbei3
+    _Position: []
+    _Showeffect:
+    - 7004
+  - _Id: 9121
+    _Note: 【拍脸】机器人累计抽卡10次&30
+    _PayId: 18721
+    _Discount: 3210
+    _Type: 13
+    _Condition:
+    - 13001
+    - 3
+    - 10
+    _Push_ui:
+    - 1
+    - 10
+    _ConditionDay: 14
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 60
+    _DayTriggerTimes: 1
+    _TriggerTimes: 0
+    _BuyTimes: 0
+    _GiftName: 9220
+    _GiftTip: 9208
+    _Sort: 1001
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxgreen
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxgreen
+    _Icon: UI/Icon/ActivityTriggerGift3/tb_icon_jiqiquan
+    _MainMenuIcon: UI/Icon/MainMenu/main_zixuan
+    _Position: []
+    _Showeffect:
+    - 7007
+  - _Id: 9122
+    _Note: 【拍脸】机器人累计抽卡10次&68
+    _PayId: 18722
+    _Discount: 3210
+    _Type: 7
+    _Condition:
+    - 7001
+    - 9121
+    - 0
+    _Push_ui:
+    - 0
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 60
+    _DayTriggerTimes: 1
+    _TriggerTimes: 0
+    _BuyTimes: 0
+    _GiftName: 9220
+    _GiftTip: 9208
+    _Sort: 1001
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxblue
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxblue
+    _Icon: UI/Icon/ActivityTriggerGift3/tb_icon_jiqiquan
+    _MainMenuIcon: UI/Icon/MainMenu/main_zixuan
+    _Position: []
+    _Showeffect:
+    - 7007
+  - _Id: 9123
+    _Note: 【拍脸】机器人累计抽卡10次&128
+    _PayId: 18723
+    _Discount: 3202
+    _Type: 7
+    _Condition:
+    - 7001
+    - 9122
+    - 0
+    _Push_ui:
+    - 0
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 60
+    _DayTriggerTimes: 1
+    _TriggerTimes: 0
+    _BuyTimes: 0
+    _GiftName: 9220
+    _GiftTip: 9208
+    _Sort: 1001
+    _Bg: UI/Icon/ActivityTriggerGift/tg_tili_bg
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxorange
+    _Icon: UI/Icon/ActivityTriggerGift3/tb_icon_jiqiquan
+    _MainMenuIcon: UI/Icon/MainMenu/main_zixuan
+    _Position: []
+    _Showeffect:
+    - 7007
+  - _Id: 9124
+    _Note: 【拍脸】机器人累计抽卡10次&328
+    _PayId: 18724
+    _Discount: 3202
+    _Type: 7
+    _Condition:
+    - 7001
+    - 9123
+    - 0
+    _Push_ui:
+    - 0
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 60
+    _DayTriggerTimes: 1
+    _TriggerTimes: 0
+    _BuyTimes: 0
+    _GiftName: 9220
+    _GiftTip: 9208
+    _Sort: 1001
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxorange
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxorange
+    _Icon: UI/Icon/ActivityTriggerGift3/tb_icon_jiqiquan
+    _MainMenuIcon: UI/Icon/MainMenu/main_zixuan
+    _Position: []
+    _Showeffect:
+    - 7007
+  - _Id: 9125
+    _Note: 【拍脸】机器人累计抽卡10次&648
+    _PayId: 18725
+    _Discount: 3203
+    _Type: 7
+    _Condition:
+    - 7001
+    - 9124
+    - 0
+    _Push_ui:
+    - 0
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 60
+    _DayTriggerTimes: 1
+    _TriggerTimes: 0
+    _BuyTimes: 0
+    _GiftName: 9220
+    _GiftTip: 9208
+    _Sort: 1001
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxorange
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxorange
+    _Icon: UI/Icon/ActivityTriggerGift3/tb_icon_jiqiquan
+    _MainMenuIcon: UI/Icon/MainMenu/main_zixuan
+    _Position: []
+    _Showeffect:
+    - 7007
+  - _Id: 9131
+    _Note: 【拍脸】收藏品累计抽卡10次&30
+    _PayId: 18731
+    _Discount: 3210
+    _Type: 6
+    _Condition:
+    - 6005
+    - 0
+    - 10
+    _Push_ui:
+    - 1
+    - 4
+    - 5
+    _ConditionDay: 60
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 60
+    _DayTriggerTimes: 1
+    _TriggerTimes: 0
+    _BuyTimes: 0
+    _GiftName: 9150
+    _GiftTip: 9151
+    _Sort: 1001
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxgreen
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxgreen
+    _Icon: UI/Icon/ActivityTriggerGift/tg_icon_relicbox1
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_relicbox1
+    _Position: []
+    _Showeffect:
+    - 7009
+  - _Id: 9132
+    _Note: 【拍脸】收藏品累计抽卡10次&68
+    _PayId: 18732
+    _Discount: 3210
+    _Type: 7
+    _Condition:
+    - 7001
+    - 9131
+    - 0
+    _Push_ui:
+    - 0
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 60
+    _DayTriggerTimes: 1
+    _TriggerTimes: 0
+    _BuyTimes: 0
+    _GiftName: 9150
+    _GiftTip: 9151
+    _Sort: 1001
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxblue
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxblue
+    _Icon: UI/Icon/ActivityTriggerGift/tg_icon_relicbox1
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_relicbox1
+    _Position: []
+    _Showeffect:
+    - 7009
+  - _Id: 9133
+    _Note: 【拍脸】收藏品累计抽卡10次&128
+    _PayId: 18733
+    _Discount: 3202
+    _Type: 7
+    _Condition:
+    - 7001
+    - 9132
+    - 0
+    _Push_ui:
+    - 0
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 60
+    _DayTriggerTimes: 1
+    _TriggerTimes: 0
+    _BuyTimes: 0
+    _GiftName: 9150
+    _GiftTip: 9151
+    _Sort: 1001
+    _Bg: UI/Icon/ActivityTriggerGift/tg_tili_bg
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_tili
+    _Icon: UI/Icon/ActivityTriggerGift/tg_icon_relicbox1
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_relicbox1
+    _Position: []
+    _Showeffect:
+    - 7009
+  - _Id: 9134
+    _Note: 【拍脸】收藏品累计抽卡10次&328
+    _PayId: 18734
+    _Discount: 3202
+    _Type: 7
+    _Condition:
+    - 7001
+    - 9133
+    - 0
+    _Push_ui:
+    - 0
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 60
+    _DayTriggerTimes: 1
+    _TriggerTimes: 0
+    _BuyTimes: 0
+    _GiftName: 9150
+    _GiftTip: 9151
+    _Sort: 1001
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxorange
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxorange
+    _Icon: UI/Icon/ActivityTriggerGift/tg_icon_relicbox1
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_relicbox1
+    _Position: []
+    _Showeffect:
+    - 7009
+  - _Id: 9135
+    _Note: 【拍脸】收藏品累计抽卡10次&648
+    _PayId: 18735
+    _Discount: 3203
+    _Type: 7
+    _Condition:
+    - 7001
+    - 9134
+    - 0
+    _Push_ui:
+    - 0
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 60
+    _DayTriggerTimes: 1
+    _TriggerTimes: 0
+    _BuyTimes: 0
+    _GiftName: 9150
+    _GiftTip: 9151
+    _Sort: 1001
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxorange
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxorange
+    _Icon: UI/Icon/ActivityTriggerGift/tg_icon_relicbox1
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_relicbox1
+    _Position: []
+    _Showeffect:
+    - 7009
+  - _Id: 9141
+    _Note: 【拍脸】模块购买1次&30
+    _PayId: 18741
+    _Discount: 3210
+    _Type: 8
+    _Condition:
+    - 8001
+    - 1
+    - 0
+    _Push_ui:
+    - 1
+    - 6
+    _ConditionDay: 60
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 60
+    _DayTriggerTimes: 1
+    _TriggerTimes: 0
+    _BuyTimes: 0
+    _GiftName: 9214
+    _GiftTip: 9215
+    _Sort: 1001
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxblue
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxblue
+    _Icon: UI/Icon/ActivityTriggerGift3/tb_icon_tuzhixiao
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_tuzhixiao
+    _Position: []
+    _Showeffect:
+    - 9010
+  - _Id: 9142
+    _Note: 【拍脸】模块购买1次&68
+    _PayId: 18742
+    _Discount: 3210
+    _Type: 7
+    _Condition:
+    - 7001
+    - 9141
+    - 0
+    _Push_ui:
+    - 0
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 60
+    _DayTriggerTimes: 1
+    _TriggerTimes: 0
+    _BuyTimes: 0
+    _GiftName: 9214
+    _GiftTip: 9215
+    _Sort: 1001
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxblue
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxblue
+    _Icon: UI/Icon/ActivityTriggerGift3/tb_icon_tuzhixiao
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_tuzhixiao
+    _Position: []
+    _Showeffect:
+    - 9010
+  - _Id: 9143
+    _Note: 【拍脸】模块购买1次&128
+    _PayId: 18743
+    _Discount: 3202
+    _Type: 7
+    _Condition:
+    - 7001
+    - 9142
+    - 0
+    _Push_ui:
+    - 0
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 60
+    _DayTriggerTimes: 1
+    _TriggerTimes: 0
+    _BuyTimes: 0
+    _GiftName: 9214
+    _GiftTip: 9215
+    _Sort: 1001
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxblue
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxblue
+    _Icon: UI/Icon/ActivityTriggerGift3/tb_icon_tuzhixiao
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_tuzhixiao
+    _Position: []
+    _Showeffect:
+    - 9010
+  - _Id: 9144
+    _Note: 【拍脸】模块购买1次&328
+    _PayId: 18744
+    _Discount: 3202
+    _Type: 7
+    _Condition:
+    - 7001
+    - 9143
+    - 0
+    _Push_ui:
+    - 0
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 60
+    _DayTriggerTimes: 1
+    _TriggerTimes: 0
+    _BuyTimes: 0
+    _GiftName: 9214
+    _GiftTip: 9215
+    _Sort: 1001
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxblue
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxblue
+    _Icon: UI/Icon/ActivityTriggerGift3/tb_icon_tuzhixiao
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_tuzhixiao
+    _Position: []
+    _Showeffect:
+    - 9010
+  - _Id: 9145
+    _Note: 【拍脸】模块购买1次&648
+    _PayId: 18745
+    _Discount: 3203
+    _Type: 7
+    _Condition:
+    - 7001
+    - 9144
+    - 0
+    _Push_ui:
+    - 0
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 60
+    _DayTriggerTimes: 1
+    _TriggerTimes: 0
+    _BuyTimes: 0
+    _GiftName: 9214
+    _GiftTip: 9215
+    _Sort: 1001
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxblue
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxblue
+    _Icon: UI/Icon/ActivityTriggerGift3/tb_icon_tuzhixiao
+    _MainMenuIcon: UI/Icon/MainMenu/tg_btn_tuzhixiao
+    _Position: []
+    _Showeffect:
+    - 9010
+  - _Id: 10001
+    _Note: 【挖地块】触发拍脸1
+    _PayId: 24121
+    _Discount: 3213
+    _Type: 15
+    _Condition:
+    - 15001
+    - 1
+    - 0
+    _Push_ui:
+    - 11
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 120
+    _DayTriggerTimes: 0
+    _TriggerTimes: 9999
+    _BuyTimes: 100
+    _GiftName: 9225
+    _GiftTip: 9226
+    _Sort: 1001
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxblue
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxblue
+    _Icon: UI/Icon/ActivityTriggerGift3/tb_icon_zhounianqing1
+    _MainMenuIcon: UI/Icon/ActivityTriggerGift3/tg_btn_zhounianqing1
+    _Position: []
+    _Showeffect:
+    - 13019
+  - _Id: 10002
+    _Note: 【挖地块】触发拍脸2
+    _PayId: 24122
+    _Discount: 3201
+    _Type: 15
+    _Condition:
+    - 15001
+    - 2
+    - 0
+    _Push_ui:
+    - 11
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 120
+    _DayTriggerTimes: 0
+    _TriggerTimes: 9999
+    _BuyTimes: 30
+    _GiftName: 9225
+    _GiftTip: 9226
+    _Sort: 1002
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxblue
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxblue
+    _Icon: UI/Icon/ActivityTriggerGift3/tb_icon_zhounianqing2
+    _MainMenuIcon: UI/Icon/ActivityTriggerGift3/tg_btn_zhounianqing2
+    _Position: []
+    _Showeffect:
+    - 13019
+  - _Id: 10003
+    _Note: 【挖地块】触发拍脸3
+    _PayId: 24123
+    _Discount: 3216
+    _Type: 15
+    _Condition:
+    - 15001
+    - 3
+    - 0
+    _Push_ui:
+    - 11
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 120
+    _DayTriggerTimes: 0
+    _TriggerTimes: 9999
+    _BuyTimes: 30
+    _GiftName: 9225
+    _GiftTip: 9226
+    _Sort: 1003
+    _Bg: UI/Icon/ActivityTriggerGift/tg_tili_bg
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_tili
+    _Icon: UI/Icon/ActivityTriggerGift3/tb_icon_zhounianqing3
+    _MainMenuIcon: UI/Icon/ActivityTriggerGift3/tg_btn_zhounianqing3
+    _Position: []
+    _Showeffect:
+    - 13019
+  - _Id: 10004
+    _Note: 【挖地块】触发拍脸4
+    _PayId: 24124
+    _Discount: 3218
+    _Type: 15
+    _Condition:
+    - 15001
+    - 4
+    - 0
+    _Push_ui:
+    - 11
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 120
+    _DayTriggerTimes: 0
+    _TriggerTimes: 9999
+    _BuyTimes: 30
+    _GiftName: 9225
+    _GiftTip: 9226
+    _Sort: 1004
+    _Bg: UI/Icon/ActivityTriggerGift/tg_bg_boxorange
+    _BgEffect: PrefabsN/Effect/UI/shop/TriggerGift_boxorange
+    _Icon: UI/Icon/ActivityTriggerGift3/tb_icon_zhounianqing4
+    _MainMenuIcon: UI/Icon/ActivityTriggerGift3/tg_btn_zhounianqing4
+    _Position: []
+    _Showeffect:
+    - 13019
+  - _Id: 11007
+    _Note: 【关卡】首通第8关_8$
+    _PayId: 18600
+    _Discount: 3201
+    _Type: 9
+    _Condition:
+    - 9002
+    - 100008
+    - 0
+    _Push_ui:
+    - 1
+    - 8
+    _ConditionDay: 0
+    _TrigerRecharge: []
+    _TriggerLimit: []
+    _Limitcondition:
+    _Countdown: 720
+    _DayTriggerTimes: 1
+    _TriggerTimes: 0
+    _BuyTimes: 0
+    _GiftName: 9132
+    _GiftTip: 9215
+    _Sort: 0
+    _Bg: UI/Icon/ActivityTriggerGift/tg_lieren_bg
+    _BgEffect:
+    _Icon: UI/Icon/ActivityTriggerGift/shangjin
+    _MainMenuIcon: UI/Icon/MainMenu/shangjin-icon
+    _Position: []
+    _Showeffect:
+    - 8003

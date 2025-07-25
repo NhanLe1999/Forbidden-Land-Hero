@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b1d6573f2473e119e257c1f234d1ac3, type: 3}
+  m_Name: DYTriggerGiftPack
+  m_EditorClassIdentifier:
+  _Items:
+  - _Id: 1001
+    _PayId: 14001
+    _Discount: 1063
+    _Condition:
+    - 1001
+    - 2
+    _Countdown: 180
+    _Rewards:
+    - 7001
+    - 20
+    - 7005
+    - 20
+    - 7002
+    - 200
+  - _Id: 1002
+    _PayId: 14002
+    _Discount: 1063
+    _Condition:
+    - 1001
+    - 3
+    _Countdown: 720
+    _Rewards:
+    - 201010
+    - 1
+    - 211010
+    - 1
+    - 221010
+    - 1
+    - 231010
+    - 1
+  - _Id: 1003
+    _PayId: 14003
+    _Discount: 1063
+    _Condition:
+    - 1001
+    - 4
+    _Countdown: 120
+    _Rewards:
+    - 130106
+    - 1
+  - _Id: 1004
+    _PayId: 14004
+    _Discount: 1063
+    _Condition:
+    - 1001
+    - 5
+    _Countdown: 120
+    _Rewards:
+    - 130107
+    - 1

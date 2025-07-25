@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1c08126a502c0f99f6eb66ad94331ba, type: 3}
+  m_Name: DYEvent_RobotUpPoolCycle
+  m_EditorClassIdentifier:
+  _Items:
+  - _Id: 1001
+    _Note: 【新手8~21天】熔火、灾厄
+    _CardPool: 1001
+    _NumberReward: []
+    _ExhibitItme: 30010
+    _ShowBg: Functions/RobotDraw/mainShowRobot_guifeng
+    _ShowIcon: Functions/RobotDraw/mainShowLogo_guifeng
+    _ShowEffect:
+    - PrefabsN/Effect/UI/shop/RobotShowEffect_guifeng
+    _ActivityEffect:
+    - PrefabsN/Effect/UI/shop/RobotCardPoolEffect_fenggui
+    _ActivityBg: Functions/RobotDraw/shopBg_guifeng
+    _ShopTab: Functions/RobotDraw/shop_tabguifeng
+    _ActivityTip: 29282
+  - _Id: 1002
+    _Note: 【新手22~35天】灵猫、霜龙
+    _CardPool: 1002
+    _NumberReward: []
+    _ExhibitItme: 31003
+    _ShowBg: Functions/RobotDraw/mainShowRobot_maolong
+    _ShowIcon: Functions/RobotDraw/mainShowLogo_maolong
+    _ShowEffect:
+    - PrefabsN/Effect/UI/shop/RobotShowEffect_maolong
+    _ActivityEffect:
+    - PrefabsN/Effect/UI/shop/RobotCardPoolEffect_maolong
+    _ActivityBg: Functions/RobotDraw/shopBg_maolong
+    _ShopTab: Functions/RobotDraw/shop_tabmaolong
+    _ActivityTip: 29282
+  - _Id: 1003
+    _Note: 【新手36~42天】企鹅
+    _CardPool: 1003
+    _NumberReward: []
+    _ExhibitItme: 31005
+    _ShowBg: UI/Icon/ActivityRobot/mainShowRobot_qie
+    _ShowIcon: UI/Icon/ActivityRobot/robotLogo_qie
+    _ShowEffect:
+    - PrefabsN/Effect/UI/shop/RobotShowEffect_qie
+    _ActivityEffect:
+    - PrefabsN/Effect/UI/shop/RobotCardPoolEffect_qie
+    _ActivityBg: UI/Icon/ActivityRobot/robotBG_qie
+    _ShopTab: UI/Icon/ActivityRobot/shop_tabqie
+    _ActivityTip: 1560
+  - _Id: 1011
+    _Note: 【周常活动】地狱火
+    _CardPool: 1011
+    _NumberReward: []
+    _ExhibitItme: 31018
+    _ShowBg: Functions/ActivityRobot_VolcanoShip/mainShowRobot_VolcanoShip
+    _ShowIcon: Functions/ActivityRobot_VolcanoShip/robotLogo_VolcanoShip
+    _ShowEffect:
+    - Functions/ActivityRobot_VolcanoShip/RobotShowEffect_VolcanoShip
+    _ActivityEffect:
+    - Functions/ActivityRobot_VolcanoShip/RobotCardPoolEffect_VolcanoShip
+    _ActivityBg: Functions/ActivityRobot_VolcanoShip/robotBG_VolcanoShip
+    _ShopTab: Functions/ActivityRobot_VolcanoShip/shop_tabVolcanoShip
+    _ActivityTip: 29387
+  - _Id: 1012
+    _Note: 【周常活动】凤凰号返场+皮肤
+    _CardPool: 1012
+    _NumberReward: []
+    _ExhibitItme: 33001
+    _ShowBg: Functions/ActivityRobot_BLFHH/PLBJ
+    _ShowIcon: Functions/ActivityRobot_BLFHH/PLT
+    _ShowEffect:
+    - Functions/ActivityRobot_BLFHH/RobotShowEffect_PLT
+    _ActivityEffect:
+    - Functions/ActivityRobot_BLFHH/RobotCardPoolEffect_PLT
+    _ActivityBg: Functions/ActivityRobot_BLFHH/SDCJ
+    _ShopTab: Functions/ActivityRobot_BLFHH/SDYQ
+    _ActivityTip: 29390
+  - _Id: 1013
+    _Note: 【周常活动】毁灭之子+皮肤
+    _CardPool: 1013
+    _NumberReward: []
+    _ExhibitItme: 33002
+    _ShowBg: Functions/ActivityRobot_DestroySkin/mainShowRobot_DestroySkin
+    _ShowIcon: Functions/ActivityRobot_DestroySkin/robotLogo_VolcanoShip
+    _ShowEffect:
+    - Functions/ActivityRobot_DestroySkin/RobotShowEffect_VolcanoShip
+    _ActivityEffect:
+    - Functions/ActivityRobot_DestroySkin/RobotCardPoolEffect_VolcanoShip
+    _ActivityBg: Functions/ActivityRobot_DestroySkin/robotBG_DestroySkin
+    _ShopTab: Functions/ActivityRobot_DestroySkin/shop_tabDestroySkin
+    _ActivityTip: 29391
+  - _Id: 1014
+    _Note: 【周常活动】自选碎片+皮肤
+    _CardPool: 1014
+    _NumberReward: []
+    _ExhibitItme: 33101
+    _ShowBg: Functions/ActivityRobot_UAVSkin/mainShowRobot_UAVSkin
+    _ShowIcon: Functions/ActivityRobot_UAVSkin/robotLogo_UAVSkin
+    _ShowEffect:
+    - Functions/ActivityRobot_UAVSkin/RobotShowEffect_UAVSkin
+    _ActivityEffect:
+    - Functions/ActivityRobot_UAVSkin/RobotCardPoolEffect_UAVSkin
+    _ActivityBg: Functions/ActivityRobot_UAVSkin/robotBG_UAVSkin
+    _ShopTab: Functions/ActivityRobot_UAVSkin/shop_tabUAVSkin
+    _ActivityTip: 29392
+  - _Id: 1015
+    _Note: 【周常活动】霜骸魔蛛
+    _CardPool: 1015
+    _NumberReward: []
+    _ExhibitItme: 31019
+    _ShowBg: Functions/ActivityRobot_iceSpiderSlayer/mainShowRobot_iceSpiderSlayer
+    _ShowIcon: Functions/ActivityRobot_iceSpiderSlayer/robotLogo_iceSpiderSlayer
+    _ShowEffect:
+    - Functions/ActivityRobot_iceSpiderSlayer/RobotShowEffect_iceSpiderSlayer
+    _ActivityEffect:
+    - Functions/ActivityRobot_iceSpiderSlayer/RobotCardPoolEffect_iceSpiderSlayer
+    _ActivityBg: Functions/ActivityRobot_iceSpiderSlayer/robotBG_iceSpiderSlayer
+    _ShopTab: Functions/ActivityRobot_iceSpiderSlayer/shop_tabDestroySkin
+    _ActivityTip: 29399
+  - _Id: 1016
+    _Note: 【机器人】寒冰幼龙+皮肤
+    _CardPool: 1016
+    _NumberReward: []
+    _ExhibitItme: 33003
+    _ShowBg: Functions/ActivityRobot_IceDragonSkin/mainShowRobot_IceDragonSkin
+    _ShowIcon: Functions/ActivityRobot_IceDragonSkin/robotLogo_IceDragonSkin
+    _ShowEffect:
+    - Functions/ActivityRobot_IceDragonSkin/RobotShowEffect_IceDragonSkin
+    _ActivityEffect:
+    - Functions/ActivityRobot_IceDragonSkin/RobotCardPoolEffect_IceDragonSkin
+    _ActivityBg: Functions/ActivityRobot_IceDragonSkin/robotBG_IceDragonSkin
+    _ShopTab: Functions/ActivityRobot_IceDragonSkin/shop_tabIceDragonSkin
+    _ActivityTip: 29400

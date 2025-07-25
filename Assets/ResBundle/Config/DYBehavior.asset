@@ -1,0 +1,438 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dcc7bc442be1900dcc581b98fd502f1, type: 3}
+  m_Name: DYBehavior
+  m_EditorClassIdentifier:
+  _Items:
+  - _BehaviorKey: activityOpenDay_%s
+    _BehaviorType: 1
+    _Remarks: 活动开启第X天：活动id>=天数
+  - _BehaviorKey: activityQuest_%s
+    _BehaviorType: 1
+    _Remarks: 活动任务组id开启>=1
+  - _BehaviorKey: addBuff_%s
+    _BehaviorType: 1
+    _Remarks: 累计加指定buff次数达到X个敌人
+  - _BehaviorKey: arenaNum
+    _BehaviorType: 3
+    _Remarks: 每参与n次竞技场挑战
+  - _BehaviorKey: battleHeapTime
+    _BehaviorType: 1
+    _Remarks: 战斗累计时长（分钟）
+  - _BehaviorKey: battleTimes
+    _BehaviorType: 1
+    _Remarks: 战斗次数（进入战斗就算，无需结算）
+  - _BehaviorKey: battleWin
+    _BehaviorType: 1
+    _Remarks: 获得胜利X次
+  - _BehaviorKey: blood
+    _BehaviorType: 1
+    _Remarks: 单局最大生命
+  - _BehaviorKey: bossNum
+    _BehaviorType: 1
+    _Remarks: 参与n次首领讨伐战（结算才算）
+  - _BehaviorKey: buyEnerge
+    _BehaviorType: 2
+    _Remarks: 购买体力
+  - _BehaviorKey: campBuildLv_%s
+    _BehaviorType: 1
+    _Remarks: 营地的建筑等级
+  - _BehaviorKey: campCost_%s
+    _BehaviorType: 1
+    _Remarks: 营地消耗
+  - _BehaviorKey: campLv_%s
+    _BehaviorType: 1
+    _Remarks: 某个营地建筑等级>=1
+  - _BehaviorKey: campProsperity
+    _BehaviorType: 1
+    _Remarks: 营地繁荣度
+  - _BehaviorKey: campsiteTotal
+    _BehaviorType: 1
+    _Remarks: 营地升级总次数
+  - _BehaviorKey: carNum
+    _BehaviorType: 1
+    _Remarks: 每拥有n辆战车（取当前战车数量）
+  - _BehaviorKey: carSkillLv
+    _BehaviorType: 1
+    _Remarks: 战车车库每提升n级（取当前车库等级）
+  - _BehaviorKey: challengeTotal
+    _BehaviorType: 1
+    _Remarks: 通过挑战关卡总数量
+  - _BehaviorKey: chargeDays
+    _BehaviorType: 1
+    _Remarks: 每充值n天
+  - _BehaviorKey: clip
+    _BehaviorType: 1
+    _Remarks: 单局最大弹夹数达到X
+  - _BehaviorKey: cnNum
+    _BehaviorType: 1
+    _Remarks: 玩家改名
+  - _BehaviorKey: commentGameCircle
+    _BehaviorType: 1
+    _Remarks: 游戏圈评论
+  - _BehaviorKey: completeChallenge
+    _BehaviorType: 1
+    _Remarks: 通过挑战关卡
+  - _BehaviorKey: completeMain
+    _BehaviorType: 2
+    _Remarks: 通过主线关卡
+  - _BehaviorKey: completeTp
+    _BehaviorType: 1
+    _Remarks: 组队玩法：通关组队玩法难度
+  - _BehaviorKey: completeTpAny
+    _BehaviorType: 1
+    _Remarks: 组队玩法：通关任意关卡X次（必须组队状态下且我胜利结算）
+  - _BehaviorKey: completeTpBuff_%s
+    _BehaviorType: 1
+    _Remarks: 组队玩法：在X BUFF状态下完成关卡X次
+  - _BehaviorKey: costEnerge
+    _BehaviorType: 1
+    _Remarks: 消耗体力
+  - _BehaviorKey: costItem_%s
+    _BehaviorType: 1
+    _Remarks: 每消耗n个XX道具
+  - _BehaviorKey: costTp
+    _BehaviorType: 1
+    _Remarks: 组队玩法：消耗门票数量
+  - _BehaviorKey: damageType_%s
+    _BehaviorType: 1
+    _Remarks: 使用指定伤害类型击杀X个敌人
+  - _BehaviorKey: dandao
+    _BehaviorType: 1
+    _Remarks: 单局最大弹道数达到X
+  - _BehaviorKey: diamondBuy
+    _BehaviorType: 1
+    _Remarks: 钻石购买（例如：钻石购买某武器）
+  - _BehaviorKey: diamondGet
+    _BehaviorType: 1
+    _Remarks: 累计获得钻石
+  - _BehaviorKey: donateItem_%s
+    _BehaviorType: 1
+    _Remarks: 全服捐献
+  - _BehaviorKey: drawId_%s
+    _BehaviorType: 3
+    _Remarks: 抽卡按ID计数
+  - _BehaviorKey: drawingNum
+    _BehaviorType: 1
+    _Remarks: 每拥有n个图纸（初始图纸也算）
+  - _BehaviorKey: drawRobot
+    _BehaviorType: 1
+    _Remarks: 机器人活动卡池累计抽取X次
+  - _BehaviorKey: drawType_%s
+    _BehaviorType: 3
+    _Remarks: 抽卡按类型计数
+  - _BehaviorKey: Energe
+    _BehaviorType: 1
+    _Remarks: 体力值X
+  - _BehaviorKey: EquipQuality_%s
+    _BehaviorType: 1
+    _Remarks: 拥有S品质装备X件
+  - _BehaviorKey: eventFinish_%s
+    _BehaviorType: 1
+    _Remarks: 指定某活动结束（event某活动结束后可直购或钻石购买）
+  - _BehaviorKey: firstCharge
+    _BehaviorType: 1
+    _Remarks: 完成首充
+  - _BehaviorKey: fittingDraw_%s
+    _BehaviorType: 1
+    _Remarks: 配件-抽补给箱（DYWeapon_Fitting_draw）
+  - _BehaviorKey: fittingIntegral
+    _BehaviorType: 1
+    _Remarks: 配件：补给积分（抽取不同补给箱加不同分）
+  - _BehaviorKey: funClose_%s
+    _BehaviorType: 1
+    _Remarks: 某个功能关闭funClose_910>=1
+  - _BehaviorKey: funOpen_%s
+    _BehaviorType: 1
+    _Remarks: 某个功能开启funOpen_910>=1
+  - _BehaviorKey: funOpenDay_%s
+    _BehaviorType: 1
+    _Remarks: 某个功能开启X天funOpenDay_910>=3
+  - _BehaviorKey: fuseEquipTimes
+    _BehaviorType: 3
+    _Remarks: 装备合成次数
+  - _BehaviorKey: getIdle
+    _BehaviorType: 3
+    _Remarks: 领取挂机奖励次数
+  - _BehaviorKey: getQuick
+    _BehaviorType: 3
+    _Remarks: 领取快速挂机次数
+  - _BehaviorKey: goldGet
+    _BehaviorType: 1
+    _Remarks: 累计获得金币
+  - _BehaviorKey: gveApCost
+    _BehaviorType: 1
+    _Remarks: gve行动力消耗
+  - _BehaviorKey: gveContribute
+    _BehaviorType: 1
+    _Remarks: GVE捐献
+  - _BehaviorKey: gveEnter
+    _BehaviorType: 1
+    _Remarks: 进入GVE
+  - _BehaviorKey: gveOpen
+    _BehaviorType: 1
+    _Remarks: GVE玩法开启
+  - _BehaviorKey: gvePersonCamp
+    _BehaviorType: 1
+    _Remarks: gve打通个人营地
+  - _BehaviorKey: gvePersonChest
+    _BehaviorType: 1
+    _Remarks: 打开个人宝箱
+  - _BehaviorKey: gveTCampMonster
+    _BehaviorType: 1
+    _Remarks: 击杀团队怪物
+  - _BehaviorKey: gveToxicity
+    _BehaviorType: 1
+    _Remarks: gve抗魔值达到
+  - _BehaviorKey: hero_%s
+    _BehaviorType: 1
+    _Remarks: 获得某个英雄
+  - _BehaviorKey: heroDraw
+    _BehaviorType: 1
+    _Remarks: 老虎机活动结束
+  - _BehaviorKey: heroNum
+    _BehaviorType: 1
+    _Remarks: 每拥有n个角色
+  - _BehaviorKey: idleCoin
+    _BehaviorType: 1
+    _Remarks: 累积挂机金币
+  - _BehaviorKey: joinGameCircle
+    _BehaviorType: 1
+    _Remarks: 加入ZW游戏圈
+  - _BehaviorKey: killBoss
+    _BehaviorType: 1
+    _Remarks: 击杀boss总次数
+  - _BehaviorKey: killBossTp
+    _BehaviorType: 1
+    _Remarks: 组队玩法：击杀bossX个（有结算才计入）
+  - _BehaviorKey: killElite
+    _BehaviorType: 1
+    _Remarks: 每击杀n只精英敌人
+  - _BehaviorKey: killEnemy
+    _BehaviorType: 1
+    _Remarks: 累计击杀敌人
+  - _BehaviorKey: likeGameCircle
+    _BehaviorType: 1
+    _Remarks: 游戏圈点赞
+  - _BehaviorKey: loginDays
+    _BehaviorType: 2
+    _Remarks: 登录天数（累计登陆X天）
+  - _BehaviorKey: LoginOneDay
+    _BehaviorType: 1
+    _Remarks: 第X天登录
+  - _BehaviorKey: LotteryEvent
+    _BehaviorType: 1
+    _Remarks: 不放回抽奖活动结束
+  - _BehaviorKey: LotteryTimes
+    _BehaviorType: 1
+    _Remarks: 累计抽奖（武器抽奖、装备抽奖：广告、单抽、十连都算）
+  - _BehaviorKey: mainTotal
+    _BehaviorType: 1
+    _Remarks: 通关主线关卡总数量
+  - _BehaviorKey: oldRecall
+    _BehaviorType: 1
+    _Remarks: 是否老玩家回归触发
+  - _BehaviorKey: pataLayer
+    _BehaviorType: 1
+    _Remarks: 电梯每通过n层
+  - _BehaviorKey: playChallenge
+    _BehaviorType: 1
+    _Remarks: 参与挑战关卡（进入就算）
+  - _BehaviorKey: playFlyingChess
+    _BehaviorType: 1
+    _Remarks: 飞行棋活动（消耗X个骰子）
+  - _BehaviorKey: playMain
+    _BehaviorType: 1
+    _Remarks: 参与主线关卡(进入就算)
+  - _BehaviorKey: potion
+    _BehaviorType: 1
+    _Remarks: 使用X个任意药剂
+  - _BehaviorKey: powerUp
+    _BehaviorType: 1
+    _Remarks: 提升战力
+  - _BehaviorKey: QuestType_%s
+    _BehaviorType: 1
+    _Remarks: 完成n个任务（类型：DYQuest表taskType字段）
+  - _BehaviorKey: rechargePoint
+    _BehaviorType: 1
+    _Remarks: 充值积分
+  - _BehaviorKey: refineCost_%s
+    _BehaviorType: 1
+    _Remarks: 脑机消耗
+  - _BehaviorKey: refineIntegral
+    _BehaviorType: 1
+    _Remarks: 脑机：脑机积分（消耗不同道具加不同分）
+  - _BehaviorKey: refineNum
+    _BehaviorType: 1
+    _Remarks: 每刷新n次脑机属性
+  - _BehaviorKey: RegisterDays
+    _BehaviorType: 3
+    _Remarks: 注册时间
+  - _BehaviorKey: rel
+    _BehaviorType: 1
+    _Remarks: 每拥有n件遗物
+  - _BehaviorKey: rel_%s
+    _BehaviorType: 1
+    _Remarks: 激活宝物id
+  - _BehaviorKey: relDraw
+    _BehaviorType: 3
+    _Remarks: 每进行n次遗物探索
+  - _BehaviorKey: relDrawLv
+    _BehaviorType: 1
+    _Remarks: 每提升n级收藏品探索等级（取当前探索卡池等级）
+  - _BehaviorKey: relDrawQua_%s
+    _BehaviorType: 1
+    _Remarks: 每探索获得n件xx品质遗物
+  - _BehaviorKey: relGroup_%s
+    _BehaviorType: 1
+    _Remarks: 激活宝物组合id
+  - _BehaviorKey: relGroupStar_%s
+    _BehaviorType: 1
+    _Remarks: 宝物组合id内每个宝物达到X星
+  - _BehaviorKey: relQua_%s
+    _BehaviorType: 1
+    _Remarks: 每拥有n件xx品质遗物
+  - _BehaviorKey: relReward
+    _BehaviorType: 1
+    _Remarks: 每日领取
+  - _BehaviorKey: robot_%s
+    _BehaviorType: 1
+    _Remarks: 获得某个机器人
+  - _BehaviorKey: robotLv
+    _BehaviorType: 1
+    _Remarks: 每提升n级机器人总等级
+  - _BehaviorKey: robotNum
+    _BehaviorType: 1
+    _Remarks: 每拥有n个机器人
+  - _BehaviorKey: RobotQuality_%s
+    _BehaviorType: 1
+    _Remarks: 某个机器人品质达到X
+  - _BehaviorKey: selectCT_%s
+    _BehaviorType: 1
+    _Remarks: 选择指定词条X次
+  - _BehaviorKey: serverOpen
+    _BehaviorType: 1
+    _Remarks: 服务器开启天数
+  - _BehaviorKey: sevenQuest
+    _BehaviorType: 1
+    _Remarks: 7天任务活动结束
+  - _BehaviorKey: shareFriend
+    _BehaviorType: 1
+    _Remarks: 好友分享
+  - _BehaviorKey: shield
+    _BehaviorType: 1
+    _Remarks: 单局内护盾存在时间达到X秒
+  - _BehaviorKey: signDay
+    _BehaviorType: 1
+    _Remarks: 签到第X天
+  - _BehaviorKey: stoneBuy_%s
+    _BehaviorType: 1
+    _Remarks: 图纸-购买模块（DYDrawingShop）
+  - _BehaviorKey: stoneBuyIntegral
+    _BehaviorType: 1
+    _Remarks: 图纸：图纸商店内购买模块积分
+  - _BehaviorKey: stoneMixNum
+    _BehaviorType: 1
+    _Remarks: 每合成n次模块（一键合成算多次）
+  - _BehaviorKey: supportPoint
+    _BehaviorType: 1
+    _Remarks: 跨服助力积分
+  - _BehaviorKey: supremeArenaNum
+    _BehaviorType: 3
+    _Remarks: 每参与n次荣耀竞技场
+  - _BehaviorKey: survivalTime
+    _BehaviorType: 3
+    _Remarks: 累计存活时间（秒）
+  - _BehaviorKey: SWeaponQualityLv_%s
+    _BehaviorType: 1
+    _Remarks: 某品质S武器达到X等级
+  - _BehaviorKey: sweepNum
+    _BehaviorType: 1
+    _Remarks: 每扫荡n次关卡
+  - _BehaviorKey: towerGroup_%s
+    _BehaviorType: 3
+    _Remarks: 在巅峰试炼的段位达到（1234）
+  - _BehaviorKey: towerMetreBest
+    _BehaviorType: 3
+    _Remarks: 巅峰最高积分超过多少分
+  - _BehaviorKey: towerMetreTotal
+    _BehaviorType: 3
+    _Remarks: 巅峰每次参与、扫荡积分累加
+  - _BehaviorKey: towerNum
+    _BehaviorType: 3
+    _Remarks: 每参与n次巅峰试炼
+  - _BehaviorKey: trainAtk
+    _BehaviorType: 1
+    _Remarks: 火车-局内攻击力值
+  - _BehaviorKey: trainDistance
+    _BehaviorType: 1
+    _Remarks: 火车行驶距离
+  - _BehaviorKey: trainEnterTimes
+    _BehaviorType: 2
+    _Remarks: 参与一次火车活动
+  - _BehaviorKey: trainGetAttr
+    _BehaviorType: 1
+    _Remarks: 火车-获得词条升级次数
+  - _BehaviorKey: trainHP
+    _BehaviorType: 1
+    _Remarks: 火车-局内生命值
+  - _BehaviorKey: trainOpen
+    _BehaviorType: 1
+    _Remarks: 火车活动开启
+  - _BehaviorKey: trainPetNum
+    _BehaviorType: 1
+    _Remarks: 火车-获得机器人数量
+  - _BehaviorKey: trainUpgradeAttr
+    _BehaviorType: 1
+    _Remarks: 火车-升级商店中升级属性
+  - _BehaviorKey: trainWeaponNum
+    _BehaviorType: 1
+    _Remarks: 火车-获得武器数量
+  - _BehaviorKey: treasureLayer
+    _BehaviorType: 1
+    _Remarks: 周年庆挖宝活动：挖宝层数
+  - _BehaviorKey: unionBoss
+    _BehaviorType: 3
+    _Remarks: 参与n次公会boss
+  - _BehaviorKey: unionDan
+    _BehaviorType: 1
+    _Remarks: 公会：公会段位
+  - _BehaviorKey: upWeaponLv
+    _BehaviorType: 3
+    _Remarks: 武器升级次数
+  - _BehaviorKey: vfNum
+    _BehaviorType: 3
+    _Remarks: 每参与n次虚拟战场
+  - _BehaviorKey: watchAd
+    _BehaviorType: 3
+    _Remarks: 观看广告次数（包含免广告状态）
+  - _BehaviorKey: weapon_%s
+    _BehaviorType: 1
+    _Remarks: 获得某个武器
+  - _BehaviorKey: WeaponMax
+    _BehaviorType: 1
+    _Remarks: 武器最高等级达到X
+  - _BehaviorKey: weaponNum
+    _BehaviorType: 1
+    _Remarks: 每拥有n把武器
+  - _BehaviorKey: WeaponPay
+    _BehaviorType: 1
+    _Remarks: 武器直购活动结束
+  - _BehaviorKey: WeaponQuality_%s
+    _BehaviorType: 1
+    _Remarks: 拥有S品质武器X件
+  - _BehaviorKey: WeaponQualityLv_%s
+    _BehaviorType: 1
+    _Remarks: 某品质武器达到X等级
+  - _BehaviorKey: WeaponWin_%s
+    _BehaviorType: 1
+    _Remarks: 使用指定武器id胜利X次

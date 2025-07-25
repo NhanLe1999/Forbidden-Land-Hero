@@ -1,0 +1,475 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98bf2baa3f0c706144d97c64d34e53d8, type: 3}
+  m_Name: DYEvent_DiscountShop
+  m_EditorClassIdentifier:
+  _Items:
+  - _Id: 1001
+    _Tap: 1
+    _Sort: 1
+    _Condition: 0
+    _Item:
+    - 7002
+    - 10
+    _BuyMax: 1
+    _Cost: 0
+    _Integral: 0
+  - _Id: 1002
+    _Tap: 1
+    _Sort: 2
+    _Condition: 1
+    _Item:
+    - 7002
+    - 100
+    _BuyMax: 1
+    _Cost: 0
+    _Integral: 0
+  - _Id: 1003
+    _Tap: 1
+    _Sort: 3
+    _Condition: 2
+    _Item:
+    - 7002
+    - 200
+    _BuyMax: 1
+    _Cost: 0
+    _Integral: 0
+  - _Id: 1004
+    _Tap: 1
+    _Sort: 4
+    _Condition: 3
+    _Item:
+    - 50011
+    - 1
+    _BuyMax: 1
+    _Cost: 0
+    _Integral: 0
+  - _Id: 1005
+    _Tap: 1
+    _Sort: 5
+    _Condition: 4
+    _Item:
+    - 7002
+    - 400
+    _BuyMax: 1
+    _Cost: 0
+    _Integral: 0
+  - _Id: 1006
+    _Tap: 1
+    _Sort: 6
+    _Condition: 5
+    _Item:
+    - 7002
+    - 600
+    _BuyMax: 1
+    _Cost: 0
+    _Integral: 0
+  - _Id: 1007
+    _Tap: 1
+    _Sort: 7
+    _Condition: 6
+    _Item:
+    - 7002
+    - 1000
+    _BuyMax: 1
+    _Cost: 0
+    _Integral: 0
+  - _Id: 1008
+    _Tap: 1
+    _Sort: 8
+    _Condition: 7
+    _Item:
+    - 29201
+    - 1
+    _BuyMax: 1
+    _Cost: 0
+    _Integral: 0
+  - _Id: 1009
+    _Tap: 1
+    _Sort: 9
+    _Condition: 8
+    _Item:
+    - 7002
+    - 3500
+    _BuyMax: 1
+    _Cost: 0
+    _Integral: 0
+  - _Id: 1010
+    _Tap: 1
+    _Sort: 10
+    _Condition: 9
+    _Item:
+    - 7002
+    - 4000
+    _BuyMax: 1
+    _Cost: 0
+    _Integral: 0
+  - _Id: 1011
+    _Tap: 1
+    _Sort: 11
+    _Condition: 10
+    _Item:
+    - 7002
+    - 5000
+    _BuyMax: 1
+    _Cost: 0
+    _Integral: 0
+  - _Id: 1012
+    _Tap: 1
+    _Sort: 12
+    _Condition: 11
+    _Item:
+    - 1000013
+    - 1
+    _BuyMax: 1
+    _Cost: 0
+    _Integral: 0
+  - _Id: 2001
+    _Tap: 2
+    _Sort: 1
+    _Condition: 7
+    _Item:
+    - 11018
+    - 1
+    _BuyMax: 1
+    _Cost: 60000
+    _Integral: 3000
+  - _Id: 2002
+    _Tap: 2
+    _Sort: 2
+    _Condition: 5
+    _Item:
+    - 29451
+    - 1
+    _BuyMax: 1
+    _Cost: 40000
+    _Integral: 2000
+  - _Id: 2003
+    _Tap: 2
+    _Sort: 3
+    _Condition: 4
+    _Item:
+    - 50013
+    - 1
+    _BuyMax: 1
+    _Cost: 40000
+    _Integral: 2000
+  - _Id: 2004
+    _Tap: 2
+    _Sort: 4
+    _Condition: 3
+    _Item:
+    - 50012
+    - 1
+    _BuyMax: 1
+    _Cost: 20000
+    _Integral: 1000
+  - _Id: 2005
+    _Tap: 2
+    _Sort: 5
+    _Condition: 0
+    _Item:
+    - 2103
+    - 1
+    _BuyMax: 2
+    _Cost: 3000
+    _Integral: 300
+  - _Id: 2006
+    _Tap: 2
+    _Sort: 6
+    _Condition: 0
+    _Item:
+    - 7003
+    - 1
+    _BuyMax: 100
+    _Cost: 120
+    _Integral: 12
+  - _Id: 2007
+    _Tap: 2
+    _Sort: 7
+    _Condition: 0
+    _Item:
+    - 2101
+    - 1
+    _BuyMax: 3000
+    _Cost: 30
+    _Integral: 3
+  - _Id: 3001
+    _Tap: 3
+    _Sort: 1
+    _Condition: 5
+    _Item:
+    - 29453
+    - 1
+    _BuyMax: 1
+    _Cost: 30000
+    _Integral: 1500
+  - _Id: 3002
+    _Tap: 3
+    _Sort: 2
+    _Condition: 4
+    _Item:
+    - 29458
+    - 1
+    _BuyMax: 2
+    _Cost: 25000
+    _Integral: 1250
+  - _Id: 3003
+    _Tap: 3
+    _Sort: 3
+    _Condition: 0
+    _Item:
+    - 29302
+    - 1
+    _BuyMax: 100
+    _Cost: 400
+    _Integral: 20
+  - _Id: 3004
+    _Tap: 3
+    _Sort: 4
+    _Condition: 0
+    _Item:
+    - 29301
+    - 1
+    _BuyMax: 500
+    _Cost: 200
+    _Integral: 20
+  - _Id: 3005
+    _Tap: 3
+    _Sort: 5
+    _Condition: 0
+    _Item:
+    - 7007
+    - 1
+    _BuyMax: 100
+    _Cost: 200
+    _Integral: 20
+  - _Id: 3006
+    _Tap: 3
+    _Sort: 6
+    _Condition: 0
+    _Item:
+    - 30003
+    - 1
+    _BuyMax: 1
+    _Cost: 2000
+    _Integral: 200
+  - _Id: 3007
+    _Tap: 3
+    _Sort: 7
+    _Condition: 0
+    _Item:
+    - 6001
+    - 1
+    _BuyMax: 3000
+    _Cost: 20
+    _Integral: 2
+  - _Id: 4001
+    _Tap: 4
+    _Sort: 1
+    _Condition: 8
+    _Item:
+    - 8013
+    - 1
+    _BuyMax: 1
+    _Cost: 60000
+    _Integral: 3000
+  - _Id: 4002
+    _Tap: 4
+    _Sort: 2
+    _Condition: 6
+    _Item:
+    - 29452
+    - 1
+    _BuyMax: 1
+    _Cost: 40000
+    _Integral: 2000
+  - _Id: 4003
+    _Tap: 4
+    _Sort: 3
+    _Condition: 5
+    _Item:
+    - 29457
+    - 1
+    _BuyMax: 1
+    _Cost: 30000
+    _Integral: 1500
+  - _Id: 4004
+    _Tap: 4
+    _Sort: 4
+    _Condition: 3
+    _Item:
+    - 6502
+    - 1
+    _BuyMax: 1
+    _Cost: 4000
+    _Integral: 400
+  - _Id: 4005
+    _Tap: 4
+    _Sort: 5
+    _Condition: 0
+    _Item:
+    - 8002
+    - 1
+    _BuyMax: 1
+    _Cost: 4000
+    _Integral: 400
+  - _Id: 4006
+    _Tap: 4
+    _Sort: 6
+    _Condition: 0
+    _Item:
+    - 8003
+    - 1
+    _BuyMax: 1
+    _Cost: 4000
+    _Integral: 400
+  - _Id: 4007
+    _Tap: 4
+    _Sort: 7
+    _Condition: 0
+    _Item:
+    - 6503
+    - 10
+    _BuyMax: 500
+    _Cost: 100
+    _Integral: 10
+  - _Id: 4008
+    _Tap: 4
+    _Sort: 8
+    _Condition: 0
+    _Item:
+    - 6501
+    - 10
+    _BuyMax: 300
+    _Cost: 200
+    _Integral: 20
+  - _Id: 5001
+    _Tap: 5
+    _Sort: 1
+    _Condition: 7
+    _Item:
+    - 29454
+    - 1
+    _BuyMax: 1
+    _Cost: 30000
+    _Integral: 1500
+  - _Id: 5002
+    _Tap: 5
+    _Sort: 2
+    _Condition: 6
+    _Item:
+    - 29459
+    - 1
+    _BuyMax: 1
+    _Cost: 20000
+    _Integral: 1000
+  - _Id: 5003
+    _Tap: 5
+    _Sort: 3
+    _Condition: 4
+    _Item:
+    - 29460
+    - 1
+    _BuyMax: 1
+    _Cost: 6000
+    _Integral: 300
+  - _Id: 5004
+    _Tap: 5
+    _Sort: 4
+    _Condition: 3
+    _Item:
+    - 29456
+    - 1
+    _BuyMax: 1
+    _Cost: 4000
+    _Integral: 200
+  - _Id: 5005
+    _Tap: 5
+    _Sort: 5
+    _Condition: 0
+    _Item:
+    - 29481
+    - 1
+    _BuyMax: 3
+    _Cost: 15000
+    _Integral: 750
+  - _Id: 5006
+    _Tap: 5
+    _Sort: 6
+    _Condition: 0
+    _Item:
+    - 7004
+    - 1
+    _BuyMax: 100
+    _Cost: 300
+    _Integral: 30
+  - _Id: 5007
+    _Tap: 5
+    _Sort: 7
+    _Condition: 0
+    _Item:
+    - 7009
+    - 1
+    _BuyMax: 100
+    _Cost: 100
+    _Integral: 10
+  - _Id: 5008
+    _Tap: 5
+    _Sort: 8
+    _Condition: 0
+    _Item:
+    - 29004
+    - 1
+    _BuyMax: 10
+    _Cost: 1200
+    _Integral: 120
+  - _Id: 5009
+    _Tap: 5
+    _Sort: 9
+    _Condition: 0
+    _Item:
+    - 4003
+    - 1
+    _BuyMax: 5
+    _Cost: 1000
+    _Integral: 100
+  - _Id: 5010
+    _Tap: 5
+    _Sort: 10
+    _Condition: 0
+    _Item:
+    - 4004
+    - 1
+    _BuyMax: 5
+    _Cost: 500
+    _Integral: 50
+  - _Id: 5011
+    _Tap: 5
+    _Sort: 11
+    _Condition: 0
+    _Item:
+    - 6002
+    - 1
+    _BuyMax: 1000
+    _Cost: 20
+    _Integral: 2
+  - _Id: 5012
+    _Tap: 5
+    _Sort: 12
+    _Condition: 0
+    _Item:
+    - 7001
+    - 25
+    _BuyMax: 1000
+    _Cost: 100
+    _Integral: 10

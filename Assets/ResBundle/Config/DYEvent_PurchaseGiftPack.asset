@@ -1,0 +1,5789 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc9e4d13266e5895a20c857e019513b4, type: 3}
+  m_Name: DYEvent_PurchaseGiftPack
+  m_EditorClassIdentifier:
+  _Items:
+  - _Id: 101
+    _Note: 【新服】【装备助力】直购-广告
+    _Reward:
+    - 7002
+    - 20
+    _Order: 1
+    _Discount: 3271
+    _Type: 1
+    _PayId: 1
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 102
+    _Note: 【新服】【装备助力】直购-30
+    _Reward:
+    - 7004
+    - 10
+    _Order: 2
+    _Discount: 3201
+    _Type: 2
+    _PayId: 25502
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 103
+    _Note: 【新服】【装备助力】直购-68
+    _Reward:
+    - 7002
+    - 800
+    - 7004
+    - 15
+    _Order: 3
+    _Discount: 3216
+    _Type: 2
+    _PayId: 25503
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 0
+  - _Id: 104
+    _Note: 【新服】【装备助力】直购-128
+    _Reward:
+    - 7002
+    - 1700
+    - 7004
+    - 25
+    _Order: 4
+    _Discount: 3210
+    _Type: 2
+    _PayId: 25504
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 0
+  - _Id: 105
+    _Note: 【新服】【装备助力】直购-328
+    _Reward:
+    - 7002
+    - 4500
+    - 7004
+    - 50
+    _Order: 5
+    _Discount: 3210
+    _Type: 2
+    _PayId: 25505
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 0
+  - _Id: 106
+    _Note: 【新服】【装备助力】直购-648
+    _Reward:
+    - 7002
+    - 10000
+    - 7004
+    - 80
+    _Order: 6
+    _Discount: 3210
+    _Type: 2
+    _PayId: 25506
+    _ItmeCost: []
+    _Count: 10
+    _Daily: 0
+  - _Id: 111
+    _Note: 【新服】【机器助力】直购-广告
+    _Reward:
+    - 7007
+    - 1
+    _Order: 1
+    _Discount: 3271
+    _Type: 1
+    _PayId: 1
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 112
+    _Note: 【新服】【机器助力】直购-钻石*1200
+    _Reward:
+    - 7007
+    - 10
+    _Order: 2
+    _Discount: 3253
+    _Type: 3
+    _PayId: 0
+    _ItmeCost:
+    - 7002
+    - 1200
+    _Count: 1
+    _Daily: 0
+  - _Id: 113
+    _Note: 【新服】【机器助力】直购-钻石*1800
+    _Reward:
+    - 7007
+    - 10
+    _Order: 3
+    _Discount: 3257
+    _Type: 3
+    _PayId: 0
+    _ItmeCost:
+    - 7002
+    - 1800
+    _Count: 1
+    _Daily: 1
+  - _Id: 114
+    _Note: 【新服】【机器助力】直购-30
+    _Reward:
+    - 7002
+    - 350
+    - 7007
+    - 10
+    - 6001
+    - 5
+    _Order: 4
+    _Discount: 3216
+    _Type: 2
+    _PayId: 25512
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 0
+  - _Id: 115
+    _Note: 【新服】【机器助力】直购-68
+    _Reward:
+    - 7002
+    - 800
+    - 7007
+    - 20
+    - 6001
+    - 10
+    _Order: 5
+    _Discount: 3216
+    _Type: 2
+    _PayId: 25513
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 0
+  - _Id: 116
+    _Note: 【新服】【机器助力】直购-128
+    _Reward:
+    - 7002
+    - 1700
+    - 7007
+    - 30
+    - 6001
+    - 20
+    _Order: 6
+    _Discount: 3218
+    _Type: 2
+    _PayId: 25514
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 0
+  - _Id: 117
+    _Note: 【新服】【机器助力】直购-328
+    _Reward:
+    - 7002
+    - 4500
+    - 7007
+    - 65
+    - 6001
+    - 40
+    _Order: 7
+    _Discount: 3210
+    _Type: 2
+    _PayId: 25515
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 0
+  - _Id: 118
+    _Note: 【新服】【机器助力】直购-648
+    _Reward:
+    - 7002
+    - 10000
+    - 7007
+    - 110
+    - 6001
+    - 100
+    _Order: 8
+    _Discount: 3210
+    _Type: 2
+    _PayId: 25516
+    _ItmeCost: []
+    _Count: 10
+    _Daily: 0
+  - _Id: 121
+    _Note: 【新服】【收藏助力】直购-广告
+    _Reward:
+    - 7009
+    - 1
+    _Order: 1
+    _Discount: 3271
+    _Type: 1
+    _PayId: 1
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 122
+    _Note: 【新服】【收藏助力】直购-钻石*600
+    _Reward:
+    - 7009
+    - 10
+    _Order: 2
+    _Discount: 3253
+    _Type: 3
+    _PayId: 0
+    _ItmeCost:
+    - 7002
+    - 600
+    _Count: 1
+    _Daily: 0
+  - _Id: 123
+    _Note: 【新服】【收藏助力】直购-钻石*900
+    _Reward:
+    - 7009
+    - 10
+    _Order: 3
+    _Discount: 3257
+    _Type: 3
+    _PayId: 0
+    _ItmeCost:
+    - 7002
+    - 900
+    _Count: 1
+    _Daily: 1
+  - _Id: 124
+    _Note: 【新服】【收藏助力】直购-6
+    _Reward:
+    - 7002
+    - 60
+    - 7009
+    - 10
+    _Order: 4
+    _Discount: 3272
+    _Type: 2
+    _PayId: 25521
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 125
+    _Note: 【新服】【收藏助力】直购-30
+    _Reward:
+    - 7002
+    - 350
+    - 7009
+    - 20
+    - 6002
+    - 5
+    _Order: 5
+    _Discount: 3216
+    _Type: 2
+    _PayId: 25522
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 0
+  - _Id: 126
+    _Note: 【新服】【收藏助力】直购-68
+    _Reward:
+    - 7002
+    - 800
+    - 7009
+    - 40
+    - 6002
+    - 10
+    _Order: 6
+    _Discount: 3216
+    _Type: 2
+    _PayId: 25523
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 0
+  - _Id: 127
+    _Note: 【新服】【收藏助力】直购-128
+    _Reward:
+    - 7002
+    - 1700
+    - 7009
+    - 60
+    - 6002
+    - 20
+    _Order: 7
+    _Discount: 3218
+    _Type: 2
+    _PayId: 25524
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 0
+  - _Id: 128
+    _Note: 【新服】【收藏助力】直购-328
+    _Reward:
+    - 7002
+    - 4500
+    - 7009
+    - 120
+    - 6002
+    - 40
+    _Order: 8
+    _Discount: 3210
+    _Type: 2
+    _PayId: 25525
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 0
+  - _Id: 129
+    _Note: 【新服】【收藏助力】直购-648
+    _Reward:
+    - 7002
+    - 10000
+    - 7009
+    - 200
+    - 6002
+    - 100
+    _Order: 9
+    _Discount: 3210
+    _Type: 2
+    _PayId: 25526
+    _ItmeCost: []
+    _Count: 10
+    _Daily: 0
+  - _Id: 131
+    _Note: 【新服】【脑机助力】直购-广告
+    _Reward:
+    - 6501
+    - 2
+    _Order: 1
+    _Discount: 3271
+    _Type: 1
+    _PayId: 1
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 132
+    _Note: 【新服】【脑机助力】直购-钻石*800
+    _Reward:
+    - 6501
+    - 50
+    _Order: 2
+    _Discount: 3254
+    _Type: 3
+    _PayId: 0
+    _ItmeCost:
+    - 7002
+    - 800
+    _Count: 1
+    _Daily: 1
+  - _Id: 133
+    _Note: 【新服】【脑机助力】直购-6
+    _Reward:
+    - 7002
+    - 60
+    - 29493
+    - 18
+    - 29493
+    - 18
+    _Order: 3
+    _Discount: 3272
+    _Type: 2
+    _PayId: 25531
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 134
+    _Note: 【新服】【脑机助力】直购-30
+    _Reward:
+    - 7002
+    - 350
+    - 29493
+    - 58
+    - 29493
+    - 58
+    _Order: 4
+    _Discount: 3216
+    _Type: 2
+    _PayId: 25532
+    _ItmeCost: []
+    _Count: 2
+    _Daily: 1
+  - _Id: 135
+    _Note: 【新服】【脑机助力】直购-68
+    _Reward:
+    - 7002
+    - 800
+    - 29493
+    - 108
+    - 29493
+    - 108
+    _Order: 5
+    _Discount: 3216
+    _Type: 2
+    _PayId: 25533
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 0
+  - _Id: 136
+    _Note: 【新服】【脑机助力】直购-128
+    _Reward:
+    - 7002
+    - 1700
+    - 29493
+    - 188
+    - 29493
+    - 188
+    _Order: 6
+    _Discount: 3218
+    _Type: 2
+    _PayId: 25534
+    _ItmeCost: []
+    _Count: 10
+    _Daily: 0
+  - _Id: 137
+    _Note: 【新服】【脑机助力】直购-328
+    _Reward:
+    - 7002
+    - 4500
+    - 29492
+    - 1
+    - 29493
+    - 388
+    _Order: 7
+    _Discount: 3210
+    _Type: 2
+    _PayId: 25535
+    _ItmeCost: []
+    _Count: -1
+    _Daily: 0
+  - _Id: 138
+    _Note: 【新服】【脑机助力】直购-钻石*2000
+    _Reward:
+    - 6502
+    - 1
+    _Order: 8
+    _Discount: 3252
+    _Type: 3
+    _PayId: 0
+    _ItmeCost:
+    - 7002
+    - 2000
+    _Count: 1
+    _Daily: 0
+  - _Id: 141
+    _Note: 【新服】【图纸助力】直购-广告
+    _Reward:
+    - 9010
+    - 3
+    _Order: 1
+    _Discount: 3271
+    _Type: 1
+    _PayId: 1
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 142
+    _Note: 【新服】【图纸助力】直购-钻石*2400
+    _Reward:
+    - 9010
+    - 100
+    _Order: 1
+    _Discount: 3254
+    _Type: 3
+    _PayId: 0
+    _ItmeCost:
+    - 7002
+    - 2400
+    _Count: 1
+    _Daily: 1
+  - _Id: 143
+    _Note: 【新服】【图纸助力】直购-6
+    _Reward:
+    - 7002
+    - 60
+    - 9010
+    - 20
+    - 7001
+    - 15
+    _Order: 2
+    _Discount: 3272
+    _Type: 2
+    _PayId: 25541
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 144
+    _Note: 【新服】【图纸助力】直购-30
+    _Reward:
+    - 7002
+    - 350
+    - 9010
+    - 60
+    - 7001
+    - 20
+    _Order: 3
+    _Discount: 3216
+    _Type: 2
+    _PayId: 25542
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 0
+  - _Id: 145
+    _Note: 【新服】【图纸助力】直购-68
+    _Reward:
+    - 7002
+    - 800
+    - 9010
+    - 120
+    - 7001
+    - 30
+    _Order: 4
+    _Discount: 3216
+    _Type: 2
+    _PayId: 25543
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 0
+  - _Id: 146
+    _Note: 【新服】【图纸助力】直购-128
+    _Reward:
+    - 7002
+    - 1700
+    - 9010
+    - 210
+    - 7001
+    - 50
+    _Order: 5
+    _Discount: 3218
+    _Type: 2
+    _PayId: 25544
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 0
+  - _Id: 147
+    _Note: 【新服】【图纸助力】直购-328
+    _Reward:
+    - 7002
+    - 4500
+    - 9010
+    - 450
+    - 7001
+    - 80
+    _Order: 6
+    _Discount: 3210
+    _Type: 2
+    _PayId: 25545
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 0
+  - _Id: 148
+    _Note: 【新服】【图纸助力】直购-648
+    _Reward:
+    - 7002
+    - 10000
+    - 9010
+    - 800
+    - 7001
+    - 100
+    _Order: 7
+    _Discount: 3210
+    _Type: 2
+    _PayId: 25546
+    _ItmeCost: []
+    _Count: 10
+    _Daily: 0
+  - _Id: 149
+    _Note: 【新服】【图纸助力】直购-128
+    _Reward:
+    - 7002
+    - 1700
+    - 10001
+    - 1
+    - 9010
+    - 18
+    _Order: 8
+    _Discount: 3210
+    _Type: 2
+    _PayId: 25547
+    _ItmeCost: []
+    _Count: 10
+    _Daily: 0
+  - _Id: 151
+    _Note: 【新服】【装备助力】直购-广告
+    _Reward:
+    - 7004
+    - 1
+    _Order: 1
+    _Discount: 3271
+    _Type: 1
+    _PayId: 1
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 152
+    _Note: 【新服】【装备助力】直购-钻石*300
+    _Reward:
+    - 7004
+    - 2
+    _Order: 1
+    _Discount: 3252
+    _Type: 3
+    _PayId: 0
+    _ItmeCost:
+    - 7002
+    - 300
+    _Count: 1
+    _Daily: 1
+  - _Id: 153
+    _Note: 【新服】【装备助力】直购-6
+    _Reward:
+    - 7002
+    - 60
+    - 7004
+    - 2
+    - 7001
+    - 10
+    _Order: 2
+    _Discount: 3272
+    _Type: 2
+    _PayId: 25551
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 154
+    _Note: 【新服】【装备助力】直购-30
+    _Reward:
+    - 7002
+    - 350
+    - 7004
+    - 8
+    - 7001
+    - 15
+    _Order: 3
+    _Discount: 3216
+    _Type: 2
+    _PayId: 25552
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 0
+  - _Id: 155
+    _Note: 【新服】【装备助力】直购-68
+    _Reward:
+    - 7002
+    - 800
+    - 7004
+    - 15
+    - 7001
+    - 20
+    _Order: 4
+    _Discount: 3216
+    _Type: 2
+    _PayId: 25553
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 0
+  - _Id: 156
+    _Note: 【新服】【装备助力】直购-128
+    _Reward:
+    - 7002
+    - 1700
+    - 7004
+    - 25
+    - 7001
+    - 30
+    _Order: 5
+    _Discount: 3210
+    _Type: 2
+    _PayId: 25554
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 0
+  - _Id: 157
+    _Note: 【新服】【装备助力】直购-328
+    _Reward:
+    - 7002
+    - 4500
+    - 7004
+    - 55
+    - 7001
+    - 40
+    _Order: 6
+    _Discount: 3210
+    _Type: 2
+    _PayId: 25555
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 0
+  - _Id: 158
+    _Note: 【新服】【装备助力】直购-648
+    _Reward:
+    - 7002
+    - 10000
+    - 7004
+    - 100
+    - 7001
+    - 50
+    _Order: 7
+    _Discount: 3210
+    _Type: 2
+    _PayId: 25556
+    _ItmeCost: []
+    _Count: 10
+    _Daily: 0
+  - _Id: 161
+    _Note: 【新服】【配件助力】直购-广告
+    _Reward:
+    - 40001
+    - 10
+    _Order: 1
+    _Discount: 3271
+    _Type: 1
+    _PayId: 1
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 162
+    _Note: 【新服】【配件助力】直购-钻石*150
+    _Reward:
+    - 40002
+    - 10
+    _Order: 1
+    _Discount: 3252
+    _Type: 3
+    _PayId: 0
+    _ItmeCost:
+    - 7002
+    - 150
+    _Count: 1
+    _Daily: 1
+  - _Id: 163
+    _Note: 【新服】【配件助力】直购-6
+    _Reward:
+    - 7002
+    - 60
+    - 40003
+    - 1
+    - 40002
+    - 10
+    _Order: 2
+    _Discount: 3272
+    _Type: 2
+    _PayId: 25561
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 164
+    _Note: 【新服】【配件助力】直购-30
+    _Reward:
+    - 7002
+    - 350
+    - 40003
+    - 5
+    - 40002
+    - 20
+    _Order: 3
+    _Discount: 3216
+    _Type: 2
+    _PayId: 25562
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 165
+    _Note: 【新服】【配件助力】直购-68
+    _Reward:
+    - 7002
+    - 800
+    - 40003
+    - 10
+    - 40002
+    - 30
+    _Order: 4
+    _Discount: 3216
+    _Type: 2
+    _PayId: 25563
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 0
+  - _Id: 166
+    _Note: 【新服】【配件助力】直购-128
+    _Reward:
+    - 7002
+    - 1700
+    - 40003
+    - 20
+    - 40002
+    - 40
+    _Order: 5
+    _Discount: 3210
+    _Type: 2
+    _PayId: 25564
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 0
+  - _Id: 167
+    _Note: 【新服】【配件助力】直购-328
+    _Reward:
+    - 7002
+    - 4500
+    - 40003
+    - 45
+    - 40002
+    - 50
+    _Order: 6
+    _Discount: 3210
+    _Type: 2
+    _PayId: 25565
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 0
+  - _Id: 168
+    _Note: 【新服】【配件助力】直购-648
+    _Reward:
+    - 7002
+    - 10000
+    - 40003
+    - 70
+    - 40002
+    - 60
+    _Order: 7
+    _Discount: 3202
+    _Type: 2
+    _PayId: 25566
+    _ItmeCost: []
+    _Count: 10
+    _Daily: 0
+  - _Id: 201
+    _Note: 【新手转盘】【1期】免费
+    _Reward:
+    - 7002
+    - 10
+    - 7001
+    - 10
+    _Order: 1
+    _Discount: 3271
+    _Type: 0
+    _PayId: 0
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 202
+    _Note: 【新手转盘】【1期】6
+    _Reward:
+    - 7002
+    - 60
+    - 9007
+    - 3
+    - 2101
+    - 3
+    _Order: 2
+    _Discount: 3272
+    _Type: 2
+    _PayId: 21601
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 203
+    _Note: 【新手转盘】【1期】30
+    _Reward:
+    - 7002
+    - 350
+    - 9007
+    - 12
+    - 2101
+    - 5
+    _Order: 3
+    _Discount: 3216
+    _Type: 2
+    _PayId: 21602
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 0
+  - _Id: 204
+    _Note: 【新手转盘】【1期】68
+    _Reward:
+    - 7002
+    - 800
+    - 9007
+    - 20
+    - 2101
+    - 10
+    _Order: 4
+    _Discount: 3216
+    _Type: 2
+    _PayId: 21603
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 0
+  - _Id: 205
+    _Note: 【新手转盘】【1期】128
+    _Reward:
+    - 7002
+    - 1700
+    - 9007
+    - 35
+    - 2101
+    - 15
+    _Order: 5
+    _Discount: 3210
+    _Type: 2
+    _PayId: 21604
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 0
+  - _Id: 206
+    _Note: 【新手转盘】【1期】328
+    _Reward:
+    - 7002
+    - 4500
+    - 9007
+    - 80
+    - 2101
+    - 30
+    _Order: 6
+    _Discount: 3210
+    _Type: 2
+    _PayId: 21605
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 0
+  - _Id: 207
+    _Note: 【新手转盘】【1期】648
+    _Reward:
+    - 7002
+    - 10000
+    - 9007
+    - 130
+    - 2101
+    - 60
+    _Order: 7
+    _Discount: 3210
+    _Type: 2
+    _PayId: 21606
+    _ItmeCost: []
+    _Count: 5
+    _Daily: 0
+  - _Id: 208
+    _Note: 【新手转盘】【1期】648_锚
+    _Reward:
+    - 9007
+    - 100
+    _Order: 8
+    _Discount: 3204
+    _Type: 2
+    _PayId: 21615
+    _ItmeCost: []
+    _Count: -1
+    _Daily: 0
+  - _Id: 211
+    _Note: 【新手转盘】【2期】免费
+    _Reward:
+    - 7002
+    - 10
+    - 7001
+    - 10
+    _Order: 1
+    _Discount: 3271
+    _Type: 0
+    _PayId: 0
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 212
+    _Note: 【新手转盘】【2期】6
+    _Reward:
+    - 7002
+    - 60
+    - 9007
+    - 3
+    - 6501
+    - 5
+    - 6503
+    - 5
+    _Order: 2
+    _Discount: 3272
+    _Type: 2
+    _PayId: 21608
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 213
+    _Note: 【新手转盘】【2期】30
+    _Reward:
+    - 7002
+    - 350
+    - 9007
+    - 12
+    - 6501
+    - 10
+    - 6503
+    - 10
+    _Order: 3
+    _Discount: 3216
+    _Type: 2
+    _PayId: 21609
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 0
+  - _Id: 214
+    _Note: 【新手转盘】【2期】68
+    _Reward:
+    - 7002
+    - 800
+    - 9007
+    - 20
+    - 6501
+    - 15
+    - 6503
+    - 15
+    _Order: 4
+    _Discount: 3216
+    _Type: 2
+    _PayId: 21610
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 0
+  - _Id: 215
+    _Note: 【新手转盘】【2期】128
+    _Reward:
+    - 7002
+    - 1700
+    - 9007
+    - 35
+    - 6501
+    - 20
+    - 6503
+    - 20
+    _Order: 5
+    _Discount: 3210
+    _Type: 2
+    _PayId: 21611
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 0
+  - _Id: 216
+    _Note: 【新手转盘】【2期】328
+    _Reward:
+    - 7002
+    - 4500
+    - 9007
+    - 80
+    - 6501
+    - 30
+    - 6503
+    - 30
+    _Order: 6
+    _Discount: 3210
+    _Type: 2
+    _PayId: 21612
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 0
+  - _Id: 217
+    _Note: 【新手转盘】【2期】648
+    _Reward:
+    - 7002
+    - 10000
+    - 9007
+    - 130
+    - 6501
+    - 60
+    - 6503
+    - 60
+    _Order: 7
+    _Discount: 3210
+    _Type: 2
+    _PayId: 21613
+    _ItmeCost: []
+    _Count: 5
+    _Daily: 0
+  - _Id: 218
+    _Note: 【新手转盘】【2期】648_锚
+    _Reward:
+    - 9007
+    - 100
+    _Order: 8
+    _Discount: 3204
+    _Type: 2
+    _PayId: 21614
+    _ItmeCost: []
+    _Count: -1
+    _Daily: 0
+  - _Id: 221
+    _Note: 【新手转盘】【3期】免费
+    _Reward:
+    - 7002
+    - 10
+    - 7001
+    - 10
+    _Order: 1
+    _Discount: 3271
+    _Type: 0
+    _PayId: 0
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 222
+    _Note: 【新手转盘】【3期】6
+    _Reward:
+    - 7002
+    - 60
+    - 9007
+    - 3
+    - 2101
+    - 3
+    _Order: 2
+    _Discount: 3272
+    _Type: 2
+    _PayId: 21617
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 223
+    _Note: 【新手转盘】【3期】30
+    _Reward:
+    - 7002
+    - 350
+    - 9007
+    - 12
+    - 2101
+    - 5
+    _Order: 3
+    _Discount: 3216
+    _Type: 2
+    _PayId: 21618
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 0
+  - _Id: 224
+    _Note: 【新手转盘】【3期】68
+    _Reward:
+    - 7002
+    - 800
+    - 9007
+    - 20
+    - 2101
+    - 10
+    _Order: 4
+    _Discount: 3216
+    _Type: 2
+    _PayId: 21619
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 0
+  - _Id: 225
+    _Note: 【新手转盘】【3期】128
+    _Reward:
+    - 7002
+    - 1700
+    - 9007
+    - 35
+    - 2101
+    - 15
+    _Order: 5
+    _Discount: 3210
+    _Type: 2
+    _PayId: 21620
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 0
+  - _Id: 226
+    _Note: 【新手转盘】【3期】328
+    _Reward:
+    - 7002
+    - 4500
+    - 9007
+    - 80
+    - 2101
+    - 30
+    _Order: 6
+    _Discount: 3210
+    _Type: 2
+    _PayId: 21621
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 0
+  - _Id: 227
+    _Note: 【新手转盘】【3期】648
+    _Reward:
+    - 7002
+    - 10000
+    - 9007
+    - 130
+    - 2101
+    - 60
+    _Order: 7
+    _Discount: 3210
+    _Type: 2
+    _PayId: 21622
+    _ItmeCost: []
+    _Count: 5
+    _Daily: 0
+  - _Id: 228
+    _Note: 【新手转盘】【3期】648_锚
+    _Reward:
+    - 9007
+    - 100
+    _Order: 8
+    _Discount: 3204
+    _Type: 2
+    _PayId: 21623
+    _ItmeCost: []
+    _Count: -1
+    _Daily: 0
+  - _Id: 231
+    _Note: 【新手转盘】【4期】免费
+    _Reward:
+    - 7002
+    - 10
+    - 7001
+    - 10
+    _Order: 1
+    _Discount: 3271
+    _Type: 0
+    _PayId: 0
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 232
+    _Note: 【新手转盘】【4期】6
+    _Reward:
+    - 7002
+    - 60
+    - 9007
+    - 3
+    - 6501
+    - 5
+    - 6503
+    - 5
+    _Order: 2
+    _Discount: 3272
+    _Type: 2
+    _PayId: 21625
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 233
+    _Note: 【新手转盘】【4期】30
+    _Reward:
+    - 7002
+    - 350
+    - 9007
+    - 12
+    - 6501
+    - 10
+    - 6503
+    - 10
+    _Order: 3
+    _Discount: 3216
+    _Type: 2
+    _PayId: 21626
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 0
+  - _Id: 234
+    _Note: 【新手转盘】【4期】68
+    _Reward:
+    - 7002
+    - 800
+    - 9007
+    - 20
+    - 6501
+    - 15
+    - 6503
+    - 15
+    _Order: 4
+    _Discount: 3216
+    _Type: 2
+    _PayId: 21627
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 0
+  - _Id: 235
+    _Note: 【新手转盘】【4期】128
+    _Reward:
+    - 7002
+    - 1700
+    - 9007
+    - 35
+    - 6501
+    - 20
+    - 6503
+    - 20
+    _Order: 5
+    _Discount: 3210
+    _Type: 2
+    _PayId: 21628
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 0
+  - _Id: 236
+    _Note: 【新手转盘】【4期】328
+    _Reward:
+    - 7002
+    - 4500
+    - 9007
+    - 80
+    - 6501
+    - 30
+    - 6503
+    - 30
+    _Order: 6
+    _Discount: 3210
+    _Type: 2
+    _PayId: 21629
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 0
+  - _Id: 237
+    _Note: 【新手转盘】【4期】648
+    _Reward:
+    - 7002
+    - 10000
+    - 9007
+    - 130
+    - 6501
+    - 60
+    - 6503
+    - 60
+    _Order: 7
+    _Discount: 3210
+    _Type: 2
+    _PayId: 21630
+    _ItmeCost: []
+    _Count: 5
+    _Daily: 0
+  - _Id: 238
+    _Note: 【新手转盘】【4期】648_锚
+    _Reward:
+    - 9007
+    - 100
+    _Order: 8
+    _Discount: 3204
+    _Type: 2
+    _PayId: 21631
+    _ItmeCost: []
+    _Count: -1
+    _Daily: 0
+  - _Id: 301
+    _Note: 【新服】新服活动
+    _Reward:
+    - 2101
+    - 1
+    _Order: 1
+    _Discount: 3271
+    _Type: 0
+    _PayId: 0
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 304
+    _Note: 【新服】新服活动
+    _Reward:
+    - 7002
+    - 350
+    - 6403
+    - 10
+    - 29004
+    - 1
+    _Order: 4
+    _Discount: 3216
+    _Type: 2
+    _PayId: 21503
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 0
+  - _Id: 305
+    _Note: 【新服】新服活动
+    _Reward:
+    - 7002
+    - 800
+    - 6403
+    - 20
+    - 7004
+    - 10
+    _Order: 5
+    _Discount: 3216
+    _Type: 2
+    _PayId: 21504
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 0
+  - _Id: 306
+    _Note: 【新服】新服活动
+    _Reward:
+    - 7002
+    - 1700
+    - 6403
+    - 30
+    - 29101
+    - 1
+    _Order: 6
+    _Discount: 3210
+    _Type: 2
+    _PayId: 21505
+    _ItmeCost: []
+    _Count: 2
+    _Daily: 0
+  - _Id: 307
+    _Note: 【新服】新服活动
+    _Reward:
+    - 7002
+    - 2200
+    - 6403
+    - 50
+    - 2101
+    - 300
+    - 2103
+    - 3
+    _Order: 7
+    _Discount: 3210
+    _Type: 2
+    _PayId: 21506
+    _ItmeCost: []
+    _Count: 2
+    _Daily: 0
+  - _Id: 308
+    _Note: 【新服】新服活动
+    _Reward:
+    - 7002
+    - 4500
+    - 6403
+    - 50
+    - 7004
+    - 25
+    - 7004
+    - 25
+    _Order: 8
+    _Discount: 3210
+    _Type: 2
+    _PayId: 21507
+    _ItmeCost: []
+    _Count: 2
+    _Daily: 0
+  - _Id: 309
+    _Note: 【新服】新服活动
+    _Reward:
+    - 7002
+    - 10000
+    - 6403
+    - 100
+    - 9017
+    - 1
+    - 29201
+    - 1
+    _Order: 9
+    _Discount: 3210
+    _Type: 2
+    _PayId: 21508
+    _ItmeCost: []
+    _Count: 2
+    _Daily: 0
+  - _Id: 401
+    _Note: 【新服】【飞行棋】广告
+    _Reward:
+    - 7002
+    - 10
+    - 7001
+    - 10
+    _Order: 1
+    _Discount: 3271
+    _Type: 1
+    _PayId: 1
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 402
+    _Note: 【新服】【飞行棋】6
+    _Reward:
+    - 7002
+    - 60
+    - 9006
+    - 5
+    - 7001
+    - 10
+    _Order: 2
+    _Discount: 3272
+    _Type: 2
+    _PayId: 21701
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 403
+    _Note: 【新服】【飞行棋】30
+    _Reward:
+    - 7002
+    - 350
+    - 9006
+    - 20
+    - 7001
+    - 30
+    _Order: 3
+    _Discount: 3216
+    _Type: 2
+    _PayId: 21702
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 404
+    _Note: 【新服】【飞行棋】68
+    _Reward:
+    - 7002
+    - 800
+    - 9006
+    - 40
+    - 7001
+    - 60
+    _Order: 4
+    _Discount: 3216
+    _Type: 2
+    _PayId: 21703
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 0
+  - _Id: 405
+    _Note: 【新服】【飞行棋】128
+    _Reward:
+    - 7002
+    - 1700
+    - 9006
+    - 65
+    - 7001
+    - 100
+    _Order: 5
+    _Discount: 3218
+    _Type: 2
+    _PayId: 21704
+    _ItmeCost: []
+    _Count: 2
+    _Daily: 0
+  - _Id: 406
+    _Note: 【新服】【飞行棋】328
+    _Reward:
+    - 7002
+    - 4500
+    - 9006
+    - 135
+    - 7001
+    - 200
+    _Order: 6
+    _Discount: 3210
+    _Type: 2
+    _PayId: 21705
+    _ItmeCost: []
+    _Count: 4
+    _Daily: 0
+  - _Id: 407
+    _Note: 【新服】【飞行棋】648
+    _Reward:
+    - 7002
+    - 10000
+    - 9006
+    - 225
+    - 7001
+    - 300
+    _Order: 7
+    _Discount: 3210
+    _Type: 2
+    _PayId: 21706
+    _ItmeCost: []
+    _Count: -1
+    _Daily: 0
+  - _Id: 1001
+    _Note: 【机器人】广告
+    _Reward:
+    - 7002
+    - 20
+    _Order: 1
+    _Discount: 3271
+    _Type: 1
+    _PayId: 1
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 1002
+    _Note: 【机器人】钻石*300
+    _Reward:
+    - 7007
+    - 3
+    _Order: 2
+    _Discount: 3252
+    _Type: 3
+    _PayId: 0
+    _ItmeCost:
+    - 7002
+    - 300
+    _Count: 1
+    _Daily: 1
+  - _Id: 1003
+    _Note: 【机器人】6
+    _Reward:
+    - 7002
+    - 60
+    - 7007
+    - 3
+    - 6001
+    - 2
+    _Order: 2
+    _Discount: 3272
+    _Type: 2
+    _PayId: 22001
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 1004
+    _Note: 【机器人】30
+    _Reward:
+    - 7002
+    - 350
+    - 7007
+    - 10
+    - 6001
+    - 4
+    _Order: 3
+    _Discount: 3216
+    _Type: 2
+    _PayId: 22002
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 1005
+    _Note: 【机器人】68
+    _Reward:
+    - 7002
+    - 800
+    - 7007
+    - 20
+    - 6001
+    - 8
+    _Order: 4
+    _Discount: 3216
+    _Type: 2
+    _PayId: 22003
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 0
+  - _Id: 1006
+    _Note: 【机器人】128
+    _Reward:
+    - 7002
+    - 1700
+    - 7007
+    - 30
+    - 6001
+    - 15
+    _Order: 5
+    _Discount: 3218
+    _Type: 2
+    _PayId: 22004
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 0
+  - _Id: 1007
+    _Note: 【机器人】328
+    _Reward:
+    - 7002
+    - 4500
+    - 7007
+    - 70
+    - 6001
+    - 30
+    _Order: 6
+    _Discount: 3210
+    _Type: 2
+    _PayId: 22005
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 0
+  - _Id: 1008
+    _Note: 【机器人】648
+    _Reward:
+    - 7002
+    - 10000
+    - 7007
+    - 120
+    - 6001
+    - 50
+    _Order: 7
+    _Discount: 3210
+    _Type: 2
+    _PayId: 22006
+    _ItmeCost: []
+    _Count: -1
+    _Daily: 0
+  - _Id: 1009
+    _Note: 【机器人】328_自选碎片
+    _Reward:
+    - 7002
+    - 4500
+    - 29302
+    - 40
+    - 6001
+    - 50
+    _Order: 8
+    _Discount: 3210
+    _Type: 2
+    _PayId: 22008
+    _ItmeCost: []
+    _Count: 5
+    _Daily: 0
+  - _Id: 2001
+    _Note: 【飞行棋】广告
+    _Reward:
+    - 7002
+    - 10
+    - 7001
+    - 10
+    _Order: 1
+    _Discount: 3271
+    _Type: 1
+    _PayId: 1
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 2002
+    _Note: 【飞行棋】6
+    _Reward:
+    - 7002
+    - 60
+    - 9006
+    - 5
+    - 7001
+    - 10
+    _Order: 2
+    _Discount: 3272
+    _Type: 2
+    _PayId: 22011
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 2003
+    _Note: 【飞行棋】30
+    _Reward:
+    - 7002
+    - 350
+    - 9006
+    - 20
+    - 7001
+    - 30
+    _Order: 3
+    _Discount: 3216
+    _Type: 2
+    _PayId: 22012
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 2004
+    _Note: 【飞行棋】68
+    _Reward:
+    - 7002
+    - 800
+    - 9006
+    - 40
+    - 7001
+    - 60
+    _Order: 4
+    _Discount: 3216
+    _Type: 2
+    _PayId: 22013
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 0
+  - _Id: 2005
+    _Note: 【飞行棋】128
+    _Reward:
+    - 7002
+    - 1700
+    - 9006
+    - 65
+    - 7001
+    - 100
+    _Order: 5
+    _Discount: 3218
+    _Type: 2
+    _PayId: 22014
+    _ItmeCost: []
+    _Count: 2
+    _Daily: 0
+  - _Id: 2006
+    _Note: 【飞行棋】328
+    _Reward:
+    - 7002
+    - 4500
+    - 9006
+    - 135
+    - 7001
+    - 200
+    _Order: 6
+    _Discount: 3210
+    _Type: 2
+    _PayId: 22015
+    _ItmeCost: []
+    _Count: 4
+    _Daily: 0
+  - _Id: 2007
+    _Note: 【飞行棋】648
+    _Reward:
+    - 7002
+    - 10000
+    - 9006
+    - 225
+    - 7001
+    - 300
+    _Order: 7
+    _Discount: 3210
+    _Type: 2
+    _PayId: 22016
+    _ItmeCost: []
+    _Count: -1
+    _Daily: 0
+  - _Id: 3001
+    _Note: 【武器转盘】广告
+    _Reward:
+    - 7002
+    - 10
+    - 7001
+    - 10
+    _Order: 1
+    _Discount: 3271
+    _Type: 1
+    _PayId: 1
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 3002
+    _Note: 【武器转盘】6
+    _Reward:
+    - 7002
+    - 60
+    - 9007
+    - 3
+    - 2101
+    - 5
+    _Order: 2
+    _Discount: 3272
+    _Type: 2
+    _PayId: 22031
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 3003
+    _Note: 【武器转盘】30
+    _Reward:
+    - 7002
+    - 350
+    - 9007
+    - 12
+    - 2101
+    - 10
+    _Order: 3
+    _Discount: 3216
+    _Type: 2
+    _PayId: 22032
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 0
+  - _Id: 3004
+    _Note: 【武器转盘】68
+    _Reward:
+    - 7002
+    - 800
+    - 9007
+    - 20
+    - 2101
+    - 20
+    _Order: 4
+    _Discount: 3216
+    _Type: 2
+    _PayId: 22033
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 0
+  - _Id: 3005
+    _Note: 【武器转盘】128
+    _Reward:
+    - 7002
+    - 1700
+    - 9007
+    - 35
+    - 2101
+    - 30
+    _Order: 5
+    _Discount: 3216
+    _Type: 2
+    _PayId: 22034
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 0
+  - _Id: 3006
+    _Note: 【武器转盘】328
+    _Reward:
+    - 7002
+    - 4500
+    - 9007
+    - 80
+    - 2101
+    - 50
+    _Order: 6
+    _Discount: 3210
+    _Type: 2
+    _PayId: 22035
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 0
+  - _Id: 3007
+    _Note: 【武器转盘】648
+    _Reward:
+    - 7002
+    - 10000
+    - 9007
+    - 140
+    - 2101
+    - 100
+    _Order: 7
+    _Discount: 3210
+    _Type: 2
+    _PayId: 22036
+    _ItmeCost: []
+    _Count: 5
+    _Daily: 0
+  - _Id: 3008
+    _Note: 【武器转盘】648_锚定
+    _Reward:
+    - 9007
+    - 100
+    _Order: 8
+    _Discount: 3205
+    _Type: 2
+    _PayId: 22037
+    _ItmeCost: []
+    _Count: -1
+    _Daily: 0
+  - _Id: 4001
+    _Note: 【角色转盘】广告
+    _Reward:
+    - 7002
+    - 20
+    - 7001
+    - 10
+    _Order: 1
+    _Discount: 3271
+    _Type: 1
+    _PayId: 1
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 4002
+    _Note: 【角色转盘】6
+    _Reward:
+    - 7002
+    - 60
+    - 9007
+    - 3
+    - 6501
+    - 3
+    - 6503
+    - 3
+    _Order: 2
+    _Discount: 3272
+    _Type: 2
+    _PayId: 22041
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 4003
+    _Note: 【角色转盘】30
+    _Reward:
+    - 7002
+    - 350
+    - 9007
+    - 12
+    - 6501
+    - 5
+    - 6503
+    - 5
+    _Order: 3
+    _Discount: 3216
+    _Type: 2
+    _PayId: 22042
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 0
+  - _Id: 4004
+    _Note: 【角色转盘】68
+    _Reward:
+    - 7002
+    - 800
+    - 9007
+    - 20
+    - 6501
+    - 10
+    - 6503
+    - 10
+    _Order: 4
+    _Discount: 3216
+    _Type: 2
+    _PayId: 22043
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 0
+  - _Id: 4005
+    _Note: 【角色转盘】128
+    _Reward:
+    - 7002
+    - 1700
+    - 9007
+    - 35
+    - 6501
+    - 15
+    - 6503
+    - 15
+    _Order: 5
+    _Discount: 3216
+    _Type: 2
+    _PayId: 22044
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 0
+  - _Id: 4006
+    _Note: 【角色转盘】328
+    _Reward:
+    - 7002
+    - 4500
+    - 9007
+    - 80
+    - 6501
+    - 30
+    - 6503
+    - 30
+    _Order: 6
+    _Discount: 3210
+    _Type: 2
+    _PayId: 22045
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 0
+  - _Id: 4007
+    _Note: 【角色转盘】648
+    _Reward:
+    - 7002
+    - 10000
+    - 9007
+    - 140
+    - 6501
+    - 50
+    - 6503
+    - 50
+    _Order: 7
+    _Discount: 3210
+    _Type: 2
+    _PayId: 22046
+    _ItmeCost: []
+    _Count: 5
+    _Daily: 0
+  - _Id: 4008
+    _Note: 【角色转盘】648_锚定
+    _Reward:
+    - 9007
+    - 100
+    _Order: 8
+    _Discount: 3204
+    _Type: 2
+    _PayId: 22047
+    _ItmeCost: []
+    _Count: -1
+    _Daily: 0
+  - _Id: 5001
+    _Note: 【收藏品】广告
+    _Reward:
+    - 7002
+    - 20
+    _Order: 1
+    _Discount: 3271
+    _Type: 1
+    _PayId: 1
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 5002
+    _Note: 【收藏品】钻石*600
+    _Reward:
+    - 7009
+    - 10
+    _Order: 1
+    _Discount: 3253
+    _Type: 3
+    _PayId: 0
+    _ItmeCost:
+    - 7002
+    - 600
+    _Count: 1
+    _Daily: 0
+  - _Id: 5003
+    _Note: 【收藏品】钻石*900
+    _Reward:
+    - 7009
+    - 10
+    _Order: 1
+    _Discount: 3257
+    _Type: 3
+    _PayId: 0
+    _ItmeCost:
+    - 7002
+    - 900
+    _Count: 1
+    _Daily: 1
+  - _Id: 5004
+    _Note: 【收藏品】6
+    _Reward:
+    - 7002
+    - 60
+    - 7009
+    - 5
+    - 6002
+    - 2
+    _Order: 2
+    _Discount: 3272
+    _Type: 2
+    _PayId: 22051
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 5005
+    _Note: 【收藏品】30
+    _Reward:
+    - 7002
+    - 350
+    - 7009
+    - 20
+    - 6002
+    - 5
+    _Order: 3
+    _Discount: 3216
+    _Type: 2
+    _PayId: 22052
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 5006
+    _Note: 【收藏品】68
+    _Reward:
+    - 7002
+    - 800
+    - 7009
+    - 40
+    - 6002
+    - 10
+    _Order: 4
+    _Discount: 3216
+    _Type: 2
+    _PayId: 22053
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 0
+  - _Id: 5007
+    _Note: 【收藏品】128
+    _Reward:
+    - 7002
+    - 1700
+    - 7009
+    - 65
+    - 6002
+    - 20
+    _Order: 5
+    _Discount: 3218
+    _Type: 2
+    _PayId: 22054
+    _ItmeCost: []
+    _Count: 2
+    _Daily: 0
+  - _Id: 5008
+    _Note: 【收藏品】328
+    _Reward:
+    - 7002
+    - 4500
+    - 7009
+    - 140
+    - 6002
+    - 50
+    _Order: 6
+    _Discount: 3210
+    _Type: 2
+    _PayId: 22055
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 0
+  - _Id: 5009
+    _Note: 【收藏品】648
+    _Reward:
+    - 7002
+    - 10000
+    - 7009
+    - 230
+    - 6002
+    - 100
+    _Order: 7
+    _Discount: 3210
+    _Type: 2
+    _PayId: 22056
+    _ItmeCost: []
+    _Count: 10
+    _Daily: 0
+  - _Id: 6001
+    _Note: 【装备】广告
+    _Reward:
+    - 7002
+    - 10
+    - 7001
+    - 10
+    _Order: 1
+    _Discount: 3271
+    _Type: 1
+    _PayId: 1
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 6002
+    _Note: 【装备】6
+    _Reward:
+    - 7002
+    - 60
+    - 7004
+    - 3
+    - 7001
+    - 5
+    _Order: 2
+    _Discount: 3272
+    _Type: 2
+    _PayId: 22021
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 6003
+    _Note: 【装备】30
+    _Reward:
+    - 7002
+    - 350
+    - 7004
+    - 9
+    - 7001
+    - 10
+    _Order: 3
+    _Discount: 3216
+    _Type: 2
+    _PayId: 22022
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 6004
+    _Note: 【装备】68
+    _Reward:
+    - 7002
+    - 800
+    - 7004
+    - 18
+    - 7001
+    - 20
+    _Order: 4
+    _Discount: 3216
+    _Type: 2
+    _PayId: 22023
+    _ItmeCost: []
+    _Count: 2
+    _Daily: 0
+  - _Id: 6005
+    _Note: 【装备】128
+    _Reward:
+    - 7002
+    - 1700
+    - 7004
+    - 28
+    - 7001
+    - 30
+    _Order: 5
+    _Discount: 3218
+    _Type: 2
+    _PayId: 22024
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 0
+  - _Id: 6006
+    _Note: 【装备】328
+    _Reward:
+    - 7002
+    - 4500
+    - 7004
+    - 68
+    - 7001
+    - 40
+    _Order: 6
+    _Discount: 3210
+    _Type: 2
+    _PayId: 22025
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 0
+  - _Id: 6007
+    _Note: 【装备】648
+    _Reward:
+    - 7002
+    - 10000
+    - 7004
+    - 108
+    - 7001
+    - 80
+    _Order: 7
+    _Discount: 3210
+    _Type: 2
+    _PayId: 22026
+    _ItmeCost: []
+    _Count: 10
+    _Daily: 0
+  - _Id: 6008
+    _Note: 【装备】328_S紫随机+转置器
+    _Reward:
+    - 7002
+    - 4500
+    - 29101
+    - 1
+    - 9017
+    - 1
+    _Order: 8
+    _Discount: 3210
+    _Type: 2
+    _PayId: 22028
+    _ItmeCost: []
+    _Count: 5
+    _Daily: 0
+  - _Id: 6009
+    _Note: 【装备】30_紫自选
+    _Reward:
+    - 7002
+    - 300
+    - 29200
+    - 1
+    _Order: 9
+    _Discount: 3210
+    _Type: 2
+    _PayId: 22027
+    _ItmeCost: []
+    _Count: -1
+    _Daily: 0
+  - _Id: 10001
+    _Note: 【芯片助力】广告
+    _Reward:
+    - 7003
+    - 1
+    _Order: 1
+    _Discount: 3271
+    _Type: 1
+    _PayId: 1
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 10002
+    _Note: 【芯片助力】钻石*180
+    _Reward:
+    - 7003
+    - 3
+    _Order: 1
+    _Discount: 3252
+    _Type: 3
+    _PayId: 0
+    _ItmeCost:
+    - 7002
+    - 180
+    _Count: 1
+    _Daily: 1
+  - _Id: 10003
+    _Note: 【芯片助力】6
+    _Reward:
+    - 7002
+    - 60
+    - 7003
+    - 5
+    - 7001
+    - 15
+    _Order: 2
+    _Discount: 3272
+    _Type: 2
+    _PayId: 28101
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 10004
+    _Note: 【芯片助力】30
+    _Reward:
+    - 7002
+    - 350
+    - 7003
+    - 15
+    - 7001
+    - 30
+    _Order: 3
+    _Discount: 3216
+    _Type: 2
+    _PayId: 28102
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 10005
+    _Note: 【芯片助力】68
+    _Reward:
+    - 7002
+    - 800
+    - 7003
+    - 30
+    - 7001
+    - 60
+    _Order: 4
+    _Discount: 3216
+    _Type: 2
+    _PayId: 28103
+    _ItmeCost: []
+    _Count: 2
+    _Daily: 0
+  - _Id: 10006
+    _Note: 【芯片助力】128
+    _Reward:
+    - 7002
+    - 1700
+    - 7003
+    - 55
+    - 7001
+    - 50
+    _Order: 5
+    _Discount: 3218
+    _Type: 2
+    _PayId: 28104
+    _ItmeCost: []
+    _Count: 2
+    _Daily: 0
+  - _Id: 10007
+    _Note: 【芯片助力】328
+    _Reward:
+    - 7002
+    - 4500
+    - 7003
+    - 120
+    - 7001
+    - 80
+    _Order: 6
+    _Discount: 3210
+    _Type: 2
+    _PayId: 28105
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 0
+  - _Id: 10008
+    _Note: 【芯片助力】648
+    _Reward:
+    - 7002
+    - 10000
+    - 7003
+    - 230
+    - 7001
+    - 100
+    _Order: 7
+    _Discount: 3210
+    _Type: 2
+    _PayId: 28106
+    _ItmeCost: []
+    _Count: 10
+    _Daily: 0
+  - _Id: 10011
+    _Note: 【图纸助力】广告
+    _Reward:
+    - 9010
+    - 2
+    _Order: 1
+    _Discount: 3271
+    _Type: 1
+    _PayId: 1
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 10012
+    _Note: 【图纸助力】钻石*300
+    _Reward:
+    - 9010
+    - 10
+    - 9010
+    - 10
+    _Order: 1
+    _Discount: 3252
+    _Type: 3
+    _PayId: 0
+    _ItmeCost:
+    - 7002
+    - 300
+    _Count: 1
+    _Daily: 1
+  - _Id: 10013
+    _Note: 【图纸助力】6
+    _Reward:
+    - 7002
+    - 60
+    - 9010
+    - 10
+    - 9010
+    - 10
+    _Order: 2
+    _Discount: 3272
+    _Type: 2
+    _PayId: 28111
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 10014
+    _Note: 【图纸助力】30
+    _Reward:
+    - 7002
+    - 350
+    - 9010
+    - 30
+    - 9010
+    - 30
+    _Order: 3
+    _Discount: 3216
+    _Type: 2
+    _PayId: 28112
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 10015
+    _Note: 【图纸助力】68
+    _Reward:
+    - 7002
+    - 800
+    - 9010
+    - 60
+    - 9010
+    - 60
+    _Order: 4
+    _Discount: 3216
+    _Type: 2
+    _PayId: 28113
+    _ItmeCost: []
+    _Count: 2
+    _Daily: 0
+  - _Id: 10016
+    _Note: 【图纸助力】128
+    _Reward:
+    - 7002
+    - 1700
+    - 9010
+    - 108
+    - 9010
+    - 108
+    _Order: 5
+    _Discount: 3218
+    _Type: 2
+    _PayId: 28114
+    _ItmeCost: []
+    _Count: 2
+    _Daily: 0
+  - _Id: 10017
+    _Note: 【图纸助力】328
+    _Reward:
+    - 7002
+    - 4500
+    - 9010
+    - 208
+    - 9010
+    - 208
+    _Order: 6
+    _Discount: 3210
+    _Type: 2
+    _PayId: 28115
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 0
+  - _Id: 10018
+    _Note: 【图纸助力】648
+    _Reward:
+    - 7002
+    - 10000
+    - 9010
+    - 388
+    - 9010
+    - 388
+    _Order: 7
+    _Discount: 3210
+    _Type: 2
+    _PayId: 28116
+    _ItmeCost: []
+    _Count: -1
+    _Daily: 0
+  - _Id: 10021
+    _Note: 【脑机助力】广告
+    _Reward:
+    - 6501
+    - 2
+    _Order: 1
+    _Discount: 3271
+    _Type: 1
+    _PayId: 1
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 10022
+    _Note: 【脑机助力】钻石*100
+    _Reward:
+    - 29493
+    - 10
+    _Order: 1
+    _Discount: 3252
+    _Type: 3
+    _PayId: 0
+    _ItmeCost:
+    - 7002
+    - 100
+    _Count: 3
+    _Daily: 1
+  - _Id: 10023
+    _Note: 【脑机助力】6
+    _Reward:
+    - 7002
+    - 60
+    - 29493
+    - 18
+    - 29493
+    - 18
+    _Order: 2
+    _Discount: 3272
+    _Type: 2
+    _PayId: 28121
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 10024
+    _Note: 【脑机助力】30
+    _Reward:
+    - 7002
+    - 350
+    - 29493
+    - 58
+    - 29493
+    - 58
+    _Order: 3
+    _Discount: 3216
+    _Type: 2
+    _PayId: 28122
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 10025
+    _Note: 【脑机助力】68
+    _Reward:
+    - 7002
+    - 800
+    - 29493
+    - 118
+    - 29493
+    - 118
+    _Order: 4
+    _Discount: 3216
+    _Type: 2
+    _PayId: 28123
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 0
+  - _Id: 10026
+    _Note: 【脑机助力】128
+    _Reward:
+    - 7002
+    - 1700
+    - 29493
+    - 198
+    - 29493
+    - 198
+    _Order: 5
+    _Discount: 3216
+    _Type: 2
+    _PayId: 28124
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 0
+  - _Id: 10027
+    _Note: 【脑机助力】328
+    _Reward:
+    - 7002
+    - 4500
+    - 29493
+    - 418
+    - 29493
+    - 418
+    _Order: 6
+    _Discount: 3218
+    _Type: 2
+    _PayId: 28125
+    _ItmeCost: []
+    _Count: -1
+    _Daily: 0
+  - _Id: 10028
+    _Note: 【脑机助力】脑机128
+    _Reward:
+    - 7002
+    - 1700
+    - 6502
+    - 1
+    - 29493
+    - 108
+    _Order: 7
+    _Discount: 3210
+    _Type: 2
+    _PayId: 28127
+    _ItmeCost: []
+    _Count: 2
+    _Daily: 0
+  - _Id: 10031
+    _Note: 【改造助力】广告
+    _Reward:
+    - 40001
+    - 10
+    _Order: 1
+    _Discount: 3271
+    _Type: 1
+    _PayId: 1
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 10032
+    _Note: 【改造助力】钻石*100
+    _Reward:
+    - 40002
+    - 20
+    _Order: 1
+    _Discount: 3252
+    _Type: 3
+    _PayId: 0
+    _ItmeCost:
+    - 7002
+    - 300
+    _Count: 1
+    _Daily: 1
+  - _Id: 10033
+    _Note: 【改造助力】6
+    _Reward:
+    - 7002
+    - 60
+    - 40003
+    - 2
+    - 40002
+    - 5
+    _Order: 2
+    _Discount: 3272
+    _Type: 2
+    _PayId: 28131
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 10034
+    _Note: 【改造助力】30
+    _Reward:
+    - 7002
+    - 350
+    - 40003
+    - 6
+    - 40002
+    - 10
+    _Order: 3
+    _Discount: 3216
+    _Type: 2
+    _PayId: 28132
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 10035
+    _Note: 【改造助力】68
+    _Reward:
+    - 7002
+    - 800
+    - 40003
+    - 10
+    - 40002
+    - 20
+    _Order: 4
+    _Discount: 3216
+    _Type: 2
+    _PayId: 28133
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 0
+  - _Id: 10036
+    _Note: 【改造助力】128
+    _Reward:
+    - 7002
+    - 1700
+    - 40003
+    - 20
+    - 40002
+    - 30
+    _Order: 5
+    _Discount: 3218
+    _Type: 2
+    _PayId: 28134
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 0
+  - _Id: 10037
+    _Note: 【改造助力】328
+    _Reward:
+    - 7002
+    - 4500
+    - 40003
+    - 50
+    - 40002
+    - 40
+    _Order: 6
+    _Discount: 3210
+    _Type: 2
+    _PayId: 28135
+    _ItmeCost: []
+    _Count: 5
+    _Daily: 0
+  - _Id: 10038
+    _Note: 【改造助力】648
+    _Reward:
+    - 7002
+    - 10000
+    - 40003
+    - 100
+    - 40002
+    - 50
+    _Order: 7
+    _Discount: 3210
+    _Type: 2
+    _PayId: 28136
+    _ItmeCost: []
+    _Count: -1
+    _Daily: 0
+  - _Id: 20001
+    _Note: 【回归】月卡
+    _Reward: []
+    _Order: 1
+    _Discount: 3224
+    _Type: 4
+    _PayId: 17003
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 0
+  - _Id: 20002
+    _Note: 【回归】免费
+    _Reward:
+    - 7013
+    - 1
+    _Order: 2
+    _Discount: 3271
+    _Type: 0
+    _PayId: 0
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 20003
+    _Note: 【回归】6
+    _Reward:
+    - 7002
+    - 60
+    - 7004
+    - 10
+    _Order: 3
+    _Discount: 3272
+    _Type: 2
+    _PayId: 42001
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 0
+  - _Id: 20004
+    _Note: 【回归】30
+    _Reward:
+    - 7002
+    - 350
+    - 7007
+    - 20
+    _Order: 4
+    _Discount: 3212
+    _Type: 2
+    _PayId: 42003
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 0
+  - _Id: 20005
+    _Note: 【回归】30
+    _Reward:
+    - 7002
+    - 350
+    - 7009
+    - 40
+    _Order: 5
+    _Discount: 3212
+    _Type: 2
+    _PayId: 42004
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 0
+  - _Id: 20006
+    _Note: 【回归】198
+    _Reward:
+    - 7002
+    - 4500
+    - 29451
+    - 1
+    _Order: 6
+    _Discount: 3201
+    _Type: 2
+    _PayId: 42005
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 0
+  - _Id: 20007
+    _Note: 【回归】328
+    _Reward:
+    - 7002
+    - 4500
+    - 29452
+    - 1
+    _Order: 7
+    _Discount: 3201
+    _Type: 2
+    _PayId: 42002
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 0
+  - _Id: 31000
+    _Note: 【进化之路1_体力】广告
+    _Reward:
+    - 7006
+    - 10
+    _Order: 1
+    _Discount: 3271
+    _Type: 1
+    _PayId: 1
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 0
+  - _Id: 31001
+    _Note: 【进化之路1-体力】钻石
+    _Reward:
+    - 7010
+    - 1
+    _Order: 2
+    _Discount: 3252
+    _Type: 3
+    _PayId: 0
+    _ItmeCost:
+    - 7002
+    - 25
+    _Count: -1
+    _Daily: 0
+  - _Id: 31002
+    _Note: 【进化之路1-体力】30
+    _Reward:
+    - 7002
+    - 350
+    - 7006
+    - 60
+    _Order: 3
+    _Discount: 3201
+    _Type: 2
+    _PayId: 46101
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 0
+  - _Id: 31003
+    _Note: 【进化之路1-体力】128
+    _Reward:
+    - 7002
+    - 1700
+    - 7006
+    - 100
+    - 7006
+    - 100
+    _Order: 4
+    _Discount: 3216
+    _Type: 2
+    _PayId: 46102
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 0
+  - _Id: 31004
+    _Note: 【进化之路1-体力】648
+    _Reward:
+    - 7002
+    - 10000
+    - 7006
+    - 200
+    - 7006
+    - 200
+    - 7006
+    - 200
+    _Order: 5
+    _Discount: 3202
+    _Type: 2
+    _PayId: 46103
+    _ItmeCost: []
+    _Count: -1
+    _Daily: 0
+  - _Id: 32000
+    _Note: 【进化之路2_装备】广告
+    _Reward:
+    - 7004
+    - 1
+    _Order: 1
+    _Discount: 3271
+    _Type: 1
+    _PayId: 1
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 0
+  - _Id: 32001
+    _Note: 【进化之路2_装备】30
+    _Reward:
+    - 7002
+    - 350
+    - 7004
+    - 10
+    _Order: 2
+    _Discount: 3212
+    _Type: 2
+    _PayId: 46201
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 0
+  - _Id: 32002
+    _Note: 【进化之路2_装备】128
+    _Reward:
+    - 7002
+    - 1700
+    - 7004
+    - 15
+    - 7004
+    - 15
+    _Order: 3
+    _Discount: 3211
+    _Type: 2
+    _PayId: 46202
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 0
+  - _Id: 32003
+    _Note: 【进化之路2_装备】648
+    _Reward:
+    - 7002
+    - 10000
+    - 7004
+    - 30
+    - 7004
+    - 30
+    - 7004
+    - 30
+    _Order: 4
+    _Discount: 3210
+    _Type: 2
+    _PayId: 46203
+    _ItmeCost: []
+    _Count: 10
+    _Daily: 0
+  - _Id: 33000
+    _Note: 【进化之路3_营地】广告
+    _Reward:
+    - 4010
+    - 100
+    _Order: 1
+    _Discount: 3271
+    _Type: 1
+    _PayId: 1
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 0
+  - _Id: 33001
+    _Note: 【进化之路3-营地】30
+    _Reward:
+    - 7002
+    - 350
+    - 4011
+    - 10
+    _Order: 2
+    _Discount: 3212
+    _Type: 2
+    _PayId: 46301
+    _ItmeCost: []
+    _Count: 4
+    _Daily: 0
+  - _Id: 33002
+    _Note: 【进化之路3-营地】128
+    _Reward:
+    - 7002
+    - 1700
+    - 4011
+    - 15
+    - 4011
+    - 15
+    _Order: 3
+    _Discount: 3201
+    _Type: 2
+    _PayId: 46302
+    _ItmeCost: []
+    _Count: 4
+    _Daily: 0
+  - _Id: 33003
+    _Note: 【进化之路3-营地】648
+    _Reward:
+    - 7002
+    - 10000
+    - 4011
+    - 30
+    - 4011
+    - 30
+    - 4011
+    - 30
+    _Order: 4
+    _Discount: 3218
+    _Type: 2
+    _PayId: 46303
+    _ItmeCost: []
+    _Count: -1
+    _Daily: 0
+  - _Id: 33004
+    _Note: 【进化之路3-营地】30-战斗核心
+    _Reward:
+    - 7002
+    - 350
+    - 4007
+    - 1
+    _Order: 5
+    _Discount: 3210
+    _Type: 2
+    _PayId: 46304
+    _ItmeCost: []
+    _Count: -1
+    _Daily: 0
+  - _Id: 33005
+    _Note: 【进化之路3-营地】30-发展核心
+    _Reward:
+    - 7002
+    - 350
+    - 4008
+    - 1
+    _Order: 6
+    _Discount: 3210
+    _Type: 2
+    _PayId: 46305
+    _ItmeCost: []
+    _Count: -1
+    _Daily: 0
+  - _Id: 34000
+    _Note: 【进化之路4_模块】广告
+    _Reward:
+    - 9010
+    - 3
+    _Order: 1
+    _Discount: 3271
+    _Type: 1
+    _PayId: 1
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 0
+  - _Id: 34001
+    _Note: 【进化之路4_模块】30
+    _Reward:
+    - 7002
+    - 350
+    - 9010
+    - 68
+    _Order: 2
+    _Discount: 3216
+    _Type: 2
+    _PayId: 46401
+    _ItmeCost: []
+    _Count: 5
+    _Daily: 0
+  - _Id: 34002
+    _Note: 【进化之路4_模块】128
+    _Reward:
+    - 7002
+    - 1700
+    - 9010
+    - 108
+    - 9010
+    - 108
+    _Order: 3
+    _Discount: 3210
+    _Type: 2
+    _PayId: 46402
+    _ItmeCost: []
+    _Count: 5
+    _Daily: 0
+  - _Id: 34003
+    _Note: 【进化之路4_模块】648
+    _Reward:
+    - 7002
+    - 10000
+    - 9010
+    - 218
+    - 9010
+    - 218
+    - 9010
+    - 218
+    _Order: 4
+    _Discount: 3202
+    _Type: 2
+    _PayId: 46403
+    _ItmeCost: []
+    _Count: -1
+    _Daily: 0
+  - _Id: 35000
+    _Note: 【进化之路5_脑机】广告
+    _Reward:
+    - 6501
+    - 5
+    _Order: 1
+    _Discount: 3271
+    _Type: 1
+    _PayId: 1
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 0
+  - _Id: 35001
+    _Note: 【进化之路5-脑机】30
+    _Reward:
+    - 7002
+    - 350
+    - 29493
+    - 188
+    _Order: 2
+    _Discount: 3214
+    _Type: 2
+    _PayId: 46501
+    _ItmeCost: []
+    _Count: 5
+    _Daily: 0
+  - _Id: 35002
+    _Note: 【进化之路5-脑机】128
+    _Reward:
+    - 7002
+    - 1700
+    - 29493
+    - 288
+    - 29493
+    - 288
+    _Order: 3
+    _Discount: 3215
+    _Type: 2
+    _PayId: 46502
+    _ItmeCost: []
+    _Count: 5
+    _Daily: 1
+  - _Id: 35003
+    _Note: 【进化之路5-脑机】648
+    _Reward:
+    - 7002
+    - 10000
+    - 29493
+    - 588
+    - 29493
+    - 588
+    - 29493
+    - 588
+    _Order: 4
+    _Discount: 3218
+    _Type: 2
+    _PayId: 46503
+    _ItmeCost: []
+    _Count: -1
+    _Daily: 0
+  - _Id: 35004
+    _Note: 【进化之路5-脑机】128-脑部植入体
+    _Reward:
+    - 7002
+    - 1700
+    - 6502
+    - 1
+    - 29493
+    - 80
+    _Order: 5
+    _Discount: 3210
+    _Type: 2
+    _PayId: 46504
+    _ItmeCost: []
+    _Count: -1
+    _Daily: 0
+  - _Id: 36000
+    _Note: 【进化之路6_武器】广告
+    _Reward:
+    - 40001
+    - 10
+    _Order: 1
+    _Discount: 3271
+    _Type: 1
+    _PayId: 1
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 0
+  - _Id: 36001
+    _Note: 【进化之路6_武器】30
+    _Reward:
+    - 7002
+    - 300
+    - 7003
+    - 20
+    _Order: 2
+    _Discount: 3201
+    _Type: 2
+    _PayId: 46601
+    _ItmeCost: []
+    _Count: 10
+    _Daily: 0
+  - _Id: 36002
+    _Note: 【进化之路6_武器】68
+    _Reward:
+    - 7002
+    - 800
+    - 40003
+    - 15
+    _Order: 3
+    _Discount: 3216
+    _Type: 2
+    _PayId: 46602
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 0
+  - _Id: 36003
+    _Note: 【进化之路6_武器】128
+    _Reward:
+    - 7002
+    - 1700
+    - 40003
+    - 15
+    - 40003
+    - 15
+    _Order: 4
+    _Discount: 3216
+    _Type: 2
+    _PayId: 46603
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 0
+  - _Id: 36004
+    _Note: 【进化之路6_武器】648
+    _Reward:
+    - 7002
+    - 10000
+    - 40003
+    - 30
+    - 40003
+    - 30
+    - 40003
+    - 30
+    _Order: 5
+    _Discount: 3210
+    _Type: 2
+    _PayId: 46604
+    _ItmeCost: []
+    _Count: -1
+    _Daily: 0
+  - _Id: 37000
+    _Note: 【进化之路7_充值】广告
+    _Reward:
+    - 7002
+    - 10
+    _Order: 1
+    _Discount: 3271
+    _Type: 1
+    _PayId: 1
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 0
+  - _Id: 37001
+    _Note: 【进化之路7_充值】30
+    _Reward:
+    - 7002
+    - 300
+    - 7002
+    - 300
+    - 7002
+    - 300
+    - 7002
+    - 300
+    _Order: 2
+    _Discount: 3203
+    _Type: 2
+    _PayId: 46701
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 0
+  - _Id: 37002
+    _Note: 【进化之路7_充值】98
+    _Reward:
+    - 7002
+    - 1000
+    - 7002
+    - 1000
+    - 7002
+    - 1000
+    - 7002
+    - 1000
+    _Order: 3
+    _Discount: 3203
+    _Type: 2
+    _PayId: 46702
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 0
+  - _Id: 37003
+    _Note: 【进化之路7_充值】198
+    _Reward:
+    - 7002
+    - 2000
+    - 7002
+    - 2000
+    - 7002
+    - 2000
+    - 7002
+    - 2000
+    _Order: 4
+    _Discount: 3203
+    _Type: 2
+    _PayId: 46703
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 0
+  - _Id: 37004
+    _Note: 【进化之路7_充值】328
+    _Reward:
+    - 7002
+    - 3300
+    - 7002
+    - 3300
+    - 7002
+    - 3300
+    - 7002
+    - 3300
+    _Order: 5
+    _Discount: 3203
+    _Type: 2
+    _PayId: 46704
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 0
+  - _Id: 50001
+    _Note: 【赛博迷城】广告
+    _Reward:
+    - 9034
+    - 5
+    _Order: 1
+    _Discount: 3271
+    _Type: 1
+    _PayId: 1
+    _ItmeCost: []
+    _Count: 4
+    _Daily: 1
+  - _Id: 50002
+    _Note: 【赛博迷城】钻石
+    _Reward:
+    - 9034
+    - 10
+    _Order: 2
+    _Discount: 3272
+    _Type: 3
+    _PayId: 0
+    _ItmeCost:
+    - 7002
+    - 300
+    _Count: 5
+    _Daily: 1
+  - _Id: 50003
+    _Note: 【赛博迷城】6
+    _Reward:
+    - 7002
+    - 60
+    - 9034
+    - 18
+    _Order: 3
+    _Discount: 3272
+    _Type: 2
+    _PayId: 26101
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 50004
+    _Note: 【赛博迷城】30
+    _Reward:
+    - 7002
+    - 350
+    - 9034
+    - 28
+    - 9034
+    - 28
+    _Order: 4
+    _Discount: 3216
+    _Type: 2
+    _PayId: 26102
+    _ItmeCost: []
+    _Count: 2
+    _Daily: 1
+  - _Id: 50005
+    _Note: 【赛博迷城】68
+    _Reward:
+    - 7002
+    - 800
+    - 9034
+    - 58
+    - 9034
+    - 58
+    _Order: 5
+    _Discount: 3216
+    _Type: 2
+    _PayId: 26103
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 0
+  - _Id: 50006
+    _Note: 【赛博迷城】128
+    _Reward:
+    - 7002
+    - 1700
+    - 9034
+    - 88
+    - 9034
+    - 88
+    _Order: 3
+    _Discount: 3210
+    _Type: 2
+    _PayId: 26104
+    _ItmeCost: []
+    _Count: 2
+    _Daily: 0
+  - _Id: 50007
+    _Note: 【赛博迷城】328
+    _Reward:
+    - 7002
+    - 4500
+    - 9034
+    - 188
+    - 9034
+    - 188
+    _Order: 3
+    _Discount: 3210
+    _Type: 2
+    _PayId: 26105
+    _ItmeCost: []
+    _Count: 4
+    _Daily: 0
+  - _Id: 50008
+    _Note: 【赛博迷城】648
+    _Reward:
+    - 7002
+    - 10000
+    - 9034
+    - 288
+    - 9034
+    - 288
+    _Order: 3
+    _Discount: 3202
+    _Type: 2
+    _PayId: 26106
+    _ItmeCost: []
+    _Count: -1
+    _Daily: 0
+  - _Id: 60001
+    _Note: 【合服活动】广告
+    _Reward:
+    - 7013
+    - 1
+    - 7006
+    - 10
+    _Order: 1
+    _Discount: 3271
+    _Type: 0
+    _PayId: 0
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 60002
+    _Note: 【合服活动】30
+    _Reward:
+    - 7002
+    - 350
+    - 13034
+    - 1788
+    _Order: 2
+    _Discount: 3215
+    _Type: 2
+    _PayId: 45001
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 60003
+    _Note: 【合服活动】68
+    _Reward:
+    - 7002
+    - 800
+    - 13034
+    - 3288
+    _Order: 3
+    _Discount: 3201
+    _Type: 2
+    _PayId: 45002
+    _ItmeCost: []
+    _Count: 2
+    _Daily: 0
+  - _Id: 60004
+    _Note: 【合服活动】128
+    _Reward:
+    - 7002
+    - 1700
+    - 13034
+    - 6188
+    _Order: 4
+    _Discount: 3201
+    _Type: 2
+    _PayId: 45003
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 0
+  - _Id: 60005
+    _Note: 【合服活动】328
+    _Reward:
+    - 7002
+    - 4500
+    - 13034
+    - 6888
+    - 13034
+    - 6888
+    _Order: 5
+    _Discount: 3216
+    _Type: 2
+    _PayId: 45004
+    _ItmeCost: []
+    _Count: 5
+    _Daily: 0
+  - _Id: 60006
+    _Note: 【合服活动】648
+    _Reward:
+    - 7002
+    - 10000
+    - 13034
+    - 10888
+    - 13034
+    - 10888
+    _Order: 6
+    _Discount: 3216
+    _Type: 2
+    _PayId: 45005
+    _ItmeCost: []
+    _Count: -1
+    _Daily: 0
+  - _Id: 100001
+    _Note: 【万圣节】广告
+    _Reward:
+    - 7002
+    - 30
+    - 7001
+    - 5
+    _Order: 1
+    _Discount: 3271
+    _Type: 1
+    _PayId: 1
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 100002
+    _Note: 【万圣节】6
+    _Reward:
+    - 7002
+    - 60
+    - 7006
+    - 20
+    - 13001
+    - 1
+    - 13002
+    - 10
+    _Order: 2
+    _Discount: 3272
+    _Type: 2
+    _PayId: 24001
+    _ItmeCost: []
+    _Count: 5
+    _Daily: 0
+  - _Id: 100003
+    _Note: 【万圣节】30
+    _Reward:
+    - 7002
+    - 350
+    - 7006
+    - 50
+    - 13001
+    - 2
+    - 13002
+    - 30
+    _Order: 3
+    _Discount: 3216
+    _Type: 2
+    _PayId: 24002
+    _ItmeCost: []
+    _Count: 5
+    _Daily: 0
+  - _Id: 100004
+    _Note: 【万圣节】68
+    _Reward:
+    - 7002
+    - 800
+    - 29200
+    - 1
+    - 13001
+    - 3
+    - 13002
+    - 100
+    _Order: 4
+    _Discount: 3216
+    _Type: 2
+    _PayId: 24003
+    _ItmeCost: []
+    _Count: 5
+    _Daily: 0
+  - _Id: 100005
+    _Note: 【万圣节】328
+    _Reward:
+    - 7002
+    - 4500
+    - 29201
+    - 1
+    - 13001
+    - 10
+    - 13002
+    - 500
+    _Order: 5
+    _Discount: 3216
+    _Type: 2
+    _PayId: 24004
+    _ItmeCost: []
+    _Count: 2
+    _Daily: 0
+  - _Id: 100011
+    _Note: 【感恩节】广告
+    _Reward:
+    - 7002
+    - 10
+    - 7001
+    - 5
+    _Order: 1
+    _Discount: 3271
+    _Type: 1
+    _PayId: 1
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 100012
+    _Note: 【感恩节】6
+    _Reward:
+    - 7002
+    - 60
+    - 7006
+    - 30
+    - 13004
+    - 50
+    _Order: 2
+    _Discount: 3272
+    _Type: 2
+    _PayId: 24011
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 0
+  - _Id: 100013
+    _Note: 【感恩节】30
+    _Reward:
+    - 7002
+    - 350
+    - 7006
+    - 100
+    - 13003
+    - 20
+    _Order: 3
+    _Discount: 3201
+    _Type: 2
+    _PayId: 24012
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 0
+  - _Id: 100014
+    _Note: 【感恩节】68
+    _Reward:
+    - 7002
+    - 800
+    - 13004
+    - 3000
+    - 13003
+    - 120
+    _Order: 4
+    _Discount: 3216
+    _Type: 2
+    _PayId: 24013
+    _ItmeCost: []
+    _Count: 2
+    _Daily: 0
+  - _Id: 100015
+    _Note: 【感恩节】68
+    _Reward:
+    - 7002
+    - 1700
+    - 13004
+    - 5000
+    - 13003
+    - 240
+    _Order: 4
+    _Discount: 3216
+    _Type: 2
+    _PayId: 24014
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 0
+  - _Id: 100016
+    _Note: 【感恩节】328
+    _Reward:
+    - 7002
+    - 4500
+    - 13004
+    - 10000
+    - 13003
+    - 600
+    _Order: 5
+    _Discount: 3210
+    _Type: 2
+    _PayId: 24015
+    _ItmeCost: []
+    _Count: 5
+    _Daily: 0
+  - _Id: 100017
+    _Note: 【感恩节】648
+    _Reward:
+    - 7002
+    - 10000
+    - 13004
+    - 18000
+    - 13003
+    - 1000
+    _Order: 5
+    _Discount: 3202
+    _Type: 2
+    _PayId: 24016
+    _ItmeCost: []
+    _Count: -1
+    _Daily: 0
+  - _Id: 100021
+    _Note: 【圣诞节】免费
+    _Reward:
+    - 13033
+    - 10
+    _Order: 1
+    _Discount: 3271
+    _Type: 0
+    _PayId: 0
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 100022
+    _Note: 【圣诞节】钻石*300
+    _Reward:
+    - 13033
+    - 10
+    - 13032
+    - 1
+    _Order: 2
+    _Discount: 3272
+    _Type: 3
+    _PayId: 0
+    _ItmeCost:
+    - 7002
+    - 300
+    _Count: 3
+    _Daily: 1
+  - _Id: 100023
+    _Note: 【圣诞节】6
+    _Reward:
+    - 7002
+    - 60
+    - 13032
+    - 2
+    - 13033
+    - 20
+    _Order: 2
+    _Discount: 3272
+    _Type: 2
+    _PayId: 24021
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 100024
+    _Note: 【圣诞节】30
+    _Reward:
+    - 7002
+    - 350
+    - 13032
+    - 8
+    - 13033
+    - 30
+    _Order: 3
+    _Discount: 3216
+    _Type: 2
+    _PayId: 24022
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 100025
+    _Note: 【圣诞节】68
+    _Reward:
+    - 7002
+    - 800
+    - 13032
+    - 15
+    - 13033
+    - 40
+    _Order: 4
+    _Discount: 3216
+    _Type: 2
+    _PayId: 24023
+    _ItmeCost: []
+    _Count: 2
+    _Daily: 0
+  - _Id: 100026
+    _Note: 【圣诞节】128
+    _Reward:
+    - 7002
+    - 1700
+    - 13032
+    - 25
+    - 13033
+    - 50
+    _Order: 5
+    _Discount: 3218
+    _Type: 2
+    _PayId: 24024
+    _ItmeCost: []
+    _Count: 2
+    _Daily: 0
+  - _Id: 100027
+    _Note: 【圣诞节】328
+    _Reward:
+    - 7002
+    - 4500
+    - 13032
+    - 55
+    - 13033
+    - 100
+    _Order: 5
+    _Discount: 3210
+    _Type: 2
+    _PayId: 24025
+    _ItmeCost: []
+    _Count: 5
+    _Daily: 0
+  - _Id: 100028
+    _Note: 【圣诞节】648
+    _Reward:
+    - 7002
+    - 10000
+    - 13032
+    - 100
+    - 13033
+    - 200
+    _Order: 5
+    _Discount: 3210
+    _Type: 2
+    _PayId: 24026
+    _ItmeCost: []
+    _Count: 10
+    _Daily: 0
+  - _Id: 100029
+    _Note: 【圣诞节】648_锚
+    _Reward:
+    - 13032
+    - 100
+    _Order: 5
+    _Discount: 3203
+    _Type: 2
+    _PayId: 24027
+    _ItmeCost: []
+    _Count: -1
+    _Daily: 0
+  - _Id: 100031
+    _Note: 【元旦】免费
+    _Reward:
+    - 7002
+    - 10
+    - 7001
+    - 5
+    _Order: 1
+    _Discount: 3271
+    _Type: 1
+    _PayId: 1
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 100032
+    _Note: 【元旦】6
+    _Reward:
+    - 7002
+    - 60
+    - 7006
+    - 30
+    - 13006
+    - 50
+    _Order: 2
+    _Discount: 3272
+    _Type: 2
+    _PayId: 24031
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 0
+  - _Id: 100033
+    _Note: 【元旦】30
+    _Reward:
+    - 7002
+    - 350
+    - 7006
+    - 100
+    - 13005
+    - 20
+    _Order: 3
+    _Discount: 3201
+    _Type: 2
+    _PayId: 24032
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 0
+  - _Id: 100034
+    _Note: 【元旦】68
+    _Reward:
+    - 7002
+    - 800
+    - 13006
+    - 3000
+    - 13005
+    - 120
+    _Order: 4
+    _Discount: 3216
+    _Type: 2
+    _PayId: 24033
+    _ItmeCost: []
+    _Count: 2
+    _Daily: 0
+  - _Id: 100035
+    _Note: 【元旦】128
+    _Reward:
+    - 7002
+    - 1700
+    - 13006
+    - 5000
+    - 13005
+    - 240
+    _Order: 5
+    _Discount: 3216
+    _Type: 2
+    _PayId: 24034
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 0
+  - _Id: 100036
+    _Note: 【元旦】328
+    _Reward:
+    - 7002
+    - 4500
+    - 13006
+    - 10000
+    - 13005
+    - 600
+    _Order: 6
+    _Discount: 3210
+    _Type: 2
+    _PayId: 24035
+    _ItmeCost: []
+    _Count: 5
+    _Daily: 0
+  - _Id: 100037
+    _Note: 【元旦】648
+    _Reward:
+    - 7002
+    - 10000
+    - 13006
+    - 18000
+    - 13005
+    - 1000
+    _Order: 6
+    _Discount: 3202
+    _Type: 2
+    _PayId: 24036
+    _ItmeCost: []
+    _Count: -1
+    _Daily: 0
+  - _Id: 100041
+    _Note: 【情人节】免费
+    _Reward:
+    - 7002
+    - 10
+    - 7001
+    - 5
+    _Order: 1
+    _Discount: 3271
+    _Type: 0
+    _PayId: 0
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 100042
+    _Note: 【情人节】6
+    _Reward:
+    - 7002
+    - 60
+    - 7006
+    - 30
+    - 13010
+    - 50
+    _Order: 2
+    _Discount: 3272
+    _Type: 2
+    _PayId: 24041
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 100043
+    _Note: 【情人节】30
+    _Reward:
+    - 7002
+    - 350
+    - 7006
+    - 100
+    - 13009
+    - 20
+    _Order: 3
+    _Discount: 3201
+    _Type: 2
+    _PayId: 24042
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 100044
+    _Note: 【情人节】68
+    _Reward:
+    - 7002
+    - 800
+    - 13010
+    - 3000
+    - 13009
+    - 120
+    _Order: 4
+    _Discount: 3216
+    _Type: 2
+    _PayId: 24043
+    _ItmeCost: []
+    _Count: 2
+    _Daily: 0
+  - _Id: 100045
+    _Note: 【情人节】128
+    _Reward:
+    - 7002
+    - 1700
+    - 13010
+    - 5000
+    - 13009
+    - 240
+    _Order: 5
+    _Discount: 3216
+    _Type: 2
+    _PayId: 24044
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 0
+  - _Id: 100046
+    _Note: 【情人节】328
+    _Reward:
+    - 7002
+    - 4500
+    - 13010
+    - 10000
+    - 13009
+    - 600
+    _Order: 6
+    _Discount: 3210
+    _Type: 2
+    _PayId: 24045
+    _ItmeCost: []
+    _Count: 5
+    _Daily: 0
+  - _Id: 100047
+    _Note: 【情人节】648
+    _Reward:
+    - 7002
+    - 10000
+    - 13010
+    - 18000
+    - 13009
+    - 1000
+    _Order: 7
+    _Discount: 3202
+    _Type: 2
+    _PayId: 24046
+    _ItmeCost: []
+    _Count: -1
+    _Daily: 0
+  - _Id: 100051
+    _Note: 【元宵节】免费
+    _Reward:
+    - 7002
+    - 10
+    - 7001
+    - 5
+    _Order: 1
+    _Discount: 3271
+    _Type: 0
+    _PayId: 0
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 100052
+    _Note: 【元宵节】6
+    _Reward:
+    - 7002
+    - 60
+    - 7006
+    - 30
+    - 13008
+    - 50
+    _Order: 2
+    _Discount: 3272
+    _Type: 2
+    _PayId: 24051
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 100053
+    _Note: 【元宵节】30
+    _Reward:
+    - 7002
+    - 350
+    - 7006
+    - 100
+    - 13007
+    - 20
+    _Order: 3
+    _Discount: 3201
+    _Type: 2
+    _PayId: 24052
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 100054
+    _Note: 【元宵节】68
+    _Reward:
+    - 7002
+    - 800
+    - 13008
+    - 3000
+    - 13007
+    - 120
+    _Order: 4
+    _Discount: 3216
+    _Type: 2
+    _PayId: 24053
+    _ItmeCost: []
+    _Count: 2
+    _Daily: 0
+  - _Id: 100055
+    _Note: 【元宵节】128
+    _Reward:
+    - 7002
+    - 1700
+    - 13008
+    - 5000
+    - 13007
+    - 240
+    _Order: 5
+    _Discount: 3216
+    _Type: 2
+    _PayId: 24054
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 0
+  - _Id: 100056
+    _Note: 【元宵节】328
+    _Reward:
+    - 7002
+    - 4500
+    - 13008
+    - 10000
+    - 13007
+    - 600
+    _Order: 6
+    _Discount: 3210
+    _Type: 2
+    _PayId: 24055
+    _ItmeCost: []
+    _Count: 5
+    _Daily: 0
+  - _Id: 100057
+    _Note: 【元宵节】648
+    _Reward:
+    - 7002
+    - 10000
+    - 13008
+    - 18000
+    - 13007
+    - 1000
+    _Order: 7
+    _Discount: 3202
+    _Type: 2
+    _PayId: 24056
+    _ItmeCost: []
+    _Count: -1
+    _Daily: 0
+  - _Id: 100061
+    _Note: 【春节】免费
+    _Reward:
+    - 9019
+    - 10
+    _Order: 1
+    _Discount: 3271
+    _Type: 0
+    _PayId: 0
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 100062
+    _Note: 【春节】钻石*300
+    _Reward:
+    - 9019
+    - 10
+    - 9018
+    - 1
+    _Order: 2
+    _Discount: 3272
+    _Type: 3
+    _PayId: 0
+    _ItmeCost:
+    - 7002
+    - 300
+    _Count: 3
+    _Daily: 1
+  - _Id: 100063
+    _Note: 【春节】6
+    _Reward:
+    - 7002
+    - 60
+    - 9018
+    - 2
+    - 9019
+    - 20
+    _Order: 3
+    _Discount: 3272
+    _Type: 2
+    _PayId: 24061
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 100064
+    _Note: 【春节】30
+    _Reward:
+    - 7002
+    - 350
+    - 9018
+    - 8
+    - 9019
+    - 30
+    _Order: 4
+    _Discount: 3216
+    _Type: 2
+    _PayId: 24062
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 100065
+    _Note: 【春节】68
+    _Reward:
+    - 7002
+    - 800
+    - 9018
+    - 15
+    - 9019
+    - 40
+    _Order: 5
+    _Discount: 3216
+    _Type: 2
+    _PayId: 24063
+    _ItmeCost: []
+    _Count: 2
+    _Daily: 0
+  - _Id: 100066
+    _Note: 【春节】128
+    _Reward:
+    - 7002
+    - 1700
+    - 9018
+    - 25
+    - 9019
+    - 50
+    _Order: 6
+    _Discount: 3218
+    _Type: 2
+    _PayId: 24064
+    _ItmeCost: []
+    _Count: 2
+    _Daily: 0
+  - _Id: 100067
+    _Note: 【春节】328
+    _Reward:
+    - 7002
+    - 4500
+    - 9018
+    - 55
+    - 9019
+    - 100
+    _Order: 7
+    _Discount: 3210
+    _Type: 2
+    _PayId: 24065
+    _ItmeCost: []
+    _Count: 4
+    _Daily: 0
+  - _Id: 100068
+    _Note: 【春节】648
+    _Reward:
+    - 7002
+    - 10000
+    - 9018
+    - 100
+    - 9019
+    - 200
+    _Order: 8
+    _Discount: 3210
+    _Type: 2
+    _PayId: 24066
+    _ItmeCost: []
+    _Count: 8
+    _Daily: 0
+  - _Id: 100069
+    _Note: 【春节】648_锚
+    _Reward:
+    - 9018
+    - 100
+    _Order: 8
+    _Discount: 3203
+    _Type: 2
+    _PayId: 24067
+    _ItmeCost: []
+    _Count: -1
+    _Daily: 0
+  - _Id: 100071
+    _Note: 【复活节】免费
+    _Reward:
+    - 13012
+    - 10
+    _Order: 1
+    _Discount: 3271
+    _Type: 0
+    _PayId: 0
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 100072
+    _Note: 【复活节】钻石*300
+    _Reward:
+    - 13012
+    - 15
+    - 13011
+    - 1
+    _Order: 2
+    _Discount: 3272
+    _Type: 3
+    _PayId: 0
+    _ItmeCost:
+    - 7002
+    - 300
+    _Count: 3
+    _Daily: 1
+  - _Id: 100073
+    _Note: 【复活节】6
+    _Reward:
+    - 7002
+    - 60
+    - 13011
+    - 2
+    - 13012
+    - 20
+    _Order: 3
+    _Discount: 3272
+    _Type: 2
+    _PayId: 24071
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 100074
+    _Note: 【复活节】30
+    _Reward:
+    - 7002
+    - 350
+    - 13011
+    - 8
+    - 13012
+    - 30
+    _Order: 4
+    _Discount: 3216
+    _Type: 2
+    _PayId: 24072
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 100075
+    _Note: 【复活节】68
+    _Reward:
+    - 7002
+    - 800
+    - 13011
+    - 15
+    - 13012
+    - 40
+    _Order: 5
+    _Discount: 3210
+    _Type: 2
+    _PayId: 24073
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 0
+  - _Id: 100076
+    _Note: 【复活节】128
+    _Reward:
+    - 7002
+    - 1700
+    - 13011
+    - 25
+    - 13012
+    - 50
+    _Order: 6
+    _Discount: 3210
+    _Type: 2
+    _PayId: 24074
+    _ItmeCost: []
+    _Count: 2
+    _Daily: 0
+  - _Id: 100077
+    _Note: 【复活节】328
+    _Reward:
+    - 7002
+    - 4500
+    - 13011
+    - 55
+    - 13012
+    - 100
+    _Order: 7
+    _Discount: 3210
+    _Type: 2
+    _PayId: 24075
+    _ItmeCost: []
+    _Count: 4
+    _Daily: 0
+  - _Id: 100078
+    _Note: 【复活节】648
+    _Reward:
+    - 7002
+    - 10000
+    - 13011
+    - 100
+    - 13012
+    - 200
+    _Order: 8
+    _Discount: 3210
+    _Type: 2
+    _PayId: 24076
+    _ItmeCost: []
+    _Count: 10
+    _Daily: 0
+  - _Id: 100081
+    _Note: 【清明节】免费
+    _Reward:
+    - 7002
+    - 10
+    - 7001
+    - 5
+    _Order: 1
+    _Discount: 3271
+    _Type: 0
+    _PayId: 0
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 100082
+    _Note: 【清明节】6
+    _Reward:
+    - 7002
+    - 60
+    - 13014
+    - 30
+    - 7006
+    - 20
+    - 7010
+    - 3
+    _Order: 2
+    _Discount: 3272
+    _Type: 2
+    _PayId: 24081
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 100083
+    _Note: 【清明节】30
+    _Reward:
+    - 7002
+    - 350
+    - 13014
+    - 200
+    - 7006
+    - 50
+    - 7010
+    - 5
+    _Order: 3
+    _Discount: 3216
+    _Type: 2
+    _PayId: 24082
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 100084
+    _Note: 【清明节】68
+    _Reward:
+    - 7002
+    - 800
+    - 13014
+    - 1000
+    - 13013
+    - 30
+    - 13013
+    - 30
+    _Order: 4
+    _Discount: 3210
+    _Type: 2
+    _PayId: 24083
+    _ItmeCost: []
+    _Count: 2
+    _Daily: 0
+  - _Id: 100085
+    _Note: 【清明节】128
+    _Reward:
+    - 7002
+    - 1700
+    - 13014
+    - 1600
+    - 13013
+    - 70
+    - 13013
+    - 70
+    _Order: 5
+    _Discount: 3210
+    _Type: 2
+    _PayId: 24084
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 0
+  - _Id: 100086
+    _Note: 【清明节】328
+    _Reward:
+    - 7002
+    - 4500
+    - 13014
+    - 3200
+    - 13013
+    - 150
+    - 13013
+    - 150
+    _Order: 6
+    _Discount: 3210
+    _Type: 2
+    _PayId: 24085
+    _ItmeCost: []
+    _Count: 8
+    _Daily: 0
+  - _Id: 100091
+    _Note: 【劳动节】免费
+    _Reward:
+    - 13016
+    - 10
+    _Order: 1
+    _Discount: 3271
+    _Type: 0
+    _PayId: 0
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 100092
+    _Note: 【劳动节】钻石*300
+    _Reward:
+    - 13016
+    - 10
+    - 13015
+    - 1
+    _Order: 2
+    _Discount: 3272
+    _Type: 3
+    _PayId: 0
+    _ItmeCost:
+    - 7002
+    - 300
+    _Count: 3
+    _Daily: 1
+  - _Id: 100093
+    _Note: 【劳动节】6
+    _Reward:
+    - 7002
+    - 60
+    - 13015
+    - 2
+    - 13016
+    - 20
+    _Order: 3
+    _Discount: 3272
+    _Type: 2
+    _PayId: 24091
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 100094
+    _Note: 【劳动节】30
+    _Reward:
+    - 7002
+    - 350
+    - 13015
+    - 8
+    - 13016
+    - 30
+    _Order: 4
+    _Discount: 3216
+    _Type: 2
+    _PayId: 24092
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 100095
+    _Note: 【劳动节】68
+    _Reward:
+    - 7002
+    - 800
+    - 13015
+    - 15
+    - 13016
+    - 40
+    _Order: 5
+    _Discount: 3216
+    _Type: 2
+    _PayId: 24093
+    _ItmeCost: []
+    _Count: 2
+    _Daily: 0
+  - _Id: 100096
+    _Note: 【劳动节】128
+    _Reward:
+    - 7002
+    - 1700
+    - 13015
+    - 25
+    - 13016
+    - 50
+    _Order: 6
+    _Discount: 3218
+    _Type: 2
+    _PayId: 24094
+    _ItmeCost: []
+    _Count: 2
+    _Daily: 0
+  - _Id: 100097
+    _Note: 【劳动节】328
+    _Reward:
+    - 7002
+    - 4500
+    - 13015
+    - 55
+    - 13016
+    - 100
+    _Order: 7
+    _Discount: 3210
+    _Type: 2
+    _PayId: 24095
+    _ItmeCost: []
+    _Count: 4
+    _Daily: 0
+  - _Id: 100098
+    _Note: 【劳动节】648
+    _Reward:
+    - 7002
+    - 10000
+    - 13015
+    - 100
+    - 13016
+    - 200
+    _Order: 8
+    _Discount: 3210
+    _Type: 2
+    _PayId: 24096
+    _ItmeCost: []
+    _Count: 8
+    _Daily: 0
+  - _Id: 100099
+    _Note: 【劳动节】648_锚
+    _Reward:
+    - 13015
+    - 100
+    _Order: 9
+    _Discount: 3203
+    _Type: 2
+    _PayId: 24097
+    _ItmeCost: []
+    _Count: -1
+    _Daily: 0
+  - _Id: 100101
+    _Note: 【端午节】免费
+    _Reward:
+    - 7002
+    - 10
+    - 7001
+    - 5
+    _Order: 1
+    _Discount: 3271
+    _Type: 0
+    _PayId: 0
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 100102
+    _Note: 【端午节】6
+    _Reward:
+    - 7002
+    - 60
+    - 13018
+    - 500
+    - 13017
+    - 20
+    _Order: 2
+    _Discount: 3272
+    _Type: 2
+    _PayId: 24101
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 100103
+    _Note: 【端午节】30
+    _Reward:
+    - 7002
+    - 350
+    - 13018
+    - 1500
+    - 13017
+    - 60
+    _Order: 3
+    _Discount: 3201
+    _Type: 2
+    _PayId: 24102
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 100104
+    _Note: 【端午节】68
+    _Reward:
+    - 7002
+    - 800
+    - 13018
+    - 3000
+    - 13017
+    - 120
+    _Order: 4
+    _Discount: 3216
+    _Type: 2
+    _PayId: 24103
+    _ItmeCost: []
+    _Count: 2
+    _Daily: 0
+  - _Id: 100105
+    _Note: 【端午节】128
+    _Reward:
+    - 7002
+    - 1700
+    - 13018
+    - 6000
+    - 13017
+    - 240
+    _Order: 5
+    _Discount: 3216
+    _Type: 2
+    _PayId: 24104
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 0
+  - _Id: 100106
+    _Note: 【端午节】328
+    _Reward:
+    - 7002
+    - 4500
+    - 13018
+    - 15000
+    - 13017
+    - 600
+    _Order: 6
+    _Discount: 3218
+    _Type: 2
+    _PayId: 24105
+    _ItmeCost: []
+    _Count: 5
+    _Daily: 0
+  - _Id: 100107
+    _Note: 【端午节】648
+    _Reward:
+    - 7002
+    - 10000
+    - 13018
+    - 20000
+    - 13017
+    - 1000
+    _Order: 7
+    _Discount: 3203
+    _Type: 2
+    _PayId: 24106
+    _ItmeCost: []
+    _Count: -1
+    _Daily: 0
+  - _Id: 100111
+    _Note: 【周年庆】免费
+    _Reward:
+    - 13019
+    - 3
+    _Order: 1
+    _Discount: 3271
+    _Type: 0
+    _PayId: 0
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 1
+  - _Id: 100112
+    _Note: 【周年庆】钻石*300
+    _Reward:
+    - 13019
+    - 5
+    _Order: 2
+    _Discount: 3272
+    _Type: 3
+    _PayId: 0
+    _ItmeCost:
+    - 7002
+    - 300
+    _Count: 5
+    _Daily: 1
+  - _Id: 100113
+    _Note: 【周年庆】6
+    _Reward:
+    - 7002
+    - 60
+    - 13019
+    - 10
+    _Order: 3
+    _Discount: 3272
+    _Type: 2
+    _PayId: 24111
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 100114
+    _Note: 【周年庆】30
+    _Reward:
+    - 7002
+    - 350
+    - 13019
+    - 38
+    _Order: 4
+    _Discount: 3201
+    _Type: 2
+    _PayId: 24112
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 100115
+    _Note: 【周年庆】68
+    _Reward:
+    - 7002
+    - 800
+    - 13019
+    - 38
+    - 13019
+    - 38
+    _Order: 5
+    _Discount: 3216
+    _Type: 2
+    _PayId: 24113
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 0
+  - _Id: 100116
+    _Note: 【周年庆】128
+    _Reward:
+    - 7002
+    - 1700
+    - 13019
+    - 58
+    - 13019
+    - 58
+    _Order: 6
+    _Discount: 3218
+    _Type: 2
+    _PayId: 24114
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 0
+  - _Id: 100117
+    _Note: 【周年庆】328
+    _Reward:
+    - 7002
+    - 4500
+    - 13019
+    - 128
+    - 13019
+    - 128
+    _Order: 7
+    _Discount: 3210
+    _Type: 2
+    _PayId: 24115
+    _ItmeCost: []
+    _Count: 5
+    _Daily: 0
+  - _Id: 100118
+    _Note: 【周年庆】648
+    _Reward:
+    - 7002
+    - 10000
+    - 13019
+    - 198
+    - 13019
+    - 198
+    _Order: 8
+    _Discount: 3202
+    _Type: 2
+    _PayId: 24116
+    _ItmeCost: []
+    _Count: -1
+    _Daily: 0
+  - _Id: 100121
+    _Note: 【奥运会】免费
+    _Reward:
+    - 7002
+    - 10
+    - 7001
+    - 5
+    _Order: 1
+    _Discount: 3271
+    _Type: 0
+    _PayId: 0
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 100122
+    _Note: 【奥运会】6
+    _Reward:
+    - 7002
+    - 60
+    - 7010
+    - 2
+    - 7006
+    - 30
+    - 13022
+    - 30
+    _Order: 2
+    _Discount: 3272
+    _Type: 2
+    _PayId: 24131
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 100123
+    _Note: 【奥运会】30
+    _Reward:
+    - 7002
+    - 350
+    - 7010
+    - 8
+    - 7006
+    - 50
+    - 13022
+    - 100
+    _Order: 3
+    _Discount: 3201
+    _Type: 2
+    _PayId: 24132
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 1
+  - _Id: 100124
+    _Note: 【奥运会】68
+    _Reward:
+    - 7002
+    - 800
+    - 13022
+    - 3000
+    - 13021
+    - 60
+    - 13021
+    - 60
+    _Order: 4
+    _Discount: 3216
+    _Type: 2
+    _PayId: 24133
+    _ItmeCost: []
+    _Count: 2
+    _Daily: 0
+  - _Id: 100125
+    _Note: 【奥运会】128
+    _Reward:
+    - 7002
+    - 1700
+    - 13022
+    - 5000
+    - 13021
+    - 120
+    - 13021
+    - 120
+    _Order: 5
+    _Discount: 3216
+    _Type: 2
+    _PayId: 24134
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 0
+  - _Id: 100126
+    _Note: 【奥运会】328
+    _Reward:
+    - 7002
+    - 4500
+    - 13022
+    - 7500
+    - 13021
+    - 300
+    - 13021
+    - 300
+    _Order: 6
+    _Discount: 3210
+    _Type: 2
+    _PayId: 24135
+    _ItmeCost: []
+    _Count: 8
+    _Daily: 0
+  - _Id: 100127
+    _Note: 【奥运会】648
+    _Reward:
+    - 7002
+    - 10000
+    - 13022
+    - 9000
+    - 13021
+    - 500
+    - 13021
+    - 500
+    _Order: 7
+    _Discount: 3203
+    _Type: 2
+    _PayId: 24136
+    _ItmeCost: []
+    _Count: -1
+    _Daily: 0
+  - _Id: 100131
+    _Note: 【七夕】免费
+    _Reward:
+    - 7002
+    - 10
+    - 7001
+    - 5
+    _Order: 1
+    _Discount: 3271
+    _Type: 0
+    _PayId: 0
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 100132
+    _Note: 【七夕】6
+    _Reward:
+    - 7002
+    - 60
+    - 7010
+    - 2
+    - 7006
+    - 30
+    - 13024
+    - 30
+    _Order: 2
+    _Discount: 3272
+    _Type: 2
+    _PayId: 24141
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 100133
+    _Note: 【七夕】30
+    _Reward:
+    - 7002
+    - 350
+    - 7010
+    - 8
+    - 7006
+    - 50
+    - 13024
+    - 100
+    _Order: 3
+    _Discount: 3201
+    _Type: 2
+    _PayId: 24142
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 1
+  - _Id: 100134
+    _Note: 【七夕】68
+    _Reward:
+    - 7002
+    - 800
+    - 13024
+    - 3000
+    - 13023
+    - 60
+    - 13023
+    - 60
+    _Order: 4
+    _Discount: 3216
+    _Type: 2
+    _PayId: 24143
+    _ItmeCost: []
+    _Count: 2
+    _Daily: 0
+  - _Id: 100135
+    _Note: 【七夕】128
+    _Reward:
+    - 7002
+    - 1700
+    - 13024
+    - 5000
+    - 13023
+    - 120
+    - 13023
+    - 120
+    _Order: 5
+    _Discount: 3216
+    _Type: 2
+    _PayId: 24144
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 0
+  - _Id: 100136
+    _Note: 【七夕】328
+    _Reward:
+    - 7002
+    - 4500
+    - 13024
+    - 7500
+    - 13023
+    - 300
+    - 13023
+    - 300
+    _Order: 6
+    _Discount: 3210
+    _Type: 2
+    _PayId: 24145
+    _ItmeCost: []
+    _Count: 8
+    _Daily: 0
+  - _Id: 100137
+    _Note: 【七夕】648
+    _Reward:
+    - 7002
+    - 10000
+    - 13024
+    - 9000
+    - 13023
+    - 500
+    - 13023
+    - 500
+    _Order: 7
+    _Discount: 3202
+    _Type: 2
+    _PayId: 24146
+    _ItmeCost: []
+    _Count: -1
+    _Daily: 0
+  - _Id: 100141
+    _Note: 【返校节】免费
+    _Reward:
+    - 13026
+    - 10
+    _Order: 1
+    _Discount: 3271
+    _Type: 0
+    _PayId: 0
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 100142
+    _Note: 【返校节】钻石*300
+    _Reward:
+    - 13026
+    - 10
+    - 13025
+    - 1
+    _Order: 2
+    _Discount: 3272
+    _Type: 3
+    _PayId: 0
+    _ItmeCost:
+    - 7002
+    - 300
+    _Count: 3
+    _Daily: 1
+  - _Id: 100143
+    _Note: 【返校节】6
+    _Reward:
+    - 7002
+    - 60
+    - 13025
+    - 2
+    - 13026
+    - 10
+    _Order: 3
+    _Discount: 3272
+    _Type: 2
+    _PayId: 24151
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 100144
+    _Note: 【返校节】30
+    _Reward:
+    - 7002
+    - 350
+    - 13025
+    - 8
+    - 13026
+    - 20
+    _Order: 4
+    _Discount: 3216
+    _Type: 2
+    _PayId: 24152
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 100145
+    _Note: 【返校节】68
+    _Reward:
+    - 7002
+    - 800
+    - 13025
+    - 15
+    - 13026
+    - 40
+    _Order: 5
+    _Discount: 3216
+    _Type: 2
+    _PayId: 24153
+    _ItmeCost: []
+    _Count: 2
+    _Daily: 0
+  - _Id: 100146
+    _Note: 【返校节】128
+    _Reward:
+    - 7002
+    - 1700
+    - 13025
+    - 25
+    - 13026
+    - 60
+    _Order: 6
+    _Discount: 3218
+    _Type: 2
+    _PayId: 24154
+    _ItmeCost: []
+    _Count: 2
+    _Daily: 0
+  - _Id: 100147
+    _Note: 【返校节】328
+    _Reward:
+    - 7002
+    - 4500
+    - 13025
+    - 55
+    - 13026
+    - 100
+    _Order: 7
+    _Discount: 3210
+    _Type: 2
+    _PayId: 24155
+    _ItmeCost: []
+    _Count: 5
+    _Daily: 0
+  - _Id: 100148
+    _Note: 【返校节】648
+    _Reward:
+    - 7002
+    - 10000
+    - 13025
+    - 100
+    - 13026
+    - 200
+    _Order: 8
+    _Discount: 3210
+    _Type: 2
+    _PayId: 24156
+    _ItmeCost: []
+    _Count: 10
+    _Daily: 0
+  - _Id: 100149
+    _Note: 【返校节】648_锚
+    _Reward:
+    - 7002
+    - 10000
+    - 13025
+    - 50
+    _Order: 9
+    _Discount: 3202
+    _Type: 2
+    _PayId: 24157
+    _ItmeCost: []
+    _Count: -1
+    _Daily: 0
+  - _Id: 100151
+    _Note: 【中秋】免费
+    _Reward:
+    - 7002
+    - 10
+    - 7001
+    - 5
+    _Order: 1
+    _Discount: 3271
+    _Type: 0
+    _PayId: 0
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 100152
+    _Note: 【中秋】6
+    _Reward:
+    - 7002
+    - 60
+    - 7006
+    - 30
+    - 13029
+    - 50
+    _Order: 2
+    _Discount: 3272
+    _Type: 2
+    _PayId: 24161
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 100153
+    _Note: 【中秋】30
+    _Reward:
+    - 7002
+    - 350
+    - 7006
+    - 100
+    - 13028
+    - 20
+    _Order: 3
+    _Discount: 3201
+    _Type: 2
+    _PayId: 24162
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 100154
+    _Note: 【中秋】68
+    _Reward:
+    - 7002
+    - 800
+    - 13029
+    - 3000
+    - 13028
+    - 120
+    _Order: 4
+    _Discount: 3216
+    _Type: 2
+    _PayId: 24163
+    _ItmeCost: []
+    _Count: 2
+    _Daily: 0
+  - _Id: 100155
+    _Note: 【中秋】128
+    _Reward:
+    - 7002
+    - 1700
+    - 13029
+    - 5000
+    - 13028
+    - 240
+    _Order: 5
+    _Discount: 3216
+    _Type: 2
+    _PayId: 24164
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 0
+  - _Id: 100156
+    _Note: 【中秋】328
+    _Reward:
+    - 7002
+    - 4500
+    - 13029
+    - 8000
+    - 13028
+    - 600
+    _Order: 6
+    _Discount: 3210
+    _Type: 2
+    _PayId: 24165
+    _ItmeCost: []
+    _Count: 10
+    _Daily: 0
+  - _Id: 100157
+    _Note: 【中秋】648
+    _Reward:
+    - 7002
+    - 10000
+    - 13029
+    - 10000
+    - 13028
+    - 1000
+    _Order: 7
+    _Discount: 3202
+    _Type: 2
+    _PayId: 24166
+    _ItmeCost: []
+    _Count: -1
+    _Daily: 0
+  - _Id: 100161
+    _Note: 【万圣节】免费
+    _Reward:
+    - 13031
+    - 10
+    _Order: 1
+    _Discount: 3271
+    _Type: 0
+    _PayId: 0
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 100162
+    _Note: 【万圣节】钻石*300
+    _Reward:
+    - 13031
+    - 10
+    - 13030
+    - 1
+    _Order: 2
+    _Discount: 3272
+    _Type: 3
+    _PayId: 0
+    _ItmeCost:
+    - 7002
+    - 300
+    _Count: 3
+    _Daily: 1
+  - _Id: 100163
+    _Note: 【万圣节】6
+    _Reward:
+    - 7002
+    - 60
+    - 13030
+    - 2
+    - 13031
+    - 20
+    _Order: 3
+    _Discount: 3272
+    _Type: 2
+    _PayId: 24171
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 100164
+    _Note: 【万圣节】30
+    _Reward:
+    - 7002
+    - 350
+    - 13030
+    - 8
+    - 13031
+    - 30
+    _Order: 4
+    _Discount: 3216
+    _Type: 2
+    _PayId: 24172
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 100165
+    _Note: 【万圣节】68
+    _Reward:
+    - 7002
+    - 800
+    - 13030
+    - 15
+    - 13031
+    - 40
+    _Order: 5
+    _Discount: 3216
+    _Type: 2
+    _PayId: 24173
+    _ItmeCost: []
+    _Count: 2
+    _Daily: 0
+  - _Id: 100166
+    _Note: 【万圣节】128
+    _Reward:
+    - 7002
+    - 1700
+    - 13030
+    - 25
+    - 13031
+    - 50
+    _Order: 6
+    _Discount: 3218
+    _Type: 2
+    _PayId: 24174
+    _ItmeCost: []
+    _Count: 2
+    _Daily: 0
+  - _Id: 100167
+    _Note: 【万圣节】328
+    _Reward:
+    - 7002
+    - 4500
+    - 13030
+    - 55
+    - 13031
+    - 100
+    _Order: 7
+    _Discount: 3210
+    _Type: 2
+    _PayId: 24175
+    _ItmeCost: []
+    _Count: 5
+    _Daily: 0
+  - _Id: 100168
+    _Note: 【万圣节】648
+    _Reward:
+    - 7002
+    - 10000
+    - 13030
+    - 100
+    - 13031
+    - 200
+    _Order: 8
+    _Discount: 3210
+    _Type: 2
+    _PayId: 24176
+    _ItmeCost: []
+    _Count: 10
+    _Daily: 0
+  - _Id: 100171
+    _Note: 【泼水节】免费
+    _Reward:
+    - 7002
+    - 10
+    - 7001
+    - 5
+    _Order: 1
+    _Discount: 3271
+    _Type: 0
+    _PayId: 0
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 100172
+    _Note: 【泼水节】6
+    _Reward:
+    - 7002
+    - 60
+    - 13036
+    - 500
+    - 13035
+    - 20
+    _Order: 2
+    _Discount: 3272
+    _Type: 2
+    _PayId: 24181
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 1
+  - _Id: 100173
+    _Note: 【泼水节】30
+    _Reward:
+    - 7002
+    - 350
+    - 13036
+    - 1500
+    - 13035
+    - 60
+    _Order: 3
+    _Discount: 3216
+    _Type: 2
+    _PayId: 24182
+    _ItmeCost: []
+    _Count: 1
+    _Daily: 0
+  - _Id: 100174
+    _Note: 【泼水节】68
+    _Reward:
+    - 7002
+    - 800
+    - 13036
+    - 3000
+    - 13035
+    - 120
+    _Order: 4
+    _Discount: 3216
+    _Type: 2
+    _PayId: 24183
+    _ItmeCost: []
+    _Count: 2
+    _Daily: 0
+  - _Id: 100175
+    _Note: 【泼水节】128
+    _Reward:
+    - 7002
+    - 1700
+    - 13036
+    - 6000
+    - 13035
+    - 240
+    _Order: 5
+    _Discount: 3216
+    _Type: 2
+    _PayId: 24184
+    _ItmeCost: []
+    _Count: 3
+    _Daily: 0
+  - _Id: 100176
+    _Note: 【泼水节】328
+    _Reward:
+    - 7002
+    - 4500
+    - 13036
+    - 15000
+    - 13035
+    - 600
+    _Order: 6
+    _Discount: 3216
+    _Type: 2
+    _PayId: 24185
+    _ItmeCost: []
+    _Count: 5
+    _Daily: 0
+  - _Id: 100177
+    _Note: 【泼水节】648
+    _Reward:
+    - 7002
+    - 10000
+    - 13036
+    - 20000
+    - 13035
+    - 1000
+    _Order: 7
+    _Discount: 3210
+    _Type: 2
+    _PayId: 24186
+    _ItmeCost: []
+    _Count: -1
+    _Daily: 0

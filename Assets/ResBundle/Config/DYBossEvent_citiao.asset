@@ -1,0 +1,803 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30355cd86d94744055e3ac9cdd452370, type: 3}
+  m_Name: DYBossEvent_citiao
+  m_EditorClassIdentifier:
+  _Items:
+  - _Id: 1
+    _Name: 伤害系
+    _Type: 1
+    _NormalCitiao:
+    - 101
+    - 102
+    - 103
+    - 104
+    _ExternCitiao: []
+    _BossCitiao: []
+    _Weight:
+    - 10
+    - 10
+    - 10
+    - 10
+  - _Id: 2
+    _Name: 换弹系
+    _Type: 1
+    _NormalCitiao:
+    - 201
+    - 202
+    - 203
+    - 204
+    - 205
+    _ExternCitiao: []
+    _BossCitiao: []
+    _Weight:
+    - 10
+    - 10
+    - 10
+    - 10
+    - 10
+  - _Id: 3
+    _Name: 数量系
+    _Type: 1
+    _NormalCitiao:
+    - 301
+    - 302
+    - 303
+    - 304
+    - 305
+    _ExternCitiao: []
+    _BossCitiao: []
+    _Weight:
+    - 10
+    - 10
+    - 10
+    - 10
+    - 10
+  - _Id: 4
+    _Name: 射速系
+    _Type: 1
+    _NormalCitiao:
+    - 501
+    - 502
+    - 503
+    - 504
+    - 505
+    _ExternCitiao: []
+    _BossCitiao: []
+    _Weight:
+    - 10
+    - 10
+    - 10
+    - 10
+    - 10
+  - _Id: 5
+    _Name: 移速系
+    _Type: 1
+    _NormalCitiao:
+    - 601
+    - 602
+    - 603
+    - 604
+    - 605
+    _ExternCitiao: []
+    _BossCitiao: []
+    _Weight:
+    - 10
+    - 10
+    - 10
+    - 10
+    - 10
+  - _Id: 6
+    _Name: 冰冻系
+    _Type: 1
+    _NormalCitiao:
+    - 1001
+    - 1002
+    - 1003
+    - 1004
+    - 1005
+    _ExternCitiao: []
+    _BossCitiao: []
+    _Weight:
+    - 10
+    - 10
+    - 10
+    - 10
+    - 10
+  - _Id: 7
+    _Name: 雷电系
+    _Type: 1
+    _NormalCitiao:
+    - 1101
+    - 1102
+    - 1103
+    - 1104
+    _ExternCitiao: []
+    _BossCitiao: []
+    _Weight:
+    - 10
+    - 10
+    - 10
+    - 10
+  - _Id: 8
+    _Name: 火焰系
+    _Type: 1
+    _NormalCitiao:
+    - 1201
+    - 1202
+    - 1203
+    - 1204
+    - 1205
+    _ExternCitiao: []
+    _BossCitiao: []
+    _Weight:
+    - 10
+    - 10
+    - 10
+    - 10
+    - 10
+  - _Id: 9
+    _Name: 暗黑系
+    _Type: 1
+    _NormalCitiao:
+    - 1301
+    - 1302
+    - 1303
+    - 1304
+    - 1305
+    _ExternCitiao: []
+    _BossCitiao: []
+    _Weight:
+    - 10
+    - 10
+    - 10
+    - 10
+    - 10
+  - _Id: 10
+    _Name: 光明系
+    _Type: 1
+    _NormalCitiao:
+    - 1401
+    - 1402
+    - 1403
+    - 1404
+    _ExternCitiao: []
+    _BossCitiao: []
+    _Weight:
+    - 10
+    - 10
+    - 10
+    - 10
+  - _Id: 11
+    _Name: 视野系
+    _Type: 1
+    _NormalCitiao:
+    - 1501
+    - 1502
+    - 1503
+    - 1504
+    _ExternCitiao: []
+    _BossCitiao: []
+    _Weight:
+    - 10
+    - 10
+    - 10
+    - 10
+  - _Id: 12
+    _Name: 力量之书
+    _Type: 2
+    _NormalCitiao:
+    - 4901
+    _ExternCitiao: []
+    _BossCitiao: []
+    _Weight:
+    - 10
+  - _Id: 13
+    _Name: 敏捷之书
+    _Type: 2
+    _NormalCitiao:
+    - 4903
+    _ExternCitiao: []
+    _BossCitiao: []
+    _Weight:
+    - 10
+  - _Id: 14
+    _Name: 狂热之书
+    _Type: 2
+    _NormalCitiao:
+    - 4904
+    _ExternCitiao: []
+    _BossCitiao: []
+    _Weight:
+    - 10
+  - _Id: 15
+    _Name: 冰火之书
+    _Type: 2
+    _NormalCitiao:
+    - 4905
+    _ExternCitiao: []
+    _BossCitiao: []
+    _Weight:
+    - 10
+  - _Id: 16
+    _Name: 机械之书
+    _Type: 2
+    _NormalCitiao:
+    - 4906
+    _ExternCitiao: []
+    _BossCitiao: []
+    _Weight:
+    - 10
+  - _Id: 17
+    _Name: 雷电之书
+    _Type: 2
+    _NormalCitiao:
+    - 4907
+    _ExternCitiao: []
+    _BossCitiao: []
+    _Weight:
+    - 10
+  - _Id: 101
+    _Name: 火箭炮霜陨
+    _Type: 3
+    _NormalCitiao:
+    - 201
+    - 202
+    - 203
+    - 204
+    - 1001
+    - 1002
+    - 1003
+    - 1004
+    - 1501
+    - 1502
+    - 1503
+    - 1504
+    - 601
+    - 602
+    - 603
+    - 604
+    - 801
+    - 802
+    - 803
+    - 804
+    _ExternCitiao:
+    - 1005
+    - 205
+    _BossCitiao:
+    - 4905
+    _Weight: []
+  - _Id: 102
+    _Name: 诅咒之触
+    _Type: 3
+    _NormalCitiao:
+    - 1301
+    - 1302
+    - 1303
+    - 1304
+    - 201
+    - 202
+    - 203
+    - 204
+    - 1501
+    - 1502
+    - 1503
+    - 1504
+    - 601
+    - 602
+    - 603
+    - 604
+    - 801
+    - 802
+    - 803
+    - 804
+    _ExternCitiao:
+    - 205
+    - 1305
+    _BossCitiao:
+    - 4903
+    _Weight: []
+  - _Id: 103
+    _Name: 浴血
+    _Type: 0
+    _NormalCitiao:
+    - 501
+    - 502
+    - 504
+    - 1201
+    - 1202
+    - 1203
+    - 1204
+    - 1501
+    - 1502
+    - 1503
+    - 1504
+    - 601
+    - 602
+    - 603
+    - 604
+    - 801
+    - 802
+    - 803
+    - 804
+    _ExternCitiao:
+    - 505
+    - 1205
+    _BossCitiao:
+    - 4905
+    _Weight: []
+  - _Id: 104
+    _Name: 加特林
+    _Type: 0
+    _NormalCitiao:
+    - 1201
+    - 1202
+    - 1203
+    - 1204
+    - 501
+    - 502
+    - 504
+    - 1501
+    - 1502
+    - 1503
+    - 1504
+    - 601
+    - 602
+    - 603
+    - 604
+    - 801
+    - 802
+    - 803
+    - 804
+    _ExternCitiao:
+    - 505
+    - 1205
+    _BossCitiao:
+    - 4904
+    _Weight: []
+  - _Id: 105
+    _Name: 电磁炮
+    _Type: 0
+    _NormalCitiao:
+    - 1101
+    - 1102
+    - 1103
+    - 1104
+    - 501
+    - 502
+    - 504
+    - 1501
+    - 1502
+    - 1503
+    - 1504
+    - 601
+    - 602
+    - 603
+    - 604
+    - 801
+    - 802
+    - 803
+    - 804
+    _ExternCitiao:
+    - 505
+    - 605
+    _BossCitiao:
+    - 4907
+    _Weight: []
+  - _Id: 106
+    _Name: 步枪
+    _Type: 0
+    _NormalCitiao:
+    - 1401
+    - 1402
+    - 1403
+    - 1404
+    - 201
+    - 202
+    - 203
+    - 204
+    - 1501
+    - 1502
+    - 1503
+    - 1504
+    - 601
+    - 602
+    - 603
+    - 604
+    - 801
+    - 802
+    - 803
+    - 804
+    _ExternCitiao:
+    - 205
+    - 605
+    _BossCitiao:
+    - 4903
+    _Weight: []
+  - _Id: 107
+    _Name: 周日爽局-冰换弹
+    _Type: 0
+    _NormalCitiao:
+    - 1001
+    - 1002
+    - 1003
+    - 1004
+    - 201
+    - 202
+    - 203
+    - 204
+    - 1501
+    - 1502
+    - 1503
+    - 1504
+    - 601
+    - 602
+    - 603
+    - 604
+    - 801
+    - 802
+    - 803
+    - 804
+    _ExternCitiao:
+    - 205
+    - 505
+    - 1005
+    - 605
+    _BossCitiao:
+    - 4905
+    - 4903
+    - 4907
+    - 4902
+    _Weight: []
+  - _Id: 108
+    _Name:
+    _Type: 0
+    _NormalCitiao:
+    - 1501
+    - 1502
+    - 1503
+    - 1504
+    - 601
+    - 602
+    - 603
+    - 604
+    - 801
+    - 802
+    - 803
+    - 804
+    _ExternCitiao: []
+    _BossCitiao: []
+    _Weight: []
+  - _Id: 109
+    _Name:
+    _Type: 0
+    _NormalCitiao:
+    - 1501
+    - 1502
+    - 1503
+    - 1504
+    - 601
+    - 602
+    - 603
+    - 604
+    - 801
+    - 802
+    - 803
+    - 804
+    _ExternCitiao: []
+    _BossCitiao: []
+    _Weight: []
+  - _Id: 110
+    _Name:
+    _Type: 0
+    _NormalCitiao:
+    - 1501
+    - 1502
+    - 1503
+    - 1504
+    - 601
+    - 602
+    - 603
+    - 604
+    - 801
+    - 802
+    - 803
+    - 804
+    _ExternCitiao: []
+    _BossCitiao: []
+    _Weight: []
+  - _Id: 111
+    _Name:
+    _Type: 0
+    _NormalCitiao:
+    - 1501
+    - 1502
+    - 1503
+    - 1504
+    - 601
+    - 602
+    - 603
+    - 604
+    - 801
+    - 802
+    - 803
+    - 804
+    _ExternCitiao: []
+    _BossCitiao: []
+    _Weight: []
+  - _Id: 112
+    _Name:
+    _Type: 0
+    _NormalCitiao:
+    - 1501
+    - 1502
+    - 1503
+    - 1504
+    - 601
+    - 602
+    - 603
+    - 604
+    - 801
+    - 802
+    - 803
+    - 804
+    _ExternCitiao: []
+    _BossCitiao: []
+    _Weight: []
+  - _Id: 113
+    _Name:
+    _Type: 0
+    _NormalCitiao:
+    - 1501
+    - 1502
+    - 1503
+    - 1504
+    - 601
+    - 602
+    - 603
+    - 604
+    - 801
+    - 802
+    - 803
+    - 804
+    _ExternCitiao: []
+    _BossCitiao: []
+    _Weight: []
+  - _Id: 114
+    _Name:
+    _Type: 0
+    _NormalCitiao:
+    - 1501
+    - 1502
+    - 1503
+    - 1504
+    - 601
+    - 602
+    - 603
+    - 604
+    - 801
+    - 802
+    - 803
+    - 804
+    _ExternCitiao: []
+    _BossCitiao: []
+    _Weight: []
+  - _Id: 115
+    _Name:
+    _Type: 0
+    _NormalCitiao:
+    - 1501
+    - 1502
+    - 1503
+    - 1504
+    - 601
+    - 602
+    - 603
+    - 604
+    - 801
+    - 802
+    - 803
+    - 804
+    _ExternCitiao: []
+    _BossCitiao: []
+    _Weight: []
+  - _Id: 116
+    _Name:
+    _Type: 0
+    _NormalCitiao:
+    - 1501
+    - 1502
+    - 1503
+    - 1504
+    - 601
+    - 602
+    - 603
+    - 604
+    - 801
+    - 802
+    - 803
+    - 804
+    _ExternCitiao: []
+    _BossCitiao: []
+    _Weight: []
+  - _Id: 117
+    _Name:
+    _Type: 0
+    _NormalCitiao:
+    - 1501
+    - 1502
+    - 1503
+    - 1504
+    - 601
+    - 602
+    - 603
+    - 604
+    - 801
+    - 802
+    - 803
+    - 804
+    _ExternCitiao: []
+    _BossCitiao: []
+    _Weight: []
+  - _Id: 118
+    _Name:
+    _Type: 0
+    _NormalCitiao:
+    - 1501
+    - 1502
+    - 1503
+    - 1504
+    - 601
+    - 602
+    - 603
+    - 604
+    - 801
+    - 802
+    - 803
+    - 804
+    _ExternCitiao: []
+    _BossCitiao: []
+    _Weight: []
+  - _Id: 119
+    _Name:
+    _Type: 0
+    _NormalCitiao:
+    - 1501
+    - 1502
+    - 1503
+    - 1504
+    - 601
+    - 602
+    - 603
+    - 604
+    - 801
+    - 802
+    - 803
+    - 804
+    _ExternCitiao: []
+    _BossCitiao: []
+    _Weight: []
+  - _Id: 120
+    _Name: 光弩
+    _Type: 0
+    _NormalCitiao:
+    - 1401
+    - 1402
+    - 201
+    - 202
+    - 203
+    - 204
+    - 1501
+    - 1502
+    - 1503
+    - 1504
+    - 401
+    - 402
+    - 403
+    - 404
+    - 801
+    - 802
+    - 803
+    - 804
+    _ExternCitiao:
+    - 205
+    - 805
+    _BossCitiao:
+    - 4908
+    _Weight: []
+  - _Id: 121
+    _Name: 暗炮
+    _Type: 0
+    _NormalCitiao:
+    - 201
+    - 202
+    - 203
+    - 204
+    - 301
+    - 302
+    - 801
+    - 802
+    - 1301
+    - 1302
+    - 1303
+    - 1304
+    - 1501
+    - 1502
+    - 1503
+    - 1504
+    _ExternCitiao:
+    - 205
+    - 1305
+    _BossCitiao:
+    - 4910
+    _Weight: []
+  - _Id: 122
+    _Name: 火枪
+    _Type: 0
+    _NormalCitiao:
+    - 1201
+    - 1202
+    - 1203
+    - 1204
+    - 501
+    - 502
+    - 504
+    - 301
+    - 303
+    - 304
+    - 1101
+    - 1102
+    - 1103
+    - 1104
+    - 801
+    - 802
+    - 803
+    - 804
+    _ExternCitiao:
+    - 505
+    - 1205
+    _BossCitiao:
+    - 4904
+    _Weight: []
+  - _Id: 123
+    _Name: 周日爽局-火枪三系
+    _Type: 0
+    _NormalCitiao:
+    - 1201
+    - 1202
+    - 1203
+    - 1204
+    - 501
+    - 502
+    - 504
+    - 301
+    - 303
+    - 304
+    - 1101
+    - 1102
+    - 1103
+    - 1104
+    - 1001
+    - 1002
+    - 1003
+    - 1004
+    _ExternCitiao:
+    - 205
+    - 505
+    - 1005
+    - 605
+    _BossCitiao:
+    - 4905
+    - 4903
+    - 4907
+    - 4904
+    _Weight: []

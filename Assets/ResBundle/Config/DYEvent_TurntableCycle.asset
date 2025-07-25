@@ -1,0 +1,345 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b973fea620c5c3b13a66330cf115c4ea, type: 3}
+  m_Name: DYEvent_TurntableCycle
+  m_EditorClassIdentifier:
+  _Items:
+  - _Id: 1
+    _Note: 【新手转盘】【1期】浴血+男爵
+    _TurntableReward:
+    - 101
+    - 102
+    - 103
+    - 104
+    - 105
+    - 106
+    - 107
+    - 108
+    - 109
+    - 110
+    _Consumeitme:
+    - 9007
+    - 1
+    _SkipAm: 1
+    _Optional_group: 1
+    _Total_group: 1
+    _UIBg:
+    - Functions/LuckSelect/Sprites/zpbg-yuxue
+    _TurntableBg:
+    - UI/Icon/ActivityTurntable/lt_bg2_tbof
+    _TopPointer:
+    - UI/Icon/ActivityTurntable/it_gear_tbof
+    _Position:
+    - 0
+    - 0
+    _ShowBg: UI/Icon/ActivityTurntable/mainShowTurnBg_yxzy
+    _ShowIcon: UI/Icon/ActivityTurntable/mainShowTurnLogo_yxzy
+    _ShowEffect: PrefabsN/Effect/UI/shop/TurnShowEffect_yxzy
+    _ShowTip: 29123
+    _DrawproBg: Functions/LuckSelect/Sprites/bg-yuhuozhiyan
+  - _Id: 2
+    _Note: 【新手转盘】【2期】诅咒+猎手
+    _TurntableReward:
+    - 201
+    - 202
+    - 203
+    - 204
+    - 205
+    - 206
+    - 207
+    - 208
+    - 209
+    - 210
+    _Consumeitme:
+    - 9007
+    - 1
+    _SkipAm: 1
+    _Optional_group: 2
+    _Total_group: 2
+    _UIBg:
+    - UI/Icon/ActivityTurntable/bg-zzzc
+    _TurntableBg:
+    - UI/Icon/ActivityTurntable/lt_bg2_zzzc
+    _TopPointer:
+    - UI/Icon/ActivityTurntable/lt_gear_zzzc
+    _Position:
+    - 0
+    - 0
+    _ShowBg: UI/Icon/ActivityTurntable/mainShowTurnBg_zzzc
+    _ShowIcon: UI/Icon/ActivityTurntable/mainShowTurnLogo_zzzc
+    _ShowEffect: PrefabsN/Effect/UI/shop/TurnShowEffect_zzzc
+    _ShowTip: 29197
+    _DrawproBg: Functions/LuckSelect/Sprites/bg-zuzhou
+  - _Id: 3
+    _Note: 【新手转盘】【3期】霜陨+改造
+    _TurntableReward:
+    - 301
+    - 302
+    - 303
+    - 304
+    - 305
+    - 306
+    - 307
+    - 308
+    - 309
+    - 310
+    _Consumeitme:
+    - 9007
+    - 1
+    _SkipAm: 1
+    _Optional_group: 3
+    _Total_group: 3
+    _UIBg:
+    - UI/Icon/ActivityTurntable/bg-sy
+    _TurntableBg:
+    - UI/Icon/ActivityTurntable/lt_bg2_sy
+    _TopPointer:
+    - UI/Icon/ActivityTurntable/lt_gear_sy
+    _Position:
+    - 0
+    - 0
+    _ShowBg: UI/Icon/ActivityTurntable/mainShowTurnBg_sy
+    _ShowIcon: UI/Icon/ActivityTurntable/mainShowTurnLogo_sy
+    _ShowEffect: PrefabsN/Effect/UI/shop/TurnShowEffect_sy
+    _ShowTip: 29217
+    _DrawproBg: Functions/LuckSelect/Sprites/bg-morilieshou
+  - _Id: 4
+    _Note: 【新手转盘】【4期】圣辉+星辉
+    _TurntableReward:
+    - 401
+    - 402
+    - 403
+    - 404
+    - 405
+    - 406
+    - 407
+    - 408
+    - 409
+    - 410
+    _Consumeitme:
+    - 9007
+    - 1
+    _SkipAm: 1
+    _Optional_group: 4
+    _Total_group: 4
+    _UIBg:
+    - GameObjs/Weapon/BarrettShengLin/UIResource/bg-blt
+    _TurntableBg:
+    - GameObjs/Weapon/BarrettShengLin/UIResource/lt_bg2_blt
+    _TopPointer:
+    - GameObjs/Weapon/BarrettShengLin/UIResource/lt_gear_blt
+    _Position:
+    - 0
+    - 0
+    _ShowBg: GameObjs/Weapon/BarrettShengLin/UIResource/mainShowTurnBg_blt
+    _ShowIcon: GameObjs/Weapon/BarrettShengLin/UIResource/mainShowTurnLogo_blt
+    _ShowEffect: GameObjs/UIEffects/baleite/TurnShowEffect_blt
+    _ShowTip: 29273
+    _DrawproBg: Functions/LuckSelect/Sprites/bg-morilieshou
+  - _Id: 101
+    _Note: 【新手转盘】浴血之焰
+    _TurntableReward:
+    - 10101
+    - 10102
+    - 10103
+    - 10104
+    - 10105
+    - 10106
+    - 10107
+    - 10108
+    - 10109
+    - 10110
+    _Consumeitme:
+    - 9007
+    - 1
+    _SkipAm: 1
+    _Optional_group: 101
+    _Total_group: 11
+    _UIBg:
+    - Functions/LuckSelect/Sprites/zpbg-yuxue
+    _TurntableBg:
+    - UI/Icon/ActivityTurntable/lt_bg2_tbof
+    _TopPointer:
+    - UI/Icon/ActivityTurntable/it_gear_tbof
+    _Position:
+    - 0
+    - 0
+    _ShowBg: UI/Icon/ActivityTurntable/mainShowTurnBg_yxzy
+    _ShowIcon: UI/Icon/ActivityTurntable/mainShowTurnLogo_yxzy
+    _ShowEffect: PrefabsN/Effect/UI/shop/TurnShowEffect_yxzy
+    _ShowTip: 29123
+    _DrawproBg: Functions/LuckSelect/Sprites/bg-yuhuozhiyan
+  - _Id: 102
+    _Note: 【新手转盘】地狱男爵
+    _TurntableReward:
+    - 10201
+    - 10202
+    - 10203
+    - 10204
+    - 10205
+    - 10206
+    - 10207
+    - 10208
+    - 10209
+    - 10210
+    _Consumeitme:
+    - 9007
+    - 1
+    _SkipAm: 1
+    _Optional_group: 102
+    _Total_group: 12
+    _UIBg:
+    - Functions/LuckSelect/Sprites/zpbg-diyu
+    _TurntableBg:
+    - UI/Icon/ActivityTurntable/lt_bg2_dynj
+    _TopPointer:
+    - UI/Icon/ActivityTurntable/lt_gear_dynj
+    _Position:
+    - 0
+    - 0
+    _ShowBg: UI/Icon/ActivityTurntable/mainShowTurnBg_dynj
+    _ShowIcon: UI/Icon/ActivityTurntable/mainShowTurnLogo_dynj
+    _ShowEffect: PrefabsN/Effect/UI/shop/TurnShowEffect_dynj
+    _ShowTip: 1007016
+    _DrawproBg: Functions/LuckSelect/Sprites/bg-diyunanjue
+  - _Id: 103
+    _Note: 【新手转盘】诅咒之触
+    _TurntableReward:
+    - 10301
+    - 10302
+    - 10303
+    - 10304
+    - 10305
+    - 10306
+    - 10307
+    - 10308
+    - 10309
+    - 10310
+    _Consumeitme:
+    - 9007
+    - 1
+    _SkipAm: 1
+    _Optional_group: 103
+    _Total_group: 13
+    _UIBg:
+    - Functions/LuckSelect/Sprites/zpbg-zuzhou
+    _TurntableBg:
+    - UI/Icon/ActivityTurntable/lt_bg2_zzzc
+    _TopPointer:
+    - UI/Icon/ActivityTurntable/lt_gear_zzzc
+    _Position:
+    - 0
+    - 0
+    _ShowBg: UI/Icon/ActivityTurntable/mainShowTurnBg_zzzc
+    _ShowIcon: UI/Icon/ActivityTurntable/mainShowTurnLogo_zzzc
+    _ShowEffect: PrefabsN/Effect/UI/shop/TurnShowEffect_zzzc
+    _ShowTip: 29197
+    _DrawproBg: Functions/LuckSelect/Sprites/bg-zuzhou
+  - _Id: 104
+    _Note: 【新手转盘】巴雷特-圣辉
+    _TurntableReward:
+    - 10401
+    - 10402
+    - 10403
+    - 10404
+    - 10405
+    - 10406
+    - 10407
+    - 10408
+    - 10409
+    - 10410
+    _Consumeitme:
+    - 9007
+    - 1
+    _SkipAm: 1
+    _Optional_group: 104
+    _Total_group: 14
+    _UIBg:
+    - GameObjs/Weapon/BarrettShengLin/UIResource/bg-blt
+    _TurntableBg:
+    - GameObjs/Weapon/BarrettShengLin/UIResource/lt_bg2_blt
+    _TopPointer:
+    - GameObjs/Weapon/BarrettShengLin/UIResource/lt_gear_blt
+    _Position:
+    - 0
+    - 0
+    _ShowBg: GameObjs/Weapon/BarrettShengLin/UIResource/mainShowTurnBg_blt
+    _ShowIcon: GameObjs/Weapon/BarrettShengLin/UIResource/mainShowTurnLogo_blt
+    _ShowEffect: GameObjs/UIEffects/baleite/TurnShowEffect_blt
+    _ShowTip: 29273
+    _DrawproBg: Functions/LuckSelect/Sprites/bg-morilieshou
+  - _Id: 1001
+    _Note: 【枪械转盘】
+    _TurntableReward:
+    - 1001
+    - 1002
+    - 1003
+    - 1004
+    - 1005
+    - 1006
+    - 1007
+    - 1008
+    - 1009
+    - 1010
+    _Consumeitme:
+    - 9007
+    - 1
+    _SkipAm: 1
+    _Optional_group: 1001
+    _Total_group: 101
+    _UIBg:
+    - Functions/ActivityTurntable_wpiceElfTower/bg_ice
+    _TurntableBg:
+    - Functions/ActivityTurntable_wpiceElfTower/lt_bg2_ice
+    _TopPointer:
+    - Functions/ActivityTurntable_wpiceElfTower/lt_gear_ice
+    _Position:
+    - 0
+    - 0
+    _ShowBg: Functions/ActivityTurntable_wpiceElfTower/mainShowTurnBg_ice
+    _ShowIcon: Functions/ActivityTurntable_wpiceElfTower/mainShowTurnLogo_ice
+    _ShowEffect: Functions/ActivityTurntable_wpiceElfTower/TurnShowEffect_ice
+    _ShowTip: 29394
+    _DrawproBg: Functions/ActivityTurntable_wpiceElfTower/lt_drawpro_ice
+  - _Id: 2001
+    _Note: 【角色转盘】
+    _TurntableReward:
+    - 2001
+    - 2002
+    - 2003
+    - 2004
+    - 2005
+    - 2006
+    - 2007
+    - 2008
+    - 2009
+    - 2010
+    _Consumeitme:
+    - 9007
+    - 1
+    _SkipAm: 1
+    _Optional_group: 2001
+    _Total_group: 102
+    _UIBg:
+    - Functions/ActivityTurntable_herobingnv/bg_bingnv
+    _TurntableBg:
+    - Functions/ActivityTurntable_herobingnv/It_bg2_bingnv
+    _TopPointer:
+    - Functions/ActivityTurntable_herobingnv/It_gear_bingnv
+    _Position:
+    - 0
+    - 5
+    _ShowBg: Functions/ActivityTurntable_herobingnv/mainShowTurnBg_bingnv
+    _ShowIcon: Functions/ActivityTurntable_herobingnv/mainShowTurnLogo_bingnv
+    _ShowEffect: Functions/ActivityTurntable_herobingnv/TurnShowEffect_bingnv
+    _ShowTip: 110056
+    _DrawproBg: Functions/ActivityTurntable_herobingnv/It_drawpro_bingnv

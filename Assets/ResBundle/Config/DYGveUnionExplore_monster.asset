@@ -1,0 +1,271 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf63d7ee2f3ef36b09f6b56c217eb3bc, type: 3}
+  m_Name: DYGveUnionExplore_monster
+  m_EditorClassIdentifier:
+  _Items:
+  - _Id: 101
+    _Notes: 【个人】-1级
+    _NameID: 1202108
+    _Desc: 1
+    _Eventtype: 1
+    _Fighttime:
+    - 4
+    - 6
+    _AtkAnimation: skill02
+    _Path: PrefabsN/RoleAI/Enemy3001
+    _ModelScale: 1
+    _Icon: Functions/Union/GveExplore/Sprite/icon/3001
+    _Playeffect:
+    - ModelNode/FirePoint
+    - 5301925
+    - 0.3
+    _DieAnimation: death
+    _Monster_atk: 50000
+    _Monster_hp: 250000
+    _Toxicity: 0
+    _HpRestore: []
+    _Ap_cost: 10
+    _Contribute: 0
+    _Drop: []
+    _Drop_gold:
+    - 7001
+    - 0.2
+    _Drop_dona:
+    - 1100101
+    - 10
+    _Maxhplose_param: 999
+    _Minhplose_param: 0.2
+    _ParticAward: []
+  - _Id: 102
+    _Notes: 【个人】-2级
+    _NameID: 1202108
+    _Desc: 2
+    _Eventtype: 1
+    _Fighttime:
+    - 5
+    - 7
+    _AtkAnimation: skill01
+    _Path: PrefabsN/RoleAI/Enemy3002
+    _ModelScale: 1.5
+    _Icon: Functions/Union/GveExplore/Sprite/icon/3002
+    _Playeffect:
+    - ModelNode/FirePoint
+    - 5301202
+    - 0.4
+    _DieAnimation: death
+    _Monster_atk: 50000
+    _Monster_hp: 250000
+    _Toxicity: 0
+    _HpRestore: []
+    _Ap_cost: 10
+    _Contribute: 0
+    _Drop: []
+    _Drop_gold:
+    - 7001
+    - 0.2
+    _Drop_dona:
+    - 1100101
+    - 10
+    _Maxhplose_param: 999
+    _Minhplose_param: 0.2
+    _ParticAward: []
+  - _Id: 103
+    _Notes: 【个人】-3级
+    _NameID: 1202109
+    _Desc: 1
+    _Eventtype: 3
+    _Fighttime:
+    - 5
+    - 7
+    _AtkAnimation: skill01
+    _Path: PrefabsN/RoleAI/Enemy3003
+    _ModelScale: 1.6
+    _Icon: Functions/Union/GveExplore/Sprite/icon/3003
+    _Playeffect:
+    - ModelNode/FirePoint
+    - 5301202
+    - 0.4
+    _DieAnimation: death
+    _Monster_atk: 100000
+    _Monster_hp: 500000
+    _Toxicity: 50
+    _HpRestore: []
+    _Ap_cost: 10
+    _Contribute: 0
+    _Drop: []
+    _Drop_gold:
+    - 7001
+    - 0.4
+    _Drop_dona:
+    - 1100101
+    - 10
+    _Maxhplose_param: 999
+    _Minhplose_param: 0.15
+    _ParticAward: []
+  - _Id: 104
+    _Notes: 【个人】-1级刷新用
+    _NameID: 1202108
+    _Desc: 1
+    _Eventtype: 2
+    _Fighttime:
+    - 4
+    - 6
+    _AtkAnimation: skill02
+    _Path: PrefabsN/RoleAI/Enemy3001
+    _ModelScale: 1
+    _Icon: Functions/Union/GveExplore/Sprite/icon/3001
+    _Playeffect:
+    - ModelNode/FirePoint
+    - 5301925
+    - 0.3
+    _DieAnimation: death
+    _Monster_atk: 50000
+    _Monster_hp: 250000
+    _Toxicity: 30
+    _HpRestore: []
+    _Ap_cost: 10
+    _Contribute: 0
+    _Drop:
+    - 110201
+    _Drop_gold:
+    - 7001
+    - 0.1
+    _Drop_dona:
+    - 1100101
+    - 10
+    _Maxhplose_param: 999
+    _Minhplose_param: 0.1
+    _ParticAward: []
+  - _Id: 201
+    _Notes: 【团队】-1级
+    _NameID: 1202111
+    _Desc: 1
+    _Eventtype: 11
+    _Fighttime:
+    - 4
+    - 6
+    _AtkAnimation: skill01
+    _Path: PrefabsN/RoleAI/Enemy3009
+    _ModelScale: 1
+    _Icon: Functions/Union/GveExplore/Sprite/icon/3009
+    _Playeffect:
+    - ModelNode/FirePoint
+    - 5301923
+    - 0.25
+    _DieAnimation: death
+    _Monster_atk: 75000
+    _Monster_hp: 375000
+    _Toxicity: 60
+    _HpRestore: []
+    _Ap_cost: 10
+    _Contribute: 5705
+    _Drop: []
+    _Drop_gold: []
+    _Drop_dona: []
+    _Maxhplose_param: 999
+    _Minhplose_param: 0.2
+    _ParticAward:
+    - 14002
+    - 10
+  - _Id: 202
+    _Notes: 【团队】-2级
+    _NameID: 1202112
+    _Desc: 1
+    _Eventtype: 12
+    _Fighttime:
+    - 5
+    - 7
+    _AtkAnimation: skill01_end
+    _Path: PrefabsN/RoleAI/Enemy3007
+    _ModelScale: 2
+    _Icon: Functions/Union/GveExplore/Sprite/icon/3007
+    _Playeffect:
+    - ModelNode/FirePoint_1
+    - 5301924
+    - 0.5
+    _DieAnimation: death
+    _Monster_atk: 125000
+    _Monster_hp: 625000
+    _Toxicity: 120
+    _HpRestore: []
+    _Ap_cost: 10
+    _Contribute: 9508
+    _Drop: []
+    _Drop_gold: []
+    _Drop_dona: []
+    _Maxhplose_param: 999
+    _Minhplose_param: 0.1
+    _ParticAward:
+    - 14002
+    - 10
+  - _Id: 203
+    _Notes: 【团队】-3级
+    _NameID: 1202113
+    _Desc: 1
+    _Eventtype: 13
+    _Fighttime:
+    - 5
+    - 9
+    _AtkAnimation: skill01
+    _Path: PrefabsN/RoleAI/Enemy3005
+    _ModelScale: 1.6
+    _Icon: Functions/Union/GveExplore/Sprite/icon/3005
+    _Playeffect:
+    - ModelNode/FirePoint
+    - 5300501
+    - 0.8
+    _DieAnimation: death
+    _Monster_atk: 200000
+    _Monster_hp: 3750000
+    _Toxicity: 160
+    _HpRestore: []
+    _Ap_cost: 10
+    _Contribute: 57047
+    _Drop: []
+    _Drop_gold: []
+    _Drop_dona: []
+    _Maxhplose_param: 0.15
+    _Minhplose_param: 0.01
+    _ParticAward:
+    - 14002
+    - 10
+  - _Id: 1001
+    _Notes: 【团队】-4级（最终BOSS）
+    _NameID: 1202114
+    _Desc: 0
+    _Eventtype: 21
+    _Fighttime:
+    - 9
+    - 13
+    _AtkAnimation: skill02
+    _Path: PrefabsN/RoleAI/Enemy3020
+    _ModelScale: 4
+    _Icon: Functions/Union/GveExplore/Sprite/icon/4001
+    _Playeffect: []
+    _DieAnimation: death
+    _Monster_atk: 300000
+    _Monster_hp: 6250000
+    _Toxicity: 180
+    _HpRestore:
+    - 30000
+    - 180
+    _Ap_cost: 10
+    _Contribute: 100000
+    _Drop: []
+    _Drop_gold: []
+    _Drop_dona: []
+    _Maxhplose_param: 0.15
+    _Minhplose_param: 0.02
+    _ParticAward:
+    - 14002
+    - 10

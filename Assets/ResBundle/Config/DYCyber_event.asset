@@ -1,0 +1,1063 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55e449504223370c028b1653ef9ed69b, type: 3}
+  m_Name: DYCyber_event
+  m_EditorClassIdentifier:
+  _Items:
+  - _Id: 100111
+    _Name: 【远郊】小怪
+    _NameID: 800232
+    _Event_group: 10011
+    _Eventtype: 1
+    _Power_type: 1
+    _Power_rate_1: 20000
+    _Power_rate_2: 0
+    _Weight: 4000
+    _Drop: 44001
+    _Integral: 100
+    _Fighttime:
+    - 2
+    - 4
+    _AtkAnimation: skill02
+    _Path: PrefabsN/RoleAI/Enemy3001
+    _Icon: Functions/CyberCityActivity/Textures/icon_3001
+    _Playeffect:
+    - ModelNode/FirePoint
+    - 5301925
+    - 0.3
+    _DieAnimation: death
+  - _Id: 100112
+    _Name: 【远郊】中怪
+    _NameID: 800233
+    _Event_group: 10011
+    _Eventtype: 1
+    _Power_type: 1
+    _Power_rate_1: 50000
+    _Power_rate_2: 0
+    _Weight: 4600
+    _Drop: 44002
+    _Integral: 300
+    _Fighttime:
+    - 3
+    - 5
+    _AtkAnimation: skill01
+    _Path: PrefabsN/RoleAI/Enemy3002
+    _Icon: Functions/CyberCityActivity/Textures/icon_3002
+    _Playeffect:
+    - ModelNode/FirePoint
+    - 5301202
+    - 0.4
+    _DieAnimation: death
+  - _Id: 100113
+    _Name: 【远郊】BOSS
+    _NameID: 800234
+    _Event_group: 10011
+    _Eventtype: 1
+    _Power_type: 1
+    _Power_rate_1: 100000
+    _Power_rate_2: 0
+    _Weight: 1000
+    _Drop: 44003
+    _Integral: 900
+    _Fighttime:
+    - 5
+    - 7
+    _AtkAnimation: skill01
+    _Path: PrefabsN/RoleAI/Enemy3003
+    _Icon: Functions/CyberCityActivity/Textures/icon_3003
+    _Playeffect: []
+    _DieAnimation: death
+  - _Id: 100114
+    _Name: 【远郊】银色空投
+    _NameID: 800183
+    _Event_group: 10011
+    _Eventtype: 2
+    _Power_type: 1
+    _Power_rate_1: 1
+    _Power_rate_2: 1
+    _Weight: 400
+    _Drop: 44010
+    _Integral: 1000
+    _Fighttime: []
+    _AtkAnimation:
+    _Path: PrefabsN/CyberActivity/CyberBox_3
+    _Icon: Functions/CyberCityActivity/Textures/box1
+    _Playeffect: []
+    _DieAnimation:
+  - _Id: 100121
+    _Name: 【近郊】小怪
+    _NameID: 800235
+    _Event_group: 10012
+    _Eventtype: 1
+    _Power_type: 2
+    _Power_rate_1: 50000
+    _Power_rate_2: 80
+    _Weight: 4000
+    _Drop: 44004
+    _Integral: 200
+    _Fighttime:
+    - 2
+    - 4
+    _AtkAnimation: skill02
+    _Path: PrefabsN/RoleAI/Enemy3017
+    _Icon: Functions/CyberCityActivity/Textures/icon_3017
+    _Playeffect:
+    - ModelNode/FirePoint
+    - 5301925
+    - 0.2
+    _DieAnimation: death
+  - _Id: 100122
+    _Name: 【近郊】中怪
+    _NameID: 800236
+    _Event_group: 10012
+    _Eventtype: 1
+    _Power_type: 2
+    _Power_rate_1: 100000
+    _Power_rate_2: 50
+    _Weight: 4600
+    _Drop: 44005
+    _Integral: 600
+    _Fighttime:
+    - 3
+    - 5
+    _AtkAnimation: cybershow1
+    _Path: PrefabsN/RoleAI/Enemy3004
+    _Icon: Functions/CyberCityActivity/Textures/icon_3004
+    _Playeffect: []
+    _DieAnimation: death
+  - _Id: 100123
+    _Name: 【近郊】BOSS
+    _NameID: 800237
+    _Event_group: 10012
+    _Eventtype: 1
+    _Power_type: 2
+    _Power_rate_1: 300000
+    _Power_rate_2: 20
+    _Weight: 1000
+    _Drop: 44006
+    _Integral: 1800
+    _Fighttime:
+    - 5
+    - 7
+    _AtkAnimation: skill01
+    _Path: PrefabsN/RoleAI/Enemy3005
+    _Icon: Functions/CyberCityActivity/Textures/icon_3005
+    _Playeffect:
+    - ModelNode/FirePoint
+    - 5300501
+    - 0.8
+    _DieAnimation: death
+  - _Id: 100124
+    _Name: 【近郊】金色空投
+    _NameID: 800184
+    _Event_group: 10012
+    _Eventtype: 2
+    _Power_type: 1
+    _Power_rate_1: 1
+    _Power_rate_2: 1
+    _Weight: 400
+    _Drop: 44011
+    _Integral: 2000
+    _Fighttime: []
+    _AtkAnimation:
+    _Path: PrefabsN/CyberActivity/CyberBox_2
+    _Icon: Functions/CyberCityActivity/Textures/box2
+    _Playeffect: []
+    _DieAnimation:
+  - _Id: 100131
+    _Name: 【中心】小怪
+    _NameID: 800238
+    _Event_group: 10013
+    _Eventtype: 1
+    _Power_type: 2
+    _Power_rate_1: 200000
+    _Power_rate_2: 50
+    _Weight: 4358
+    _Drop: 44007
+    _Integral: 400
+    _Fighttime:
+    - 2
+    - 4
+    _AtkAnimation: skill01
+    _Path: PrefabsN/RoleAI/Enemy3009
+    _Icon: Functions/CyberCityActivity/Textures/icon_3009
+    _Playeffect:
+    - ModelNode/FirePoint
+    - 5301923
+    - 0.25
+    _DieAnimation: death
+  - _Id: 100132
+    _Name: 【中心】中怪
+    _NameID: 800239
+    _Event_group: 10013
+    _Eventtype: 1
+    _Power_type: 2
+    _Power_rate_1: 300000
+    _Power_rate_2: 20
+    _Weight: 3000
+    _Drop: 44008
+    _Integral: 1200
+    _Fighttime:
+    - 3
+    - 5
+    _AtkAnimation: skill01_end
+    _Path: PrefabsN/RoleAI/Enemy3007
+    _Icon: Functions/CyberCityActivity/Textures/icon_3007
+    _Playeffect:
+    - ModelNode/FirePoint_1
+    - 5301924
+    - 0.5
+    _DieAnimation: death
+  - _Id: 100133
+    _Name: 【中心】BOSS
+    _NameID: 800240
+    _Event_group: 10013
+    _Eventtype: 1
+    _Power_type: 2
+    _Power_rate_1: 1000000
+    _Power_rate_2: 15
+    _Weight: 800
+    _Drop: 44009
+    _Integral: 4000
+    _Fighttime:
+    - 5
+    - 7
+    _AtkAnimation: shoot
+    _Path: PrefabsN/CyberActivity/CarBoss_ArasakaSamurai
+    _Icon: Functions/CyberCityActivity/Textures/icon_car_boss1
+    _Playeffect:
+    - ModelNode/FirePoint
+    - 5301924
+    - 0.1
+    _DieAnimation: death
+  - _Id: 100134
+    _Name: 【中心】彩色空投
+    _NameID: 800185
+    _Event_group: 10013
+    _Eventtype: 2
+    _Power_type: 1
+    _Power_rate_1: 1
+    _Power_rate_2: 1
+    _Weight: 342
+    _Drop: 44012
+    _Integral: 4000
+    _Fighttime: []
+    _AtkAnimation:
+    _Path: PrefabsN/CyberActivity/CyberBox_1
+    _Icon: Functions/CyberCityActivity/Textures/box3
+    _Playeffect: []
+    _DieAnimation:
+  - _Id: 100135
+    _Name: 【中心】其他玩家
+    _NameID: 800241
+    _Event_group: 10013
+    _Eventtype: 3
+    _Power_type: 1
+    _Power_rate_1: 1
+    _Power_rate_2: 1
+    _Weight: 1500
+    _Drop: 44013
+    _Integral: 1200
+    _Fighttime:
+    - 5
+    - 7
+    _AtkAnimation:
+    _Path:
+    _Icon: Functions/CyberCityActivity/Textures/player
+    _Playeffect: []
+    _DieAnimation:
+  - _Id: 100211
+    _Name: 【远郊】小怪
+    _NameID: 800232
+    _Event_group: 10021
+    _Eventtype: 1
+    _Power_type: 1
+    _Power_rate_1: 20000
+    _Power_rate_2: 0
+    _Weight: 4000
+    _Drop: 44101
+    _Integral: 100
+    _Fighttime:
+    - 2
+    - 4
+    _AtkAnimation: skill02
+    _Path: PrefabsN/RoleAI/Enemy3001
+    _Icon: Functions/CyberCityActivity/Textures/icon_3001
+    _Playeffect:
+    - ModelNode/FirePoint
+    - 5301925
+    - 0.3
+    _DieAnimation: death
+  - _Id: 100212
+    _Name: 【远郊】中怪
+    _NameID: 800233
+    _Event_group: 10021
+    _Eventtype: 1
+    _Power_type: 1
+    _Power_rate_1: 50000
+    _Power_rate_2: 0
+    _Weight: 4600
+    _Drop: 44102
+    _Integral: 300
+    _Fighttime:
+    - 3
+    - 5
+    _AtkAnimation: skill01
+    _Path: PrefabsN/RoleAI/Enemy3002
+    _Icon: Functions/CyberCityActivity/Textures/icon_3002
+    _Playeffect:
+    - ModelNode/FirePoint
+    - 5301202
+    - 0.4
+    _DieAnimation: death
+  - _Id: 100213
+    _Name: 【远郊】BOSS
+    _NameID: 800234
+    _Event_group: 10021
+    _Eventtype: 1
+    _Power_type: 1
+    _Power_rate_1: 100000
+    _Power_rate_2: 0
+    _Weight: 1000
+    _Drop: 44103
+    _Integral: 900
+    _Fighttime:
+    - 5
+    - 7
+    _AtkAnimation: skill01
+    _Path: PrefabsN/RoleAI/Enemy3003
+    _Icon: Functions/CyberCityActivity/Textures/icon_3003
+    _Playeffect: []
+    _DieAnimation: death
+  - _Id: 100214
+    _Name: 【远郊】银色空投
+    _NameID: 800183
+    _Event_group: 10021
+    _Eventtype: 2
+    _Power_type: 1
+    _Power_rate_1: 1
+    _Power_rate_2: 1
+    _Weight: 400
+    _Drop: 44110
+    _Integral: 1000
+    _Fighttime: []
+    _AtkAnimation:
+    _Path: PrefabsN/CyberActivity/CyberBox_3
+    _Icon: Functions/CyberCityActivity/Textures/box1
+    _Playeffect: []
+    _DieAnimation:
+  - _Id: 100221
+    _Name: 【近郊】小怪
+    _NameID: 800235
+    _Event_group: 10022
+    _Eventtype: 1
+    _Power_type: 2
+    _Power_rate_1: 50000
+    _Power_rate_2: 80
+    _Weight: 4000
+    _Drop: 44104
+    _Integral: 200
+    _Fighttime:
+    - 2
+    - 4
+    _AtkAnimation: skill02
+    _Path: PrefabsN/RoleAI/Enemy3017
+    _Icon: Functions/CyberCityActivity/Textures/icon_3017
+    _Playeffect:
+    - ModelNode/FirePoint
+    - 5301925
+    - 0.2
+    _DieAnimation: death
+  - _Id: 100222
+    _Name: 【近郊】中怪
+    _NameID: 800236
+    _Event_group: 10022
+    _Eventtype: 1
+    _Power_type: 2
+    _Power_rate_1: 100000
+    _Power_rate_2: 50
+    _Weight: 4600
+    _Drop: 44105
+    _Integral: 600
+    _Fighttime:
+    - 3
+    - 5
+    _AtkAnimation: cybershow1
+    _Path: PrefabsN/RoleAI/Enemy3004
+    _Icon: Functions/CyberCityActivity/Textures/icon_3004
+    _Playeffect: []
+    _DieAnimation: death
+  - _Id: 100223
+    _Name: 【近郊】BOSS
+    _NameID: 800237
+    _Event_group: 10022
+    _Eventtype: 1
+    _Power_type: 2
+    _Power_rate_1: 300000
+    _Power_rate_2: 20
+    _Weight: 1000
+    _Drop: 44106
+    _Integral: 1800
+    _Fighttime:
+    - 5
+    - 7
+    _AtkAnimation: skill01
+    _Path: PrefabsN/RoleAI/Enemy3005
+    _Icon: Functions/CyberCityActivity/Textures/icon_3005
+    _Playeffect:
+    - ModelNode/FirePoint
+    - 5300501
+    - 0.8
+    _DieAnimation: death
+  - _Id: 100224
+    _Name: 【近郊】金色空投
+    _NameID: 800184
+    _Event_group: 10022
+    _Eventtype: 2
+    _Power_type: 1
+    _Power_rate_1: 1
+    _Power_rate_2: 1
+    _Weight: 400
+    _Drop: 44111
+    _Integral: 2000
+    _Fighttime: []
+    _AtkAnimation:
+    _Path: PrefabsN/CyberActivity/CyberBox_2
+    _Icon: Functions/CyberCityActivity/Textures/box2
+    _Playeffect: []
+    _DieAnimation:
+  - _Id: 100231
+    _Name: 【中心】小怪
+    _NameID: 800238
+    _Event_group: 10023
+    _Eventtype: 1
+    _Power_type: 2
+    _Power_rate_1: 200000
+    _Power_rate_2: 50
+    _Weight: 4358
+    _Drop: 44107
+    _Integral: 400
+    _Fighttime:
+    - 2
+    - 4
+    _AtkAnimation: skill01
+    _Path: PrefabsN/RoleAI/Enemy3009
+    _Icon: Functions/CyberCityActivity/Textures/icon_3009
+    _Playeffect:
+    - ModelNode/FirePoint
+    - 5301923
+    - 0.25
+    _DieAnimation: death
+  - _Id: 100232
+    _Name: 【中心】中怪
+    _NameID: 800239
+    _Event_group: 10023
+    _Eventtype: 1
+    _Power_type: 2
+    _Power_rate_1: 300000
+    _Power_rate_2: 20
+    _Weight: 3000
+    _Drop: 44108
+    _Integral: 1200
+    _Fighttime:
+    - 3
+    - 5
+    _AtkAnimation: skill01_end
+    _Path: PrefabsN/RoleAI/Enemy3007
+    _Icon: Functions/CyberCityActivity/Textures/icon_3007
+    _Playeffect:
+    - ModelNode/FirePoint_1
+    - 5301924
+    - 0.5
+    _DieAnimation: death
+  - _Id: 100233
+    _Name: 【中心】BOSS
+    _NameID: 800240
+    _Event_group: 10023
+    _Eventtype: 1
+    _Power_type: 2
+    _Power_rate_1: 1000000
+    _Power_rate_2: 15
+    _Weight: 800
+    _Drop: 44109
+    _Integral: 4000
+    _Fighttime:
+    - 5
+    - 7
+    _AtkAnimation: shoot
+    _Path: PrefabsN/CyberActivity/CarBoss_ArasakaSamurai
+    _Icon: Functions/CyberCityActivity/Textures/icon_car_boss1
+    _Playeffect:
+    - ModelNode/FirePoint
+    - 5301924
+    - 0.1
+    _DieAnimation: death
+  - _Id: 100234
+    _Name: 【中心】彩色空投
+    _NameID: 800185
+    _Event_group: 10023
+    _Eventtype: 2
+    _Power_type: 1
+    _Power_rate_1: 1
+    _Power_rate_2: 1
+    _Weight: 342
+    _Drop: 44112
+    _Integral: 4000
+    _Fighttime: []
+    _AtkAnimation:
+    _Path: PrefabsN/CyberActivity/CyberBox_1
+    _Icon: Functions/CyberCityActivity/Textures/box3
+    _Playeffect: []
+    _DieAnimation:
+  - _Id: 100235
+    _Name: 【中心】其他玩家
+    _NameID: 800241
+    _Event_group: 10023
+    _Eventtype: 3
+    _Power_type: 1
+    _Power_rate_1: 1
+    _Power_rate_2: 1
+    _Weight: 1500
+    _Drop: 44113
+    _Integral: 1200
+    _Fighttime:
+    - 5
+    - 7
+    _AtkAnimation:
+    _Path:
+    _Icon: Functions/CyberCityActivity/Textures/player
+    _Playeffect: []
+    _DieAnimation:
+  - _Id: 100311
+    _Name: 【远郊】小怪
+    _NameID: 800232
+    _Event_group: 10031
+    _Eventtype: 1
+    _Power_type: 1
+    _Power_rate_1: 20000
+    _Power_rate_2: 0
+    _Weight: 4000
+    _Drop: 44201
+    _Integral: 100
+    _Fighttime:
+    - 2
+    - 4
+    _AtkAnimation: skill02
+    _Path: PrefabsN/RoleAI/Enemy3001
+    _Icon: Functions/CyberCityActivity/Textures/icon_3001
+    _Playeffect:
+    - ModelNode/FirePoint
+    - 5301925
+    - 0.3
+    _DieAnimation: death
+  - _Id: 100312
+    _Name: 【远郊】中怪
+    _NameID: 800233
+    _Event_group: 10031
+    _Eventtype: 1
+    _Power_type: 1
+    _Power_rate_1: 50000
+    _Power_rate_2: 0
+    _Weight: 4600
+    _Drop: 44202
+    _Integral: 300
+    _Fighttime:
+    - 3
+    - 5
+    _AtkAnimation: skill01
+    _Path: PrefabsN/RoleAI/Enemy3002
+    _Icon: Functions/CyberCityActivity/Textures/icon_3002
+    _Playeffect:
+    - ModelNode/FirePoint
+    - 5301202
+    - 0.4
+    _DieAnimation: death
+  - _Id: 100313
+    _Name: 【远郊】BOSS
+    _NameID: 800234
+    _Event_group: 10031
+    _Eventtype: 1
+    _Power_type: 1
+    _Power_rate_1: 100000
+    _Power_rate_2: 0
+    _Weight: 1000
+    _Drop: 44203
+    _Integral: 900
+    _Fighttime:
+    - 5
+    - 7
+    _AtkAnimation: skill01
+    _Path: PrefabsN/RoleAI/Enemy3003
+    _Icon: Functions/CyberCityActivity/Textures/icon_3003
+    _Playeffect: []
+    _DieAnimation: death
+  - _Id: 100314
+    _Name: 【远郊】银色空投
+    _NameID: 800183
+    _Event_group: 10031
+    _Eventtype: 2
+    _Power_type: 1
+    _Power_rate_1: 1
+    _Power_rate_2: 1
+    _Weight: 400
+    _Drop: 44210
+    _Integral: 1000
+    _Fighttime: []
+    _AtkAnimation:
+    _Path: PrefabsN/CyberActivity/CyberBox_3
+    _Icon: Functions/CyberCityActivity/Textures/box1
+    _Playeffect: []
+    _DieAnimation:
+  - _Id: 100321
+    _Name: 【近郊】小怪
+    _NameID: 800235
+    _Event_group: 10032
+    _Eventtype: 1
+    _Power_type: 2
+    _Power_rate_1: 50000
+    _Power_rate_2: 80
+    _Weight: 4000
+    _Drop: 44204
+    _Integral: 200
+    _Fighttime:
+    - 2
+    - 4
+    _AtkAnimation: skill02
+    _Path: PrefabsN/RoleAI/Enemy3017
+    _Icon: Functions/CyberCityActivity/Textures/icon_3017
+    _Playeffect:
+    - ModelNode/FirePoint
+    - 5301925
+    - 0.2
+    _DieAnimation: death
+  - _Id: 100322
+    _Name: 【近郊】中怪
+    _NameID: 800236
+    _Event_group: 10032
+    _Eventtype: 1
+    _Power_type: 2
+    _Power_rate_1: 100000
+    _Power_rate_2: 50
+    _Weight: 4600
+    _Drop: 44205
+    _Integral: 600
+    _Fighttime:
+    - 3
+    - 5
+    _AtkAnimation: cybershow1
+    _Path: PrefabsN/RoleAI/Enemy3004
+    _Icon: Functions/CyberCityActivity/Textures/icon_3004
+    _Playeffect: []
+    _DieAnimation: death
+  - _Id: 100323
+    _Name: 【近郊】BOSS
+    _NameID: 800237
+    _Event_group: 10032
+    _Eventtype: 1
+    _Power_type: 2
+    _Power_rate_1: 300000
+    _Power_rate_2: 20
+    _Weight: 1000
+    _Drop: 44206
+    _Integral: 1800
+    _Fighttime:
+    - 5
+    - 7
+    _AtkAnimation: skill01
+    _Path: PrefabsN/RoleAI/Enemy3005
+    _Icon: Functions/CyberCityActivity/Textures/icon_3005
+    _Playeffect:
+    - ModelNode/FirePoint
+    - 5300501
+    - 0.8
+    _DieAnimation: death
+  - _Id: 100324
+    _Name: 【近郊】金色空投
+    _NameID: 800184
+    _Event_group: 10032
+    _Eventtype: 2
+    _Power_type: 1
+    _Power_rate_1: 1
+    _Power_rate_2: 1
+    _Weight: 400
+    _Drop: 44211
+    _Integral: 2000
+    _Fighttime: []
+    _AtkAnimation:
+    _Path: PrefabsN/CyberActivity/CyberBox_2
+    _Icon: Functions/CyberCityActivity/Textures/box2
+    _Playeffect: []
+    _DieAnimation:
+  - _Id: 100331
+    _Name: 【中心】小怪
+    _NameID: 800238
+    _Event_group: 10033
+    _Eventtype: 1
+    _Power_type: 2
+    _Power_rate_1: 200000
+    _Power_rate_2: 50
+    _Weight: 4358
+    _Drop: 44207
+    _Integral: 400
+    _Fighttime:
+    - 2
+    - 4
+    _AtkAnimation: skill01
+    _Path: PrefabsN/RoleAI/Enemy3009
+    _Icon: Functions/CyberCityActivity/Textures/icon_3009
+    _Playeffect:
+    - ModelNode/FirePoint
+    - 5301923
+    - 0.25
+    _DieAnimation: death
+  - _Id: 100332
+    _Name: 【中心】中怪
+    _NameID: 800239
+    _Event_group: 10033
+    _Eventtype: 1
+    _Power_type: 2
+    _Power_rate_1: 300000
+    _Power_rate_2: 20
+    _Weight: 3000
+    _Drop: 44208
+    _Integral: 1200
+    _Fighttime:
+    - 3
+    - 5
+    _AtkAnimation: skill01_end
+    _Path: PrefabsN/RoleAI/Enemy3007
+    _Icon: Functions/CyberCityActivity/Textures/icon_3007
+    _Playeffect:
+    - ModelNode/FirePoint_1
+    - 5301924
+    - 0.5
+    _DieAnimation: death
+  - _Id: 100333
+    _Name: 【中心】BOSS
+    _NameID: 800240
+    _Event_group: 10033
+    _Eventtype: 1
+    _Power_type: 2
+    _Power_rate_1: 1000000
+    _Power_rate_2: 15
+    _Weight: 800
+    _Drop: 44209
+    _Integral: 4000
+    _Fighttime:
+    - 5
+    - 7
+    _AtkAnimation: shoot
+    _Path: PrefabsN/CyberActivity/CarBoss_ArasakaSamurai
+    _Icon: Functions/CyberCityActivity/Textures/icon_car_boss1
+    _Playeffect:
+    - ModelNode/FirePoint
+    - 5301924
+    - 0.1
+    _DieAnimation: death
+  - _Id: 100334
+    _Name: 【中心】彩色空投
+    _NameID: 800185
+    _Event_group: 10033
+    _Eventtype: 2
+    _Power_type: 1
+    _Power_rate_1: 1
+    _Power_rate_2: 1
+    _Weight: 342
+    _Drop: 44212
+    _Integral: 4000
+    _Fighttime: []
+    _AtkAnimation:
+    _Path: PrefabsN/CyberActivity/CyberBox_1
+    _Icon: Functions/CyberCityActivity/Textures/box3
+    _Playeffect: []
+    _DieAnimation:
+  - _Id: 100335
+    _Name: 【中心】其他玩家
+    _NameID: 800241
+    _Event_group: 10033
+    _Eventtype: 3
+    _Power_type: 1
+    _Power_rate_1: 1
+    _Power_rate_2: 1
+    _Weight: 1500
+    _Drop: 44213
+    _Integral: 1200
+    _Fighttime:
+    - 5
+    - 7
+    _AtkAnimation:
+    _Path:
+    _Icon: Functions/CyberCityActivity/Textures/player
+    _Playeffect: []
+    _DieAnimation:
+  - _Id: 100511
+    _Name: 【远郊】小怪
+    _NameID: 800232
+    _Event_group: 10051
+    _Eventtype: 1
+    _Power_type: 1
+    _Power_rate_1: 20000
+    _Power_rate_2: 0
+    _Weight: 4000
+    _Drop: 44301
+    _Integral: 100
+    _Fighttime:
+    - 2
+    - 4
+    _AtkAnimation: skill02
+    _Path: PrefabsN/RoleAI/Enemy3001
+    _Icon: Functions/CyberCityActivity/Textures/icon_3001
+    _Playeffect:
+    - ModelNode/FirePoint
+    - 5301925
+    - 0.3
+    _DieAnimation: death
+  - _Id: 100512
+    _Name: 【远郊】中怪
+    _NameID: 800233
+    _Event_group: 10051
+    _Eventtype: 1
+    _Power_type: 1
+    _Power_rate_1: 50000
+    _Power_rate_2: 0
+    _Weight: 4600
+    _Drop: 44302
+    _Integral: 300
+    _Fighttime:
+    - 3
+    - 5
+    _AtkAnimation: skill01
+    _Path: PrefabsN/RoleAI/Enemy3002
+    _Icon: Functions/CyberCityActivity/Textures/icon_3002
+    _Playeffect:
+    - ModelNode/FirePoint
+    - 5301202
+    - 0.4
+    _DieAnimation: death
+  - _Id: 100513
+    _Name: 【远郊】BOSS
+    _NameID: 800234
+    _Event_group: 10051
+    _Eventtype: 1
+    _Power_type: 1
+    _Power_rate_1: 100000
+    _Power_rate_2: 0
+    _Weight: 1000
+    _Drop: 44303
+    _Integral: 900
+    _Fighttime:
+    - 5
+    - 7
+    _AtkAnimation: skill01
+    _Path: PrefabsN/RoleAI/Enemy3003
+    _Icon: Functions/CyberCityActivity/Textures/icon_3003
+    _Playeffect: []
+    _DieAnimation: death
+  - _Id: 100514
+    _Name: 【远郊】银色空投
+    _NameID: 800183
+    _Event_group: 10051
+    _Eventtype: 2
+    _Power_type: 1
+    _Power_rate_1: 1
+    _Power_rate_2: 1
+    _Weight: 400
+    _Drop: 44310
+    _Integral: 1000
+    _Fighttime: []
+    _AtkAnimation:
+    _Path: PrefabsN/CyberActivity/CyberBox_3
+    _Icon: Functions/CyberCityActivity/Textures/box1
+    _Playeffect: []
+    _DieAnimation:
+  - _Id: 100521
+    _Name: 【近郊】小怪
+    _NameID: 800235
+    _Event_group: 10052
+    _Eventtype: 1
+    _Power_type: 2
+    _Power_rate_1: 50000
+    _Power_rate_2: 150
+    _Weight: 4000
+    _Drop: 44304
+    _Integral: 200
+    _Fighttime:
+    - 2
+    - 4
+    _AtkAnimation: skill02
+    _Path: PrefabsN/RoleAI/Enemy3017
+    _Icon: Functions/CyberCityActivity/Textures/icon_3017
+    _Playeffect:
+    - ModelNode/FirePoint
+    - 5301925
+    - 0.2
+    _DieAnimation: death
+  - _Id: 100522
+    _Name: 【近郊】中怪
+    _NameID: 800236
+    _Event_group: 10052
+    _Eventtype: 1
+    _Power_type: 2
+    _Power_rate_1: 100000
+    _Power_rate_2: 60
+    _Weight: 4600
+    _Drop: 44305
+    _Integral: 600
+    _Fighttime:
+    - 3
+    - 5
+    _AtkAnimation: cybershow1
+    _Path: PrefabsN/RoleAI/Enemy3004
+    _Icon: Functions/CyberCityActivity/Textures/icon_3004
+    _Playeffect: []
+    _DieAnimation: death
+  - _Id: 100523
+    _Name: 【近郊】BOSS
+    _NameID: 800237
+    _Event_group: 10052
+    _Eventtype: 1
+    _Power_type: 2
+    _Power_rate_1: 300000
+    _Power_rate_2: 20
+    _Weight: 1000
+    _Drop: 44306
+    _Integral: 1800
+    _Fighttime:
+    - 5
+    - 7
+    _AtkAnimation: skill01
+    _Path: PrefabsN/RoleAI/Enemy3005
+    _Icon: Functions/CyberCityActivity/Textures/icon_3005
+    _Playeffect:
+    - ModelNode/FirePoint
+    - 5300501
+    - 0.8
+    _DieAnimation: death
+  - _Id: 100524
+    _Name: 【近郊】金色空投
+    _NameID: 800184
+    _Event_group: 10052
+    _Eventtype: 2
+    _Power_type: 1
+    _Power_rate_1: 1
+    _Power_rate_2: 1
+    _Weight: 400
+    _Drop: 44311
+    _Integral: 2000
+    _Fighttime: []
+    _AtkAnimation:
+    _Path: PrefabsN/CyberActivity/CyberBox_2
+    _Icon: Functions/CyberCityActivity/Textures/box2
+    _Playeffect: []
+    _DieAnimation:
+  - _Id: 100531
+    _Name: 【中心】小怪
+    _NameID: 800238
+    _Event_group: 10053
+    _Eventtype: 1
+    _Power_type: 2
+    _Power_rate_1: 200000
+    _Power_rate_2: 60
+    _Weight: 4358
+    _Drop: 44307
+    _Integral: 400
+    _Fighttime:
+    - 2
+    - 4
+    _AtkAnimation: skill01
+    _Path: PrefabsN/RoleAI/Enemy3009
+    _Icon: Functions/CyberCityActivity/Textures/icon_3009
+    _Playeffect:
+    - ModelNode/FirePoint
+    - 5301923
+    - 0.25
+    _DieAnimation: death
+  - _Id: 100532
+    _Name: 【中心】中怪
+    _NameID: 800239
+    _Event_group: 10053
+    _Eventtype: 1
+    _Power_type: 2
+    _Power_rate_1: 300000
+    _Power_rate_2: 20
+    _Weight: 3000
+    _Drop: 44308
+    _Integral: 1200
+    _Fighttime:
+    - 3
+    - 5
+    _AtkAnimation: skill01_end
+    _Path: PrefabsN/RoleAI/Enemy3007
+    _Icon: Functions/CyberCityActivity/Textures/icon_3007
+    _Playeffect:
+    - ModelNode/FirePoint_1
+    - 5301924
+    - 0.5
+    _DieAnimation: death
+  - _Id: 100533
+    _Name: 【中心】BOSS
+    _NameID: 800240
+    _Event_group: 10053
+    _Eventtype: 1
+    _Power_type: 2
+    _Power_rate_1: 1000000
+    _Power_rate_2: 12
+    _Weight: 800
+    _Drop: 44309
+    _Integral: 4000
+    _Fighttime:
+    - 5
+    - 7
+    _AtkAnimation: shoot
+    _Path: PrefabsN/CyberActivity/CarBoss_ArasakaSamurai
+    _Icon: Functions/CyberCityActivity/Textures/icon_car_boss1
+    _Playeffect:
+    - ModelNode/FirePoint
+    - 5301924
+    - 0.1
+    _DieAnimation: death
+  - _Id: 100534
+    _Name: 【中心】彩色空投
+    _NameID: 800185
+    _Event_group: 10053
+    _Eventtype: 2
+    _Power_type: 1
+    _Power_rate_1: 1
+    _Power_rate_2: 1
+    _Weight: 342
+    _Drop: 44312
+    _Integral: 4000
+    _Fighttime: []
+    _AtkAnimation:
+    _Path: PrefabsN/CyberActivity/CyberBox_1
+    _Icon: Functions/CyberCityActivity/Textures/box3
+    _Playeffect: []
+    _DieAnimation:
+  - _Id: 100535
+    _Name: 【中心】其他玩家
+    _NameID: 800241
+    _Event_group: 10053
+    _Eventtype: 3
+    _Power_type: 1
+    _Power_rate_1: 1
+    _Power_rate_2: 1
+    _Weight: 1500
+    _Drop: 44313
+    _Integral: 1200
+    _Fighttime:
+    - 5
+    - 7
+    _AtkAnimation:
+    _Path:
+    _Icon: Functions/CyberCityActivity/Textures/player
+    _Playeffect: []
+    _DieAnimation:

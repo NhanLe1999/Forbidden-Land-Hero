@@ -1,0 +1,4370 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86fde4b0309756c88c6fed67a830860b, type: 3}
+  m_Name: DYEffectCfg
+  m_EditorClassIdentifier:
+  _Items:
+  - _Id: 1001
+    _Path: PrefabsN/Effect/Common/xuanzhong
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1002
+    _Path: PrefabsN/Effect/Common/harmrange
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1003
+    _Path: PrefabsN/Effect/Common/levelup
+    _Livetime: 2
+    _Scale: []
+    _Sound: shengji
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1004
+    _Path: PrefabsN/Effect/Common/heal
+    _Livetime: 2
+    _Scale: []
+    _Sound: huixue
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1005
+    _Path: PrefabsN/Effect/Common/siwang
+    _Livetime: 3
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1006
+    _Path: PrefabsN/Effect/Common/atkrange
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1007
+    _Path: PrefabsN/Effect/Common/wudi
+    _Livetime: 10
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1008
+    _Path: PrefabsN/Effect/Common/slow
+    _Livetime: 3
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1009
+    _Path: PrefabsN/Effect/Common/siwang_big
+    _Livetime: 3
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1010
+    _Path: PrefabsN/Effect/Common/slowelec
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1011
+    _Path: PrefabsN/Effect/Common/kuilei
+    _Livetime: 99
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1012
+    _Path: PrefabsN/Effect/Common/slowlight
+    _Livetime: 3.5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1013
+    _Path: PrefabsN/Effect/Common/crazy
+    _Livetime: 999
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1014
+    _Path: PrefabsN/Effect/Common/jiangshichuxian
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1015
+    _Path: PrefabsN/Effect/Common/carxiaoshi
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1016
+    _Path: PrefabsN/Effect/Common/zhaoze_jiansu
+    _Livetime: 3.5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1017
+    _Path: PrefabsN/Effect/highwayProp/elecgun_pic_hit
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1018
+    _Path: PrefabsN/Effect/highwayProp/bullet_hongzha
+    _Livetime: 999
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1019
+    _Path: PrefabsN/Effect/Flutter/posui_siwang
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1020
+    _Path: PrefabsN/Effect/HeroBullet/Hero_guangquan
+    _Livetime: 999
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1021
+    _Path: PrefabsN/Effect/Flutter/Boss/FB_Boss_dandao
+    _Livetime: 10
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1022
+    _Path: PrefabsN/Effect/Flutter/Boss/FB_Boss_gongji
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1023
+    _Path: PrefabsN/Effect/Flutter/Bee_siwang
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1024
+    _Path: PrefabsN/Effect/Flutter/Tortoise_siwang
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1025
+    _Path: PrefabsN/Effect/Flutter/posui_siwang2
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1026
+    _Path: PrefabsN/Effect/EnemyBullet/BOSS_kuangbao
+    _Livetime: 999999
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1027
+    _Path: PrefabsN/Effect/highwayProp/ZWH_bing_boom
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1028
+    _Path: PrefabsN/Effect/highwayProp/ZWH_huo_boom
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1029
+    _Path: PrefabsN/Effect/highwayProp/ZWH_lei_boom
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1030
+    _Path: PrefabsN/Effect/highwayProp/ZWH_an_boom
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1031
+    _Path: PrefabsN/Effect/highwayProp/ZWH_guang_boom
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1032
+    _Path: PrefabsN/Effect/CitiaoBullet/52162_doge
+    _Livetime: 1
+    _Scale: []
+    _Sound: common_doge
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1033
+    _Path: PrefabsN/Effect/Common/kong
+    _Livetime: 0.1
+    _Scale: []
+    _Sound: dianfengjiasu
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 10041
+    _Path: PrefabsN/Effect/Common/healBoss
+    _Livetime: 2
+    _Scale: []
+    _Sound: huixue
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 10061
+    _Path: PrefabsN/Effect/Common/atkrangechallenge
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 10191
+    _Path: PrefabsN/Effect/Flutter/posui_siwang1
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 10251
+    _Path: PrefabsN/Effect/Flutter/posui_siwang3
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 30901
+    _Path: PrefabsN/Effect/Buff/holyShield
+    _Livetime: 999
+    _Scale: []
+    _Sound: hudun
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 30902
+    _Path: PrefabsN/Effect/Buff/holyShield_1
+    _Livetime: 999
+    _Scale: []
+    _Sound: hudun
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 31002
+    _Path: PrefabsN/Effect/Buff/ice
+    _Livetime: 3
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 31201
+    _Path: PrefabsN/Effect/Buff/fire
+    _Livetime: 12
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 31301
+    _Path: PrefabsN/Effect/Buff/zuzhou
+    _Livetime: 2.5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 100202
+    _Path: PrefabsN/Effect/Common/respawn
+    _Livetime: 5
+    _Scale: []
+    _Sound: fuhuo
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1100101
+    _Path: PrefabsN/Effect/HeroBullet/ak47_fire
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1100102
+    _Path: PrefabsN/Effect/HeroBullet/ak47_dandao
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1100103
+    _Path: PrefabsN/Effect/HeroBullet/ak47_hit
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1100201
+    _Path: PrefabsN/Effect/HeroBullet/shotgun_fire
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1100202
+    _Path: PrefabsN/Effect/HeroBullet/shotgun_dandao
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1100203
+    _Path: PrefabsN/Effect/HeroBullet/shotgun_hit
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1100204
+    _Path: PrefabsN/Effect/HeroBullet/shotgun_fire_1
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1100301
+    _Path: PrefabsN/Effect/HeroBullet/MG_fire
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1100302
+    _Path: PrefabsN/Effect/HeroBullet/MG_dandao
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1100303
+    _Path: PrefabsN/Effect/HeroBullet/MG_hit
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1100401
+    _Path: PrefabsN/Effect/HeroBullet/awp_fire
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1100402
+    _Path: PrefabsN/Effect/HeroBullet/awp_dandao
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1100403
+    _Path: PrefabsN/Effect/HeroBullet/awp_hit
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1100501
+    _Path: PrefabsN/Effect/HeroBullet/rpg_fire
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1100502
+    _Path: PrefabsN/Effect/HeroBullet/rpg_dandao
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 40
+    _MustDisplay: 1
+  - _Id: 1100512
+    _Path: PrefabsN/Effect/HeroBullet/rpg_boom
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 15
+    _MustDisplay: 0
+  - _Id: 1100513
+    _Path: PrefabsN/Effect/HeroBullet/rpg_hit
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1100514
+    _Path: WhiteBody/Weapon/whiteman_bullet
+    _Livetime: 5
+    _Scale:
+    - 0.8
+    - 0.8
+    - 0.8
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1100601
+    _Path: PrefabsN/Effect/HeroBullet/blaster_fire
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1100602
+    _Path: PrefabsN/Effect/HeroBullet/blaster_dandao
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1100603
+    _Path: PrefabsN/Effect/HeroBullet/blaster_hit
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1100604
+    _Path: PrefabsN/Effect/HeroBullet/blaster_fire_1
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1100701
+    _Path: PrefabsN/Effect/HeroBullet/scatter_fire
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1100702
+    _Path: PrefabsN/Effect/HeroBullet/scatter_dandao
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1100703
+    _Path: PrefabsN/Effect/HeroBullet/scatter_hit
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1100801
+    _Path: PrefabsN/Effect/HeroBullet/crossbow_fire
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1100802
+    _Path: PrefabsN/Effect/HeroBullet/crossbow_dandao
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1100803
+    _Path: PrefabsN/Effect/HeroBullet/crossbow_hit
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1100901
+    _Path: PrefabsN/Effect/HeroBullet/boreas_fire
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1100902
+    _Path: PrefabsN/Effect/HeroBullet/boreas_dandao
+    _Livetime: 10
+    _Scale:
+    - 0.95
+    - 0.95
+    - 0.95
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1100903
+    _Path: PrefabsN/Effect/HeroBullet/boreas_hit
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1100912
+    _Path: PrefabsN/Effect/HeroBullet/boreas_dandao1
+    _Livetime: 10
+    _Scale:
+    - 0.95
+    - 0.95
+    - 0.95
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1101001
+    _Path: PrefabsN/Effect/HeroBullet/railgun_fire
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1101002
+    _Path: PrefabsN/Effect/HeroBullet/railgun_dandao
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1101003
+    _Path: PrefabsN/Effect/HeroBullet/railgun_hit
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1101101
+    _Path: PrefabsN/Effect/HeroBullet/flameGatling_fire
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1101102
+    _Path: PrefabsN/Effect/HeroBullet/flameGatling_dandao
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1101103
+    _Path: PrefabsN/Effect/HeroBullet/flameGatling_hit
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1101201
+    _Path: PrefabsN/Effect/HeroBullet/TheBloodOfFire_fire
+    _Livetime: 0
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1101202
+    _Path: PrefabsN/Effect/HeroBullet/TheBloodOfFire_dandao
+    _Livetime: 0
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1101203
+    _Path: PrefabsN/Effect/HeroBullet/TheBloodOfFire_hit
+    _Livetime: 0
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1101204
+    _Path: PrefabsN/Effect/HeroBullet/TheBloodOfFire_dandao1
+    _Livetime: 0
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1101205
+    _Path: PrefabsN/Effect/HeroBullet/TheBloodOfFire_fire_1
+    _Livetime: 0
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1101207
+    _Path: PrefabsN/Effect/HeroBullet/CurseHand_dandao
+    _Livetime: 0
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1101208
+    _Path: PrefabsN/Effect/HeroBullet/CurseHand_hit
+    _Livetime: 0
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1101209
+    _Path: PrefabsN/Effect/RobotBullet/CurseHand_Bud_fire
+    _Livetime: 0
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1101210
+    _Path: PrefabsN/Effect/RobotBullet/CurseHand_Bud_dandao
+    _Livetime: 0
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1101211
+    _Path: PrefabsN/Effect/RobotBullet/CurseHand_Bud_boom
+    _Livetime: 1
+    _Scale: []
+    _Sound: weapon_zuzhouhuabao
+    _Max_particleNum: 8
+    _MustDisplay: 0
+  - _Id: 1101214
+    _Path: PrefabsN/Effect/HeroBullet/FrostFall_dandao
+    _Livetime: 0
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 40
+    _MustDisplay: 1
+  - _Id: 1101215
+    _Path: PrefabsN/Effect/HeroBullet/FrostFall_boom
+    _Livetime: 1
+    _Scale: []
+    _Sound: weapon_shuangyunbaozha
+    _Max_particleNum: 15
+    _MustDisplay: 0
+  - _Id: 1101216
+    _Path: PrefabsN/Effect/HeroBullet/FrostFall_hit
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1101217
+    _Path: PrefabsN/Effect/HeroBullet/FrostFall_hanbinglingyu
+    _Livetime: 0
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1101218
+    _Path: PrefabsN/Effect/HeroBullet/FrostFall_bingyun
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1101219
+    _Path: PrefabsN/Effect/HeroBullet/FrostFall_bingyunbaozha
+    _Livetime: 2.5
+    _Scale: []
+    _Sound: weapon_shuangyunyunshi
+    _Max_particleNum: 8
+    _MustDisplay: 0
+  - _Id: 1101301
+    _Path: PrefabsN/Effect/HeroBullet/CurseHand_fire
+    _Livetime: 0
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1101401
+    _Path: PrefabsN/Effect/HeroBullet/FrostFall_fire
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1101501
+    _Path: PrefabsN/Effect/HeroBullet/weapon_ShengDan_fire
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1101502
+    _Path: PrefabsN/Effect/HeroBullet/weapon_ShengDan_dandao
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1101503
+    _Path: PrefabsN/Effect/HeroBullet/weapon_ShengDan_hit
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1101504
+    _Path: PrefabsN/Prop/Shengdankongtou_chufa
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1101601
+    _Path: GameObjs/Weapon/BarrettShengLin/BarrettShengLin_fire
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1101602
+    _Path: GameObjs/Weapon/BarrettShengLin/BarrettShengLin_dandao
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 80
+    _MustDisplay: 1
+  - _Id: 1101603
+    _Path: GameObjs/Weapon/BarrettShengLin/BarrettShengLin_hit
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 15
+    _MustDisplay: 0
+  - _Id: 1101604
+    _Path: GameObjs/Weapon/BarrettShengLin/BarrettShengLin_boom
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 8
+    _MustDisplay: 0
+  - _Id: 1101605
+    _Path: GameObjs/Weapon/BarrettShengLin/BarrettShengLin_guangren_dandao
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1101606
+    _Path: GameObjs/Weapon/BarrettShengLin/BarrettShengLin_guangren_hit
+    _Livetime: 2
+    _Scale: []
+    _Sound: weapon_baleite_guangren
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1101701
+    _Path: GameObjs/Weapon/Lightning_arrester/Lightning_fire
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1101702
+    _Path: GameObjs/Weapon/Lightning_arrester/Lightning_dandao
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 120
+    _MustDisplay: 1
+  - _Id: 1101703
+    _Path: GameObjs/Weapon/Lightning_arrester/Lightning_hit
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 20
+    _MustDisplay: 0
+  - _Id: 1101704
+    _Path: GameObjs/Weapon/Lightning_arrester/Lightning_arrester_dandao
+    _Livetime: 4
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1101705
+    _Path: GameObjs/Weapon/Lightning_arrester/Lightning_arrester_boom
+    _Livetime: 3
+    _Scale: []
+    _Sound: lightning_duang
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1101706
+    _Path: GameObjs/Weapon/Lightning_arrester/Lightning_arrester_debuff
+    _Livetime: 3
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 50
+    _MustDisplay: 0
+  - _Id: 1101707
+    _Path: GameObjs/Weapon/Lightning_arrester/Lightning_arrester_hit1
+    _Livetime: 0.3
+    _Scale: []
+    _Sound: gandian03
+    _Max_particleNum: 10
+    _MustDisplay: 0
+  - _Id: 1101708
+    _Path: GameObjs/Weapon/Lightning_arrester/Lightning_arrester_hit2
+    _Livetime: 0.3
+    _Scale: []
+    _Sound: gandian03
+    _Max_particleNum: 10
+    _MustDisplay: 0
+  - _Id: 1101709
+    _Path: GameObjs/Weapon/Lightning_arrester/Lightning_arrester_buff
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1101710
+    _Path: GameObjs/Weapon/Lightning_arrester/Lightning_arrester_boom02
+    _Livetime: 0.6
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1101801
+    _Path: GameObjs/Weapon/StormBlossom/StormBlossom_dandao
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1101802
+    _Path: GameObjs/Weapon/StormBlossom/StormBlossom_fire
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1101803
+    _Path: GameObjs/Weapon/StormBlossom/StormBlossom_hit
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1101804
+    _Path: GameObjs/Weapon/StormBlossom/StormBlossom_dandao
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1101805
+    _Path: GameObjs/Weapon/StormBlossom/StormBlossom_dandao02
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1101901
+    _Path: GameObjs/Weapon/weapon_NeonCrossbow/NeonCrossbow_fire
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1101902
+    _Path: GameObjs/Weapon/weapon_NeonCrossbow/NeonCrossbow_dandao
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1101903
+    _Path: GameObjs/Weapon/weapon_NeonCrossbow/NeonCrossbow_hit
+    _Livetime: 0.3
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 10
+    _MustDisplay: 0
+  - _Id: 1101904
+    _Path: GameObjs/Weapon/weapon_NeonCrossbow/NeonCrossbow_yanjing_link
+    _Livetime: 999
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1101905
+    _Path: GameObjs/Weapon/weapon_NeonCrossbow/NeonCrossbow_yanjing_linkhit
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1101906
+    _Path: GameObjs/Weapon/weapon_NeonCrossbow/NeonCrossbow_yanjing_hit
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1101907
+    _Path: GameObjs/Weapon/weapon_NeonCrossbow/NeonCrossbow_yanjing_dandao
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 20
+    _MustDisplay: 0
+  - _Id: 1101908
+    _Path: GameObjs/Weapon/weapon_NeonCrossbow/NeonCrossbow_yanjing_linkhitboom
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1102001
+    _Path: GameObjs/Weapon/Pulse/Pulse_dandao
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1102002
+    _Path: GameObjs/Weapon/Pulse/Pulse_fire
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1102003
+    _Path: GameObjs/Weapon/Pulse/Pulse_hit
+    _Livetime: 0.5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 20
+    _MustDisplay: 0
+  - _Id: 1102004
+    _Path: GameObjs/Weapon/Pulse/guanrpg_skilldrop01
+    _Livetime: 1
+    _Scale: []
+    _Sound: pulseboom
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1102005
+    _Path: GameObjs/Weapon/Pulse/guanrpg_boom01
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1102006
+    _Path: GameObjs/Weapon/Pulse/guanrpg_skilldrop02
+    _Livetime: 1
+    _Scale: []
+    _Sound: pulseboom
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1102007
+    _Path: GameObjs/Weapon/Pulse/guanrpg_boom02
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1102101
+    _Path: GameObjs/Weapon/BlackHole/BlackHole_fire
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1102102
+    _Path: GameObjs/Weapon/BlackHole/BlackHole_dandao
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 50
+    _MustDisplay: 1
+  - _Id: 1102103
+    _Path: GameObjs/Weapon/BlackHole/BlackHole_boom
+    _Livetime: 0.5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 15
+    _MustDisplay: 0
+  - _Id: 1102104
+    _Path: GameObjs/Weapon/BlackHole/BlackHole_heidong
+    _Livetime: 5
+    _Scale: []
+    _Sound: blackhole01
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1102105
+    _Path: GameObjs/Weapon/BlackHole/BlackHole_heidong_hit
+    _Livetime: 0.2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 30
+    _MustDisplay: 0
+  - _Id: 1102106
+    _Path: GameObjs/Weapon/BlackHole/BlackHole_huixing_dandao
+    _Livetime: 3
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1102107
+    _Path: GameObjs/Weapon/BlackHole/BlackHole_huixing_hit
+    _Livetime: 0.3
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 10
+    _MustDisplay: 0
+  - _Id: 1102108
+    _Path: GameObjs/Weapon/BlackHole/BlackHole_heidong_16
+    _Livetime: 3
+    _Scale: []
+    _Sound: blackhole02
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1102201
+    _Path: GameObjs/Weapon/Scorchedengine/Scorchedengine_dandao
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1102202
+    _Path: GameObjs/Weapon/Scorchedengine/Scorchedengine_boom
+    _Livetime: 0.5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1102203
+    _Path: GameObjs/Weapon/Scorchedengine/Scorchedengine_jineng1
+    _Livetime: 3
+    _Scale: []
+    _Sound: scorchedbooms
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1102204
+    _Path: GameObjs/Weapon/Scorchedengine/Scorchedengine_jineng2
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1102205
+    _Path: PrefabsN/Effect/Common/kong
+    _Livetime: 1
+    _Scale: []
+    _Sound: scorchedfinalboom
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1102301
+    _Path: GameObjs/Weapon/IceElfTower/iceElfTower_dandao
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1102302
+    _Path: GameObjs/Weapon/IceElfTower/iceElfTower_jineng
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1102303
+    _Path: GameObjs/Weapon/IceElfTower/iceElfTower_jineng_dandao
+    _Livetime: 2
+    _Scale: []
+    _Sound: iceelf_skillshoot
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1102304
+    _Path: GameObjs/Weapon/IceElfTower/iceElfTower_jineng_hit
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1102305
+    _Path: GameObjs/Weapon/IceElfTower/iceElfTower_fire
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1102306
+    _Path: GameObjs/Weapon/IceElfTower/iceElfTower_hit
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1102307
+    _Path: GameObjs/Weapon/IceElfTower/iceElfTower_jineng_quan
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1102401
+    _Path: Functions/MiniGame_ZombieRun/Effects/paoku_dandao2_fire
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1201005
+    _Path: PrefabsN/Effect/CitiaoBullet/705_firerate_1
+    _Livetime: 0
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1201006
+    _Path: PrefabsN/Effect/HeroBullet/nanjue_baozha
+    _Livetime: 3
+    _Scale: []
+    _Sound: skill_yunshi
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1201007
+    _Path: PrefabsN/Effect/HeroBullet/baozhaquan
+    _Livetime: 10
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1201008
+    _Path: PrefabsN/Effect/HeroBullet/baozhaquan_baozha
+    _Livetime: 5
+    _Scale: []
+    _Sound: skill_zibao
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1201009
+    _Path: PrefabsN/Effect/Common/wudi
+    _Livetime: 2
+    _Scale:
+    - 1.3
+    - 1.3
+    - 1.3
+    _Sound: hero_lulu_ha
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1201010
+    _Path: PrefabsN/Effect/CitiaoBullet/705_firerate_1
+    _Livetime: 1
+    _Scale: []
+    _Sound: hero_lulu_heihei
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1201011
+    _Path: GameObjs/Hero/xingguang/1011_liuxing
+    _Livetime: 2
+    _Scale: []
+    _Sound: skill_liuxing01
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1201012
+    _Path: PrefabsN/Effect/Common/kong
+    _Livetime: 2
+    _Scale: []
+    _Sound: chaopinnew
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1201013
+    _Path: GameObjs/Hero/fengxing/fengxing_zidan
+    _Livetime: 1
+    _Scale: []
+    _Sound: yefeng01
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 1201014
+    _Path: GameObjs/Hero/fengxing/fengxing_hit
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 1201015
+    _Path: GameObjs/Hero/fengxing/fengxing_run01
+    _Livetime: 9999
+    _Scale: []
+    _Sound: fengxingbuff
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2030502
+    _Path: PrefabsN/Effect/CitiaoBullet/305_dianju_zidan
+    _Livetime: 15
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 2030503
+    _Path: PrefabsN/Effect/CitiaoBullet/305_dianju_hit
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2030504
+    _Path: PrefabsN/Effect/CitiaoBullet/305_dianju_zidan
+    _Livetime: 15
+    _Scale:
+    - 2
+    - 2
+    - 2
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2060202
+    _Path: PrefabsN/Effect/CitiaoBullet/602_fireboom_zidan
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2060501
+    _Path: PrefabsN/Effect/CitiaoBullet/605_cike
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2070501
+    _Path: PrefabsN/Effect/CitiaoBullet/705_firerate
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2090302
+    _Path: PrefabsN/Effect/CitiaoBullet/903_lightning_zidan
+    _Livetime: 5
+    _Scale: []
+    _Sound: skill_shandian
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2090303
+    _Path: PrefabsN/Effect/CitiaoBullet/903_lightning_hit
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2090304
+    _Path: PrefabsN/Effect/CitiaoBullet/903_lightning_zidan_1
+    _Livetime: 5
+    _Scale: []
+    _Sound: skill_shandian
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2100302
+    _Path: PrefabsN/Effect/CitiaoBullet/1003_icearrow_zidan
+    _Livetime: 5
+    _Scale: []
+    _Sound: skill_bingjian
+    _Max_particleNum: 9
+    _MustDisplay: 1
+  - _Id: 2100303
+    _Path: PrefabsN/Effect/CitiaoBullet/1003_icearrow_hit
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 6
+    _MustDisplay: 0
+  - _Id: 2100402
+    _Path: PrefabsN/Effect/CitiaoBullet/1004_iceboom_zidan
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2100403
+    _Path: PrefabsN/Effect/CitiaoBullet/1004_iceboom_hit
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2100501
+    _Path: PrefabsN/Effect/CitiaoBullet/1005_han
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2120202
+    _Path: PrefabsN/Effect/CitiaoBullet/1202_firemeteor_zidan
+    _Livetime: 5
+    _Scale: []
+    _Sound: skill_yunshi
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2120203
+    _Path: PrefabsN/Effect/CitiaoBullet/1202_fireboom_zidan
+    _Livetime: 2.5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2120503
+    _Path: PrefabsN/Effect/CitiaoBullet/1205_fireboom_zidan
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2140103
+    _Path: PrefabsN/Effect/CitiaoBullet/1401_chengjie_hit
+    _Livetime: 2
+    _Scale: []
+    _Sound: skill_chengjie
+    _Max_particleNum: 50
+    _MustDisplay: 0
+  - _Id: 2150103
+    _Path: PrefabsN/Effect/CitiaoBullet/1501_numou_hit
+    _Livetime: 2
+    _Scale: []
+    _Sound: skill_numou
+    _Max_particleNum: 50
+    _MustDisplay: 0
+  - _Id: 2160001
+    _Path: PrefabsN/Effect/CitiaoBullet/5109_wind_1
+    _Livetime: 10
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2160002
+    _Path: PrefabsN/Effect/CitiaoBullet/5109_wind_1hit
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2510302
+    _Path: PrefabsN/Effect/CitiaoBullet/5103_hanbing
+    _Livetime: 8
+    _Scale: []
+    _Sound: skill_bingfeng
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2510402
+    _Path: PrefabsN/Effect/CitiaoBullet/5104_youling
+    _Livetime: 8
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2510403
+    _Path: PrefabsN/Effect/CitiaoBullet/5104_youling_hit
+    _Livetime: 2
+    _Scale: []
+    _Sound: skill_youling
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2510404
+    _Path: PrefabsN/Effect/CitiaoBullet/5104_eling
+    _Livetime: 8
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2510405
+    _Path: PrefabsN/Effect/CitiaoBullet/5104_elingboom
+    _Livetime: 2
+    _Scale: []
+    _Sound: skill_youling
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2510502
+    _Path: PrefabsN/Effect/CitiaoBullet/5105_RPG_big
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 2510801
+    _Path: PrefabsN/Effect/CitiaoBullet/5108_firearrow_zidan
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 2510802
+    _Path: PrefabsN/Effect/CitiaoBullet/5108_fireboom_zidan
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2510902
+    _Path: PrefabsN/Effect/CitiaoBullet/5109_wind
+    _Livetime: 10
+    _Scale: []
+    _Sound: skill_xuanfeng
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2510903
+    _Path: PrefabsN/Effect/CitiaoBullet/5109_wind_hit
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2511002
+    _Path: PrefabsN/Effect/CitiaoBullet/5110_dianci_zidan
+    _Livetime: 5
+    _Scale: []
+    _Sound: skill_diancipao
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 2511004
+    _Path: PrefabsN/Effect/CitiaoBullet/51104_dianci_boom
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 1
+    _MustDisplay: 0
+  - _Id: 2511005
+    _Path: PrefabsN/Effect/CitiaoBullet/51105_mine
+    _Livetime: 15
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2511009
+    _Path: PrefabsN/Effect/CitiaoBullet/51109_mineboom
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2511014
+    _Path: PrefabsN/Effect/CitiaoBullet/51104_dianci_boomhit
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 1
+    _MustDisplay: 0
+  - _Id: 2511017
+    _Path: PrefabsN/Effect/CitiaoBullet/51105_minehit
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2511019
+    _Path: PrefabsN/Effect/CitiaoBullet/51109_mineboomhit
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2511102
+    _Path: PrefabsN/Effect/CitiaoBullet/51113_zidan
+    _Livetime: 5
+    _Scale: []
+    _Sound: skill_feidan
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 2511103
+    _Path: PrefabsN/Effect/CitiaoBullet/51113_boom
+    _Livetime: 2
+    _Scale: []
+    _Sound: skill_feidanbaozha
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2511104
+    _Path: PrefabsN/Effect/CitiaoBullet/52113_zidan
+    _Livetime: 5
+    _Scale: []
+    _Sound: skill_feidan
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 2511105
+    _Path: PrefabsN/Effect/CitiaoBullet/52113_boom
+    _Livetime: 2
+    _Scale: []
+    _Sound: skill_feidanbaozha
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2511106
+    _Path: PrefabsN/Effect/CitiaoBullet/52113_huoyan
+    _Livetime: 3
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2511601
+    _Path: PrefabsN/Effect/CitiaoBullet/52162_wind
+    _Livetime: 99999
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2511602
+    _Path: PrefabsN/Effect/CitiaoBullet/52162_hit
+    _Livetime: 0.5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2511603
+    _Path: PrefabsN/Effect/CitiaoBullet/52163_buff
+    _Livetime: 99999
+    _Scale: []
+    _Sound: qihua
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2540501
+    _Path: PrefabsN/Effect/CitiaoBullet/1202_fireboom_zidanBB
+    _Livetime: 2.5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2540801
+    _Path: PrefabsN/Effect/CitiaoBullet/1401_chengjie_hitBB
+    _Livetime: 2
+    _Scale: []
+    _Sound: skill_chengjie
+    _Max_particleNum: 50
+    _MustDisplay: 0
+  - _Id: 2540901
+    _Path: PrefabsN/Effect/CitiaoBullet/iceBB
+    _Livetime: 3
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2541001
+    _Path: PrefabsN/Effect/CitiaoBullet/zuzhouBB
+    _Livetime: 2.5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 50
+    _MustDisplay: 0
+  - _Id: 2541002
+    _Path: PrefabsN/Effect/CitiaoBullet/zuzhouBB_boom
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2541102
+    _Path: PrefabsN/Effect/CitiaoBullet/52162_dogeBB
+    _Livetime: 1
+    _Scale: []
+    _Sound: common_doge
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2610202
+    _Path: PrefabsN/Effect/Equip/6102_zidan
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2620102
+    _Path: PrefabsN/Effect/Equip/6201_zidan
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2620103
+    _Path: PrefabsN/Effect/Equip/6201_hit
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2620112
+    _Path: PrefabsN/Effect/Equip/62011_zidan
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2620113
+    _Path: PrefabsN/Effect/Equip/62011_hit
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2620202
+    _Path: PrefabsN/Effect/Equip/6202_zidan
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2620203
+    _Path: PrefabsN/Effect/Equip/6202_hit
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2620212
+    _Path: PrefabsN/Effect/Equip/62021_zidan
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2620213
+    _Path: PrefabsN/Effect/Equip/62021_hit
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2620222
+    _Path: PrefabsN/Effect/Equip/62022_zidan
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2620223
+    _Path: PrefabsN/Effect/Equip/62022_hit
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2620302
+    _Path: PrefabsN/Effect/Equip/6203_zidan
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2620312
+    _Path: PrefabsN/Effect/Equip/62031_zidan
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2620322
+    _Path: PrefabsN/Effect/Equip/62032_zidan
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2620402
+    _Path: PrefabsN/Effect/Equip/6204_zidan
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2620403
+    _Path: PrefabsN/Effect/Equip/6204_hit
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2620412
+    _Path: PrefabsN/Effect/Equip/62041_zidan
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2620413
+    _Path: PrefabsN/Effect/Equip/62041_hit
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2620422
+    _Path: PrefabsN/Effect/Equip/62042_zidan
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2620423
+    _Path: PrefabsN/Effect/Equip/62042_hit
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2640102
+    _Path: PrefabsN/Effect/Equip/6401_zidan
+    _Livetime: 99
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2640112
+    _Path: PrefabsN/Effect/Equip/6401_boom
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2640113
+    _Path: PrefabsN/Effect/Equip/6401_hit
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2640202
+    _Path: PrefabsN/Effect/Equip/6402_zidan
+    _Livetime: 99
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2640212
+    _Path: PrefabsN/Effect/Equip/64021_zidan
+    _Livetime: 99
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2640302
+    _Path: PrefabsN/Effect/Equip/6403_zidan
+    _Livetime: 99
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2640322
+    _Path: PrefabsN/Effect/Equip/64032_zidan
+    _Livetime: 99
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2640332
+    _Path: PrefabsN/Effect/Equip/64033_zidan
+    _Livetime: 10
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2640333
+    _Path: PrefabsN/Effect/Equip/64033_hit
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2640342
+    _Path: PrefabsN/Effect/Equip/64034_boom
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2640402
+    _Path: PrefabsN/Effect/Equip/6404_zidan
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2640403
+    _Path: PrefabsN/Effect/Equip/6404_hit
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2650102
+    _Path: PrefabsN/Effect/Equip/6501_zidan
+    _Livetime: 3
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 2650103
+    _Path: PrefabsN/Effect/Equip/6501_boomhit
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2650105
+    _Path: PrefabsN/Effect/Equip/6501_boom
+    _Livetime: 1.6
+    _Scale: []
+    _Sound: skill_bingdongshoulei
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2650202
+    _Path: PrefabsN/Effect/Equip/6502_boom
+    _Livetime: 3
+    _Scale: []
+    _Sound: skill_bingshuangchongji
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2650203
+    _Path: PrefabsN/Effect/Equip/6502_boomhit
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2660102
+    _Path: PrefabsN/Effect/Equip/6601_zidan
+    _Livetime: 20
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 2660103
+    _Path: PrefabsN/Effect/Equip/6601_hit
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2660202
+    _Path: PrefabsN/Effect/Equip/6602_boom
+    _Livetime: 3
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2660203
+    _Path: PrefabsN/Effect/Equip/6602_boomhit
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2670102
+    _Path: PrefabsN/Effect/Equip/6701_zidan
+    _Livetime: 3
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 2670103
+    _Path: PrefabsN/Effect/Equip/6701_hit
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2670202
+    _Path: PrefabsN/Effect/Equip/6702_zidan
+    _Livetime: 10
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 2670203
+    _Path: PrefabsN/Effect/Equip/6702_hit
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2680102
+    _Path: PrefabsN/Effect/Equip/6801_zidan
+    _Livetime: 20
+    _Scale: []
+    _Sound: skill_feidan
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 2680103
+    _Path: PrefabsN/Effect/Equip/6801_boomhit
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 2680105
+    _Path: PrefabsN/Effect/Equip/6801_boom
+    _Livetime: 3
+    _Scale: []
+    _Sound: skill_feidanbaozha
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3000001
+    _Path: PrefabsN/Effect/RobotBullet/Phenix_skill_zishen
+    _Livetime: 1
+    _Scale: []
+    _Sound: skill_fenghuang2
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3000002
+    _Path: PrefabsN/Effect/RobotBullet/Phenix_skill_mubiao
+    _Livetime: 1
+    _Scale: []
+    _Sound: skill_fenghuang1
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3000003
+    _Path: PrefabsN/Effect/RobotBullet/wugui_jineng
+    _Livetime: 3.2
+    _Scale: []
+    _Sound: skill_ronghuozhixin
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 3000004
+    _Path: PrefabsN/Effect/RobotBullet/Zaiezhifeng_gongji
+    _Livetime: 3
+    _Scale: []
+    _Sound: skill_dufeng
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3000005
+    _Path: PrefabsN/Effect/RobotBullet/Zaiezhifeng_jineng
+    _Livetime: 3
+    _Scale: []
+    _Sound: skill_chongqun
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3000006
+    _Path: PrefabsN/Effect/RobotBullet/Youminglingmao_zishen
+    _Livetime: 2
+    _Scale: []
+    _Sound: skill_jili2
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3000007
+    _Path: PrefabsN/Effect/RobotBullet/Youminglingmao_mubiao
+    _Livetime: 2
+    _Scale: []
+    _Sound: skill_jili
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3000008
+    _Path: PrefabsN/Effect/RobotBullet/Youminglingmao_mubiao
+    _Livetime: 2
+    _Scale: []
+    _Sound: skill_jili
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3000009
+    _Path: PrefabsN/Effect/RobotBullet/Youminglingmao_mubiao
+    _Livetime: 2
+    _Scale: []
+    _Sound: skill_jili
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3000010
+    _Path: PrefabsN/Effect/RobotBullet/Dragon_penhuo
+    _Livetime: 2
+    _Scale: []
+    _Sound: skill_tuxi
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3000011
+    _Path: PrefabsN/Effect/RobotBullet/Dragon_penhuo_1
+    _Livetime: 2
+    _Scale: []
+    _Sound: skill_tuxi
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3000012
+    _Path: PrefabsN/Effect/RobotBullet/DragonEgg_siwang
+    _Livetime: 2
+    _Scale: []
+    _Sound: skill_longchusheng
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 3000013
+    _Path: PrefabsN/Effect/Common/kong
+    _Livetime: 2
+    _Scale: []
+    _Sound: skill_huimietuxi
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 3000014
+    _Path: PrefabsN/Effect/RobotBullet/Reindeer_chongfeng
+    _Livetime: 2
+    _Scale: []
+    _Sound: skill_chongzhuang
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3000015
+    _Path: PrefabsN/Effect/RobotBullet/Youminglingmao_mubiao
+    _Livetime: 2
+    _Scale: []
+    _Sound: skill_luming
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3000016
+    _Path: PrefabsN/Effect/RobotBullet/GingerbreadMan_jineng
+    _Livetime: 2
+    _Scale: []
+    _Sound: skill_jiahudun
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3000017
+    _Path: PrefabsN/Effect/Buff/holyShield_shuaxin
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 3000018
+    _Path: PrefabsN/Effect/Buff/holyShield_shuaxin_1
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 3000019
+    _Path: GameObjs/Robote/TuanTuan/tuantuan_hit
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3000020
+    _Path: GameObjs/Robote/Yuanyuan/yuanyuan_dandao
+    _Livetime: 3
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3000021
+    _Path: GameObjs/Robote/Yuanyuan/yuanyuan_jineng
+    _Livetime: 4
+    _Scale: []
+    _Sound: skill_yuanyuan_fashe
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3000022
+    _Path: GameObjs/Robote/Yuanyuan/yuanyuan_mubiao
+    _Livetime: 2
+    _Scale: []
+    _Sound: skill_yuanyuan_foguang02
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3000023
+    _Path: Functions/PVP/Effects/danqi_qianghua
+    _Livetime: 1
+    _Scale: []
+    _Sound: skill_yuanyuan_duan02
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 3000024
+    _Path: GameObjs/Robote/LeiShen/LeiShen_skill1_hit
+    _Livetime: 0.5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3000025
+    _Path: PrefabsN/Effect/Common/kong
+    _Livetime: 1
+    _Scale: []
+    _Sound: skill_leishendianci
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 3000026
+    _Path: GameObjs/Robote/LeiShen/LeiShen_skill2_jiguang
+    _Livetime: 1
+    _Scale: []
+    _Sound: skill_leishenjiguang
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3000027
+    _Path: GameObjs/Robote/LeiShen/LeiShen_skill2_fire
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3000028
+    _Path: PrefabsN/Effect/Common/kong
+    _Livetime: 1.5
+    _Scale: []
+    _Sound: skill_leishendaodan
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3000029
+    _Path: GameObjs/Robote/Radar/Radar_skill01_chuansong1
+    _Livetime: 0.4
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 3000030
+    _Path: GameObjs/Robote/Radar/Radar_skill01_chuansong2
+    _Livetime: 0.4
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 3000031
+    _Path: GameObjs/Robote/Radar/Radar_skill02_saomiao
+    _Livetime: 2
+    _Scale: []
+    _Sound: radar_leida
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3000032
+    _Path: GameObjs/Robote/Radar/Radar_skill01_buff
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3000033
+    _Path: GameObjs/Robote/Radar/Radar_skill01_buff2
+    _Livetime: 6
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3000034
+    _Path: GameObjs/Robote/ManbuXuanfeng/XuanFeng_skill1_state
+    _Livetime: 4
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 3000035
+    _Path: GameObjs/Robote/ManbuXuanfeng/XuanFeng_skill1_hit
+    _Livetime: 0.5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 50
+    _MustDisplay: 0
+  - _Id: 3000036
+    _Path: GameObjs/Robote/ManbuXuanfeng/XuanFeng_skill1_zhan
+    _Livetime: 0.5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 3000037
+    _Path: PrefabsN/Effect/Common/kong
+    _Livetime: 0.5
+    _Scale: []
+    _Sound: xuanfeng_zhan
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 3000038
+    _Path: PrefabsN/Effect/Common/kong
+    _Livetime: 0.5
+    _Scale: []
+    _Sound: xuanfeng_zhanpvp
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 3000039
+    _Path: GameObjs/Robote/CaptainHamster/capham_buff
+    _Livetime: 999
+    _Scale: []
+    _Sound: captainhambuff
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3000040
+    _Path: GameObjs/Robote/CaptainHamster/capham_skill
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3000041
+    _Path: GameObjs/Robote/MotorcyclePi/motopi_lunzi
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3000042
+    _Path: GameObjs/Robote/MotorcyclePi/motopi_link
+    _Livetime: 999
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 3000043
+    _Path: GameObjs/Robote/MotorcyclePi/motopi_linkhit
+    _Livetime: 0.5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3000044
+    _Path: GameObjs/Robote/MotorcyclePi/motopi_lunzi02
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3000045
+    _Path: GameObjs/Robote/MotorcyclePi/motopi_boom
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3000046
+    _Path: GameObjs/Robote/MotorcyclePi/motopi_boomhit
+    _Livetime: 0.5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3000047
+    _Path: GameObjs/Robote/RabbitBand/rabbitband_buff0
+    _Livetime: 10
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3000048
+    _Path: GameObjs/Robote/RabbitBand/rabbitband_buff1
+    _Livetime: 10
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3000049
+    _Path: GameObjs/Robote/RabbitBand/rabbitband_around
+    _Livetime: 6
+    _Scale: []
+    _Sound: rabbitdj
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3000050
+    _Path: GameObjs/Robote/Cosmokoi/koi_around
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3000051
+    _Path: GameObjs/Robote/VolcanoShip/VolcanoShip_jineng1
+    _Livetime: 1.2
+    _Scale: []
+    _Sound: volcanoshippugong
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3000052
+    _Path: GameObjs/Robote/VolcanoShip/VolcanoShip_jineng2_dandao1
+    _Livetime: 0.5
+    _Scale: []
+    _Sound: volcanoshipboom
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3000053
+    _Path: GameObjs/Robote/VolcanoShip/VolcanoShip_jineng2_baozha1
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 3000054
+    _Path: GameObjs/Robote/VolcanoShip/VolcanoShip_jineng2_dandao2
+    _Livetime: 0.5
+    _Scale: []
+    _Sound: volcanoshipboom
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3000055
+    _Path: GameObjs/Robote/VolcanoShip/VolcanoShip_jineng2_baozha2
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 3000056
+    _Path: GameObjs/Robote/iceSpiderSlayer/iceSpiderSlayer_buff1
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3000057
+    _Path: PrefabsN/Effect/Common/kong
+    _Livetime: 1
+    _Scale: []
+    _Sound: skill_icespider_buff
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3000058
+    _Path: GameObjs/Robote/iceSpiderSlayer/iceSpiderSlayer_buff
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3100101
+    _Path: PrefabsN/Effect/RobotBullet/UAV002_fire
+    _Livetime: 2
+    _Scale: []
+    _Sound: skill_hanbingbaodan
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3100102
+    _Path: PrefabsN/Effect/RobotBullet/UAV002_dandao
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3100103
+    _Path: PrefabsN/Effect/RobotBullet/UAV002_boom
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3100201
+    _Path: PrefabsN/Effect/RobotBullet/BF_fire
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3100202
+    _Path: PrefabsN/Effect/RobotBullet/BF_dandao
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3100205
+    _Path: PrefabsN/Effect/RobotBullet/BF_start
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3100206
+    _Path: PrefabsN/Effect/RobotBullet/BF_end
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3100212
+    _Path: PrefabsN/Effect/RobotBullet/BF_boom
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3100213
+    _Path: PrefabsN/Effect/RobotBullet/BF_hit
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3100403
+    _Path: PrefabsN/Effect/RobotBullet/Robot_hit
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3100503
+    _Path: PrefabsN/Effect/RobotBullet/Robot2_hit
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3100701
+    _Path: PrefabsN/Effect/RobotBullet/Magent
+    _Livetime: 2
+    _Scale: []
+    _Sound: skill_xijingyan
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3100801
+    _Path: PrefabsN/Effect/RobotBullet/UAV_fire
+    _Livetime: 2
+    _Scale: []
+    _Sound: weapon_scatter
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3100802
+    _Path: PrefabsN/Effect/RobotBullet/UAV_dandao
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3100803
+    _Path: PrefabsN/Effect/RobotBullet/UAV_hit
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3100804
+    _Path: PrefabsN/Effect/Backup/UAV_gongsu
+    _Livetime: 99
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3100902
+    _Path: PrefabsN/Effect/RobotBullet/Robot_zidan
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3100903
+    _Path: PrefabsN/Effect/RobotBullet/Robot_hit
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3101002
+    _Path: PrefabsN/Effect/RobotBullet/Robot_skill2
+    _Livetime: 99
+    _Scale: []
+    _Sound: skill_xuanzhuan
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3101003
+    _Path: PrefabsN/Effect/RobotBullet/Robot_skill2_hit
+    _Livetime: 2
+    _Scale: []
+    _Sound: skill_xuanzhuanbeiji
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3101010
+    _Path: PrefabsN/Effect/RobotBullet/Dog_fire
+    _Livetime: 2
+    _Scale: []
+    _Sound: lightning_att
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3101011
+    _Path: PrefabsN/Effect/RobotBullet/Dog_hit
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3101012
+    _Path: PrefabsN/Effect/RobotBullet/Dog_dandao
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3101013
+    _Path: Functions/PVP/Effects/danqi_qianghua
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3101014
+    _Path: GameObjs/Robote/TwinMaid/TwinMaid_gongji1
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3101015
+    _Path: GameObjs/Robote/TwinMaid/TwinMaid_gongji2
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 3101016
+    _Path: GameObjs/Robote/TwinMaid/TwinMaid_gongji_hit
+    _Livetime: 0.5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3200001
+    _Path: PrefabsN/Effect/CitiaoBullet/11044_xiaoshi
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3300001
+    _Path: PrefabsN/Effect/RobotBullet/Destroy_chixu1
+    _Livetime: 99
+    _Scale: []
+    _Sound: skill_huimiezhili
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 3300002
+    _Path: PrefabsN/Effect/RobotBullet/Destroy_chixu2
+    _Livetime: 99
+    _Scale: []
+    _Sound: skill_huimiezhili
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 3400001
+    _Path: PrefabsN/Effect/weapon/salvation_jineng1
+    _Livetime: 5
+    _Scale: []
+    _Sound: skill_huikan2
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3400002
+    _Path: PrefabsN/Effect/weapon/salvation_jineng3_kaihuo
+    _Livetime: 5
+    _Scale: []
+    _Sound: skill_hongzha
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3400003
+    _Path: PrefabsN/Effect/weapon/salvation_jineng3_dandao
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3400004
+    _Path: PrefabsN/Effect/weapon/salvation_jineng3_beiji
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3400005
+    _Path: PrefabsN/Effect/weapon/salvation_xiaoshi
+    _Livetime: 0.5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3400006
+    _Path: PrefabsN/Effect/weapon/salvation_chuxian
+    _Livetime: 0.5
+    _Scale: []
+    _Sound: skill_huikan1
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3500001
+    _Path: PrefabsN/Effect/RobotBullet/Beetle_fire
+    _Livetime: 2
+    _Scale: []
+    _Sound: fire_ball
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3500002
+    _Path: PrefabsN/Effect/RobotBullet/Beetle_boom
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 3500003
+    _Path: PrefabsN/Effect/RobotBullet/Beetle_dandao
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 5130101
+    _Path: PrefabsN/Effect/EnemyBullet/1301_poison
+    _Livetime: 2
+    _Scale: []
+    _Sound: monster_dubao
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5130201
+    _Path: PrefabsN/Effect/EnemyBullet/1302_yujing_ground
+    _Livetime: 10
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5130202
+    _Path: PrefabsN/Effect/EnemyBullet/1302_boom
+    _Livetime: 2
+    _Scale: []
+    _Sound: monster_zibao
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5130203
+    _Path: PrefabsN/Effect/EnemyBullet/1302_yujing_body
+    _Livetime: 5
+    _Scale: []
+    _Sound: monster_daojishi
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5140101
+    _Path: PrefabsN/Effect/EnemyBullet/1401_bullet
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5140601
+    _Path: PrefabsN/Effect/EnemyBullet/1406_bullet
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 5140602
+    _Path: PrefabsN/Effect/EnemyBullet/1406_heal
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 5140701
+    _Path: PrefabsN/Effect/EnemyBullet/1407_bullet
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 5140702
+    _Path: PrefabsN/Effect/EnemyBullet/1407_buff
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 5140801
+    _Path: PrefabsN/Effect/EnemyBullet/1408_hit
+    _Livetime: 3
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 5141101
+    _Path: PrefabsN/Effect/EnemyBullet/1411_start
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 5141102
+    _Path: PrefabsN/Effect/EnemyBullet/1411_yujing
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5141201
+    _Path: PrefabsN/Effect/EnemyBullet/1412_death
+    _Livetime: 3
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 5141202
+    _Path: PrefabsN/Effect/EnemyBullet/1412_death2
+    _Livetime: 3
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 5141301
+    _Path: PrefabsN/Effect/EnemyBullet/1413_yujing
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5300102
+    _Path: PrefabsN/Effect/EnemyBullet/3001
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5300201
+    _Path: PrefabsN/Effect/EnemyBullet/3002_yujing
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5300202
+    _Path: PrefabsN/Effect/EnemyBullet/3002
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5300212
+    _Path: PrefabsN/Effect/EnemyBullet/30021
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5300301
+    _Path: PrefabsN/Effect/EnemyBullet/3003_sector
+    _Livetime: 1.2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5300401
+    _Path: PrefabsN/Effect/EnemyBullet/3004_yujing
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5300501
+    _Path: PrefabsN/Effect/EnemyBullet/3005_pen
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5300505
+    _Path: PrefabsN/Effect/EnemyBullet/3005_yujing
+    _Livetime: 1.7
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5300512
+    _Path: PrefabsN/Effect/EnemyBullet/3005_poison
+    _Livetime: 10
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5300601
+    _Path: PrefabsN/Effect/EnemyBullet/3006_fire
+    _Livetime: 1.5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5300602
+    _Path: PrefabsN/Effect/EnemyBullet/3006_bullet
+    _Livetime: 10
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5300701
+    _Path: PrefabsN/Effect/EnemyBullet/3007_warning
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5300702
+    _Path: PrefabsN/Effect/EnemyBullet/3007_bullet
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5300703
+    _Path: PrefabsN/Effect/EnemyBullet/3007_fire
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5300801
+    _Path: PrefabsN/Effect/EnemyBullet/3008_fire
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5300802
+    _Path: PrefabsN/Effect/EnemyBullet/3008_bullet
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5300803
+    _Path: PrefabsN/Effect/EnemyBullet/3008_buff
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5300902
+    _Path: PrefabsN/Effect/EnemyBullet/3009_bullet
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5300903
+    _Path: PrefabsN/Effect/EnemyBullet/3009_yujing
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5300912
+    _Path: PrefabsN/Effect/EnemyBullet/30091_bullet
+    _Livetime: 10
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5301101
+    _Path: PrefabsN/Effect/EnemyBullet/3011_bullet
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5301202
+    _Path: PrefabsN/Effect/EnemyBullet/3012_bullet
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5301203
+    _Path: PrefabsN/Effect/EnemyBullet/3012_yujing
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5301301
+    _Path: PrefabsN/Effect/EnemyBullet/3013_yujing
+    _Livetime: 0.8
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5301402
+    _Path: PrefabsN/Effect/EnemyBullet/3014_poison
+    _Livetime: 18
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5301611
+    _Path: PrefabsN/Effect/EnemyBullet/30161_fire
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5301612
+    _Path: PrefabsN/Effect/EnemyBullet/30161_bullet
+    _Livetime: 10
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5301621
+    _Path: PrefabsN/Effect/EnemyBullet/30162_fire
+    _Livetime: 2.1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5301632
+    _Path: PrefabsN/Effect/EnemyBullet/30163_bullet
+    _Livetime: 10
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5301712
+    _Path: PrefabsN/Effect/EnemyBullet/30171_bullet
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5301713
+    _Path: PrefabsN/Effect/EnemyBullet/3017_yujing
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5301801
+    _Path: PrefabsN/Effect/EnemyBullet/3018_fire
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5301802
+    _Path: PrefabsN/Effect/EnemyBullet/3018_bullet
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5301803
+    _Path: PrefabsN/Effect/EnemyBullet/3018_fled
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5301804
+    _Path: PrefabsN/Effect/EnemyBullet/3018_warning
+    _Livetime: 10
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5301913
+    _Path: PrefabsN/Effect/EnemyBullet/3019_yujing
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5301922
+    _Path: PrefabsN/Effect/EnemyBullet/3019_bullet
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5301923
+    _Path: PrefabsN/CyberActivity/cyber_bullet1
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5301924
+    _Path: PrefabsN/CyberActivity/cyber_bullet2
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5301925
+    _Path: PrefabsN/CyberActivity/cyber_bullet3
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5301926
+    _Path: PrefabsN/Effect/EnemyBullet/Enemy3056_duwu
+    _Livetime: 0
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5301927
+    _Path: PrefabsN/Effect/EnemyBullet/3021_jineng2_dandao
+    _Livetime: 5
+    _Scale:
+    - 0.6
+    - 0.6
+    - 0.6
+    _Sound: boshi_feilun
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5301928
+    _Path: PrefabsN/Effect/EnemyBullet/3021_jineng5_dandao
+    _Livetime: 5
+    _Scale:
+    - 0.5
+    - 0.5
+    - 0.5
+    _Sound: boshi_gunlun
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5301929
+    _Path: PrefabsN/Effect/EnemyBullet/3055_poison
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302001
+    _Path: PrefabsN/Effect/EnemyBullet/3021_jineng1_dandao
+    _Livetime: 5
+    _Scale:
+    - 2
+    - 2
+    - 2
+    _Sound: boshi_guangqiuzidan
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302002
+    _Path: PrefabsN/Effect/EnemyBullet/3021_jineng1_fire
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302003
+    _Path: PrefabsN/Effect/EnemyBullet/3021_jineng1_hit
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302004
+    _Path: PrefabsN/Effect/EnemyBullet/3021_jineng2_dandao
+    _Livetime: 5
+    _Scale:
+    - 0.8
+    - 0.8
+    - 0.8
+    _Sound: boshi_feilun
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302005
+    _Path: PrefabsN/Effect/EnemyBullet/3021_jineng2_hit
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302006
+    _Path: PrefabsN/Effect/EnemyBullet/3021_jineng3_jiguang
+    _Livetime: 2
+    _Scale:
+    - 1
+    - 1.2
+    - 1
+    _Sound: boshi_jiguang
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302007
+    _Path: PrefabsN/Effect/EnemyBullet/3021_jineng3_hit
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302008
+    _Path: PrefabsN/Effect/EnemyBullet/3021_jineng5_dandao
+    _Livetime: 5
+    _Scale:
+    - 0.7
+    - 0.7
+    - 0.7
+    _Sound: boshi_gunlun
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302009
+    _Path: PrefabsN/Effect/EnemyBullet/3021_jineng5_boom
+    _Livetime: 5
+    _Scale: []
+    _Sound: boshi_gunlun_baozha
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302010
+    _Path: PrefabsN/Effect/EnemyBullet/3021_jineng5_hit
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302011
+    _Path: PrefabsN/Effect/EnemyBullet/3021_jineng6_dandao
+    _Livetime: 5
+    _Scale:
+    - 1.2
+    - 1.2
+    - 1.2
+    _Sound: boshi_fashe
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302012
+    _Path: PrefabsN/Effect/EnemyBullet/3021_jineng6_boom
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302013
+    _Path: PrefabsN/Effect/EnemyBullet/3021_jineng6_fire
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302014
+    _Path: PrefabsN/Effect/EnemyBullet/3021_jineng7_huoyan
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302015
+    _Path: PrefabsN/Effect/EnemyBullet/3021_jineng7_jiguang
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302016
+    _Path: PrefabsN/Effect/EnemyBullet/3021_jineng7_jiguangzhongdian
+    _Livetime: 5
+    _Scale: []
+    _Sound: boshi_huoyan
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302017
+    _Path: PrefabsN/Effect/EnemyBullet/3021_jineng7_miaozhun
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302018
+    _Path: PrefabsN/Effect/EnemyBullet/3021_jineng7_miaozhunzhongdian
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302019
+    _Path: PrefabsN/Effect/EnemyBullet/3021_jineng9_dandao
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302020
+    _Path: PrefabsN/Effect/EnemyBullet/3021_jineng9_boom
+    _Livetime: 5
+    _Scale: []
+    _Sound: boshi_dilei_baozha
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302021
+    _Path: PrefabsN/Effect/EnemyBullet/3009_yujing
+    _Livetime: 1
+    _Scale:
+    - 0.8
+    - 0.8
+    - 0.8
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302022
+    _Path: PrefabsN/Effect/EnemyBullet/3021_12_2_yujing
+    _Livetime: 5
+    _Scale:
+    - 1
+    - 1.3
+    - 1
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302023
+    _Path: PrefabsN/Effect/EnemyBullet/3021_jineng3_xuli
+    _Livetime: 5
+    _Scale: []
+    _Sound: boshi_jiguang_xuli
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302024
+    _Path: PrefabsN/Effect/EnemyBullet/3021_jineng6_boom2
+    _Livetime: 2
+    _Scale: []
+    _Sound: weapon_zuzhouhuabao
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302025
+    _Path: PrefabsN/Effect/EnemyBullet/3021_12_2_yujing
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302026
+    _Path: PrefabsN/Effect/EnemyBullet/3009_yujing
+    _Livetime: 1
+    _Scale:
+    - 1.2
+    - 1.2
+    - 1.2
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302027
+    _Path: PrefabsN/Effect/EnemyBullet/3021_12_2_yujing
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302028
+    _Path: PrefabsN/Effect/EnemyBullet/3021_jineng3_jiguang_xunhuan
+    _Livetime: 1
+    _Scale: []
+    _Sound: boshi_jiguang
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302029
+    _Path: PrefabsN/Effect/EnemyBullet/3021_jineng3_jiguang_xunhuan
+    _Livetime: 3
+    _Scale: []
+    _Sound: boshi_jiguang
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302030
+    _Path: PrefabsN/Effect/EnemyBullet/3021_jineng2_dandao
+    _Livetime: 5
+    _Scale: []
+    _Sound: boshi_feilun
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302031
+    _Path: PrefabsN/Effect/EnemyBullet/3021_12_2_yujing
+    _Livetime: 0.4
+    _Scale:
+    - 1
+    - 1.3
+    - 1
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302032
+    _Path: PrefabsN/Effect/EnemyBullet/3021_siwang
+    _Livetime: 5
+    _Scale: []
+    _Sound: boshi_siwang
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302033
+    _Path: PrefabsN/Effect/Activity/zhalan_lv_chufa
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302034
+    _Path: PrefabsN/Effect/Activity/zhalan_lan_chufa
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302035
+    _Path: PrefabsN/Effect/Activity/zhalan_cheng_chufa
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302036
+    _Path: PrefabsN/Effect/Activity/zhalan_hong_chufa
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302037
+    _Path: PrefabsN/Effect/Activity/2029_siwang
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302038
+    _Path: PrefabsN/Effect/Activity/3022_siwang
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302039
+    _Path: PrefabsN/Effect/Activity/2030_siwang
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302040
+    _Path: PrefabsN/Effect/Activity/2031_siwang
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302041
+    _Path: PrefabsN/Effect/Activity/Train_siwang
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302042
+    _Path: PrefabsN/Effect/Activity/Train_chongfeng
+    _Livetime: 3
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302043
+    _Path: PrefabsN/Effect/Activity/huoyu
+    _Livetime: 4
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302044
+    _Path: PrefabsN/Effect/Activity/bingyu
+    _Livetime: 4
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302045
+    _Path: PrefabsN/Effect/Activity/leiyu
+    _Livetime: 4
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302046
+    _Path: PrefabsN/Effect/HeroBullet/boreas_dandao
+    _Livetime: 10
+    _Scale:
+    - 0.8
+    - 0.8
+    - 0.8
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302047
+    _Path: PrefabsN/Effect/Common/siwang_shengdan
+    _Livetime: 10
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302048
+    _Path: PrefabsN/Effect/RobotBullet/Reindeer_chongfeng
+    _Livetime: 10
+    _Scale:
+    - 5
+    - 5
+    - 5
+    _Sound: skill_chongzhuang
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302049
+    _Path: Functions/Boss/Effects/BOSS_skill_fuzi
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302050
+    _Path: Functions/Boss/Effects/harmrange_juxing
+    _Livetime: 0.7
+    _Scale:
+    - 2.4
+    - 2.4
+    - 2.4
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302051
+    _Path: Functions/Boss/Effects/3021_chunjie_dandao
+    _Livetime: 1
+    _Scale:
+    - 2
+    - 2
+    - 2
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302052
+    _Path: Functions/Boss/Effects/3021_chunjie_dandao_pengzhang
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302053
+    _Path: Functions/Boss/Effects/3021_jineng2_dandao_fuzi
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302054
+    _Path: Functions/Boss/Effects/3021_chunjie_dandao_pengzhangbaozha
+    _Livetime: 0.3
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302055
+    _Path: Functions/Boss/Effects/3021_jineng6_dandao_chunjie
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302056
+    _Path: Functions/Boss/Effects/3021_jineng6_yanhua
+    _Livetime: 10
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302057
+    _Path: Functions/Boss/Effects/3021_jineng6_yanhua_dandao
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302058
+    _Path: Functions/Boss/Effects/3021_jineng6_yanhua_dimian
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302059
+    _Path: PrefabsN/Effect/EnemyBullet/3009_yujing
+    _Livetime: 1
+    _Scale:
+    - 0.6
+    - 0.6
+    - 0.6
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302060
+    _Path: Functions/Boss/Effects/3021_jineng3_jiguang_chunjie
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302061
+    _Path: Functions/Boss/Effects/3021_jineng3_hit_chunjie
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5302062
+    _Path: PrefabsN/Effect/EnemyBullet/3021_12_2_yujing
+    _Livetime: 5
+    _Scale:
+    - 1
+    - 1.1
+    - 1
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5303001
+    _Path: Functions/DefensiveWarfare/Effects/jiqiangta_dandao
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5303002
+    _Path: Functions/DefensiveWarfare/Effects/jiqiangta_fire
+    _Livetime: 0
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5303003
+    _Path: Functions/DefensiveWarfare/Effects/jiqiangta_hit
+    _Livetime: 0.3
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5303004
+    _Path: Functions/DefensiveWarfare/Effects/penwuta_gongji
+    _Livetime: 0
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5303005
+    _Path: Functions/DefensiveWarfare/Effects/penwuta_hit
+    _Livetime: 0
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5303006
+    _Path: Functions/DefensiveWarfare/Effects/liudanta_boom
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5303007
+    _Path: Functions/DefensiveWarfare/Effects/liudanta_boom_huoyan
+    _Livetime: 0
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5303008
+    _Path: Functions/DefensiveWarfare/Effects/liudanta_dandao
+    _Livetime: 0
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5303009
+    _Path: Functions/DefensiveWarfare/Effects/liudanta_fire
+    _Livetime: 0
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5303010
+    _Path: PrefabsN/Effect/EnemyBullet/3011_bullet
+    _Livetime: 8
+    _Scale:
+    - 2
+    - 2
+    - 2
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5303011
+    _Path: Functions/DefensiveWarfare/Effects/Enemy4103_duwu
+    _Livetime: 0
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5303012
+    _Path: Functions/DefensiveWarfare/Effects/4103_bullet
+    _Livetime: 0
+    _Scale:
+    - 2
+    - 2
+    - 2
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5305711
+    _Path: PrefabsN/Effect/EnemyBullet/2001_bullet
+    _Livetime: 99999
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 5305721
+    _Path: PrefabsN/Effect/EnemyBullet/3057_penhuo
+    _Livetime: 99999
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6010001
+    _Path: Functions/PVP/Effects/wurenji_chuxian
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6010002
+    _Path: Functions/PVP/Effects/wurenji_xiaoshi
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6010003
+    _Path: Functions/PVP/Effects/texiao_car_danqi_lan
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6010004
+    _Path: Functions/PVP/Effects/texiao_car_danqi_hong
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6010005
+    _Path: Functions/PVP/Effects/danqi_qianghua
+    _Livetime: 5
+    _Scale:
+    - 1
+    - 2
+    - 1
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6010006
+    _Path: PrefabsN/Effect/Common/levelup
+    _Livetime: 5
+    _Scale:
+    - 2
+    - 2
+    - 2
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6010007
+    _Path: Functions/PVP/Effects/texiao_car_danqi
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6056011
+    _Path: Functions/PVP/Effects/11001_boom
+    _Livetime: 3
+    _Scale:
+    - 1.5
+    - 1.5
+    - 1.5
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6056021
+    _Path: Functions/PVP/Effects/PVP_shotgun_dandao
+    _Livetime: 5
+    _Scale:
+    - 2
+    - 2
+    - 2
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6056022
+    _Path: Functions/PVP/Effects/PVP_shotgun_hit
+    _Livetime: 5
+    _Scale:
+    - 2
+    - 2
+    - 2
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6056031
+    _Path: Functions/PVP/Effects/11003_boom
+    _Livetime: 3
+    _Scale:
+    - 1.5
+    - 1.5
+    - 1.5
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6056041
+    _Path: Functions/PVP/Effects/pvp_5104_youling_dandao
+    _Livetime: 8
+    _Scale:
+    - 1.5
+    - 1.5
+    - 1.5
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6056042
+    _Path: Functions/PVP/Effects/PVP_5104_youling_hit
+    _Livetime: 2
+    _Scale: []
+    _Sound: skill_youling
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6056051
+    _Path: PrefabsN/Effect/HeroBullet/rpg_dandao
+    _Livetime: 5
+    _Scale:
+    - 1.5
+    - 1.5
+    - 1.5
+    _Sound: skill_feidan
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6056052
+    _Path: Functions/PVP/Effects/PVP_rpg_boom
+    _Livetime: 3
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6056061
+    _Path: Functions/PVP/Effects/11006_boom
+    _Livetime: 3
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6056071
+    _Path: Functions/PVP/Effects/903_lightning_zidan_PVP
+    _Livetime: 5
+    _Scale:
+    - 1.5
+    - 1.5
+    - 1.5
+    _Sound: skill_shandian
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6056072
+    _Path: Functions/PVP/Effects/PVP_903_lightning_hit
+    _Livetime: 5
+    _Scale:
+    - 4
+    - 4
+    - 4
+    _Sound: skill_shandian
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6056081
+    _Path: PrefabsN/Effect/CitiaoBullet/5108_firearrow_zidan
+    _Livetime: 5
+    _Scale:
+    - 2
+    - 2
+    - 2
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6056082
+    _Path: Functions/PVP/Effects/PVP_5108_fireboom_zidan
+    _Livetime: 5
+    _Scale:
+    - 1.5
+    - 1.5
+    - 1.5
+    _Sound: skill_feidan
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6056091
+    _Path: PrefabsN/Effect/CitiaoBullet/5109_wind_1
+    _Livetime: 10
+    _Scale:
+    - 2
+    - 2
+    - 2
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6056092
+    _Path: Functions/PVP/Effects/PVP_5109_wind_1hit
+    _Livetime: 2
+    _Scale: []
+    _Sound: skill_xuanfeng
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6056101
+    _Path: PrefabsN/Effect/CitiaoBullet/5110_dianci_zidan1
+    _Livetime: 3
+    _Scale:
+    - 1.5
+    - 1.5
+    - 1.5
+    _Sound: skill_diancipao
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6056102
+    _Path: Functions/PVP/Effects/pvp_51104_dianci_boomhit1
+    _Livetime: 5
+    _Scale:
+    - 3
+    - 3
+    - 3
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6056103
+    _Path: PrefabsN/Effect/CitiaoBullet/51104_dianci_boomhit
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6056104
+    _Path: PrefabsN/Effect/Equip/6701_zidan
+    _Livetime: 2
+    _Scale: []
+    _Sound: boshi_jiguang
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6056111
+    _Path: PrefabsN/Effect/CitiaoBullet/51113_zidan
+    _Livetime: 5
+    _Scale:
+    - 2
+    - 2
+    - 2
+    _Sound: skill_feidan
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6056112
+    _Path: PrefabsN/Effect/CitiaoBullet/51113_boom
+    _Livetime: 2
+    _Scale: []
+    _Sound: skill_feidanbaozha
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6056113
+    _Path: PrefabsN/Effect/CitiaoBullet/52113_huoyan
+    _Livetime: 3
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6056121
+    _Path: Functions/PVP/Effects/PVP_TheBloodOfFire_hit
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6056122
+    _Path: PrefabsN/Effect/HeroBullet/TheBloodOfFire_dandao1
+    _Livetime: 3
+    _Scale:
+    - 1.5
+    - 1.5
+    - 1.5
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6056123
+    _Path: Functions/PVP/Effects/11012_ranshao
+    _Livetime: 1.5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6056131
+    _Path: Functions/PVP/Effects/11013_dandao
+    _Livetime: 3
+    _Scale:
+    - 1.5
+    - 1.5
+    - 1.5
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6056132
+    _Path: Functions/PVP/Effects/11013_hit
+    _Livetime: 3
+    _Scale:
+    - 3
+    - 3
+    - 3
+    _Sound: skill_zibao
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6056141
+    _Path: Functions/PVP/Effects/FrostFall_bingyun
+    _Livetime: 5
+    _Scale:
+    - 1.5
+    - 1.5
+    - 1.5
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6056142
+    _Path: Functions/PVP/Effects/PVP_FrostFall_bingyunbaozha
+    _Livetime: 0.8
+    _Scale: []
+    _Sound: weapon_shuangyunyunshi
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6056151
+    _Path: Functions/PVP/Effects/11015_dandao
+    _Livetime: 3
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6056152
+    _Path: Functions/PVP/Effects/11015_hit
+    _Livetime: 3
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6056161
+    _Path: Functions/PVP/Effects/BarrettShengLin_guangren_dandao_pvp
+    _Livetime: 3
+    _Scale:
+    - 1.5
+    - 1.5
+    - 1.5
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6056162
+    _Path: Functions/PVP/Effects/BarrettShengLin_guangren_hit_pvp
+    _Livetime: 1.5
+    _Scale:
+    - 2
+    - 2
+    - 2
+    _Sound: weapon_baleite_guangren
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6056171
+    _Path: GameObjs/Weapon/Lightning_arrester/Lightning_arrester_dandao
+    _Livetime: 4
+    _Scale:
+    - 1.5
+    - 1.5
+    - 1.5
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6056172
+    _Path: GameObjs/Weapon/Lightning_arrester/Lightning_arrester_boom
+    _Livetime: 3
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6056181
+    _Path: PrefabsN/Effect/CitiaoBullet/52162_wind
+    _Livetime: 1
+    _Scale:
+    - 1.2
+    - 1.2
+    - 1.2
+    _Sound: storm_pvpfire_01
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6056182
+    _Path: PrefabsN/Effect/CitiaoBullet/52162_wind
+    _Livetime: 1
+    _Scale:
+    - 1.5
+    - 1.5
+    - 1.5
+    _Sound: storm_pvpfire_02
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6056201
+    _Path: GameObjs/Weapon/Pulse/guanrpg_boom02
+    _Livetime: 1
+    _Scale:
+    - 1.5
+    - 1.5
+    - 1.5
+    _Sound: pulseboom
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6057001
+    _Path: PrefabsN/Effect/EnemyBullet/3011_bullet
+    _Livetime: 2
+    _Scale:
+    - 1.5
+    - 1.5
+    - 1.5
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6057002
+    _Path: PrefabsN/Effect/EnemyBullet/30171_bullet
+    _Livetime: 1
+    _Scale:
+    - 1.5
+    - 1.5
+    - 1.5
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6057003
+    _Path: PrefabsN/Effect/EnemyBullet/1302_boom
+    _Livetime: 2
+    _Scale:
+    - 2
+    - 2
+    - 2
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6057004
+    _Path: PrefabsN/Effect/EnemyBullet/3017_yujing
+    _Livetime: 0.6
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6057005
+    _Path: PrefabsN/Effect/EnemyBullet/3017_yujing
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6071011
+    _Path: Functions/PVP/Effects/31001_boom
+    _Livetime: 3
+    _Scale:
+    - 1.5
+    - 1.5
+    - 1.5
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6071012
+    _Path: Functions/PVP/Effects/11012_ranshao
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6071021
+    _Path: Functions/PVP/Effects/31002_danqihuo
+    _Livetime: 5
+    _Scale: []
+    _Sound: boshi_huoyan
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6071031
+    _Path: Functions/PVP/Effects/pvp_5104_youling
+    _Livetime: 2
+    _Scale: []
+    _Sound: shoot_spirit_buff
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6071032
+    _Path: Functions/PVP/Effects/PVP_5104_youling_hit
+    _Livetime: 4
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6071041
+    _Path: Functions/PVP/Effects/31004_dandao
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6071042
+    _Path: Functions/PVP/Effects/31004_hit
+    _Livetime: 3
+    _Scale:
+    - 1.5
+    - 1.5
+    - 1.5
+    _Sound: skill_bingshuangchongji
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6071051
+    _Path: Functions/PVP/Effects/PVP_snowball
+    _Livetime: 5
+    _Scale:
+    - 1.6
+    - 1.6
+    - 1.6
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6071052
+    _Path: PrefabsN/Effect/HeroBullet/weapon_ShengDan_hit
+    _Livetime: 3
+    _Scale:
+    - 1.5
+    - 1.5
+    - 1.5
+    _Sound: hit_snowball
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6071061
+    _Path: Functions/PVP/Effects/6501_zidan_pvp
+    _Livetime: 3
+    _Scale: []
+    _Sound: skill_bingdongshoulei
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6071081
+    _Path: PrefabsN/Effect/RobotBullet/Reindeer_chongfeng
+    _Livetime: 3
+    _Scale:
+    - 2
+    - 2
+    - 2
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6071121
+    _Path: Functions/PVP/Effects/7112_pvp_quan
+    _Livetime: 5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6071122
+    _Path: Functions/PVP/Effects/7112_pvp_zidan
+    _Livetime: 0.5
+    _Scale: []
+    _Sound: skill_numou
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6071123
+    _Path: Functions/PVP/Effects/7111_pvp_buff
+    _Livetime: 1
+    _Scale: []
+    _Sound: skill_party
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6071124
+    _Path: Functions/PVP/Effects/7113_pvp
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6071125
+    _Path: Functions/PVP/Effects/7113_pvp_dot
+    _Livetime: 9
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6071126
+    _Path: Functions/PVP/Effects/7114_pvp_boom
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6071127
+    _Path: Functions/PVP/Effects/71015_dianquan
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6071128
+    _Path: Functions/PVP/Effects/71016_fengxing
+    _Livetime: 6
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6071129
+    _Path: Functions/PVP/Effects/pvpcarlink
+    _Livetime: 6
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6071130
+    _Path: Functions/PVP/Effects/pvp_7118boom
+    _Livetime: 1.5
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6075011
+    _Path: Functions/PVP/Effects/75012_guangzhu
+    _Livetime: 3
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6075031
+    _Path: Functions/PVP/Effects/75032_guangzhu
+    _Livetime: 3
+    _Scale: []
+    _Sound: skill_huimietuxi
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6075041
+    _Path: Functions/PVP/Effects/BarrettShengLin_hit_pvp
+    _Livetime: 3
+    _Scale:
+    - 1.5
+    - 1.5
+    - 1.5
+    _Sound: skill_daokan
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6075061
+    _Path: Functions/PVP/Effects/75062_guangzhu
+    _Livetime: 3
+    _Scale: []
+    _Sound: skill_xuanzhuan
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6075071
+    _Path: Functions/PVP/Effects/75072_guangzhu
+    _Livetime: 3
+    _Scale: []
+    _Sound: lightning_att
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6075081
+    _Path: Functions/PVP/Effects/PVP_Dragon_penhuo_1
+    _Livetime: 3
+    _Scale: []
+    _Sound: skill_fenghuang2
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6075091
+    _Path: Functions/PVP/Effects/6501_zidan_pvp
+    _Livetime: 3
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6075092
+    _Path: Functions/PVP/Effects/6501_boom_pvp
+    _Livetime: 3
+    _Scale: []
+    _Sound: hudun
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6075093
+    _Path: Functions/PVP/Effects/51105_mine1_pvp
+    _Livetime: 3
+    _Scale:
+    - 0.5
+    - 0.5
+    - 0.5
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6075121
+    _Path: Functions/PVP/Effects/XuanFeng_pvp_zhan
+    _Livetime: 3
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 6076111
+    _Path: GameObjs/Robote/CaptainHamster/capham_pvpbuff
+    _Livetime: 15
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 7500801
+    _Path: Functions/PVP/Effects/UAV_jiguang
+    _Livetime: 3
+    _Scale: []
+    _Sound: skill_hanbingbaodan
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 7500901
+    _Path: PrefabsN/Effect/RobotBullet/Reindeer_chongfeng
+    _Livetime: 1.5
+    _Scale:
+    - 0.5
+    - 0.5
+    - 0.5
+    _Sound: boshi_fashe
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 7500902
+    _Path: Functions/PVP/Effects/PVP_xiaoshi
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 9990101
+    _Path: PrefabsN/Effect/RobotBullet/Destroy_chixu2
+    _Livetime: 10
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 9990601
+    _Path: PrefabsN/Effect/Equip/6501_boomhit
+    _Livetime: 4
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 9990602
+    _Path: Functions/PVP/Effects/31004_dandao
+    _Livetime: 10
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 25110021
+    _Path: PrefabsN/Effect/CitiaoBullet/5110_dianci_zidan1
+    _Livetime: 0
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 1
+  - _Id: 25110041
+    _Path: PrefabsN/Effect/CitiaoBullet/51104_dianci_boom1
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 1
+    _MustDisplay: 0
+  - _Id: 25110051
+    _Path: PrefabsN/Effect/CitiaoBullet/51105_mine1
+    _Livetime: 15
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0
+  - _Id: 25110141
+    _Path: PrefabsN/Effect/CitiaoBullet/51104_dianci_boomhit1
+    _Livetime: 1
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 1
+    _MustDisplay: 0
+  - _Id: 25110171
+    _Path: PrefabsN/Effect/CitiaoBullet/51105_minehit1
+    _Livetime: 2
+    _Scale: []
+    _Sound:
+    _Max_particleNum: 0
+    _MustDisplay: 0

@@ -1,0 +1,1431 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38f023408d9e283520544bd0fba1cf40, type: 3}
+  m_Name: DYCampsiteBuildingCfg
+  m_EditorClassIdentifier:
+  _Items:
+  - _Id: 1
+    _Tag: 1
+    _Name: 29028
+    _Desc: 210001
+    _Lv: 0
+    _BuildIcon: zhuting01
+    _BuildName: zhutingBuild0
+    _BuildUpName: zhutingBuilding
+    _Condition:
+    - 4101
+    _BuildTimes: 1
+    _GoldCost: 10000
+    _ItemCost:
+    - 4002
+    - 10
+    _Citiao: []
+    _Atk: 0
+  - _Id: 2
+    _Tag: 2
+    _Name: 29031
+    _Desc: 210002
+    _Lv: 0
+    _BuildIcon: yanjiusuo01
+    _BuildName: yanjiusuoBuild0
+    _BuildUpName: yanjiusuoBuilding
+    _Condition:
+    - 4301
+    _BuildTimes: 1
+    _GoldCost: 10000
+    _ItemCost:
+    - 4001
+    - 10
+    _Citiao: []
+    _Atk: 0
+  - _Id: 3
+    _Tag: 3
+    _Name: 29029
+    _Desc: 210003
+    _Lv: 0
+    _BuildIcon: junhuoku01
+    _BuildName: junhuokuBuild0
+    _BuildUpName: junhuokuBuilding
+    _Condition:
+    - 4401
+    _BuildTimes: 1
+    _GoldCost: 10000
+    _ItemCost:
+    - 4001
+    - 10
+    _Citiao: []
+    _Atk: 0
+  - _Id: 4
+    _Tag: 4
+    _Name: 29030
+    _Desc: 210004
+    _Lv: 0
+    _BuildIcon: yuansuta01
+    _BuildName: yuansutaBuild0
+    _BuildUpName: yuansutaBuilding
+    _Condition:
+    - 4501
+    _BuildTimes: 1
+    _GoldCost: 10000
+    _ItemCost:
+    - 4001
+    - 10
+    _Citiao: []
+    _Atk: 0
+  - _Id: 5
+    _Tag: 5
+    _Name: 29032
+    _Desc: 210005
+    _Lv: 0
+    _BuildIcon: shipinzhan01
+    _BuildName: shipinzhanBuild0
+    _BuildUpName: shipinzhanBuilding
+    _Condition:
+    - 4601
+    _BuildTimes: 1
+    _GoldCost: 10000
+    _ItemCost:
+    - 4001
+    - 10
+    _Citiao: []
+    _Atk: 0
+  - _Id: 6
+    _Tag: 6
+    _Name: 29033
+    _Desc: 210006
+    _Lv: 0
+    _BuildIcon: jitan01
+    _BuildName: jitanBuild0
+    _BuildUpName: jitanBuilding
+    _Condition:
+    - 4701
+    _BuildTimes: 1
+    _GoldCost: 10000
+    _ItemCost:
+    - 4001
+    - 10
+    _Citiao: []
+    _Atk: 0
+  - _Id: 1001
+    _Tag: 1
+    _Name: 29028
+    _Desc: 210001
+    _Lv: 1
+    _BuildIcon: zhuting01
+    _BuildName: zhuting01
+    _BuildUpName: zhutingBuilding
+    _Condition:
+    - 4102
+    - 4202
+    _BuildTimes: 15
+    _GoldCost: 22500
+    _ItemCost:
+    - 4002
+    - 25
+    _Citiao: []
+    _Atk: 100
+  - _Id: 1002
+    _Tag: 2
+    _Name: 29031
+    _Desc: 210002
+    _Lv: 1
+    _BuildIcon: yanjiusuo01
+    _BuildName: yanjiusuo01
+    _BuildUpName: yanjiusuoBuilding
+    _Condition:
+    - 4302
+    _BuildTimes: 15
+    _GoldCost: 22500
+    _ItemCost:
+    - 4001
+    - 25
+    _Citiao:
+    - 101
+    _Atk: 0
+  - _Id: 1003
+    _Tag: 3
+    _Name: 29029
+    _Desc: 210003
+    _Lv: 1
+    _BuildIcon: junhuoku01
+    _BuildName: junhuoku01
+    _BuildUpName: junhuokuBuilding
+    _Condition:
+    - 4402
+    _BuildTimes: 15
+    _GoldCost: 22500
+    _ItemCost:
+    - 4001
+    - 25
+    _Citiao:
+    - 201
+    - 8201
+    _Atk: 0
+  - _Id: 1004
+    _Tag: 4
+    _Name: 29030
+    _Desc: 210004
+    _Lv: 1
+    _BuildIcon: yuansuta01
+    _BuildName: yuansuta01
+    _BuildUpName: yuansutaBuilding
+    _Condition:
+    - 4502
+    _BuildTimes: 15
+    _GoldCost: 22500
+    _ItemCost:
+    - 4001
+    - 25
+    _Citiao:
+    - 1001
+    _Atk: 0
+  - _Id: 1005
+    _Tag: 5
+    _Name: 29032
+    _Desc: 210005
+    _Lv: 1
+    _BuildIcon: shipinzhan01
+    _BuildName: shipinzhan01
+    _BuildUpName: shipinzhanBuilding
+    _Condition:
+    - 4602
+    _BuildTimes: 15
+    _GoldCost: 22500
+    _ItemCost:
+    - 4001
+    - 25
+    _Citiao:
+    - 901
+    - 8901
+    _Atk: 0
+  - _Id: 1006
+    _Tag: 6
+    _Name: 29033
+    _Desc: 210006
+    _Lv: 1
+    _BuildIcon: jitan01
+    _BuildName: jitan01
+    _BuildUpName: jitanBuilding
+    _Condition:
+    - 4702
+    _BuildTimes: 15
+    _GoldCost: 22500
+    _ItemCost:
+    - 4001
+    - 25
+    _Citiao:
+    - 1501
+    - 81501
+    - 91501
+    _Atk: 0
+  - _Id: 2001
+    _Tag: 1
+    _Name: 29028
+    _Desc: 210001
+    _Lv: 2
+    _BuildIcon: zhuting01
+    _BuildName: zhuting01
+    _BuildUpName: zhutingBuilding
+    _Condition:
+    - 4103
+    - 4203
+    _BuildTimes: 30
+    _GoldCost: 60000
+    _ItemCost:
+    - 4002
+    - 50
+    _Citiao: []
+    _Atk: 200
+  - _Id: 2002
+    _Tag: 2
+    _Name: 29031
+    _Desc: 210002
+    _Lv: 2
+    _BuildIcon: yanjiusuo01
+    _BuildName: yanjiusuo01
+    _BuildUpName: yanjiusuoBuilding
+    _Condition:
+    - 4303
+    _BuildTimes: 30
+    _GoldCost: 60000
+    _ItemCost:
+    - 4001
+    - 50
+    _Citiao:
+    - 401
+    - 4011
+    _Atk: 0
+  - _Id: 2003
+    _Tag: 3
+    _Name: 29029
+    _Desc: 210003
+    _Lv: 2
+    _BuildIcon: junhuoku01
+    _BuildName: junhuoku01
+    _BuildUpName: junhuokuBuilding
+    _Condition:
+    - 4403
+    _BuildTimes: 30
+    _GoldCost: 60000
+    _ItemCost:
+    - 4001
+    - 50
+    _Citiao:
+    - 501
+    - 8501
+    _Atk: 0
+  - _Id: 2004
+    _Tag: 4
+    _Name: 29030
+    _Desc: 210004
+    _Lv: 2
+    _BuildIcon: yuansuta01
+    _BuildName: yuansuta01
+    _BuildUpName: yuansutaBuilding
+    _Condition:
+    - 4503
+    _BuildTimes: 30
+    _GoldCost: 60000
+    _ItemCost:
+    - 4001
+    - 50
+    _Citiao:
+    - 1101
+    - 81101
+    _Atk: 0
+  - _Id: 2005
+    _Tag: 5
+    _Name: 29032
+    _Desc: 210005
+    _Lv: 2
+    _BuildIcon: shipinzhan01
+    _BuildName: shipinzhan01
+    _BuildUpName: shipinzhanBuilding
+    _Condition:
+    - 4603
+    _BuildTimes: 30
+    _GoldCost: 60000
+    _ItemCost:
+    - 4001
+    - 50
+    _Citiao:
+    - 801
+    - 8801
+    _Atk: 0
+  - _Id: 2006
+    _Tag: 6
+    _Name: 29033
+    _Desc: 210006
+    _Lv: 2
+    _BuildIcon: jitan01
+    _BuildName: jitan01
+    _BuildUpName: jitanBuilding
+    _Condition:
+    - 4703
+    _BuildTimes: 30
+    _GoldCost: 60000
+    _ItemCost:
+    - 4001
+    - 50
+    _Citiao:
+    - 1401
+    - 81401
+    _Atk: 0
+  - _Id: 3001
+    _Tag: 1
+    _Name: 29028
+    _Desc: 210001
+    _Lv: 3
+    _BuildIcon: zhuting01
+    _BuildName: zhuting01
+    _BuildUpName: zhutingBuilding
+    _Condition:
+    - 4104
+    - 4204
+    _BuildTimes: 60
+    _GoldCost: 105000
+    _ItemCost:
+    - 4002
+    - 100
+    _Citiao: []
+    _Atk: 350
+  - _Id: 3002
+    _Tag: 2
+    _Name: 29031
+    _Desc: 210002
+    _Lv: 3
+    _BuildIcon: yanjiusuo01
+    _BuildName: yanjiusuo01
+    _BuildUpName: yanjiusuoBuilding
+    _Condition:
+    - 4304
+    _BuildTimes: 60
+    _GoldCost: 105000
+    _ItemCost:
+    - 4001
+    - 100
+    _Citiao:
+    - 301
+    _Atk: 0
+  - _Id: 3003
+    _Tag: 3
+    _Name: 29029
+    _Desc: 210003
+    _Lv: 3
+    _BuildIcon: junhuoku01
+    _BuildName: junhuoku01
+    _BuildUpName: junhuokuBuilding
+    _Condition:
+    - 4404
+    _BuildTimes: 60
+    _GoldCost: 105000
+    _ItemCost:
+    - 4001
+    - 100
+    _Citiao:
+    - 601
+    - 8601
+    _Atk: 0
+  - _Id: 3004
+    _Tag: 4
+    _Name: 29030
+    _Desc: 210004
+    _Lv: 3
+    _BuildIcon: yuansuta01
+    _BuildName: yuansuta01
+    _BuildUpName: yuansutaBuilding
+    _Condition:
+    - 4504
+    _BuildTimes: 60
+    _GoldCost: 105000
+    _ItemCost:
+    - 4001
+    - 100
+    _Citiao:
+    - 1201
+    - 81201
+    _Atk: 0
+  - _Id: 3005
+    _Tag: 5
+    _Name: 29032
+    _Desc: 210005
+    _Lv: 3
+    _BuildIcon: shipinzhan01
+    _BuildName: shipinzhan01
+    _BuildUpName: shipinzhanBuilding
+    _Condition:
+    - 4604
+    _BuildTimes: 60
+    _GoldCost: 105000
+    _ItemCost:
+    - 4001
+    - 100
+    _Citiao:
+    - 701
+    - 8701
+    _Atk: 0
+  - _Id: 3006
+    _Tag: 6
+    _Name: 29033
+    _Desc: 210006
+    _Lv: 3
+    _BuildIcon: jitan01
+    _BuildName: jitan01
+    _BuildUpName: jitanBuilding
+    _Condition:
+    - 4704
+    _BuildTimes: 60
+    _GoldCost: 105000
+    _ItemCost:
+    - 4001
+    - 100
+    _Citiao:
+    - 1301
+    _Atk: 0
+  - _Id: 4001
+    _Tag: 1
+    _Name: 29028
+    _Desc: 210001
+    _Lv: 4
+    _BuildIcon: zhuting02
+    _BuildName: zhuting02
+    _BuildUpName: zhutingBuilding
+    _Condition:
+    - 4105
+    - 4205
+    _BuildTimes: 120
+    _GoldCost: 250000
+    _ItemCost:
+    - 4002
+    - 150
+    _Citiao: []
+    _Atk: 600
+  - _Id: 4002
+    _Tag: 2
+    _Name: 29031
+    _Desc: 210002
+    _Lv: 4
+    _BuildIcon: yanjiusuo02
+    _BuildName: yanjiusuo02
+    _BuildUpName: yanjiusuoBuilding
+    _Condition:
+    - 4305
+    _BuildTimes: 120
+    _GoldCost: 250000
+    _ItemCost:
+    - 4001
+    - 150
+    _Citiao:
+    - 102
+    - 8102
+    _Atk: 0
+  - _Id: 4003
+    _Tag: 3
+    _Name: 29029
+    _Desc: 210003
+    _Lv: 4
+    _BuildIcon: junhuoku02
+    _BuildName: junhuoku02
+    _BuildUpName: junhuokuBuilding
+    _Condition:
+    - 4405
+    _BuildTimes: 120
+    _GoldCost: 250000
+    _ItemCost:
+    - 4001
+    - 150
+    _Citiao:
+    - 202
+    - 8202
+    _Atk: 0
+  - _Id: 4004
+    _Tag: 4
+    _Name: 29030
+    _Desc: 210004
+    _Lv: 4
+    _BuildIcon: yuansuta02
+    _BuildName: yuansuta02
+    _BuildUpName: yuansutaBuilding
+    _Condition:
+    - 4505
+    _BuildTimes: 120
+    _GoldCost: 250000
+    _ItemCost:
+    - 4001
+    - 150
+    _Citiao:
+    - 1002
+    _Atk: 0
+  - _Id: 4005
+    _Tag: 5
+    _Name: 29032
+    _Desc: 210005
+    _Lv: 4
+    _BuildIcon: shipinzhan02
+    _BuildName: shipinzhan02
+    _BuildUpName: shipinzhanBuilding
+    _Condition:
+    - 4605
+    _BuildTimes: 120
+    _GoldCost: 250000
+    _ItemCost:
+    - 4001
+    - 150
+    _Citiao:
+    - 902
+    - 9021
+    _Atk: 0
+  - _Id: 4006
+    _Tag: 6
+    _Name: 29033
+    _Desc: 210006
+    _Lv: 4
+    _BuildIcon: jitan02
+    _BuildName: jitan02
+    _BuildUpName: jitanBuilding
+    _Condition:
+    - 4705
+    _BuildTimes: 120
+    _GoldCost: 250000
+    _ItemCost:
+    - 4001
+    - 150
+    _Citiao:
+    - 1502
+    _Atk: 0
+  - _Id: 5001
+    _Tag: 1
+    _Name: 29028
+    _Desc: 210001
+    _Lv: 5
+    _BuildIcon: zhuting02
+    _BuildName: zhuting02
+    _BuildUpName: zhutingBuilding
+    _Condition:
+    - 4106
+    - 4206
+    _BuildTimes: 180
+    _GoldCost: 340000
+    _ItemCost:
+    - 4002
+    - 200
+    _Citiao: []
+    _Atk: 900
+  - _Id: 5002
+    _Tag: 2
+    _Name: 29031
+    _Desc: 210002
+    _Lv: 5
+    _BuildIcon: yanjiusuo02
+    _BuildName: yanjiusuo02
+    _BuildUpName: yanjiusuoBuilding
+    _Condition:
+    - 4306
+    _BuildTimes: 180
+    _GoldCost: 340000
+    _ItemCost:
+    - 4001
+    - 200
+    _Citiao:
+    - 402
+    - 8402
+    _Atk: 0
+  - _Id: 5003
+    _Tag: 3
+    _Name: 29029
+    _Desc: 210003
+    _Lv: 5
+    _BuildIcon: junhuoku02
+    _BuildName: junhuoku02
+    _BuildUpName: junhuokuBuilding
+    _Condition:
+    - 4406
+    _BuildTimes: 180
+    _GoldCost: 340000
+    _ItemCost:
+    - 4001
+    - 200
+    _Citiao:
+    - 502
+    - 8502
+    _Atk: 0
+  - _Id: 5004
+    _Tag: 4
+    _Name: 29030
+    _Desc: 210004
+    _Lv: 5
+    _BuildIcon: yuansuta02
+    _BuildName: yuansuta02
+    _BuildUpName: yuansutaBuilding
+    _Condition:
+    - 4506
+    _BuildTimes: 180
+    _GoldCost: 340000
+    _ItemCost:
+    - 4001
+    - 200
+    _Citiao:
+    - 1102
+    - 81102
+    _Atk: 0
+  - _Id: 5005
+    _Tag: 5
+    _Name: 29032
+    _Desc: 210005
+    _Lv: 5
+    _BuildIcon: shipinzhan02
+    _BuildName: shipinzhan02
+    _BuildUpName: shipinzhanBuilding
+    _Condition:
+    - 4606
+    _BuildTimes: 180
+    _GoldCost: 340000
+    _ItemCost:
+    - 4001
+    - 200
+    _Citiao:
+    - 802
+    - 8021
+    _Atk: 0
+  - _Id: 5006
+    _Tag: 6
+    _Name: 29033
+    _Desc: 210006
+    _Lv: 5
+    _BuildIcon: jitan02
+    _BuildName: jitan02
+    _BuildUpName: jitanBuilding
+    _Condition:
+    - 4706
+    _BuildTimes: 180
+    _GoldCost: 340000
+    _ItemCost:
+    - 4001
+    - 200
+    _Citiao:
+    - 1402
+    - 81402
+    _Atk: 0
+  - _Id: 6001
+    _Tag: 1
+    _Name: 29028
+    _Desc: 210001
+    _Lv: 6
+    _BuildIcon: zhuting02
+    _BuildName: zhuting02
+    _BuildUpName: zhutingBuilding
+    _Condition:
+    - 4107
+    - 4207
+    _BuildTimes: 240
+    _GoldCost: 570000
+    _ItemCost:
+    - 4002
+    - 300
+    _Citiao: []
+    _Atk: 1150
+  - _Id: 6002
+    _Tag: 2
+    _Name: 29031
+    _Desc: 210002
+    _Lv: 6
+    _BuildIcon: yanjiusuo02
+    _BuildName: yanjiusuo02
+    _BuildUpName: yanjiusuoBuilding
+    _Condition:
+    - 4307
+    _BuildTimes: 240
+    _GoldCost: 570000
+    _ItemCost:
+    - 4001
+    - 300
+    _Citiao:
+    - 302
+    _Atk: 0
+  - _Id: 6003
+    _Tag: 3
+    _Name: 29029
+    _Desc: 210003
+    _Lv: 6
+    _BuildIcon: junhuoku02
+    _BuildName: junhuoku02
+    _BuildUpName: junhuokuBuilding
+    _Condition:
+    - 4407
+    _BuildTimes: 240
+    _GoldCost: 570000
+    _ItemCost:
+    - 4001
+    - 300
+    _Citiao:
+    - 602
+    _Atk: 0
+  - _Id: 6004
+    _Tag: 4
+    _Name: 29030
+    _Desc: 210004
+    _Lv: 6
+    _BuildIcon: yuansuta02
+    _BuildName: yuansuta02
+    _BuildUpName: yuansutaBuilding
+    _Condition:
+    - 4507
+    _BuildTimes: 240
+    _GoldCost: 570000
+    _ItemCost:
+    - 4001
+    - 300
+    _Citiao:
+    - 1202
+    - 81202
+    _Atk: 0
+  - _Id: 6005
+    _Tag: 5
+    _Name: 29032
+    _Desc: 210005
+    _Lv: 6
+    _BuildIcon: shipinzhan02
+    _BuildName: shipinzhan02
+    _BuildUpName: shipinzhanBuilding
+    _Condition:
+    - 4607
+    _BuildTimes: 240
+    _GoldCost: 570000
+    _ItemCost:
+    - 4001
+    - 300
+    _Citiao:
+    - 702
+    - 8702
+    _Atk: 0
+  - _Id: 6006
+    _Tag: 6
+    _Name: 29033
+    _Desc: 210006
+    _Lv: 6
+    _BuildIcon: jitan02
+    _BuildName: jitan02
+    _BuildUpName: jitanBuilding
+    _Condition:
+    - 4707
+    _BuildTimes: 240
+    _GoldCost: 570000
+    _ItemCost:
+    - 4001
+    - 300
+    _Citiao:
+    - 1302
+    - 81302
+    _Atk: 0
+  - _Id: 7001
+    _Tag: 1
+    _Name: 29028
+    _Desc: 210001
+    _Lv: 7
+    _BuildIcon: zhuting03
+    _BuildName: zhuting03
+    _BuildUpName: zhutingBuilding
+    _Condition:
+    - 4108
+    - 4208
+    _BuildTimes: 360
+    _GoldCost: 1000000
+    _ItemCost:
+    - 4002
+    - 400
+    _Citiao: []
+    _Atk: 1700
+  - _Id: 7002
+    _Tag: 2
+    _Name: 29031
+    _Desc: 210002
+    _Lv: 7
+    _BuildIcon: yanjiusuo03
+    _BuildName: yanjiusuo03
+    _BuildUpName: yanjiusuoBuilding
+    _Condition:
+    - 4308
+    _BuildTimes: 360
+    _GoldCost: 1000000
+    _ItemCost:
+    - 4001
+    - 400
+    _Citiao:
+    - 103
+    - 8103
+    _Atk: 0
+  - _Id: 7003
+    _Tag: 3
+    _Name: 29029
+    _Desc: 210003
+    _Lv: 7
+    _BuildIcon: junhuoku03
+    _BuildName: junhuoku03
+    _BuildUpName: junhuokuBuilding
+    _Condition:
+    - 4408
+    _BuildTimes: 360
+    _GoldCost: 1000000
+    _ItemCost:
+    - 4001
+    - 400
+    _Citiao:
+    - 203
+    - 8203
+    _Atk: 0
+  - _Id: 7004
+    _Tag: 4
+    _Name: 29030
+    _Desc: 210004
+    _Lv: 7
+    _BuildIcon: yuansuta03
+    _BuildName: yuansuta03
+    _BuildUpName: yuansutaBuilding
+    _Condition:
+    - 4508
+    _BuildTimes: 360
+    _GoldCost: 1000000
+    _ItemCost:
+    - 4001
+    - 400
+    _Citiao:
+    - 1003
+    - 81003
+    _Atk: 0
+  - _Id: 7005
+    _Tag: 5
+    _Name: 29032
+    _Desc: 210005
+    _Lv: 7
+    _BuildIcon: shipinzhan03
+    _BuildName: shipinzhan03
+    _BuildUpName: shipinzhanBuilding
+    _Condition:
+    - 4608
+    _BuildTimes: 360
+    _GoldCost: 1000000
+    _ItemCost:
+    - 4001
+    - 400
+    _Citiao:
+    - 903
+    - 8903
+    _Atk: 0
+  - _Id: 7006
+    _Tag: 6
+    _Name: 29033
+    _Desc: 210006
+    _Lv: 7
+    _BuildIcon: jitan03
+    _BuildName: jitan03
+    _BuildUpName: jitanBuilding
+    _Condition:
+    - 4708
+    _BuildTimes: 360
+    _GoldCost: 1000000
+    _ItemCost:
+    - 4001
+    - 400
+    _Citiao:
+    - 1503
+    _Atk: 0
+  - _Id: 8001
+    _Tag: 1
+    _Name: 29028
+    _Desc: 210001
+    _Lv: 8
+    _BuildIcon: zhuting03
+    _BuildName: zhuting03
+    _BuildUpName: zhutingBuilding
+    _Condition:
+    - 4109
+    - 4209
+    _BuildTimes: 480
+    _GoldCost: 2000000
+    _ItemCost:
+    - 4002
+    - 500
+    _Citiao: []
+    _Atk: 2200
+  - _Id: 8002
+    _Tag: 2
+    _Name: 29031
+    _Desc: 210002
+    _Lv: 8
+    _BuildIcon: yanjiusuo03
+    _BuildName: yanjiusuo03
+    _BuildUpName: yanjiusuoBuilding
+    _Condition:
+    - 4309
+    _BuildTimes: 480
+    _GoldCost: 2000000
+    _ItemCost:
+    - 4001
+    - 500
+    _Citiao:
+    - 403
+    - 4031
+    - 8403
+    - 84031
+    _Atk: 0
+  - _Id: 8003
+    _Tag: 3
+    _Name: 29029
+    _Desc: 210003
+    _Lv: 8
+    _BuildIcon: junhuoku03
+    _BuildName: junhuoku03
+    _BuildUpName: junhuokuBuilding
+    _Condition:
+    - 4409
+    _BuildTimes: 480
+    _GoldCost: 2000000
+    _ItemCost:
+    - 4001
+    - 500
+    _Citiao:
+    - 503
+    _Atk: 0
+  - _Id: 8004
+    _Tag: 4
+    _Name: 29030
+    _Desc: 210004
+    _Lv: 8
+    _BuildIcon: yuansuta03
+    _BuildName: yuansuta03
+    _BuildUpName: yuansutaBuilding
+    _Condition:
+    - 4509
+    _BuildTimes: 480
+    _GoldCost: 2000000
+    _ItemCost:
+    - 4001
+    - 500
+    _Citiao:
+    - 1103
+    _Atk: 0
+  - _Id: 8005
+    _Tag: 5
+    _Name: 29032
+    _Desc: 210005
+    _Lv: 8
+    _BuildIcon: shipinzhan03
+    _BuildName: shipinzhan03
+    _BuildUpName: shipinzhanBuilding
+    _Condition:
+    - 4609
+    _BuildTimes: 480
+    _GoldCost: 2000000
+    _ItemCost:
+    - 4001
+    - 500
+    _Citiao:
+    - 803
+    _Atk: 0
+  - _Id: 8006
+    _Tag: 6
+    _Name: 29033
+    _Desc: 210006
+    _Lv: 8
+    _BuildIcon: jitan03
+    _BuildName: jitan03
+    _BuildUpName: jitanBuilding
+    _Condition:
+    - 4709
+    _BuildTimes: 480
+    _GoldCost: 2000000
+    _ItemCost:
+    - 4001
+    - 500
+    _Citiao:
+    - 1403
+    - 14031
+    _Atk: 0
+  - _Id: 9001
+    _Tag: 1
+    _Name: 29028
+    _Desc: 210001
+    _Lv: 9
+    _BuildIcon: zhuting03
+    _BuildName: zhuting03
+    _BuildUpName: zhutingBuilding
+    _Condition:
+    - 4110
+    - 4210
+    _BuildTimes: 720
+    _GoldCost: 2500000
+    _ItemCost:
+    - 4002
+    - 650
+    _Citiao: []
+    _Atk: 2800
+  - _Id: 9002
+    _Tag: 2
+    _Name: 29031
+    _Desc: 210002
+    _Lv: 9
+    _BuildIcon: yanjiusuo03
+    _BuildName: yanjiusuo03
+    _BuildUpName: yanjiusuoBuilding
+    _Condition:
+    - 4310
+    _BuildTimes: 720
+    _GoldCost: 2500000
+    _ItemCost:
+    - 4001
+    - 650
+    _Citiao:
+    - 303
+    - 8303
+    _Atk: 0
+  - _Id: 9003
+    _Tag: 3
+    _Name: 29029
+    _Desc: 210003
+    _Lv: 9
+    _BuildIcon: junhuoku03
+    _BuildName: junhuoku03
+    _BuildUpName: junhuokuBuilding
+    _Condition:
+    - 4410
+    _BuildTimes: 720
+    _GoldCost: 2500000
+    _ItemCost:
+    - 4001
+    - 650
+    _Citiao:
+    - 603
+    - 8603
+    _Atk: 0
+  - _Id: 9004
+    _Tag: 4
+    _Name: 29030
+    _Desc: 210004
+    _Lv: 9
+    _BuildIcon: yuansuta03
+    _BuildName: yuansuta03
+    _BuildUpName: yuansutaBuilding
+    _Condition:
+    - 4510
+    _BuildTimes: 720
+    _GoldCost: 2500000
+    _ItemCost:
+    - 4001
+    - 650
+    _Citiao:
+    - 1203
+    _Atk: 0
+  - _Id: 9005
+    _Tag: 5
+    _Name: 29032
+    _Desc: 210005
+    _Lv: 9
+    _BuildIcon: shipinzhan03
+    _BuildName: shipinzhan03
+    _BuildUpName: shipinzhanBuilding
+    _Condition:
+    - 4610
+    _BuildTimes: 720
+    _GoldCost: 2500000
+    _ItemCost:
+    - 4001
+    - 650
+    _Citiao:
+    - 703
+    _Atk: 0
+  - _Id: 9006
+    _Tag: 6
+    _Name: 29033
+    _Desc: 210006
+    _Lv: 9
+    _BuildIcon: jitan03
+    _BuildName: jitan03
+    _BuildUpName: jitanBuilding
+    _Condition:
+    - 4710
+    _BuildTimes: 720
+    _GoldCost: 2500000
+    _ItemCost:
+    - 4001
+    - 650
+    _Citiao:
+    - 1303
+    - 81303
+    _Atk: 0
+  - _Id: 10001
+    _Tag: 1
+    _Name: 29028
+    _Desc: 210001
+    _Lv: 10
+    _BuildIcon: zhuting04
+    _BuildName: zhuting04
+    _BuildUpName: zhutingBuilding
+    _Condition:
+    - 4111
+    - 4211
+    _BuildTimes: 1440
+    _GoldCost: 4000000
+    _ItemCost:
+    - 4002
+    - 800
+    _Citiao: []
+    _Atk: 3000
+  - _Id: 10002
+    _Tag: 2
+    _Name: 29031
+    _Desc: 210002
+    _Lv: 10
+    _BuildIcon: yanjiusuo04
+    _BuildName: yanjiusuo04
+    _BuildUpName: yanjiusuoBuilding
+    _Condition:
+    - 4311
+    _BuildTimes: 1440
+    _GoldCost: 4000000
+    _ItemCost:
+    - 4001
+    - 800
+    _Citiao:
+    - 104
+    _Atk: 0
+  - _Id: 10003
+    _Tag: 3
+    _Name: 29029
+    _Desc: 210003
+    _Lv: 10
+    _BuildIcon: junhuoku04
+    _BuildName: junhuoku04
+    _BuildUpName: junhuokuBuilding
+    _Condition:
+    - 4411
+    _BuildTimes: 1440
+    _GoldCost: 4000000
+    _ItemCost:
+    - 4001
+    - 800
+    _Citiao:
+    - 204
+    _Atk: 0
+  - _Id: 10004
+    _Tag: 4
+    _Name: 29030
+    _Desc: 210004
+    _Lv: 10
+    _BuildIcon: yuansuta04
+    _BuildName: yuansuta04
+    _BuildUpName: yuansutaBuilding
+    _Condition:
+    - 4511
+    _BuildTimes: 1440
+    _GoldCost: 4000000
+    _ItemCost:
+    - 4001
+    - 800
+    _Citiao:
+    - 1004
+    _Atk: 0
+  - _Id: 10005
+    _Tag: 5
+    _Name: 29032
+    _Desc: 210005
+    _Lv: 10
+    _BuildIcon: shipinzhan04
+    _BuildName: shipinzhan04
+    _BuildUpName: shipinzhanBuilding
+    _Condition:
+    - 4611
+    _BuildTimes: 1440
+    _GoldCost: 4000000
+    _ItemCost:
+    - 4001
+    - 800
+    _Citiao:
+    - 904
+    _Atk: 0
+  - _Id: 10006
+    _Tag: 6
+    _Name: 29033
+    _Desc: 210006
+    _Lv: 10
+    _BuildIcon: jitan04
+    _BuildName: jitan04
+    _BuildUpName: jitanBuilding
+    _Condition:
+    - 4711
+    _BuildTimes: 1440
+    _GoldCost: 4000000
+    _ItemCost:
+    - 4001
+    - 800
+    _Citiao:
+    - 1504
+    _Atk: 0
+  - _Id: 11001
+    _Tag: 1
+    _Name: 29028
+    _Desc: 210001
+    _Lv: 11
+    _BuildIcon: zhuting04
+    _BuildName: zhuting04
+    _BuildUpName: zhutingBuilding
+    _Condition:
+    - 4112
+    - 4212
+    _BuildTimes: 2880
+    _GoldCost: 6000000
+    _ItemCost:
+    - 4002
+    - 1000
+    _Citiao: []
+    _Atk: 3000
+  - _Id: 11002
+    _Tag: 2
+    _Name: 29031
+    _Desc: 210002
+    _Lv: 11
+    _BuildIcon: yanjiusuo04
+    _BuildName: yanjiusuo04
+    _BuildUpName: yanjiusuoBuilding
+    _Condition:
+    - 4312
+    _BuildTimes: 2880
+    _GoldCost: 6000000
+    _ItemCost:
+    - 4001
+    - 1000
+    _Citiao:
+    - 404
+    - 4041
+    - 4042
+    _Atk: 0
+  - _Id: 11003
+    _Tag: 3
+    _Name: 29029
+    _Desc: 210003
+    _Lv: 11
+    _BuildIcon: junhuoku04
+    _BuildName: junhuoku04
+    _BuildUpName: junhuokuBuilding
+    _Condition:
+    - 4412
+    _BuildTimes: 2880
+    _GoldCost: 6000000
+    _ItemCost:
+    - 4001
+    - 1000
+    _Citiao:
+    - 504
+    _Atk: 0
+  - _Id: 11004
+    _Tag: 4
+    _Name: 29030
+    _Desc: 210004
+    _Lv: 11
+    _BuildIcon: yuansuta04
+    _BuildName: yuansuta04
+    _BuildUpName: yuansutaBuilding
+    _Condition:
+    - 4512
+    _BuildTimes: 2880
+    _GoldCost: 6000000
+    _ItemCost:
+    - 4001
+    - 1000
+    _Citiao:
+    - 1104
+    _Atk: 0
+  - _Id: 11005
+    _Tag: 5
+    _Name: 29032
+    _Desc: 210005
+    _Lv: 11
+    _BuildIcon: shipinzhan04
+    _BuildName: shipinzhan04
+    _BuildUpName: shipinzhanBuilding
+    _Condition:
+    - 4612
+    _BuildTimes: 2880
+    _GoldCost: 6000000
+    _ItemCost:
+    - 4001
+    - 1000
+    _Citiao:
+    - 804
+    - 8804
+    _Atk: 0
+  - _Id: 11006
+    _Tag: 6
+    _Name: 29033
+    _Desc: 210006
+    _Lv: 11
+    _BuildIcon: jitan04
+    _BuildName: jitan04
+    _BuildUpName: jitanBuilding
+    _Condition:
+    - 4712
+    _BuildTimes: 2880
+    _GoldCost: 6000000
+    _ItemCost:
+    - 4001
+    - 1000
+    _Citiao:
+    - 1404
+    _Atk: 0
+  - _Id: 12001
+    _Tag: 1
+    _Name: 29028
+    _Desc: 210001
+    _Lv: 12
+    _BuildIcon: zhuting04
+    _BuildName: zhuting04
+    _BuildUpName: zhutingBuilding
+    _Condition: []
+    _BuildTimes: 0
+    _GoldCost: 0
+    _ItemCost: []
+    _Citiao: []
+    _Atk: 4000
+  - _Id: 12002
+    _Tag: 2
+    _Name: 29031
+    _Desc: 210002
+    _Lv: 12
+    _BuildIcon: yanjiusuo04
+    _BuildName: yanjiusuo04
+    _BuildUpName: yanjiusuoBuilding
+    _Condition: []
+    _BuildTimes: 0
+    _GoldCost: 0
+    _ItemCost: []
+    _Citiao:
+    - 304
+    _Atk: 0
+  - _Id: 12003
+    _Tag: 3
+    _Name: 29029
+    _Desc: 210003
+    _Lv: 12
+    _BuildIcon: junhuoku04
+    _BuildName: junhuoku04
+    _BuildUpName: junhuokuBuilding
+    _Condition: []
+    _BuildTimes: 0
+    _GoldCost: 0
+    _ItemCost: []
+    _Citiao:
+    - 604
+    _Atk: 0
+  - _Id: 12004
+    _Tag: 4
+    _Name: 29030
+    _Desc: 210004
+    _Lv: 12
+    _BuildIcon: yuansuta04
+    _BuildName: yuansuta04
+    _BuildUpName: yuansutaBuilding
+    _Condition: []
+    _BuildTimes: 0
+    _GoldCost: 0
+    _ItemCost: []
+    _Citiao:
+    - 1204
+    _Atk: 0
+  - _Id: 12005
+    _Tag: 5
+    _Name: 29032
+    _Desc: 210005
+    _Lv: 12
+    _BuildIcon: shipinzhan04
+    _BuildName: shipinzhan04
+    _BuildUpName: shipinzhanBuilding
+    _Condition: []
+    _BuildTimes: 0
+    _GoldCost: 0
+    _ItemCost: []
+    _Citiao:
+    - 704
+    _Atk: 0
+  - _Id: 12006
+    _Tag: 6
+    _Name: 29033
+    _Desc: 210006
+    _Lv: 12
+    _BuildIcon: jitan04
+    _BuildName: jitan04
+    _BuildUpName: jitanBuilding
+    _Condition: []
+    _BuildTimes: 0
+    _GoldCost: 0
+    _ItemCost: []
+    _Citiao:
+    - 1304
+    _Atk: 0

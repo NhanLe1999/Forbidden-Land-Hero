@@ -1,0 +1,820 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f52dd6dfede2bd6964c614cf930c5a80, type: 3}
+  m_Name: DYTrial
+  m_EditorClassIdentifier:
+  _Items:
+  - _Id: 100
+    _Note: 【角色】未来战士
+    _NewPlayer: 1
+    _ShowCondition: []
+    _TrialType: 1
+    _Sort: 1000
+    _Name: 110004
+    _Underlay: UI/Icon/Trial/trial_weilaizhanshi_bg
+    _PassID: 650018
+    _HeroID: 1004
+    _Hp: 8
+    _Attack: 10000
+    _Firespeed: 0
+    _Reloadvalue: 0
+    _FirearmsID:
+    - 11006
+    - 8
+    - 200
+    _RobotID:
+    - 1007
+    - 8
+    - 100
+    _CitiaoID: 19
+    _Reward:
+    - 7002
+    - 20
+    - 6101
+    - 5
+    _RewardBoxIcon:
+    - UI/Icon/VirtualField/boxgold
+    - UI/Icon/VirtualField/boxgold
+  - _Id: 101
+    _Note: 【角色】地狱男爵
+    _NewPlayer: 0
+    _ShowCondition:
+    - 72
+    - 8
+    _TrialType: 1
+    _Sort: 999
+    _Name: 110007
+    _Underlay: UI/Icon/Trial/trial_nanjue_bg
+    _PassID: 650001
+    _HeroID: 1006
+    _Hp: 12
+    _Attack: 10000
+    _Firespeed: 0
+    _Reloadvalue: 0
+    _FirearmsID:
+    - 11012
+    - 8
+    - 200
+    _RobotID:
+    - 1007
+    - 8
+    - 100
+    _CitiaoID: 1
+    _Reward:
+    - 7002
+    - 20
+    - 6101
+    - 5
+    _RewardBoxIcon:
+    - UI/Icon/VirtualField/boxgold
+    - UI/Icon/VirtualField/boxgold
+  - _Id: 103
+    _Note: 【武器】诅咒之触
+    _NewPlayer: 0
+    _ShowCondition:
+    - 72
+    - 22
+    _TrialType: 2
+    _Sort: 996
+    _Name: 29196
+    _Underlay: UI/Icon/Trial/trial_zuzhou_bg
+    _PassID: 650002
+    _HeroID: 1003
+    _Hp: 8
+    _Attack: 16500
+    _Firespeed: 0
+    _Reloadvalue: 0
+    _FirearmsID:
+    - 11013
+    - 13
+    - 200
+    _RobotID:
+    - 1007
+    - 5
+    - 5
+    - 1012
+    - 5
+    - 6
+    _CitiaoID: 2
+    _Reward:
+    - 7002
+    - 20
+    - 7003
+    - 1
+    _RewardBoxIcon:
+    - UI/Icon/VirtualField/boxgold
+    - UI/Icon/VirtualField/boxgold
+  - _Id: 105
+    _Note: 【机器】幻萌灵猫
+    _NewPlayer: 0
+    _ShowCondition:
+    - 72
+    - 22
+    _TrialType: 3
+    _Sort: 999
+    _Name: 29206
+    _Underlay: UI/Icon/Trial/trial_def_bg
+    _PassID: 650003
+    _HeroID: 1002
+    _Hp: 5
+    _Attack: 10000
+    _Firespeed: 0
+    _Reloadvalue: 0
+    _FirearmsID:
+    - 11013
+    - 13
+    - 200
+    _RobotID:
+    - 1015
+    - 13
+    - 100
+    _CitiaoID: 3
+    _Reward:
+    - 7002
+    - 20
+    - 6001
+    - 5
+    _RewardBoxIcon:
+    - UI/Icon/VirtualField/boxgold
+    - UI/Icon/VirtualField/boxgold
+  - _Id: 106
+    _Note: 【角色】末日猎手
+    _NewPlayer: 0
+    _ShowCondition:
+    - 72
+    - 22
+    _TrialType: 1
+    _Sort: 998
+    _Name: 110010
+    _Underlay: UI/Icon/Trial/trial_morilieshou_bg
+    _PassID: 650004
+    _HeroID: 1007
+    _Hp: 8
+    _Attack: 16500
+    _Firespeed: 0
+    _Reloadvalue: 0
+    _FirearmsID:
+    - 11006
+    - 13
+    - 200
+    _RobotID:
+    - 1015
+    - 13
+    - 100
+    _CitiaoID: 4
+    _Reward:
+    - 7002
+    - 20
+    - 6101
+    - 5
+    _RewardBoxIcon:
+    - UI/Icon/VirtualField/boxgold
+    - UI/Icon/VirtualField/boxgold
+  - _Id: 107
+    _Note: 【武器】闪电步枪
+    _NewPlayer: 1
+    _ShowCondition: []
+    _TrialType: 2
+    _Sort: 999
+    _Name: 29010
+    _Underlay: UI/Icon/Trial/trial_shandian_bg
+    _PassID: 650005
+    _HeroID: 1002
+    _Hp: 8
+    _Attack: 10000
+    _Firespeed: 0
+    _Reloadvalue: 0
+    _FirearmsID:
+    - 11007
+    - 13
+    - 200
+    _RobotID:
+    - 1007
+    - 8
+    - 100
+    _CitiaoID: 5
+    _Reward:
+    - 7002
+    - 20
+    - 7003
+    - 1
+    _RewardBoxIcon:
+    - UI/Icon/VirtualField/boxgold
+    - UI/Icon/VirtualField/boxgold
+  - _Id: 108
+    _Note: 【武器】电磁炮
+    _NewPlayer: 1
+    _ShowCondition: []
+    _TrialType: 2
+    _Sort: 998
+    _Name: 29013
+    _Underlay: UI/Icon/Trial/trial_diancipao_bg
+    _PassID: 650006
+    _HeroID: 1003
+    _Hp: 8
+    _Attack: 10000
+    _Firespeed: 0
+    _Reloadvalue: 0
+    _FirearmsID:
+    - 11010
+    - 13
+    - 200
+    _RobotID:
+    - 1007
+    - 8
+    - 100
+    _CitiaoID: 6
+    _Reward:
+    - 7002
+    - 20
+    - 7003
+    - 1
+    _RewardBoxIcon:
+    - UI/Icon/VirtualField/boxgold
+    - UI/Icon/VirtualField/boxgold
+  - _Id: 109
+    _Note: 【武器】加特林-炎魔
+    _NewPlayer: 1
+    _ShowCondition: []
+    _TrialType: 2
+    _Sort: 997
+    _Name: 29090
+    _Underlay: UI/Icon/Trial/trial_yanmo_bg
+    _PassID: 650007
+    _HeroID: 1003
+    _Hp: 8
+    _Attack: 10000
+    _Firespeed: 0
+    _Reloadvalue: 0
+    _FirearmsID:
+    - 11011
+    - 13
+    - 200
+    _RobotID:
+    - 1007
+    - 8
+    - 100
+    _CitiaoID: 7
+    _Reward:
+    - 7002
+    - 20
+    - 7003
+    - 1
+    _RewardBoxIcon:
+    - UI/Icon/VirtualField/boxgold
+    - UI/Icon/VirtualField/boxgold
+  - _Id: 110
+    _Note: 【武器】火箭炮-霜陨
+    _NewPlayer: 0
+    _ShowCondition:
+    - 72
+    - 29
+    _TrialType: 2
+    _Sort: 995
+    _Name: 29216
+    _Underlay: UI/Icon/Trial/trial_shuangyun_bg
+    _PassID: 650008
+    _HeroID: 1003
+    _Hp: 8
+    _Attack: 16500
+    _Firespeed: 0
+    _Reloadvalue: 0
+    _FirearmsID:
+    - 11014
+    - 13
+    - 200
+    _RobotID:
+    - 1007
+    - 8
+    - 100
+    _CitiaoID: 8
+    _Reward:
+    - 7002
+    - 20
+    - 7003
+    - 1
+    _RewardBoxIcon:
+    - UI/Icon/VirtualField/boxgold
+    - UI/Icon/VirtualField/boxgold
+  - _Id: 111
+    _Note: 【角色】改造战士
+    _NewPlayer: 0
+    _ShowCondition:
+    - 72
+    - 2
+    _TrialType: 1
+    _Sort: 997
+    _Name: 110013
+    _Underlay: UI/Icon/Trial/trial_zhongjiezhe_bg
+    _PassID: 650009
+    _HeroID: 1008
+    _Hp: 8
+    _Attack: 16500
+    _Firespeed: 0
+    _Reloadvalue: 0
+    _FirearmsID:
+    - 11014
+    - 13
+    - 200
+    _RobotID:
+    - 1007
+    - 13
+    - 100
+    - 1017
+    - 13
+    - 100
+    _CitiaoID: 9
+    _Reward:
+    - 7002
+    - 20
+    - 6101
+    - 5
+    _RewardBoxIcon:
+    - UI/Icon/VirtualField/boxgold
+    - UI/Icon/VirtualField/boxgold
+  - _Id: 112
+    _Note: 【机器】圣诞驯鹿
+    _NewPlayer: 0
+    _ShowCondition:
+    - 72
+    - 29
+    _TrialType: 3
+    _Sort: 998
+    _Name: 29232
+    _Underlay: UI/Icon/Trial/trial_xunlu_bg
+    _PassID: 650010
+    _HeroID: 1008
+    _Hp: 8
+    _Attack: 16500
+    _Firespeed: 0
+    _Reloadvalue: 0
+    _FirearmsID:
+    - 11002
+    - 13
+    - 200
+    _RobotID:
+    - 1018
+    - 13
+    - 100
+    - 1007
+    - 13
+    - 100
+    _CitiaoID: 10
+    _Reward:
+    - 7002
+    - 20
+    - 6001
+    - 5
+    _RewardBoxIcon:
+    - UI/Icon/VirtualField/boxgold
+    - UI/Icon/VirtualField/boxgold
+  - _Id: 113
+    _Note: 【机器】冰龙
+    _NewPlayer: 0
+    _ShowCondition:
+    - 72
+    - 29
+    _TrialType: 3
+    _Sort: 997
+    _Name: 29210
+    _Underlay: UI/Icon/Trial/trial_binglong_bg
+    _PassID: 650011
+    _HeroID: 1008
+    _Hp: 8
+    _Attack: 16500
+    _Firespeed: 0
+    _Reloadvalue: 0
+    _FirearmsID:
+    - 11002
+    - 13
+    - 200
+    _RobotID:
+    - 2101
+    - 13
+    - 100
+    - 1007
+    - 13
+    - 100
+    _CitiaoID: 10
+    _Reward:
+    - 7002
+    - 20
+    - 6001
+    - 5
+    _RewardBoxIcon:
+    - UI/Icon/VirtualField/boxgold
+    - UI/Icon/VirtualField/boxgold
+  - _Id: 114
+    _Note: 【武器】圣诞步枪
+    _NewPlayer: 0
+    _ShowCondition:
+    - 72
+    - 29
+    _TrialType: 2
+    _Sort: 994
+    _Name: 29250
+    _Underlay: UI/Icon/Trial/trial_shengdan_bg
+    _PassID: 650012
+    _HeroID: 1002
+    _Hp: 8
+    _Attack: 10000
+    _Firespeed: 0
+    _Reloadvalue: 0
+    _FirearmsID:
+    - 99005
+    - 13
+    - 200
+    _RobotID:
+    - 1007
+    - 8
+    - 100
+    _CitiaoID: 11
+    _Reward:
+    - 7002
+    - 20
+    - 7003
+    - 1
+    _RewardBoxIcon:
+    - UI/Icon/VirtualField/boxgold
+    - UI/Icon/VirtualField/boxgold
+  - _Id: 115
+    _Note: 【角色】露露小姐
+    _NewPlayer: 0
+    _ShowCondition:
+    - 72
+    - 29
+    _TrialType: 1
+    _Sort: 996
+    _Name: 110016
+    _Underlay: UI/Icon/Trial/trial_lulu_bg
+    _PassID: 650013
+    _HeroID: 1009
+    _Hp: 8
+    _Attack: 16500
+    _Firespeed: 0
+    _Reloadvalue: 0
+    _FirearmsID:
+    - 99005
+    - 13
+    - 200
+    _RobotID:
+    - 1007
+    - 13
+    - 100
+    - 1017
+    - 13
+    - 100
+    _CitiaoID: 12
+    _Reward:
+    - 7002
+    - 20
+    - 6101
+    - 5
+    _RewardBoxIcon:
+    - UI/Icon/VirtualField/boxgold
+    - UI/Icon/VirtualField/boxgold
+  - _Id: 116
+    _Note: 【武器】巴雷特-圣辉
+    _NewPlayer: 0
+    _ShowCondition:
+    - 72
+    - 29
+    _TrialType: 2
+    _Sort: 993
+    _Name: 29272
+    _Underlay: UI/Icon/Trial/trial_baleite_bg
+    _PassID: 650014
+    _HeroID: 1001
+    _Hp: 8
+    _Attack: 10000
+    _Firespeed: 0
+    _Reloadvalue: 0
+    _FirearmsID:
+    - 11016
+    - 13
+    - 200
+    _RobotID:
+    - 1007
+    - 8
+    - 100
+    _CitiaoID: 13
+    _Reward:
+    - 7002
+    - 20
+    - 7003
+    - 1
+    _RewardBoxIcon:
+    - UI/Icon/VirtualField/boxgold
+    - UI/Icon/VirtualField/boxgold
+  - _Id: 117
+    _Note: 【角色】星辉之力
+    _NewPlayer: 0
+    _ShowCondition:
+    - 72
+    - 29
+    _TrialType: 1
+    _Sort: 995
+    _Name: 110019
+    _Underlay: UI/Icon/Trial/trial_xingguang
+    _PassID: 650015
+    _HeroID: 1010
+    _Hp: 8
+    _Attack: 16500
+    _Firespeed: 0
+    _Reloadvalue: 0
+    _FirearmsID:
+    - 11016
+    - 13
+    - 200
+    _RobotID:
+    - 1007
+    - 8
+    - 100
+    _CitiaoID: 14
+    _Reward:
+    - 7002
+    - 20
+    - 6101
+    - 5
+    _RewardBoxIcon:
+    - UI/Icon/VirtualField/boxgold
+    - UI/Icon/VirtualField/boxgold
+  - _Id: 118
+    _Note: 【武器】引雷枪
+    _NewPlayer: 0
+    _ShowCondition:
+    - 72
+    - 43
+    _TrialType: 2
+    _Sort: 992
+    _Name: 29298
+    _Underlay: UI/Icon/Trial/trial_yinleiqiang_bg
+    _PassID: 650016
+    _HeroID: 1011
+    _Hp: 8
+    _Attack: 10000
+    _Firespeed: 0
+    _Reloadvalue: 0
+    _FirearmsID:
+    - 11017
+    - 13
+    - 200
+    _RobotID:
+    - 1007
+    - 8
+    - 100
+    _CitiaoID: 15
+    _Reward:
+    - 7002
+    - 20
+    - 7003
+    - 1
+    _RewardBoxIcon:
+    - UI/Icon/VirtualField/boxgold
+    - UI/Icon/VirtualField/boxgold
+  - _Id: 119
+    _Note: 【角色】重装骑兵
+    _NewPlayer: 0
+    _ShowCondition:
+    - 72
+    - 43
+    _TrialType: 1
+    _Sort: 994
+    _Name: 110025
+    _Underlay: UI/Icon/Trial/trial_zhongzhuang_bg
+    _PassID: 650016
+    _HeroID: 1012
+    _Hp: 8
+    _Attack: 16500
+    _Firespeed: 0
+    _Reloadvalue: 0
+    _FirearmsID:
+    - 11017
+    - 13
+    - 200
+    _RobotID:
+    - 1007
+    - 8
+    - 100
+    _CitiaoID: 15
+    _Reward:
+    - 7002
+    - 20
+    - 6101
+    - 5
+    _RewardBoxIcon:
+    - UI/Icon/VirtualField/boxgold
+    - UI/Icon/VirtualField/boxgold
+  - _Id: 120
+    _Note: 【角色】野风魅影
+    _NewPlayer: 0
+    _ShowCondition:
+    - 72
+    - 43
+    _TrialType: 1
+    _Sort: 993
+    _Name: 110032
+    _Underlay: UI/Icon/Trial/trial_yefengmeiying_bg
+    _PassID: 650017
+    _HeroID: 1013
+    _Hp: 8
+    _Attack: 10000
+    _Firespeed: 0
+    _Reloadvalue: 0
+    _FirearmsID:
+    - 11018
+    - 13
+    - 200
+    _RobotID:
+    - 1007
+    - 8
+    - 100
+    _CitiaoID: 17
+    _Reward:
+    - 7002
+    - 20
+    - 6101
+    - 5
+    _RewardBoxIcon:
+    - UI/Icon/VirtualField/boxgold
+    - UI/Icon/VirtualField/boxgold
+  - _Id: 121
+    _Note: 【武器】骇客虹光
+    _NewPlayer: 0
+    _ShowCondition:
+    - 72
+    - 43
+    _TrialType: 2
+    _Sort: 991
+    _Name: 29353
+    _Underlay: UI/Icon/Trial/trial_guangnujian_bg
+    _PassID: 650016
+    _HeroID: 1011
+    _Hp: 8
+    _Attack: 10000
+    _Firespeed: 0
+    _Reloadvalue: 0
+    _FirearmsID:
+    - 11019
+    - 13
+    - 200
+    _RobotID:
+    - 1007
+    - 8
+    - 100
+    _CitiaoID: 18
+    _Reward:
+    - 7002
+    - 20
+    - 7003
+    - 1
+    _RewardBoxIcon:
+    - UI/Icon/VirtualField/boxgold
+    - UI/Icon/VirtualField/boxgold
+  - _Id: 122
+    _Note: 【角色】假面怪客
+    _NewPlayer: 0
+    _ShowCondition:
+    - 72
+    - 43
+    _TrialType: 1
+    _Sort: 992
+    _Name: 110037
+    _Underlay: UI/Icon/Trial/trial_jiamianguaike_bg
+    _PassID: 650016
+    _HeroID: 1014
+    _Hp: 8
+    _Attack: 10000
+    _Firespeed: 0
+    _Reloadvalue: 0
+    _FirearmsID:
+    - 11019
+    - 13
+    - 200
+    _RobotID:
+    - 1007
+    - 8
+    - 100
+    _CitiaoID: 18
+    _Reward:
+    - 7002
+    - 20
+    - 6101
+    - 5
+    _RewardBoxIcon:
+    - UI/Icon/VirtualField/boxgold
+    - UI/Icon/VirtualField/boxgold
+  - _Id: 123
+    _Note: 【武器】火箭炮-黑洞
+    _NewPlayer: 0
+    _ShowCondition:
+    - 72
+    - 43
+    _TrialType: 2
+    _Sort: 990
+    _Name: 29376
+    _Underlay: UI/Icon/Trial/trial_blackhole_bg
+    _PassID: 650016
+    _HeroID: 1007
+    _Hp: 8
+    _Attack: 10000
+    _Firespeed: 0
+    _Reloadvalue: 0
+    _FirearmsID:
+    - 11021
+    - 13
+    - 200
+    _RobotID:
+    - 1007
+    - 8
+    - 100
+    _CitiaoID: 20
+    _Reward:
+    - 7002
+    - 20
+    - 7003
+    - 1
+    _RewardBoxIcon:
+    - UI/Icon/VirtualField/boxgold
+    - UI/Icon/VirtualField/boxgold
+  - _Id: 124
+    _Note: 【武器】焦土引擎
+    _NewPlayer: 0
+    _ShowCondition:
+    - 72
+    - 43
+    _TrialType: 2
+    _Sort: 989
+    _Name: 29388
+    _Underlay: GameObjs/Weapon/Scorchedengine/trial_scorchedengine_bg
+    _PassID: 650016
+    _HeroID: 1005
+    _Hp: 8
+    _Attack: 10000
+    _Firespeed: 0
+    _Reloadvalue: 0
+    _FirearmsID:
+    - 11022
+    - 13
+    - 200
+    _RobotID:
+    - 1030
+    - 13
+    - 100
+    - 1010
+    - 13
+    - 100
+    _CitiaoID: 21
+    _Reward:
+    - 7002
+    - 20
+    - 7003
+    - 1
+    _RewardBoxIcon:
+    - UI/Icon/VirtualField/boxgold
+    - UI/Icon/VirtualField/boxgold
+  - _Id: 125
+    _Note: 【武器】冰晶之吻
+    _NewPlayer: 0
+    _ShowCondition:
+    - 72
+    - 43
+    _TrialType: 2
+    _Sort: 988
+    _Name: 29393
+    _Underlay: GameObjs/Weapon/IceElfTower/trial_iceElf__bg
+    _PassID: 650016
+    _HeroID: 1001
+    _Hp: 8
+    _Attack: 10000
+    _Firespeed: 0
+    _Reloadvalue: 0
+    _FirearmsID:
+    - 11023
+    - 13
+    - 200
+    _RobotID:
+    - 1001
+    - 13
+    - 100
+    - 1007
+    - 13
+    - 100
+    _CitiaoID: 22
+    _Reward:
+    - 7002
+    - 20
+    - 7003
+    - 1
+    _RewardBoxIcon:
+    - UI/Icon/VirtualField/boxgold
+    - UI/Icon/VirtualField/boxgold

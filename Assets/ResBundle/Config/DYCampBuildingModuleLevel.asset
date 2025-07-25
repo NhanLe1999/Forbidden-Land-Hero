@@ -1,0 +1,851 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee350e8dfad690513fdd361de0c3b46e, type: 3}
+  m_Name: DYCampBuildingModuleLevel
+  m_EditorClassIdentifier:
+  _Items:
+  - _Id: 100101
+    _LevelGroup: 1001
+    _Level: 1
+    _BuildCondition:
+    - 1002
+    - 1
+    _EffectType: 1
+    _Effect:
+    - 101
+    - 10
+    _BuildTimes: 0
+    _Buildcost:
+    - 4006
+    - 120
+  - _Id: 100102
+    _LevelGroup: 1001
+    _Level: 2
+    _BuildCondition:
+    - 1002
+    - 2
+    _EffectType: 1
+    _Effect:
+    - 101
+    - 13
+    _BuildTimes: 0
+    _Buildcost:
+    - 4006
+    - 400
+  - _Id: 100103
+    _LevelGroup: 1001
+    _Level: 3
+    _BuildCondition:
+    - 1002
+    - 3
+    _EffectType: 1
+    _Effect:
+    - 101
+    - 17
+    _BuildTimes: 0
+    _Buildcost:
+    - 4006
+    - 800
+  - _Id: 100104
+    _LevelGroup: 1001
+    _Level: 4
+    _BuildCondition:
+    - 1002
+    - 4
+    _EffectType: 1
+    _Effect:
+    - 101
+    - 21
+    _BuildTimes: 0
+    _Buildcost:
+    - 4006
+    - 1600
+  - _Id: 100105
+    _LevelGroup: 1001
+    _Level: 5
+    _BuildCondition:
+    - 1002
+    - 5
+    _EffectType: 1
+    _Effect:
+    - 101
+    - 25
+    _BuildTimes: 0
+    _Buildcost:
+    - 4006
+    - 3200
+  - _Id: 100106
+    _LevelGroup: 1001
+    _Level: 6
+    _BuildCondition:
+    - 1002
+    - 6
+    _EffectType: 1
+    _Effect:
+    - 101
+    - 28
+    _BuildTimes: 0
+    _Buildcost:
+    - 4006
+    - 4800
+  - _Id: 100107
+    _LevelGroup: 1001
+    _Level: 7
+    _BuildCondition:
+    - 1002
+    - 7
+    _EffectType: 1
+    _Effect:
+    - 101
+    - 32
+    _BuildTimes: 0
+    _Buildcost:
+    - 4006
+    - 7200
+  - _Id: 100108
+    _LevelGroup: 1001
+    _Level: 8
+    _BuildCondition:
+    - 1002
+    - 8
+    _EffectType: 1
+    _Effect:
+    - 101
+    - 36
+    _BuildTimes: 0
+    _Buildcost:
+    - 4006
+    - 10000
+  - _Id: 100109
+    _LevelGroup: 1001
+    _Level: 9
+    _BuildCondition:
+    - 1002
+    - 9
+    _EffectType: 1
+    _Effect:
+    - 101
+    - 40
+    _BuildTimes: 0
+    _Buildcost:
+    - 4006
+    - 14000
+  - _Id: 100110
+    _LevelGroup: 1001
+    _Level: 10
+    _BuildCondition:
+    - 1002
+    - 10
+    _EffectType: 1
+    _Effect:
+    - 101
+    - 43
+    _BuildTimes: 60
+    _Buildcost:
+    - 4006
+    - 20000
+  - _Id: 100111
+    _LevelGroup: 1001
+    _Level: 11
+    _BuildCondition:
+    - 1002
+    - 11
+    _EffectType: 1
+    _Effect:
+    - 101
+    - 47
+    _BuildTimes: 300
+    _Buildcost:
+    - 4006
+    - 26000
+  - _Id: 100112
+    _LevelGroup: 1001
+    _Level: 12
+    _BuildCondition:
+    - 1002
+    - 12
+    _EffectType: 1
+    _Effect:
+    - 101
+    - 51
+    _BuildTimes: 600
+    _Buildcost:
+    - 4006
+    - 32000
+  - _Id: 100113
+    _LevelGroup: 1001
+    _Level: 13
+    _BuildCondition:
+    - 1002
+    - 13
+    _EffectType: 1
+    _Effect:
+    - 101
+    - 55
+    _BuildTimes: 1800
+    _Buildcost:
+    - 4006
+    - 40000
+  - _Id: 100114
+    _LevelGroup: 1001
+    _Level: 14
+    _BuildCondition:
+    - 1002
+    - 14
+    _EffectType: 1
+    _Effect:
+    - 101
+    - 58
+    _BuildTimes: 3600
+    _Buildcost:
+    - 4006
+    - 48000
+  - _Id: 100115
+    _LevelGroup: 1001
+    _Level: 15
+    _BuildCondition:
+    - 1002
+    - 15
+    _EffectType: 1
+    _Effect:
+    - 101
+    - 62
+    _BuildTimes: 7200
+    _Buildcost:
+    - 4006
+    - 56000
+  - _Id: 100116
+    _LevelGroup: 1001
+    _Level: 16
+    _BuildCondition:
+    - 1002
+    - 16
+    _EffectType: 1
+    _Effect:
+    - 101
+    - 66
+    _BuildTimes: 14400
+    _Buildcost:
+    - 4006
+    - 66000
+  - _Id: 100117
+    _LevelGroup: 1001
+    _Level: 17
+    _BuildCondition:
+    - 1002
+    - 17
+    _EffectType: 1
+    _Effect:
+    - 101
+    - 70
+    _BuildTimes: 21600
+    _Buildcost:
+    - 4006
+    - 78000
+  - _Id: 100118
+    _LevelGroup: 1001
+    _Level: 18
+    _BuildCondition:
+    - 1002
+    - 18
+    _EffectType: 1
+    _Effect:
+    - 101
+    - 73
+    _BuildTimes: 28800
+    _Buildcost:
+    - 4006
+    - 92000
+  - _Id: 100119
+    _LevelGroup: 1001
+    _Level: 19
+    _BuildCondition:
+    - 1002
+    - 19
+    _EffectType: 1
+    _Effect:
+    - 101
+    - 77
+    _BuildTimes: 36000
+    _Buildcost:
+    - 4006
+    - 108000
+  - _Id: 100120
+    _LevelGroup: 1001
+    _Level: 20
+    _BuildCondition:
+    - 1002
+    - 20
+    _EffectType: 1
+    _Effect:
+    - 101
+    - 81
+    _BuildTimes: 43200
+    _Buildcost:
+    - 4006
+    - 124000
+  - _Id: 100121
+    _LevelGroup: 1001
+    _Level: 21
+    _BuildCondition:
+    - 1002
+    - 21
+    _EffectType: 1
+    _Effect:
+    - 101
+    - 85
+    _BuildTimes: 54000
+    _Buildcost:
+    - 4006
+    - 140000
+  - _Id: 100122
+    _LevelGroup: 1001
+    _Level: 22
+    _BuildCondition:
+    - 1002
+    - 22
+    _EffectType: 1
+    _Effect:
+    - 101
+    - 88
+    _BuildTimes: 66000
+    _Buildcost:
+    - 4006
+    - 160000
+  - _Id: 100123
+    _LevelGroup: 1001
+    _Level: 23
+    _BuildCondition:
+    - 1002
+    - 23
+    _EffectType: 1
+    _Effect:
+    - 101
+    - 92
+    _BuildTimes: 78000
+    _Buildcost:
+    - 4006
+    - 192000
+  - _Id: 100124
+    _LevelGroup: 1001
+    _Level: 24
+    _BuildCondition:
+    - 1002
+    - 24
+    _EffectType: 1
+    _Effect:
+    - 101
+    - 96
+    _BuildTimes: 96000
+    _Buildcost:
+    - 4006
+    - 240000
+  - _Id: 100125
+    _LevelGroup: 1001
+    _Level: 25
+    _BuildCondition:
+    - 1002
+    - 25
+    _EffectType: 1
+    _Effect:
+    - 101
+    - 100
+    _BuildTimes: 120000
+    _Buildcost:
+    - 4006
+    - 280000
+  - _Id: 100126
+    _LevelGroup: 1001
+    _Level: 26
+    _BuildCondition:
+    - 1002
+    - 26
+    _EffectType: 1
+    _Effect:
+    - 101
+    - 104
+    _BuildTimes: 144000
+    _Buildcost:
+    - 4006
+    - 320000
+  - _Id: 100127
+    _LevelGroup: 1001
+    _Level: 27
+    _BuildCondition:
+    - 1002
+    - 27
+    _EffectType: 1
+    _Effect:
+    - 101
+    - 108
+    _BuildTimes: 162000
+    _Buildcost:
+    - 4006
+    - 360000
+  - _Id: 100128
+    _LevelGroup: 1001
+    _Level: 28
+    _BuildCondition:
+    - 1002
+    - 28
+    _EffectType: 1
+    _Effect:
+    - 101
+    - 112
+    _BuildTimes: 180000
+    _Buildcost:
+    - 4006
+    - 400000
+  - _Id: 100129
+    _LevelGroup: 1001
+    _Level: 29
+    _BuildCondition:
+    - 1002
+    - 29
+    _EffectType: 1
+    _Effect:
+    - 101
+    - 116
+    _BuildTimes: 216000
+    _Buildcost:
+    - 4006
+    - 440000
+  - _Id: 100130
+    _LevelGroup: 1001
+    _Level: 30
+    _BuildCondition:
+    - 1002
+    - 30
+    _EffectType: 1
+    _Effect:
+    - 101
+    - 120
+    _BuildTimes: 0
+    _Buildcost: []
+  - _Id: 100201
+    _LevelGroup: 1002
+    _Level: 1
+    _BuildCondition:
+    - 1003
+    - 1
+    _EffectType: 1
+    _Effect:
+    - 103
+    - 10
+    _BuildTimes: 0
+    _Buildcost:
+    - 4005
+    - 120
+  - _Id: 100202
+    _LevelGroup: 1002
+    _Level: 2
+    _BuildCondition:
+    - 1003
+    - 2
+    _EffectType: 1
+    _Effect:
+    - 103
+    - 13
+    _BuildTimes: 0
+    _Buildcost:
+    - 4005
+    - 400
+  - _Id: 100203
+    _LevelGroup: 1002
+    _Level: 3
+    _BuildCondition:
+    - 1003
+    - 3
+    _EffectType: 1
+    _Effect:
+    - 103
+    - 17
+    _BuildTimes: 0
+    _Buildcost:
+    - 4005
+    - 800
+  - _Id: 100204
+    _LevelGroup: 1002
+    _Level: 4
+    _BuildCondition:
+    - 1003
+    - 4
+    _EffectType: 1
+    _Effect:
+    - 103
+    - 21
+    _BuildTimes: 0
+    _Buildcost:
+    - 4005
+    - 1600
+  - _Id: 100205
+    _LevelGroup: 1002
+    _Level: 5
+    _BuildCondition:
+    - 1003
+    - 5
+    _EffectType: 1
+    _Effect:
+    - 103
+    - 25
+    _BuildTimes: 0
+    _Buildcost:
+    - 4005
+    - 3200
+  - _Id: 100206
+    _LevelGroup: 1002
+    _Level: 6
+    _BuildCondition:
+    - 1003
+    - 6
+    _EffectType: 1
+    _Effect:
+    - 103
+    - 28
+    _BuildTimes: 0
+    _Buildcost:
+    - 4005
+    - 4800
+  - _Id: 100207
+    _LevelGroup: 1002
+    _Level: 7
+    _BuildCondition:
+    - 1003
+    - 7
+    _EffectType: 1
+    _Effect:
+    - 103
+    - 32
+    _BuildTimes: 0
+    _Buildcost:
+    - 4005
+    - 7200
+  - _Id: 100208
+    _LevelGroup: 1002
+    _Level: 8
+    _BuildCondition:
+    - 1003
+    - 8
+    _EffectType: 1
+    _Effect:
+    - 103
+    - 36
+    _BuildTimes: 0
+    _Buildcost:
+    - 4005
+    - 10000
+  - _Id: 100209
+    _LevelGroup: 1002
+    _Level: 9
+    _BuildCondition:
+    - 1003
+    - 9
+    _EffectType: 1
+    _Effect:
+    - 103
+    - 40
+    _BuildTimes: 0
+    _Buildcost:
+    - 4005
+    - 14000
+  - _Id: 100210
+    _LevelGroup: 1002
+    _Level: 10
+    _BuildCondition:
+    - 1003
+    - 10
+    _EffectType: 1
+    _Effect:
+    - 103
+    - 43
+    _BuildTimes: 60
+    _Buildcost:
+    - 4005
+    - 20000
+  - _Id: 100211
+    _LevelGroup: 1002
+    _Level: 11
+    _BuildCondition:
+    - 1003
+    - 11
+    _EffectType: 1
+    _Effect:
+    - 103
+    - 47
+    _BuildTimes: 300
+    _Buildcost:
+    - 4005
+    - 26000
+  - _Id: 100212
+    _LevelGroup: 1002
+    _Level: 12
+    _BuildCondition:
+    - 1003
+    - 12
+    _EffectType: 1
+    _Effect:
+    - 103
+    - 51
+    _BuildTimes: 600
+    _Buildcost:
+    - 4005
+    - 32000
+  - _Id: 100213
+    _LevelGroup: 1002
+    _Level: 13
+    _BuildCondition:
+    - 1003
+    - 13
+    _EffectType: 1
+    _Effect:
+    - 103
+    - 55
+    _BuildTimes: 1800
+    _Buildcost:
+    - 4005
+    - 40000
+  - _Id: 100214
+    _LevelGroup: 1002
+    _Level: 14
+    _BuildCondition:
+    - 1003
+    - 14
+    _EffectType: 1
+    _Effect:
+    - 103
+    - 58
+    _BuildTimes: 3600
+    _Buildcost:
+    - 4005
+    - 48000
+  - _Id: 100215
+    _LevelGroup: 1002
+    _Level: 15
+    _BuildCondition:
+    - 1003
+    - 15
+    _EffectType: 1
+    _Effect:
+    - 103
+    - 62
+    _BuildTimes: 7200
+    _Buildcost:
+    - 4005
+    - 56000
+  - _Id: 100216
+    _LevelGroup: 1002
+    _Level: 16
+    _BuildCondition:
+    - 1003
+    - 16
+    _EffectType: 1
+    _Effect:
+    - 103
+    - 66
+    _BuildTimes: 14400
+    _Buildcost:
+    - 4005
+    - 66000
+  - _Id: 100217
+    _LevelGroup: 1002
+    _Level: 17
+    _BuildCondition:
+    - 1003
+    - 17
+    _EffectType: 1
+    _Effect:
+    - 103
+    - 70
+    _BuildTimes: 21600
+    _Buildcost:
+    - 4005
+    - 78000
+  - _Id: 100218
+    _LevelGroup: 1002
+    _Level: 18
+    _BuildCondition:
+    - 1003
+    - 18
+    _EffectType: 1
+    _Effect:
+    - 103
+    - 73
+    _BuildTimes: 28800
+    _Buildcost:
+    - 4005
+    - 92000
+  - _Id: 100219
+    _LevelGroup: 1002
+    _Level: 19
+    _BuildCondition:
+    - 1003
+    - 19
+    _EffectType: 1
+    _Effect:
+    - 103
+    - 77
+    _BuildTimes: 36000
+    _Buildcost:
+    - 4005
+    - 108000
+  - _Id: 100220
+    _LevelGroup: 1002
+    _Level: 20
+    _BuildCondition:
+    - 1003
+    - 20
+    _EffectType: 1
+    _Effect:
+    - 103
+    - 81
+    _BuildTimes: 43200
+    _Buildcost:
+    - 4005
+    - 124000
+  - _Id: 100221
+    _LevelGroup: 1002
+    _Level: 21
+    _BuildCondition:
+    - 1003
+    - 21
+    _EffectType: 1
+    _Effect:
+    - 103
+    - 85
+    _BuildTimes: 54000
+    _Buildcost:
+    - 4005
+    - 140000
+  - _Id: 100222
+    _LevelGroup: 1002
+    _Level: 22
+    _BuildCondition:
+    - 1003
+    - 22
+    _EffectType: 1
+    _Effect:
+    - 103
+    - 88
+    _BuildTimes: 66000
+    _Buildcost:
+    - 4005
+    - 160000
+  - _Id: 100223
+    _LevelGroup: 1002
+    _Level: 23
+    _BuildCondition:
+    - 1003
+    - 23
+    _EffectType: 1
+    _Effect:
+    - 103
+    - 92
+    _BuildTimes: 78000
+    _Buildcost:
+    - 4005
+    - 192000
+  - _Id: 100224
+    _LevelGroup: 1002
+    _Level: 24
+    _BuildCondition:
+    - 1003
+    - 24
+    _EffectType: 1
+    _Effect:
+    - 103
+    - 96
+    _BuildTimes: 96000
+    _Buildcost:
+    - 4005
+    - 240000
+  - _Id: 100225
+    _LevelGroup: 1002
+    _Level: 25
+    _BuildCondition:
+    - 1003
+    - 25
+    _EffectType: 1
+    _Effect:
+    - 103
+    - 100
+    _BuildTimes: 120000
+    _Buildcost:
+    - 4005
+    - 280000
+  - _Id: 100226
+    _LevelGroup: 1002
+    _Level: 26
+    _BuildCondition:
+    - 1003
+    - 26
+    _EffectType: 1
+    _Effect:
+    - 103
+    - 104
+    _BuildTimes: 144000
+    _Buildcost:
+    - 4005
+    - 320000
+  - _Id: 100227
+    _LevelGroup: 1002
+    _Level: 27
+    _BuildCondition:
+    - 1003
+    - 27
+    _EffectType: 1
+    _Effect:
+    - 103
+    - 108
+    _BuildTimes: 162000
+    _Buildcost:
+    - 4005
+    - 360000
+  - _Id: 100228
+    _LevelGroup: 1002
+    _Level: 28
+    _BuildCondition:
+    - 1003
+    - 28
+    _EffectType: 1
+    _Effect:
+    - 103
+    - 112
+    _BuildTimes: 180000
+    _Buildcost:
+    - 4005
+    - 400000
+  - _Id: 100229
+    _LevelGroup: 1002
+    _Level: 29
+    _BuildCondition:
+    - 1003
+    - 29
+    _EffectType: 1
+    _Effect:
+    - 103
+    - 116
+    _BuildTimes: 216000
+    _Buildcost:
+    - 4005
+    - 440000
+  - _Id: 100230
+    _LevelGroup: 1002
+    _Level: 30
+    _BuildCondition:
+    - 1003
+    - 30
+    _EffectType: 1
+    _Effect:
+    - 103
+    - 120
+    _BuildTimes: 0
+    _Buildcost: []

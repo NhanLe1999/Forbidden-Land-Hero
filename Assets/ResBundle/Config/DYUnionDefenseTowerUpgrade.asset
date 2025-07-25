@@ -1,0 +1,512 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 003223d58264264437b6d0317dc0a51a, type: 3}
+  m_Name: DYUnionDefenseTowerUpgrade
+  m_EditorClassIdentifier:
+  _Items:
+  - _Id: 1
+    _Name: 机枪塔
+    _Towertype: 1
+    _MonsterID: 4100
+    _Towerlevel: 0
+    _InitialAtk: 0.08
+    _Updatematerial: 0
+  - _Id: 2
+    _Name: 机枪塔
+    _Towertype: 1
+    _MonsterID: 4100
+    _Towerlevel: 1
+    _InitialAtk: 0.1
+    _Updatematerial: 40
+  - _Id: 3
+    _Name: 机枪塔
+    _Towertype: 1
+    _MonsterID: 4100
+    _Towerlevel: 2
+    _InitialAtk: 0.15
+    _Updatematerial: 200
+  - _Id: 4
+    _Name: 机枪塔
+    _Towertype: 1
+    _MonsterID: 4100
+    _Towerlevel: 3
+    _InitialAtk: 0.2
+    _Updatematerial: 400
+  - _Id: 5
+    _Name: 机枪塔
+    _Towertype: 1
+    _MonsterID: 4100
+    _Towerlevel: 4
+    _InitialAtk: 0.25
+    _Updatematerial: 500
+  - _Id: 6
+    _Name: 机枪塔
+    _Towertype: 1
+    _MonsterID: 4100
+    _Towerlevel: 5
+    _InitialAtk: 0.32
+    _Updatematerial: 600
+  - _Id: 7
+    _Name: 机枪塔
+    _Towertype: 1
+    _MonsterID: 4100
+    _Towerlevel: 6
+    _InitialAtk: 0.4
+    _Updatematerial: 1200
+  - _Id: 8
+    _Name: 机枪塔
+    _Towertype: 1
+    _MonsterID: 4100
+    _Towerlevel: 7
+    _InitialAtk: 0.48
+    _Updatematerial: 2100
+  - _Id: 9
+    _Name: 机枪塔
+    _Towertype: 1
+    _MonsterID: 4100
+    _Towerlevel: 8
+    _InitialAtk: 0.6
+    _Updatematerial: 3300
+  - _Id: 10
+    _Name: 机枪塔
+    _Towertype: 1
+    _MonsterID: 4100
+    _Towerlevel: 9
+    _InitialAtk: 0.72
+    _Updatematerial: 5800
+  - _Id: 11
+    _Name: 机枪塔
+    _Towertype: 1
+    _MonsterID: 4100
+    _Towerlevel: 10
+    _InitialAtk: 0.85
+    _Updatematerial: 10000
+  - _Id: 12
+    _Name: 机枪塔
+    _Towertype: 1
+    _MonsterID: 4100
+    _Towerlevel: 11
+    _InitialAtk: 0.92
+    _Updatematerial: 12000
+  - _Id: 13
+    _Name: 机枪塔
+    _Towertype: 1
+    _MonsterID: 4100
+    _Towerlevel: 12
+    _InitialAtk: 1
+    _Updatematerial: 19500
+  - _Id: 14
+    _Name: 机枪塔
+    _Towertype: 1
+    _MonsterID: 4100
+    _Towerlevel: 13
+    _InitialAtk: 1.03
+    _Updatematerial: 26800
+  - _Id: 15
+    _Name: 机枪塔
+    _Towertype: 1
+    _MonsterID: 4100
+    _Towerlevel: 14
+    _InitialAtk: 1.06
+    _Updatematerial: 33500
+  - _Id: 16
+    _Name: 机枪塔
+    _Towertype: 1
+    _MonsterID: 4100
+    _Towerlevel: 15
+    _InitialAtk: 1.09
+    _Updatematerial: 40000
+  - _Id: 17
+    _Name: 机枪塔
+    _Towertype: 1
+    _MonsterID: 4100
+    _Towerlevel: 16
+    _InitialAtk: 1.12
+    _Updatematerial: 45000
+  - _Id: 18
+    _Name: 机枪塔
+    _Towertype: 1
+    _MonsterID: 4100
+    _Towerlevel: 17
+    _InitialAtk: 1.15
+    _Updatematerial: 60000
+  - _Id: 19
+    _Name: 机枪塔
+    _Towertype: 1
+    _MonsterID: 4100
+    _Towerlevel: 18
+    _InitialAtk: 1.18
+    _Updatematerial: 65000
+  - _Id: 20
+    _Name: 机枪塔
+    _Towertype: 1
+    _MonsterID: 4100
+    _Towerlevel: 19
+    _InitialAtk: 1.2
+    _Updatematerial: 70000
+  - _Id: 21
+    _Name: 机枪塔
+    _Towertype: 1
+    _MonsterID: 4100
+    _Towerlevel: 20
+    _InitialAtk: 1.25
+    _Updatematerial: 86800
+  - _Id: 22
+    _Name: 榴弹炮
+    _Towertype: 2
+    _MonsterID: 4102
+    _Towerlevel: 0
+    _InitialAtk: 0.08
+    _Updatematerial: 0
+  - _Id: 23
+    _Name: 榴弹炮
+    _Towertype: 2
+    _MonsterID: 4102
+    _Towerlevel: 1
+    _InitialAtk: 0.1
+    _Updatematerial: 40
+  - _Id: 24
+    _Name: 榴弹炮
+    _Towertype: 2
+    _MonsterID: 4102
+    _Towerlevel: 2
+    _InitialAtk: 0.15
+    _Updatematerial: 200
+  - _Id: 25
+    _Name: 榴弹炮
+    _Towertype: 2
+    _MonsterID: 4102
+    _Towerlevel: 3
+    _InitialAtk: 0.2
+    _Updatematerial: 400
+  - _Id: 26
+    _Name: 榴弹炮
+    _Towertype: 2
+    _MonsterID: 4102
+    _Towerlevel: 4
+    _InitialAtk: 0.25
+    _Updatematerial: 500
+  - _Id: 27
+    _Name: 榴弹炮
+    _Towertype: 2
+    _MonsterID: 4102
+    _Towerlevel: 5
+    _InitialAtk: 0.32
+    _Updatematerial: 600
+  - _Id: 28
+    _Name: 榴弹炮
+    _Towertype: 2
+    _MonsterID: 4102
+    _Towerlevel: 6
+    _InitialAtk: 0.4
+    _Updatematerial: 1200
+  - _Id: 29
+    _Name: 榴弹炮
+    _Towertype: 2
+    _MonsterID: 4102
+    _Towerlevel: 7
+    _InitialAtk: 0.48
+    _Updatematerial: 2100
+  - _Id: 30
+    _Name: 榴弹炮
+    _Towertype: 2
+    _MonsterID: 4102
+    _Towerlevel: 8
+    _InitialAtk: 0.6
+    _Updatematerial: 3300
+  - _Id: 31
+    _Name: 榴弹炮
+    _Towertype: 2
+    _MonsterID: 4102
+    _Towerlevel: 9
+    _InitialAtk: 0.72
+    _Updatematerial: 5800
+  - _Id: 32
+    _Name: 榴弹炮
+    _Towertype: 2
+    _MonsterID: 4102
+    _Towerlevel: 10
+    _InitialAtk: 0.85
+    _Updatematerial: 10000
+  - _Id: 33
+    _Name: 榴弹炮
+    _Towertype: 2
+    _MonsterID: 4102
+    _Towerlevel: 11
+    _InitialAtk: 0.92
+    _Updatematerial: 12000
+  - _Id: 34
+    _Name: 榴弹炮
+    _Towertype: 2
+    _MonsterID: 4102
+    _Towerlevel: 12
+    _InitialAtk: 1
+    _Updatematerial: 19500
+  - _Id: 35
+    _Name: 榴弹炮
+    _Towertype: 2
+    _MonsterID: 4102
+    _Towerlevel: 13
+    _InitialAtk: 1.03
+    _Updatematerial: 26800
+  - _Id: 36
+    _Name: 榴弹炮
+    _Towertype: 2
+    _MonsterID: 4102
+    _Towerlevel: 14
+    _InitialAtk: 1.06
+    _Updatematerial: 33500
+  - _Id: 37
+    _Name: 榴弹炮
+    _Towertype: 2
+    _MonsterID: 4102
+    _Towerlevel: 15
+    _InitialAtk: 1.09
+    _Updatematerial: 40000
+  - _Id: 38
+    _Name: 榴弹炮
+    _Towertype: 2
+    _MonsterID: 4102
+    _Towerlevel: 16
+    _InitialAtk: 1.12
+    _Updatematerial: 45000
+  - _Id: 39
+    _Name: 榴弹炮
+    _Towertype: 2
+    _MonsterID: 4102
+    _Towerlevel: 17
+    _InitialAtk: 1.15
+    _Updatematerial: 60000
+  - _Id: 40
+    _Name: 榴弹炮
+    _Towertype: 2
+    _MonsterID: 4102
+    _Towerlevel: 18
+    _InitialAtk: 1.18
+    _Updatematerial: 65000
+  - _Id: 41
+    _Name: 榴弹炮
+    _Towertype: 2
+    _MonsterID: 4102
+    _Towerlevel: 19
+    _InitialAtk: 1.2
+    _Updatematerial: 70000
+  - _Id: 42
+    _Name: 榴弹炮
+    _Towertype: 2
+    _MonsterID: 4102
+    _Towerlevel: 20
+    _InitialAtk: 1.25
+    _Updatematerial: 86800
+  - _Id: 43
+    _Name: 喷雾塔
+    _Towertype: 3
+    _MonsterID: 4101
+    _Towerlevel: 0
+    _InitialAtk: 0.08
+    _Updatematerial: 0
+  - _Id: 44
+    _Name: 喷雾塔
+    _Towertype: 3
+    _MonsterID: 4101
+    _Towerlevel: 1
+    _InitialAtk: 0.1
+    _Updatematerial: 40
+  - _Id: 45
+    _Name: 喷雾塔
+    _Towertype: 3
+    _MonsterID: 4101
+    _Towerlevel: 2
+    _InitialAtk: 0.15
+    _Updatematerial: 200
+  - _Id: 46
+    _Name: 喷雾塔
+    _Towertype: 3
+    _MonsterID: 4101
+    _Towerlevel: 3
+    _InitialAtk: 0.2
+    _Updatematerial: 400
+  - _Id: 47
+    _Name: 喷雾塔
+    _Towertype: 3
+    _MonsterID: 4101
+    _Towerlevel: 4
+    _InitialAtk: 0.25
+    _Updatematerial: 500
+  - _Id: 48
+    _Name: 喷雾塔
+    _Towertype: 3
+    _MonsterID: 4101
+    _Towerlevel: 5
+    _InitialAtk: 0.32
+    _Updatematerial: 600
+  - _Id: 49
+    _Name: 喷雾塔
+    _Towertype: 3
+    _MonsterID: 4101
+    _Towerlevel: 6
+    _InitialAtk: 0.4
+    _Updatematerial: 1200
+  - _Id: 50
+    _Name: 喷雾塔
+    _Towertype: 3
+    _MonsterID: 4101
+    _Towerlevel: 7
+    _InitialAtk: 0.48
+    _Updatematerial: 2100
+  - _Id: 51
+    _Name: 喷雾塔
+    _Towertype: 3
+    _MonsterID: 4101
+    _Towerlevel: 8
+    _InitialAtk: 0.6
+    _Updatematerial: 3300
+  - _Id: 52
+    _Name: 喷雾塔
+    _Towertype: 3
+    _MonsterID: 4101
+    _Towerlevel: 9
+    _InitialAtk: 0.72
+    _Updatematerial: 5800
+  - _Id: 53
+    _Name: 喷雾塔
+    _Towertype: 3
+    _MonsterID: 4101
+    _Towerlevel: 10
+    _InitialAtk: 0.85
+    _Updatematerial: 10000
+  - _Id: 54
+    _Name: 喷雾塔
+    _Towertype: 3
+    _MonsterID: 4101
+    _Towerlevel: 11
+    _InitialAtk: 0.92
+    _Updatematerial: 12000
+  - _Id: 55
+    _Name: 喷雾塔
+    _Towertype: 3
+    _MonsterID: 4101
+    _Towerlevel: 12
+    _InitialAtk: 1
+    _Updatematerial: 19500
+  - _Id: 56
+    _Name: 喷雾塔
+    _Towertype: 3
+    _MonsterID: 4101
+    _Towerlevel: 13
+    _InitialAtk: 1.03
+    _Updatematerial: 26800
+  - _Id: 57
+    _Name: 喷雾塔
+    _Towertype: 3
+    _MonsterID: 4101
+    _Towerlevel: 14
+    _InitialAtk: 1.06
+    _Updatematerial: 33500
+  - _Id: 58
+    _Name: 喷雾塔
+    _Towertype: 3
+    _MonsterID: 4101
+    _Towerlevel: 15
+    _InitialAtk: 1.09
+    _Updatematerial: 40000
+  - _Id: 59
+    _Name: 喷雾塔
+    _Towertype: 3
+    _MonsterID: 4101
+    _Towerlevel: 16
+    _InitialAtk: 1.12
+    _Updatematerial: 45000
+  - _Id: 60
+    _Name: 喷雾塔
+    _Towertype: 3
+    _MonsterID: 4101
+    _Towerlevel: 17
+    _InitialAtk: 1.15
+    _Updatematerial: 60000
+  - _Id: 61
+    _Name: 喷雾塔
+    _Towertype: 3
+    _MonsterID: 4101
+    _Towerlevel: 18
+    _InitialAtk: 1.18
+    _Updatematerial: 65000
+  - _Id: 62
+    _Name: 喷雾塔
+    _Towertype: 3
+    _MonsterID: 4101
+    _Towerlevel: 19
+    _InitialAtk: 1.2
+    _Updatematerial: 70000
+  - _Id: 63
+    _Name: 喷雾塔
+    _Towertype: 3
+    _MonsterID: 4101
+    _Towerlevel: 20
+    _InitialAtk: 1.25
+    _Updatematerial: 86800
+  - _Id: 64
+    _Name: 虚配
+    _Towertype: 99
+    _MonsterID: 3
+    _Towerlevel: 0
+    _InitialAtk: 0
+    _Updatematerial: 0
+  - _Id: 65
+    _Name: 位置4
+    _Towertype: 99
+    _MonsterID: 4
+    _Towerlevel: 1
+    _InitialAtk: 0
+    _Updatematerial: 60
+  - _Id: 66
+    _Name: 位置5
+    _Towertype: 99
+    _MonsterID: 5
+    _Towerlevel: 2
+    _InitialAtk: 0
+    _Updatematerial: 240
+  - _Id: 67
+    _Name: 位置6
+    _Towertype: 99
+    _MonsterID: 6
+    _Towerlevel: 3
+    _InitialAtk: 0
+    _Updatematerial: 600
+  - _Id: 68
+    _Name: 位置7
+    _Towertype: 99
+    _MonsterID: 7
+    _Towerlevel: 4
+    _InitialAtk: 0
+    _Updatematerial: 2400
+  - _Id: 69
+    _Name: 位置8
+    _Towertype: 99
+    _MonsterID: 8
+    _Towerlevel: 5
+    _InitialAtk: 0
+    _Updatematerial: 3600
+  - _Id: 70
+    _Name: 位置9
+    _Towertype: 99
+    _MonsterID: 9
+    _Towerlevel: 6
+    _InitialAtk: 0
+    _Updatematerial: 12000
+  - _Id: 71
+    _Name: 位置10
+    _Towertype: 99
+    _MonsterID: 10
+    _Towerlevel: 7
+    _InitialAtk: 0
+    _Updatematerial: 18000

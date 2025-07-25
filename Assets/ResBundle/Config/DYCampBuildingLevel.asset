@@ -1,0 +1,4683 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5185d5714f320ab4144ca8006085c0c4, type: 3}
+  m_Name: DYCampBuildingLevel
+  m_EditorClassIdentifier:
+  _Items:
+  - _Id: 100100
+    _Note: 【基地】0
+    _BuildId: 1001
+    _BuildLevel: 0
+    _BuildCondition: []
+    _PassCondition: 100006
+    _ModuleCondition: 0
+    _Buildcost: []
+    _BuildTimes: 2
+    _Prosperity: 0
+    _EffectType1: 0
+    _Effect1: []
+    _EffectType2: 0
+    _Effect2: []
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100101
+    _Note: 【基地】1
+    _BuildId: 1001
+    _BuildLevel: 1
+    _BuildCondition: []
+    _PassCondition: 100006
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 3000
+    - 7001
+    - 5000
+    _BuildTimes: 300
+    _Prosperity: 10
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 100
+    _EffectType2: 0
+    _Effect2: []
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100102
+    _Note: 【基地】2
+    _BuildId: 1001
+    _BuildLevel: 2
+    _BuildCondition: []
+    _PassCondition: 100006
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 10000
+    - 7001
+    - 10000
+    _BuildTimes: 600
+    _Prosperity: 20
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 400
+    _EffectType2: 0
+    _Effect2: []
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100103
+    _Note: 【基地】3
+    _BuildId: 1001
+    _BuildLevel: 3
+    _BuildCondition:
+    - 1006
+    - 2
+    _PassCondition: 100008
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 20000
+    - 7001
+    - 30000
+    _BuildTimes: 1800
+    _Prosperity: 30
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 900
+    _EffectType2: 0
+    _Effect2: []
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100104
+    _Note: 【基地】4
+    _BuildId: 1001
+    _BuildLevel: 4
+    _BuildCondition: []
+    _PassCondition: 100010
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 40000
+    - 7001
+    - 50000
+    _BuildTimes: 3600
+    _Prosperity: 40
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 1700
+    _EffectType2: 0
+    _Effect2: []
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100105
+    _Note: 【基地】5
+    _BuildId: 1001
+    _BuildLevel: 5
+    _BuildCondition:
+    - 1006
+    - 3
+    _PassCondition: 100012
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 80000
+    - 7001
+    - 100000
+    _BuildTimes: 10800
+    _Prosperity: 50
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 2900
+    _EffectType2: 0
+    _Effect2: []
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100106
+    _Note: 【基地】6
+    _BuildId: 1001
+    _BuildLevel: 6
+    _BuildCondition: []
+    _PassCondition: 100015
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 120000
+    - 7001
+    - 200000
+    _BuildTimes: 36000
+    _Prosperity: 60
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 4500
+    _EffectType2: 0
+    _Effect2: []
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100107
+    _Note: 【基地】7
+    _BuildId: 1001
+    _BuildLevel: 7
+    _BuildCondition: []
+    _PassCondition: 100018
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 180000
+    - 7001
+    - 400000
+    _BuildTimes: 72000
+    _Prosperity: 70
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 6500
+    _EffectType2: 0
+    _Effect2: []
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100108
+    _Note: 【基地】8
+    _BuildId: 1001
+    _BuildLevel: 8
+    _BuildCondition:
+    - 1006
+    - 4
+    _PassCondition: 100020
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 250000
+    - 7001
+    - 600000
+    _BuildTimes: 150000
+    _Prosperity: 80
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 9000
+    _EffectType2: 0
+    _Effect2: []
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100109
+    _Note: 【基地】9
+    _BuildId: 1001
+    _BuildLevel: 9
+    _BuildCondition: []
+    _PassCondition: 100025
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 350000
+    - 7001
+    - 1200000
+    _BuildTimes: 231000
+    _Prosperity: 90
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 12000
+    _EffectType2: 0
+    _Effect2: []
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100110
+    _Note: 【基地】10
+    _BuildId: 1001
+    _BuildLevel: 10
+    _BuildCondition: []
+    _PassCondition: 100030
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 500000
+    - 7001
+    - 2000000
+    _BuildTimes: 360000
+    _Prosperity: 100
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 15500
+    _EffectType2: 0
+    _Effect2: []
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100111
+    _Note: 【基地】11
+    _BuildId: 1001
+    _BuildLevel: 11
+    _BuildCondition: []
+    _PassCondition: 100035
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 650000
+    - 7001
+    - 3000000
+    _BuildTimes: 468000
+    _Prosperity: 110
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 20000
+    _EffectType2: 0
+    _Effect2: []
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100112
+    _Note: 【基地】12
+    _BuildId: 1001
+    _BuildLevel: 12
+    _BuildCondition:
+    - 1006
+    - 5
+    _PassCondition: 100040
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 800000
+    - 7001
+    - 4000000
+    _BuildTimes: 576000
+    _Prosperity: 120
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 25500
+    _EffectType2: 0
+    _Effect2: []
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100113
+    _Note: 【基地】13
+    _BuildId: 1001
+    _BuildLevel: 13
+    _BuildCondition: []
+    _PassCondition: 100045
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 1000000
+    - 7001
+    - 5000000
+    _BuildTimes: 720000
+    _Prosperity: 130
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 32000
+    _EffectType2: 0
+    _Effect2: []
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100114
+    _Note: 【基地】14
+    _BuildId: 1001
+    _BuildLevel: 14
+    _BuildCondition: []
+    _PassCondition: 100050
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 1200000
+    - 7001
+    - 6200000
+    _BuildTimes: 864000
+    _Prosperity: 140
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 39500
+    _EffectType2: 0
+    _Effect2: []
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100115
+    _Note: 【基地】15
+    _BuildId: 1001
+    _BuildLevel: 15
+    _BuildCondition: []
+    _PassCondition: 100055
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 1400000
+    - 7001
+    - 7500000
+    _BuildTimes: 1008000
+    _Prosperity: 150
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 48500
+    _EffectType2: 0
+    _Effect2: []
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100116
+    _Note: 【基地】16
+    _BuildId: 1001
+    _BuildLevel: 16
+    _BuildCondition:
+    - 1006
+    - 6
+    _PassCondition: 100060
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 1650000
+    - 7001
+    - 9000000
+    _BuildTimes: 1287000
+    _Prosperity: 160
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 59500
+    _EffectType2: 0
+    _Effect2: []
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100117
+    _Note: 【基地】17
+    _BuildId: 1001
+    _BuildLevel: 17
+    _BuildCondition: []
+    _PassCondition: 100065
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 1950000
+    - 7001
+    - 11000000
+    _BuildTimes: 1521000
+    _Prosperity: 170
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 72500
+    _EffectType2: 0
+    _Effect2: []
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100118
+    _Note: 【基地】18
+    _BuildId: 1001
+    _BuildLevel: 18
+    _BuildCondition: []
+    _PassCondition: 100070
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 2300000
+    - 7001
+    - 13500000
+    _BuildTimes: 1794000
+    _Prosperity: 180
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 87500
+    _EffectType2: 0
+    _Effect2: []
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100119
+    _Note: 【基地】19
+    _BuildId: 1001
+    _BuildLevel: 19
+    _BuildCondition: []
+    _PassCondition: 100075
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 2700000
+    - 7001
+    - 16500000
+    _BuildTimes: 2106000
+    _Prosperity: 190
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 104500
+    _EffectType2: 0
+    _Effect2: []
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100120
+    _Note: 【基地】20
+    _BuildId: 1001
+    _BuildLevel: 20
+    _BuildCondition:
+    - 1006
+    - 7
+    _PassCondition: 100080
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 3100000
+    - 7001
+    - 20000000
+    _BuildTimes: 2418000
+    _Prosperity: 200
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 123500
+    _EffectType2: 0
+    _Effect2: []
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100121
+    _Note: 【基地】21
+    _BuildId: 1001
+    _BuildLevel: 21
+    _BuildCondition: []
+    _PassCondition: 100085
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 3500000
+    - 7001
+    - 25000000
+    _BuildTimes: 2730000
+    _Prosperity: 210
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 144500
+    _EffectType2: 0
+    _Effect2: []
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100122
+    _Note: 【基地】22
+    _BuildId: 1001
+    _BuildLevel: 22
+    _BuildCondition: []
+    _PassCondition: 100090
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 4000000
+    - 7001
+    - 32000000
+    _BuildTimes: 3360000
+    _Prosperity: 220
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 167500
+    _EffectType2: 0
+    _Effect2: []
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100123
+    _Note: 【基地】23
+    _BuildId: 1001
+    _BuildLevel: 23
+    _BuildCondition: []
+    _PassCondition: 100095
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 4800000
+    - 7001
+    - 40000000
+    _BuildTimes: 4032000
+    _Prosperity: 230
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 192500
+    _EffectType2: 0
+    _Effect2: []
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100124
+    _Note: 【基地】24
+    _BuildId: 1001
+    _BuildLevel: 24
+    _BuildCondition: []
+    _PassCondition: 100100
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 6000000
+    - 7001
+    - 50000000
+    _BuildTimes: 5040000
+    _Prosperity: 240
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 220000
+    _EffectType2: 0
+    _Effect2: []
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100125
+    _Note: 【基地】25
+    _BuildId: 1001
+    _BuildLevel: 25
+    _BuildCondition: []
+    _PassCondition: 100105
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 7000000
+    - 7001
+    - 55000000
+    _BuildTimes: 5400000
+    _Prosperity: 250
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 250000
+    _EffectType2: 0
+    _Effect2: []
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100126
+    _Note: 【基地】26
+    _BuildId: 1001
+    _BuildLevel: 26
+    _BuildCondition: []
+    _PassCondition: 100110
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 8000000
+    - 7001
+    - 60000000
+    _BuildTimes: 6000000
+    _Prosperity: 260
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 285000
+    _EffectType2: 0
+    _Effect2: []
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100127
+    _Note: 【基地】27
+    _BuildId: 1001
+    _BuildLevel: 27
+    _BuildCondition: []
+    _PassCondition: 100115
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 9000000
+    - 7001
+    - 65000000
+    _BuildTimes: 6600000
+    _Prosperity: 270
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 320000
+    _EffectType2: 0
+    _Effect2: []
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100128
+    _Note: 【基地】28
+    _BuildId: 1001
+    _BuildLevel: 28
+    _BuildCondition: []
+    _PassCondition: 100120
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 10000000
+    - 7001
+    - 70000000
+    _BuildTimes: 7200000
+    _Prosperity: 280
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 360000
+    _EffectType2: 0
+    _Effect2: []
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100129
+    _Note: 【基地】29
+    _BuildId: 1001
+    _BuildLevel: 29
+    _BuildCondition: []
+    _PassCondition: 100125
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 11000000
+    - 7001
+    - 75000000
+    _BuildTimes: 7800000
+    _Prosperity: 290
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 400000
+    _EffectType2: 0
+    _Effect2: []
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100130
+    _Note: 【基地】30
+    _BuildId: 1001
+    _BuildLevel: 30
+    _BuildCondition: []
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost: []
+    _BuildTimes: 0
+    _Prosperity: 300
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 450000
+    _EffectType2: 0
+    _Effect2: []
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100200
+    _Note: 【发电厂】0
+    _BuildId: 1002
+    _BuildLevel: 0
+    _BuildCondition:
+    - 1004
+    - 1
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 400
+    - 7001
+    - 1000
+    _BuildTimes: 10
+    _Prosperity: 0
+    _EffectType1: 0
+    _Effect1: []
+    _EffectType2: 1
+    _Effect2:
+    - 101
+    - 0
+    - 105
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100201
+    _Note: 【发电厂】1
+    _BuildId: 1002
+    _BuildLevel: 1
+    _BuildCondition:
+    - 1001
+    - 2
+    _PassCondition: 0
+    _ModuleCondition: 1
+    _Buildcost:
+    - 4006
+    - 800
+    - 7001
+    - 1700
+    _BuildTimes: 60
+    _Prosperity: 2
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 10
+    _EffectType2: 1
+    _Effect2:
+    - 101
+    - 100
+    - 105
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100202
+    _Note: 【发电厂】2
+    _BuildId: 1002
+    _BuildLevel: 2
+    _BuildCondition:
+    - 1001
+    - 3
+    _PassCondition: 0
+    _ModuleCondition: 4
+    _Buildcost:
+    - 4006
+    - 1000
+    - 7001
+    - 3300
+    _BuildTimes: 300
+    _Prosperity: 4
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 40
+    _EffectType2: 1
+    _Effect2:
+    - 101
+    - 145
+    - 105
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100203
+    _Note: 【发电厂】3
+    _BuildId: 1002
+    _BuildLevel: 3
+    _BuildCondition:
+    - 1001
+    - 4
+    _PassCondition: 0
+    _ModuleCondition: 9
+    _Buildcost:
+    - 4006
+    - 2000
+    - 7001
+    - 10000
+    _BuildTimes: 900
+    _Prosperity: 6
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 100
+    _EffectType2: 1
+    _Effect2:
+    - 101
+    - 180
+    - 105
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100204
+    _Note: 【发电厂】4
+    _BuildId: 1002
+    _BuildLevel: 4
+    _BuildCondition:
+    - 1001
+    - 5
+    _PassCondition: 0
+    _ModuleCondition: 16
+    _Buildcost:
+    - 4006
+    - 4000
+    - 7001
+    - 17000
+    _BuildTimes: 1800
+    _Prosperity: 8
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 200
+    _EffectType2: 1
+    _Effect2:
+    - 101
+    - 215
+    - 105
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100205
+    _Note: 【发电厂】5
+    _BuildId: 1002
+    _BuildLevel: 5
+    _BuildCondition:
+    - 1001
+    - 6
+    _PassCondition: 0
+    _ModuleCondition: 20
+    _Buildcost:
+    - 4006
+    - 8000
+    - 7001
+    - 33000
+    _BuildTimes: 5400
+    _Prosperity: 10
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 350
+    _EffectType2: 1
+    _Effect2:
+    - 101
+    - 250
+    - 105
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100206
+    _Note: 【发电厂】6
+    _BuildId: 1002
+    _BuildLevel: 6
+    _BuildCondition:
+    - 1001
+    - 7
+    _PassCondition: 0
+    _ModuleCondition: 30
+    _Buildcost:
+    - 4006
+    - 12000
+    - 7001
+    - 67000
+    _BuildTimes: 18000
+    _Prosperity: 12
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 600
+    _EffectType2: 1
+    _Effect2:
+    - 101
+    - 295
+    - 105
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100207
+    _Note: 【发电厂】7
+    _BuildId: 1002
+    _BuildLevel: 7
+    _BuildCondition:
+    - 1001
+    - 8
+    _PassCondition: 0
+    _ModuleCondition: 35
+    _Buildcost:
+    - 4006
+    - 18000
+    - 7001
+    - 133000
+    _BuildTimes: 36000
+    _Prosperity: 14
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 1000
+    _EffectType2: 1
+    _Effect2:
+    - 101
+    - 330
+    - 105
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100208
+    _Note: 【发电厂】8
+    _BuildId: 1002
+    _BuildLevel: 8
+    _BuildCondition:
+    - 1001
+    - 9
+    _PassCondition: 0
+    _ModuleCondition: 48
+    _Buildcost:
+    - 4006
+    - 25000
+    - 7001
+    - 200000
+    _BuildTimes: 75000
+    _Prosperity: 16
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 1500
+    _EffectType2: 1
+    _Effect2:
+    - 101
+    - 365
+    - 105
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100209
+    _Note: 【发电厂】9
+    _BuildId: 1002
+    _BuildLevel: 9
+    _BuildCondition:
+    - 1001
+    - 10
+    _PassCondition: 0
+    _ModuleCondition: 54
+    _Buildcost:
+    - 4006
+    - 35000
+    - 7001
+    - 400000
+    _BuildTimes: 115500
+    _Prosperity: 18
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 2250
+    _EffectType2: 1
+    _Effect2:
+    - 101
+    - 400
+    - 105
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100210
+    _Note: 【发电厂】10
+    _BuildId: 1002
+    _BuildLevel: 10
+    _BuildCondition:
+    - 1001
+    - 11
+    _PassCondition: 0
+    _ModuleCondition: 70
+    _Buildcost:
+    - 4006
+    - 50000
+    - 7001
+    - 667000
+    _BuildTimes: 179400
+    _Prosperity: 20
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 3500
+    _EffectType2: 1
+    _Effect2:
+    - 101
+    - 445
+    - 105
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100211
+    _Note: 【发电厂】11
+    _BuildId: 1002
+    _BuildLevel: 11
+    _BuildCondition:
+    - 1001
+    - 12
+    _PassCondition: 0
+    _ModuleCondition: 77
+    _Buildcost:
+    - 4006
+    - 65000
+    - 7001
+    - 1000000
+    _BuildTimes: 231000
+    _Prosperity: 22
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 5000
+    _EffectType2: 1
+    _Effect2:
+    - 101
+    - 480
+    - 105
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100212
+    _Note: 【发电厂】12
+    _BuildId: 1002
+    _BuildLevel: 12
+    _BuildCondition:
+    - 1001
+    - 13
+    _PassCondition: 0
+    _ModuleCondition: 96
+    _Buildcost:
+    - 4006
+    - 80000
+    - 7001
+    - 1330000
+    _BuildTimes: 282000
+    _Prosperity: 24
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 7000
+    _EffectType2: 1
+    _Effect2:
+    - 101
+    - 515
+    - 105
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100213
+    _Note: 【发电厂】13
+    _BuildId: 1002
+    _BuildLevel: 13
+    _BuildCondition:
+    - 1001
+    - 14
+    _PassCondition: 0
+    _ModuleCondition: 104
+    _Buildcost:
+    - 4006
+    - 100000
+    - 7001
+    - 1670000
+    _BuildTimes: 342000
+    _Prosperity: 26
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 9500
+    _EffectType2: 1
+    _Effect2:
+    - 101
+    - 550
+    - 105
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100214
+    _Note: 【发电厂】14
+    _BuildId: 1002
+    _BuildLevel: 14
+    _BuildCondition:
+    - 1001
+    - 15
+    _PassCondition: 0
+    _ModuleCondition: 126
+    _Buildcost:
+    - 4006
+    - 120000
+    - 7001
+    - 2070000
+    _BuildTimes: 396000
+    _Prosperity: 28
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 12000
+    _EffectType2: 1
+    _Effect2:
+    - 101
+    - 595
+    - 105
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100215
+    _Note: 【发电厂】15
+    _BuildId: 1002
+    _BuildLevel: 15
+    _BuildCondition:
+    - 1001
+    - 16
+    _PassCondition: 0
+    _ModuleCondition: 135
+    _Buildcost:
+    - 4006
+    - 140000
+    - 7001
+    - 2500000
+    _BuildTimes: 432000
+    _Prosperity: 30
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 15000
+    _EffectType2: 1
+    _Effect2:
+    - 101
+    - 630
+    - 105
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100216
+    _Note: 【发电厂】16
+    _BuildId: 1002
+    _BuildLevel: 16
+    _BuildCondition:
+    - 1001
+    - 17
+    _PassCondition: 0
+    _ModuleCondition: 160
+    _Buildcost:
+    - 4006
+    - 165000
+    - 7001
+    - 3000000
+    _BuildTimes: 499500
+    _Prosperity: 32
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 18500
+    _EffectType2: 1
+    _Effect2:
+    - 101
+    - 665
+    - 105
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100217
+    _Note: 【发电厂】17
+    _BuildId: 1002
+    _BuildLevel: 17
+    _BuildCondition:
+    - 1001
+    - 18
+    _PassCondition: 0
+    _ModuleCondition: 170
+    _Buildcost:
+    - 4006
+    - 195000
+    - 7001
+    - 3670000
+    _BuildTimes: 544500
+    _Prosperity: 34
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 22500
+    _EffectType2: 1
+    _Effect2:
+    - 101
+    - 700
+    - 105
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100218
+    _Note: 【发电厂】18
+    _BuildId: 1002
+    _BuildLevel: 18
+    _BuildCondition:
+    - 1001
+    - 19
+    _PassCondition: 0
+    _ModuleCondition: 180
+    _Buildcost:
+    - 4006
+    - 230000
+    - 7001
+    - 4500000
+    _BuildTimes: 609000
+    _Prosperity: 36
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 27000
+    _EffectType2: 1
+    _Effect2:
+    - 101
+    - 745
+    - 105
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100219
+    _Note: 【发电厂】19
+    _BuildId: 1002
+    _BuildLevel: 19
+    _BuildCondition:
+    - 1001
+    - 20
+    _PassCondition: 0
+    _ModuleCondition: 190
+    _Buildcost:
+    - 4006
+    - 270000
+    - 7001
+    - 5500000
+    _BuildTimes: 693000
+    _Prosperity: 38
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 32000
+    _EffectType2: 1
+    _Effect2:
+    - 101
+    - 780
+    - 105
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100220
+    _Note: 【发电厂】20
+    _BuildId: 1002
+    _BuildLevel: 20
+    _BuildCondition:
+    - 1001
+    - 21
+    _PassCondition: 0
+    _ModuleCondition: 200
+    _Buildcost:
+    - 4006
+    - 310000
+    - 7001
+    - 6670000
+    _BuildTimes: 777000
+    _Prosperity: 40
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 38000
+    _EffectType2: 1
+    _Effect2:
+    - 101
+    - 815
+    - 105
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100221
+    _Note: 【发电厂】21
+    _BuildId: 1002
+    _BuildLevel: 21
+    _BuildCondition:
+    - 1001
+    - 22
+    _PassCondition: 0
+    _ModuleCondition: 210
+    _Buildcost:
+    - 4006
+    - 350000
+    - 7001
+    - 8330000
+    _BuildTimes: 825000
+    _Prosperity: 42
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 45000
+    _EffectType2: 1
+    _Effect2:
+    - 101
+    - 850
+    - 105
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100222
+    _Note: 【发电厂】22
+    _BuildId: 1002
+    _BuildLevel: 22
+    _BuildCondition:
+    - 1001
+    - 23
+    _PassCondition: 0
+    _ModuleCondition: 220
+    _Buildcost:
+    - 4006
+    - 400000
+    - 7001
+    - 10700000
+    _BuildTimes: 1020000
+    _Prosperity: 44
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 53000
+    _EffectType2: 1
+    _Effect2:
+    - 101
+    - 895
+    - 105
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100223
+    _Note: 【发电厂】23
+    _BuildId: 1002
+    _BuildLevel: 23
+    _BuildCondition:
+    - 1001
+    - 24
+    _PassCondition: 0
+    _ModuleCondition: 230
+    _Buildcost:
+    - 4006
+    - 480000
+    - 7001
+    - 13300000
+    _BuildTimes: 1236000
+    _Prosperity: 46
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 62000
+    _EffectType2: 1
+    _Effect2:
+    - 101
+    - 930
+    - 105
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100224
+    _Note: 【发电厂】24
+    _BuildId: 1002
+    _BuildLevel: 24
+    _BuildCondition:
+    - 1001
+    - 25
+    _PassCondition: 0
+    _ModuleCondition: 240
+    _Buildcost:
+    - 4006
+    - 600000
+    - 7001
+    - 16700000
+    _BuildTimes: 1560000
+    _Prosperity: 48
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 73000
+    _EffectType2: 1
+    _Effect2:
+    - 101
+    - 965
+    - 105
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100225
+    _Note: 【发电厂】25
+    _BuildId: 1002
+    _BuildLevel: 25
+    _BuildCondition:
+    - 1001
+    - 26
+    _PassCondition: 0
+    _ModuleCondition: 250
+    _Buildcost:
+    - 4006
+    - 700000
+    - 7001
+    - 18300000
+    _BuildTimes: 1500000
+    _Prosperity: 50
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 85000
+    _EffectType2: 1
+    _Effect2:
+    - 101
+    - 1000
+    - 105
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100226
+    _Note: 【发电厂】26
+    _BuildId: 1002
+    _BuildLevel: 26
+    _BuildCondition:
+    - 1001
+    - 27
+    _PassCondition: 0
+    _ModuleCondition: 260
+    _Buildcost:
+    - 4006
+    - 800000
+    - 7001
+    - 20000000
+    _BuildTimes: 1560000
+    _Prosperity: 52
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 98000
+    _EffectType2: 1
+    _Effect2:
+    - 101
+    - 1040
+    - 105
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100227
+    _Note: 【发电厂】27
+    _BuildId: 1002
+    _BuildLevel: 27
+    _BuildCondition:
+    - 1001
+    - 28
+    _PassCondition: 0
+    _ModuleCondition: 270
+    _Buildcost:
+    - 4006
+    - 900000
+    - 7001
+    - 21700000
+    _BuildTimes: 1680000
+    _Prosperity: 54
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 112000
+    _EffectType2: 1
+    _Effect2:
+    - 101
+    - 1080
+    - 105
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100228
+    _Note: 【发电厂】28
+    _BuildId: 1002
+    _BuildLevel: 28
+    _BuildCondition:
+    - 1001
+    - 29
+    _PassCondition: 0
+    _ModuleCondition: 280
+    _Buildcost:
+    - 4006
+    - 1000000
+    - 7001
+    - 23300000
+    _BuildTimes: 1800000
+    _Prosperity: 56
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 127000
+    _EffectType2: 1
+    _Effect2:
+    - 101
+    - 1120
+    - 105
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100229
+    _Note: 【发电厂】29
+    _BuildId: 1002
+    _BuildLevel: 29
+    _BuildCondition:
+    - 1001
+    - 30
+    _PassCondition: 0
+    _ModuleCondition: 290
+    _Buildcost:
+    - 4006
+    - 1100000
+    - 7001
+    - 25000000
+    _BuildTimes: 1740000
+    _Prosperity: 58
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 143000
+    _EffectType2: 1
+    _Effect2:
+    - 101
+    - 1160
+    - 105
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100230
+    _Note: 【发电厂】30
+    _BuildId: 1002
+    _BuildLevel: 30
+    _BuildCondition: []
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost: []
+    _BuildTimes: 0
+    _Prosperity: 60
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 160000
+    _EffectType2: 1
+    _Effect2:
+    - 101
+    - 1200
+    - 105
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100300
+    _Note: 【炼钢厂】0
+    _BuildId: 1003
+    _BuildLevel: 0
+    _BuildCondition:
+    - 1004
+    - 1
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4005
+    - 400
+    - 7001
+    - 1000
+    _BuildTimes: 10
+    _Prosperity: 0
+    _EffectType1: 0
+    _Effect1: []
+    _EffectType2: 1
+    _Effect2:
+    - 103
+    - 0
+    - 106
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100301
+    _Note: 【炼钢厂】1
+    _BuildId: 1003
+    _BuildLevel: 1
+    _BuildCondition:
+    - 1001
+    - 2
+    _PassCondition: 0
+    _ModuleCondition: 1
+    _Buildcost:
+    - 4005
+    - 800
+    - 7001
+    - 1700
+    _BuildTimes: 60
+    _Prosperity: 2
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 10
+    _EffectType2: 1
+    _Effect2:
+    - 103
+    - 100
+    - 106
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100302
+    _Note: 【炼钢厂】2
+    _BuildId: 1003
+    _BuildLevel: 2
+    _BuildCondition:
+    - 1001
+    - 3
+    _PassCondition: 0
+    _ModuleCondition: 4
+    _Buildcost:
+    - 4005
+    - 1000
+    - 7001
+    - 3300
+    _BuildTimes: 300
+    _Prosperity: 4
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 40
+    _EffectType2: 1
+    _Effect2:
+    - 103
+    - 145
+    - 106
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100303
+    _Note: 【炼钢厂】3
+    _BuildId: 1003
+    _BuildLevel: 3
+    _BuildCondition:
+    - 1001
+    - 4
+    _PassCondition: 0
+    _ModuleCondition: 9
+    _Buildcost:
+    - 4005
+    - 2000
+    - 7001
+    - 10000
+    _BuildTimes: 900
+    _Prosperity: 6
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 100
+    _EffectType2: 1
+    _Effect2:
+    - 103
+    - 180
+    - 106
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100304
+    _Note: 【炼钢厂】4
+    _BuildId: 1003
+    _BuildLevel: 4
+    _BuildCondition:
+    - 1001
+    - 5
+    _PassCondition: 0
+    _ModuleCondition: 16
+    _Buildcost:
+    - 4005
+    - 4000
+    - 7001
+    - 17000
+    _BuildTimes: 1800
+    _Prosperity: 8
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 200
+    _EffectType2: 1
+    _Effect2:
+    - 103
+    - 215
+    - 106
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100305
+    _Note: 【炼钢厂】5
+    _BuildId: 1003
+    _BuildLevel: 5
+    _BuildCondition:
+    - 1001
+    - 6
+    _PassCondition: 0
+    _ModuleCondition: 20
+    _Buildcost:
+    - 4005
+    - 8000
+    - 7001
+    - 33000
+    _BuildTimes: 5400
+    _Prosperity: 10
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 350
+    _EffectType2: 1
+    _Effect2:
+    - 103
+    - 250
+    - 106
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100306
+    _Note: 【炼钢厂】6
+    _BuildId: 1003
+    _BuildLevel: 6
+    _BuildCondition:
+    - 1001
+    - 7
+    _PassCondition: 0
+    _ModuleCondition: 30
+    _Buildcost:
+    - 4005
+    - 12000
+    - 7001
+    - 67000
+    _BuildTimes: 18000
+    _Prosperity: 12
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 600
+    _EffectType2: 1
+    _Effect2:
+    - 103
+    - 295
+    - 106
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100307
+    _Note: 【炼钢厂】7
+    _BuildId: 1003
+    _BuildLevel: 7
+    _BuildCondition:
+    - 1001
+    - 8
+    _PassCondition: 0
+    _ModuleCondition: 35
+    _Buildcost:
+    - 4005
+    - 18000
+    - 7001
+    - 133000
+    _BuildTimes: 36000
+    _Prosperity: 14
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 1000
+    _EffectType2: 1
+    _Effect2:
+    - 103
+    - 330
+    - 106
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100308
+    _Note: 【炼钢厂】8
+    _BuildId: 1003
+    _BuildLevel: 8
+    _BuildCondition:
+    - 1001
+    - 9
+    _PassCondition: 0
+    _ModuleCondition: 48
+    _Buildcost:
+    - 4005
+    - 25000
+    - 7001
+    - 200000
+    _BuildTimes: 75000
+    _Prosperity: 16
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 1500
+    _EffectType2: 1
+    _Effect2:
+    - 103
+    - 365
+    - 106
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100309
+    _Note: 【炼钢厂】9
+    _BuildId: 1003
+    _BuildLevel: 9
+    _BuildCondition:
+    - 1001
+    - 10
+    _PassCondition: 0
+    _ModuleCondition: 54
+    _Buildcost:
+    - 4005
+    - 35000
+    - 7001
+    - 400000
+    _BuildTimes: 115500
+    _Prosperity: 18
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 2250
+    _EffectType2: 1
+    _Effect2:
+    - 103
+    - 400
+    - 106
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100310
+    _Note: 【炼钢厂】10
+    _BuildId: 1003
+    _BuildLevel: 10
+    _BuildCondition:
+    - 1001
+    - 11
+    _PassCondition: 0
+    _ModuleCondition: 70
+    _Buildcost:
+    - 4005
+    - 50000
+    - 7001
+    - 667000
+    _BuildTimes: 179400
+    _Prosperity: 20
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 3500
+    _EffectType2: 1
+    _Effect2:
+    - 103
+    - 445
+    - 106
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100311
+    _Note: 【炼钢厂】11
+    _BuildId: 1003
+    _BuildLevel: 11
+    _BuildCondition:
+    - 1001
+    - 12
+    _PassCondition: 0
+    _ModuleCondition: 77
+    _Buildcost:
+    - 4005
+    - 65000
+    - 7001
+    - 1000000
+    _BuildTimes: 231000
+    _Prosperity: 22
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 5000
+    _EffectType2: 1
+    _Effect2:
+    - 103
+    - 480
+    - 106
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100312
+    _Note: 【炼钢厂】12
+    _BuildId: 1003
+    _BuildLevel: 12
+    _BuildCondition:
+    - 1001
+    - 13
+    _PassCondition: 0
+    _ModuleCondition: 96
+    _Buildcost:
+    - 4005
+    - 80000
+    - 7001
+    - 1330000
+    _BuildTimes: 282000
+    _Prosperity: 24
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 7000
+    _EffectType2: 1
+    _Effect2:
+    - 103
+    - 515
+    - 106
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100313
+    _Note: 【炼钢厂】13
+    _BuildId: 1003
+    _BuildLevel: 13
+    _BuildCondition:
+    - 1001
+    - 14
+    _PassCondition: 0
+    _ModuleCondition: 104
+    _Buildcost:
+    - 4005
+    - 100000
+    - 7001
+    - 1670000
+    _BuildTimes: 342000
+    _Prosperity: 26
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 9500
+    _EffectType2: 1
+    _Effect2:
+    - 103
+    - 550
+    - 106
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100314
+    _Note: 【炼钢厂】14
+    _BuildId: 1003
+    _BuildLevel: 14
+    _BuildCondition:
+    - 1001
+    - 15
+    _PassCondition: 0
+    _ModuleCondition: 126
+    _Buildcost:
+    - 4005
+    - 120000
+    - 7001
+    - 2070000
+    _BuildTimes: 396000
+    _Prosperity: 28
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 12000
+    _EffectType2: 1
+    _Effect2:
+    - 103
+    - 595
+    - 106
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100315
+    _Note: 【炼钢厂】15
+    _BuildId: 1003
+    _BuildLevel: 15
+    _BuildCondition:
+    - 1001
+    - 16
+    _PassCondition: 0
+    _ModuleCondition: 135
+    _Buildcost:
+    - 4005
+    - 140000
+    - 7001
+    - 2500000
+    _BuildTimes: 432000
+    _Prosperity: 30
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 15000
+    _EffectType2: 1
+    _Effect2:
+    - 103
+    - 630
+    - 106
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100316
+    _Note: 【炼钢厂】16
+    _BuildId: 1003
+    _BuildLevel: 16
+    _BuildCondition:
+    - 1001
+    - 17
+    _PassCondition: 0
+    _ModuleCondition: 160
+    _Buildcost:
+    - 4005
+    - 165000
+    - 7001
+    - 3000000
+    _BuildTimes: 499500
+    _Prosperity: 32
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 18500
+    _EffectType2: 1
+    _Effect2:
+    - 103
+    - 665
+    - 106
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100317
+    _Note: 【炼钢厂】17
+    _BuildId: 1003
+    _BuildLevel: 17
+    _BuildCondition:
+    - 1001
+    - 18
+    _PassCondition: 0
+    _ModuleCondition: 170
+    _Buildcost:
+    - 4005
+    - 195000
+    - 7001
+    - 3670000
+    _BuildTimes: 544500
+    _Prosperity: 34
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 22500
+    _EffectType2: 1
+    _Effect2:
+    - 103
+    - 700
+    - 106
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100318
+    _Note: 【炼钢厂】18
+    _BuildId: 1003
+    _BuildLevel: 18
+    _BuildCondition:
+    - 1001
+    - 19
+    _PassCondition: 0
+    _ModuleCondition: 180
+    _Buildcost:
+    - 4005
+    - 230000
+    - 7001
+    - 4500000
+    _BuildTimes: 609000
+    _Prosperity: 36
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 27000
+    _EffectType2: 1
+    _Effect2:
+    - 103
+    - 745
+    - 106
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100319
+    _Note: 【炼钢厂】19
+    _BuildId: 1003
+    _BuildLevel: 19
+    _BuildCondition:
+    - 1001
+    - 20
+    _PassCondition: 0
+    _ModuleCondition: 190
+    _Buildcost:
+    - 4005
+    - 270000
+    - 7001
+    - 5500000
+    _BuildTimes: 693000
+    _Prosperity: 38
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 32000
+    _EffectType2: 1
+    _Effect2:
+    - 103
+    - 780
+    - 106
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100320
+    _Note: 【炼钢厂】20
+    _BuildId: 1003
+    _BuildLevel: 20
+    _BuildCondition:
+    - 1001
+    - 21
+    _PassCondition: 0
+    _ModuleCondition: 200
+    _Buildcost:
+    - 4005
+    - 310000
+    - 7001
+    - 6670000
+    _BuildTimes: 777000
+    _Prosperity: 40
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 38000
+    _EffectType2: 1
+    _Effect2:
+    - 103
+    - 815
+    - 106
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100321
+    _Note: 【炼钢厂】21
+    _BuildId: 1003
+    _BuildLevel: 21
+    _BuildCondition:
+    - 1001
+    - 22
+    _PassCondition: 0
+    _ModuleCondition: 210
+    _Buildcost:
+    - 4005
+    - 350000
+    - 7001
+    - 8330000
+    _BuildTimes: 825000
+    _Prosperity: 42
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 45000
+    _EffectType2: 1
+    _Effect2:
+    - 103
+    - 850
+    - 106
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100322
+    _Note: 【炼钢厂】22
+    _BuildId: 1003
+    _BuildLevel: 22
+    _BuildCondition:
+    - 1001
+    - 23
+    _PassCondition: 0
+    _ModuleCondition: 220
+    _Buildcost:
+    - 4005
+    - 400000
+    - 7001
+    - 10700000
+    _BuildTimes: 1020000
+    _Prosperity: 44
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 53000
+    _EffectType2: 1
+    _Effect2:
+    - 103
+    - 895
+    - 106
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100323
+    _Note: 【炼钢厂】23
+    _BuildId: 1003
+    _BuildLevel: 23
+    _BuildCondition:
+    - 1001
+    - 24
+    _PassCondition: 0
+    _ModuleCondition: 230
+    _Buildcost:
+    - 4005
+    - 480000
+    - 7001
+    - 13300000
+    _BuildTimes: 1236000
+    _Prosperity: 46
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 62000
+    _EffectType2: 1
+    _Effect2:
+    - 103
+    - 930
+    - 106
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100324
+    _Note: 【炼钢厂】24
+    _BuildId: 1003
+    _BuildLevel: 24
+    _BuildCondition:
+    - 1001
+    - 25
+    _PassCondition: 0
+    _ModuleCondition: 240
+    _Buildcost:
+    - 4005
+    - 600000
+    - 7001
+    - 16700000
+    _BuildTimes: 1560000
+    _Prosperity: 48
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 73000
+    _EffectType2: 1
+    _Effect2:
+    - 103
+    - 965
+    - 106
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100325
+    _Note: 【炼钢厂】25
+    _BuildId: 1003
+    _BuildLevel: 25
+    _BuildCondition:
+    - 1001
+    - 26
+    _PassCondition: 0
+    _ModuleCondition: 250
+    _Buildcost:
+    - 4005
+    - 700000
+    - 7001
+    - 18300000
+    _BuildTimes: 1500000
+    _Prosperity: 50
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 85000
+    _EffectType2: 1
+    _Effect2:
+    - 103
+    - 1000
+    - 106
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100326
+    _Note: 【炼钢厂】26
+    _BuildId: 1003
+    _BuildLevel: 26
+    _BuildCondition:
+    - 1001
+    - 27
+    _PassCondition: 0
+    _ModuleCondition: 260
+    _Buildcost:
+    - 4005
+    - 800000
+    - 7001
+    - 20000000
+    _BuildTimes: 1560000
+    _Prosperity: 52
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 98000
+    _EffectType2: 1
+    _Effect2:
+    - 103
+    - 1040
+    - 106
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100327
+    _Note: 【炼钢厂】27
+    _BuildId: 1003
+    _BuildLevel: 27
+    _BuildCondition:
+    - 1001
+    - 28
+    _PassCondition: 0
+    _ModuleCondition: 270
+    _Buildcost:
+    - 4005
+    - 900000
+    - 7001
+    - 21700000
+    _BuildTimes: 1680000
+    _Prosperity: 54
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 112000
+    _EffectType2: 1
+    _Effect2:
+    - 103
+    - 1080
+    - 106
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100328
+    _Note: 【炼钢厂】28
+    _BuildId: 1003
+    _BuildLevel: 28
+    _BuildCondition:
+    - 1001
+    - 29
+    _PassCondition: 0
+    _ModuleCondition: 280
+    _Buildcost:
+    - 4005
+    - 1000000
+    - 7001
+    - 23300000
+    _BuildTimes: 1800000
+    _Prosperity: 56
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 127000
+    _EffectType2: 1
+    _Effect2:
+    - 103
+    - 1120
+    - 106
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100329
+    _Note: 【炼钢厂】29
+    _BuildId: 1003
+    _BuildLevel: 29
+    _BuildCondition:
+    - 1001
+    - 30
+    _PassCondition: 0
+    _ModuleCondition: 290
+    _Buildcost:
+    - 4005
+    - 1100000
+    - 7001
+    - 25000000
+    _BuildTimes: 1740000
+    _Prosperity: 58
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 143000
+    _EffectType2: 1
+    _Effect2:
+    - 103
+    - 1160
+    - 106
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100330
+    _Note: 【炼钢厂】30
+    _BuildId: 1003
+    _BuildLevel: 30
+    _BuildCondition: []
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost: []
+    _BuildTimes: 0
+    _Prosperity: 60
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 160000
+    _EffectType2: 1
+    _Effect2:
+    - 103
+    - 1200
+    - 106
+    - 720
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100400
+    _Note: 【仓库】0
+    _BuildId: 1004
+    _BuildLevel: 0
+    _BuildCondition:
+    - 1005
+    - 1
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 500
+    - 7001
+    - 500
+    _BuildTimes: 30
+    _Prosperity: 0
+    _EffectType1: 0
+    _Effect1: []
+    _EffectType2: 0
+    _Effect2: []
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100401
+    _Note: 【仓库】1
+    _BuildId: 1004
+    _BuildLevel: 1
+    _BuildCondition:
+    - 1001
+    - 2
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 1000
+    - 7001
+    - 800
+    _BuildTimes: 120
+    _Prosperity: 2
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 5
+    _EffectType2: 1
+    _Effect2:
+    - 107
+    - 20000
+    _EffectType3: 1
+    _Effect3:
+    - 109
+    - 20000
+    _Point: 0
+    _Icon:
+  - _Id: 100402
+    _Note: 【仓库】2
+    _BuildId: 1004
+    _BuildLevel: 2
+    _BuildCondition:
+    - 1001
+    - 3
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 2000
+    - 7001
+    - 1700
+    _BuildTimes: 180
+    _Prosperity: 4
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 20
+    _EffectType2: 1
+    _Effect2:
+    - 107
+    - 40000
+    _EffectType3: 1
+    _Effect3:
+    - 109
+    - 40000
+    _Point: 0
+    _Icon:
+  - _Id: 100403
+    _Note: 【仓库】3
+    _BuildId: 1004
+    _BuildLevel: 3
+    _BuildCondition:
+    - 1001
+    - 4
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 4000
+    - 7001
+    - 5000
+    _BuildTimes: 600
+    _Prosperity: 6
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 45
+    _EffectType2: 1
+    _Effect2:
+    - 107
+    - 60000
+    _EffectType3: 1
+    _Effect3:
+    - 109
+    - 60000
+    _Point: 0
+    _Icon:
+  - _Id: 100404
+    _Note: 【仓库】4
+    _BuildId: 1004
+    _BuildLevel: 4
+    _BuildCondition:
+    - 1001
+    - 5
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 7000
+    - 7001
+    - 8300
+    _BuildTimes: 1200
+    _Prosperity: 8
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 90
+    _EffectType2: 1
+    _Effect2:
+    - 107
+    - 80000
+    _EffectType3: 1
+    _Effect3:
+    - 109
+    - 80000
+    _Point: 0
+    _Icon:
+  - _Id: 100405
+    _Note: 【仓库】5
+    _BuildId: 1004
+    _BuildLevel: 5
+    _BuildCondition:
+    - 1001
+    - 6
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 13000
+    - 7001
+    - 17000
+    _BuildTimes: 3600
+    _Prosperity: 10
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 170
+    _EffectType2: 1
+    _Effect2:
+    - 107
+    - 100000
+    _EffectType3: 1
+    _Effect3:
+    - 109
+    - 100000
+    _Point: 0
+    _Icon:
+  - _Id: 100406
+    _Note: 【仓库】6
+    _BuildId: 1004
+    _BuildLevel: 6
+    _BuildCondition:
+    - 1001
+    - 7
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 20000
+    - 7001
+    - 33000
+    _BuildTimes: 12000
+    _Prosperity: 12
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 300
+    _EffectType2: 1
+    _Effect2:
+    - 107
+    - 150000
+    _EffectType3: 1
+    _Effect3:
+    - 109
+    - 150000
+    _Point: 0
+    _Icon:
+  - _Id: 100407
+    _Note: 【仓库】7
+    _BuildId: 1004
+    _BuildLevel: 7
+    _BuildCondition:
+    - 1001
+    - 8
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 30000
+    - 7001
+    - 67000
+    _BuildTimes: 24000
+    _Prosperity: 14
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 450
+    _EffectType2: 1
+    _Effect2:
+    - 107
+    - 200000
+    _EffectType3: 1
+    _Effect3:
+    - 109
+    - 200000
+    _Point: 0
+    _Icon:
+  - _Id: 100408
+    _Note: 【仓库】8
+    _BuildId: 1004
+    _BuildLevel: 8
+    _BuildCondition:
+    - 1001
+    - 9
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 42000
+    - 7001
+    - 100000
+    _BuildTimes: 49980
+    _Prosperity: 16
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 700
+    _EffectType2: 1
+    _Effect2:
+    - 107
+    - 250000
+    _EffectType3: 1
+    _Effect3:
+    - 109
+    - 250000
+    _Point: 0
+    _Icon:
+  - _Id: 100409
+    _Note: 【仓库】9
+    _BuildId: 1004
+    _BuildLevel: 9
+    _BuildCondition:
+    - 1001
+    - 10
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 58000
+    - 7001
+    - 200000
+    _BuildTimes: 76980
+    _Prosperity: 18
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 1150
+    _EffectType2: 1
+    _Effect2:
+    - 107
+    - 350000
+    _EffectType3: 1
+    _Effect3:
+    - 109
+    - 350000
+    _Point: 0
+    _Icon:
+  - _Id: 100410
+    _Note: 【仓库】10
+    _BuildId: 1004
+    _BuildLevel: 10
+    _BuildCondition:
+    - 1001
+    - 11
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 83000
+    - 7001
+    - 333000
+    _BuildTimes: 120000
+    _Prosperity: 20
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 1750
+    _EffectType2: 1
+    _Effect2:
+    - 107
+    - 500000
+    _EffectType3: 1
+    _Effect3:
+    - 109
+    - 500000
+    _Point: 0
+    _Icon:
+  - _Id: 100411
+    _Note: 【仓库】11
+    _BuildId: 1004
+    _BuildLevel: 11
+    _BuildCondition:
+    - 1001
+    - 12
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 108000
+    - 7001
+    - 500000
+    _BuildTimes: 156000
+    _Prosperity: 22
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 2500
+    _EffectType2: 1
+    _Effect2:
+    - 107
+    - 700000
+    _EffectType3: 1
+    _Effect3:
+    - 109
+    - 700000
+    _Point: 0
+    _Icon:
+  - _Id: 100412
+    _Note: 【仓库】12
+    _BuildId: 1004
+    _BuildLevel: 12
+    _BuildCondition:
+    - 1001
+    - 13
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 133000
+    - 7001
+    - 667000
+    _BuildTimes: 192000
+    _Prosperity: 24
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 3500
+    _EffectType2: 1
+    _Effect2:
+    - 107
+    - 900000
+    _EffectType3: 1
+    _Effect3:
+    - 109
+    - 900000
+    _Point: 0
+    _Icon:
+  - _Id: 100413
+    _Note: 【仓库】13
+    _BuildId: 1004
+    _BuildLevel: 13
+    _BuildCondition:
+    - 1001
+    - 14
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 167000
+    - 7001
+    - 833000
+    _BuildTimes: 240000
+    _Prosperity: 26
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 4750
+    _EffectType2: 1
+    _Effect2:
+    - 107
+    - 1200000
+    _EffectType3: 1
+    _Effect3:
+    - 109
+    - 1200000
+    _Point: 0
+    _Icon:
+  - _Id: 100414
+    _Note: 【仓库】14
+    _BuildId: 1004
+    _BuildLevel: 14
+    _BuildCondition:
+    - 1001
+    - 15
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 200000
+    - 7001
+    - 1030000
+    _BuildTimes: 288000
+    _Prosperity: 28
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 6000
+    _EffectType2: 1
+    _Effect2:
+    - 107
+    - 1500000
+    _EffectType3: 1
+    _Effect3:
+    - 109
+    - 1500000
+    _Point: 0
+    _Icon:
+  - _Id: 100415
+    _Note: 【仓库】15
+    _BuildId: 1004
+    _BuildLevel: 15
+    _BuildCondition:
+    - 1001
+    - 16
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 233000
+    - 7001
+    - 1250000
+    _BuildTimes: 336000
+    _Prosperity: 30
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 7500
+    _EffectType2: 1
+    _Effect2:
+    - 107
+    - 1800000
+    _EffectType3: 1
+    _Effect3:
+    - 109
+    - 1800000
+    _Point: 0
+    _Icon:
+  - _Id: 100416
+    _Note: 【仓库】16
+    _BuildId: 1004
+    _BuildLevel: 16
+    _BuildCondition:
+    - 1001
+    - 17
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 275000
+    - 7001
+    - 1500000
+    _BuildTimes: 429000
+    _Prosperity: 32
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 9250
+    _EffectType2: 1
+    _Effect2:
+    - 107
+    - 2200000
+    _EffectType3: 1
+    _Effect3:
+    - 109
+    - 2200000
+    _Point: 0
+    _Icon:
+  - _Id: 100417
+    _Note: 【仓库】17
+    _BuildId: 1004
+    _BuildLevel: 17
+    _BuildCondition:
+    - 1001
+    - 18
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 325000
+    - 7001
+    - 1830000
+    _BuildTimes: 507000
+    _Prosperity: 34
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 11250
+    _EffectType2: 1
+    _Effect2:
+    - 107
+    - 2600000
+    _EffectType3: 1
+    _Effect3:
+    - 109
+    - 2600000
+    _Point: 0
+    _Icon:
+  - _Id: 100418
+    _Note: 【仓库】18
+    _BuildId: 1004
+    _BuildLevel: 18
+    _BuildCondition:
+    - 1001
+    - 19
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 383000
+    - 7001
+    - 2250000
+    _BuildTimes: 598020
+    _Prosperity: 36
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 13500
+    _EffectType2: 1
+    _Effect2:
+    - 107
+    - 3000000
+    _EffectType3: 1
+    _Effect3:
+    - 109
+    - 3000000
+    _Point: 0
+    _Icon:
+  - _Id: 100419
+    _Note: 【仓库】19
+    _BuildId: 1004
+    _BuildLevel: 19
+    _BuildCondition:
+    - 1001
+    - 20
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 450000
+    - 7001
+    - 2750000
+    _BuildTimes: 702000
+    _Prosperity: 38
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 16000
+    _EffectType2: 1
+    _Effect2:
+    - 107
+    - 3600000
+    _EffectType3: 1
+    _Effect3:
+    - 109
+    - 3600000
+    _Point: 0
+    _Icon:
+  - _Id: 100420
+    _Note: 【仓库】20
+    _BuildId: 1004
+    _BuildLevel: 20
+    _BuildCondition:
+    - 1001
+    - 21
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 517000
+    - 7001
+    - 3330000
+    _BuildTimes: 805980
+    _Prosperity: 40
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 19000
+    _EffectType2: 1
+    _Effect2:
+    - 107
+    - 4300000
+    _EffectType3: 1
+    _Effect3:
+    - 109
+    - 4300000
+    _Point: 0
+    _Icon:
+  - _Id: 100421
+    _Note: 【仓库】21
+    _BuildId: 1004
+    _BuildLevel: 21
+    _BuildCondition:
+    - 1001
+    - 22
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 583000
+    - 7001
+    - 4170000
+    _BuildTimes: 910020
+    _Prosperity: 42
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 22500
+    _EffectType2: 1
+    _Effect2:
+    - 107
+    - 5000000
+    _EffectType3: 1
+    _Effect3:
+    - 109
+    - 5000000
+    _Point: 0
+    _Icon:
+  - _Id: 100422
+    _Note: 【仓库】22
+    _BuildId: 1004
+    _BuildLevel: 22
+    _BuildCondition:
+    - 1001
+    - 23
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 667000
+    - 7001
+    - 5330000
+    _BuildTimes: 1120020
+    _Prosperity: 44
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 26500
+    _EffectType2: 1
+    _Effect2:
+    - 107
+    - 6000000
+    _EffectType3: 1
+    _Effect3:
+    - 109
+    - 6000000
+    _Point: 0
+    _Icon:
+  - _Id: 100423
+    _Note: 【仓库】23
+    _BuildId: 1004
+    _BuildLevel: 23
+    _BuildCondition:
+    - 1001
+    - 24
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 800000
+    - 7001
+    - 6670000
+    _BuildTimes: 1344000
+    _Prosperity: 46
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 31000
+    _EffectType2: 1
+    _Effect2:
+    - 107
+    - 7000000
+    _EffectType3: 1
+    _Effect3:
+    - 109
+    - 7000000
+    _Point: 0
+    _Icon:
+  - _Id: 100424
+    _Note: 【仓库】24
+    _BuildId: 1004
+    _BuildLevel: 24
+    _BuildCondition:
+    - 1001
+    - 25
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 1000000
+    - 7001
+    - 8330000
+    _BuildTimes: 1680000
+    _Prosperity: 48
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 36500
+    _EffectType2: 1
+    _Effect2:
+    - 107
+    - 8000000
+    _EffectType3: 1
+    _Effect3:
+    - 109
+    - 8000000
+    _Point: 0
+    _Icon:
+  - _Id: 100425
+    _Note: 【仓库】25
+    _BuildId: 1004
+    _BuildLevel: 25
+    _BuildCondition:
+    - 1001
+    - 26
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 1170000
+    - 7001
+    - 9170000
+    _BuildTimes: 1800000
+    _Prosperity: 50
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 42500
+    _EffectType2: 1
+    _Effect2:
+    - 107
+    - 10000000
+    _EffectType3: 1
+    _Effect3:
+    - 109
+    - 10000000
+    _Point: 0
+    _Icon:
+  - _Id: 100426
+    _Note: 【仓库】26
+    _BuildId: 1004
+    _BuildLevel: 26
+    _BuildCondition:
+    - 1001
+    - 27
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 1330000
+    - 7001
+    - 10000000
+    _BuildTimes: 1999980
+    _Prosperity: 52
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 49000
+    _EffectType2: 1
+    _Effect2:
+    - 107
+    - 12500000
+    _EffectType3: 1
+    _Effect3:
+    - 109
+    - 12500000
+    _Point: 0
+    _Icon:
+  - _Id: 100427
+    _Note: 【仓库】27
+    _BuildId: 1004
+    _BuildLevel: 27
+    _BuildCondition:
+    - 1001
+    - 28
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 1500000
+    - 7001
+    - 10800000
+    _BuildTimes: 2200020
+    _Prosperity: 54
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 56000
+    _EffectType2: 1
+    _Effect2:
+    - 107
+    - 15000000
+    _EffectType3: 1
+    _Effect3:
+    - 109
+    - 15000000
+    _Point: 0
+    _Icon:
+  - _Id: 100428
+    _Note: 【仓库】28
+    _BuildId: 1004
+    _BuildLevel: 28
+    _BuildCondition:
+    - 1001
+    - 29
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 1670000
+    - 7001
+    - 11700000
+    _BuildTimes: 2400000
+    _Prosperity: 56
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 63500
+    _EffectType2: 1
+    _Effect2:
+    - 107
+    - 17500000
+    _EffectType3: 1
+    _Effect3:
+    - 109
+    - 17500000
+    _Point: 0
+    _Icon:
+  - _Id: 100429
+    _Note: 【仓库】29
+    _BuildId: 1004
+    _BuildLevel: 29
+    _BuildCondition:
+    - 1001
+    - 30
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 1830000
+    - 7001
+    - 12500000
+    _BuildTimes: 2599980
+    _Prosperity: 58
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 71500
+    _EffectType2: 1
+    _Effect2:
+    - 107
+    - 20000000
+    _EffectType3: 1
+    _Effect3:
+    - 109
+    - 20000000
+    _Point: 0
+    _Icon:
+  - _Id: 100430
+    _Note: 【仓库】30
+    _BuildId: 1004
+    _BuildLevel: 30
+    _BuildCondition: []
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost: []
+    _BuildTimes: 0
+    _Prosperity: 60
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 80000
+    _EffectType2: 1
+    _Effect2:
+    - 107
+    - 23000000
+    _EffectType3: 1
+    _Effect3:
+    - 109
+    - 23000000
+    _Point: 0
+    _Icon:
+  - _Id: 100500
+    _Note: 【研究所】0
+    _BuildId: 1005
+    _BuildLevel: 0
+    _BuildCondition:
+    - 1001
+    - 1
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost: []
+    _BuildTimes: 3
+    _Prosperity: 0
+    _EffectType1: 0
+    _Effect1: []
+    _EffectType2: 0
+    _Effect2: []
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100501
+    _Note: 【研究所】1
+    _BuildId: 1005
+    _BuildLevel: 1
+    _BuildCondition:
+    - 1001
+    - 2
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 1500
+    - 7001
+    - 2500
+    _BuildTimes: 180
+    _Prosperity: 5
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 10
+    _EffectType2: 1
+    _Effect2:
+    - 111
+    - 0.01
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100502
+    _Note: 【研究所】2
+    _BuildId: 1005
+    _BuildLevel: 2
+    _BuildCondition:
+    - 1001
+    - 3
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 5000
+    - 7001
+    - 5000
+    _BuildTimes: 300
+    _Prosperity: 10
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 40
+    _EffectType2: 1
+    _Effect2:
+    - 111
+    - 0.02
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100503
+    _Note: 【研究所】3
+    _BuildId: 1005
+    _BuildLevel: 3
+    _BuildCondition:
+    - 1001
+    - 4
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 10000
+    - 7001
+    - 15000
+    _BuildTimes: 900
+    _Prosperity: 15
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 100
+    _EffectType2: 1
+    _Effect2:
+    - 111
+    - 0.03
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100504
+    _Note: 【研究所】4
+    _BuildId: 1005
+    _BuildLevel: 4
+    _BuildCondition:
+    - 1001
+    - 5
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 20000
+    - 7001
+    - 25000
+    _BuildTimes: 1800
+    _Prosperity: 20
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 200
+    _EffectType2: 1
+    _Effect2:
+    - 111
+    - 0.04
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100505
+    _Note: 【研究所】5
+    _BuildId: 1005
+    _BuildLevel: 5
+    _BuildCondition:
+    - 1001
+    - 6
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 40000
+    - 7001
+    - 50000
+    _BuildTimes: 5400
+    _Prosperity: 25
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 350
+    _EffectType2: 1
+    _Effect2:
+    - 111
+    - 0.05
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100506
+    _Note: 【研究所】6
+    _BuildId: 1005
+    _BuildLevel: 6
+    _BuildCondition:
+    - 1001
+    - 7
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 60000
+    - 7001
+    - 100000
+    _BuildTimes: 18000
+    _Prosperity: 30
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 600
+    _EffectType2: 1
+    _Effect2:
+    - 111
+    - 0.06
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100507
+    _Note: 【研究所】7
+    _BuildId: 1005
+    _BuildLevel: 7
+    _BuildCondition:
+    - 1001
+    - 8
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 90000
+    - 7001
+    - 200000
+    _BuildTimes: 36000
+    _Prosperity: 35
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 1000
+    _EffectType2: 1
+    _Effect2:
+    - 111
+    - 0.07
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100508
+    _Note: 【研究所】8
+    _BuildId: 1005
+    _BuildLevel: 8
+    _BuildCondition:
+    - 1001
+    - 9
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 125000
+    - 7001
+    - 300000
+    _BuildTimes: 75000
+    _Prosperity: 40
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 1500
+    _EffectType2: 1
+    _Effect2:
+    - 111
+    - 0.08
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100509
+    _Note: 【研究所】9
+    _BuildId: 1005
+    _BuildLevel: 9
+    _BuildCondition:
+    - 1001
+    - 10
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 175000
+    - 7001
+    - 600000
+    _BuildTimes: 115500
+    _Prosperity: 45
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 2250
+    _EffectType2: 1
+    _Effect2:
+    - 111
+    - 0.09
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100510
+    _Note: 【研究所】10
+    _BuildId: 1005
+    _BuildLevel: 10
+    _BuildCondition:
+    - 1001
+    - 11
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 250000
+    - 7001
+    - 1000000
+    _BuildTimes: 180000
+    _Prosperity: 50
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 3500
+    _EffectType2: 1
+    _Effect2:
+    - 111
+    - 0.1
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100511
+    _Note: 【研究所】11
+    _BuildId: 1005
+    _BuildLevel: 11
+    _BuildCondition:
+    - 1001
+    - 12
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 325000
+    - 7001
+    - 1500000
+    _BuildTimes: 234000
+    _Prosperity: 55
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 5000
+    _EffectType2: 1
+    _Effect2:
+    - 111
+    - 0.11
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100512
+    _Note: 【研究所】12
+    _BuildId: 1005
+    _BuildLevel: 12
+    _BuildCondition:
+    - 1001
+    - 13
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 400000
+    - 7001
+    - 2000000
+    _BuildTimes: 288000
+    _Prosperity: 60
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 7000
+    _EffectType2: 1
+    _Effect2:
+    - 111
+    - 0.12
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100513
+    _Note: 【研究所】13
+    _BuildId: 1005
+    _BuildLevel: 13
+    _BuildCondition:
+    - 1001
+    - 14
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 500000
+    - 7001
+    - 2500000
+    _BuildTimes: 360000
+    _Prosperity: 65
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 9500
+    _EffectType2: 1
+    _Effect2:
+    - 111
+    - 0.13
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100514
+    _Note: 【研究所】14
+    _BuildId: 1005
+    _BuildLevel: 14
+    _BuildCondition:
+    - 1001
+    - 15
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 600000
+    - 7001
+    - 3100000
+    _BuildTimes: 432000
+    _Prosperity: 70
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 12000
+    _EffectType2: 1
+    _Effect2:
+    - 111
+    - 0.14
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100515
+    _Note: 【研究所】15
+    _BuildId: 1005
+    _BuildLevel: 15
+    _BuildCondition:
+    - 1001
+    - 16
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 700000
+    - 7001
+    - 3750000
+    _BuildTimes: 504000
+    _Prosperity: 75
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 15000
+    _EffectType2: 1
+    _Effect2:
+    - 111
+    - 0.15
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100516
+    _Note: 【研究所】16
+    _BuildId: 1005
+    _BuildLevel: 16
+    _BuildCondition:
+    - 1001
+    - 17
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 825000
+    - 7001
+    - 4500000
+    _BuildTimes: 643500
+    _Prosperity: 80
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 18500
+    _EffectType2: 1
+    _Effect2:
+    - 111
+    - 0.16
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100517
+    _Note: 【研究所】17
+    _BuildId: 1005
+    _BuildLevel: 17
+    _BuildCondition:
+    - 1001
+    - 18
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 975000
+    - 7001
+    - 5500000
+    _BuildTimes: 760500
+    _Prosperity: 85
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 22500
+    _EffectType2: 1
+    _Effect2:
+    - 111
+    - 0.17
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100518
+    _Note: 【研究所】18
+    _BuildId: 1005
+    _BuildLevel: 18
+    _BuildCondition:
+    - 1001
+    - 19
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 1150000
+    - 7001
+    - 6750000
+    _BuildTimes: 897000
+    _Prosperity: 90
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 27000
+    _EffectType2: 1
+    _Effect2:
+    - 111
+    - 0.18
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100519
+    _Note: 【研究所】19
+    _BuildId: 1005
+    _BuildLevel: 19
+    _BuildCondition:
+    - 1001
+    - 20
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 1350000
+    - 7001
+    - 8250000
+    _BuildTimes: 1053000
+    _Prosperity: 95
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 32000
+    _EffectType2: 1
+    _Effect2:
+    - 111
+    - 0.19
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100520
+    _Note: 【研究所】20
+    _BuildId: 1005
+    _BuildLevel: 20
+    _BuildCondition:
+    - 1001
+    - 21
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 1550000
+    - 7001
+    - 10000000
+    _BuildTimes: 1209000
+    _Prosperity: 100
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 38000
+    _EffectType2: 1
+    _Effect2:
+    - 111
+    - 0.2
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100521
+    _Note: 【研究所】21
+    _BuildId: 1005
+    _BuildLevel: 21
+    _BuildCondition:
+    - 1001
+    - 22
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 1750000
+    - 7001
+    - 12500000
+    _BuildTimes: 1365000
+    _Prosperity: 105
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 45000
+    _EffectType2: 1
+    _Effect2:
+    - 111
+    - 0.21
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100522
+    _Note: 【研究所】22
+    _BuildId: 1005
+    _BuildLevel: 22
+    _BuildCondition:
+    - 1001
+    - 23
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 2000000
+    - 7001
+    - 16000000
+    _BuildTimes: 1680000
+    _Prosperity: 110
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 53000
+    _EffectType2: 1
+    _Effect2:
+    - 111
+    - 0.22
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100523
+    _Note: 【研究所】23
+    _BuildId: 1005
+    _BuildLevel: 23
+    _BuildCondition:
+    - 1001
+    - 24
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 2400000
+    - 7001
+    - 20000000
+    _BuildTimes: 2016000
+    _Prosperity: 115
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 62000
+    _EffectType2: 1
+    _Effect2:
+    - 111
+    - 0.23
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100524
+    _Note: 【研究所】24
+    _BuildId: 1005
+    _BuildLevel: 24
+    _BuildCondition:
+    - 1001
+    - 25
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 3000000
+    - 7001
+    - 25000000
+    _BuildTimes: 2520000
+    _Prosperity: 120
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 73000
+    _EffectType2: 1
+    _Effect2:
+    - 111
+    - 0.24
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100525
+    _Note: 【研究所】25
+    _BuildId: 1005
+    _BuildLevel: 25
+    _BuildCondition:
+    - 1001
+    - 26
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 3500000
+    - 7001
+    - 27500000
+    _BuildTimes: 2700000
+    _Prosperity: 125
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 85000
+    _EffectType2: 1
+    _Effect2:
+    - 111
+    - 0.25
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100526
+    _Note: 【研究所】26
+    _BuildId: 1005
+    _BuildLevel: 26
+    _BuildCondition:
+    - 1001
+    - 27
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 4000000
+    - 7001
+    - 30000000
+    _BuildTimes: 3000000
+    _Prosperity: 130
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 98000
+    _EffectType2: 1
+    _Effect2:
+    - 111
+    - 0.26
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100527
+    _Note: 【研究所】27
+    _BuildId: 1005
+    _BuildLevel: 27
+    _BuildCondition:
+    - 1001
+    - 28
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 4500000
+    - 7001
+    - 32500000
+    _BuildTimes: 3300000
+    _Prosperity: 135
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 112000
+    _EffectType2: 1
+    _Effect2:
+    - 111
+    - 0.27
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100528
+    _Note: 【研究所】28
+    _BuildId: 1005
+    _BuildLevel: 28
+    _BuildCondition:
+    - 1001
+    - 29
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 5000000
+    - 7001
+    - 35000000
+    _BuildTimes: 3600000
+    _Prosperity: 140
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 127000
+    _EffectType2: 1
+    _Effect2:
+    - 111
+    - 0.28
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100529
+    _Note: 【研究所】29
+    _BuildId: 1005
+    _BuildLevel: 29
+    _BuildCondition:
+    - 1001
+    - 30
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 5500000
+    - 7001
+    - 37500000
+    _BuildTimes: 3900000
+    _Prosperity: 145
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 143000
+    _EffectType2: 1
+    _Effect2:
+    - 111
+    - 0.29
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100530
+    _Note: 【研究所】30
+    _BuildId: 1005
+    _BuildLevel: 30
+    _BuildCondition: []
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost: []
+    _BuildTimes: 0
+    _Prosperity: 150
+    _EffectType1: 3
+    _Effect1:
+    - 111
+    - 160000
+    _EffectType2: 1
+    _Effect2:
+    - 111
+    - 0.3
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100600
+    _Note: 【城墙】0
+    _BuildId: 1006
+    _BuildLevel: 0
+    _BuildCondition: []
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost: []
+    _BuildTimes: 300
+    _Prosperity: 0
+    _EffectType1: 2
+    _Effect1: []
+    _EffectType2: 0
+    _Effect2: []
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100601
+    _Note: 【城墙】1
+    _BuildId: 1006
+    _BuildLevel: 1
+    _BuildCondition:
+    - 1004
+    - 3
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 6500
+    - 7001
+    - 7500
+    _BuildTimes: 600
+    _Prosperity: 5
+    _EffectType1: 2
+    _Effect1:
+    - 7
+    - 7
+    _EffectType2: 3
+    _Effect2:
+    - 111
+    - 0
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 66455
+    _Icon: Functions/Camp/Textures/Event/CampB_CityGate1
+  - _Id: 100602
+    _Note: 【城墙】2
+    _BuildId: 1006
+    _BuildLevel: 2
+    _BuildCondition:
+    - 1004
+    - 5
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 30000
+    - 7001
+    - 40000
+    _BuildTimes: 2700
+    _Prosperity: 15
+    _EffectType1: 2
+    _Effect1:
+    - 8
+    - 8
+    _EffectType2: 3
+    _Effect2:
+    - 111
+    - 100
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 66454
+    _Icon: Functions/Camp/Textures/Event/CampB_CityGate1
+  - _Id: 100603
+    _Note: 【城墙】3
+    _BuildId: 1006
+    _BuildLevel: 3
+    _BuildCondition:
+    - 1004
+    - 8
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 190000
+    - 7001
+    - 350000
+    _BuildTimes: 59400
+    _Prosperity: 25
+    _EffectType1: 2
+    _Effect1:
+    - 9
+    - 9
+    _EffectType2: 3
+    _Effect2:
+    - 111
+    - 400
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 66453
+    _Icon: Functions/Camp/Textures/Event/CampB_CityGate2
+  - _Id: 100604
+    _Note: 【城墙】4
+    _BuildId: 1006
+    _BuildLevel: 4
+    _BuildCondition:
+    - 1004
+    - 12
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 875000
+    - 7001
+    - 3400000
+    _BuildTimes: 604500
+    _Prosperity: 40
+    _EffectType1: 2
+    _Effect1:
+    - 10
+    - 10
+    _EffectType2: 3
+    _Effect2:
+    - 111
+    - 1600
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 66452
+    _Icon: Functions/Camp/Textures/Event/CampB_CityGate2
+  - _Id: 100605
+    _Note: 【城墙】5
+    _BuildId: 1006
+    _BuildLevel: 5
+    _BuildCondition:
+    - 1004
+    - 16
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 2200000
+    - 7001
+    - 11350000
+    _BuildTimes: 1584000
+    _Prosperity: 60
+    _EffectType1: 2
+    _Effect1:
+    - 11
+    - 11
+    _EffectType2: 3
+    _Effect2:
+    - 111
+    - 8000
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 66451
+    _Icon: Functions/Camp/Textures/Event/CampB_CityGate3
+  - _Id: 100606
+    _Note: 【城墙】6
+    _BuildId: 1006
+    _BuildLevel: 6
+    _BuildCondition:
+    - 1004
+    - 20
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 4300000
+    - 7001
+    - 25000000
+    _BuildTimes: 3354000
+    _Prosperity: 80
+    _EffectType1: 2
+    _Effect1:
+    - 12
+    - 12
+    _EffectType2: 3
+    _Effect2:
+    - 111
+    - 20000
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 66450
+    _Icon: Functions/Camp/Textures/Event/CampB_CityGate3
+  - _Id: 100607
+    _Note: 【城墙】7
+    _BuildId: 1006
+    _BuildLevel: 7
+    _BuildCondition:
+    - 1004
+    - 25
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 10700000
+    - 7001
+    - 83500000
+    _BuildTimes: 8400000
+    _Prosperity: 100
+    _EffectType1: 2
+    _Effect1:
+    - 13
+    - 13
+    _EffectType2: 3
+    _Effect2:
+    - 111
+    - 40000
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 66449
+    _Icon: Functions/Camp/Textures/Event/CampB_CityGate3
+  - _Id: 100608
+    _Note: 【城墙】8
+    _BuildId: 1006
+    _BuildLevel: 8
+    _BuildCondition:
+    - 1004
+    - 30
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 15000000
+    - 7001
+    - 100000000
+    _BuildTimes: 9600000
+    _Prosperity: 125
+    _EffectType1: 2
+    _Effect1:
+    - 14
+    - 14
+    _EffectType2: 3
+    _Effect2:
+    - 111
+    - 80000
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 66448
+    _Icon: Functions/Camp/Textures/Event/CampB_CityGate4
+  - _Id: 100609
+    _Note: 【城墙】9
+    _BuildId: 1006
+    _BuildLevel: 9
+    _BuildCondition: []
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost: []
+    _BuildTimes: 0
+    _Prosperity: 150
+    _EffectType1: 2
+    _Effect1:
+    - 15
+    - 15
+    _EffectType2: 3
+    _Effect2:
+    - 111
+    - 120000
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 66448
+    _Icon: Functions/Camp/Textures/Event/CampB_CityGate4
+  - _Id: 100900
+    _Note: 【装饰酷】0
+    _BuildId: 1009
+    _BuildLevel: 0
+    _BuildCondition:
+    - 1001
+    - 3
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost:
+    - 4006
+    - 1000
+    - 7001
+    - 1000
+    _BuildTimes: 60
+    _Prosperity: 0
+    _EffectType1: 0
+    _Effect1: []
+    _EffectType2: 0
+    _Effect2: []
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:
+  - _Id: 100901
+    _Note: 【装饰酷】1
+    _BuildId: 1009
+    _BuildLevel: 1
+    _BuildCondition: []
+    _PassCondition: 0
+    _ModuleCondition: 0
+    _Buildcost: []
+    _BuildTimes: 0
+    _Prosperity: 10
+    _EffectType1: 0
+    _Effect1: []
+    _EffectType2: 0
+    _Effect2: []
+    _EffectType3: 0
+    _Effect3: []
+    _Point: 0
+    _Icon:

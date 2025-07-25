@@ -1,0 +1,162 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e1008027dc60b29f96de9d3dfefff99, type: 3}
+  m_Name: DYMinigame_runCfg
+  m_EditorClassIdentifier:
+  _Items:
+  - _ID: 10
+    _Title: 1
+    _Desc: 奖励重置方式【0-每日重置，1-不重置一次性奖励】
+  - _ID: 100
+    _Title: GameObjs/Hero/paoku/MainRole1001_run
+    _Desc: 主角模型
+  - _ID: 101
+    _Title: -53
+    _Desc: 玩家出生位置(0,-50,0)
+  - _ID: 102
+    _Title: 4
+    _Desc: 玩家移动速度
+  - _ID: 200
+    _Title: 11001,0.5,Functions/MiniGame_ZombieRun/Effects/paoku_dandao1,30,1,0.2,Functions/MiniGame_ZombieRun/Effects/paoku_dandao1_hit,1
+    _Desc: 武器id，武器攻速-ak(每XX秒发射一发子弹),子弹特效路径，子弹移动速度，子弹生命周期,子弹碰撞半径，命中特效，武器伤害
+  - _ID: 201
+    _Title: 99007,0.3,Functions/MiniGame_ZombieRun/Effects/paoku_dandao2,40,0.8,0.2,Functions/MiniGame_ZombieRun/Effects/paoku_dandao2_hit,1
+    _Desc: 武器id，武器攻速-风神步枪(每XX秒发射一发子弹),子弹特效路径，子弹移动速度，子弹生命周期,子弹碰撞半径
+  - _ID: 202
+    _Title: 11011,0.15,Functions/MiniGame_ZombieRun/Effects/paoku_dandao3,50,0.7,0.2,Functions/MiniGame_ZombieRun/Effects/paoku_dandao3_hit,1
+    _Desc: 武器id，武器攻速-a加特林(每XX秒发射一发子弹),子弹特效路径，子弹移动速度，子弹生命周期,子弹碰撞半径
+  - _ID: 203
+    _Title: 11017,0.1,GameObjs/Weapon/Lightning_arrester/Lightning_dandao,30,1,0.2,GameObjs/Weapon/Lightning_arrester/Lightning_hit,1
+    _Desc: 武器id，武器攻速-引雷枪(每XX秒发射一发子弹),子弹特效路径，子弹移动速度，子弹生命周期,子弹碰撞半径
+  - _ID: 204
+    _Title: 11014,0.4,PrefabsN/Effect/HeroBullet/FrostFall_dandao,30,1,0.4,PrefabsN/Effect/HeroBullet/FrostFall_boom,6
+    _Desc: 武器id，武器攻速-火箭炮霜陨(每XX秒发射一发子弹),子弹特效路径，子弹移动速度，子弹生命周期,子弹碰撞半径
+  - _ID: 300
+    _Title: 5
+    _Desc: 怪物移动速度
+  - _ID: 301
+    _Title: -60
+    _Desc: 怪物移动触发销毁的Y轴位置
+  - _ID: 302
+    _Title: -45
+    _Desc: 怪物触发追击的Y轴位置
+  - _ID: 303
+    _Title: 0
+    _Desc: 怪物的显示距离
+  - _ID: 304
+    _Title: 29
+    _Desc: 主角最大数量
+  - _ID: 305
+    _Title: -0.5,1,0.5,1,-1,0,1,0,-0.5,-1,0.5,-1,-1,2,0,2,1,2,-1.5,1,1.5,1,-2,0,2,0,-1.5,-1,1.5,-1,-1,-2,0,-2,1,-2,-2.5,2,2.5,2,-2.5,1,2.5,1,-2.5,-1,2.5,-1,-2.5,-2,2.5,-2,-2.5,0,2.5,0
+    _Desc: 多玩家聚拢布阵位置偏移(玩家2-玩家29)
+  - _ID: 306
+    _Title: 1.5,0.8
+    _Desc: 多玩家聚拢前布阵Node大小的系数
+  - _ID: 307
+    _Title: 0.7
+    _Desc: 聚拢时长
+  - _ID: 308
+    _Title: -6
+    _Desc: 玩家x轴最小位置
+  - _ID: 309
+    _Title: 6
+    _Desc: 玩家x轴最大位置
+  - _ID: 310
+    _Title: 10
+    _Desc: 子弹移动触发销毁的Y轴位置
+  - _ID: 311
+    _Title: -3,3,0
+    _Desc: 怪物位置类型里，左右中的X轴位置
+  - _ID: 312
+    _Title: 1
+    _Desc: 开火音效最大播放数量
+  - _ID: 400
+    _Title: 0.1,0.2,2
+    _Desc: 加人 相机震屏持续时间,震动强度,震动衰减
+  - _ID: 401
+    _Title: 0.3,0.3,1
+    _Desc: 油桶爆炸 相机震屏持续时间,震动强度,震动衰减
+  - _ID: 402
+    _Title: 0.1,0.2,2
+    _Desc: 获得道具 相机震屏持续时间,震动强度,震动衰减
+  - _ID: 403
+    _Title: 0.1,0.3,2
+    _Desc: 红门 相机震屏持续时间,震动强度,震动衰减
+  - _ID: 1029
+    _Title: PrefabsN/RoleAI/Enemy4002,7,1,0.69
+    _Desc: 怪物路径_boss1，碰撞半宽，半高，攻击延迟判定时间
+  - _ID: 1030
+    _Title: PrefabsN/RoleAI/Enemy4002,2,1,0.69
+    _Desc: 怪物路径_boss1
+  - _ID: 1031
+    _Title: PrefabsN/RoleAI/Enemy4002,2,1,0.69
+    _Desc: 怪物路径_boss2
+  - _ID: 1032
+    _Title: PrefabsN/RoleAI/Enemy4002,2,1,0.69
+    _Desc: 怪物路径_boss3
+  - _ID: 1033
+    _Title: PrefabsN/RoleAI/Enemy4002,2,1,0.69
+    _Desc: 怪物路径_boss4
+  - _ID: 1050
+    _Title: PrefabsN/RoleAI/Enemy1001_run
+    _Desc: 怪物路径_小怪1
+  - _ID: 1051
+    _Title: PrefabsN/RoleAI/Enemy1001_run
+    _Desc: 怪物路径_小怪2
+  - _ID: 1052
+    _Title: PrefabsN/RoleAI/Enemy1001_run
+    _Desc: 怪物路径_小怪3
+  - _ID: 1100
+    _Title: PrefabsN/Weapon/ak47,1,1
+    _Desc: 油桶上面模型1,是否是武器,武器大小缩放系数
+  - _ID: 1101
+    _Title: PrefabsN/Weapon/boreas,1,1.5
+    _Desc: 油桶上面模型2,是否是武器,实例缩放系数
+  - _ID: 1102
+    _Title: PrefabsN/Weapon/FlameGatling,1,2
+    _Desc: 油桶上面模型3,是否是武器,实例缩放系数
+  - _ID: 1103
+    _Title: PrefabsN/minigame/tank,0,1.3
+    _Desc: 油桶上面模型4,是否是武器,实例缩放系数
+  - _ID: 1104
+    _Title: PrefabsN/Weapon/FrostFall,1,1.5
+    _Desc: 油桶上面模型4,是否是武器,实例缩放系数
+  - _ID: 1105
+    _Title: GameObjs/Weapon/Lightning_arrester/Lightning_arrester,1,1.5
+    _Desc: 油桶上面模型4,是否是武器,实例缩放系数
+  - _ID: 1201
+    _Title: Functions/MiniGame_ZombieRun/3D/ZombieRun_OilDrum,1.9,1.3,2000
+    _Desc: 油桶，碰撞矩形的半宽，碰撞矩形的半高,死亡特效ID
+  - _ID: 1202
+    _Title: Functions/MiniGame_ZombieRun/3D/ZombieRun_LightGate01,3,0.5,2001
+    _Desc: +光门，碰撞矩形的半宽，碰撞矩形的半高,死亡特效ID
+  - _ID: 1203
+    _Title: Functions/MiniGame_ZombieRun/3D/ZombieRun_LightGate02,3,0.5,2002
+    _Desc: -光门，碰撞矩形的半宽，碰撞矩形的半高,死亡特效ID
+  - _ID: 1300
+    _Title: 1002
+    _Desc: 开启主线关卡对应的通关光门跑酷关卡
+  - _ID: 2000
+    _Title: Functions/MiniGame_ZombieRun/Effects/texiao_youtongbaozha,3
+    _Desc: 油桶死亡特效路径,时长
+  - _ID: 2001
+    _Title: Functions/MiniGame_ZombieRun/Effects/texiao_guangmen_lan,1.3
+    _Desc: 光门死亡特效路径,时长
+  - _ID: 2002
+    _Title: Functions/MiniGame_ZombieRun/Effects/texiao_guangmen_hong,1.3
+    _Desc: 光门死亡特效路径,时长
+  - _ID: 2003
+    _Title: Functions/MiniGame_ZombieRun/Effects/texiao_zhuangbeihuode,1
+    _Desc: 装备获得特效路径,时长
+  - _ID: 2004
+    _Title: Functions/MiniGame_ZombieRun/Effects/texiao_renshuzengjia,1
+    _Desc: 人物增加特效路径,时长

@@ -1,0 +1,1534 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d011310e5559c9b0ca5f5f061c271484, type: 3}
+  m_Name: DYPlayerShow
+  m_EditorClassIdentifier:
+  _Items:
+  - _Id: 1001
+    _Note: 【头像】【角色】孤勇者
+    _Initial: 1
+    _Type: 1
+    _ShowCondition: []
+    _Itemid: []
+    _Sort: 1
+    _Condition:
+    - 1001
+    - 1001
+    - 0
+    _ConditionS: hero_1001>=1
+    _Property: []
+    _Name: 5201
+    _Icon: UI/Icon/PlayerInfo/tx_1
+    _Effect:
+  - _Id: 1002
+    _Note: 【头像】【角色】神眷者
+    _Initial: 0
+    _Type: 1
+    _ShowCondition: []
+    _Itemid: []
+    _Sort: 2
+    _Condition:
+    - 1001
+    - 1002
+    - 0
+    _ConditionS: hero_1002>=1
+    _Property: []
+    _Name: 5202
+    _Icon: UI/Icon/PlayerInfo/tx_2
+    _Effect:
+  - _Id: 1003
+    _Note: 【头像】【角色】赏金猎人
+    _Initial: 0
+    _Type: 1
+    _ShowCondition: []
+    _Itemid: []
+    _Sort: 3
+    _Condition:
+    - 1001
+    - 1003
+    - 0
+    _ConditionS: hero_1003>=1
+    _Property: []
+    _Name: 5203
+    _Icon: UI/Icon/PlayerInfo/tx_3
+    _Effect:
+  - _Id: 1004
+    _Note: 【头像】【角色】未来战士
+    _Initial: 0
+    _Type: 1
+    _ShowCondition: []
+    _Itemid: []
+    _Sort: 5
+    _Condition:
+    - 1001
+    - 1004
+    - 0
+    _ConditionS: hero_1004>=1
+    _Property: []
+    _Name: 5204
+    _Icon: UI/Icon/PlayerInfo/tx_4
+    _Effect:
+  - _Id: 1005
+    _Note: 【头像】【角色】暴走萝莉
+    _Initial: 0
+    _Type: 1
+    _ShowCondition: []
+    _Itemid: []
+    _Sort: 6
+    _Condition:
+    - 1001
+    - 1005
+    - 0
+    _ConditionS: hero_1005>=1
+    _Property: []
+    _Name: 5205
+    _Icon: UI/Icon/PlayerInfo/tx_5
+    _Effect:
+  - _Id: 1006
+    _Note: 【头像】【角色】地狱男爵
+    _Initial: 0
+    _Type: 1
+    _ShowCondition:
+    - 72
+    - 10
+    _Itemid: []
+    _Sort: 7
+    _Condition:
+    - 1001
+    - 1006
+    - 0
+    _ConditionS: hero_1006>=1
+    _Property: []
+    _Name: 5206
+    _Icon: UI/Icon/PlayerInfo/tx_6
+    _Effect:
+  - _Id: 1007
+    _Note: 【头像】【角色】末日猎手
+    _Initial: 0
+    _Type: 1
+    _ShowCondition:
+    - 72
+    - 24
+    _Itemid: []
+    _Sort: 8
+    _Condition:
+    - 1001
+    - 1007
+    - 0
+    _ConditionS: hero_1007>=1
+    _Property: []
+    _Name: 5224
+    _Icon: UI/Icon/PlayerInfo/tx_7
+    _Effect:
+  - _Id: 1008
+    _Note: 【头像】【角色】改造战士
+    _Initial: 0
+    _Type: 1
+    _ShowCondition:
+    - 72
+    - 36
+    _Itemid: []
+    _Sort: 9
+    _Condition:
+    - 1001
+    - 1008
+    - 0
+    _ConditionS: hero_1008>=1
+    _Property: []
+    _Name: 5229
+    _Icon: UI/Icon/PlayerInfo/tx_8
+    _Effect:
+  - _Id: 1009
+    _Note: 【头像】【角色】露露女士
+    _Initial: 0
+    _Type: 1
+    _ShowCondition:
+    - 72
+    - 36
+    _Itemid: []
+    _Sort: 10
+    _Condition:
+    - 1001
+    - 1009
+    - 0
+    _ConditionS: hero_1009>=1
+    _Property: []
+    _Name: 5240
+    _Icon: UI/Icon/PlayerInfo/tx_9
+    _Effect:
+  - _Id: 1010
+    _Note: 【头像】【角色】星辉之力
+    _Initial: 0
+    _Type: 1
+    _ShowCondition:
+    - 72
+    - 36
+    _Itemid: []
+    _Sort: 11
+    _Condition:
+    - 1001
+    - 1010
+    - 0
+    _ConditionS: hero_1010>=1
+    _Property: []
+    _Name: 5247
+    _Icon: UI/Icon/PlayerInfo/tx_10
+    _Effect:
+  - _Id: 1011
+    _Note: 【头像】【活动】甜粽子头像
+    _Initial: 0
+    _Type: 1
+    _ShowCondition:
+    - 54
+    - 12501
+    - 1
+    _Itemid:
+    - 12501
+    _Sort: 107
+    _Condition:
+    - 9999
+    - 1045
+    - 1
+    _ConditionS:
+    _Property:
+    - 111
+    - 100
+    _Name: 29312
+    _Icon: UI/Icon/PlayerInfo/tx_duanwutian
+    _Effect:
+  - _Id: 1012
+    _Note: 【头像】【活动】咸粽子头像
+    _Initial: 0
+    _Type: 1
+    _ShowCondition:
+    - 54
+    - 12502
+    - 1
+    _Itemid:
+    - 12502
+    _Sort: 108
+    _Condition:
+    - 9999
+    - 1045
+    - 1
+    _ConditionS:
+    _Property:
+    - 111
+    - 100
+    - 201
+    - 2000
+    _Name: 29313
+    _Icon: UI/Icon/PlayerInfo/tx_duanwuxian
+    _Effect:
+  - _Id: 1013
+    _Note: 【头像】【角色】雇佣兵-岚
+    _Initial: 0
+    _Type: 1
+    _ShowCondition: []
+    _Itemid: []
+    _Sort: 4
+    _Condition:
+    - 1001
+    - 1011
+    - 0
+    _ConditionS: hero_1011>=1
+    _Property: []
+    _Name: 5248
+    _Icon: UI/Icon/PlayerInfo/tx_11
+    _Effect:
+  - _Id: 1014
+    _Note: 【头像】【累充】命运交错头像
+    _Initial: 0
+    _Type: 1
+    _ShowCondition:
+    - 78
+    - 100000
+    _Itemid:
+    - 12503
+    _Sort: 901
+    _Condition:
+    - 9999
+    - 900013
+    - 1
+    _ConditionS:
+    _Property:
+    - 111
+    - 5000
+    _Name: 29319
+    _Icon: UI/Icon/PlayerInfo/tx_lc
+    _Effect:
+  - _Id: 1015
+    _Note: 【头像】【活动】周年庆头像
+    _Initial: 0
+    _Type: 1
+    _ShowCondition:
+    - 54
+    - 12504
+    - 1
+    _Itemid:
+    - 12504
+    _Sort: 102
+    _Condition:
+    - 9999
+    - 1045
+    - 1
+    _ConditionS:
+    _Property:
+    - 111
+    - 100
+    _Name: 630024
+    _Icon: UI/Icon/PlayerInfo/tx_znq2024
+    _Effect:
+  - _Id: 1016
+    _Note: 【头像】【角色】重装机兵
+    _Initial: 0
+    _Type: 1
+    _ShowCondition:
+    - 72
+    - 43
+    _Itemid: []
+    _Sort: 12
+    _Condition:
+    - 1001
+    - 1012
+    - 0
+    _ConditionS: hero_1012>=1
+    _Property: []
+    _Name: 110028
+    _Icon: UI/Icon/PlayerInfo/tx_12
+    _Effect:
+  - _Id: 1017
+    _Note: 【头像】【活动】好友邀请头像
+    _Initial: 0
+    _Type: 1
+    _ShowCondition: []
+    _Itemid:
+    - 12505
+    _Sort: 101
+    _Condition:
+    - 9999
+    - 610328
+    - 1
+    _ConditionS:
+    _Property:
+    - 111
+    - 100
+    _Name: 610341
+    _Icon: UI/Icon/PlayerInfo/tx_hyyq
+    _Effect:
+  - _Id: 1018
+    _Note: 【头像】【活动】奥运金奖牌头像
+    _Initial: 0
+    _Type: 1
+    _ShowCondition:
+    - 54
+    - 12506
+    - 1
+    _Itemid:
+    - 12506
+    _Sort: 109
+    _Condition:
+    - 9999
+    - 1045
+    - 1
+    _ConditionS:
+    _Property:
+    - 111
+    - 100
+    - 211
+    - 2000
+    _Name: 630047
+    _Icon: UI/Icon/PlayerInfo/tx_olympicgold
+    _Effect:
+  - _Id: 1019
+    _Note: 【头像】【活动】奥运银奖牌头像
+    _Initial: 0
+    _Type: 1
+    _ShowCondition:
+    - 54
+    - 12507
+    - 1
+    _Itemid:
+    - 12507
+    _Sort: 110
+    _Condition:
+    - 9999
+    - 1045
+    - 1
+    _ConditionS:
+    _Property:
+    - 111
+    - 100
+    _Name: 630049
+    _Icon: UI/Icon/PlayerInfo/tx_olympicsilver
+    _Effect:
+  - _Id: 1020
+    _Note: 【头像】【活动】牵牛头像
+    _Initial: 0
+    _Type: 1
+    _ShowCondition:
+    - 54
+    - 12508
+    - 1
+    _Itemid:
+    - 12508
+    _Sort: 111
+    _Condition:
+    - 9999
+    - 1045
+    - 1
+    _ConditionS:
+    _Property:
+    - 111
+    - 100
+    _Name: 630067
+    _Icon: UI/Icon/PlayerInfo/tx_qixinan
+    _Effect:
+  - _Id: 1021
+    _Note: 【头像】【活动】织女头像
+    _Initial: 0
+    _Type: 1
+    _ShowCondition:
+    - 54
+    - 12509
+    - 1
+    _Itemid:
+    - 12509
+    _Sort: 112
+    _Condition:
+    - 9999
+    - 1045
+    - 1
+    _ConditionS:
+    _Property:
+    - 111
+    - 400
+    _Name: 630068
+    _Icon: UI/Icon/PlayerInfo/tx_qixinv
+    _Effect:
+  - _Id: 1022
+    _Note: 【头像】【角色】风行
+    _Initial: 0
+    _Type: 1
+    _ShowCondition:
+    - 72
+    - 43
+    _Itemid: []
+    _Sort: 13
+    _Condition:
+    - 1001
+    - 1013
+    - 0
+    _ConditionS: hero_1013>=1
+    _Property: []
+    _Name: 110035
+    _Icon: UI/Icon/PlayerInfo/tx_13
+    _Effect:
+  - _Id: 1023
+    _Note: 【头像】【活动】玉兔头像
+    _Initial: 0
+    _Type: 1
+    _ShowCondition:
+    - 54
+    - 12510
+    - 1
+    _Itemid:
+    - 12510
+    _Sort: 113
+    _Condition:
+    - 9999
+    - 1045
+    - 1
+    _ConditionS:
+    _Property:
+    - 111
+    - 400
+    _Name: 630129
+    _Icon: UI/Icon/PlayerInfo/tx_midautumn2024
+    _Effect:
+  - _Id: 1024
+    _Note: 【头像】【活动】万圣幽灵头像
+    _Initial: 0
+    _Type: 1
+    _ShowCondition:
+    - 54
+    - 12511
+    - 1
+    _Itemid:
+    - 12511
+    _Sort: 114
+    _Condition:
+    - 9999
+    - 1045
+    - 1
+    _ConditionS:
+    _Property:
+    - 111
+    - 100
+    - 306
+    - 0.01
+    _Name: 1007087
+    _Icon: UI/Icon/PlayerInfo/tx_halloween2024
+    _Effect:
+  - _Id: 1025
+    _Note: 【头像】【角色】假面怪客
+    _Initial: 0
+    _Type: 1
+    _ShowCondition:
+    - 72
+    - 43
+    _Itemid: []
+    _Sort: 14
+    _Condition:
+    - 1001
+    - 1014
+    - 0
+    _ConditionS: hero_1014>=1
+    _Property: []
+    _Name: 110040
+    _Icon: UI/Icon/PlayerInfo/tx_14
+    _Effect:
+  - _Id: 1026
+    _Note: 【头像】【活动】火鸡头像
+    _Initial: 0
+    _Type: 1
+    _ShowCondition:
+    - 54
+    - 12512
+    - 1
+    _Itemid:
+    - 12512
+    _Sort: 115
+    _Condition:
+    - 9999
+    - 1045
+    - 1
+    _ConditionS:
+    _Property:
+    - 111
+    - 100
+    - 305
+    - 0.01
+    _Name: 630148
+    _Icon: UI/Icon/PlayerInfo/tx_gej2024
+    _Effect:
+  - _Id: 1027
+    _Note: 【头像】【活动】圣诞老人头像
+    _Initial: 0
+    _Type: 1
+    _ShowCondition:
+    - 54
+    - 12513
+    - 1
+    _Itemid:
+    - 12513
+    _Sort: 116
+    _Condition:
+    - 9999
+    - 1045
+    - 1
+    _ConditionS:
+    _Property:
+    - 111
+    - 100
+    - 303
+    - 0.01
+    _Name: 630150
+    _Icon: UI/Icon/PlayerInfo/tx_shengdanlaoren2024
+    _Effect:
+  - _Id: 1028
+    _Note: 【头像】【活动】情人节头像
+    _Initial: 0
+    _Type: 1
+    _ShowCondition:
+    - 54
+    - 12514
+    - 1
+    _Itemid:
+    - 12514
+    _Sort: 106
+    _Condition:
+    - 9999
+    - 1045
+    - 1
+    _ConditionS:
+    _Property:
+    - 111
+    - 100
+    - 304
+    - 0.01
+    _Name: 630151
+    _Icon: UI/Icon/PlayerInfo/tx_qingrenjie2025
+    _Effect:
+  - _Id: 1029
+    _Note: 【头像】【活动】巳蛇头像
+    _Initial: 0
+    _Type: 1
+    _ShowCondition:
+    - 54
+    - 12515
+    - 1
+    _Itemid:
+    - 12515
+    _Sort: 103
+    _Condition:
+    - 9999
+    - 1045
+    - 1
+    _ConditionS:
+    _Property:
+    - 111
+    - 100
+    - 181
+    - 2000
+    _Name: 630152
+    _Icon: UI/Icon/PlayerInfo/tx_she2025
+    _Effect:
+  - _Id: 1030
+    _Note: 【头像】【活动】炸汤圆头像
+    _Initial: 0
+    _Type: 1
+    _ShowCondition:
+    - 54
+    - 12516
+    - 1
+    _Itemid:
+    - 12516
+    _Sort: 104
+    _Condition:
+    - 9999
+    - 1045
+    - 1
+    _ConditionS:
+    _Property:
+    - 111
+    - 100
+    - 302
+    - 0.01
+    _Name: 630154
+    _Icon: UI/Icon/PlayerInfo/tx_zhayuanxiao2025
+    _Effect:
+  - _Id: 1031
+    _Note: 【头像】【活动】煮汤圆头像
+    _Initial: 0
+    _Type: 1
+    _ShowCondition:
+    - 54
+    - 12517
+    - 1
+    _Itemid:
+    - 12517
+    _Sort: 105
+    _Condition:
+    - 9999
+    - 1045
+    - 1
+    _ConditionS:
+    _Property:
+    - 111
+    - 100
+    _Name: 630155
+    _Icon: UI/Icon/PlayerInfo/tx_yuanxiao2025
+    _Effect:
+  - _Id: 1032
+    _Note: 【头像】【角色】代号.u
+    _Initial: 0
+    _Type: 1
+    _ShowCondition:
+    - 72
+    - 43
+    _Itemid: []
+    _Sort: 15
+    _Condition:
+    - 1001
+    - 1015
+    - 0
+    _ConditionS: hero_1015>=1
+    _Property: []
+    _Name: 110045
+    _Icon: UI/Icon/PlayerInfo/tx_15
+    _Effect:
+  - _Id: 1033
+    _Note: 【头像】【活动】玩具枪头像
+    _Initial: 0
+    _Type: 1
+    _ShowCondition:
+    - 54
+    - 12518
+    - 1
+    _Itemid:
+    - 12518
+    _Sort: 106
+    _Condition:
+    - 9999
+    - 1045
+    - 1
+    _ConditionS:
+    _Property:
+    - 111
+    - 100
+    - 191
+    - 2000
+    _Name: 630170
+    _Icon: UI/Icon/PlayerInfo/tx_poshuijieweapon2025
+    _Effect:
+  - _Id: 1034
+    _Note: 【头像】【活动】大象头像
+    _Initial: 0
+    _Type: 1
+    _ShowCondition:
+    - 54
+    - 12519
+    - 1
+    _Itemid:
+    - 12519
+    _Sort: 107
+    _Condition:
+    - 9999
+    - 1045
+    - 1
+    _ConditionS:
+    _Property:
+    - 111
+    - 100
+    _Name: 630171
+    _Icon: UI/Icon/PlayerInfo/tx_poshuijieelephant2025
+    _Effect:
+  - _Id: 1035
+    _Note: 【头像】【角色】明日
+    _Initial: 0
+    _Type: 1
+    _ShowCondition:
+    - 72
+    - 43
+    _Itemid: []
+    _Sort: 16
+    _Condition:
+    - 1001
+    - 1016
+    - 0
+    _ConditionS: hero_1016>=1
+    _Property: []
+    _Name: 110050
+    _Icon: GameObjs/Hero/huonv/icon16_t
+    _Effect:
+  - _Id: 1036
+    _Note: 【头像】【角色】霜瞳
+    _Initial: 0
+    _Type: 1
+    _ShowCondition:
+    - 72
+    - 43
+    _Itemid: []
+    _Sort: 16
+    _Condition:
+    - 1001
+    - 1017
+    - 0
+    _ConditionS: hero_1017>=1
+    _Property: []
+    _Name: 110055
+    _Icon: GameObjs/Hero/baihe/icon17_t
+    _Effect:
+  - _Id: 2001
+    _Note: 【头像框】【玩法】基础
+    _Initial: 1
+    _Type: 2
+    _ShowCondition: []
+    _Itemid: []
+    _Sort: 1
+    _Condition:
+    - 2001
+    - 1006
+    - 0
+    _ConditionS:
+    _Property: []
+    _Name: 5207
+    _Icon: UI/Icon/PlayerInfo/txk_initial
+    _Effect:
+  - _Id: 2002
+    _Note: 【头像框】巅峰王者
+    _Initial: 0
+    _Type: 2
+    _ShowCondition:
+    - 54
+    - 12001
+    - 1
+    _Itemid:
+    - 12001
+    _Sort: 9999
+    _Condition:
+    - 2001
+    - 10
+    - 1
+    _ConditionS:
+    _Property:
+    - 111
+    - 500
+    _Name: 5208
+    _Icon: UI/Icon/PlayerInfo/txk_dfwz
+    _Effect:
+  - _Id: 2003
+    _Note: 【头像框】【玩法】虚拟霸主
+    _Initial: 0
+    _Type: 2
+    _ShowCondition: []
+    _Itemid:
+    - 12002
+    _Sort: 6
+    _Condition:
+    - 3001
+    - 1
+    - 1
+    _ConditionS:
+    _Property:
+    - 111
+    - 800
+    _Name: 5209
+    _Icon: UI/Icon/PlayerInfo/txk_xn1
+    _Effect:
+  - _Id: 2004
+    _Note: 【头像框】【玩法】虚拟领袖
+    _Initial: 0
+    _Type: 2
+    _ShowCondition: []
+    _Itemid:
+    - 12003
+    _Sort: 7
+    _Condition:
+    - 3001
+    - 2
+    - 3
+    - 1
+    _ConditionS:
+    _Property:
+    - 111
+    - 500
+    _Name: 5210
+    _Icon: UI/Icon/PlayerInfo/txk_xn2
+    _Effect:
+  - _Id: 2005
+    _Note: 【头像框】【玩法】虚拟战士
+    _Initial: 0
+    _Type: 2
+    _ShowCondition: []
+    _Itemid:
+    - 12004
+    _Sort: 8
+    _Condition:
+    - 3001
+    - 4
+    - 10
+    - 1
+    _ConditionS:
+    _Property:
+    - 111
+    - 300
+    _Name: 5211
+    _Icon: UI/Icon/PlayerInfo/txk_xn3
+    _Effect:
+  - _Id: 2006
+    _Note: 【头像框】【玩法】天下王者
+    _Initial: 0
+    _Type: 2
+    _ShowCondition: []
+    _Itemid:
+    - 12005
+    _Sort: 9
+    _Condition:
+    - 4001
+    - 1
+    - 1
+    _ConditionS:
+    _Property:
+    - 111
+    - 500
+    - 112
+    - 0.01
+    _Name: 5212
+    _Icon: UI/Icon/PlayerInfo/txk_jjc1
+    _Effect:
+  - _Id: 2007
+    _Note: 【头像框】【玩法】末世战神
+    _Initial: 0
+    _Type: 2
+    _ShowCondition: []
+    _Itemid:
+    - 12006
+    _Sort: 10
+    _Condition:
+    - 4001
+    - 2
+    - 1
+    _ConditionS:
+    _Property:
+    - 111
+    - 300
+    - 112
+    - 0.01
+    _Name: 5213
+    _Icon: UI/Icon/PlayerInfo/txk_jjc2
+    _Effect:
+  - _Id: 2008
+    _Note: 【头像框】【玩法】末世精英
+    _Initial: 0
+    _Type: 2
+    _ShowCondition: []
+    _Itemid:
+    - 12007
+    _Sort: 11
+    _Condition:
+    - 4001
+    - 3
+    - 1
+    _ConditionS:
+    _Property:
+    - 111
+    - 100
+    - 112
+    - 0.01
+    _Name: 5214
+    _Icon: UI/Icon/PlayerInfo/txk_jjc3
+    _Effect:
+  - _Id: 2009
+    _Note: 【头像框】【特殊】烈焰审判
+    _Initial: 0
+    _Type: 2
+    _ShowCondition: []
+    _Itemid:
+    - 12008
+    _Sort: 12
+    _Condition:
+    - 9999
+    - 5113
+    - 1
+    _ConditionS:
+    _Property:
+    - 111
+    - 100
+    - 151
+    - 0.01
+    _Name: 5215
+    _Icon: UI/Icon/PlayerInfo/txk_lysp
+    _Effect: PrefabsN/Effect/UI/touxiang/txkeffect_lysp
+  - _Id: 2010
+    _Note: 【头像框】【活动】万圣节
+    _Initial: 0
+    _Type: 2
+    _ShowCondition:
+    - 54
+    - 12009
+    - 1
+    _Itemid:
+    - 12009
+    _Sort: 117
+    _Condition:
+    - 9999
+    - 5113
+    - 1
+    _ConditionS:
+    _Property:
+    - 111
+    - 100
+    - 306
+    - 0.01
+    _Name: 5225
+    _Icon: UI/Icon/PlayerInfo/txk_wsj
+    _Effect:
+  - _Id: 2011
+    _Note: 【头像框】【活动】感恩节
+    _Initial: 0
+    _Type: 2
+    _ShowCondition:
+    - 54
+    - 12010
+    - 1
+    _Itemid:
+    - 12010
+    _Sort: 118
+    _Condition:
+    - 9999
+    - 5113
+    - 1
+    _ConditionS:
+    _Property:
+    - 111
+    - 100
+    - 303
+    - 0.01
+    _Name: 5227
+    _Icon: UI/Icon/PlayerInfo/txk_gej
+    _Effect:
+  - _Id: 2012
+    _Note: 【头像框】【活动】圣诞节
+    _Initial: 0
+    _Type: 2
+    _ShowCondition:
+    - 54
+    - 12011
+    - 1
+    _Itemid:
+    - 12011
+    _Sort: 119
+    _Condition:
+    - 9999
+    - 5113
+    - 1
+    _ConditionS:
+    _Property:
+    - 111
+    - 100
+    - 120
+    - 0.01
+    _Name: 5230
+    _Icon: UI/Icon/PlayerInfo/txk_sdj
+    _Effect:
+  - _Id: 2013
+    _Note: 【头像框】【活动】元旦2024
+    _Initial: 0
+    _Type: 2
+    _ShowCondition:
+    - 54
+    - 12012
+    - 1
+    _Itemid:
+    - 12012
+    _Sort: 101
+    _Condition:
+    - 9999
+    - 5113
+    - 1
+    _ConditionS:
+    _Property:
+    - 111
+    - 100
+    - 301
+    - 0.01
+    _Name: 5232
+    _Icon: UI/Icon/PlayerInfo/txk_ydj
+    _Effect:
+  - _Id: 2014
+    _Note: 【头像框】【活动】情人节
+    _Initial: 0
+    _Type: 2
+    _ShowCondition:
+    - 54
+    - 12013
+    - 1
+    _Itemid:
+    - 12013
+    _Sort: 103
+    _Condition:
+    - 9999
+    - 5113
+    - 1
+    _ConditionS:
+    _Property:
+    - 111
+    - 100
+    - 191
+    - 3000
+    _Name: 5234
+    _Icon: UI/Icon/PlayerInfo/txk_qrj2024
+    _Effect:
+  - _Id: 2015
+    _Note: 【头像框】【活动】元宵节
+    _Initial: 0
+    _Type: 2
+    _ShowCondition:
+    - 54
+    - 12014
+    - 1
+    _Itemid:
+    - 12014
+    _Sort: 102
+    _Condition:
+    - 9999
+    - 5113
+    - 1
+    _ConditionS:
+    _Property:
+    - 111
+    - 100
+    - 305
+    - 0.01
+    _Name: 5236
+    _Icon: UI/Icon/PlayerInfo/txk_yxj2024
+    _Effect:
+  - _Id: 2016
+    _Note: 【头像框】【活动】龙年头像框
+    _Initial: 0
+    _Type: 2
+    _ShowCondition:
+    - 54
+    - 12015
+    - 1
+    _Itemid:
+    - 12015
+    _Sort: 104
+    _Condition:
+    - 9999
+    - 5113
+    - 1
+    _ConditionS:
+    _Property:
+    - 111
+    - 100
+    - 401
+    - 0.01
+    _Name: 5235
+    _Icon: UI/Icon/PlayerInfo/txk_cj2024
+    _Effect:
+  - _Id: 2017
+    _Note: 【头像框】【活动】复活节
+    _Initial: 0
+    _Type: 2
+    _ShowCondition:
+    - 54
+    - 12016
+    - 1
+    _Itemid:
+    - 12016
+    _Sort: 105
+    _Condition:
+    - 9999
+    - 5113
+    - 1
+    _ConditionS:
+    _Property:
+    - 111
+    - 100
+    - 304
+    - 0.01
+    _Name: 5241
+    _Icon: UI/Icon/PlayerInfo/txk_fhj2024
+    _Effect:
+  - _Id: 2018
+    _Note: 【头像框】【活动】清明节
+    _Initial: 0
+    _Type: 2
+    _ShowCondition:
+    - 54
+    - 12017
+    - 1
+    _Itemid:
+    - 12017
+    _Sort: 106
+    _Condition:
+    - 9999
+    - 5113
+    - 1
+    _ConditionS:
+    _Property:
+    - 111
+    - 100
+    - 161
+    - 3000
+    _Name: 29290
+    _Icon: UI/Icon/PlayerInfo/txk_qmj2024
+    _Effect:
+  - _Id: 2019
+    _Note: 【头像框】【活动】劳动节
+    _Initial: 0
+    _Type: 2
+    _ShowCondition:
+    - 54
+    - 12018
+    - 1
+    _Itemid:
+    - 12018
+    _Sort: 107
+    _Condition:
+    - 9999
+    - 5113
+    - 1
+    _ConditionS:
+    _Property:
+    - 111
+    - 100
+    - 155
+    - 0.02
+    _Name: 29303
+    _Icon: UI/Icon/PlayerInfo/txk_ldj2024
+    _Effect:
+  - _Id: 2020
+    _Note: 【头像框】【玩法】荣耀王者
+    _Initial: 0
+    _Type: 2
+    _ShowCondition: []
+    _Itemid:
+    - 12019
+    _Sort: 2
+    _Condition:
+    - 9999
+    - 700078
+    - 1
+    _ConditionS:
+    _Property:
+    - 111
+    - 1000
+    - 112
+    - 0.02
+    _Name: 700072
+    _Icon: Functions/SupermeArena/Textures/top1
+    _Effect: PrefabsN/Effect/UI/touxiang/txkeffect_top1
+  - _Id: 2021
+    _Note: 【头像框】【玩法】荣耀宗师
+    _Initial: 0
+    _Type: 2
+    _ShowCondition: []
+    _Itemid:
+    - 12020
+    _Sort: 3
+    _Condition:
+    - 9999
+    - 700079
+    - 1
+    _ConditionS:
+    _Property:
+    - 111
+    - 500
+    - 112
+    - 0.015
+    _Name: 700073
+    _Icon: Functions/SupermeArena/Textures/top2
+    _Effect:
+  - _Id: 2022
+    _Note: 【头像框】【玩法】荣耀大师
+    _Initial: 0
+    _Type: 2
+    _ShowCondition: []
+    _Itemid:
+    - 12021
+    _Sort: 4
+    _Condition:
+    - 9999
+    - 700080
+    - 1
+    _ConditionS:
+    _Property:
+    - 111
+    - 300
+    - 112
+    - 0.01
+    _Name: 700074
+    _Icon: Functions/SupermeArena/Textures/top3
+    _Effect:
+  - _Id: 2023
+    _Note: 【头像框】【活动】端午节
+    _Initial: 0
+    _Type: 2
+    _ShowCondition:
+    - 54
+    - 12022
+    - 1
+    _Itemid:
+    - 12022
+    _Sort: 108
+    _Condition:
+    - 9999
+    - 1045
+    - 1
+    _ConditionS:
+    _Property:
+    - 111
+    - 100
+    - 304
+    - 0.01
+    _Name: 29311
+    _Icon: UI/Icon/PlayerInfo/txk_dwj2024
+    _Effect:
+  - _Id: 2024
+    _Note: 【头像框】【累充】双面视界头像框
+    _Initial: 0
+    _Type: 2
+    _ShowCondition:
+    - 78
+    - 500000
+    _Itemid:
+    - 12023
+    _Sort: 901
+    _Condition:
+    - 9999
+    - 900013
+    - 1
+    _ConditionS:
+    _Property:
+    - 112
+    - 0.05
+    _Name: 29320
+    _Icon: UI/Icon/PlayerInfo/txk_lc
+    _Effect: PrefabsN/Effect/UI/touxiang/txkeffect_lc
+  - _Id: 2025
+    _Note: 【头像框】【活动】周年庆头像框
+    _Initial: 0
+    _Type: 2
+    _ShowCondition:
+    - 54
+    - 12024
+    - 1
+    _Itemid:
+    - 12024
+    _Sort: 109
+    _Condition:
+    - 9999
+    - 1045
+    - 1
+    _ConditionS:
+    _Property:
+    - 111
+    - 100
+    - 151
+    - 0.01
+    _Name: 630022
+    _Icon: UI/Icon/PlayerInfo/txk_znq2024
+    _Effect: PrefabsN/Effect/UI/touxiang/txkeffect_znq2024
+  - _Id: 2026
+    _Note: 【头像框】【活动】奥运会头像框
+    _Initial: 0
+    _Type: 2
+    _ShowCondition:
+    - 54
+    - 12025
+    - 1
+    _Itemid:
+    - 12025
+    _Sort: 110
+    _Condition:
+    - 9999
+    - 1045
+    - 1
+    _ConditionS:
+    _Property:
+    - 111
+    - 100
+    - 308
+    - 0.01
+    _Name: 630045
+    _Icon: UI/Icon/PlayerInfo/txk_olympic2024
+    _Effect:
+  - _Id: 2027
+    _Note: 【头像框】【活动】鹊桥相会头像框
+    _Initial: 0
+    _Type: 2
+    _ShowCondition:
+    - 54
+    - 12026
+    - 1
+    _Itemid:
+    - 12026
+    _Sort: 111
+    _Condition:
+    - 9999
+    - 1045
+    - 1
+    _ConditionS:
+    _Property:
+    - 111
+    - 100
+    - 401
+    - 0.01
+    _Name: 630065
+    _Icon: UI/Icon/PlayerInfo/txk_qixi2024
+    _Effect:
+  - _Id: 2028
+    _Note: 【头像框】【活动】返校启航头像框
+    _Initial: 0
+    _Type: 2
+    _ShowCondition:
+    - 54
+    - 12027
+    - 1
+    _Itemid:
+    - 12027
+    _Sort: 112
+    _Condition:
+    - 9999
+    - 1045
+    - 1
+    _ConditionS:
+    _Property:
+    - 111
+    - 100
+    - 211
+    - 3000
+    _Name: 1007073
+    _Icon: UI/Icon/PlayerInfo/txk_homecoming2024
+    _Effect:
+  - _Id: 2029
+    _Note: 【头像框】【活动】老玩家回归头像框
+    _Initial: 0
+    _Type: 2
+    _ShowCondition:
+    - 54
+    - 12028
+    - 1
+    _Itemid:
+    - 12028
+    _Sort: 113
+    _Condition:
+    - 9999
+    - 1045
+    - 1
+    _ConditionS:
+    _Property: []
+    _Name: 630103
+    _Icon: UI/Icon/PlayerInfo/txk_playerreturn
+    _Effect:
+  - _Id: 2030
+    _Note: 【头像框】【活动】花好月圆头像框
+    _Initial: 0
+    _Type: 2
+    _ShowCondition:
+    - 54
+    - 12029
+    - 1
+    _Itemid:
+    - 12029
+    _Sort: 114
+    _Condition:
+    - 9999
+    - 1045
+    - 1
+    _ConditionS:
+    _Property:
+    - 111
+    - 100
+    - 401
+    - 0.01
+    _Name: 630127
+    _Icon: UI/Icon/PlayerInfo/txk_midautumn2024
+    _Effect:
+  - _Id: 2031
+    _Note: 【头像框】【活动】元旦头像框2025
+    _Initial: 0
+    _Type: 2
+    _ShowCondition:
+    - 54
+    - 12030
+    - 1
+    _Itemid:
+    - 12030
+    _Sort: 115
+    _Condition:
+    - 9999
+    - 1045
+    - 1
+    _ConditionS:
+    _Property:
+    - 111
+    - 100
+    - 305
+    - 0.01
+    _Name: 630149
+    _Icon: UI/Icon/PlayerInfo/txk_newyear2025
+    _Effect:
+  - _Id: 2032
+    _Note: 【头像框】【玩法】巅峰王者
+    _Initial: 0
+    _Type: 2
+    _ShowCondition: []
+    _Itemid:
+    - 12031
+    _Sort: 5
+    _Condition:
+    - 2001
+    - 3
+    - 1
+    _ConditionS:
+    _Property:
+    - 111
+    - 500
+    _Name: 5208
+    _Icon: UI/Icon/PlayerInfo/txk_dfwz
+    _Effect:
+  - _Id: 2033
+    _Note: 【头像框】【活动】蛇年头像框
+    _Initial: 0
+    _Type: 2
+    _ShowCondition:
+    - 54
+    - 12032
+    - 1
+    _Itemid:
+    - 12032
+    _Sort: 116
+    _Condition:
+    - 9999
+    - 1045
+    - 1
+    _ConditionS:
+    _Property:
+    - 111
+    - 100
+    - 306
+    - 0.01
+    _Name: 630153
+    _Icon: UI/Icon/PlayerInfo/txk_shenian2025
+    _Effect:
+  - _Id: 2034
+    _Note: 【头像框】【活动】泼水节头像框
+    _Initial: 0
+    _Type: 2
+    _ShowCondition: []
+    _Itemid:
+    - 12033
+    _Sort: 117
+    _Condition:
+    - 9999
+    - 1045
+    - 1
+    _ConditionS:
+    _Property:
+    - 111
+    - 100
+    - 303
+    - 0.01
+    _Name: 630172
+    _Icon: UI/Icon/PlayerInfo/txk_poshuijie2025
+    _Effect:
+  - _Id: 2035
+    _Note: 【头像框】时空主宰
+    _Initial: 0
+    _Type: 2
+    _ShowCondition: []
+    _Itemid:
+    - 12034
+    _Sort: 13
+    _Condition:
+    - 5001
+    - 1
+    - 3
+    - 1
+    _ConditionS:
+    _Property: []
+    _Name: 643153
+    _Icon: UI/Icon/PlayerInfo/txk_shikongzhuzai
+    _Effect:
+  - _Id: 2036
+    _Note: 【头像框】时空旅者
+    _Initial: 0
+    _Type: 2
+    _ShowCondition: []
+    _Itemid:
+    - 12035
+    _Sort: 14
+    _Condition:
+    - 5001
+    - 4
+    - 10
+    - 1
+    _ConditionS:
+    _Property: []
+    _Name: 643154
+    _Icon: UI/Icon/PlayerInfo/txk_shikonglvzhe
+    _Effect:

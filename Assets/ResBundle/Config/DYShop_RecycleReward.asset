@@ -1,0 +1,1429 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dbaf203d46c6d2d3d07afbce607e5af, type: 3}
+  m_Name: DYShop_RecycleReward
+  m_EditorClassIdentifier:
+  _Items:
+  - _Id: 1001
+    _Note:
+    _ShopId: 1001
+    _Sort: 9
+    _Commodity:
+    - 29302
+    - 1
+    _Cost:
+    - 6004
+    - 100
+    _BuyMax: -1
+    _Unlock: 0
+    _Rate: 0
+    _Type: 0
+  - _Id: 1002
+    _Note:
+    _ShopId: 1001
+    _Sort: 8
+    _Commodity:
+    - 32002
+    - 1
+    _Cost:
+    - 6004
+    - 50
+    _BuyMax: -1
+    _Unlock: 0
+    _Rate: 0
+    _Type: 0
+  - _Id: 1003
+    _Note:
+    _ShopId: 1001
+    _Sort: 7
+    _Commodity:
+    - 32001
+    - 1
+    _Cost:
+    - 6004
+    - 50
+    _BuyMax: -1
+    _Unlock: 0
+    _Rate: 0
+    _Type: 0
+  - _Id: 1004
+    _Note:
+    _ShopId: 1001
+    _Sort: 6
+    _Commodity:
+    - 30011
+    - 1
+    _Cost:
+    - 6004
+    - 50
+    _BuyMax: -1
+    _Unlock: 0
+    _Rate: 0
+    _Type: 0
+  - _Id: 1005
+    _Note:
+    _ShopId: 1001
+    _Sort: 5
+    _Commodity:
+    - 30012
+    - 1
+    _Cost:
+    - 6004
+    - 50
+    _BuyMax: -1
+    _Unlock: 0
+    _Rate: 0
+    _Type: 0
+  - _Id: 1006
+    _Note:
+    _ShopId: 1001
+    _Sort: 4
+    _Commodity:
+    - 30013
+    - 1
+    _Cost:
+    - 6004
+    - 50
+    _BuyMax: -1
+    _Unlock: 0
+    _Rate: 0
+    _Type: 0
+  - _Id: 1007
+    _Note:
+    _ShopId: 1001
+    _Sort: 3
+    _Commodity:
+    - 30014
+    - 1
+    _Cost:
+    - 6004
+    - 50
+    _BuyMax: -1
+    _Unlock: 0
+    _Rate: 0
+    _Type: 0
+  - _Id: 1008
+    _Note:
+    _ShopId: 1001
+    _Sort: 2
+    _Commodity:
+    - 30015
+    - 1
+    _Cost:
+    - 6004
+    - 50
+    _BuyMax: -1
+    _Unlock: 0
+    _Rate: 0
+    _Type: 0
+  - _Id: 1009
+    _Note:
+    _ShopId: 1001
+    _Sort: 1
+    _Commodity:
+    - 6001
+    - 1
+    _Cost:
+    - 6004
+    - 20
+    _BuyMax: -1
+    _Unlock: 0
+    _Rate: 0
+    _Type: 0
+  - _Id: 2001
+    _Note: 强化模块
+    _ShopId: 1002
+    _Sort: 53
+    _Commodity:
+    - 6002
+    - 50
+    _Cost:
+    - 6003
+    - 1000
+    _BuyMax: 1
+    _Unlock: 2
+    _Rate: 10000
+    _Type: 1
+  - _Id: 2002
+    _Note: 僵尸奶奶的轮椅[碎片]
+    _ShopId: 1002
+    _Sort: 52
+    _Commodity:
+    - 71010
+    - 1
+    _Cost:
+    - 6003
+    - 600
+    _BuyMax: 1
+    _Unlock: 8
+    _Rate: 5000
+    _Type: 2
+  - _Id: 2003
+    _Note: 波斯星盘[碎片]
+    _ShopId: 1002
+    _Sort: 51
+    _Commodity:
+    - 72001
+    - 1
+    _Cost:
+    - 6003
+    - 800
+    _BuyMax: 1
+    _Unlock: 2
+    _Rate: 2000
+    _Type: 2
+  - _Id: 2004
+    _Note: 地动仪[碎片]
+    _ShopId: 1002
+    _Sort: 50
+    _Commodity:
+    - 72002
+    - 1
+    _Cost:
+    - 6003
+    - 800
+    _BuyMax: 1
+    _Unlock: 2
+    _Rate: 10000
+    _Type: 2
+  - _Id: 2005
+    _Note: 肖尔斯打字机[碎片]
+    _ShopId: 1002
+    _Sort: 49
+    _Commodity:
+    - 72003
+    - 1
+    _Cost:
+    - 6003
+    - 800
+    _BuyMax: 1
+    _Unlock: 2
+    _Rate: 10000
+    _Type: 2
+  - _Id: 2006
+    _Note: 白金唱片[碎片]
+    _ShopId: 1002
+    _Sort: 48
+    _Commodity:
+    - 72004
+    - 1
+    _Cost:
+    - 6003
+    - 800
+    _BuyMax: 1
+    _Unlock: 2
+    _Rate: 10000
+    _Type: 2
+  - _Id: 2007
+    _Note: ZW病毒[碎片]
+    _ShopId: 1002
+    _Sort: 47
+    _Commodity:
+    - 72005
+    - 1
+    _Cost:
+    - 6003
+    - 800
+    _BuyMax: 1
+    _Unlock: 2
+    _Rate: 10000
+    _Type: 2
+  - _Id: 2008
+    _Note: 长信宫灯[碎片]
+    _ShopId: 1002
+    _Sort: 46
+    _Commodity:
+    - 72006
+    - 1
+    _Cost:
+    - 6003
+    - 800
+    _BuyMax: 1
+    _Unlock: 2
+    _Rate: 10000
+    _Type: 2
+  - _Id: 2009
+    _Note: 复活岛人像[碎片]
+    _ShopId: 1002
+    _Sort: 45
+    _Commodity:
+    - 72007
+    - 1
+    _Cost:
+    - 6003
+    - 800
+    _BuyMax: 1
+    _Unlock: 2
+    _Rate: 10000
+    _Type: 2
+  - _Id: 2010
+    _Note: 马可尼无线电报[碎片]
+    _ShopId: 1002
+    _Sort: 44
+    _Commodity:
+    - 72008
+    - 1
+    _Cost:
+    - 6003
+    - 800
+    _BuyMax: 1
+    _Unlock: 2
+    _Rate: 10000
+    _Type: 2
+  - _Id: 2011
+    _Note: 贝尔的通讯电话[碎片]
+    _ShopId: 1002
+    _Sort: 43
+    _Commodity:
+    - 72009
+    - 1
+    _Cost:
+    - 6003
+    - 800
+    _BuyMax: 1
+    _Unlock: 2
+    _Rate: 10000
+    _Type: 2
+  - _Id: 2012
+    _Note: 恩尼格玛密码机[碎片]
+    _ShopId: 1002
+    _Sort: 42
+    _Commodity:
+    - 72010
+    - 1
+    _Cost:
+    - 6003
+    - 800
+    _BuyMax: 1
+    _Unlock: 2
+    _Rate: 10000
+    _Type: 2
+  - _Id: 2013
+    _Note: 法拉第发电机[碎片]
+    _ShopId: 1002
+    _Sort: 41
+    _Commodity:
+    - 72011
+    - 1
+    _Cost:
+    - 6003
+    - 800
+    _BuyMax: 1
+    _Unlock: 2
+    _Rate: 10000
+    _Type: 2
+  - _Id: 2014
+    _Note: 八二年的拉菲[碎片]
+    _ShopId: 1002
+    _Sort: 40
+    _Commodity:
+    - 72012
+    - 1
+    _Cost:
+    - 6003
+    - 800
+    _BuyMax: 1
+    _Unlock: 2
+    _Rate: 10000
+    _Type: 2
+  - _Id: 2015
+    _Note: 鲁比克魔方[碎片]
+    _ShopId: 1002
+    _Sort: 39
+    _Commodity:
+    - 72013
+    - 1
+    _Cost:
+    - 6003
+    - 800
+    _BuyMax: 1
+    _Unlock: 2
+    _Rate: 10000
+    _Type: 2
+  - _Id: 2016
+    _Note: 凯旋门壁画[碎片]
+    _ShopId: 1002
+    _Sort: 38
+    _Commodity:
+    - 72014
+    - 1
+    _Cost:
+    - 6003
+    - 800
+    _BuyMax: 1
+    _Unlock: 2
+    _Rate: 1000
+    _Type: 2
+  - _Id: 2017
+    _Note: 赫尔墨斯金币[碎片]
+    _ShopId: 1002
+    _Sort: 37
+    _Commodity:
+    - 72015
+    - 1
+    _Cost:
+    - 6003
+    - 800
+    _BuyMax: 1
+    _Unlock: 2
+    _Rate: 10000
+    _Type: 2
+  - _Id: 2018
+    _Note: 司母戊鼎[碎片]
+    _ShopId: 1002
+    _Sort: 36
+    _Commodity:
+    - 73001
+    - 1
+    _Cost:
+    - 6003
+    - 1200
+    _BuyMax: 1
+    _Unlock: 2
+    _Rate: 10000
+    _Type: 2
+  - _Id: 2019
+    _Note: 自由雕像[碎片]
+    _ShopId: 1002
+    _Sort: 35
+    _Commodity:
+    - 73002
+    - 1
+    _Cost:
+    - 6003
+    - 1200
+    _BuyMax: 1
+    _Unlock: 2
+    _Rate: 10000
+    _Type: 2
+  - _Id: 2020
+    _Note: 毁灭之戟[碎片]
+    _ShopId: 1002
+    _Sort: 34
+    _Commodity:
+    - 73003
+    - 1
+    _Cost:
+    - 6003
+    - 1200
+    _BuyMax: 1
+    _Unlock: 2
+    _Rate: 10000
+    _Type: 2
+  - _Id: 2021
+    _Note: 瘟疫之箭[碎片]
+    _ShopId: 1002
+    _Sort: 33
+    _Commodity:
+    - 73004
+    - 1
+    _Cost:
+    - 6003
+    - 1200
+    _BuyMax: 1
+    _Unlock: 2
+    _Rate: 10000
+    _Type: 2
+  - _Id: 2022
+    _Note: 幽冥权杖[碎片]
+    _ShopId: 1002
+    _Sort: 32
+    _Commodity:
+    - 73005
+    - 1
+    _Cost:
+    - 6003
+    - 1200
+    _BuyMax: 1
+    _Unlock: 2
+    _Rate: 10000
+    _Type: 2
+  - _Id: 2023
+    _Note: 炼狱之盾[碎片]
+    _ShopId: 1002
+    _Sort: 31
+    _Commodity:
+    - 73006
+    - 1
+    _Cost:
+    - 6003
+    - 1200
+    _BuyMax: 1
+    _Unlock: 2
+    _Rate: 10000
+    _Type: 2
+  - _Id: 2024
+    _Note: 图坦卡蒙黄金面具[碎片]
+    _ShopId: 1002
+    _Sort: 30
+    _Commodity:
+    - 73007
+    - 1
+    _Cost:
+    - 6003
+    - 1200
+    _BuyMax: 1
+    _Unlock: 2
+    _Rate: 10000
+    _Type: 2
+  - _Id: 2025
+    _Note: 新克罗木乃伊[碎片]
+    _ShopId: 1002
+    _Sort: 29
+    _Commodity:
+    - 73008
+    - 1
+    _Cost:
+    - 6003
+    - 1200
+    _BuyMax: 1
+    _Unlock: 2
+    _Rate: 10000
+    _Type: 2
+  - _Id: 2026
+    _Note: 摩西金约柜[碎片]
+    _ShopId: 1002
+    _Sort: 28
+    _Commodity:
+    - 73009
+    - 1
+    _Cost:
+    - 6003
+    - 1200
+    _BuyMax: 1
+    _Unlock: 2
+    _Rate: 10000
+    _Type: 2
+  - _Id: 2027
+    _Note: 基因图谱[碎片]
+    _ShopId: 1002
+    _Sort: 27
+    _Commodity:
+    - 73010
+    - 1
+    _Cost:
+    - 6003
+    - 1200
+    _BuyMax: 1
+    _Unlock: 2
+    _Rate: 10000
+    _Type: 2
+  - _Id: 2028
+    _Note: 病毒研究数据盘[碎片]
+    _ShopId: 1002
+    _Sort: 26
+    _Commodity:
+    - 73011
+    - 1
+    _Cost:
+    - 6003
+    - 1200
+    _BuyMax: 1
+    _Unlock: 2
+    _Rate: 10000
+    _Type: 2
+  - _Id: 2029
+    _Note: 生化基因编码器[碎片]
+    _ShopId: 1002
+    _Sort: 25
+    _Commodity:
+    - 73012
+    - 1
+    _Cost:
+    - 6003
+    - 1200
+    _BuyMax: 1
+    _Unlock: 2
+    _Rate: 5000
+    _Type: 2
+  - _Id: 2030
+    _Note: 神经控制器[碎片]
+    _ShopId: 1002
+    _Sort: 24
+    _Commodity:
+    - 73013
+    - 1
+    _Cost:
+    - 6003
+    - 1200
+    _BuyMax: 1
+    _Unlock: 2
+    _Rate: 10000
+    _Type: 2
+  - _Id: 2031
+    _Note: 蒸汽机[碎片]
+    _ShopId: 1002
+    _Sort: 23
+    _Commodity:
+    - 73014
+    - 1
+    _Cost:
+    - 6003
+    - 1200
+    _BuyMax: 1
+    _Unlock: 2
+    _Rate: 10000
+    _Type: 2
+  - _Id: 2032
+    _Note: 蒸汽机车[碎片]
+    _ShopId: 1002
+    _Sort: 22
+    _Commodity:
+    - 73015
+    - 1
+    _Cost:
+    - 6003
+    - 1200
+    _BuyMax: 1
+    _Unlock: 2
+    _Rate: 10000
+    _Type: 2
+  - _Id: 2033
+    _Note: 霍金的轮椅[碎片]
+    _ShopId: 1002
+    _Sort: 21
+    _Commodity:
+    - 73017
+    - 1
+    _Cost:
+    - 6003
+    - 1200
+    _BuyMax: 1
+    _Unlock: 10
+    _Rate: 2000
+    _Type: 2
+  - _Id: 2034
+    _Note: 德古拉之血[碎片]
+    _ShopId: 1002
+    _Sort: 20
+    _Commodity:
+    - 73018
+    - 1
+    _Cost:
+    - 6003
+    - 1200
+    _BuyMax: 1
+    _Unlock: 10
+    _Rate: 2000
+    _Type: 2
+  - _Id: 2035
+    _Note: 美杜莎之眼[碎片]
+    _ShopId: 1002
+    _Sort: 20
+    _Commodity:
+    - 73019
+    - 1
+    _Cost:
+    - 6003
+    - 1200
+    _BuyMax: 1
+    _Unlock: 10
+    _Rate: 2000
+    _Type: 2
+  - _Id: 2036
+    _Note: 白雪公主的魔镜[碎片]
+    _ShopId: 1002
+    _Sort: 19
+    _Commodity:
+    - 73020
+    - 1
+    _Cost:
+    - 6003
+    - 1200
+    _BuyMax: 1
+    _Unlock: 10
+    _Rate: 2000
+    _Type: 2
+  - _Id: 2037
+    _Note: 金字塔尖[碎片]
+    _ShopId: 1002
+    _Sort: 18
+    _Commodity:
+    - 73021
+    - 1
+    _Cost:
+    - 6003
+    - 1200
+    _BuyMax: 1
+    _Unlock: 10
+    _Rate: 2000
+    _Type: 2
+  - _Id: 2038
+    _Note: 罗塞塔石碑[碎片]
+    _ShopId: 1002
+    _Sort: 17
+    _Commodity:
+    - 73022
+    - 1
+    _Cost:
+    - 6003
+    - 1200
+    _BuyMax: 1
+    _Unlock: 10
+    _Rate: 2000
+    _Type: 2
+  - _Id: 2039
+    _Note: 娜芙蒂蒂胸像[碎片]
+    _ShopId: 1002
+    _Sort: 16
+    _Commodity:
+    - 73023
+    - 1
+    _Cost:
+    - 6003
+    - 1200
+    _BuyMax: 1
+    _Unlock: 10
+    _Rate: 2000
+    _Type: 2
+  - _Id: 2040
+    _Note: 狮身人面像[碎片]
+    _ShopId: 1002
+    _Sort: 15
+    _Commodity:
+    - 73024
+    - 1
+    _Cost:
+    - 6003
+    - 1200
+    _BuyMax: 1
+    _Unlock: 10
+    _Rate: 2000
+    _Type: 2
+  - _Id: 2041
+    _Note: 汉谟拉比法典[碎片]
+    _ShopId: 1002
+    _Sort: 14
+    _Commodity:
+    - 73026
+    - 1
+    _Cost:
+    - 6003
+    - 1200
+    _BuyMax: 1
+    _Unlock: 10
+    _Rate: 2000
+    _Type: 2
+  - _Id: 2042
+    _Note: 伊甸园壁画[碎片]
+    _ShopId: 1002
+    _Sort: 13
+    _Commodity:
+    - 73027
+    - 1
+    _Cost:
+    - 6003
+    - 1200
+    _BuyMax: 1
+    _Unlock: 10
+    _Rate: 2000
+    _Type: 2
+  - _Id: 2043
+    _Note: 伊舍塔尔之门[碎片]
+    _ShopId: 1002
+    _Sort: 12
+    _Commodity:
+    - 73028
+    - 1
+    _Cost:
+    - 6003
+    - 1200
+    _BuyMax: 1
+    _Unlock: 10
+    _Rate: 2000
+    _Type: 2
+  - _Id: 2044
+    _Note: 卡尔海亚岩雕[碎片]
+    _ShopId: 1002
+    _Sort: 11
+    _Commodity:
+    - 73029
+    - 1
+    _Cost:
+    - 6003
+    - 1200
+    _BuyMax: 1
+    _Unlock: 10
+    _Rate: 2000
+    _Type: 2
+  - _Id: 2045
+    _Note: 玛雅金字塔[碎片]
+    _ShopId: 1002
+    _Sort: 10
+    _Commodity:
+    - 73033
+    - 1
+    _Cost:
+    - 6003
+    - 1200
+    _BuyMax: 1
+    _Unlock: 10
+    _Rate: 2000
+    _Type: 2
+  - _Id: 2046
+    _Note: 玛雅雕塑[碎片]
+    _ShopId: 1002
+    _Sort: 9
+    _Commodity:
+    - 73034
+    - 1
+    _Cost:
+    - 6003
+    - 1200
+    _BuyMax: 1
+    _Unlock: 10
+    _Rate: 2000
+    _Type: 2
+  - _Id: 2047
+    _Note: 玛雅符号[碎片]
+    _ShopId: 1002
+    _Sort: 8
+    _Commodity:
+    - 73035
+    - 1
+    _Cost:
+    - 6003
+    - 1200
+    _BuyMax: 1
+    _Unlock: 10
+    _Rate: 2000
+    _Type: 2
+  - _Id: 2048
+    _Note: 玛雅水晶头颅[碎片]
+    _ShopId: 1002
+    _Sort: 7
+    _Commodity:
+    - 73036
+    - 1
+    _Cost:
+    - 6003
+    - 1200
+    _BuyMax: 1
+    _Unlock: 10
+    _Rate: 2000
+    _Type: 2
+  - _Id: 2049
+    _Note: 战车发动机[碎片]
+    _ShopId: 1002
+    _Sort: 6
+    _Commodity:
+    - 74002
+    - 1
+    _Cost:
+    - 6003
+    - 2000
+    _BuyMax: 1
+    _Unlock: 5
+    _Rate: 10000
+    _Type: 2
+  - _Id: 2050
+    _Note: 末日音响[碎片]
+    _ShopId: 1002
+    _Sort: 5
+    _Commodity:
+    - 74004
+    - 1
+    _Cost:
+    - 6003
+    - 2000
+    _BuyMax: 1
+    _Unlock: 5
+    _Rate: 10000
+    _Type: 2
+  - _Id: 2051
+    _Note: 火焰喷射器[碎片]
+    _ShopId: 1002
+    _Sort: 4
+    _Commodity:
+    - 74005
+    - 1
+    _Cost:
+    - 6003
+    - 2000
+    _BuyMax: 1
+    _Unlock: 5
+    _Rate: 5000
+    _Type: 2
+  - _Id: 2052
+    _Note: 生存装甲[碎片]
+    _ShopId: 1002
+    _Sort: 3
+    _Commodity:
+    - 74006
+    - 1
+    _Cost:
+    - 6003
+    - 2000
+    _BuyMax: 1
+    _Unlock: 5
+    _Rate: 10000
+    _Type: 2
+  - _Id: 2053
+    _Note: 生存之盾[碎片]
+    _ShopId: 1002
+    _Sort: 2
+    _Commodity:
+    - 74007
+    - 1
+    _Cost:
+    - 6003
+    - 2000
+    _BuyMax: 1
+    _Unlock: 5
+    _Rate: 10000
+    _Type: 2
+  - _Id: 2054
+    _Note: 死神之锤[碎片]
+    _ShopId: 1002
+    _Sort: 1
+    _Commodity:
+    - 74008
+    - 1
+    _Cost:
+    - 6003
+    - 2000
+    _BuyMax: 1
+    _Unlock: 5
+    _Rate: 5000
+    _Type: 2
+  - _Id: 2055
+    _Note: 灾变手套[碎片]
+    _ShopId: 1002
+    _Sort: 1
+    _Commodity:
+    - 74009
+    - 1
+    _Cost:
+    - 6003
+    - 2000
+    _BuyMax: 1
+    _Unlock: 5
+    _Rate: 5000
+    _Type: 2
+  - _Id: 2056
+    _Note: 天网[碎片]
+    _ShopId: 1002
+    _Sort: 1
+    _Commodity:
+    - 74010
+    - 1
+    _Cost:
+    - 6003
+    - 2000
+    _BuyMax: 1
+    _Unlock: 5
+    _Rate: 5000
+    _Type: 2
+  - _Id: 2057
+    _Note: 时空转移装置[碎片]
+    _ShopId: 1002
+    _Sort: 1
+    _Commodity:
+    - 74011
+    - 1
+    _Cost:
+    - 6003
+    - 2000
+    _BuyMax: 1
+    _Unlock: 5
+    _Rate: 5000
+    _Type: 2
+  - _Id: 2058
+    _Note: T8CPU[碎片]
+    _ShopId: 1002
+    _Sort: 1
+    _Commodity:
+    - 74012
+    - 1
+    _Cost:
+    - 6003
+    - 2000
+    _BuyMax: 1
+    _Unlock: 5
+    _Rate: 10000
+    _Type: 2
+  - _Id: 2059
+    _Note: 核反应堆[碎片]
+    _ShopId: 1002
+    _Sort: 1
+    _Commodity:
+    - 74014
+    - 1
+    _Cost:
+    - 6003
+    - 2000
+    _BuyMax: 1
+    _Unlock: 5
+    _Rate: 2000
+    _Type: 2
+  - _Id: 2060
+    _Note: 神经Drift系统[碎片]
+    _ShopId: 1002
+    _Sort: 1
+    _Commodity:
+    - 74015
+    - 1
+    _Cost:
+    - 6003
+    - 2000
+    _BuyMax: 1
+    _Unlock: 5
+    _Rate: 10000
+    _Type: 2
+  - _Id: 2061
+    _Note: 机甲导弹[碎片]
+    _ShopId: 1002
+    _Sort: 1
+    _Commodity:
+    - 74016
+    - 1
+    _Cost:
+    - 6003
+    - 2000
+    _BuyMax: 1
+    _Unlock: 5
+    _Rate: 10000
+    _Type: 2
+  - _Id: 2062
+    _Note: 蒙娜丽莎[碎片]
+    _ShopId: 1002
+    _Sort: 1
+    _Commodity:
+    - 74017
+    - 1
+    _Cost:
+    - 6003
+    - 2000
+    _BuyMax: 1
+    _Unlock: 8
+    _Rate: 1000
+    _Type: 2
+  - _Id: 2063
+    _Note: 星空[碎片]
+    _ShopId: 1002
+    _Sort: 1
+    _Commodity:
+    - 74018
+    - 1
+    _Cost:
+    - 6003
+    - 2000
+    _BuyMax: 1
+    _Unlock: 8
+    _Rate: 1000
+    _Type: 2
+  - _Id: 2064
+    _Note: 向日葵[碎片]
+    _ShopId: 1002
+    _Sort: 1
+    _Commodity:
+    - 74019
+    - 1
+    _Cost:
+    - 6003
+    - 2000
+    _BuyMax: 1
+    _Unlock: 8
+    _Rate: 1000
+    _Type: 2
+  - _Id: 2065
+    _Note: 清明上河图[碎片]
+    _ShopId: 1002
+    _Sort: 1
+    _Commodity:
+    - 74020
+    - 1
+    _Cost:
+    - 6003
+    - 2000
+    _BuyMax: 1
+    _Unlock: 8
+    _Rate: 1000
+    _Type: 2
+  - _Id: 2066
+    _Note: 宙斯权杖[碎片]
+    _ShopId: 1002
+    _Sort: 1
+    _Commodity:
+    - 74021
+    - 1
+    _Cost:
+    - 6003
+    - 2000
+    _BuyMax: 1
+    _Unlock: 8
+    _Rate: 1000
+    _Type: 2
+  - _Id: 2067
+    _Note: 爱神之箭[碎片]
+    _ShopId: 1002
+    _Sort: 1
+    _Commodity:
+    - 74022
+    - 1
+    _Cost:
+    - 6003
+    - 2000
+    _BuyMax: 1
+    _Unlock: 8
+    _Rate: 1000
+    _Type: 2
+  - _Id: 2068
+    _Note: 埃癸斯盾[碎片]
+    _ShopId: 1002
+    _Sort: 1
+    _Commodity:
+    - 74023
+    - 1
+    _Cost:
+    - 6003
+    - 2000
+    _BuyMax: 1
+    _Unlock: 8
+    _Rate: 1000
+    _Type: 2
+  - _Id: 2069
+    _Note: 三叉戟[碎片]
+    _ShopId: 1002
+    _Sort: 1
+    _Commodity:
+    - 74024
+    - 1
+    _Cost:
+    - 6003
+    - 2000
+    _BuyMax: 1
+    _Unlock: 8
+    _Rate: 1000
+    _Type: 2
+  - _Id: 2070
+    _Note: 原力光剑[碎片]
+    _ShopId: 1002
+    _Sort: 1
+    _Commodity:
+    - 85001
+    - 5
+    _Cost:
+    - 6003
+    - 3000
+    _BuyMax: 1
+    _Unlock: 12
+    _Rate: 2000
+    _Type: 2
+  - _Id: 2071
+    _Note: 黑武士头盔[碎片]
+    _ShopId: 1002
+    _Sort: 1
+    _Commodity:
+    - 85002
+    - 5
+    _Cost:
+    - 6003
+    - 3000
+    _BuyMax: 1
+    _Unlock: 12
+    _Rate: 2000
+    _Type: 2
+  - _Id: 2072
+    _Note: 矩阵墨镜[碎片]
+    _ShopId: 1002
+    _Sort: 1
+    _Commodity:
+    - 85003
+    - 5
+    _Cost:
+    - 6003
+    - 3000
+    _BuyMax: 1
+    _Unlock: 12
+    _Rate: 2000
+    _Type: 2
+  - _Id: 2073
+    _Note: 红蓝药丸[碎片]
+    _ShopId: 1002
+    _Sort: 1
+    _Commodity:
+    - 85004
+    - 5
+    _Cost:
+    - 6003
+    - 3000
+    _BuyMax: 1
+    _Unlock: 12
+    _Rate: 2000
+    _Type: 2
+  - _Id: 3001
+    _Note:
+    _ShopId: 1003
+    _Sort: 1
+    _Commodity:
+    - 1000101
+    - 2
+    _Cost:
+    - 1001001
+    - 40
+    _BuyMax: 1
+    _Unlock: 0
+    _Rate: 1000
+    _Type: 2
+  - _Id: 3002
+    _Note:
+    _ShopId: 1003
+    _Sort: 1
+    _Commodity:
+    - 1000102
+    - 1
+    _Cost:
+    - 1001001
+    - 100
+    _BuyMax: 1
+    _Unlock: 0
+    _Rate: 1000
+    _Type: 3
+  - _Id: 3003
+    _Note:
+    _ShopId: 1003
+    _Sort: 1
+    _Commodity:
+    - 1000103
+    - 1
+    _Cost:
+    - 1001001
+    - 100
+    _BuyMax: 1
+    _Unlock: 0
+    _Rate: 1000
+    _Type: 3
+  - _Id: 3004
+    _Note:
+    _ShopId: 1003
+    _Sort: 1
+    _Commodity:
+    - 1000104
+    - 1
+    _Cost:
+    - 1001001
+    - 100
+    _BuyMax: 1
+    _Unlock: 0
+    _Rate: 1000
+    _Type: 3
+  - _Id: 3005
+    _Note:
+    _ShopId: 1003
+    _Sort: 1
+    _Commodity:
+    - 1000105
+    - 1
+    _Cost:
+    - 1001001
+    - 100
+    _BuyMax: 1
+    _Unlock: 0
+    _Rate: 1000
+    _Type: 3
+  - _Id: 3006
+    _Note:
+    _ShopId: 1003
+    _Sort: 1
+    _Commodity:
+    - 1000106
+    - 1
+    _Cost:
+    - 1001001
+    - 100
+    _BuyMax: 1
+    _Unlock: 0
+    _Rate: 1000
+    _Type: 3
+  - _Id: 3007
+    _Note:
+    _ShopId: 1003
+    _Sort: 1
+    _Commodity:
+    - 1000107
+    - 1
+    _Cost:
+    - 1001001
+    - 100
+    _BuyMax: 1
+    _Unlock: 0
+    _Rate: 1000
+    _Type: 3
+  - _Id: 3008
+    _Note:
+    _ShopId: 1003
+    _Sort: 1
+    _Commodity:
+    - 1000102
+    - 4
+    _Cost:
+    - 1001001
+    - 400
+    _BuyMax: 1
+    _Unlock: 0
+    _Rate: 25
+    _Type: 4
+  - _Id: 3009
+    _Note:
+    _ShopId: 1003
+    _Sort: 1
+    _Commodity:
+    - 1000103
+    - 4
+    _Cost:
+    - 1001001
+    - 400
+    _BuyMax: 1
+    _Unlock: 0
+    _Rate: 25
+    _Type: 4
+  - _Id: 3010
+    _Note:
+    _ShopId: 1003
+    _Sort: 1
+    _Commodity:
+    - 1000104
+    - 4
+    _Cost:
+    - 1001001
+    - 400
+    _BuyMax: 1
+    _Unlock: 0
+    _Rate: 25
+    _Type: 4
+  - _Id: 3011
+    _Note:
+    _ShopId: 1003
+    _Sort: 1
+    _Commodity:
+    - 1000105
+    - 4
+    _Cost:
+    - 1001001
+    - 400
+    _BuyMax: 1
+    _Unlock: 0
+    _Rate: 25
+    _Type: 4
+  - _Id: 3012
+    _Note:
+    _ShopId: 1003
+    _Sort: 1
+    _Commodity:
+    - 1000106
+    - 4
+    _Cost:
+    - 1001001
+    - 400
+    _BuyMax: 1
+    _Unlock: 0
+    _Rate: 25
+    _Type: 4
+  - _Id: 3013
+    _Note:
+    _ShopId: 1003
+    _Sort: 1
+    _Commodity:
+    - 1000107
+    - 4
+    _Cost:
+    - 1001001
+    - 400
+    _BuyMax: 1
+    _Unlock: 0
+    _Rate: 25
+    _Type: 4
+  - _Id: 3014
+    _Note:
+    _ShopId: 1003
+    _Sort: 1
+    _Commodity:
+    - 1000102
+    - 2
+    _Cost:
+    - 1001001
+    - 200
+    _BuyMax: 1
+    _Unlock: 0
+    _Rate: 50
+    _Type: 4
+  - _Id: 3015
+    _Note:
+    _ShopId: 1003
+    _Sort: 1
+    _Commodity:
+    - 1000103
+    - 2
+    _Cost:
+    - 1001001
+    - 200
+    _BuyMax: 1
+    _Unlock: 0
+    _Rate: 50
+    _Type: 4
+  - _Id: 3016
+    _Note:
+    _ShopId: 1003
+    _Sort: 1
+    _Commodity:
+    - 1000104
+    - 2
+    _Cost:
+    - 1001001
+    - 200
+    _BuyMax: 1
+    _Unlock: 0
+    _Rate: 50
+    _Type: 4
+  - _Id: 3017
+    _Note:
+    _ShopId: 1003
+    _Sort: 1
+    _Commodity:
+    - 1000105
+    - 2
+    _Cost:
+    - 1001001
+    - 200
+    _BuyMax: 1
+    _Unlock: 0
+    _Rate: 50
+    _Type: 4
+  - _Id: 3018
+    _Note:
+    _ShopId: 1003
+    _Sort: 1
+    _Commodity:
+    - 1000106
+    - 2
+    _Cost:
+    - 1001001
+    - 200
+    _BuyMax: 1
+    _Unlock: 0
+    _Rate: 50
+    _Type: 4
+  - _Id: 3019
+    _Note:
+    _ShopId: 1003
+    _Sort: 1
+    _Commodity:
+    - 1000107
+    - 2
+    _Cost:
+    - 1001001
+    - 200
+    _BuyMax: 1
+    _Unlock: 0
+    _Rate: 50
+    _Type: 4

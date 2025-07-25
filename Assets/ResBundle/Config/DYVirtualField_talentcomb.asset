@@ -1,0 +1,405 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71f2784efc41894dcfd92c293c995f37, type: 3}
+  m_Name: DYVirtualField_talentcomb
+  m_EditorClassIdentifier:
+  _Items:
+  - _Id: 1010
+    _Note: 【1】攻击
+    _Layers: 1
+    _TalentgroupID: 1010
+    _Grade: 0
+  - _Id: 1021
+    _Note: 【1】步枪攻击
+    _Layers: 1
+    _TalentgroupID: 1021
+    _Grade: 0
+  - _Id: 1022
+    _Note: 【1】重机枪攻击
+    _Layers: 1
+    _TalentgroupID: 1022
+    _Grade: 0
+  - _Id: 1023
+    _Note: 【1】霰弹枪攻击
+    _Layers: 1
+    _TalentgroupID: 1023
+    _Grade: 0
+  - _Id: 1024
+    _Note: 【1】弩箭攻击
+    _Layers: 1
+    _TalentgroupID: 1024
+    _Grade: 0
+  - _Id: 1025
+    _Note: 【1】火箭炮攻击
+    _Layers: 1
+    _TalentgroupID: 1025
+    _Grade: 0
+  - _Id: 1026
+    _Note: 【1】狙击枪攻击
+    _Layers: 1
+    _TalentgroupID: 1026
+    _Grade: 0
+  - _Id: 2010
+    _Note: 【2】跳20波
+    _Layers: 2
+    _TalentgroupID: 2010
+    _Grade: 0
+  - _Id: 2020
+    _Note: 【2】跳60波
+    _Layers: 2
+    _TalentgroupID: 2020
+    _Grade: 0
+  - _Id: 2030
+    _Note: 【2】跳100波
+    _Layers: 2
+    _TalentgroupID: 2030
+    _Grade: 0
+  - _Id: 3010
+    _Note: 【3】攻击%
+    _Layers: 3
+    _TalentgroupID: 3010
+    _Grade: 6
+  - _Id: 4010
+    _Note: 【4】跳波40
+    _Layers: 4
+    _TalentgroupID: 4010
+    _Grade: 11
+  - _Id: 4020
+    _Note: 【4】跳波90
+    _Layers: 4
+    _TalentgroupID: 4020
+    _Grade: 11
+  - _Id: 4030
+    _Note: 【4】跳波140
+    _Layers: 4
+    _TalentgroupID: 4030
+    _Grade: 11
+  - _Id: 5010
+    _Note: 【5】攻击
+    _Layers: 5
+    _TalentgroupID: 5010
+    _Grade: 12
+  - _Id: 5021
+    _Note: 【5】步枪攻击
+    _Layers: 5
+    _TalentgroupID: 5021
+    _Grade: 12
+  - _Id: 5022
+    _Note: 【5】重机枪攻击
+    _Layers: 5
+    _TalentgroupID: 5022
+    _Grade: 12
+  - _Id: 5023
+    _Note: 【5】霰弹枪攻击
+    _Layers: 5
+    _TalentgroupID: 5023
+    _Grade: 12
+  - _Id: 5024
+    _Note: 【5】弩箭攻击
+    _Layers: 5
+    _TalentgroupID: 5024
+    _Grade: 12
+  - _Id: 5025
+    _Note: 【5】火箭炮攻击
+    _Layers: 5
+    _TalentgroupID: 5025
+    _Grade: 12
+  - _Id: 5026
+    _Note: 【5】狙击枪攻击
+    _Layers: 5
+    _TalentgroupID: 5026
+    _Grade: 12
+  - _Id: 6010
+    _Note: 【6】得分+1
+    _Layers: 6
+    _TalentgroupID: 6010
+    _Grade: 17
+  - _Id: 6020
+    _Note: 【6】跳波60
+    _Layers: 6
+    _TalentgroupID: 6020
+    _Grade: 17
+  - _Id: 6030
+    _Note: 【6】跳波180
+    _Layers: 6
+    _TalentgroupID: 6030
+    _Grade: 17
+  - _Id: 7010
+    _Note: 【7】攻击%
+    _Layers: 7
+    _TalentgroupID: 7010
+    _Grade: 19
+  - _Id: 8010
+    _Note: 【8】得分+1
+    _Layers: 8
+    _TalentgroupID: 8010
+    _Grade: 24
+  - _Id: 8020
+    _Note: 【8】跳波80
+    _Layers: 8
+    _TalentgroupID: 8020
+    _Grade: 24
+  - _Id: 8030
+    _Note: 【8】跳波220
+    _Layers: 8
+    _TalentgroupID: 8030
+    _Grade: 24
+  - _Id: 9010
+    _Note: 【9】攻击
+    _Layers: 9
+    _TalentgroupID: 9010
+    _Grade: 26
+  - _Id: 9021
+    _Note: 【9】步枪攻击
+    _Layers: 9
+    _TalentgroupID: 9021
+    _Grade: 26
+  - _Id: 9022
+    _Note: 【9】重机枪攻击
+    _Layers: 9
+    _TalentgroupID: 9022
+    _Grade: 26
+  - _Id: 9023
+    _Note: 【9】霰弹枪攻击
+    _Layers: 9
+    _TalentgroupID: 9023
+    _Grade: 26
+  - _Id: 9024
+    _Note: 【9】弩箭攻击
+    _Layers: 9
+    _TalentgroupID: 9024
+    _Grade: 26
+  - _Id: 9025
+    _Note: 【9】火箭炮攻击
+    _Layers: 9
+    _TalentgroupID: 9025
+    _Grade: 26
+  - _Id: 9026
+    _Note: 【9】狙击枪攻击
+    _Layers: 9
+    _TalentgroupID: 9026
+    _Grade: 26
+  - _Id: 10010
+    _Note: 【10】得分+1
+    _Layers: 10
+    _TalentgroupID: 10010
+    _Grade: 31
+  - _Id: 10020
+    _Note: 【10】跳波100
+    _Layers: 10
+    _TalentgroupID: 10020
+    _Grade: 31
+  - _Id: 10030
+    _Note: 【10】跳波260
+    _Layers: 10
+    _TalentgroupID: 10030
+    _Grade: 31
+  - _Id: 11010
+    _Note: 【11】攻击%
+    _Layers: 11
+    _TalentgroupID: 11010
+    _Grade: 33
+  - _Id: 11021
+    _Note: 【11】步枪攻击
+    _Layers: 11
+    _TalentgroupID: 11021
+    _Grade: 33
+  - _Id: 11022
+    _Note: 【11】重机枪攻击
+    _Layers: 11
+    _TalentgroupID: 11022
+    _Grade: 33
+  - _Id: 11023
+    _Note: 【11】霰弹枪攻击
+    _Layers: 11
+    _TalentgroupID: 11023
+    _Grade: 33
+  - _Id: 11024
+    _Note: 【11】弩箭攻击
+    _Layers: 11
+    _TalentgroupID: 11024
+    _Grade: 33
+  - _Id: 11025
+    _Note: 【11】火箭炮攻击
+    _Layers: 11
+    _TalentgroupID: 11025
+    _Grade: 33
+  - _Id: 11026
+    _Note: 【11】狙击枪攻击
+    _Layers: 11
+    _TalentgroupID: 11026
+    _Grade: 33
+  - _Id: 12010
+    _Note: 【12】攻击%
+    _Layers: 12
+    _TalentgroupID: 12010
+    _Grade: 38
+  - _Id: 13010
+    _Note: 【13】得分+1
+    _Layers: 13
+    _TalentgroupID: 13010
+    _Grade: 43
+  - _Id: 13020
+    _Note: 【13】跳波120
+    _Layers: 13
+    _TalentgroupID: 13020
+    _Grade: 43
+  - _Id: 14010
+    _Note: 【14】攻击
+    _Layers: 14
+    _TalentgroupID: 14010
+    _Grade: 45
+  - _Id: 14021
+    _Note: 【14】步枪攻击
+    _Layers: 14
+    _TalentgroupID: 14021
+    _Grade: 45
+  - _Id: 14022
+    _Note: 【14】重机枪攻击
+    _Layers: 14
+    _TalentgroupID: 14022
+    _Grade: 45
+  - _Id: 14023
+    _Note: 【14】霰弹枪攻击
+    _Layers: 14
+    _TalentgroupID: 14023
+    _Grade: 45
+  - _Id: 14024
+    _Note: 【14】弩箭攻击
+    _Layers: 14
+    _TalentgroupID: 14024
+    _Grade: 45
+  - _Id: 14025
+    _Note: 【14】火箭炮攻击
+    _Layers: 14
+    _TalentgroupID: 14025
+    _Grade: 45
+  - _Id: 14026
+    _Note: 【14】狙击枪攻击
+    _Layers: 14
+    _TalentgroupID: 14026
+    _Grade: 45
+  - _Id: 15010
+    _Note: 【15】攻击%
+    _Layers: 15
+    _TalentgroupID: 15010
+    _Grade: 50
+  - _Id: 16010
+    _Note: 【16】得分+1
+    _Layers: 16
+    _TalentgroupID: 16010
+    _Grade: 55
+  - _Id: 16020
+    _Note: 【16】跳波140
+    _Layers: 16
+    _TalentgroupID: 16020
+    _Grade: 55
+  - _Id: 17010
+    _Note: 【17】攻击
+    _Layers: 17
+    _TalentgroupID: 17010
+    _Grade: 57
+  - _Id: 17021
+    _Note: 【17】步枪攻击
+    _Layers: 17
+    _TalentgroupID: 17021
+    _Grade: 57
+  - _Id: 17022
+    _Note: 【17】重机枪攻击
+    _Layers: 17
+    _TalentgroupID: 17022
+    _Grade: 57
+  - _Id: 17023
+    _Note: 【17】霰弹枪攻击
+    _Layers: 17
+    _TalentgroupID: 17023
+    _Grade: 57
+  - _Id: 17024
+    _Note: 【17】弩箭攻击
+    _Layers: 17
+    _TalentgroupID: 17024
+    _Grade: 57
+  - _Id: 17025
+    _Note: 【17】火箭炮攻击
+    _Layers: 17
+    _TalentgroupID: 17025
+    _Grade: 57
+  - _Id: 17026
+    _Note: 【17】狙击枪攻击
+    _Layers: 17
+    _TalentgroupID: 17026
+    _Grade: 57
+  - _Id: 18010
+    _Note: 【18】攻击%
+    _Layers: 18
+    _TalentgroupID: 18010
+    _Grade: 62
+  - _Id: 19010
+    _Note: 【19】得分+1
+    _Layers: 19
+    _TalentgroupID: 19010
+    _Grade: 67
+  - _Id: 19020
+    _Note: 【19】跳波140
+    _Layers: 19
+    _TalentgroupID: 19020
+    _Grade: 67
+  - _Id: 20010
+    _Note: 【20】攻击
+    _Layers: 20
+    _TalentgroupID: 20010
+    _Grade: 69
+  - _Id: 20021
+    _Note: 【20】步枪攻击
+    _Layers: 20
+    _TalentgroupID: 20021
+    _Grade: 69
+  - _Id: 20022
+    _Note: 【20】重机枪攻击
+    _Layers: 20
+    _TalentgroupID: 20022
+    _Grade: 69
+  - _Id: 20023
+    _Note: 【20】霰弹枪攻击
+    _Layers: 20
+    _TalentgroupID: 20023
+    _Grade: 69
+  - _Id: 20024
+    _Note: 【20】弩箭攻击
+    _Layers: 20
+    _TalentgroupID: 20024
+    _Grade: 69
+  - _Id: 20025
+    _Note: 【20】火箭炮攻击
+    _Layers: 20
+    _TalentgroupID: 20025
+    _Grade: 69
+  - _Id: 20026
+    _Note: 【20】狙击枪攻击
+    _Layers: 20
+    _TalentgroupID: 20026
+    _Grade: 69
+  - _Id: 21010
+    _Note: 【21】攻击%
+    _Layers: 21
+    _TalentgroupID: 21010
+    _Grade: 74
+  - _Id: 22010
+    _Note: 【22】得分+1
+    _Layers: 22
+    _TalentgroupID: 22010
+    _Grade: 79
+  - _Id: 22020
+    _Note: 【22】跳波140
+    _Layers: 22
+    _TalentgroupID: 22020
+    _Grade: 79

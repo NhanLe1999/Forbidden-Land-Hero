@@ -1,0 +1,406 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 293d516b255d26622b9c0172c02ba62b, type: 3}
+  m_Name: DYEvent_Treasure_modules
+  m_EditorClassIdentifier:
+  _Items:
+  - _Id: 1
+    _Note: 【层数层】楼梯保底5次出
+    _Obstacle: 2
+    _Param:
+    - 5
+    - 4
+    - 6
+    - 101
+    _ParamNum:
+    - 1
+    - 1
+    - 5
+    - 20
+    _Rate:
+    - 700
+    - 300
+    - 1780
+    - 7220
+    _Limit1:
+    - 5
+    - 1
+    - 5
+    _Limit2:
+    - 4
+    - 6
+    - 24
+  - _Id: 2
+    _Note: 【层数层】炸弹保底5次出
+    _Obstacle: 2
+    _Param:
+    - 5
+    - 4
+    - 6
+    - 101
+    _ParamNum:
+    - 1
+    - 1
+    - 5
+    - 20
+    _Rate:
+    - 700
+    - 300
+    - 1780
+    - 7220
+    _Limit1:
+    - 5
+    - 6
+    - 20
+    _Limit2:
+    - 4
+    - 1
+    - 5
+  - _Id: 101
+    _Note: 【普通层】1阻碍
+    _Obstacle: 1
+    _Param:
+    - 5
+    - 4
+    - 6
+    - 101
+    _ParamNum:
+    - 1
+    - 1
+    - 5
+    - 21
+    _Rate:
+    - 700
+    - 300
+    - 1780
+    - 7220
+    _Limit1:
+    - 5
+    - 1
+    - 20
+    _Limit2:
+    - 4
+    - 3
+    - 24
+  - _Id: 102
+    _Note: 【普通层】2阻碍
+    _Obstacle: 2
+    _Param:
+    - 5
+    - 4
+    - 6
+    - 101
+    _ParamNum:
+    - 1
+    - 1
+    - 5
+    - 20
+    _Rate:
+    - 700
+    - 300
+    - 1780
+    - 7220
+    _Limit1:
+    - 5
+    - 1
+    - 20
+    _Limit2:
+    - 4
+    - 3
+    - 24
+  - _Id: 103
+    _Note: 【普通层】3阻碍
+    _Obstacle: 3
+    _Param:
+    - 5
+    - 4
+    - 6
+    - 101
+    _ParamNum:
+    - 1
+    - 1
+    - 5
+    - 19
+    _Rate:
+    - 700
+    - 300
+    - 1780
+    - 7220
+    _Limit1:
+    - 5
+    - 1
+    - 20
+    _Limit2:
+    - 4
+    - 3
+    - 24
+  - _Id: 201
+    _Note: 【大奖层】常规
+    _Obstacle: 2
+    _Param:
+    - 5
+    - 4
+    - 6
+    - 101
+    - 201
+    _ParamNum:
+    - 1
+    - 1
+    - 5
+    - 19
+    - 1
+    _Rate:
+    - 700
+    - 300
+    - 1780
+    - 6920
+    - 300
+    _Limit1:
+    - 5
+    - 1
+    - 20
+    _Limit2:
+    - 4
+    - 3
+    - 24
+  - _Id: 202
+    _Note: 【大奖层】寻宝矿镐*10
+    _Obstacle: 2
+    _Param:
+    - 5
+    - 4
+    - 6
+    - 101
+    - 201
+    _ParamNum:
+    - 1
+    - 1
+    - 5
+    - 19
+    - 1
+    _Rate:
+    - 700
+    - 300
+    - 1780
+    - 6920
+    - 300
+    _Limit1:
+    - 5
+    - 1
+    - 20
+    _Limit2:
+    - 4
+    - 3
+    - 24
+  - _Id: 203
+    _Note: 【大奖层】寻宝矿镐*40
+    _Obstacle: 2
+    _Param:
+    - 5
+    - 4
+    - 6
+    - 101
+    - 201
+    _ParamNum:
+    - 1
+    - 1
+    - 5
+    - 19
+    - 1
+    _Rate:
+    - 700
+    - 300
+    - 1780
+    - 6920
+    - 300
+    _Limit1:
+    - 5
+    - 1
+    - 20
+    _Limit2:
+    - 4
+    - 3
+    - 24
+  - _Id: 204
+    _Note: 【大奖层】矿脉晶石*1000
+    _Obstacle: 2
+    _Param:
+    - 5
+    - 4
+    - 6
+    - 101
+    - 201
+    _ParamNum:
+    - 1
+    - 1
+    - 5
+    - 19
+    - 1
+    _Rate:
+    - 700
+    - 300
+    - 1780
+    - 6920
+    - 300
+    _Limit1:
+    - 5
+    - 1
+    - 20
+    _Limit2:
+    - 4
+    - 3
+    - 24
+  - _Id: 205
+    _Note: 【大奖层】脑部植入体*1
+    _Obstacle: 2
+    _Param:
+    - 5
+    - 4
+    - 6
+    - 101
+    - 201
+    _ParamNum:
+    - 1
+    - 1
+    - 5
+    - 19
+    - 1
+    _Rate:
+    - 700
+    - 300
+    - 1780
+    - 6920
+    - 300
+    _Limit1:
+    - 5
+    - 1
+    - 20
+    _Limit2:
+    - 4
+    - 3
+    - 24
+  - _Id: 301
+    _Note: 【拍脸层】1$
+    _Obstacle: 2
+    _Param:
+    - 5
+    - 4
+    - 6
+    - 101
+    - 301
+    _ParamNum:
+    - 1
+    - 1
+    - 5
+    - 19
+    - 1
+    _Rate:
+    - 700
+    - 300
+    - 1780
+    - 4720
+    - 2500
+    _Limit1:
+    - 5
+    - 1
+    - 20
+    _Limit2:
+    - 4
+    - 3
+    - 24
+  - _Id: 302
+    _Note: 【拍脸层】5$
+    _Obstacle: 2
+    _Param:
+    - 5
+    - 4
+    - 6
+    - 101
+    - 302
+    _ParamNum:
+    - 1
+    - 1
+    - 5
+    - 19
+    - 1
+    _Rate:
+    - 700
+    - 300
+    - 1780
+    - 4720
+    - 2500
+    _Limit1:
+    - 5
+    - 1
+    - 20
+    _Limit2:
+    - 4
+    - 3
+    - 24
+  - _Id: 303
+    _Note: 【拍脸层】20$
+    _Obstacle: 2
+    _Param:
+    - 5
+    - 4
+    - 6
+    - 101
+    - 303
+    _ParamNum:
+    - 1
+    - 1
+    - 5
+    - 19
+    - 1
+    _Rate:
+    - 700
+    - 300
+    - 1780
+    - 4720
+    - 2500
+    _Limit1:
+    - 5
+    - 1
+    - 20
+    _Limit2:
+    - 4
+    - 3
+    - 24
+  - _Id: 304
+    _Note: 【拍脸层】50$
+    _Obstacle: 2
+    _Param:
+    - 5
+    - 4
+    - 6
+    - 101
+    - 304
+    _ParamNum:
+    - 1
+    - 1
+    - 5
+    - 19
+    - 1
+    _Rate:
+    - 700
+    - 300
+    - 1780
+    - 4720
+    - 2500
+    _Limit1:
+    - 5
+    - 1
+    - 20
+    _Limit2:
+    - 4
+    - 3
+    - 24

@@ -1,0 +1,4708 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77a7475c2d922f6e16cde512b82aeb04, type: 3}
+  m_Name: DYVirtualField_wave
+  m_EditorClassIdentifier:
+  _Items:
+  - _Id: 1
+    _WaveID:
+    - 500001
+    - 500002
+    _Triger1: 5
+    _Triger2: 15
+    _Loop: 0
+    _Hp: 0
+    _Exp: 100
+    _Hpmonster: 50
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 5000
+  - _Id: 2
+    _WaveID:
+    - 500003
+    - 500004
+    _Triger1: 5
+    _Triger2: 15
+    _Loop: 0
+    _Hp: 0
+    _Exp: 150
+    _Hpmonster: 81
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 6000
+  - _Id: 3
+    _WaveID:
+    - 500005
+    - 500006
+    _Triger1: 5
+    _Triger2: 15
+    _Loop: 0
+    _Hp: 0
+    _Exp: 253
+    _Hpmonster: 119
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 7000
+  - _Id: 4
+    _WaveID:
+    - 500007
+    - 500008
+    _Triger1: 5
+    _Triger2: 15
+    _Loop: 0
+    _Hp: 0
+    _Exp: 400
+    _Hpmonster: 164
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 8000
+  - _Id: 5
+    _WaveID:
+    - 500009
+    - 500010
+    - 500011
+    _Triger1: 10
+    _Triger2: 15
+    _Loop: 0
+    _Hp: 0
+    _Exp: 580
+    _Hpmonster: 216
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 9000
+  - _Id: 6
+    _WaveID:
+    - 500012
+    - 500013
+    _Triger1: 5
+    _Triger2: 15
+    _Loop: 0
+    _Hp: 0
+    _Exp: 680
+    _Hpmonster: 275
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 10000
+  - _Id: 7
+    _WaveID:
+    - 500014
+    - 500015
+    _Triger1: 5
+    _Triger2: 15
+    _Loop: 0
+    _Hp: 0
+    _Exp: 800
+    _Hpmonster: 341
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 11000
+  - _Id: 8
+    _WaveID:
+    - 500016
+    - 500017
+    _Triger1: 5
+    _Triger2: 15
+    _Loop: 0
+    _Hp: 0
+    _Exp: 920
+    _Hpmonster: 414
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 12000
+  - _Id: 9
+    _WaveID:
+    - 500018
+    - 500019
+    _Triger1: 5
+    _Triger2: 15
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1040
+    _Hpmonster: 494
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 13000
+  - _Id: 10
+    _WaveID:
+    - 500020
+    - 500021
+    - 500022
+    _Triger1: 10
+    _Triger2: 15
+    _Loop: 0
+    _Hp: 0
+    _Exp: 600
+    _Hpmonster: 602
+    _Elitedrop: []
+    _Bossdrop:
+    - 6
+    - 1
+    _Power_ref: 14500
+  - _Id: 11
+    _WaveID:
+    - 500023
+    - 500024
+    _Triger1: 5
+    _Triger2: 15
+    _Loop: 0
+    _Hp: 0
+    _Exp: 600
+    _Hpmonster: 667
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 16000
+  - _Id: 12
+    _WaveID:
+    - 500025
+    - 500026
+    _Triger1: 5
+    _Triger2: 15
+    _Loop: 0
+    _Hp: 0
+    _Exp: 680
+    _Hpmonster: 795
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 17500
+  - _Id: 13
+    _WaveID:
+    - 500027
+    - 500028
+    _Triger1: 5
+    _Triger2: 15
+    _Loop: 0
+    _Hp: 0
+    _Exp: 680
+    _Hpmonster: 868
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 19000
+  - _Id: 14
+    _WaveID:
+    - 500029
+    - 500030
+    _Triger1: 5
+    _Triger2: 15
+    _Loop: 0
+    _Hp: 0
+    _Exp: 507
+    _Hpmonster: 1015
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 20500
+  - _Id: 15
+    _WaveID:
+    - 500031
+    - 500032
+    - 500033
+    _Triger1: 10
+    _Triger2: 15
+    _Loop: 0
+    _Hp: 0
+    _Exp: 507
+    _Hpmonster: 1119
+    _Elitedrop:
+    - 5
+    - 1
+    _Bossdrop: []
+    _Power_ref: 22500
+  - _Id: 16
+    _WaveID:
+    - 500034
+    - 500035
+    _Triger1: 5
+    _Triger2: 15
+    _Loop: 0
+    _Hp: 0
+    _Exp: 507
+    _Hpmonster: 1225
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 24500
+  - _Id: 17
+    _WaveID:
+    - 500036
+    - 500037
+    _Triger1: 5
+    _Triger2: 15
+    _Loop: 0
+    _Hp: 0
+    _Exp: 880
+    _Hpmonster: 1428
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 26500
+  - _Id: 18
+    _WaveID:
+    - 500038
+    - 500039
+    _Triger1: 5
+    _Triger2: 15
+    _Loop: 0
+    _Hp: 0
+    _Exp: 880
+    _Hpmonster: 1544
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 28500
+  - _Id: 19
+    _WaveID:
+    - 500040
+    - 500041
+    _Triger1: 5
+    _Triger2: 15
+    _Loop: 0
+    _Hp: 0
+    _Exp: 734
+    _Hpmonster: 1773
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 30500
+  - _Id: 20
+    _WaveID:
+    - 500042
+    - 500043
+    - 500044
+    _Triger1: 10
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 734
+    _Hpmonster: 2016
+    _Elitedrop: []
+    _Bossdrop:
+    - 6
+    - 1
+    _Power_ref: 34500
+  - _Id: 21
+    _WaveID:
+    - 500045
+    - 500046
+    - 500047
+    - 500048
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 734
+    _Hpmonster: 2202
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 37500
+  - _Id: 22
+    _WaveID:
+    - 500049
+    - 500050
+    - 500051
+    - 500052
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1320
+    _Hpmonster: 2542
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 40500
+  - _Id: 23
+    _WaveID:
+    - 500053
+    - 500054
+    - 500055
+    - 500056
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1320
+    _Hpmonster: 2745
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 43500
+  - _Id: 24
+    _WaveID:
+    - 500057
+    - 500058
+    - 500059
+    - 500060
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1027
+    _Hpmonster: 3250
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 46500
+  - _Id: 25
+    _WaveID:
+    - 500061
+    - 500062
+    - 500063
+    - 500064
+    - 500065
+    _Triger1: 10
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1027
+    _Hpmonster: 3689
+    _Elitedrop:
+    - 5
+    - 1
+    _Bossdrop: []
+    _Power_ref: 52500
+  - _Id: 26
+    _WaveID:
+    - 500066
+    - 500067
+    - 500068
+    - 500069
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1027
+    _Hpmonster: 4063
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 57500
+  - _Id: 27
+    _WaveID:
+    - 500070
+    - 500071
+    - 500072
+    - 500073
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1174
+    _Hpmonster: 4850
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 62500
+  - _Id: 28
+    _WaveID:
+    - 500074
+    - 500075
+    - 500076
+    - 500077
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1174
+    _Hpmonster: 5266
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 67500
+  - _Id: 29
+    _WaveID:
+    - 500078
+    - 500079
+    - 500080
+    - 500081
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1174
+    _Hpmonster: 5688
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 72500
+  - _Id: 30
+    _WaveID:
+    - 500082
+    - 500083
+    - 500084
+    - 500085
+    - 500086
+    _Triger1: 10
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1320
+    _Hpmonster: 7058
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 82500
+  - _Id: 31
+    _WaveID:
+    - 500087
+    - 500088
+    - 500089
+    - 500090
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1320
+    _Hpmonster: 7700
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 89500
+  - _Id: 32
+    _WaveID:
+    - 500091
+    - 500092
+    - 500093
+    - 500094
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1320
+    _Hpmonster: 8349
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 96500
+  - _Id: 33
+    _WaveID:
+    - 500095
+    - 500096
+    - 500097
+    - 500098
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1100
+    _Hpmonster: 9707
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 103500
+  - _Id: 34
+    _WaveID:
+    - 500099
+    - 500100
+    - 500101
+    - 500102
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1100
+    _Hpmonster: 10422
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 110500
+  - _Id: 35
+    _WaveID:
+    - 500107
+    - 500108
+    - 500109
+    - 500110
+    - 500111
+    - 500112
+    _Triger1: 10
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1100
+    _Hpmonster: 11810
+    _Elitedrop:
+    - 5
+    - 1
+    _Bossdrop: []
+    _Power_ref: 124500
+  - _Id: 36
+    _WaveID:
+    - 500113
+    - 500114
+    - 500115
+    - 500116
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1100
+    _Hpmonster: 12832
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 134500
+  - _Id: 37
+    _WaveID:
+    - 500121
+    - 500122
+    - 500123
+    - 500124
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1614
+    _Hpmonster: 14868
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 144500
+  - _Id: 38
+    _WaveID:
+    - 500125
+    - 500126
+    - 500127
+    - 500128
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1614
+    _Hpmonster: 15989
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 154500
+  - _Id: 39
+    _WaveID:
+    - 500129
+    - 500130
+    - 500131
+    - 500132
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1614
+    _Hpmonster: 17123
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 164500
+  - _Id: 40
+    _WaveID:
+    - 500133
+    - 500134
+    - 500135
+    - 500136
+    - 500137
+    _Triger1: 10
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1760
+    _Hpmonster: 20621
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 184500
+  - _Id: 41
+    _WaveID:
+    - 500138
+    - 500139
+    - 500140
+    - 500141
+    - 500142
+    - 500143
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1760
+    _Hpmonster: 22429
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 199500
+  - _Id: 42
+    _WaveID:
+    - 500144
+    - 500145
+    - 500146
+    - 500147
+    - 500148
+    - 500149
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1760
+    _Hpmonster: 24259
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 214500
+  - _Id: 43
+    _WaveID:
+    - 500150
+    - 500151
+    - 500152
+    - 500153
+    - 500154
+    - 500155
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1907
+    _Hpmonster: 27760
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 229500
+  - _Id: 44
+    _WaveID:
+    - 500156
+    - 500157
+    - 500158
+    - 500159
+    - 500160
+    - 500161
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1907
+    _Hpmonster: 29752
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 244500
+  - _Id: 45
+    _WaveID:
+    - 500168
+    - 500169
+    - 500170
+    - 500171
+    - 500172
+    - 500173
+    _Triger1: 10
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1907
+    _Hpmonster: 33605
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 274500
+  - _Id: 46
+    _WaveID:
+    - 500174
+    - 500175
+    - 500176
+    - 500177
+    - 500178
+    - 500179
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1232
+    _Hpmonster: 39188
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 289500
+  - _Id: 47
+    _WaveID:
+    - 500180
+    - 500181
+    - 500182
+    - 500183
+    - 500184
+    - 500185
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1232
+    _Hpmonster: 41472
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 304500
+  - _Id: 48
+    _WaveID:
+    - 500186
+    - 500187
+    - 500188
+    - 500189
+    - 500190
+    - 500191
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1232
+    _Hpmonster: 43783
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 319500
+  - _Id: 49
+    _WaveID:
+    - 500192
+    - 500193
+    - 500194
+    - 500195
+    - 500196
+    - 500197
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1232
+    _Hpmonster: 46124
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 334500
+  - _Id: 50
+    _WaveID:
+    - 500204
+    - 500205
+    - 500206
+    - 500207
+    - 500208
+    _Triger1: 10
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1232
+    _Hpmonster: 50574
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 364500
+  - _Id: 51
+    _WaveID:
+    - 500209
+    - 500210
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1320
+    _Hpmonster: 57760
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 379500
+  - _Id: 52
+    _WaveID:
+    - 500211
+    - 500212
+    - 500213
+    - 500214
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1320
+    _Hpmonster: 60423
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 394500
+  - _Id: 53
+    _WaveID:
+    - 500215
+    - 500216
+    - 500217
+    - 500218
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1320
+    _Hpmonster: 63120
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 409500
+  - _Id: 54
+    _WaveID:
+    - 500219
+    - 500220
+    - 500221
+    - 500222
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1320
+    _Hpmonster: 65852
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 424500
+  - _Id: 55
+    _WaveID:
+    - 500223
+    - 500224
+    - 500225
+    - 500226
+    - 500227
+    - 500228
+    _Triger1: 10
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1320
+    _Hpmonster: 70961
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 454500
+  - _Id: 56
+    _WaveID:
+    - 500229
+    - 500230
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1408
+    _Hpmonster: 79876
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 469500
+  - _Id: 57
+    _WaveID:
+    - 500231
+    - 500232
+    - 500233
+    - 500234
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1408
+    _Hpmonster: 82967
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 484500
+  - _Id: 58
+    _WaveID:
+    - 500235
+    - 500236
+    - 500237
+    - 500238
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1408
+    _Hpmonster: 86098
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 499500
+  - _Id: 59
+    _WaveID:
+    - 500239
+    - 500240
+    - 500241
+    - 500242
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1408
+    _Hpmonster: 89271
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 514500
+  - _Id: 60
+    _WaveID:
+    - 500243
+    - 500244
+    - 500245
+    - 500246
+    - 500247
+    _Triger1: 10
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1408
+    _Hpmonster: 95106
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 544500
+  - _Id: 61
+    _WaveID:
+    - 500248
+    - 500249
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1496
+    _Hpmonster: 105892
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 559500
+  - _Id: 62
+    _WaveID:
+    - 500250
+    - 500251
+    - 500252
+    - 500253
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1496
+    _Hpmonster: 109466
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 574500
+  - _Id: 63
+    _WaveID:
+    - 500254
+    - 500255
+    - 500256
+    - 500257
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1496
+    _Hpmonster: 113088
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 589500
+  - _Id: 64
+    _WaveID:
+    - 500258
+    - 500259
+    - 500260
+    - 500261
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1496
+    _Hpmonster: 116760
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 604500
+  - _Id: 65
+    _WaveID:
+    - 500262
+    - 500263
+    - 500264
+    - 500265
+    - 500266
+    - 500267
+    _Triger1: 10
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1496
+    _Hpmonster: 123399
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 634500
+  - _Id: 66
+    _WaveID:
+    - 500268
+    - 500269
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1584
+    _Hpmonster: 136215
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 649500
+  - _Id: 67
+    _WaveID:
+    - 500270
+    - 500271
+    - 500272
+    - 500273
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1584
+    _Hpmonster: 140335
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 664500
+  - _Id: 68
+    _WaveID:
+    - 500274
+    - 500275
+    - 500276
+    - 500277
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1584
+    _Hpmonster: 144513
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 679500
+  - _Id: 69
+    _WaveID:
+    - 500278
+    - 500279
+    - 500280
+    - 500281
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1584
+    _Hpmonster: 148751
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 694500
+  - _Id: 70
+    _WaveID:
+    - 500282
+    - 500283
+    - 500284
+    - 500285
+    - 500286
+    _Triger1: 10
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1584
+    _Hpmonster: 156285
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 724500
+  - _Id: 71
+    _WaveID:
+    - 500287
+    - 500288
+    - 500289
+    - 500290
+    - 500291
+    - 500292
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1672
+    _Hpmonster: 171309
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 739500
+  - _Id: 72
+    _WaveID:
+    - 500293
+    - 500294
+    - 500295
+    - 500296
+    - 500297
+    - 500298
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1672
+    _Hpmonster: 176050
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 754500
+  - _Id: 73
+    _WaveID:
+    - 500299
+    - 500300
+    - 500301
+    - 500302
+    - 500303
+    - 500304
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1672
+    _Hpmonster: 180861
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 769500
+  - _Id: 74
+    _WaveID:
+    - 500305
+    - 500306
+    - 500307
+    - 500308
+    - 500309
+    - 500310
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1672
+    _Hpmonster: 185742
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 784500
+  - _Id: 75
+    _WaveID:
+    - 500317
+    - 500318
+    - 500319
+    - 500320
+    - 500321
+    - 500322
+    _Triger1: 10
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1672
+    _Hpmonster: 194273
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 814500
+  - _Id: 76
+    _WaveID:
+    - 500323
+    - 500324
+    - 500325
+    - 500326
+    - 500327
+    - 500328
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1900
+    _Hpmonster: 211708
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 829500
+  - _Id: 77
+    _WaveID:
+    - 500329
+    - 500330
+    - 500331
+    - 500332
+    - 500333
+    - 500334
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1900
+    _Hpmonster: 217157
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 844500
+  - _Id: 78
+    _WaveID:
+    - 500335
+    - 500336
+    - 500337
+    - 500338
+    - 500339
+    - 500340
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1900
+    _Hpmonster: 222689
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 859500
+  - _Id: 79
+    _WaveID:
+    - 500341
+    - 500342
+    - 500343
+    - 500344
+    - 500345
+    - 500346
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1900
+    _Hpmonster: 228305
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 874500
+  - _Id: 80
+    _WaveID:
+    - 500353
+    - 500354
+    - 500355
+    - 500356
+    - 500357
+    _Triger1: 10
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1900
+    _Hpmonster: 237953
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 904500
+  - _Id: 81
+    _WaveID:
+    - 500358
+    - 500359
+    - 500360
+    - 500361
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1064
+    _Hpmonster: 259433
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 924500
+  - _Id: 82
+    _WaveID:
+    - 500362
+    - 500363
+    - 500364
+    - 500365
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1064
+    _Hpmonster: 267116
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 944500
+  - _Id: 83
+    _WaveID:
+    - 500370
+    - 500371
+    - 500372
+    - 500373
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1064
+    _Hpmonster: 274920
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 964500
+  - _Id: 84
+    _WaveID:
+    - 500374
+    - 500375
+    - 500376
+    - 500377
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1064
+    _Hpmonster: 282848
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 984500
+  - _Id: 85
+    _WaveID:
+    - 500378
+    - 500379
+    - 500380
+    - 500381
+    - 500382
+    - 500383
+    _Triger1: 10
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1064
+    _Hpmonster: 296695
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 1024500
+  - _Id: 86
+    _WaveID:
+    - 500384
+    - 500385
+    - 500386
+    - 500387
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1064
+    _Hpmonster: 304927
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 1044500
+  - _Id: 87
+    _WaveID:
+    - 500388
+    - 500389
+    - 500390
+    - 500391
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1064
+    _Hpmonster: 313292
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 1064500
+  - _Id: 88
+    _WaveID:
+    - 500392
+    - 500393
+    - 500394
+    - 500395
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1064
+    _Hpmonster: 321794
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 1084500
+  - _Id: 89
+    _WaveID:
+    - 500400
+    - 500401
+    - 500402
+    - 500403
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1064
+    _Hpmonster: 330437
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 1104500
+  - _Id: 90
+    _WaveID:
+    - 500404
+    - 500405
+    - 500406
+    - 500407
+    - 500408
+    _Triger1: 10
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1064
+    _Hpmonster: 345258
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 1144500
+  - _Id: 91
+    _WaveID:
+    - 500409
+    - 500410
+    - 500411
+    - 500412
+    - 500413
+    - 500414
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1292
+    _Hpmonster: 373814
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 1164500
+  - _Id: 92
+    _WaveID:
+    - 500415
+    - 500416
+    - 500417
+    - 500418
+    - 500419
+    - 500420
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1292
+    _Hpmonster: 383457
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 1184500
+  - _Id: 93
+    _WaveID:
+    - 500421
+    - 500422
+    - 500423
+    - 500424
+    - 500425
+    - 500426
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1292
+    _Hpmonster: 393264
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 1204500
+  - _Id: 94
+    _WaveID:
+    - 500433
+    - 500434
+    - 500435
+    - 500436
+    - 500437
+    - 500438
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1292
+    _Hpmonster: 403241
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 1224500
+  - _Id: 95
+    _WaveID:
+    - 500439
+    - 500440
+    - 500441
+    - 500442
+    - 500443
+    - 500444
+    _Triger1: 10
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1292
+    _Hpmonster: 420034
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 1264500
+  - _Id: 96
+    _WaveID:
+    - 500445
+    - 500446
+    - 500447
+    - 500448
+    - 500449
+    - 500450
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1292
+    _Hpmonster: 430420
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 1284500
+  - _Id: 97
+    _WaveID:
+    - 500457
+    - 500458
+    - 500459
+    - 500460
+    - 500461
+    - 500462
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1292
+    _Hpmonster: 440990
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 1304500
+  - _Id: 98
+    _WaveID:
+    - 500463
+    - 500464
+    - 500465
+    - 500466
+    - 500467
+    - 500468
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1292
+    _Hpmonster: 451749
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 1324500
+  - _Id: 99
+    _WaveID:
+    - 500469
+    - 500470
+    - 500471
+    - 500472
+    - 500473
+    - 500474
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 1292
+    _Hpmonster: 462702
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 1344500
+  - _Id: 100
+    _WaveID:
+    - 500475
+    - 500476
+    - 500477
+    - 500478
+    - 500479
+    _Triger1: 10
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 480799
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 1384500
+  - _Id: 101
+    _WaveID:
+    - 500480
+    - 500481
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 495724
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 1414500
+  - _Id: 102
+    _WaveID:
+    - 500482
+    - 500483
+    - 500484
+    - 500485
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 510925
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 1444500
+  - _Id: 103
+    _WaveID:
+    - 500486
+    - 500487
+    - 500488
+    - 500489
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 526410
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 1474500
+  - _Id: 104
+    _WaveID:
+    - 500490
+    - 500491
+    - 500492
+    - 500493
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 542188
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 1504500
+  - _Id: 105
+    _WaveID:
+    - 500494
+    - 500495
+    - 500496
+    - 500497
+    - 500498
+    - 500499
+    _Triger1: 10
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 569180
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 1564500
+  - _Id: 106
+    _WaveID:
+    - 500500
+    - 500501
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 585672
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 1594500
+  - _Id: 107
+    _WaveID:
+    - 500502
+    - 500503
+    - 500504
+    - 500505
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 602484
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 1624500
+  - _Id: 108
+    _WaveID:
+    - 500506
+    - 500507
+    - 500508
+    - 500509
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 619626
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 1654500
+  - _Id: 109
+    _WaveID:
+    - 500510
+    - 500511
+    - 500512
+    - 500513
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 637108
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 1684500
+  - _Id: 110
+    _WaveID:
+    - 500514
+    - 500515
+    - 500516
+    - 500517
+    - 500518
+    _Triger1: 10
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 666399
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 1744500
+  - _Id: 111
+    _WaveID:
+    - 500519
+    - 500520
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 681265
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 1774500
+  - _Id: 112
+    _WaveID:
+    - 500521
+    - 500522
+    - 500523
+    - 500524
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 696282
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 1804500
+  - _Id: 113
+    _WaveID:
+    - 500525
+    - 500526
+    - 500527
+    - 500528
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 711451
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 1834500
+  - _Id: 114
+    _WaveID:
+    - 500529
+    - 500530
+    - 500531
+    - 500532
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 726774
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 1864500
+  - _Id: 115
+    _WaveID:
+    - 500533
+    - 500534
+    - 500535
+    - 500536
+    - 500537
+    - 500538
+    _Triger1: 10
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 754009
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 1924500
+  - _Id: 116
+    _WaveID:
+    - 500539
+    - 500540
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 769710
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 1954500
+  - _Id: 117
+    _WaveID:
+    - 500541
+    - 500542
+    - 500543
+    - 500544
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 785574
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 1984500
+  - _Id: 118
+    _WaveID:
+    - 500545
+    - 500546
+    - 500547
+    - 500548
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 801603
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 2014500
+  - _Id: 119
+    _WaveID:
+    - 500549
+    - 500550
+    - 500551
+    - 500552
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 817800
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 2044500
+  - _Id: 120
+    _WaveID:
+    - 500553
+    - 500554
+    - 500555
+    - 500556
+    - 500557
+    _Triger1: 10
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 846231
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 2124500
+  - _Id: 121
+    _WaveID:
+    - 500558
+    - 500559
+    - 500560
+    - 500561
+    - 500562
+    - 500563
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 866877
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 2164500
+  - _Id: 122
+    _WaveID:
+    - 500570
+    - 500571
+    - 500572
+    - 500573
+    - 500574
+    - 500575
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 887744
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 2204500
+  - _Id: 123
+    _WaveID:
+    - 500576
+    - 500577
+    - 500578
+    - 500579
+    - 500580
+    - 500581
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 908833
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 2244500
+  - _Id: 124
+    _WaveID:
+    - 500582
+    - 500583
+    - 500584
+    - 500585
+    - 500586
+    - 500587
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 930149
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 2284500
+  - _Id: 125
+    _WaveID:
+    - 500588
+    - 500589
+    - 500590
+    - 500591
+    - 500592
+    - 500593
+    _Triger1: 10
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 968215
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 2364500
+  - _Id: 126
+    _WaveID:
+    - 500600
+    - 500601
+    - 500602
+    - 500603
+    - 500604
+    - 500605
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 990086
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 2404500
+  - _Id: 127
+    _WaveID:
+    - 500606
+    - 500607
+    - 500608
+    - 500609
+    - 500610
+    - 500611
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 1012196
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 2444500
+  - _Id: 128
+    _WaveID:
+    - 500612
+    - 500613
+    - 500614
+    - 500615
+    - 500616
+    - 500617
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 1034548
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 2484500
+  - _Id: 129
+    _WaveID:
+    - 500618
+    - 500619
+    - 500620
+    - 500621
+    - 500622
+    - 500623
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 1057148
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 2524500
+  - _Id: 130
+    _WaveID:
+    - 500624
+    - 500625
+    - 500626
+    - 500627
+    - 500628
+    _Triger1: 10
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 1096977
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 2624500
+  - _Id: 131
+    _WaveID:
+    - 500629
+    - 500630
+    - 500631
+    - 500632
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 1124446
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 2674500
+  - _Id: 132
+    _WaveID:
+    - 500633
+    - 500634
+    - 500635
+    - 500636
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 1152224
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 2724500
+  - _Id: 133
+    _WaveID:
+    - 500641
+    - 500642
+    - 500643
+    - 500644
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 1180315
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 2774500
+  - _Id: 134
+    _WaveID:
+    - 500645
+    - 500646
+    - 500647
+    - 500648
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 1208726
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 2824500
+  - _Id: 135
+    _WaveID:
+    - 500649
+    - 500650
+    - 500651
+    - 500652
+    - 500653
+    - 500654
+    _Triger1: 10
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 1259290
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 2924500
+  - _Id: 136
+    _WaveID:
+    - 500655
+    - 500656
+    - 500657
+    - 500658
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 1288482
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 2974500
+  - _Id: 137
+    _WaveID:
+    - 500659
+    - 500660
+    - 500661
+    - 500662
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 1318010
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 3024500
+  - _Id: 138
+    _WaveID:
+    - 500663
+    - 500664
+    - 500665
+    - 500666
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 1347883
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 3074500
+  - _Id: 139
+    _WaveID:
+    - 500671
+    - 500672
+    - 500673
+    - 500674
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 1378104
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 3124500
+  - _Id: 140
+    _WaveID:
+    - 500675
+    - 500676
+    - 500677
+    - 500678
+    - 500679
+    _Triger1: 10
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 1431152
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 3244500
+  - _Id: 141
+    _WaveID:
+    - 500680
+    - 500681
+    - 500682
+    - 500683
+    - 500684
+    - 500685
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 1466744
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 3304500
+  - _Id: 142
+    _WaveID:
+    - 500692
+    - 500693
+    - 500694
+    - 500695
+    - 500696
+    - 500697
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 1502761
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 3364500
+  - _Id: 143
+    _WaveID:
+    - 500698
+    - 500699
+    - 500700
+    - 500701
+    - 500702
+    - 500703
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 1539208
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 3424500
+  - _Id: 144
+    _WaveID:
+    - 500704
+    - 500705
+    - 500706
+    - 500707
+    - 500708
+    - 500709
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 1576095
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 3484500
+  - _Id: 145
+    _WaveID:
+    - 500710
+    - 500711
+    - 500712
+    - 500713
+    - 500714
+    - 500715
+    _Triger1: 10
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 1641211
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 3604500
+  - _Id: 146
+    _WaveID:
+    - 500722
+    - 500723
+    - 500724
+    - 500725
+    - 500726
+    - 500727
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 1679170
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 3664500
+  - _Id: 147
+    _WaveID:
+    - 500728
+    - 500729
+    - 500730
+    - 500731
+    - 500732
+    - 500733
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 1717594
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 3724500
+  - _Id: 148
+    _WaveID:
+    - 500734
+    - 500735
+    - 500736
+    - 500737
+    - 500738
+    - 500739
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 1756493
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 3784500
+  - _Id: 149
+    _WaveID:
+    - 500740
+    - 500741
+    - 500742
+    - 500743
+    - 500744
+    - 500745
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 1795875
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 3844500
+  - _Id: 150
+    _WaveID:
+    - 500746
+    - 500747
+    - 500748
+    - 500749
+    - 500750
+    _Triger1: 10
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 1864399
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 3984500
+  - _Id: 151
+    _WaveID:
+    - 500751
+    - 500752
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 1909760
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 4054500
+  - _Id: 152
+    _WaveID:
+    - 500753
+    - 500754
+    - 500755
+    - 500756
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 1955695
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 4124500
+  - _Id: 153
+    _WaveID:
+    - 500757
+    - 500758
+    - 500759
+    - 500760
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 2002215
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 4194500
+  - _Id: 154
+    _WaveID:
+    - 500761
+    - 500762
+    - 500763
+    - 500764
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 2049332
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 4264500
+  - _Id: 155
+    _WaveID:
+    - 500765
+    - 500766
+    - 500767
+    - 500768
+    - 500769
+    - 500770
+    _Triger1: 10
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 2131560
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 4404500
+  - _Id: 156
+    _WaveID:
+    - 500771
+    - 500772
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 2180129
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 4474500
+  - _Id: 157
+    _WaveID:
+    - 500773
+    - 500774
+    - 500775
+    - 500776
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 2229332
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 4544500
+  - _Id: 158
+    _WaveID:
+    - 500777
+    - 500778
+    - 500779
+    - 500780
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 2279183
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 4614500
+  - _Id: 159
+    _WaveID:
+    - 500781
+    - 500782
+    - 500783
+    - 500784
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 2329694
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 4684500
+  - _Id: 160
+    _WaveID:
+    - 500785
+    - 500786
+    - 500787
+    - 500788
+    - 500789
+    _Triger1: 10
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 2419079
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 4854500
+  - _Id: 161
+    _WaveID:
+    - 500790
+    - 500791
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 2476334
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 4934500
+  - _Id: 162
+    _WaveID:
+    - 500792
+    - 500793
+    - 500794
+    - 500795
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 2534364
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 5014500
+  - _Id: 163
+    _WaveID:
+    - 500796
+    - 500797
+    - 500798
+    - 500799
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 2593182
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 5094500
+  - _Id: 164
+    _WaveID:
+    - 500800
+    - 500801
+    - 500802
+    - 500803
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 2652807
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 5174500
+  - _Id: 165
+    _WaveID:
+    - 500804
+    - 500805
+    - 500806
+    - 500807
+    - 500808
+    - 500809
+    _Triger1: 10
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 2755406
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 5334500
+  - _Id: 166
+    _WaveID:
+    - 500810
+    - 500811
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 2816985
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 5414500
+  - _Id: 167
+    _WaveID:
+    - 500812
+    - 500813
+    - 500814
+    - 500815
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 2879425
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 5494500
+  - _Id: 168
+    _WaveID:
+    - 500816
+    - 500817
+    - 500818
+    - 500819
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 2942745
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 5574500
+  - _Id: 169
+    _WaveID:
+    - 500820
+    - 500821
+    - 500822
+    - 500823
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 3006963
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 5654500
+  - _Id: 170
+    _WaveID:
+    - 500824
+    - 500825
+    - 500826
+    - 500827
+    - 500828
+    _Triger1: 10
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 3121213
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 5854500
+  - _Id: 171
+    _WaveID:
+    - 500829
+    - 500830
+    - 500831
+    - 500832
+    - 500833
+    - 500834
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 3193135
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 5944500
+  - _Id: 172
+    _WaveID:
+    - 500841
+    - 500842
+    - 500843
+    - 500844
+    - 500845
+    - 500846
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 3266100
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 6034500
+  - _Id: 173
+    _WaveID:
+    - 500847
+    - 500848
+    - 500849
+    - 500850
+    - 500851
+    - 500852
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 3340130
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 6124500
+  - _Id: 174
+    _WaveID:
+    - 500853
+    - 500854
+    - 500855
+    - 500856
+    - 500857
+    - 500858
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 3415249
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 6214500
+  - _Id: 175
+    _WaveID:
+    - 500859
+    - 500860
+    - 500861
+    - 500862
+    - 500863
+    - 500864
+    _Triger1: 10
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 3542413
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 6394500
+  - _Id: 176
+    _WaveID:
+    - 500871
+    - 500872
+    - 500873
+    - 500874
+    - 500875
+    - 500876
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 3620163
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 6484500
+  - _Id: 177
+    _WaveID:
+    - 500877
+    - 500878
+    - 500879
+    - 500880
+    - 500881
+    - 500882
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 3699081
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 6574500
+  - _Id: 178
+    _WaveID:
+    - 500883
+    - 500884
+    - 500885
+    - 500886
+    - 500887
+    - 500888
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 3779195
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 6664500
+  - _Id: 179
+    _WaveID:
+    - 500889
+    - 500890
+    - 500891
+    - 500892
+    - 500893
+    - 500894
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 3860533
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 6754500
+  - _Id: 180
+    _WaveID:
+    - 500895
+    - 500896
+    - 500897
+    - 500898
+    - 500899
+    _Triger1: 10
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 4004829
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 6984500
+  - _Id: 181
+    _WaveID:
+    - 500900
+    - 500901
+    - 500902
+    - 500903
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 4095099
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 7084500
+  - _Id: 182
+    _WaveID:
+    - 500904
+    - 500905
+    - 500906
+    - 500907
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 4186780
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 7184500
+  - _Id: 183
+    _WaveID:
+    - 500912
+    - 500913
+    - 500914
+    - 500915
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 4279904
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 7284500
+  - _Id: 184
+    _WaveID:
+    - 500916
+    - 500917
+    - 500918
+    - 500919
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 4374506
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 7384500
+  - _Id: 185
+    _WaveID:
+    - 500920
+    - 500921
+    - 500922
+    - 500923
+    - 500924
+    - 500925
+    _Triger1: 10
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 4531742
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 7584500
+  - _Id: 186
+    _WaveID:
+    - 500926
+    - 500927
+    - 500928
+    - 500929
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 4629902
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 7684500
+  - _Id: 187
+    _WaveID:
+    - 500930
+    - 500931
+    - 500932
+    - 500933
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 4729657
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 7784500
+  - _Id: 188
+    _WaveID:
+    - 500934
+    - 500935
+    - 500936
+    - 500937
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 4831048
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 7884500
+  - _Id: 189
+    _WaveID:
+    - 500942
+    - 500943
+    - 500944
+    - 500945
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 4934114
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 7984500
+  - _Id: 190
+    _WaveID:
+    - 500946
+    - 500947
+    - 500948
+    - 500949
+    - 500950
+    _Triger1: 10
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 5115298
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 8244500
+  - _Id: 191
+    _WaveID:
+    - 500951
+    - 500952
+    - 500953
+    - 500954
+    - 500955
+    - 500956
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 5228906
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 8354500
+  - _Id: 192
+    _WaveID:
+    - 500963
+    - 500964
+    - 500965
+    - 500966
+    - 500967
+    - 500968
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 5344439
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 8464500
+  - _Id: 193
+    _WaveID:
+    - 500969
+    - 500970
+    - 500971
+    - 500972
+    - 500973
+    - 500974
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 5461947
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 8574500
+  - _Id: 194
+    _WaveID:
+    - 500975
+    - 500976
+    - 500977
+    - 500978
+    - 500979
+    - 500980
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 5581481
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 8684500
+  - _Id: 195
+    _WaveID:
+    - 500981
+    - 500982
+    - 500983
+    - 500984
+    - 500985
+    - 500986
+    _Triger1: 10
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 5776172
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 8904500
+  - _Id: 196
+    _WaveID:
+    - 500993
+    - 500994
+    - 500995
+    - 500996
+    - 500997
+    - 500998
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 5900560
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 9014500
+  - _Id: 197
+    _WaveID:
+    - 500999
+    - 501000
+    - 501001
+    - 501002
+    - 501003
+    - 501004
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 6027149
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 9124500
+  - _Id: 198
+    _WaveID:
+    - 501005
+    - 501006
+    - 501007
+    - 501008
+    - 501009
+    - 501010
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 6155998
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 9234500
+  - _Id: 199
+    _WaveID:
+    - 501011
+    - 501012
+    - 501013
+    - 501014
+    - 501015
+    - 501016
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 6287169
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 9344500
+  - _Id: 200
+    _WaveID:
+    - 501017
+    - 501018
+    - 501019
+    - 501020
+    - 501021
+    _Triger1: 10
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 6514489
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 9634500
+  - _Id: 201
+    _WaveID:
+    - 501022
+    - 501023
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 6672383
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 9774500
+  - _Id: 202
+    _WaveID:
+    - 501024
+    - 501025
+    - 501026
+    - 501027
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 6833202
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 9914500
+  - _Id: 203
+    _WaveID:
+    - 501028
+    - 501029
+    - 501030
+    - 501031
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 6997026
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 10054500
+  - _Id: 204
+    _WaveID:
+    - 501032
+    - 501033
+    - 501034
+    - 501035
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 7163942
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 10194500
+  - _Id: 205
+    _WaveID:
+    - 501036
+    - 501037
+    - 501038
+    - 501039
+    - 501040
+    - 501041
+    _Triger1: 10
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 7428627
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 10464500
+  - _Id: 206
+    _WaveID:
+    - 501042
+    - 501043
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 7602902
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 10604500
+  - _Id: 207
+    _WaveID:
+    - 501044
+    - 501045
+    - 501046
+    - 501047
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 7780561
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 10744500
+  - _Id: 208
+    _WaveID:
+    - 501048
+    - 501049
+    - 501050
+    - 501051
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 7961704
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 10884500
+  - _Id: 209
+    _WaveID:
+    - 501052
+    - 501053
+    - 501054
+    - 501055
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 8146434
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 11024500
+  - _Id: 210
+    _WaveID:
+    - 501056
+    - 501057
+    - 501058
+    - 501059
+    - 501060
+    _Triger1: 10
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 8476198
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 11394500
+  - _Id: 211
+    _WaveID:
+    - 501061
+    - 501062
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 8693008
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 11564500
+  - _Id: 212
+    _WaveID:
+    - 501063
+    - 501064
+    - 501065
+    - 501066
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 8914243
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 11734500
+  - _Id: 213
+    _WaveID:
+    - 501067
+    - 501068
+    - 501069
+    - 501070
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 9140039
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 11904500
+  - _Id: 214
+    _WaveID:
+    - 501071
+    - 501072
+    - 501073
+    - 501074
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 9370540
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 12074500
+  - _Id: 215
+    _WaveID:
+    - 501075
+    - 501076
+    - 501077
+    - 501078
+    - 501079
+    - 501080
+    _Triger1: 10
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 9726524
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 12394500
+  - _Id: 216
+    _WaveID:
+    - 501081
+    - 501082
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 9968168
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 12564500
+  - _Id: 217
+    _WaveID:
+    - 501083
+    - 501084
+    - 501085
+    - 501086
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 10215009
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 12734500
+  - _Id: 218
+    _WaveID:
+    - 501087
+    - 501088
+    - 501089
+    - 501090
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 10467215
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 12904500
+  - _Id: 219
+    _WaveID:
+    - 501091
+    - 501092
+    - 501093
+    - 501094
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 10724965
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 13074500
+  - _Id: 220
+    _WaveID:
+    - 501095
+    - 501096
+    - 501097
+    - 501098
+    - 501099
+    _Triger1: 10
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 11187931
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 13524500
+  - _Id: 221
+    _WaveID:
+    - 501100
+    - 501101
+    - 501102
+    - 501103
+    - 501104
+    - 501105
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 11485324
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 13724500
+  - _Id: 222
+    _WaveID:
+    - 501112
+    - 501113
+    - 501114
+    - 501115
+    - 501116
+    - 501117
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 11789475
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 13924500
+  - _Id: 223
+    _WaveID:
+    - 501118
+    - 501119
+    - 501120
+    - 501121
+    - 501122
+    - 501123
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 12100618
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 14124500
+  - _Id: 224
+    _WaveID:
+    - 501124
+    - 501125
+    - 501126
+    - 501127
+    - 501128
+    - 501129
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 12418998
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 14324500
+  - _Id: 225
+    _WaveID:
+    - 501130
+    - 501131
+    - 501132
+    - 501133
+    - 501134
+    - 501135
+    _Triger1: 10
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 12897668
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 14694500
+  - _Id: 226
+    _WaveID:
+    - 501142
+    - 501143
+    - 501144
+    - 501145
+    - 501146
+    - 501147
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 13233117
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 14894500
+  - _Id: 227
+    _WaveID:
+    - 501148
+    - 501149
+    - 501150
+    - 501151
+    - 501152
+    - 501153
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 13576648
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 15094500
+  - _Id: 228
+    _WaveID:
+    - 501154
+    - 501155
+    - 501156
+    - 501157
+    - 501158
+    - 501159
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 13928559
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 15294500
+  - _Id: 229
+    _WaveID:
+    - 501160
+    - 501161
+    - 501162
+    - 501163
+    - 501164
+    - 501165
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 14289158
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 15494500
+  - _Id: 230
+    _WaveID:
+    - 501166
+    - 501167
+    - 501168
+    - 501169
+    - 501170
+    _Triger1: 10
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 14930948
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 16024500
+  - _Id: 231
+    _WaveID:
+    - 501171
+    - 501172
+    - 501173
+    - 501174
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 15342377
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 16254500
+  - _Id: 232
+    _WaveID:
+    - 501175
+    - 501176
+    - 501177
+    - 501178
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 15764356
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 16484500
+  - _Id: 233
+    _WaveID:
+    - 501183
+    - 501184
+    - 501185
+    - 501186
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 16197296
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 16714500
+  - _Id: 234
+    _WaveID:
+    - 501187
+    - 501188
+    - 501189
+    - 501190
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 16641629
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 16944500
+  - _Id: 235
+    _WaveID:
+    - 501191
+    - 501192
+    - 501193
+    - 501194
+    - 501195
+    - 501196
+    _Triger1: 10
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 17291357
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 17364500
+  - _Id: 236
+    _WaveID:
+    - 501197
+    - 501198
+    - 501199
+    - 501200
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 17762484
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 17594500
+  - _Id: 237
+    _WaveID:
+    - 501201
+    - 501202
+    - 501203
+    - 501204
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 18246518
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 17824500
+  - _Id: 238
+    _WaveID:
+    - 501205
+    - 501206
+    - 501207
+    - 501208
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 18743997
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 18054500
+  - _Id: 239
+    _WaveID:
+    - 501213
+    - 501214
+    - 501215
+    - 501216
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 19255490
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 18284500
+  - _Id: 240
+    _WaveID:
+    - 501217
+    - 501218
+    - 501219
+    - 501220
+    - 501221
+    _Triger1: 10
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 20147226
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 18894500
+  - _Id: 241
+    _WaveID:
+    - 501222
+    - 501223
+    - 501224
+    - 501225
+    - 501226
+    - 501227
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 20727099
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 19154500
+  - _Id: 242
+    _WaveID:
+    - 501234
+    - 501235
+    - 501236
+    - 501237
+    - 501238
+    - 501239
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 21324026
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 19414500
+  - _Id: 243
+    _WaveID:
+    - 501240
+    - 501241
+    - 501242
+    - 501243
+    - 501244
+    - 501245
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 21938773
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 19674500
+  - _Id: 244
+    _WaveID:
+    - 501246
+    - 501247
+    - 501248
+    - 501249
+    - 501250
+    - 501251
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 22572148
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 19934500
+  - _Id: 245
+    _WaveID:
+    - 501252
+    - 501253
+    - 501254
+    - 501255
+    - 501256
+    - 501257
+    _Triger1: 10
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 23471843
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 20404500
+  - _Id: 246
+    _WaveID:
+    - 501264
+    - 501265
+    - 501266
+    - 501267
+    - 501268
+    - 501269
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 24148966
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 20664500
+  - _Id: 247
+    _WaveID:
+    - 501270
+    - 501271
+    - 501272
+    - 501273
+    - 501274
+    - 501275
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 24847584
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 20924500
+  - _Id: 248
+    _WaveID:
+    - 501276
+    - 501277
+    - 501278
+    - 501279
+    - 501280
+    - 501281
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 25568739
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 21184500
+  - _Id: 249
+    _WaveID:
+    - 501282
+    - 501283
+    - 501284
+    - 501285
+    - 501286
+    - 501287
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 26313538
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 21444500
+  - _Id: 250
+    _WaveID:
+    - 501288
+    - 501289
+    - 501290
+    - 501291
+    - 501292
+    _Triger1: 10
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 27573397
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 22134500
+  - _Id: 251
+    _WaveID:
+    - 501293
+    - 501294
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 28442166
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 22444500
+  - _Id: 252
+    _WaveID:
+    - 501295
+    - 501296
+    - 501297
+    - 501298
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 29340893
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 22754500
+  - _Id: 253
+    _WaveID:
+    - 501299
+    - 501300
+    - 501301
+    - 501302
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 30271154
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 23064500
+  - _Id: 254
+    _WaveID:
+    - 501303
+    - 501304
+    - 501305
+    - 501306
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 31234639
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 23374500
+  - _Id: 255
+    _WaveID:
+    - 501307
+    - 501308
+    - 501309
+    - 501310
+    - 501311
+    - 501312
+    _Triger1: 10
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 32594324
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 23944500
+  - _Id: 256
+    _WaveID:
+    - 501313
+    - 501314
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 33636515
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 24254500
+  - _Id: 257
+    _WaveID:
+    - 501315
+    - 501316
+    - 501317
+    - 501318
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 34718034
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 24564500
+  - _Id: 258
+    _WaveID:
+    - 501319
+    - 501320
+    - 501321
+    - 501322
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 35841150
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 24874500
+  - _Id: 259
+    _WaveID:
+    - 501323
+    - 501324
+    - 501325
+    - 501326
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 37008310
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 25184500
+  - _Id: 260
+    _WaveID:
+    - 501327
+    - 501328
+    - 501329
+    - 501330
+    - 501331
+    _Triger1: 10
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 38886836
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 25974500
+  - _Id: 261
+    _WaveID:
+    - 501332
+    - 501333
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 40241751
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 26334500
+  - _Id: 262
+    _WaveID:
+    - 501334
+    - 501335
+    - 501336
+    - 501337
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 41653121
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 26694500
+  - _Id: 263
+    _WaveID:
+    - 501338
+    - 501339
+    - 501340
+    - 501341
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 43124549
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 27054500
+  - _Id: 264
+    _WaveID:
+    - 501342
+    - 501343
+    - 501344
+    - 501345
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 44659952
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 27414500
+  - _Id: 265
+    _WaveID:
+    - 501346
+    - 501347
+    - 501348
+    - 501349
+    - 501350
+    - 501351
+    _Triger1: 10
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 46789907
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 28084500
+  - _Id: 266
+    _WaveID:
+    - 501352
+    - 501353
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 48478405
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 28444500
+  - _Id: 267
+    _WaveID:
+    - 501354
+    - 501355
+    - 501356
+    - 501357
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 50245437
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 28804500
+  - _Id: 268
+    _WaveID:
+    - 501358
+    - 501359
+    - 501360
+    - 501361
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 52096614
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 29164500
+  - _Id: 269
+    _WaveID:
+    - 501362
+    - 501363
+    - 501364
+    - 501365
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 54038093
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 29524500
+  - _Id: 270
+    _WaveID:
+    - 501366
+    - 501367
+    - 501368
+    - 501369
+    - 501370
+    _Triger1: 10
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 57002995
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 30414500
+  - _Id: 271
+    _WaveID:
+    - 501371
+    - 501372
+    - 501373
+    - 501374
+    - 501375
+    - 501376
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 59267790
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 30824500
+  - _Id: 272
+    _WaveID:
+    - 501383
+    - 501384
+    - 501385
+    - 501386
+    - 501387
+    - 501388
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 61651784
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 31234500
+  - _Id: 273
+    _WaveID:
+    - 501389
+    - 501390
+    - 501391
+    - 501392
+    - 501393
+    - 501394
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 64164643
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 31644500
+  - _Id: 274
+    _WaveID:
+    - 501395
+    - 501396
+    - 501397
+    - 501398
+    - 501399
+    - 501400
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 66817106
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 32054500
+  - _Id: 275
+    _WaveID:
+    - 501401
+    - 501402
+    - 501403
+    - 501404
+    - 501405
+    - 501406
+    _Triger1: 10
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 70406966
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 32824500
+  - _Id: 276
+    _WaveID:
+    - 501413
+    - 501414
+    - 501415
+    - 501416
+    - 501417
+    - 501418
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 73399053
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 33234500
+  - _Id: 277
+    _WaveID:
+    - 501419
+    - 501420
+    - 501421
+    - 501422
+    - 501423
+    - 501424
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 76572479
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 33644500
+  - _Id: 278
+    _WaveID:
+    - 501425
+    - 501426
+    - 501427
+    - 501428
+    - 501429
+    - 501430
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 79944244
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 34054500
+  - _Id: 279
+    _WaveID:
+    - 501431
+    - 501432
+    - 501433
+    - 501434
+    - 501435
+    - 501436
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 83533542
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 34464500
+  - _Id: 280
+    _WaveID:
+    - 501437
+    - 501438
+    - 501439
+    - 501440
+    - 501441
+    _Triger1: 10
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 88724593
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 35454500
+  - _Id: 281
+    _WaveID:
+    - 501442
+    - 501443
+    - 501444
+    - 501445
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 92995924
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 35914500
+  - _Id: 282
+    _WaveID:
+    - 501446
+    - 501447
+    - 501448
+    - 501449
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 97572350
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 36374500
+  - _Id: 283
+    _WaveID:
+    - 501454
+    - 501455
+    - 501456
+    - 501457
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 102487770
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 36834500
+  - _Id: 284
+    _WaveID:
+    - 501458
+    - 501459
+    - 501460
+    - 501461
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 107781300
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 37294500
+  - _Id: 285
+    _WaveID:
+    - 501462
+    - 501463
+    - 501464
+    - 501465
+    - 501466
+    - 501467
+    _Triger1: 10
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 114751272
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 38164500
+  - _Id: 286
+    _WaveID:
+    - 501468
+    - 501469
+    - 501470
+    - 501471
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 120996908
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 38624500
+  - _Id: 287
+    _WaveID:
+    - 501472
+    - 501473
+    - 501474
+    - 501475
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 127785643
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 39084500
+  - _Id: 288
+    _WaveID:
+    - 501476
+    - 501477
+    - 501478
+    - 501479
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 135191536
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 39544500
+  - _Id: 289
+    _WaveID:
+    - 501484
+    - 501485
+    - 501486
+    - 501487
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 143302752
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 40004500
+  - _Id: 290
+    _WaveID:
+    - 501488
+    - 501489
+    - 501490
+    - 501491
+    - 501492
+    _Triger1: 10
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 154459790
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 41094500
+  - _Id: 291
+    _WaveID:
+    - 501493
+    - 501494
+    - 501495
+    - 501496
+    - 501497
+    - 501498
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 164639989
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 41604500
+  - _Id: 292
+    _WaveID:
+    - 501505
+    - 501506
+    - 501507
+    - 501508
+    - 501509
+    - 501510
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 175951322
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 42114500
+  - _Id: 293
+    _WaveID:
+    - 501511
+    - 501512
+    - 501513
+    - 501514
+    - 501515
+    - 501516
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 188593400
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 42624500
+  - _Id: 294
+    _WaveID:
+    - 501517
+    - 501518
+    - 501519
+    - 501520
+    - 501521
+    - 501522
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 202815738
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 43134500
+  - _Id: 295
+    _WaveID:
+    - 501523
+    - 501524
+    - 501525
+    - 501526
+    - 501527
+    - 501528
+    _Triger1: 10
+    _Triger2: 20
+    _Loop: 0
+    _Hp: 0
+    _Exp: 0
+    _Hpmonster: 221277320
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 44104500
+  - _Id: 296
+    _WaveID:
+    - 501535
+    - 501536
+    - 501537
+    - 501538
+    - 501539
+    - 501540
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 1
+    _Hp: 1.1
+    _Exp: 0
+    _Hpmonster: 239865986
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 44614500
+  - _Id: 297
+    _WaveID:
+    - 501541
+    - 501542
+    - 501543
+    - 501544
+    - 501545
+    - 501546
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 1
+    _Hp: 1.1
+    _Exp: 0
+    _Hpmonster: 261314446
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 45124500
+  - _Id: 298
+    _WaveID:
+    - 501547
+    - 501548
+    - 501549
+    - 501550
+    - 501551
+    - 501552
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 1
+    _Hp: 1.1
+    _Exp: 0
+    _Hpmonster: 286337650
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 45634500
+  - _Id: 299
+    _WaveID:
+    - 501553
+    - 501554
+    - 501555
+    - 501556
+    - 501557
+    - 501558
+    _Triger1: 5
+    _Triger2: 20
+    _Loop: 1
+    _Hp: 1.1
+    _Exp: 0
+    _Hpmonster: 315910527
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 46144500
+  - _Id: 300
+    _WaveID:
+    - 501559
+    - 501560
+    - 501561
+    - 501562
+    - 501563
+    _Triger1: 10
+    _Triger2: 20
+    _Loop: 1
+    _Hp: 1.1
+    _Exp: 0
+    _Hpmonster: 356249380
+    _Elitedrop: []
+    _Bossdrop: []
+    _Power_ref: 47334500

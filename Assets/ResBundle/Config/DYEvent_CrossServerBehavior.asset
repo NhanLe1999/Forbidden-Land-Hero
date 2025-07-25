@@ -1,0 +1,465 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c2322efef52a32914d21c33e8392129, type: 3}
+  m_Name: DYEvent_CrossServerBehavior
+  m_EditorClassIdentifier:
+  _Items:
+  - _Id: 99
+    _Note: 【阶段1~6】充值积分
+    _Type: 16
+    _Param:
+    - 1
+    _Reward: 5
+    _RewardS: 5
+    _Reward_hw: 3
+    _RewardS_hw: 3
+    _Desc: 8084
+    _Jump: 0
+  - _Id: 100
+    _Note: 【阶段1~6】提升战力
+    _Type: 15
+    _Param:
+    - 50
+    _Reward: 1
+    _RewardS: 0.02
+    _Reward_hw: 1
+    _RewardS_hw: 0.02
+    _Desc: 8060
+    _Jump: 0
+  - _Id: 101
+    _Note: 【阶段1】消耗体力
+    _Type: 12
+    _Param:
+    - 1
+    _Reward: 30
+    _RewardS: 30
+    _Reward_hw: 30
+    _RewardS_hw: 30
+    _Desc: 8057
+    _Jump: 10009
+  - _Id: 201
+    _Note: 【阶段2】装备抽奖
+    _Type: 2
+    _Param:
+    - 101
+    - 1
+    _Reward: 300
+    _RewardS: 300
+    _Reward_hw: 300
+    _RewardS_hw: 300
+    _Desc: 6008
+    _Jump: 10007
+  - _Id: 301
+    _Note: 【阶段3】营地消耗-钢铁
+    _Type: 17
+    _Param:
+    - 4006
+    - 200
+    _Reward: 1
+    _RewardS: 0.005
+    _Reward_hw: 1
+    _RewardS_hw: 0.005
+    _Desc: 8056
+    _Jump: 10013
+  - _Id: 302
+    _Note: 【阶段3】营地消耗-能源
+    _Type: 17
+    _Param:
+    - 4005
+    - 200
+    _Reward: 1
+    _RewardS: 0.005
+    _Reward_hw: 1
+    _RewardS_hw: 0.005
+    _Desc: 8056
+    _Jump: 10013
+  - _Id: 303
+    _Note: 【阶段3】营地消耗-加速道具
+    _Type: 17
+    _Param:
+    - 4010
+    - 2
+    _Reward: 1
+    _RewardS: 0.5
+    _Reward_hw: 1
+    _RewardS_hw: 0.5
+    _Desc: 8056
+    _Jump: 10013
+  - _Id: 304
+    _Note: 【阶段3】营地消耗-科技核心蓝
+    _Type: 17
+    _Param:
+    - 4007
+    - 1
+    _Reward: 500
+    _RewardS: 500
+    _Reward_hw: 500
+    _RewardS_hw: 500
+    _Desc: 8056
+    _Jump: 10013
+  - _Id: 305
+    _Note: 【阶段3】营地消耗-科技核心黄
+    _Type: 17
+    _Param:
+    - 4008
+    - 1
+    _Reward: 500
+    _RewardS: 500
+    _Reward_hw: 500
+    _RewardS_hw: 500
+    _Desc: 8056
+    _Jump: 10013
+  - _Id: 401
+    _Note: 【阶段4】图纸-购买普通模块（DYDrawingShop）
+    _Type: 13
+    _Param:
+    - 1001
+    - 1
+    _Reward: 30
+    _RewardS: 30
+    _Reward_hw: 30
+    _RewardS_hw: 30
+    _Desc: 8058
+    _Jump: 10085
+  - _Id: 402
+    _Note: 【阶段4】图纸-购买高级模块（DYDrawingShop）
+    _Type: 13
+    _Param:
+    - 1002
+    - 1
+    _Reward: 810
+    _RewardS: 810
+    _Reward_hw: 810
+    _RewardS_hw: 810
+    _Desc: 8058
+    _Jump: 10085
+  - _Id: 501
+    _Note: 【阶段5】脑机-消耗神经增效芯片
+    _Type: 18
+    _Param:
+    - 6503
+    - 1
+    _Reward: 5
+    _RewardS: 5
+    _Reward_hw: 5
+    _RewardS_hw: 5
+    _Desc: 8056
+    _Jump: 10035
+  - _Id: 502
+    _Note: 【阶段5】脑机-消耗神经编码器
+    _Type: 18
+    _Param:
+    - 6501
+    - 1
+    _Reward: 10
+    _RewardS: 10
+    _Reward_hw: 10
+    _RewardS_hw: 10
+    _Desc: 8056
+    _Jump: 10035
+  - _Id: 503
+    _Note: 【阶段5】脑机-消耗脑部植入体
+    _Type: 18
+    _Param:
+    - 6502
+    - 1
+    _Reward: 2000
+    _RewardS: 2000
+    _Reward_hw: 2000
+    _RewardS_hw: 2000
+    _Desc: 8056
+    _Jump: 10035
+  - _Id: 601
+    _Note: 【阶段6】芯片抽奖
+    _Type: 2
+    _Param:
+    - 201
+    - 1
+    _Reward: 120
+    _RewardS: 120
+    _Reward_hw: 120
+    _RewardS_hw: 120
+    _Desc: 6007
+    _Jump: 10006
+  - _Id: 602
+    _Note: 【阶段6】配件-抽补给箱绿
+    _Type: 14
+    _Param:
+    - 101
+    - 1
+    _Reward: 10
+    _RewardS: 10
+    _Reward_hw: 10
+    _RewardS_hw: 10
+    _Desc: 8059
+    _Jump: 10064
+  - _Id: 603
+    _Note: 【阶段6】配件-抽补给箱蓝
+    _Type: 14
+    _Param:
+    - 102
+    - 1
+    _Reward: 30
+    _RewardS: 30
+    _Reward_hw: 30
+    _RewardS_hw: 30
+    _Desc: 8059
+    _Jump: 10064
+  - _Id: 604
+    _Note: 【阶段6】配件-抽补给箱紫
+    _Type: 14
+    _Param:
+    - 103
+    - 1
+    _Reward: 250
+    _RewardS: 250
+    _Reward_hw: 250
+    _RewardS_hw: 250
+    _Desc: 8059
+    _Jump: 10064
+  - _Id: 605
+    _Note: 【阶段6】配件-抽补给箱橙
+    _Type: 14
+    _Param:
+    - 104
+    - 1
+    _Reward: 2500
+    _RewardS: 2500
+    _Reward_hw: 2500
+    _RewardS_hw: 2500
+    _Desc: 8059
+    _Jump: 10064
+  - _Id: 701
+    _Note: 【阶段7】充值积分
+    _Type: 16
+    _Param:
+    - 1
+    _Reward: 10
+    _RewardS: 10
+    _Reward_hw: 6
+    _RewardS_hw: 6
+    _Desc: 8084
+    _Jump: 0
+  - _Id: 702
+    _Note: 【阶段7】提升战力
+    _Type: 15
+    _Param:
+    - 100
+    _Reward: 1
+    _RewardS: 0.01
+    _Reward_hw: 1
+    _RewardS_hw: 0.01
+    _Desc: 8060
+    _Jump: 0
+  - _Id: 703
+    _Note: 【阶段7】消耗体力
+    _Type: 12
+    _Param:
+    - 1
+    _Reward: 15
+    _RewardS: 15
+    _Reward_hw: 15
+    _RewardS_hw: 15
+    _Desc: 8057
+    _Jump: 10009
+  - _Id: 704
+    _Note: 【阶段7】装备抽奖
+    _Type: 2
+    _Param:
+    - 101
+    - 1
+    _Reward: 150
+    _RewardS: 150
+    _Reward_hw: 150
+    _RewardS_hw: 150
+    _Desc: 6008
+    _Jump: 10007
+  - _Id: 705
+    _Note: 【阶段7】营地消耗-钢铁
+    _Type: 17
+    _Param:
+    - 4006
+    - 400
+    _Reward: 1
+    _RewardS: 0.0025
+    _Reward_hw: 1
+    _RewardS_hw: 0.0025
+    _Desc: 8056
+    _Jump: 10013
+  - _Id: 706
+    _Note: 【阶段7】营地消耗-能源
+    _Type: 17
+    _Param:
+    - 4005
+    - 400
+    _Reward: 1
+    _RewardS: 0.0025
+    _Reward_hw: 1
+    _RewardS_hw: 0.0025
+    _Desc: 8056
+    _Jump: 10013
+  - _Id: 707
+    _Note: 【阶段7】营地消耗-加速道具
+    _Type: 17
+    _Param:
+    - 4010
+    - 4
+    _Reward: 1
+    _RewardS: 0.25
+    _Reward_hw: 1
+    _RewardS_hw: 0.25
+    _Desc: 8056
+    _Jump: 10013
+  - _Id: 708
+    _Note: 【阶段7】营地消耗-科技核心蓝
+    _Type: 17
+    _Param:
+    - 4007
+    - 1
+    _Reward: 250
+    _RewardS: 250
+    _Reward_hw: 250
+    _RewardS_hw: 250
+    _Desc: 8056
+    _Jump: 10013
+  - _Id: 709
+    _Note: 【阶段7】营地消耗-科技核心黄
+    _Type: 17
+    _Param:
+    - 4008
+    - 1
+    _Reward: 250
+    _RewardS: 250
+    _Reward_hw: 250
+    _RewardS_hw: 250
+    _Desc: 8056
+    _Jump: 10013
+  - _Id: 710
+    _Note: 【阶段7】图纸-购买普通模块（DYDrawingShop）
+    _Type: 13
+    _Param:
+    - 1001
+    - 1
+    _Reward: 15
+    _RewardS: 15
+    _Reward_hw: 15
+    _RewardS_hw: 15
+    _Desc: 8058
+    _Jump: 10085
+  - _Id: 711
+    _Note: 【阶段7】图纸-购买高级模块（DYDrawingShop）
+    _Type: 13
+    _Param:
+    - 1002
+    - 1
+    _Reward: 405
+    _RewardS: 405
+    _Reward_hw: 405
+    _RewardS_hw: 405
+    _Desc: 8058
+    _Jump: 10085
+  - _Id: 712
+    _Note: 【阶段7】脑机-消耗神经增效芯片
+    _Type: 18
+    _Param:
+    - 6503
+    - 2
+    _Reward: 5
+    _RewardS: 5
+    _Reward_hw: 5
+    _RewardS_hw: 5
+    _Desc: 8056
+    _Jump: 10035
+  - _Id: 713
+    _Note: 【阶段7】脑机-消耗神经编码器
+    _Type: 18
+    _Param:
+    - 6501
+    - 1
+    _Reward: 5
+    _RewardS: 5
+    _Reward_hw: 5
+    _RewardS_hw: 5
+    _Desc: 8056
+    _Jump: 10035
+  - _Id: 714
+    _Note: 【阶段7】脑机-消耗脑部植入体
+    _Type: 18
+    _Param:
+    - 6502
+    - 1
+    _Reward: 1000
+    _RewardS: 1000
+    _Reward_hw: 1000
+    _RewardS_hw: 1000
+    _Desc: 8056
+    _Jump: 10035
+  - _Id: 715
+    _Note: 【阶段7】芯片抽奖
+    _Type: 2
+    _Param:
+    - 201
+    - 1
+    _Reward: 60
+    _RewardS: 60
+    _Reward_hw: 60
+    _RewardS_hw: 60
+    _Desc: 6007
+    _Jump: 10006
+  - _Id: 716
+    _Note: 【阶段7】配件-抽补给箱绿
+    _Type: 14
+    _Param:
+    - 101
+    - 1
+    _Reward: 5
+    _RewardS: 5
+    _Reward_hw: 5
+    _RewardS_hw: 5
+    _Desc: 8059
+    _Jump: 10064
+  - _Id: 717
+    _Note: 【阶段7】配件-抽补给箱蓝
+    _Type: 14
+    _Param:
+    - 102
+    - 1
+    _Reward: 15
+    _RewardS: 15
+    _Reward_hw: 15
+    _RewardS_hw: 15
+    _Desc: 8059
+    _Jump: 10064
+  - _Id: 718
+    _Note: 【阶段7】配件-抽补给箱紫
+    _Type: 14
+    _Param:
+    - 103
+    - 1
+    _Reward: 125
+    _RewardS: 125
+    _Reward_hw: 125
+    _RewardS_hw: 125
+    _Desc: 8059
+    _Jump: 10064
+  - _Id: 719
+    _Note: 【阶段7】配件-抽补给箱橙
+    _Type: 14
+    _Param:
+    - 104
+    - 1
+    _Reward: 1250
+    _RewardS: 1250
+    _Reward_hw: 1250
+    _RewardS_hw: 1250
+    _Desc: 8059
+    _Jump: 10064

@@ -1,0 +1,293 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03e271f457b9b66f54890e5092c4f9ee, type: 3}
+  m_Name: DYGveUnionExplore_General
+  m_EditorClassIdentifier:
+  _Items:
+  - _Id: 101
+    _Content: 2
+    _Contents: []
+    _Note: 行动速度
+  - _Id: 102
+    _Content: 180
+    _Contents: []
+    _Note: 初始体力
+  - _Id: 103
+    _Content: 240
+    _Contents: []
+    _Note: 每x秒恢复1点
+  - _Id: 104
+    _Content: 180
+    _Contents: []
+    _Note: 体力上限
+  - _Id: 105
+    _Content: 5
+    _Contents: []
+    _Note: BOSS每日参与次数
+  - _Id: 106
+    _Content: 5
+    _Contents: []
+    _Note: 战力转化生命
+  - _Id: 107
+    _Content: 1
+    _Contents: []
+    _Note: 战力转化攻击
+  - _Id: 108
+    _Content:
+    _Contents:
+    - 195
+    - 79
+    _Note: 地图最大宽高(地图编辑器占用)
+  - _Id: 109
+    _Content: 1100102
+    _Contents: []
+    _Note: 贡献分itemID
+  - _Id: 110
+    _Content: 1100101
+    _Contents: []
+    _Note: T病毒样本ID（捐献材料）
+  - _Id: 111
+    _Content: 1100105
+    _Contents: []
+    _Note: 行动力itemID
+  - _Id: 112
+    _Content: 25
+    _Contents: []
+    _Note: 团队宝箱每页个数
+  - _Id: 113
+    _Content:
+    _Contents: []
+    _Note: 团队宝箱规则说明
+  - _Id: 114
+    _Content: 1
+    _Contents:
+    - 1
+    - 30
+    _Note: 广告购买行动力：每日次数，单次数量
+  - _Id: 115
+    _Content:
+    _Contents:
+    - 3
+    - 30
+    - 30
+    - 90
+    - 180
+    _Note: 钻石购买行动力：每日次数，单次数量，价格
+  - _Id: 116
+    _Content: 0
+    _Contents: []
+    _Note: 允许跳过和碾压初始的次数
+  - _Id: 117
+    _Content:
+    _Contents: []
+    _Note: 未达成前提示TIPS
+  - _Id: 118
+    _Content: 8
+    _Contents: []
+    _Note: 碾压开启倍率
+  - _Id: 120
+    _Content: 0.7
+    _Contents: []
+    _Note: 人胜扣血系数
+  - _Id: 121
+    _Content: 0.85
+    _Contents: []
+    _Note: 怪胜扣血系数
+  - _Id: 122
+    _Content: 0.005
+    _Contents: []
+    _Note: 抗魔值达标，怪物胜利怪物最少扣血
+  - _Id: 123
+    _Content:
+    _Contents:
+    - 227088
+    - 22580
+    - 22452
+    - 22837
+    - 22709
+    - 22581
+    - 22453
+    - 22710
+    - 22582
+    - 22454
+    - 22967
+    - 22839
+    - 22711
+    - 22583
+    - 23096
+    - 22968
+    - 22840
+    - 22712
+    - 23097
+    - 23098
+    - 23099
+    - 22969
+    - 22970
+    - 22971
+    - 22841
+    - 22842
+    - 22843
+    - 22844
+    - 22713
+    - 22714
+    - 22715
+    - 22586
+    - 22965
+    - 22838
+    - 22966
+    - 23095
+    - 23223
+    - 23224
+    - 23225
+    - 23226
+    - 23227
+    - 23100
+    - 22972
+    - 22973
+    - 22845
+    - 22716
+    - 22588
+    - 22587
+    - 22458
+    - 22585
+    - 22584
+    _Note: 初始点亮地块
+  - _Id: 124
+    _Content: 3
+    _Contents: []
+    _Note: 玩家点亮迷雾圈数
+  - _Id: 125
+    _Content: 1000
+    _Contents: []
+    _Note: 【科研奖励】玩家抽取次数花费
+  - _Id: 126
+    _Content:
+    _Contents:
+    - 1
+    - 3
+    - 5
+    _Note: 【科研奖励】倍率范围
+  - _Id: 127
+    _Content:
+    _Contents:
+    - 1
+    - 1
+    - 2
+    - 3
+    - 3
+    - 5
+    - 4
+    - 6
+    - 5
+    - 10
+    _Note: 【科研奖励】奖池内容
+  - _Id: 128
+    _Content:
+    _Contents:
+    - 10
+    - 20
+    - 40
+    - 60
+    - 80
+    - 100
+    _Note: 【科研奖励】累进进度
+  - _Id: 129
+    _Content:
+    _Contents:
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    _Note: 【科研奖励】累进奖励
+  - _Id: 130
+    _Content:
+    _Contents:
+    - 4.8
+    - 0.1
+    - 0.3
+    - 4.5
+    - 10
+    - 5
+    - 0
+    - 0
+    - 0.005
+    _Note: Gve相机参数:相机默认大小,缩放速度,拖拽速度,最小缩放,最大缩放,跟随速度,跟随偏移X,跟随偏移Y,微小gve相机拖拽速度
+  - _Id: 131
+    _Content: 0.1
+    _Contents: []
+    _Note: 抗魔值达标，boss怪物胜利boss怪物最少扣血额外乘数
+  - _Id: 132
+    _Content: 7
+    _Contents: []
+    _Note: 相机缩放触发地图文本显隐变化的Size
+  - _Id: 133
+    _Content: 2
+    _Contents: []
+    _Note: 地图迷雾擦除间隔(单位：秒)
+  - _Id: 134
+    _Content: 360
+    _Contents: []
+    _Note: 小车旋转速度
+  - _Id: 135
+    _Content: 1
+    _Contents: []
+    _Note: 主界面涨血时限(单位：秒)
+  - _Id: 136
+    _Content: 0.1
+    _Contents: []
+    _Note: 计算公会平均战力截取参数a
+  - _Id: 137
+    _Content: 0.7
+    _Contents: []
+    _Note: 计算公会平均战力截取参数b
+  - _Id: 138
+    _Content: 15
+    _Contents: []
+    _Note: 计算公会平均战力人数参数c
+  - _Id: 139
+    _Content: 0.1
+    _Contents: []
+    _Note: 人胜利后，恢复的最大血量系数
+  - _Id: 140
+    _Content: 5
+    _Contents: []
+    _Note: 每日打最终boss次数
+  - _Id: 141
+    _Content:
+    _Contents:
+    - 13
+    - 21
+    _Note: 无法触发跳过战斗的怪物类型
+  - _Id: 142
+    _Content: 3
+    _Contents: []
+    _Note: 选中不可达格子的效果消失时间(秒)
+  - _Id: 143
+    _Content:
+    _Contents:
+    - 5
+    - 60
+    _Note: 迷雾任务逻辑刷新间隔(秒)；UI刷新间隔(秒)
+  - _Id: 144
+    _Content: 15
+    _Contents: []
+    _Note: 大于等于该天数算作老服务器直接进行难度分配
+  - _Id: 145
+    _Content: 14002
+    _Contents: []
+    _Note: 实验室捐献给奖励的道具id
+  - _Id: 146
+    _Content: 0.05
+    _Contents: []
+    _Note: 实验室1捐献给奖励的道具数量

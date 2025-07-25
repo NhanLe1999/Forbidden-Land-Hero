@@ -1,0 +1,1625 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c392f8b2bf374739666522967c534ef, type: 3}
+  m_Name: DYGuide
+  m_EditorClassIdentifier:
+  _Items:
+  - _Id: 1001
+    _Guidtype: 1001
+    _Condition1:
+    - 16
+    - 1
+    _GuidtypeFinish:
+    - 1010
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 1
+    _CompleteStep: 1
+    _DesTips: 7000
+    _ClosePanel: 0
+    _OnlockSystem: 100
+    _GuideBtn:
+    _GuideUi:
+    - MainUI
+    _Time: []
+  - _Id: 1002
+    _Guidtype: 1001
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 2
+    _CompleteStep: 1
+    _DesTips: 7001
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - WeaponUI
+    _Time: []
+  - _Id: 1003
+    _Guidtype: 1001
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 3
+    _CompleteStep: 1
+    _DesTips: 0
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - WeaponUI
+    _Time: []
+  - _Id: 1004
+    _Guidtype: 1001
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 4
+    _CompleteStep: 1
+    _DesTips: 7002
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - MainUI
+    _Time: []
+  - _Id: 2001
+    _Guidtype: 2001
+    _Condition1:
+    - 58
+    - 2
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 1
+    _CompleteStep: 1
+    _DesTips: 7003
+    _ClosePanel: 0
+    _OnlockSystem: 100
+    _GuideBtn:
+    _GuideUi:
+    - MainUI
+    _Time: []
+  - _Id: 2002
+    _Guidtype: 2001
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 2
+    _CompleteStep: 1
+    _DesTips: 7027
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - WeaponUI
+    _Time: []
+  - _Id: 2003
+    _Guidtype: 2001
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 3
+    _CompleteStep: 1
+    _DesTips: 7028
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - InfoWeaponUI
+    _Time: []
+  - _Id: 2004
+    _Guidtype: 2001
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 4
+    _CompleteStep: 1
+    _DesTips: 0
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - WeaponResetUI
+    _Time: []
+  - _Id: 2101
+    _Guidtype: 2101
+    _Condition1:
+    - 58
+    - 2
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 1
+    _CompleteStep: 1
+    _DesTips: 7003
+    _ClosePanel: 0
+    _OnlockSystem: 100
+    _GuideBtn:
+    _GuideUi:
+    - MainUI
+    _Time: []
+  - _Id: 2102
+    _Guidtype: 2101
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 2
+    _CompleteStep: 1
+    _DesTips: 7004
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - WeaponUI
+    _Time: []
+  - _Id: 2103
+    _Guidtype: 2101
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 3
+    _CompleteStep: 1
+    _DesTips: 7005
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - WeaponUI
+    _Time: []
+  - _Id: 2104
+    _Guidtype: 2101
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 4
+    _CompleteStep: 1
+    _DesTips: 7007
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - InfoWeaponUI
+    _Time: []
+  - _Id: 2105
+    _Guidtype: 2101
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 5
+    _CompleteStep: 1
+    _DesTips: 7050
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - WeaponConversionUPUI
+    _Time: []
+  - _Id: 3001
+    _Guidtype: 3001
+    _Condition1:
+    - 55
+    - 1
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 1
+    _CompleteStep: 1
+    _DesTips: 7008
+    _ClosePanel: 0
+    _OnlockSystem: 200
+    _GuideBtn:
+    _GuideUi:
+    - MainUI
+    - ShopUI
+    _Time: []
+  - _Id: 3002
+    _Guidtype: 3001
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 2
+    _CompleteStep: 1
+    _DesTips: 7009
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - EquipmentUI
+    _Time: []
+  - _Id: 3003
+    _Guidtype: 3001
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 3
+    _CompleteStep: 1
+    _DesTips: 7010
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - EquipmentDetailUI
+    _Time: []
+  - _Id: 3101
+    _Guidtype: 3101
+    _Condition1:
+    - 54
+    - 7004
+    - 1
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 1
+    _CompleteStep: 1
+    _DesTips: 7017
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - MainUI
+    _Time: []
+  - _Id: 3102
+    _Guidtype: 3101
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 2
+    _CompleteStep: 1
+    _DesTips: 0
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - ShopUI
+    _Time: []
+  - _Id: 4001
+    _Guidtype: 4001
+    _Condition1:
+    - 1
+    - 4
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 1
+    _CompleteStep: 1
+    _DesTips: 7011
+    _ClosePanel: 0
+    _OnlockSystem: 501
+    _GuideBtn:
+    _GuideUi:
+    - MainUI
+    _Time: []
+  - _Id: 4002
+    _Guidtype: 4001
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 2
+    _CompleteStep: 1
+    _DesTips: 7012
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - ChallengeUI
+    _Time: []
+  - _Id: 4003
+    _Guidtype: 4001
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 3
+    _CompleteStep: 1
+    _DesTips: 0
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - ChallengeDetailUI
+    _Time: []
+  - _Id: 5001
+    _Guidtype: 5001
+    _Condition1:
+    - 30
+    - 1
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 1
+    _CompleteStep: 1
+    _DesTips: 7013
+    _ClosePanel: 1
+    _OnlockSystem: 300
+    _GuideBtn:
+    _GuideUi:
+    - MainUI
+    - BattlePassRewardUI
+    - SignInUI
+    _Time: []
+  - _Id: 5002
+    _Guidtype: 5001
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 2
+    _CompleteStep: 1
+    _DesTips: 7014
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - EquipmentUI
+    _Time: []
+  - _Id: 5003
+    _Guidtype: 5001
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 3
+    _CompleteStep: 1
+    _DesTips: 0
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - RobotDetailUI
+    _Time: []
+  - _Id: 6001
+    _Guidtype: 6001
+    _Condition1:
+    - 54
+    - 2101
+    - 5
+    _GuidtypeFinish:
+    - 1010
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 1
+    _CompleteStep: 1
+    _DesTips: 7023
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - MainUI
+    - ShopUI
+    _Time: []
+  - _Id: 6002
+    _Guidtype: 6001
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 2
+    _CompleteStep: 1
+    _DesTips: 7018
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - WeaponUI
+    _Time: []
+  - _Id: 6003
+    _Guidtype: 6001
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 3
+    _CompleteStep: 1
+    _DesTips: 0
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - WeaponRankUPUI
+    _Time: []
+  - _Id: 6101
+    _Guidtype: 6101
+    _Condition1:
+    - 34
+    - 100001
+    - 360
+    _GuidtypeFinish:
+    - 1010
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 1
+    _CompleteStep: 1
+    _DesTips: 7017
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - MainUI
+    _Time: []
+  - _Id: 6102
+    _Guidtype: 6101
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 2
+    _CompleteStep: 1
+    _DesTips: 0
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - CommonGetItemUI
+    _Time: []
+  - _Id: 6103
+    _Guidtype: 6101
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 3
+    _CompleteStep: 1
+    _DesTips: 0
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - MainUI
+    _Time: []
+  - _Id: 6104
+    _Guidtype: 6101
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 4
+    _CompleteStep: 1
+    _DesTips: 0
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - ShopUI
+    _Time: []
+  - _Id: 7001
+    _Guidtype: 7001
+    _Condition1:
+    - 1
+    - 6
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 1
+    _CompleteStep: 1
+    _DesTips: 7019
+    _ClosePanel: 0
+    _OnlockSystem: 916
+    _GuideBtn:
+    _GuideUi:
+    - MainUI
+    _Time: []
+  - _Id: 7002
+    _Guidtype: 7001
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 2
+    _CompleteStep: 1
+    _DesTips: 7020
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - CampsiteUI
+    _Time: []
+  - _Id: 7003
+    _Guidtype: 7001
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 3
+    _CompleteStep: 1
+    _DesTips: 0
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - CampUpgradeUI
+    _Time: []
+  - _Id: 7004
+    _Guidtype: 7001
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 4
+    _CompleteStep: 1
+    _DesTips: 7021
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - CampsiteUI
+    _Time: []
+  - _Id: 7005
+    _Guidtype: 7001
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 5
+    _CompleteStep: 1
+    _DesTips: 7022
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - CampUpgradeOver
+    _Time: []
+  - _Id: 8001
+    _Guidtype: 1010
+    _Condition1:
+    - 34
+    - 100001
+    - 360
+    _GuidtypeFinish:
+    - 1001
+    - 6001
+    - 6101
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 1
+    _CompleteStep: 1
+    _DesTips: 7017
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - MainUI
+    _Time: []
+  - _Id: 8002
+    _Guidtype: 1010
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 2
+    _CompleteStep: 1
+    _DesTips: 0
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - CommonGetItemUI
+    _Time: []
+  - _Id: 8003
+    _Guidtype: 1010
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 3
+    _CompleteStep: 1
+    _DesTips: 0
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - MainUI
+    _Time: []
+  - _Id: 8004
+    _Guidtype: 1010
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 0
+    _SkipTime: 0
+    _GuidStep: 4
+    _CompleteStep: 1
+    _DesTips: 0
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - ShopUI
+    _Time: []
+  - _Id: 8005
+    _Guidtype: 1010
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 5
+    _CompleteStep: 1
+    _DesTips: 7023
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - MainUI
+    - ShopUI
+    _Time: []
+  - _Id: 8006
+    _Guidtype: 1010
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 6
+    _CompleteStep: 1
+    _DesTips: 7018
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - WeaponUI
+    _Time: []
+  - _Id: 8007
+    _Guidtype: 1010
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 0
+    _SkipTime: 0
+    _GuidStep: 7
+    _CompleteStep: 1
+    _DesTips: 0
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - WeaponRankUPUI
+    _Time: []
+  - _Id: 8008
+    _Guidtype: 1010
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 8
+    _CompleteStep: 1
+    _DesTips: 7001
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - WeaponUI
+    - WeaponRankUPUI
+    _Time: []
+  - _Id: 8009
+    _Guidtype: 1010
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 0
+    _SkipTime: 0
+    _GuidStep: 9
+    _CompleteStep: 1
+    _DesTips: 0
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - WeaponUI
+    _Time: []
+  - _Id: 10001
+    _Guidtype: 10001
+    _Condition1:
+    - 1
+    - 13
+    _GuidtypeFinish: []
+    _Condition2:
+    - 72
+    - 12
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 1
+    _CompleteStep: 1
+    _DesTips: 7033
+    _ClosePanel: 0
+    _OnlockSystem: 702
+    _GuideBtn:
+    _GuideUi:
+    - MainUI
+    _Time: []
+  - _Id: 10002
+    _Guidtype: 10001
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 2
+    _CompleteStep: 1
+    _DesTips: 7034
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - CampMainUI
+    _Time: []
+  - _Id: 10003
+    _Guidtype: 10001
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 0
+    _SkipTime: 0
+    _GuidStep: 3
+    _CompleteStep: 1
+    _DesTips: 7035
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - RelicUI
+    _Time: []
+  - _Id: 11001
+    _Guidtype: 11001
+    _Condition1:
+    - 1
+    - 11
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 1
+    _CompleteStep: 1
+    _DesTips: 7037
+    _ClosePanel: 0
+    _OnlockSystem: 920
+    _GuideBtn:
+    _GuideUi:
+    - MainUI
+    _Time:
+    - 2023
+    - 11
+    - 24
+    - 0
+  - _Id: 11002
+    _Guidtype: 11001
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 2
+    _CompleteStep: 1
+    _DesTips: 7038
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - EquipmentUI
+    _Time: []
+  - _Id: 11003
+    _Guidtype: 11001
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 3
+    _CompleteStep: 1
+    _DesTips: 7039
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - EquipmentUI
+    _Time: []
+  - _Id: 12001
+    _Guidtype: 12001
+    _Condition1:
+    - 1
+    - 20
+    _GuidtypeFinish: []
+    _Condition2:
+    - 72
+    - 17
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 1
+    _CompleteStep: 1
+    _DesTips: 7040
+    _ClosePanel: 0
+    _OnlockSystem: 921
+    _GuideBtn:
+    _GuideUi:
+    - MainUI
+    _Time:
+    - 2023
+    - 11
+    - 24
+    - 0
+  - _Id: 12002
+    _Guidtype: 12001
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 2
+    _CompleteStep: 1
+    _DesTips: 7041
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - EquipmentUI
+    _Time: []
+  - _Id: 12003
+    _Guidtype: 12001
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 3
+    _CompleteStep: 1
+    _DesTips: 7042
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - EquipmentUI
+    _Time: []
+  - _Id: 12004
+    _Guidtype: 12001
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 4
+    _CompleteStep: 1
+    _DesTips: 7043
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - PolishUI
+    _Time: []
+  - _Id: 12005
+    _Guidtype: 12001
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 5
+    _CompleteStep: 1
+    _DesTips: 7044
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - PolishUI
+    _Time: []
+  - _Id: 13001
+    _Guidtype: 13001
+    _Condition1:
+    - 1
+    - 22
+    _GuidtypeFinish: []
+    _Condition2:
+    - 72
+    - 22
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 1
+    _CompleteStep: 1
+    _DesTips: 7045
+    _ClosePanel: 0
+    _OnlockSystem: 928
+    _GuideBtn:
+    _GuideUi:
+    - MainUI
+    _Time:
+    - 2023
+    - 11
+    - 24
+    - 0
+  - _Id: 13002
+    _Guidtype: 13001
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 2
+    _CompleteStep: 1
+    _DesTips: 7046
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - EquipmentUI
+    _Time: []
+  - _Id: 13003
+    _Guidtype: 13001
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 3
+    _CompleteStep: 1
+    _DesTips: 7047
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - DrawingUI
+    _Time: []
+  - _Id: 13004
+    _Guidtype: 13001
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 4
+    _CompleteStep: 1
+    _DesTips: 0
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - DrawingShopUI
+    _Time: []
+  - _Id: 13005
+    _Guidtype: 13001
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 0
+    _SkipTime: 0
+    _GuidStep: 5
+    _CompleteStep: 1
+    _DesTips: 0
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - BuyItemTipUI
+    _Time: []
+  - _Id: 13006
+    _Guidtype: 13001
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 0
+    _SkipTime: 0
+    _GuidStep: 6
+    _CompleteStep: 1
+    _DesTips: 7048
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - DrawingUI
+    _Time: []
+  - _Id: 14001
+    _Guidtype: 14001
+    _Condition1:
+    - 1
+    - 10
+    _GuidtypeFinish: []
+    _Condition2:
+    - 72
+    - 3
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 1
+    _CompleteStep: 1
+    _DesTips: 1000801
+    _ClosePanel: 0
+    _OnlockSystem: 935
+    _GuideBtn:
+    _GuideUi:
+    - MainUI
+    _Time: []
+  - _Id: 14002
+    _Guidtype: 14001
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 1
+    _SkipTime: 0
+    _GuidStep: 2
+    _CompleteStep: 1
+    _DesTips: 1000802
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - CampMainUI
+    _Time: []
+  - _Id: 14003
+    _Guidtype: 14001
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 0
+    _SkipTime: 0
+    _GuidStep: 3
+    _CompleteStep: 1
+    _DesTips: 1000805
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - CarBarnUI
+    _Time: []
+  - _Id: 14004
+    _Guidtype: 14001
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 0
+    _SkipTime: 0
+    _GuidStep: 4
+    _CompleteStep: 1
+    _DesTips: 1000806
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - CarRemoldUI
+    _Time: []
+  - _Id: 15001
+    _Guidtype: 15001
+    _Condition1:
+    - 1
+    - 6
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 0
+    _SkipTime: 0
+    _GuidStep: 1
+    _CompleteStep: 1
+    _DesTips: 7051
+    _ClosePanel: 0
+    _OnlockSystem: 916
+    _GuideBtn:
+    _GuideUi:
+    - MainUI
+    _Time: []
+  - _Id: 15002
+    _Guidtype: 15001
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 0
+    _SkipTime: 0
+    _GuidStep: 2
+    _CompleteStep: 1
+    _DesTips: 7052
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - CampMainUI
+    _Time: []
+  - _Id: 15003
+    _Guidtype: 15001
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 0
+    _SkipTime: 0
+    _GuidStep: 3
+    _CompleteStep: 1
+    _DesTips: 7053
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - CampMainUI
+    _Time: []
+  - _Id: 15004
+    _Guidtype: 15001
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 0
+    _SkipTime: 0
+    _GuidStep: 4
+    _CompleteStep: 1
+    _DesTips: 0
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - CampShopUI
+    _Time: []
+  - _Id: 15005
+    _Guidtype: 15001
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 0
+    _SkipTime: 0
+    _GuidStep: 5
+    _CompleteStep: 1
+    _DesTips: 0
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - CampMainUI
+    _Time: []
+  - _Id: 15006
+    _Guidtype: 15001
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 0
+    _SkipTime: 0
+    _GuidStep: 6
+    _CompleteStep: 1
+    _DesTips: 0
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - CampMainUI
+    _Time: []
+  - _Id: 15007
+    _Guidtype: 15001
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 0
+    _SkipTime: 0
+    _GuidStep: 7
+    _CompleteStep: 1
+    _DesTips: 7054
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - CampMainUI
+    _Time: []
+  - _Id: 15008
+    _Guidtype: 15001
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 0
+    _SkipTime: 0
+    _GuidStep: 8
+    _CompleteStep: 1
+    _DesTips: 0
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - CampTalentMainUI
+    _Time: []
+  - _Id: 15009
+    _Guidtype: 15001
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 0
+    _SkipTime: 0
+    _GuidStep: 9
+    _CompleteStep: 1
+    _DesTips: 0
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - CampTalentLvUpUI
+    _Time: []
+  - _Id: 16001
+    _Guidtype: 16001
+    _Condition1:
+    - 79
+    - 2
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 0
+    _SkipTime: 0
+    _GuidStep: 1
+    _CompleteStep: 1
+    _DesTips: 913126
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - ZombieRun_LevelSelectUI
+    _Time: []
+  - _Id: 16002
+    _Guidtype: 16001
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 0
+    _SkipTime: 0
+    _GuidStep: 2
+    _CompleteStep: 1
+    _DesTips: 0
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - DailyPlayUI
+    _Time: []
+  - _Id: 16003
+    _Guidtype: 16001
+    _Condition1:
+    - 0
+    _GuidtypeFinish: []
+    _Condition2:
+    - 0
+    _HandleType: 1
+    _HasFinger: 1
+    _RmWithTouchMask: 0
+    _SkipTime: 0
+    _GuidStep: 3
+    _CompleteStep: 1
+    _DesTips: 3055
+    _ClosePanel: 0
+    _OnlockSystem: 0
+    _GuideBtn:
+    _GuideUi:
+    - MainUI
+    _Time: []

@@ -1,0 +1,476 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 033045677e19deefca4d9fa80813ac07, type: 3}
+  m_Name: DYCampDecorationCfg
+  m_EditorClassIdentifier:
+  _Items:
+  - _Id: 1001
+    _Note: 草
+    _Name: 641101
+    _Sort: 501
+    _ItemId: 4101
+    _Type: 0
+    _ShowCondition: []
+    _Icon: Functions/Camp/Textures/UI/Icon/icond_cao
+    _Prefab: Functions/Camp/Prefabs/Grid/DecorationGrass
+    _Road:
+    _Offset:
+    - 0
+    - -186
+    _Scale:
+    - 1
+    - 1
+    _LockTip: 0
+    _Condition:
+    - 0
+    _Price: 100
+    _LevelGroup: 0
+  - _Id: 1002
+    _Note: 枯树
+    _Name: 641102
+    _Sort: 502
+    _ItemId: 4102
+    _Type: 0
+    _ShowCondition: []
+    _Icon: Functions/Camp/Textures/UI/Icon/icond_kushu
+    _Prefab: Functions/Camp/Prefabs/Grid/DecorationDeadTree
+    _Road:
+    _Offset:
+    - 0
+    - -186
+    _Scale:
+    - 1
+    - 1
+    _LockTip: 0
+    _Condition:
+    - 0
+    _Price: 100
+    _LevelGroup: 0
+  - _Id: 1003
+    _Note: 石头
+    _Name: 641103
+    _Sort: 503
+    _ItemId: 4103
+    _Type: 0
+    _ShowCondition: []
+    _Icon: Functions/Camp/Textures/UI/Icon/icond_shitou
+    _Prefab: Functions/Camp/Prefabs/Grid/DecorationStone
+    _Road:
+    _Offset:
+    - 0
+    - -186
+    _Scale:
+    - 1
+    - 1
+    _LockTip: 0
+    _Condition:
+    - 0
+    _Price: 100
+    _LevelGroup: 0
+  - _Id: 1004
+    _Note: 沥青路面
+    _Name: 641201
+    _Sort: 504
+    _ItemId: 4104
+    _Type: 1
+    _ShowCondition: []
+    _Icon: Functions/Camp/Textures/UI/Icon/icond_lu
+    _Prefab: Functions/Camp/Prefabs/Grid/DecorationRoad
+    _Road: Functions/Camp/Textures/Event/CampD_Road_{0}.png
+    _Offset:
+    - 0
+    - -186
+    _Scale:
+    - 1
+    - 1
+    _LockTip: 0
+    _Condition:
+    - 15
+    - 100
+    _Price: 100
+    _LevelGroup: 0
+  - _Id: 2001
+    _Note: 物资箱
+    _Name: 641206
+    _Sort: 401
+    _ItemId: 4201
+    _Type: 0
+    _ShowCondition: []
+    _Icon: Functions/Camp/Textures/UI/Icon/icond_wuzixiang
+    _Prefab: Functions/Camp/Prefabs/Grid/DecorationSupplyBox
+    _Road:
+    _Offset:
+    - 0
+    - -186
+    _Scale:
+    - 1
+    - 1
+    _LockTip: 0
+    _Condition:
+    - 15
+    - 300
+    _Price: 300
+    _LevelGroup: 201
+  - _Id: 2002
+    _Note: 路灯
+    _Name: 641202
+    _Sort: 402
+    _ItemId: 4202
+    _Type: 0
+    _ShowCondition: []
+    _Icon: Functions/Camp/Textures/UI/Icon/icond_ludeng
+    _Prefab: Functions/Camp/Prefabs/Grid/DecorationStreetLight
+    _Road:
+    _Offset:
+    - 0
+    - -186
+    _Scale:
+    - 1
+    - 1
+    _LockTip: 0
+    _Condition:
+    - 15
+    - 300
+    _Price: 300
+    _LevelGroup: 201
+  - _Id: 2003
+    _Note: 篝火
+    _Name: 641203
+    _Sort: 403
+    _ItemId: 4203
+    _Type: 0
+    _ShowCondition: []
+    _Icon: Functions/Camp/Textures/UI/Icon/icond_gouhuo
+    _Prefab: Functions/Camp/Prefabs/Grid/DecorationBonfire
+    _Road:
+    _Offset:
+    - 0
+    - -186
+    _Scale:
+    - 1
+    - 1
+    _LockTip: 0
+    _Condition:
+    - 15
+    - 300
+    _Price: 300
+    _LevelGroup: 201
+  - _Id: 2004
+    _Note: 绿松树
+    _Name: 641204
+    _Sort: 404
+    _ItemId: 4204
+    _Type: 0
+    _ShowCondition: []
+    _Icon: Functions/Camp/Textures/UI/Icon/icond_songshu
+    _Prefab: Functions/Camp/Prefabs/Grid/DecorationPineTree
+    _Road:
+    _Offset:
+    - 0
+    - -186
+    _Scale:
+    - 1
+    - 1
+    _LockTip: 0
+    _Condition:
+    - 15
+    - 300
+    _Price: 300
+    _LevelGroup: 201
+  - _Id: 2005
+    _Note: 红枫树
+    _Name: 641205
+    _Sort: 405
+    _ItemId: 4205
+    _Type: 0
+    _ShowCondition: []
+    _Icon: Functions/Camp/Textures/UI/Icon/icond_fengshu
+    _Prefab: Functions/Camp/Prefabs/Grid/DecorationMapleTree
+    _Road:
+    _Offset:
+    - 0
+    - -186
+    _Scale:
+    - 1
+    - 1
+    _LockTip: 0
+    _Condition:
+    - 15
+    - 300
+    _Price: 300
+    _LevelGroup: 201
+  - _Id: 2006
+    _Note: 仙人掌
+    _Name: 641104
+    _Sort: 406
+    _ItemId: 4206
+    _Type: 0
+    _ShowCondition: []
+    _Icon: Functions/Camp/Textures/UI/Icon/icond_xianrenzhang
+    _Prefab: Functions/Camp/Prefabs/Grid/DecorationCactus
+    _Road:
+    _Offset:
+    - 0
+    - -186
+    _Scale:
+    - 1
+    - 1
+    _LockTip: 0
+    _Condition:
+    - 15
+    - 300
+    _Price: 300
+    _LevelGroup: 201
+  - _Id: 3001
+    _Note: 枪火雕塑
+    _Name: 641301
+    _Sort: 301
+    _ItemId: 4301
+    _Type: 0
+    _ShowCondition: []
+    _Icon: Functions/Camp/Textures/UI/Icon/icond_qiangdiaosu
+    _Prefab: Functions/Camp/Prefabs/Grid/DecorationGunSculpture
+    _Road:
+    _Offset:
+    - 0
+    - -186
+    _Scale:
+    - 1
+    - 1
+    _LockTip: 0
+    _Condition:
+    - 15
+    - 1000
+    _Price: 1000
+    _LevelGroup: 301
+  - _Id: 3002
+    _Note: 迎福狻猊
+    _Name: 641302
+    _Sort: 302
+    _ItemId: 4302
+    _Type: 0
+    _ShowCondition: []
+    _Icon: Functions/Camp/Textures/UI/Icon/icond_wushi
+    _Prefab: Functions/Camp/Prefabs/Grid/DecorationWuShi
+    _Road:
+    _Offset:
+    - 40
+    - -186
+    _Scale:
+    - 2
+    - 1
+    _LockTip: 5027
+    _Condition: []
+    _Price: 0
+    _LevelGroup: 301
+  - _Id: 3003
+    _Note: 协作丰碑
+    _Name: 641303
+    _Sort: 399
+    _ItemId: 4303
+    _Type: 0
+    _ShowCondition: []
+    _Icon: Functions/Camp/Textures/UI/Icon/icond_xiezuofengbei
+    _Prefab: Functions/Camp/Prefabs/Grid/DecorationXieZuoFengBei
+    _Road:
+    _Offset:
+    - 0
+    - -200
+    _Scale:
+    - 2
+    - 2
+    _LockTip: 5027
+    _Condition: []
+    _Price: 0
+    _LevelGroup: 302
+  - _Id: 3004
+    _Note: 金色麦田
+    _Name: 641304
+    _Sort: 303
+    _ItemId: 4304
+    _Type: 0
+    _ShowCondition: []
+    _Icon: Functions/Camp/Textures/UI/Icon/icond_maitian
+    _Prefab: Functions/Camp/Prefabs/Grid/DecorationMaiTian
+    _Road:
+    _Offset:
+    - 0
+    - -200
+    _Scale:
+    - 1
+    - 1
+    _LockTip: 5027
+    _Condition: []
+    _Price: 0
+    _LevelGroup: 301
+  - _Id: 3005
+    _Note: 白银僵尸雕像
+    _Name: 641305
+    _Sort: 304
+    _ItemId: 4305
+    _Type: 0
+    _ShowCondition: []
+    _Icon: Functions/Camp/Textures/UI/Icon/icond_jiangshiyin
+    _Prefab: Functions/Camp/Prefabs/Grid/DecorationJiangShiYin
+    _Road:
+    _Offset:
+    - 0
+    - -186
+    _Scale:
+    - 1
+    - 1
+    _LockTip: 5027
+    _Condition: []
+    _Price: 0
+    _LevelGroup: 301
+  - _Id: 4001
+    _Note: 摇钱树
+    _Name: 641401
+    _Sort: 301
+    _ItemId: 4401
+    _Type: 0
+    _ShowCondition: []
+    _Icon: Functions/Camp/Textures/UI/Icon/icond_yaoqianshu
+    _Prefab: Functions/Camp/Prefabs/Grid/DecorationYaoQianShu
+    _Road:
+    _Offset:
+    - 0
+    - -200
+    _Scale:
+    - 2
+    - 2
+    _LockTip: 5027
+    _Condition: []
+    _Price: 0
+    _LevelGroup: 401
+  - _Id: 4002
+    _Note: 幸运喷泉
+    _Name: 641402
+    _Sort: 399
+    _ItemId: 4402
+    _Type: 0
+    _ShowCondition:
+    - 78
+    - 1500000
+    _Icon: Functions/Camp/Textures/UI/Icon/icond_xingyunpenquan
+    _Prefab: Functions/Camp/Prefabs/Grid/DecorationXingYunPenQuan
+    _Road:
+    _Offset:
+    - 0
+    - -200
+    _Scale:
+    - 2
+    - 2
+    _LockTip: 5027
+    _Condition: []
+    _Price: 0
+    _LevelGroup: 402
+  - _Id: 4003
+    _Note: 挖掘机
+    _Name: 641403
+    _Sort: 302
+    _ItemId: 4403
+    _Type: 0
+    _ShowCondition: []
+    _Icon: Functions/Camp/Textures/UI/Icon/icond_waji
+    _Prefab: Functions/Camp/Prefabs/Grid/DecorationWaJi
+    _Road:
+    _Offset:
+    - 0
+    - -200
+    _Scale:
+    - 3
+    - 3
+    _LockTip: 5027
+    _Condition: []
+    _Price: 0
+    _LevelGroup: 403
+  - _Id: 4004
+    _Note: 黄金僵尸雕像
+    _Name: 641404
+    _Sort: 303
+    _ItemId: 4404
+    _Type: 0
+    _ShowCondition: []
+    _Icon: Functions/Camp/Textures/UI/Icon/icond_jiangshijin
+    _Prefab: Functions/Camp/Prefabs/Grid/DecorationJiangShiJin
+    _Road:
+    _Offset:
+    - 0
+    - -200
+    _Scale:
+    - 1
+    - 1
+    _LockTip: 5027
+    _Condition: []
+    _Price: 0
+    _LevelGroup: 403
+  - _Id: 4005
+    _Note: 巨蟹座雕塑
+    _Name: 641405
+    _Sort: 304
+    _ItemId: 4405
+    _Type: 0
+    _ShowCondition: []
+    _Icon: Functions/Camp/Textures/UI/Icon/icond_juxiezuo
+    _Prefab: Functions/Camp/Prefabs/Grid/DecorationJuXieZuo
+    _Road:
+    _Offset:
+    - 0
+    - -200
+    _Scale:
+    - 2
+    - 2
+    _LockTip: 5027
+    _Condition: []
+    _Price: 0
+    _LevelGroup: 404
+  - _Id: 4006
+    _Note: 天蝎座雕塑
+    _Name: 641406
+    _Sort: 305
+    _ItemId: 4406
+    _Type: 0
+    _ShowCondition: []
+    _Icon: Functions/Camp/Textures/UI/Icon/icond_tianxiezuo
+    _Prefab: Functions/Camp/Prefabs/Grid/DecorationTianXieZuo
+    _Road:
+    _Offset:
+    - 0
+    - -200
+    _Scale:
+    - 2
+    - 2
+    _LockTip: 5027
+    _Condition: []
+    _Price: 0
+    _LevelGroup: 404
+  - _Id: 4007
+    _Note: 双鱼座雕塑
+    _Name: 641407
+    _Sort: 306
+    _ItemId: 4407
+    _Type: 0
+    _ShowCondition: []
+    _Icon: Functions/Camp/Textures/UI/Icon/icond_shuangyuzuo
+    _Prefab: Functions/Camp/Prefabs/Grid/DecorationShuangYuZuo
+    _Road:
+    _Offset:
+    - 0
+    - -200
+    _Scale:
+    - 2
+    - 2
+    _LockTip: 5027
+    _Condition: []
+    _Price: 0
+    _LevelGroup: 404

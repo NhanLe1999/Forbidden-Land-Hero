@@ -1,0 +1,312 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c992c120d9dc56f6e55523aed5b5e24, type: 3}
+  m_Name: DYBattleItem
+  m_EditorClassIdentifier:
+  _Items:
+  - _Id: 1
+    _Name: Gold
+    _Prefab: Prefabs/Prop/Gold
+    _Icon:
+    _Param:
+    - 2
+    - 7001
+    - 1
+    _GainEffect: 0
+    _Audio: buff
+  - _Id: 2
+    _Name: PveDiamond
+    _Prefab: Prefabs/Prop/PveDiamond1
+    _Icon:
+    _Param:
+    - 4
+    - 7001
+    - 1
+    _GainEffect: 0
+    _Audio: eggappear
+  - _Id: 3
+    _Name: PveDiamond
+    _Prefab: Prefabs/Prop/PveDiamond2
+    _Icon:
+    _Param:
+    - 4
+    - 7001
+    - 1
+    _GainEffect: 0
+    _Audio: eggappear
+  - _Id: 4
+    _Name: PveDiamond
+    _Prefab: Prefabs/Prop/PveDiamond3
+    _Icon:
+    _Param:
+    - 4
+    - 7001
+    - 1
+    _GainEffect: 0
+    _Audio: eggappear
+  - _Id: 5
+    _Name: PveDiamond
+    _Prefab: Prefabs/Prop/PveDiamond4
+    _Icon:
+    _Param:
+    - 4
+    - 7001
+    - 1
+    _GainEffect: 0
+    _Audio: eggappear
+  - _Id: 6
+    _Name: PveDiamond
+    _Prefab: Prefabs/Prop/PveDiamond5
+    _Icon:
+    _Param:
+    - 4
+    - 7001
+    - 1
+    _GainEffect: 0
+    _Audio: eggappear
+  - _Id: 7
+    _Name: PveDiamond
+    _Prefab: Prefabs/Prop/PveDiamond6
+    _Icon:
+    _Param:
+    - 4
+    - 7001
+    - 1
+    _GainEffect: 0
+    _Audio: eggappear
+  - _Id: 1001
+    _Name: Cure
+    _Prefab: Prefabs/Prop/MadicalBox
+    _Icon: Cure
+    _Param:
+    - 3
+    - 0.8
+    _GainEffect: 103
+    _Audio: buff
+  - _Id: 1002
+    _Name: Power
+    _Prefab: Prefabs/Prop/AnalepticO
+    _Icon: AnalepticO
+    _Param:
+    - 1
+    - 1002
+    _GainEffect: 104
+    _Audio: buff
+  - _Id: 1003
+    _Name: AtkSpeed
+    _Prefab: Prefabs/Prop/AnalepticB
+    _Icon: AnalepticB
+    _Param:
+    - 1
+    - 1003
+    _GainEffect: 105
+    _Audio: buff
+  - _Id: 1004
+    _Name: Speed
+    _Prefab: Prefabs/Prop/AnalepticP
+    _Icon: AnalepticP
+    _Param:
+    - 1
+    - 1004
+    _GainEffect: 106
+    _Audio: buff
+  - _Id: 1005
+    _Name: Cure
+    _Prefab: Prefabs/Prop/Cure_s
+    _Icon: Cure_little
+    _Param:
+    - 3
+    - 0.4
+    _GainEffect: 103
+    _Audio: buff
+  - _Id: 1006
+    _Name: Armor
+    _Prefab: Prefabs/Prop/AnalepticD
+    _Icon: AnalepticD
+    _Param:
+    - 3
+    - 0.8
+    _GainEffect: 105
+    _Audio: buff
+  - _Id: 1012
+    _Name: Power
+    _Prefab: Prefabs/Prop/AnalepticO
+    _Icon: AnalepticO
+    _Param:
+    - 1
+    - 1012
+    _GainEffect: 104
+    _Audio: buff
+  - _Id: 1013
+    _Name: AtkSpeed
+    _Prefab: Prefabs/Prop/AnalepticB
+    _Icon: AnalepticB
+    _Param:
+    - 1
+    - 1013
+    _GainEffect: 105
+    _Audio: buff
+  - _Id: 2001
+    _Name: FireCountAirDrop
+    _Prefab: Prefabs/Prop/PVE_BUFF_O_AirDrop
+    _Icon: AnalepticO
+    _Param:
+    - 5
+    - 20001
+    _GainEffect: 105
+    _Audio: buff
+  - _Id: 2002
+    _Name: FireCurveAirDrop
+    _Prefab: Prefabs/Prop/PVE_BUFF_B_AirDrop
+    _Icon: AnalepticB
+    _Param:
+    - 5
+    - 20002
+    _GainEffect: 105
+    _Audio: buff
+  - _Id: 2003
+    _Name: MoveSpeedAirDrop
+    _Prefab: Prefabs/Prop/PVE_BUFF_P_AirDrop
+    _Icon: AnalepticP
+    _Param:
+    - 5
+    - 20003
+    _GainEffect: 105
+    _Audio: buff
+  - _Id: 2004
+    _Name: Cure
+    _Prefab: Prefabs/Prop/PVE_MadicalBox
+    _Icon: Cure
+    _Param:
+    - 3
+    - 0.8
+    _GainEffect: 103
+    _Audio: buff
+  - _Id: 20001
+    _Name: FireCount
+    _Prefab: Prefabs/Prop/PVE_BUFF_O
+    _Icon: AnalepticO
+    _Param:
+    - 1
+    - 2001
+    - 20001
+    _GainEffect: 105
+    _Audio: buff
+  - _Id: 20002
+    _Name: FireCurve
+    _Prefab: Prefabs/Prop/PVE_BUFF_B
+    _Icon: AnalepticB
+    _Param:
+    - 1
+    - 2002
+    - 20002
+    _GainEffect: 105
+    _Audio: buff
+  - _Id: 20003
+    _Name: MoveSpeed
+    _Prefab: Prefabs/Prop/PVE_BUFF_P
+    _Icon: AnalepticP
+    _Param:
+    - 1
+    - 2003
+    - 20003
+    _GainEffect: 105
+    _Audio: buff
+  - _Id: 99001
+    _Name: analepticP
+    _Prefab: Prefabs/Prop/SkillWeapon
+    _Icon:
+    _Param:
+    - 1
+    - 99001
+    _GainEffect: 106
+    _Audio: buff
+  - _Id: 190001
+    _Name: White Weapon
+    _Prefab: Prefabs/Prop/WeaponChest
+    _Icon:
+    _Param:
+    - 2
+    - 190001
+    - 1
+    _GainEffect: 103
+    _Audio: buff
+  - _Id: 190002
+    _Name: Green Weapon
+    _Prefab: Prefabs/Prop/WeaponChest
+    _Icon:
+    _Param:
+    - 2
+    - 190002
+    - 1
+    _GainEffect: 103
+    _Audio: buff
+  - _Id: 190003
+    _Name: Blue Weapon
+    _Prefab: Prefabs/Prop/WeaponChest2
+    _Icon:
+    _Param:
+    - 2
+    - 190003
+    - 1
+    _GainEffect: 103
+    _Audio: buff
+  - _Id: 190006
+    _Name: Purple Weapon
+    _Prefab: Prefabs/Prop/WeaponChest2
+    _Icon:
+    _Param:
+    - 2
+    - 190006
+    - 1
+    _GainEffect: 103
+    _Audio: buff
+  - _Id: 290001
+    _Name: White Equip
+    _Prefab: Prefabs/Prop/EquipmentChest
+    _Icon:
+    _Param:
+    - 2
+    - 290001
+    - 1
+    _GainEffect: 103
+    _Audio: buff
+  - _Id: 290002
+    _Name: Green Equip
+    _Prefab: Prefabs/Prop/EquipmentChest
+    _Icon:
+    _Param:
+    - 2
+    - 290002
+    - 1
+    _GainEffect: 103
+    _Audio: buff
+  - _Id: 290003
+    _Name: Blue Equip
+    _Prefab: Prefabs/Prop/EquipmentChest2
+    _Icon:
+    _Param:
+    - 2
+    - 290003
+    - 1
+    _GainEffect: 103
+    _Audio: buff
+  - _Id: 290006
+    _Name: Purple Equip
+    _Prefab: Prefabs/Prop/EquipmentChest2
+    _Icon:
+    _Param:
+    - 2
+    - 290006
+    - 1
+    _GainEffect: 103
+    _Audio: buff

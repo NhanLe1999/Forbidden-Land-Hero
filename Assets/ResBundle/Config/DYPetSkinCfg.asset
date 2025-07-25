@@ -1,0 +1,881 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ab5c139cc3e43cf06944abed9431df, type: 3}
+  m_Name: DYPetSkinCfg
+  m_EditorClassIdentifier:
+  _Items:
+  - _Id: 1001
+    _Note:
+    _IsSkin: 0
+    _SkinRank: 0
+    _Name: 29016
+    _Desc: 29107
+    _UnlockCost: []
+    _RobotSkinUIIcon:
+    _SameItem: 0
+    _RobotBody: 1001
+    _Path: PrefabsN/Robot/UAV002
+    _Unionid: 1001
+    _Uipath: PrefabsN/RobotUI/UAV002_ui
+    _UiPathRT: PrefabsN/RobotUI/UAV002_ui_rt
+    _Getnewscale: 3
+    _Getnewposition:
+    - 0
+    - 1
+    _BattlePopUpIcon:
+    _IsFloat: 0
+    _PvpReleaseIcon:
+    - GameObjs/Robote/UAV002/uav002_skill_blue
+    - GameObjs/Robote/UAV002/uav002_skill_red
+    _PvpNormalIcon:
+    - GameObjs/Robote/UAV002/uav002_blue
+    - GameObjs/Robote/UAV002/uav002_red
+  - _Id: 1003
+    _Note:
+    _IsSkin: 0
+    _SkinRank: 0
+    _Name: 29015
+    _Desc: 29106
+    _UnlockCost: []
+    _RobotSkinUIIcon:
+    _SameItem: 0
+    _RobotBody: 1003
+    _Path: PrefabsN/Robot/MagicCrystal
+    _Unionid: 1003
+    _Uipath: PrefabsN/RobotUI/MagicCrystal_ui
+    _UiPathRT: PrefabsN/RobotUI/MagicCrystal_ui_rt
+    _Getnewscale: 1
+    _Getnewposition:
+    - 0
+    - 0.6
+    _BattlePopUpIcon:
+    _IsFloat: 0
+    _PvpReleaseIcon:
+    - GameObjs/Robote/Magiccrystal/magiccrystal_skill_blue
+    - GameObjs/Robote/Magiccrystal/magiccrystal_skill_red
+    _PvpNormalIcon:
+    - GameObjs/Robote/Magiccrystal/magiccrystal_blue
+    - GameObjs/Robote/Magiccrystal/magiccrystal_red
+  - _Id: 1004
+    _Note:
+    _IsSkin: 0
+    _SkinRank: 0
+    _Name: 29018
+    _Desc: 29108
+    _UnlockCost: []
+    _RobotSkinUIIcon:
+    _SameItem: 0
+    _RobotBody: 1004
+    _Path: PrefabsN/Robot/Robot
+    _Unionid: 1004
+    _Uipath: PrefabsN/RobotUI/Robot_ui
+    _UiPathRT: PrefabsN/RobotUI/Robot_ui_rt
+    _Getnewscale: 1
+    _Getnewposition:
+    - 0
+    - -0.4
+    _BattlePopUpIcon:
+    _IsFloat: 1
+    _PvpReleaseIcon:
+    - GameObjs/Robote/Robot/robot_skill_blue
+    - GameObjs/Robote/Robot/robot_skill_red
+    _PvpNormalIcon:
+    - GameObjs/Robote/Robot/robot_blue
+    - GameObjs/Robote/Robot/robot_red
+  - _Id: 1005
+    _Note:
+    _IsSkin: 0
+    _SkinRank: 0
+    _Name: 29019
+    _Desc: 29121
+    _UnlockCost: []
+    _RobotSkinUIIcon:
+    _SameItem: 0
+    _RobotBody: 1005
+    _Path: PrefabsN/Robot/Destroy
+    _Unionid: 1005
+    _Uipath: PrefabsN/RobotUI/Destroy_ui
+    _UiPathRT: PrefabsN/RobotUI/Destroy_ui_rt
+    _Getnewscale: 2.5
+    _Getnewposition:
+    - -0.3
+    - 0.7
+    _BattlePopUpIcon: UI/Icon/Pet/bt_30006
+    _IsFloat: 0
+    _PvpReleaseIcon:
+    - GameObjs/Robote/Destroy/destroy_skill_blue
+    - GameObjs/Robote/Destroy/destroy_skill_red
+    _PvpNormalIcon:
+    - GameObjs/Robote/Destroy/destroy_blue
+    - GameObjs/Robote/Destroy/destroy_red
+  - _Id: 1007
+    _Note:
+    _IsSkin: 0
+    _SkinRank: 0
+    _Name: 29017
+    _Desc: 29105
+    _UnlockCost: []
+    _RobotSkinUIIcon:
+    _SameItem: 0
+    _RobotBody: 1007
+    _Path: PrefabsN/Robot/Knapsack
+    _Unionid: 1007
+    _Uipath: PrefabsN/RobotUI/Knapsack_ui
+    _UiPathRT: PrefabsN/RobotUI/Knapsack_ui_rt
+    _Getnewscale: 3
+    _Getnewposition:
+    - 0
+    - -0.2
+    _BattlePopUpIcon:
+    _IsFloat: 0
+    _PvpReleaseIcon:
+    - GameObjs/Robote/Magiccrystal/knapsack_skill_blue
+    - GameObjs/Robote/Magiccrystal/knapsack_skill_red
+    _PvpNormalIcon:
+    - GameObjs/Robote/knapsack/knapsack_blue
+    - GameObjs/Robote/knapsack/knapsack_red
+  - _Id: 1008
+    _Note:
+    _IsSkin: 0
+    _SkinRank: 0
+    _Name: 29014
+    _Desc: 29104
+    _UnlockCost: []
+    _RobotSkinUIIcon:
+    _SameItem: 0
+    _RobotBody: 1008
+    _Path: PrefabsN/Robot/UAV
+    _Unionid: 1008
+    _Uipath: PrefabsN/RobotUI/UAV_ui
+    _UiPathRT: PrefabsN/RobotUI/UAV_ui_rt
+    _Getnewscale: 1.8
+    _Getnewposition:
+    - 0
+    - 0.6
+    _BattlePopUpIcon:
+    _IsFloat: 0
+    _PvpReleaseIcon:
+    - GameObjs/Robote/UAV/uav_skill_blue
+    - GameObjs/Robote/UAV/uav_skill_red
+    _PvpNormalIcon:
+    - GameObjs/Robote/UAV/uav_blue
+    - GameObjs/Robote/UAV/uav_red
+  - _Id: 1009
+    _Note:
+    _IsSkin: 0
+    _SkinRank: 0
+    _Name: 29092
+    _Desc: 29094
+    _UnlockCost: []
+    _RobotSkinUIIcon:
+    _SameItem: 0
+    _RobotBody: 1009
+    _Path: PrefabsN/Robot/WingsOfSalvation
+    _Unionid: 1009
+    _Uipath: PrefabsN/RobotUI/WingsOfSalvation_ui
+    _UiPathRT: PrefabsN/RobotUI/WingsOfSalvation_ui_rt
+    _Getnewscale: 0.8
+    _Getnewposition:
+    - -0.2
+    - -1.2
+    _BattlePopUpIcon:
+    _IsFloat: 1
+    _PvpReleaseIcon:
+    - GameObjs/Robote/Wingsofsalvation/wingsofsalvation_skill_blue
+    - GameObjs/Robote/Wingsofsalvation/wingsofsalvation_skill_red
+    _PvpNormalIcon:
+    - GameObjs/Robote/Wingsofsalvation/wingsofsalvation_blue
+    - GameObjs/Robote/Wingsofsalvation/wingsofsalvation_red
+  - _Id: 1010
+    _Note:
+    _IsSkin: 0
+    _SkinRank: 0
+    _Name: 29097
+    _Desc: 29100
+    _UnlockCost: []
+    _RobotSkinUIIcon:
+    _SameItem: 0
+    _RobotBody: 1010
+    _Path: PrefabsN/Robot/Phenix
+    _Unionid: 1010
+    _Uipath: PrefabsN/RobotUI/Phenix_ui
+    _UiPathRT: PrefabsN/RobotUI/Phenix_ui_rt
+    _Getnewscale: 1.8
+    _Getnewposition:
+    - 0
+    - 0.3
+    _BattlePopUpIcon: UI/Icon/Pet/bt_30008
+    _IsFloat: 0
+    _PvpReleaseIcon:
+    - GameObjs/Robote/Phenix/phenix_skill_blue
+    - GameObjs/Robote/Phenix/phenix_skill_red
+    _PvpNormalIcon:
+    - GameObjs/Robote/Phenix/phenix_blue
+    - GameObjs/Robote/Phenix/phenix_red
+  - _Id: 1011
+    _Note:
+    _IsSkin: 0
+    _SkinRank: 0
+    _Name: 29178
+    _Desc: 29181
+    _UnlockCost: []
+    _RobotSkinUIIcon:
+    _SameItem: 0
+    _RobotBody: 1011
+    _Path: PrefabsN/Robot/wugui
+    _Unionid: 1011
+    _Uipath: PrefabsN/RobotUI/wugui_ui
+    _UiPathRT: PrefabsN/RobotUI/wugui_ui_rt
+    _Getnewscale: 2.1
+    _Getnewposition:
+    - 0
+    - 0.7
+    _BattlePopUpIcon: UI/Icon/Pet/bt_30009
+    _IsFloat: 1
+    _PvpReleaseIcon:
+    - GameObjs/Robote/wugui/wugui_skill_blue
+    - GameObjs/Robote/wugui/wugui_skill_red
+    _PvpNormalIcon:
+    - GameObjs/Robote/wugui/wugui_blue
+    - GameObjs/Robote/wugui/wugui_red
+  - _Id: 1012
+    _Note:
+    _IsSkin: 0
+    _SkinRank: 0
+    _Name: 29192
+    _Desc: 29195
+    _UnlockCost: []
+    _RobotSkinUIIcon:
+    _SameItem: 0
+    _RobotBody: 1012
+    _Path: PrefabsN/Robot/Zaiezhifeng
+    _Unionid: 1012
+    _Uipath: PrefabsN/RobotUI/Zaiezhifeng_ui
+    _UiPathRT: PrefabsN/RobotUI/Zaiezhifeng_ui_rt
+    _Getnewscale: 1.5
+    _Getnewposition:
+    - 0
+    - 0.4
+    _BattlePopUpIcon:
+    _IsFloat: 1
+    _PvpReleaseIcon:
+    - GameObjs/Robote/Zaiezhifeng/zaiezhifeng_skill_blue
+    - GameObjs/Robote/Zaiezhifeng/zaiezhifeng_skill_red
+    _PvpNormalIcon:
+    - GameObjs/Robote/Zaiezhifeng/zaiezhifeng_blue
+    - GameObjs/Robote/Zaiezhifeng/zaiezhifeng_red
+  - _Id: 1013
+    _Note:
+    _IsSkin: 0
+    _SkinRank: 0
+    _Name: 29198
+    _Desc: 29200
+    _UnlockCost: []
+    _RobotSkinUIIcon:
+    _SameItem: 0
+    _RobotBody: 1013
+    _Path: PrefabsN/Robot/Beetle
+    _Unionid: 1013
+    _Uipath: PrefabsN/RobotUI/Beetle_ui
+    _UiPathRT: PrefabsN/RobotUI/Beetle_ui_rt
+    _Getnewscale: 2
+    _Getnewposition:
+    - 0
+    - 0.5
+    _BattlePopUpIcon:
+    _IsFloat: 1
+    _PvpReleaseIcon:
+    - GameObjs/Robote/Beetle/beetle_skill_blue
+    - GameObjs/Robote/Beetle/beetle_skill_red
+    _PvpNormalIcon:
+    - GameObjs/Robote/Beetle/beetle_blue
+    - GameObjs/Robote/Beetle/beetle_red
+  - _Id: 1014
+    _Note:
+    _IsSkin: 0
+    _SkinRank: 0
+    _Name: 29199
+    _Desc: 29201
+    _UnlockCost: []
+    _RobotSkinUIIcon:
+    _SameItem: 0
+    _RobotBody: 1014
+    _Path: PrefabsN/Robot/Dog
+    _Unionid: 1014
+    _Uipath: PrefabsN/RobotUI/Dog_ui
+    _UiPathRT: PrefabsN/RobotUI/Dog_ui_rt
+    _Getnewscale: 2
+    _Getnewposition:
+    - 0
+    - 0.4
+    _BattlePopUpIcon:
+    _IsFloat: 1
+    _PvpReleaseIcon:
+    - GameObjs/Robote/Dog/dog_skill_blue
+    - GameObjs/Robote/Dog/dog_skill_red
+    _PvpNormalIcon:
+    - GameObjs/Robote/Dog/dog_blue
+    - GameObjs/Robote/Dog/dog_red
+  - _Id: 1015
+    _Note:
+    _IsSkin: 0
+    _SkinRank: 0
+    _Name: 29206
+    _Desc: 29207
+    _UnlockCost: []
+    _RobotSkinUIIcon:
+    _SameItem: 0
+    _RobotBody: 1015
+    _Path: PrefabsN/Robot/Youminglingmao
+    _Unionid: 1015
+    _Uipath: PrefabsN/RobotUI/Youminglingmao_ui
+    _UiPathRT: PrefabsN/RobotUI/Youminglingmao_ui_rt
+    _Getnewscale: 2
+    _Getnewposition:
+    - 0
+    - 0.4
+    _BattlePopUpIcon: UI/Icon/Pet/bt_31003
+    _IsFloat: 1
+    _PvpReleaseIcon:
+    - GameObjs/Robote/Youminglingmao/youminglingmao_skill_blue
+    - GameObjs/Robote/Youminglingmao/youminglingmao_skill_red
+    _PvpNormalIcon:
+    - GameObjs/Robote/Youminglingmao/youminglingmao_blue
+    - GameObjs/Robote/Youminglingmao/youminglingmao_red
+  - _Id: 1016
+    _Note:
+    _IsSkin: 0
+    _SkinRank: 0
+    _Name: 29210
+    _Desc: 29211
+    _UnlockCost: []
+    _RobotSkinUIIcon:
+    _SameItem: 0
+    _RobotBody: 1016
+    _Path: PrefabsN/Robot/DragonEgg
+    _Unionid: 2101
+    _Uipath: PrefabsN/RobotUI/Dragon_ui
+    _UiPathRT: PrefabsN/RobotUI/Dragon_ui_rt
+    _Getnewscale: 1.3
+    _Getnewposition:
+    - 0
+    - 0.4
+    _BattlePopUpIcon:
+    _IsFloat: 1
+    _PvpReleaseIcon:
+    - GameObjs/Robote/Dragon/dragon_skill_blue
+    - GameObjs/Robote/Dragon/dragon_skill_red
+    _PvpNormalIcon:
+    - GameObjs/Robote/Dragon/dragon_blue
+    - GameObjs/Robote/Dragon/dragon_red
+  - _Id: 1017
+    _Note:
+    _IsSkin: 0
+    _SkinRank: 0
+    _Name: 29222
+    _Desc: 29223
+    _UnlockCost: []
+    _RobotSkinUIIcon:
+    _SameItem: 0
+    _RobotBody: 1017
+    _Path: PrefabsN/Robot/Qie
+    _Unionid: 1017
+    _Uipath: PrefabsN/RobotUI/Qie_ui
+    _UiPathRT: PrefabsN/RobotUI/Qie_ui_rt
+    _Getnewscale: 2
+    _Getnewposition:
+    - 0
+    - 0.3
+    _BattlePopUpIcon: UI/Icon/Pet/bt_31005
+    _IsFloat: 1
+    _PvpReleaseIcon:
+    - GameObjs/Robote/Qie/qie_skill_blue
+    - GameObjs/Robote/Qie/qie_skill_red
+    _PvpNormalIcon:
+    - GameObjs/Robote/Qie/qie_blue
+    - GameObjs/Robote/Qie/qie_red
+  - _Id: 1018
+    _Note:
+    _IsSkin: 0
+    _SkinRank: 0
+    _Name: 29232
+    _Desc: 29233
+    _UnlockCost: []
+    _RobotSkinUIIcon:
+    _SameItem: 0
+    _RobotBody: 1018
+    _Path: PrefabsN/Robot/Reindeer
+    _Unionid: 1018
+    _Uipath: PrefabsN/RobotUI/Reindeer_ui
+    _UiPathRT: PrefabsN/RobotUI/Reindeer_ui_rt
+    _Getnewscale: 2
+    _Getnewposition:
+    - 0
+    - 0.3
+    _BattlePopUpIcon:
+    _IsFloat: 1
+    _PvpReleaseIcon:
+    - GameObjs/Robote/reindeer/reindeer_skill_blue
+    - GameObjs/Robote/reindeer/reindeer_skill_red
+    _PvpNormalIcon:
+    - GameObjs/Robote/reindeer/reindeer_blue
+    - GameObjs/Robote/reindeer/reindeer_red
+  - _Id: 1019
+    _Note:
+    _IsSkin: 0
+    _SkinRank: 0
+    _Name: 29255
+    _Desc: 29256
+    _UnlockCost: []
+    _RobotSkinUIIcon:
+    _SameItem: 0
+    _RobotBody: 1019
+    _Path: GameObjs/Robote/Gingerbreadman/GingerbreadMan
+    _Unionid: 1019
+    _Uipath: GameObjs/Robote/Gingerbreadman/GingerbreadMan_ui
+    _UiPathRT: GameObjs/Robote/Gingerbreadman/GingerbreadMan_ui_rt
+    _Getnewscale: 2
+    _Getnewposition:
+    - 0
+    - 0.3
+    _BattlePopUpIcon: UI/Icon/Pet/bt_31007
+    _IsFloat: 0
+    _PvpReleaseIcon:
+    - GameObjs/Robote/Gingerbreadman/gingerbreadman_skill_blue
+    - GameObjs/Robote/Gingerbreadman/gingerbreadman_skill_red
+    _PvpNormalIcon:
+    - GameObjs/Robote/Gingerbreadman/gingerbreadman_blue
+    - GameObjs/Robote/Gingerbreadman/gingerbreadman_red
+  - _Id: 1020
+    _Note:
+    _IsSkin: 0
+    _SkinRank: 0
+    _Name: 29261
+    _Desc: 29262
+    _UnlockCost: []
+    _RobotSkinUIIcon:
+    _SameItem: 0
+    _RobotBody: 1020
+    _Path: GameObjs/Robote/TuanTuan/tuantuan
+    _Unionid: 1020
+    _Uipath: GameObjs/Robote/TuanTuan/tuantuan_ui
+    _UiPathRT: GameObjs/Robote/TuanTuan/tuantuan_ui_rt
+    _Getnewscale: 1.5
+    _Getnewposition:
+    - 0
+    - 0.3
+    _BattlePopUpIcon: UI/Icon/Pet/bt_31008
+    _IsFloat: 0
+    _PvpReleaseIcon:
+    - GameObjs/Robote/TuanTuan/tuantuan_skill_blue
+    - GameObjs/Robote/TuanTuan/tuantuan_skill_red
+    _PvpNormalIcon:
+    - GameObjs/Robote/TuanTuan/tuantuan_blue
+    - GameObjs/Robote/TuanTuan/tuantuan_red
+  - _Id: 1021
+    _Note:
+    _IsSkin: 0
+    _SkinRank: 0
+    _Name: 29276
+    _Desc: 29277
+    _UnlockCost: []
+    _RobotSkinUIIcon:
+    _SameItem: 0
+    _RobotBody: 1021
+    _Path: GameObjs/Robote/Yuanyuan/Yuanyuan
+    _Unionid: 1021
+    _Uipath: GameObjs/Robote/Yuanyuan/Yuanyuan_ui
+    _UiPathRT: GameObjs/Robote/Yuanyuan/Yuanyuan_ui_rt
+    _Getnewscale: 1.5
+    _Getnewposition:
+    - 0
+    - 0.3
+    _BattlePopUpIcon: UI/Icon/Pet/bt_31009
+    _IsFloat: 0
+    _PvpReleaseIcon:
+    - GameObjs/Robote/Yuanyuan/yuanyuan_skill_blue
+    - GameObjs/Robote/Yuanyuan/yuanyuan_skill_red
+    _PvpNormalIcon:
+    - GameObjs/Robote/Yuanyuan/yuanyuan_blue
+    - GameObjs/Robote/Yuanyuan/yuanyuan_red
+  - _Id: 1022
+    _Note:
+    _IsSkin: 0
+    _SkinRank: 0
+    _Name: 29283
+    _Desc: 29284
+    _UnlockCost: []
+    _RobotSkinUIIcon:
+    _SameItem: 0
+    _RobotBody: 1022
+    _Path: GameObjs/Robote/LeiShen/LeiShen
+    _Unionid: 1022
+    _Uipath: GameObjs/Robote/LeiShen/LeiShen_ui
+    _UiPathRT: GameObjs/Robote/LeiShen/LeiShen_ui_rt
+    _Getnewscale: 2
+    _Getnewposition:
+    - 0
+    - 0.3
+    _BattlePopUpIcon:
+    _IsFloat: 1
+    _PvpReleaseIcon:
+    - GameObjs/Robote/LeiShen/leishen_skill_blue
+    - GameObjs/Robote/LeiShen/leishen_skill_red
+    _PvpNormalIcon:
+    - GameObjs/Robote/LeiShen/leishen_blue
+    - GameObjs/Robote/LeiShen/leishen_red
+  - _Id: 1023
+    _Note:
+    _IsSkin: 0
+    _SkinRank: 0
+    _Name: 29329
+    _Desc: 29330
+    _UnlockCost: []
+    _RobotSkinUIIcon:
+    _SameItem: 0
+    _RobotBody: 1023
+    _Path: GameObjs/Robote/Radar/Radar
+    _Unionid: 1023
+    _Uipath: GameObjs/Robote/Radar/Radar_ui
+    _UiPathRT: GameObjs/Robote/Radar/Radar_ui_rt
+    _Getnewscale: 2
+    _Getnewposition:
+    - 0
+    - 0.3
+    _BattlePopUpIcon: UI/Icon/Pet/bt_31011
+    _IsFloat: 1
+    _PvpReleaseIcon:
+    - GameObjs/Robote/Radar/radar_skill_blue
+    - GameObjs/Robote/Radar/radar_skill_red
+    _PvpNormalIcon:
+    - GameObjs/Robote/Radar/radar_blue
+    - GameObjs/Robote/Radar/radar_red
+  - _Id: 1024
+    _Note:
+    _IsSkin: 0
+    _SkinRank: 0
+    _Name: 29335
+    _Desc: 29336
+    _UnlockCost: []
+    _RobotSkinUIIcon:
+    _SameItem: 0
+    _RobotBody: 1024
+    _Path: GameObjs/Robote/ManbuXuanfeng/manbuxuanfeng
+    _Unionid: 1024
+    _Uipath: GameObjs/Robote/ManbuXuanfeng/manbuxuanfeng_ui
+    _UiPathRT: GameObjs/Robote/ManbuXuanfeng/manbuxuanfeng_ui_rt
+    _Getnewscale: 2
+    _Getnewposition:
+    - 0
+    - 0.3
+    _BattlePopUpIcon: UI/Icon/Pet/bt_31012
+    _IsFloat: 1
+    _PvpReleaseIcon:
+    - GameObjs/Robote/ManbuXuanfeng/ManbuXuanfeng_skill_blue
+    - GameObjs/Robote/ManbuXuanfeng/ManbuXuanfeng_skill_red
+    _PvpNormalIcon:
+    - GameObjs/Robote/ManbuXuanfeng/ManbuXuanfeng_blue
+    - GameObjs/Robote/ManbuXuanfeng/ManbuXuanfeng_red
+  - _Id: 1025
+    _Note:
+    _IsSkin: 0
+    _SkinRank: 0
+    _Name: 29343
+    _Desc: 29344
+    _UnlockCost: []
+    _RobotSkinUIIcon:
+    _SameItem: 0
+    _RobotBody: 1025
+    _Path: GameObjs/Robote/CaptainHamster/CaptainHamster
+    _Unionid: 1025
+    _Uipath: GameObjs/Robote/CaptainHamster/CaptainHamster_ui
+    _UiPathRT: GameObjs/Robote/CaptainHamster/CaptainHamster_ui_rt
+    _Getnewscale: 2
+    _Getnewposition:
+    - 0
+    - 0.3
+    _BattlePopUpIcon: UI/Icon/Pet/bt_31013
+    _IsFloat: 0
+    _PvpReleaseIcon:
+    - GameObjs/Robote/CaptainHamster/CaptainHamster_skill_blue
+    - GameObjs/Robote/CaptainHamster/CaptainHamster_skill_red
+    _PvpNormalIcon:
+    - GameObjs/Robote/CaptainHamster/CaptainHamster_blue
+    - GameObjs/Robote/CaptainHamster/CaptainHamster_red
+  - _Id: 1026
+    _Note:
+    _IsSkin: 0
+    _SkinRank: 0
+    _Name: 29348
+    _Desc: 29349
+    _UnlockCost: []
+    _RobotSkinUIIcon:
+    _SameItem: 0
+    _RobotBody: 1026
+    _Path: GameObjs/Robote/MotorcyclePi/MotorcyclePi
+    _Unionid: 1026
+    _Uipath: GameObjs/Robote/MotorcyclePi/MotorcyclePi_ui
+    _UiPathRT: GameObjs/Robote/MotorcyclePi/MotorcyclePi_ui_rt
+    _Getnewscale: 2
+    _Getnewposition:
+    - 0
+    - 0.3
+    _BattlePopUpIcon: UI/Icon/Pet/bt_31014
+    _IsFloat: 1
+    _PvpReleaseIcon:
+    - GameObjs/Robote/MotorcyclePi/MotorcyclePi_skill_blue
+    - GameObjs/Robote/MotorcyclePi/MotorcyclePi_skill_red
+    _PvpNormalIcon:
+    - GameObjs/Robote/MotorcyclePi/MotorcyclePi_blue
+    - GameObjs/Robote/MotorcyclePi/MotorcyclePi_red
+  - _Id: 1027
+    _Note:
+    _IsSkin: 0
+    _SkinRank: 0
+    _Name: 29362
+    _Desc: 29363
+    _UnlockCost: []
+    _RobotSkinUIIcon:
+    _SameItem: 0
+    _RobotBody: 1027
+    _Path: GameObjs/Robote/RabbitBand/RabbitBand
+    _Unionid: 1027
+    _Uipath: GameObjs/Robote/RabbitBand/RabbitBand_ui
+    _UiPathRT: GameObjs/Robote/RabbitBand/RabbitBand_ui_rt
+    _Getnewscale: 2
+    _Getnewposition:
+    - 0
+    - 0.3
+    _BattlePopUpIcon: UI/Icon/Pet/bt_31015
+    _IsFloat: 1
+    _PvpReleaseIcon:
+    - GameObjs/Robote/RabbitBand/rabbitband_skill_blue
+    - GameObjs/Robote/RabbitBand/rabbitband_skill_red
+    _PvpNormalIcon:
+    - GameObjs/Robote/RabbitBand/rabbitband_blue
+    - GameObjs/Robote/RabbitBand/rabbitband_red
+  - _Id: 1028
+    _Note:
+    _IsSkin: 0
+    _SkinRank: 0
+    _Name: 29371
+    _Desc: 29372
+    _UnlockCost: []
+    _RobotSkinUIIcon:
+    _SameItem: 0
+    _RobotBody: 1028
+    _Path: GameObjs/Robote/TwinMaid/TwinMaid
+    _Unionid: 1028
+    _Uipath: GameObjs/Robote/TwinMaid/TwinMaid_ui
+    _UiPathRT: GameObjs/Robote/TwinMaid/TwinMaid_ui_rt
+    _Getnewscale: 1
+    _Getnewposition:
+    - 0
+    - 0.3
+    _BattlePopUpIcon:
+    _IsFloat: 0
+    _PvpReleaseIcon:
+    - GameObjs/Robote/TwinMaid/twinmaid_skill_blue
+    - GameObjs/Robote/TwinMaid/twinmaid_skill_red
+    _PvpNormalIcon:
+    - GameObjs/Robote/TwinMaid/twinmaid_blue
+    - GameObjs/Robote/TwinMaid/twinmaid_red
+  - _Id: 1029
+    _Note:
+    _IsSkin: 0
+    _SkinRank: 0
+    _Name: 29378
+    _Desc: 29379
+    _UnlockCost: []
+    _RobotSkinUIIcon:
+    _SameItem: 0
+    _RobotBody: 1029
+    _Path: GameObjs/Robote/Cosmokoi/Cosmokoi
+    _Unionid: 1029
+    _Uipath: GameObjs/Robote/Cosmokoi/Cosmokoi_ui
+    _UiPathRT: GameObjs/Robote/Cosmokoi/Cosmokoi_ui_rt
+    _Getnewscale: 1.2
+    _Getnewposition:
+    - 0
+    - 0.3
+    _BattlePopUpIcon: UI/Icon/Pet/bt_31017
+    _IsFloat: 1
+    _PvpReleaseIcon:
+    - GameObjs/Robote/Cosmokoi/Cosmokoi_skill_blue
+    - GameObjs/Robote/Cosmokoi/Cosmokoi_skill_red
+    _PvpNormalIcon:
+    - GameObjs/Robote/Cosmokoi/Cosmokoi_blue
+    - GameObjs/Robote/Cosmokoi/Cosmokoi_red
+  - _Id: 1030
+    _Note:
+    _IsSkin: 0
+    _SkinRank: 0
+    _Name: 29383
+    _Desc: 29384
+    _UnlockCost: []
+    _RobotSkinUIIcon:
+    _SameItem: 0
+    _RobotBody: 1030
+    _Path: GameObjs/Robote/VolcanoShip/VolcanoShip
+    _Unionid: 1030
+    _Uipath: GameObjs/Robote/VolcanoShip/VolcanoShip_ui
+    _UiPathRT: GameObjs/Robote/VolcanoShip/VolcanoShip_ui_rt
+    _Getnewscale: 1
+    _Getnewposition:
+    - 0
+    - 0.3
+    _BattlePopUpIcon:
+    _IsFloat: 1
+    _PvpReleaseIcon:
+    - GameObjs/Robote/VolcanoShip/VolcanoShip_skill_blue
+    - GameObjs/Robote/VolcanoShip/VolcanoShip_skill_red
+    _PvpNormalIcon:
+    - GameObjs/Robote/VolcanoShip/VolcanoShip_blue
+    - GameObjs/Robote/VolcanoShip/VolcanoShip_red
+  - _Id: 1031
+    _Note:
+    _IsSkin: 0
+    _SkinRank: 0
+    _Name: 29395
+    _Desc: 29396
+    _UnlockCost: []
+    _RobotSkinUIIcon:
+    _SameItem: 0
+    _RobotBody: 1031
+    _Path: GameObjs/Robote/iceSpiderSlayer/iceSpiderSlayer
+    _Unionid: 1031
+    _Uipath: GameObjs/Robote/iceSpiderSlayer/iceSpiderSlayer_ui
+    _UiPathRT: GameObjs/Robote/iceSpiderSlayer/iceSpiderSlayer_ui_rt
+    _Getnewscale: 0.8
+    _Getnewposition:
+    - 0
+    - 0.3
+    _BattlePopUpIcon: UI/Icon/Pet/bt_31019
+    _IsFloat: 1
+    _PvpReleaseIcon:
+    - GameObjs/Robote/iceSpiderSlayer/iceSpiderSlayer_skill_blue
+    - GameObjs/Robote/iceSpiderSlayer/iceSpiderSlayer_skill_red
+    _PvpNormalIcon:
+    - GameObjs/Robote/iceSpiderSlayer/iceSpiderSlayer_blue
+    - GameObjs/Robote/iceSpiderSlayer/iceSpiderSlayer_red
+  - _Id: 410011
+    _Note:
+    _IsSkin: 1
+    _SkinRank: 8
+    _Name: 583001
+    _Desc: 583002
+    _UnlockCost:
+    - 33101
+    - 1
+    _RobotSkinUIIcon: GameObjs/Robote/AllpetSkin/UAV002_Ice/UAV002_Ice_show
+    _SameItem: 33101
+    _RobotBody: 1001
+    _Path: GameObjs/Robote/AllpetSkin/UAV002_Ice/UAV002_Ice
+    _Unionid: 0
+    _Uipath: GameObjs/Robote/AllpetSkin/UAV002_Ice/UAV002_Ice_ui
+    _UiPathRT: GameObjs/Robote/AllpetSkin/UAV002_Ice/UAV002_Ice_ui_rt
+    _Getnewscale: 1
+    _Getnewposition:
+    - 0
+    - 0.3
+    _BattlePopUpIcon:
+    _IsFloat: 0
+    _PvpReleaseIcon:
+    - GameObjs/Robote/AllpetSkin/UAV002_Ice/UAV002_Ice_skill_blue
+    - GameObjs/Robote/AllpetSkin/UAV002_Ice/UAV002_Ice_skill_red
+    _PvpNormalIcon:
+    - GameObjs/Robote/AllpetSkin/UAV002_Ice/UAV002_Ice_blue
+    - GameObjs/Robote/AllpetSkin/UAV002_Ice/UAV002_Ice_red
+  - _Id: 410051
+    _Note:
+    _IsSkin: 1
+    _SkinRank: 13
+    _Name: 582001
+    _Desc: 582002
+    _UnlockCost:
+    - 33002
+    - 1
+    _RobotSkinUIIcon: GameObjs/Robote/AllpetSkin/huimieHX/huimieHX_show
+    _SameItem: 33002
+    _RobotBody: 1005
+    _Path: GameObjs/Robote/AllpetSkin/huimieHX/Destroy_pifu
+    _Unionid: 0
+    _Uipath: GameObjs/Robote/AllpetSkin/huimieHX/Destroy_pifu_ui
+    _UiPathRT: GameObjs/Robote/AllpetSkin/huimieHX/Destroy_pifu_ui_rt
+    _Getnewscale: 2
+    _Getnewposition:
+    - 0
+    - 0.3
+    _BattlePopUpIcon: GameObjs/Robote/AllpetSkin/huimieHX/bt_rs_33002
+    _IsFloat: 0
+    _PvpReleaseIcon:
+    - GameObjs/Robote/AllpetSkin/huimieHX/huimieHX_skill_blue
+    - GameObjs/Robote/AllpetSkin/huimieHX/huimieHX_skill_red
+    _PvpNormalIcon:
+    - GameObjs/Robote/AllpetSkin/huimieHX/huimieHX_blue
+    - GameObjs/Robote/AllpetSkin/huimieHX/huimieHX_red
+  - _Id: 410101
+    _Note:
+    _IsSkin: 1
+    _SkinRank: 13
+    _Name: 581001
+    _Desc: 581002
+    _UnlockCost:
+    - 33001
+    - 1
+    _RobotSkinUIIcon: GameObjs/Robote/AllpetSkin/fenghuangfire/fenghuangfire_show
+    _SameItem: 33001
+    _RobotBody: 1010
+    _Path: GameObjs/Robote/AllpetSkin/fenghuangfire/Phenix_pifu
+    _Unionid: 0
+    _Uipath: GameObjs/Robote/AllpetSkin/fenghuangfire/Phenix_pifu_ui
+    _UiPathRT: GameObjs/Robote/AllpetSkin/fenghuangfire/Phenix_pifu_ui_rt
+    _Getnewscale: 2
+    _Getnewposition:
+    - 0
+    - 0.3
+    _BattlePopUpIcon: GameObjs/Robote/AllpetSkin/fenghuangfire/bt_rs_33001
+    _IsFloat: 0
+    _PvpReleaseIcon:
+    - GameObjs/Robote/AllpetSkin/fenghuangfire/fenghuangfire_skill_blue
+    - GameObjs/Robote/AllpetSkin/fenghuangfire/fenghuangfire_skill_red
+    _PvpNormalIcon:
+    - GameObjs/Robote/AllpetSkin/fenghuangfire/fenghuangfire_blue
+    - GameObjs/Robote/AllpetSkin/fenghuangfire/fenghuangfire_red
+  - _Id: 410161
+    _Note:
+    _IsSkin: 1
+    _SkinRank: 13
+    _Name: 580401
+    _Desc: 580402
+    _UnlockCost:
+    - 33003
+    - 1
+    _RobotSkinUIIcon: GameObjs/Robote/AllpetSkin/bigicedragon/bigicedragon_show
+    _SameItem: 33003
+    _RobotBody: 1016
+    _Path: GameObjs/Robote/AllpetSkin/bigicedragon/bigicedragon
+    _Unionid: 0
+    _Uipath: GameObjs/Robote/AllpetSkin/bigicedragon/bigicedragon_ui
+    _UiPathRT: GameObjs/Robote/AllpetSkin/bigicedragon/bigicedragon_ui_rt
+    _Getnewscale: 1
+    _Getnewposition:
+    - 0
+    - 0.4
+    _BattlePopUpIcon: GameObjs/Robote/AllpetSkin/bigicedragon/bt_rs_33003
+    _IsFloat: 0
+    _PvpReleaseIcon:
+    - GameObjs/Robote/AllpetSkin/bigicedragon/bigicedragon_skill_blue
+    - GameObjs/Robote/AllpetSkin/bigicedragon/bigicedragon_skill_red
+    _PvpNormalIcon:
+    - GameObjs/Robote/AllpetSkin/bigicedragon/bigicedragon_blue
+    - GameObjs/Robote/AllpetSkin/bigicedragon/bigicedragon_red
